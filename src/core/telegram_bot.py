@@ -2,7 +2,7 @@ import logging
 from typing import Dict, Any, Optional
 
 from telegram import Update, Bot
-from telegram.ext import Application, CommandHandler, ContextTypes
+from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
 from telegram.constants import ParseMode
 from telegram.error import TelegramError
 
@@ -85,8 +85,12 @@ class TelegramBot:
             return user_id in [admin.user.id for admin in chat_admins]
         except TelegramError: return False
 
+    # --- *** تغییر جدید: اشتراک خودکار در زمان استارت *** ---
     async def _start_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
-        await update.message.reply_text("سلام! من ربات گیم رایگان هستم.\nبرای مشاهده لیست دستورات /help را ارسال کنید.")
+        chat_id = update.message.chat_id
+        await update.message.reply_text("سلام! من ربات گیم رایگان هستم. شما به طور خودکار برای دریافت تمام اعلان‌ها مشترک شدید.\nبرای مشاهده لیست کامل دستورات /help را ارسال کنید.")
+        # اشتراک خودکار برای همه فروشگاه‌ها
+        self.db.add_subscription(chat_id, thread_id=None, store='all')
 
     async def _help_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         help_text = (
@@ -135,13 +139,37 @@ class TelegramBot:
         else:
             await update.message.reply_text("اشتراکی برای لغو یافت نشد.")
 
+    # --- *** قابلیت جدید: اشتراک خودکار هنگام اضافه شدن به گروه *** ---
+    async def _on_new_chat_member(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        """وقتی ربات به یک گروه جدید اضافه می‌شود، آن را مشترک می‌کند."""
+        # بررسی اینکه آیا عضو جدید، خود ربات است یا نه
+        bot_id = self.bot.id
+        for member in update.message.new_chat_members:
+            if member.id == bot_id:
+                chat_id = update.message.chat_id
+                logging.info(f"ربات به گروه جدیدی با شناسه {chat_id} اضافه شد.")
+                # اشتراک خودکار گروه برای همه فروشگاه‌ها
+                self.db.add_subscription(chat_id, thread_id=None, store='all')
+                # ارسال پیام خوشامدگویی
+                await self.bot.send_message(
+                    chat_id,
+                    "سلام! ممنون که من را به این گروه اضافه کردید.\n"
+                    "این گروه به طور خودکار برای دریافت اعلان تمام بازی‌های رایگان مشترک شد.\n"
+                    "ادمین‌ها می‌توانند با دستور /help اشتراک‌ها را مدیریت کنند."
+                )
+                break
+
     def _register_handlers(self):
+        """تمام کنترل‌کننده‌ها را ثبت می‌کند."""
         self.application.add_handler(CommandHandler("start", self._start_command))
         self.application.add_handler(CommandHandler("help", self._help_command))
         self.application.add_handler(CommandHandler("subscribe", self._subscribe_command))
         self.application.add_handler(CommandHandler("unsubscribe", self._unsubscribe_command))
+        # ثبت کنترل‌کننده جدید برای اعضای جدید چت
+        self.application.add_handler(MessageHandler(filters.StatusUpdate.NEW_CHAT_MEMBERS, self._on_new_chat_member))
 
     async def process_pending_updates(self):
+        """تمام آپدیت‌های معلق را پردازش می‌کند."""
         await self.application.initialize()
         updates = await self.bot.get_updates(timeout=10)
         if not updates:
