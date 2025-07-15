@@ -92,11 +92,11 @@ class TelegramBot:
             return False
 
     async def _start_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
-        await update.message.reply_text("سلام! من ربات GameBeacon هستم.\nبرای مشاهده لیست دستورات /help را ارسال کنید.")
+        await update.message.reply_text("سلام! من ربات گیم رایگان هستم.\nبرای مشاهده لیست دستورات /help را ارسال کنید.")
 
     async def _help_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         help_text = (
-            "راهنمای دستورات ربات GameBeacon:\n\n"
+            "راهنمای دستورات ربات گیم رایگان:\n\n"
             "🔹 `/subscribe [store_name]`\n"
             "برای ثبت‌نام این چت (یا تاپیک) جهت دریافت اعلان‌های یک فروشگاه خاص. مثال:\n"
             "`/subscribe epic games`\n"
@@ -148,13 +148,25 @@ class TelegramBot:
         self.application.add_handler(CommandHandler("unsubscribe", self._unsubscribe_command))
 
     async def process_pending_updates(self):
+        """
+        تمام آپدیت‌های (دستورات) جدید را از تلگرام دریافت کرده و پردازش می‌کند.
+        """
+        # --- *** تغییر جدید: مقداردهی اولیه و خاموش کردن اپلیکیشن *** ---
+        await self.application.initialize()
+        
         updates = await self.bot.get_updates(timeout=10)
         if not updates:
             logging.info("هیچ دستور جدیدی برای پردازش یافت نشد.")
+            await self.application.shutdown() # خاموش کردن اپلیکیشن
             return
+
         logging.info(f"{len(updates)} دستور جدید برای پردازش یافت شد.")
+        
         for update in updates:
             await self.application.process_update(update)
+        
         if updates:
             last_update_id = updates[-1].update_id
             await self.bot.get_updates(offset=last_update_id + 1)
+            
+        await self.application.shutdown() # خاموش کردن اپلیکیشن پس از پردازش
