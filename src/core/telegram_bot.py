@@ -27,6 +27,8 @@ class TelegramBot:
 
     @staticmethod
     def _escape_markdown_v2(text: str) -> str:
+        if not isinstance(text, str):
+            return ""
         escape_chars = r'_*[]()~`>#+-=|{}.!'
         return "".join(f'\\{char}' if char in escape_chars else char for char in text)
 
@@ -151,13 +153,12 @@ class TelegramBot:
         """
         تمام آپدیت‌های (دستورات) جدید را از تلگرام دریافت کرده و پردازش می‌کند.
         """
-        # --- *** تغییر جدید: مقداردهی اولیه و خاموش کردن اپلیکیشن *** ---
         await self.application.initialize()
         
         updates = await self.bot.get_updates(timeout=10)
         if not updates:
             logging.info("هیچ دستور جدیدی برای پردازش یافت نشد.")
-            await self.application.shutdown() # خاموش کردن اپلیکیشن
+            await self.application.shutdown()
             return
 
         logging.info(f"{len(updates)} دستور جدید برای پردازش یافت شد.")
@@ -169,4 +170,4 @@ class TelegramBot:
             last_update_id = updates[-1].update_id
             await self.bot.get_updates(offset=last_update_id + 1)
             
-        await self.application.shutdown() # خاموش کردن اپلیکیشن پس از پردازش
+        await self.application.shutdown()

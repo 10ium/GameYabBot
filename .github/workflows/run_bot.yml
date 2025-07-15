@@ -1,5 +1,5 @@
 # نام گردش کار که در تب Actions گیت‌هاب نمایش داده می‌شود
-name: Rayegan Game Bot Notifier
+name: Rayegan Game Bot Runner
 
 on:
   # اجرای زمان‌بندی شده با استفاده از سینتکس cron
@@ -32,22 +32,24 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      # *** تغییر جدید: اضافه کردن تاخیر ۵ دقیقه‌ای ***
+      # این مرحله به شما فرصت می‌دهد تا تنظیمات اولیه را از طریق دستورات در تلگرام انجام دهید.
+      - name: Wait for 5 minutes for manual configuration
+        run: echo "Waiting for 5 minutes (300 seconds) to allow for bot configuration..." && sleep 300
+
       # مرحله ۴: اجرای اسکریپت اصلی ربات
       - name: Run the bot script
-        # در اینجا متغیرهای محیطی را با استفاده از سکرت‌های گیت‌هاب مقداردهی می‌کنیم
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: python src/main.py
 
       # مرحله ۵: کامیت کردن فایل پایگاه داده به‌روز شده
-      # این مرحله حیاتی است تا ربات "حافظه" خود را برای اجرای بعدی حفظ کند
       - name: Commit database changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: Update games database"
-          # فقط فایل پایگاه داده را کامیت کن
           file_pattern: data/games.db
-          # اطلاعات نویسنده کامیت که به نام ربات خواهد بود
-          commit_user_name: GameBeacon Bot
+          # اطلاعات نویسنده کامیت که با نام جدید ربات هماهنگ شده است
+          commit_user_name: Rayegan Game Bot
           commit_user_email: actions@github.com
-          commit_author: GameBeacon Bot <actions@github.com>
+          commit_author: Rayegan Game Bot <actions@github.com>
