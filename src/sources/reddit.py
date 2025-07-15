@@ -1,8 +1,9 @@
 import logging
 import aiohttp
 from typing import List, Dict, Any, Optional
-import xml.etree.ElementTree as ET # کتابخانه استاندارد پایتون برای کار با XML
+import xml.etree.ElementTree as ET
 import re
+from bs4 import BeautifulSoup
 
 # تنظیمات اولیه لاگ‌گیری
 logging.basicConfig(
@@ -13,10 +14,9 @@ logging.basicConfig(
 class RedditSource:
     """
     کلاسی برای دریافت بازی‌های رایگان از طریق فید RSS ردیت.
-    این نسخه نیازی به کلید API ندارد.
+    این نسخه نیازی به کلید API ندارد و لینک‌ها را به درستی استخراج می‌کند.
     """
     def __init__(self):
-        # لیست ساب‌ردیت‌هایی که باید بررسی شوند. برای هر کدام، آدرس فید RSS را می‌سازیم.
         subreddits = [
             'GameDeals',
             'FreeGameFindings',
@@ -24,36 +24,35 @@ class RedditSource:
             'AppHookup'
         ]
         self.rss_urls = [f"https://www.reddit.com/r/{sub}/new/.rss" for sub in subreddits]
-        logging.info("نمونه RedditSource (نسخه RSS) با موفقیت ایجاد شد.")
+        logging.info("نمونه RedditSource (نسخه RSS اصلاح شده) با موفقیت ایجاد شد.")
 
     def _normalize_post_data(self, entry: ET.Element) -> Optional[Dict[str, str]]:
         """
         یک تابع کمکی برای تبدیل داده‌های یک آیتم RSS به فرمت استاندارد پروژه.
-
-        Args:
-            entry (ET.Element): یک آیتم <entry> از فید RSS.
-
-        Returns:
-            Optional[Dict[str, str]]: دیکشنری نرمال‌شده یا None اگر پست معتبر نباشد.
+        این نسخه محتوای HTML را برای یافتن لینک اصلی تجزیه می‌کند.
         """
         try:
-            # در فید RSS ردیت، تگ‌ها دارای یک پیشوند (namespace) هستند
             ns = {'atom': 'http://www.w3.org/2005/Atom'}
             title_element = entry.find('atom:title', ns)
-            link_element = entry.find('atom:link', ns)
+            content_element = entry.find('atom:content', ns)
             id_element = entry.find('atom:id', ns)
 
-            if title_element is None or link_element is None or id_element is None:
+            if title_element is None or content_element is None or id_element is None:
                 return None
 
             title = title_element.text
-            url = link_element.attrib.get('href', '#')
             post_id = id_element.text
-
-            # اگر URL به خود ردیت لینک شده باشد، آن را نادیده می‌گیریم
-            if 'reddit.com/r/' in url:
-                return None
             
+            # --- *** بخش کلیدی اصلاح شده *** ---
+            # محتوای HTML را با BeautifulSoup تجزیه می‌کنیم تا لینک اصلی را پیدا کنیم
+            soup = BeautifulSoup(content_element.text, 'html.parser')
+            link_tag = soup.find('a', string='[link]') # به دنبال تگ <a> با متن '[link]' می‌گردیم
+            if not link_tag or 'href' not in link_tag.attrs:
+                return None # اگر لینک اصلی پیدا نشد، پست را نادیده می‌گیریم
+            
+            url = link_tag['href']
+
+            # استخراج نام فروشگاه و تمیز کردن عنوان
             store_match = re.search(r'\[([^\]]+)\]', title)
             store = store_match.group(1).strip() if store_match else 'نامشخص'
             clean_title = re.sub(r'\[[^\]]+\]', '', title).strip()
@@ -62,7 +61,7 @@ class RedditSource:
                 "title": clean_title,
                 "store": store,
                 "url": url,
-                "id_in_db": post_id # شناسه پست بهترین شناسه منحصر به فرد است
+                "id_in_db": post_id
             }
         except Exception as e:
             logging.error(f"خطا در نرمال‌سازی پست RSS ردیت: {e}")
@@ -80,8 +79,13 @@ class RedditSource:
             for url in self.rss_urls:
                 logging.info(f"در حال اسکن فید RSS: {url}...")
                 async with aiohttp.ClientSession() as session:
-                    async with session.get(url, headers={'User-agent': 'your bot 0.1'}) as response:
-                        response.raise_for_status()
+                    # اضافه کردن هدر User-Agent برای جلوگیری از خطای 429 (Too Many Requests)
+                    headers = {'User-agent': 'GameBeaconBot/1.0'}
+                    async with session.get(url, headers=headers) as response:
+                        if response.status != 200:
+                            logging.error(f"خطا در دریافت فید {url}: Status {response.status}")
+                            continue # به سراغ فید بعدی می‌رویم
+                        
                         rss_content = await response.text()
                         root = ET.fromstring(rss_content)
                         

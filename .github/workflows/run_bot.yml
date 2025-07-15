@@ -1,5 +1,5 @@
 # نام گردش کار که در تب Actions گیت‌هاب نمایش داده می‌شود
-name: GameBeacon Bot Runner
+name: Rayegan Game Bot Notifier
 
 on:
   # اجرای زمان‌بندی شده با استفاده از سینتکس cron
