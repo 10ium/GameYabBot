@@ -162,17 +162,15 @@ class TelegramBot:
         logger.info(f"دستور /help از کاربر {user_id} در chat_id={chat_id} دریافت شد.")
         help_text = (
             "راهنمای دستورات ربات گیم رایگان:\n\n"
-            "🔹 `/subscribe [store_name]`\n"
-            "برای ثبت‌نام این چت (یا تاپیک) جهت دریافت اعلان‌های یک فروشگاه خاص. مثال:\n"
+            "🔹 `/subscribe [store_name]` برای ثبت‌نام این چت (یا تاپیک) جهت دریافت اعلان‌های یک فروشگاه خاص. مثال:\n"
             "`/subscribe epic games`\n"
             "`/subscribe all` (برای دریافت همه اعلان‌ها)\n\n"
-            "🔸 `/unsubscribe [store_name]`\n"
-            "برای لغو اشتراک. مثال:\n"
+            "🔸 `/unsubscribe [store_name]` برای لغو اشتراک. مثال:\n"
             "`/unsubscribe steam`\n\n"
             f"فروشگاه‌های معتبر: `{', '.join(VALID_STORES)}`\n\n"
             "توجه: فقط ادمین‌های گروه یا کانال می‌توانند از این دستورات استفاده کنند."
         )
-        await update.message.reply_text(help_text, parse_mode=ParseMode.MARKDOWN_V2) # اضافه کردن parse_mode
+        await update.message.reply_text(help_text, parse_mode=ParseMode.MARKDOWN_V2) 
 
     async def _subscribe_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         """
