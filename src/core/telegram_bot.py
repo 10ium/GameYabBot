@@ -19,9 +19,13 @@ class TelegramBot:
     def __init__(self, token: str, db: Database):
         if not token:
             raise ValueError("توکن تلگرام ارائه نشده است.")
-        # ساخت Application به جای Bot به تنهایی
-        self.application = Application.builder().token(token).build()
-        self.bot = self.application.bot # دسترسی به شیء Bot از طریق اپلیکیشن
+        
+        # --- *** تغییر کلیدی برای حل مشکل اتصال *** ---
+        # ابتدا یک شیء Bot پایدار می‌سازیم
+        self.bot = Bot(token)
+        # سپس اپلیکیشن را با استفاده از همان شیء Bot می‌سازیم
+        self.application = Application.builder().bot(self.bot).build()
+        
         self.db = db
         self._register_handlers()
         logging.info("نمونه ربات تلگرام و کنترل‌کننده‌های دستورات با موفقیت ایجاد شدند.")

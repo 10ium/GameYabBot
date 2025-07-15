@@ -21,17 +21,12 @@ class EpicGamesSource:
     }
 
     def _normalize_game_data(self, game_data: Dict[str, Any]) -> Optional[Dict[str, str]]:
-        """
-        یک تابع کمکی برای تبدیل داده‌های خام از JSON به فرمت استاندارد پروژه.
-        """
         try:
             title = game_data.get('title', 'بدون عنوان')
             description = game_data.get('description', 'توضیحات موجود نیست.')
             
-            # پیدا کردن اسلاگ صحیح برای ساخت URL
             product_slug = game_data.get('productSlug') or game_data.get('urlSlug')
             if not product_slug:
-                # گاهی اسلاگ در یک فیلد دیگر است
                 for mapping in game_data.get('catalogNs', {}).get('mappings', []):
                     if mapping.get('pageType') == 'productHome':
                         product_slug = mapping.get('pageSlug')
@@ -48,29 +43,19 @@ class EpicGamesSource:
                     image_url = img.get('url')
                     break
             
-            # شناسه منحصر به فرد برای دیتابیس
             game_id = game_data.get('id')
 
             return {
-                "title": title,
-                "store": "Epic Games",
-                "url": url,
-                "image_url": image_url,
-                "description": description,
-                "id_in_db": f"epic_{game_id}"
+                "title": title, "store": "Epic Games", "url": url,
+                "image_url": image_url, "description": description, "id_in_db": f"epic_{game_id}"
             }
         except Exception as e:
             logging.error(f"خطا در نرمال‌سازی داده‌های اپیک گیمز: {e}")
             return None
 
     async def fetch_free_games(self) -> List[Dict[str, str]]:
-        """
-        صفحه بازی‌های رایگان اپیک گیمز را خوانده، داده‌های JSON اولیه را استخراج کرده
-        و لیست بازی‌های رایگان را برمی‌گرداند.
-        """
         logging.info("شروع فرآیند دریافت بازی‌های رایگان از Epic Games (روش استخراج JSON)...")
         free_games_list = []
-        
         try:
             async with aiohttp.ClientSession(headers=self.HEADERS) as session:
                 async with session.get(self.PAGE_URL) as response:
@@ -78,7 +63,6 @@ class EpicGamesSource:
                     html_content = await response.text()
 
             soup = BeautifulSoup(html_content, 'html.parser')
-            # پیدا کردن تگ اسکریپت که حاوی داده‌های اولیه صفحه است
             next_data_script = soup.find('script', {'id': '__NEXT_DATA__'})
             
             if not next_data_script:
@@ -86,18 +70,16 @@ class EpicGamesSource:
                 return []
 
             page_data = json.loads(next_data_script.string)
+            games_data = page_data.get('props', {}).get('pageProps', {}).get('data', {}).get('Catalog', {}).get('searchStore', {}).get('elements', [])
+            if not games_data: # مسیر جایگزین در ساختار JSON
+                 games_data = page_data.get('props', {}).get('pageProps', {}).get('games', {}).get('elements', [])
             
-            # مسیردهی در ساختار پیچیده JSON برای رسیدن به لیست بازی‌ها
-            # این مسیر ممکن است در آینده تغییر کند
-            games_data = page_data.get('props', {}).get('pageProps', {}).get('games', {}).get('elements', [])
             now = datetime.now(timezone.utc)
 
             for game in games_data:
                 promotions = game.get('promotions')
-                if not promotions:
-                    continue
+                if not promotions: continue
                 
-                # بررسی هر دو نوع پیشنهاد (فعلی و آینده)
                 current_offers = promotions.get('promotionalOffers', [])
                 upcoming_offers = promotions.get('upcomingPromotionalOffers', [])
                 
@@ -111,24 +93,14 @@ class EpicGamesSource:
                         end_date = datetime.fromisoformat(offer['endDate'].replace('Z', '+00:00'))
 
                         if start_date <= now <= end_date:
-                            # بررسی اینکه قیمت بازی صفر باشد
                             price = game.get('price', {}).get('totalPrice', {}).get('discountPrice', -1)
                             if price == 0:
                                 normalized_game = self._normalize_game_data(game)
                                 if normalized_game and not any(g['id_in_db'] == normalized_game['id_in_db'] for g in free_games_list):
                                     free_games_list.append(normalized_game)
                                     logging.info(f"بازی رایگان از Epic Games یافت شد: {normalized_game['title']}")
-                                    break # برای جلوگیری از اضافه کردن دوباره همان بازی
-                    if game.get('title') in [g['title'] for g in free_games_list]:
-                        break
-
-
-        except aiohttp.ClientError as e:
-            logging.error(f"خطای شبکه هنگام ارتباط با صفحه اپیک گیمز: {e}")
+                                    break
+                    if game.get('title') in [g['title'] for g in free_games_list]: break
         except Exception as e:
             logging.error(f"یک خطای پیش‌بینی نشده در ماژول Epic Games رخ داد: {e}", exc_info=True)
-        
-        if not free_games_list:
-            logging.info("در حال حاضر بازی رایگان فعالی در Epic Games یافت نشد.")
-            
         return free_games_list
