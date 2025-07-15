@@ -1,0 +1,53 @@
+# نام گردش کار که در تب Actions گیت‌هاب نمایش داده می‌شود
+name: GameBeacon Bot Runner
+
+on:
+  # اجرای زمان‌بندی شده با استفاده از سینتکس cron
+  # این مثال هر روز در ساعت 8:00 و 20:00 به وقت جهانی (UTC) اجرا می‌شود
+  schedule:
+    - cron: '0 8,20 * * *'
+  
+  # این گزینه به شما اجازه می‌دهد تا گردش کار را به صورت دستی از طریق رابط کاربری گیت‌هاب اجرا کنید
+  workflow_dispatch:
+
+jobs:
+  run-bot:
+    # استفاده از آخرین نسخه اوبونتو برای اجرای کار
+    runs-on: ubuntu-latest
+
+    steps:
+      # مرحله ۱: دریافت کد منبع از مخزن شما
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # مرحله ۲: راه‌اندازی محیط پایتون
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      # مرحله ۳: نصب کتابخانه‌های مورد نیاز پروژه
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # مرحله ۴: اجرای اسکریپت اصلی ربات
+      - name: Run the bot script
+        # در اینجا متغیرهای محیطی را با استفاده از سکرت‌های گیت‌هاب مقداردهی می‌کنیم
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python src/main.py
+
+      # مرحله ۵: کامیت کردن فایل پایگاه داده به‌روز شده
+      # این مرحله حیاتی است تا ربات "حافظه" خود را برای اجرای بعدی حفظ کند
+      - name: Commit database changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: Update games database"
+          # فقط فایل پایگاه داده را کامیت کن
+          file_pattern: data/games.db
+          # اطلاعات نویسنده کامیت که به نام ربات خواهد بود
+          commit_user_name: GameBeacon Bot
+          commit_user_email: actions@github.com
+          commit_author: GameBeacon Bot <actions@github.com>
