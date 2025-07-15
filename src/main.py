@@ -37,28 +37,13 @@ async def main():
 
     db = Database(db_path="data/games.db")
     bot = TelegramBot(token=TELEGRAM_BOT_TOKEN, db=db)
-    translator = SmartTranslator() # دیگر نیازی به کلید نیست
+    translator = SmartTranslator()
 
-    # --- *** بخش جدید: حالت تعاملی ۵ دقیقه‌ای *** ---
-    try:
-        logging.info("🤖 ربات به مدت ۵ دقیقه در حالت تعاملی برای دریافت دستورات قرار گرفت...")
-        await bot.application.initialize()
-        await bot.application.start()
-        # updater.start_polling() را مستقیما صدا نمی‌زنیم، start() این کار را مدیریت می‌کند
-        
-        # به مدت ۳۰۰ ثانیه (۵ دقیقه) به ربات اجازه می‌دهیم تا دستورات را پردازش کند
-        await asyncio.sleep(300)
-        
-        await bot.application.stop()
-        await bot.application.shutdown()
-        logging.info("⏳ زمان حالت تعاملی به پایان رسید. ادامه فرآیند...")
-    except Exception as e:
-        logging.error(f"خطا در حالت تعاملی ربات: {e}", exc_info=True)
+    # --- مرحله ۱: پردازش دستورات معلق کاربران (روش صحیح و پایدار) ---
+    await bot.process_pending_updates()
 
-
-    # --- بخش اصلی: یافتن و اطلاع‌رسانی بازی‌ها ---
+    # --- مرحله ۲: نمونه‌سازی و جمع‌آوری داده از تمام منابع ---
     logging.info("🎮 شروع فرآیند یافتن بازی‌های رایگان...")
-    
     sources = [
         ITADSource(),
         RedditSource(),
@@ -75,6 +60,7 @@ async def main():
         elif isinstance(result, Exception):
             logging.error(f"خطا در یکی از منابع داده: {result}")
 
+    # --- مرحله ۳: فیلتر کردن بازی‌های تکراری ---
     unique_new_games = []
     processed_urls = set()
     for game in all_games_raw:
@@ -82,8 +68,6 @@ async def main():
         if url and url not in processed_urls:
             if not db.is_game_posted_in_last_30_days(url):
                 unique_new_games.append(game)
-            else:
-                logging.info(f"بازی تکراری (در ۳۰ روز اخیر) یافت شد و نادیده گرفته شد: {game.get('title')}")
             processed_urls.add(url)
 
     if not unique_new_games:
@@ -93,16 +77,18 @@ async def main():
 
     logging.info(f"✅ {len(unique_new_games)} بازی جدید برای پردازش یافت شد.")
 
+    # --- مرحله ۴: غنی‌سازی و ترجمه ---
     enrichers = [SteamEnricher(), MetacriticEnricher()]
     enrich_tasks = [enrich_and_translate_game(game, enrichers, translator) for game in unique_new_games]
     enriched_games = await asyncio.gather(*enrich_tasks)
 
+    # --- مرحله ۵: ارسال پیام‌ها ---
     for game in enriched_games:
         store_name = game.get('store', '').replace(' ', '').lower()
         targets = db.get_targets_for_store(store_name)
         
         if not targets:
-            logging.warning(f"هیچ مشترکی برای فروشگاه '{store_name}' یافت نشد.")
+            logging.warning(f"هیچ مشترکی برای فروشگاه '{store_name}' یافت نشد. از ارسال '{game['title']}' صرف نظر شد.")
             continue
 
         logging.info(f"📤 در حال ارسال پیام برای '{game['title']}' به {len(targets)} مقصد...")
@@ -115,7 +101,6 @@ async def main():
 
     db.close()
     logging.info("🏁 کار ربات با موفقیت به پایان رسید.")
-
 
 if __name__ == "__main__":
     asyncio.run(main())

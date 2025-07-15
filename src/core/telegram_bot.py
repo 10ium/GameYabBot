@@ -16,9 +16,6 @@ logging.basicConfig(
 VALID_STORES = ["epic games", "gog", "steam", "all"]
 
 class TelegramBot:
-    """
-    کلاسی برای مدیریت کامل تعاملات با API ربات تلگرام.
-    """
     def __init__(self, token: str, db: Database):
         if not token:
             raise ValueError("توکن تلگرام ارائه نشده است.")
@@ -28,12 +25,9 @@ class TelegramBot:
         self._register_handlers()
         logging.info("نمونه ربات تلگرام و کنترل‌کننده‌های دستورات با موفقیت ایجاد شدند.")
 
-    # (تمام متدهای دیگر مانند _format_message, send_formatted_message, _start_command و... بدون تغییر باقی می‌مانند)
-    # ... کدهای قبلی را اینجا قرار دهید ...
     @staticmethod
     def _escape_markdown_v2(text: str) -> str:
-        if not isinstance(text, str):
-            return ""
+        if not isinstance(text, str): return ""
         escape_chars = r'_*[]()~`>#+-=|{}.!'
         return "".join(f'\\{char}' if char in escape_chars else char for char in text)
 
@@ -41,14 +35,12 @@ class TelegramBot:
         title = self._escape_markdown_v2(game_data.get('title', 'بدون عنوان'))
         store = self._escape_markdown_v2(game_data.get('store', 'نامشخص'))
         url = game_data.get('url', '')
-
         persian_summary = game_data.get('persian_summary')
         summary_text = ""
         if persian_summary:
             if len(persian_summary) > 400:
                 persian_summary = persian_summary[:400] + "..."
             summary_text = f"\n📝 *خلاصه داستان:*\n_{self._escape_markdown_v2(persian_summary)}_\n"
-
         scores_parts = []
         if game_data.get('metacritic_score'):
             scores_parts.append(f"⭐ *Metacritic:* {game_data['metacritic_score']}/100")
@@ -57,7 +49,6 @@ class TelegramBot:
         scores_text = "\n".join(scores_parts)
         if scores_text:
             scores_text = f"\n📊 *امتیازات:*\n{scores_text}\n"
-
         details_parts = []
         if game_data.get('genres'):
             details_parts.append(f"🔸 *ژانر:* {self._escape_markdown_v2(', '.join(game_data['genres']))}")
@@ -66,7 +57,6 @@ class TelegramBot:
         details_text = "\n".join(details_parts)
         if details_text:
             details_text = f"\n{details_text}\n"
-
         return (
             f"🎮 *{title}* رایگان شد\\!\n\n"
             f"🏪 *فروشگاه:* `{store.upper()}`\n"
@@ -84,7 +74,6 @@ class TelegramBot:
                 await self.bot.send_photo(chat_id=chat_id, photo=image_url, caption=message_text, parse_mode=ParseMode.MARKDOWN_V2, message_thread_id=thread_id)
             else:
                 await self.bot.send_message(chat_id=chat_id, text=message_text, parse_mode=ParseMode.MARKDOWN_V2, disable_web_page_preview=True, message_thread_id=thread_id)
-            logging.info(f"پیام برای '{game_data.get('title')}' به chat_id: {chat_id} ارسال شد.")
         except TelegramError as e:
             logging.error(f"خطای تلگرام هنگام ارسال به {chat_id}: {e.message}")
             raise
@@ -94,9 +83,7 @@ class TelegramBot:
         try:
             chat_admins = await self.bot.get_chat_administrators(chat_id)
             return user_id in [admin.user.id for admin in chat_admins]
-        except TelegramError as e:
-            logging.error(f"امکان بررسی دسترسی ادمین در چت {chat_id} وجود نداشت: {e.message}")
-            return False
+        except TelegramError: return False
 
     async def _start_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("سلام! من ربات گیم رایگان هستم.\nبرای مشاهده لیست دستورات /help را ارسال کنید.")
@@ -154,4 +141,17 @@ class TelegramBot:
         self.application.add_handler(CommandHandler("subscribe", self._subscribe_command))
         self.application.add_handler(CommandHandler("unsubscribe", self._unsubscribe_command))
 
-    # متد process_pending_updates حذف شد چون دیگر به آن نیازی نیست.
+    async def process_pending_updates(self):
+        await self.application.initialize()
+        updates = await self.bot.get_updates(timeout=10)
+        if not updates:
+            logging.info("هیچ دستور جدیدی برای پردازش یافت نشد.")
+            await self.application.shutdown()
+            return
+        logging.info(f"{len(updates)} دستور جدید برای پردازش یافت شد.")
+        for update in updates:
+            await self.application.process_update(update)
+        if updates:
+            last_update_id = updates[-1].update_id
+            await self.bot.get_updates(offset=last_update_id + 1)
+        await self.application.shutdown()
