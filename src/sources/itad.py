@@ -2,8 +2,9 @@ import logging
 import aiohttp
 from typing import List, Dict, Any, Optional
 import xml.etree.ElementTree as ET
-from bs4 import BeautifulSoup # <-- کتابخانه جدید اضافه شد
+from bs4 import BeautifulSoup
 
+# تنظیمات اولیه لاگ‌گیری
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
@@ -11,12 +12,12 @@ logging.basicConfig(
 
 class ITADSource:
     """
-    کلاسی برای دریافت بازی‌های رایگان از طریق فیدهای RSS رسمی سایت IsThereAnyDeal.
-    این نسخه اصلاح شده با ساختار جدید فید (تجزیه تگ description) سازگار است.
+    کلاسی برای دریافت بازی‌های رایگان از طریق فید RSS سفارشی سایت IsThereAnyDeal.
+    این نسخه فقط از فید Deals استفاده می‌کند و Giveaway حذف شده است.
     """
+    # --- *** آدرس سفارشی شما به صورت خودکار جایگزین شد *** ---
     RSS_URLS = [
-        "https://isthereanydeal.com/feeds/US/USD/deals.rss?filter=100", # بازی‌های ۱۰۰٪ رایگان
-        "https://isthereanydeal.com/feeds/US/giveaways.rss"           # بازی‌های هدیه
+        "https://isthereanydeal.com/feeds/US/USD/deals.rss?filter=N4IgDgTglgxgpiAXKAtlAdk9BXANrgGhBQEMAPJABgF8iAXATzAUQG0BGAXWqA%3D%3D"
     ]
     HEADERS = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36'
@@ -25,11 +26,11 @@ class ITADSource:
     def _normalize_game_data(self, item: ET.Element) -> Optional[Dict[str, str]]:
         """
         یک تابع کمکی برای تبدیل داده‌های یک آیتم RSS به فرمت استاندارد پروژه.
-        ---*** این تابع به طور کامل بازنویسی شده است ***---
+        این نسخه محتوای تگ <description> را برای یافتن نام فروشگاه تجزیه می‌کند.
         """
         try:
             title = item.findtext('title', default='بدون عنوان').strip()
-            # لینک اصلی بازی در ITAD را به عنوان لینک پیش‌فرض در نظر می‌گیریم
+            # لینک اصلی بازی در ITAD را به عنوان شناسه یکتا در نظر می‌گیریم
             main_link = item.findtext('link', default='#')
             description_html = item.findtext('description')
 
@@ -51,7 +52,7 @@ class ITADSource:
                 "title": title,
                 "store": store,
                 "url": deal_url,
-                "id_in_db": main_link  # لینک اصلی ITAD بهترین شناسه یکتا است
+                "id_in_db": main_link  # لینک اصلی ITAD بهترین شناسه منحصر به فرد است
             }
         except Exception as e:
             logging.error(f"خطا در نرمال‌سازی آیتم ITAD: {e}")
@@ -59,9 +60,9 @@ class ITADSource:
 
     async def fetch_free_games(self) -> List[Dict[str, str]]:
         """
-        فیدهای RSS سایت ITAD را خوانده و لیست بازی‌های رایگان را استخراج می‌کند.
+        فید RSS سایت ITAD را خوانده و لیست بازی‌های رایگان را استخراج می‌کند.
         """
-        logging.info("شروع فرآیند دریافت بازی‌های رایگان از فیدهای RSS سایت ITAD...")
+        logging.info("شروع فرآیند دریافت بازی‌های رایگان از فید سفارشی ITAD...")
         free_games_list = []
         processed_urls = set()
 
@@ -93,6 +94,6 @@ class ITADSource:
                 logging.error(f"یک خطای پیش‌بینی نشده در ماژول ITAD (RSS) رخ داد: {e}", exc_info=True)
         
         if not free_games_list:
-            logging.info("در حال حاضر بازی رایگان فعالی در فیدهای RSS سایت ITAD یافت نشد.")
+            logging.info("در حال حاضر بازی رایگان فعالی در فید سفارشی ITAD یافت نشد.")
             
         return free_games_list
