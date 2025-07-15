@@ -68,9 +68,99 @@ class RedditSource:
             
             url = link_tag['href']
 
-            # استخراج نام فروشگاه (مانند Steam, Epic Games) و تمیز کردن عنوان
-            store_match = re.search(r'\[([^\]]+)\]', title)
-            store = store_match.group(1).strip() if store_match else 'نامشخص'
+            # --- بهبود استخراج نام فروشگاه ---
+            store = 'other' # مقدار پیش‌فرض
+            
+            # 1. تلاش برای استخراج از براکت در عنوان
+            store_platform_match = re.search(r'\[([^\]]+)\]', title)
+            if store_platform_match:
+                platform_str = store_platform_match.group(1).strip().lower()
+
+                if "steam" in platform_str:
+                    store = "steam"
+                elif "epic games" in platform_str or "epicgames" in platform_str:
+                    store = "epic games"
+                elif "gog" in platform_str:
+                    store = "gog"
+                elif "xbox" in platform_str:
+                    store = "xbox"
+                elif "ps" in platform_str or "playstation" in platform_str:
+                    store = "playstation"
+                elif "nintendo" in platform_str:
+                    store = "nintendo"
+                elif "stove" in platform_str:
+                    store = "stove"
+                elif "indiegala" in platform_str:
+                    store = "indiegala"
+                elif "itch.io" in platform_str or "itchio" in platform_str:
+                    store = "itch.io"
+                elif "android" in platform_str or "googleplay" in platform_str or "google play" in platform_str or "apps" in platform_str:
+                    # اگر در عنوان [Apps] یا [Android] بود، سعی می‌کنیم از URL هم تایید کنیم
+                    if "play.google.com" in url:
+                        store = "google play"
+                    elif "apps.apple.com" in url: # اگرچه برای AppHookup بیشتر iOS است، اما برای اطمینان
+                        store = "ios app store"
+                    else: # اگر URL مشخصی نبود، به عنوان 'other' یا 'apps' عمومی
+                        store = "apps" # یا 'google play' اگر مطمئنید فقط گوگل پلی است
+                elif "ios" in platform_str or "apple" in platform_str:
+                    if "apps.apple.com" in url:
+                        store = "ios app store"
+                    elif "play.google.com" in url: # اگرچه برای AppHookup بیشتر iOS است، اما برای اطمینان
+                        store = "google play"
+                    else:
+                        store = "ios app store" # یا 'apps' عمومی
+                elif "windows" in platform_str or "mac" in platform_str or "linux" in platform_str:
+                    # اگر فقط پلتفرم بود، از URL حدس می‌زنیم
+                    if "store.steampowered.com" in url:
+                        store = "steam"
+                    elif "epicgames.com" in url:
+                        store = "epic games"
+                    elif "gog.com" in url:
+                        store = "gog"
+                    elif "itch.io" in url:
+                        store = "itch.io"
+                    elif "indiegala.com" in url:
+                        store = "indiegala"
+                    else:
+                        store = "other" # اگر پلتفرم بود ولی فروشگاه مشخص نبود
+                elif "multi-platform" in platform_str:
+                    # برای multi-platform، از URL حدس می‌زنیم
+                    if "store.steampowered.com" in url:
+                        store = "steam"
+                    elif "epicgames.com" in url:
+                        store = "epic games"
+                    elif "gog.com" in url:
+                        store = "gog"
+                    elif "play.google.com" in url:
+                        store = "google play"
+                    elif "apps.apple.com" in url:
+                        store = "ios app store"
+                    else:
+                        store = "other" # اگر چند پلتفرمی بود ولی فروشگاه مشخص نبود
+                # اگر هیچ یک از موارد بالا نبود، store همان 'other' باقی می‌ماند
+
+            # 2. اگر هنوز نام فروشگاه عمومی بود، تلاش برای حدس زدن از URL اصلی (اگر از براکت استخراج نشده بود)
+            if store == 'other' or store == 'نامشخص' or store == 'apps': # 'apps' را هم اینجا در نظر می‌گیریم
+                if "play.google.com" in url:
+                    store = "google play"
+                elif "apps.apple.com" in url:
+                    store = "ios app store"
+                elif "store.steampowered.com" in url:
+                    store = "steam"
+                elif "epicgames.com" in url:
+                    store = "epic games"
+                elif "gog.com" in url:
+                    store = "gog"
+                elif "xbox.com" in url:
+                    store = "xbox"
+                elif "itch.io" in url:
+                    store = "itch.io"
+                elif "indiegala.com" in url:
+                    store = "indiegala"
+                elif "onstove.com" in url:
+                    store = "stove"
+            
+            # حذف تمام بخش‌های براکتی از عنوان برای عنوان تمیز
             clean_title = re.sub(r'\[[^\]]+\]', '', title).strip()
 
             return {
@@ -115,17 +205,25 @@ class RedditSource:
 
                 if is_free:
                     # تلاش برای حدس زدن فروشگاه از URL
-                    store = "نامشخص"
+                    store = "other" # Default to 'other' for internal items if not specific
                     if "apps.apple.com" in item_url:
-                        store = "iOS App Store"
+                        store = "ios app store"
                     elif "play.google.com" in item_url:
-                        store = "Google Play Store"
+                        store = "google play"
                     elif "store.steampowered.com" in item_url:
-                        store = "Steam"
+                        store = "steam"
                     elif "epicgames.com" in item_url:
-                        store = "Epic Games"
+                        store = "epic games"
                     elif "gog.com" in item_url:
-                        store = "GOG"
+                        store = "gog"
+                    elif "xbox.com" in item_url:
+                        store = "xbox"
+                    elif "itch.io" in item_url:
+                        store = "itch.io"
+                    elif "indiegala.com" in item_url:
+                        store = "indiegala"
+                    elif "onstove.com" in item_url:
+                        store = "stove"
                     
                     # اطمینان از اینکه عنوان خالی نیست
                     if item_title:
@@ -200,7 +298,7 @@ class RedditSource:
                                 if any(keyword in title_lower for keyword in keywords):
                                     is_free_game = True
                                 
-                                # --- *** قابلیت جدید برای AppHookup: بررسی پست‌های Weekly Deals *** ---
+                                # --- قابلیت جدید برای AppHookup: بررسی پست‌های Weekly Deals ---
                                 if subreddit_name == 'AppHookup' and ("weekly" in title_lower and ("deals post" in title_lower or "app deals post" in title_lower or "game deals post" in title_lower)):
                                     logger.info(f"🔍 پست 'Weekly Deals' از AppHookup شناسایی شد: {title_element.text}. در حال بررسی آیتم‌های داخلی...")
                                     weekly_items = self._parse_apphookup_weekly_deals(content_element.text, post_id)
@@ -208,7 +306,7 @@ class RedditSource:
                                         if item['id_in_db'] not in processed_ids:
                                             free_games_list.append(item)
                                             processed_ids.add(item['id_in_db'])
-                                            logger.info(f"✅ آیتم رایگان از لیست 'Weekly Deals' ({item['subreddit']}) یافت شد: {item['title']}")
+                                            logger.info(f"✅ آیتم رایگان از لیست 'Weekly Deals' ({item['subreddit']}) یافت شد: {item['title']} (فروشگاه: {item['store']})")
                                     # نیازی نیست که پست اصلی Weekly Deals را به عنوان یک "بازی رایگان" در نظر بگیریم،
                                     # زیرا آیتم‌های داخلی آن را جداگانه پردازش می‌کنیم.
                                     continue # به پست بعدی می‌رویم
@@ -226,7 +324,7 @@ class RedditSource:
                                     if normalized_game['title'].strip():
                                         free_games_list.append(normalized_game)
                                         processed_ids.add(normalized_game['id_in_db'])
-                                        logger.info(f"✅ پست بازی رایگان از RSS ردیت ({subreddit_name}) یافت شد: {normalized_game['title']}")
+                                        logger.info(f"✅ پست بازی رایگان از RSS ردیت ({normalized_game['subreddit']}) یافت شد: {normalized_game['title']} (فروشگاه: {normalized_game['store']})")
                                     else:
                                         logger.warning(f"⚠️ پست بازی رایگان با عنوان خالی از RSS ردیت ({subreddit_name}) نادیده گرفته شد. ID: {normalized_game['id_in_db']}")
                                 else:

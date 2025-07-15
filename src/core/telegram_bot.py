@@ -17,7 +17,13 @@ logging.basicConfig(
 # ایجاد یک لاگر خاص برای این ماژول
 logger = logging.getLogger(__name__)
 
-VALID_STORES = ["epic games", "gog", "steam", "all"]
+# لیست فروشگاه‌های معتبر برای اشتراک
+VALID_STORES = [
+    "epic games", "gog", "steam", "all",
+    "xbox", "playstation", "nintendo", "stove",
+    "indiegala", "itch.io", "ios app store", "google play",
+    "other" # برای مواردی که فروشگاه مشخصی ندارند یا از دسته‌بندی‌های عمومی هستند
+]
 
 class TelegramBot:
     def __init__(self, token: str, db: Database):
@@ -42,6 +48,8 @@ class TelegramBot:
         """
         if not isinstance(text, str):
             return ""
+        # لیست کاراکترهایی که در MarkdownV2 رزرو شده‌اند و باید Escape شوند.
+        # پرانتزها نیز برای استفاده در متن عادی باید Escape شوند.
         escape_chars = r'_*[]()~`>#+-=|{}.!'
         return "".join(f'\\{char}' if char in escape_chars else char for char in text)
 
@@ -65,7 +73,7 @@ class TelegramBot:
         if game_data.get('metacritic_score'):
             scores_parts.append(f"⭐ *Metacritic:* {game_data['metacritic_score']}/100")
         if game_data.get('steam_score'):
-            scores_parts.append(f"👍 *Steam:* {game_data['steam_score']}% ({game_data.get('steam_reviews_count', 0)} رای)")
+            scores_parts.append(f"👍 *Steam:* {game_data['steam_score']}% \\({game_data.get('steam_reviews_count', 0)} رای\\)") # Escape parentheses
         
         scores_text = "\n".join(scores_parts)
         if scores_text:
@@ -162,10 +170,10 @@ class TelegramBot:
         logger.info(f"دستور /help از کاربر {user_id} در chat_id={chat_id} دریافت شد.")
         help_text = (
             "راهنمای دستورات ربات گیم رایگان:\n\n"
-            "🔹 `/subscribe [store_name]` برای ثبت‌نام این چت (یا تاپیک) جهت دریافت اعلان‌های یک فروشگاه خاص. مثال:\n"
+            "🔹 `/subscribe \\[store_name\\]` برای ثبت‌نام این چت (یا تاپیک) جهت دریافت اعلان‌های یک فروشگاه خاص\\. مثال:\n" # Escaped [] and ()
             "`/subscribe epic games`\n"
-            "`/subscribe all` (برای دریافت همه اعلان‌ها)\n\n"
-            "🔸 `/unsubscribe [store_name]` برای لغو اشتراک. مثال:\n"
+            "`/subscribe all` \\(برای دریافت همه اعلان‌ها\\)\n\n" # Escaped ()
+            "🔸 `/unsubscribe \\[store_name\\]` برای لغو اشتراک\\. مثال:\n" # Escaped []
             "`/unsubscribe steam`\n\n"
             f"فروشگاه‌های معتبر: `{', '.join(VALID_STORES)}`\n\n"
             "توجه: فقط ادمین‌های گروه یا کانال می‌توانند از این دستورات استفاده کنند."
