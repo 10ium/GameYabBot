@@ -10,15 +10,15 @@ from sources.reddit import RedditSource
 from sources.epic_games import EpicGamesSource
 from enrichment.steam_enricher import SteamEnricher
 from enrichment.metacritic_enricher import MetacriticEnricher
-from translation.translator import SmartTranslator # این ماژول حالا نیازی به کلید ندارد
+from translation.translator import SmartTranslator
 
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 
-# *** فقط به توکن تلگرام نیاز داریم ***
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+DEEPL_API_KEY = os.getenv("DEEPL_API_KEY")
 
 async def enrich_and_translate_game(game: Dict[str, Any], enrichers: list, translator: SmartTranslator) -> Dict[str, Any]:
     for enricher in enrichers:
@@ -29,7 +29,7 @@ async def enrich_and_translate_game(game: Dict[str, Any], enrichers: list, trans
     return game
 
 async def main():
-    logging.info("🚀 ربات پیشرفته GameBeacon (نسخه نهایی بدون نیاز به کلید) شروع به کار کرد...")
+    logging.info("🚀 ربات گیم رایگان شروع به کار کرد...")
 
     if not TELEGRAM_BOT_TOKEN:
         logging.error("متغیر محیطی TELEGRAM_BOT_TOKEN تنظیم نشده است. برنامه متوقف می‌شود.")
@@ -37,11 +37,28 @@ async def main():
 
     db = Database(db_path="data/games.db")
     bot = TelegramBot(token=TELEGRAM_BOT_TOKEN, db=db)
-    # *** تغییر جدید: مترجم دیگر نیازی به کلید ندارد ***
-    translator = SmartTranslator()
+    translator = SmartTranslator() # دیگر نیازی به کلید نیست
 
-    await bot.process_pending_updates()
+    # --- *** بخش جدید: حالت تعاملی ۵ دقیقه‌ای *** ---
+    try:
+        logging.info("🤖 ربات به مدت ۵ دقیقه در حالت تعاملی برای دریافت دستورات قرار گرفت...")
+        await bot.application.initialize()
+        await bot.application.start()
+        # updater.start_polling() را مستقیما صدا نمی‌زنیم، start() این کار را مدیریت می‌کند
+        
+        # به مدت ۳۰۰ ثانیه (۵ دقیقه) به ربات اجازه می‌دهیم تا دستورات را پردازش کند
+        await asyncio.sleep(300)
+        
+        await bot.application.stop()
+        await bot.application.shutdown()
+        logging.info("⏳ زمان حالت تعاملی به پایان رسید. ادامه فرآیند...")
+    except Exception as e:
+        logging.error(f"خطا در حالت تعاملی ربات: {e}", exc_info=True)
 
+
+    # --- بخش اصلی: یافتن و اطلاع‌رسانی بازی‌ها ---
+    logging.info("🎮 شروع فرآیند یافتن بازی‌های رایگان...")
+    
     sources = [
         ITADSource(),
         RedditSource(),

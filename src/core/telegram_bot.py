@@ -16,6 +16,9 @@ logging.basicConfig(
 VALID_STORES = ["epic games", "gog", "steam", "all"]
 
 class TelegramBot:
+    """
+    کلاسی برای مدیریت کامل تعاملات با API ربات تلگرام.
+    """
     def __init__(self, token: str, db: Database):
         if not token:
             raise ValueError("توکن تلگرام ارائه نشده است.")
@@ -25,6 +28,8 @@ class TelegramBot:
         self._register_handlers()
         logging.info("نمونه ربات تلگرام و کنترل‌کننده‌های دستورات با موفقیت ایجاد شدند.")
 
+    # (تمام متدهای دیگر مانند _format_message, send_formatted_message, _start_command و... بدون تغییر باقی می‌مانند)
+    # ... کدهای قبلی را اینجا قرار دهید ...
     @staticmethod
     def _escape_markdown_v2(text: str) -> str:
         if not isinstance(text, str):
@@ -149,25 +154,4 @@ class TelegramBot:
         self.application.add_handler(CommandHandler("subscribe", self._subscribe_command))
         self.application.add_handler(CommandHandler("unsubscribe", self._unsubscribe_command))
 
-    async def process_pending_updates(self):
-        """
-        تمام آپدیت‌های (دستورات) جدید را از تلگرام دریافت کرده و پردازش می‌کند.
-        """
-        await self.application.initialize()
-        
-        updates = await self.bot.get_updates(timeout=10)
-        if not updates:
-            logging.info("هیچ دستور جدیدی برای پردازش یافت نشد.")
-            await self.application.shutdown()
-            return
-
-        logging.info(f"{len(updates)} دستور جدید برای پردازش یافت شد.")
-        
-        for update in updates:
-            await self.application.process_update(update)
-        
-        if updates:
-            last_update_id = updates[-1].update_id
-            await self.bot.get_updates(offset=last_update_id + 1)
-            
-        await self.application.shutdown()
+    # متد process_pending_updates حذف شد چون دیگر به آن نیازی نیست.
