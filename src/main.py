@@ -47,6 +47,7 @@ def _get_deduplication_key(game: Dict[str, Any]) -> str:
 def _merge_game_data(existing_game: Dict[str, Any], new_game: Dict[str, Any]) -> Dict[str, Any]:
     """
     داده‌های یک بازی جدید را در یک بازی موجود ادغام می‌کند و داده‌های کامل‌تر/معتبرتر را اولویت می‌دهد.
+    URL اصلی (که بازی رایگان از آن شناسایی شده) حفظ می‌شود.
     """
     merged_game = existing_game.copy()
 
@@ -70,25 +71,15 @@ def _merge_game_data(existing_game: Dict[str, Any], new_game: Dict[str, Any]) ->
        (not merged_game.get('persian_summary') or len(new_game['persian_summary']) > len(merged_game['persian_summary'])):
         merged_game['persian_summary'] = new_game['persian_summary']
 
-    # اولویت‌بندی URL: لینک‌های مستقیم فروشگاه بر لینک‌های Reddit/ITAD
-    # اگر Steam App ID وجود دارد، لینک Steam را اولویت بده
-    if 'steam_app_id' in merged_game and merged_game['steam_app_id']:
-        merged_game['url'] = f"https://store.steampowered.com/app/{merged_game['steam_app_id']}/"
-    # در غیر این صورت، اگر لینک جدید از Epic Games باشد، آن را اولویت بده
-    elif 'url' in new_game and new_game['url'] and "epicgames.com" in new_game['url']:
-        merged_game['url'] = new_game['url']
-    # در غیر این صورت، اگر لینک جدید یک لینک مستقیم و غیر Reddit/ITAD باشد، آن را اولویت بده
-    elif 'url' in new_game and new_game['url'] and \
-          "isthereanydeal.com" not in new_game['url'] and \
-          "reddit.com" not in new_game['url'] and \
-          "placehold.co" not in new_game['url']: # اطمینان از عدم استفاده از لینک‌های placeholder
-        merged_game['url'] = new_game['url']
+    # URL اصلی که بازی رایگان از آن شناسایی شده است، حفظ می‌شود.
+    # Enricherها نباید URL را تغییر دهند و این تابع نیز آن را تغییر نمی‌دهد.
+    # URL از اولین منبع معتبر که بازی را به عنوان رایگان گزارش کرده، می‌آید.
 
     # ادغام نمرات و سایر ویژگی‌ها، با اولویت‌بندی مقادیر غیر خالی
     for key in ['metacritic_score', 'metacritic_userscore', 
                 'steam_overall_score', 'steam_overall_reviews_count', 
                 'steam_recent_score', 'steam_recent_reviews_count', 
-                'genres', 'trailer', 'is_multiplayer', 'is_online']:
+                'genres', 'trailer', 'is_multiplayer', 'is_online', 'age_rating']: # age_rating هم اضافه شد
         if key in new_game and new_game[key]:
             if key in ['is_multiplayer', 'is_online']: # برای پرچم‌های بولی، OR کن
                 merged_game[key] = merged_game.get(key, False) or new_game[key]
@@ -105,13 +96,31 @@ def _merge_game_data(existing_game: Dict[str, Any], new_game: Dict[str, Any]) ->
 
     return merged_game
 
-async def enrich_and_translate_game(game: Dict[str, Any], enrichers: list, translator: SmartTranslator) -> Dict[str, Any]:
+async def enrich_and_translate_game(game: Dict[str, Any], steam_enricher: SteamEnricher, metacritic_enricher: MetacriticEnricher, translator: SmartTranslator) -> Dict[str, Any]:
     """
-    بازی را با اطلاعات اضافی غنی‌سازی و توضیحات آن را ترجمه می‌کند.
+    بازی را با اطلاعات اضافی غنی‌سازی و توضیحات آن را ترجمه می‌کند،
+    با اعمال enricherها بر اساس پلتفرم.
     """
-    for enricher in enrichers:
-        game = await enricher.enrich_data(game)
-    
+    store = game.get('store', '').lower().replace(' ', '')
+
+    # تعیین پلتفرم بر اساس فروشگاه
+    is_desktop_store = store in ['steam', 'epic games', 'gog', 'itch.io', 'indiegala', 'stove', 'other'] # 'other' می تواند دسکتاپ باشد
+    is_console_store = store in ['xbox', 'playstation', 'nintendo']
+    is_mobile_store = store in ['google play', 'ios app store']
+
+    # اعمال SteamEnricher فقط برای بازی‌های دسکتاپ
+    if is_desktop_store:
+        game = await steam_enricher.enrich_data(game)
+    else:
+        logging.info(f"ℹ️ SteamEnricher برای بازی موبایل/کنسول '{game.get('title', 'نامشخص')}' (فروشگاه: {game.get('store')}) اعمال نشد.")
+
+    # اعمال MetacriticEnricher برای بازی‌های دسکتاپ و کنسول
+    if is_desktop_store or is_console_store:
+        game = await metacritic_enricher.enrich_data(game)
+    else:
+        logging.info(f"ℹ️ MetacriticEnricher برای بازی موبایل '{game.get('title', 'نامشخص')}' (فروشگاه: {game.get('store')}) اعمال نشد.")
+
+    # ترجمه توضیحات در صورت وجود
     description = game.get('description')
     if description and translator:
         game['persian_summary'] = await translator.translate(description)
@@ -163,8 +172,13 @@ async def main():
     logging.info(f"✅ {len(all_games_raw)} بازی خام از منابع مختلف یافت شد.")
 
     # --- مرحله ۳: غنی‌سازی و ترجمه تمام بازی‌های یافت شده (قبل از deduplication) ---
-    enrichers = [SteamEnricher(), MetacriticEnricher()]
-    enrich_tasks = [enrich_and_translate_game(game, enrichers, translator) for game in all_games_raw]
+    steam_enricher = SteamEnricher()
+    metacritic_enricher = MetacriticEnricher()
+    
+    enrich_tasks = [
+        enrich_and_translate_game(game, steam_enricher, metacritic_enricher, translator)
+        for game in all_games_raw
+    ]
     
     # این لیست شامل تمام بازی‌های غنی‌شده است که ممکن است شامل تکراری‌ها باشد
     enriched_games_with_potential_duplicates = await asyncio.gather(*enrich_tasks)
