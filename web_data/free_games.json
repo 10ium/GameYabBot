@@ -49,6 +49,7 @@
         "trailer": "http://video.akamai.steamstatic.com/store_trailers/257036064/movie_max.mp4?t=1720233746",
         "is_multiplayer": false,
         "is_online": false,
+        "age_rating": "T",
         "persian_summary": "به عمارت افگارن خوش آمدید. نپرسید که چرا خالی است نه چرا چراغ ها سوسو می زنند. هرچه بیشتر بپرسید ، بیشتر می خواهند پاسخ دهند. پدرت را پیدا کن اگر صداها را می شنوید ، پاسخ ندهید. آزمایشات هنوز در داخل است. آنها می دانند که شما وارد شده اید. و آنها مشتاق هستند که شما را نزدیک کنند."
     },
     {
@@ -71,6 +72,7 @@
         "trailer": "http://video.akamai.steamstatic.com/store_trailers/256999800/movie_max.mp4?t=1707347821",
         "is_multiplayer": true,
         "is_online": true,
+        "age_rating": "T",
         "steam_overall_score": 86,
         "steam_overall_reviews_count": 79,
         "steam_recent_score": 86,
@@ -189,17 +191,17 @@
     {
         "title": "Figment 2: Creed Valley",
         "store": "epic games",
-        "url": "https://www.reddit.com/r/FreeGameFindings/comments/1lwewzr/epic_games_mobile_game_figment_2_creed_valley/",
+        "url": "https://store.steampowered.com/app/1085220/",
         "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085220/header.jpg?t=1729500878",
         "description": "Figment 2: Creed Valley is an action-adventure game set in the human mind. Face bosses in musical showdowns, make your way through puzzles, and explore unique environments.",
         "id_in_db": "t3_1lwewzr",
         "subreddit": "FreeGameFindings",
         "steam_app_id": "1085220",
         "genres": [
-            "Action",
             "Adventure",
-            "Casual",
-            "Indie"
+            "Indie",
+            "Action",
+            "Casual"
         ],
         "trailer": "http://video.akamai.steamstatic.com/store_trailers/256929912/movie_max.mp4?t=1683192088",
         "is_multiplayer": true,
@@ -236,31 +238,6 @@
         "persian_summary": "Sky Racket بازی است که دو ژانر کلاسیک را از دوره Arcade مخلوط می کند: Shoot'em Up و Brick Breakers. در دنیایی که شما قادر به حمله نیستید ، استفاده از راکت خود برای حمله به گلوله های دشمن به آنها تنها گزینه شماست! گلوله ها را به دشمنان خود برگردانید و کهکشان را ذخیره کنید!"
     },
     {
-        "title": "Figment 2: Creed Valley",
-        "store": "epic games",
-        "url": "https://store.epicgames.com/p/figment2-creed-valley",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085220/header.jpg?t=1729500878",
-        "description": "Figment 2: Creed Valley is an action-adventure game set in the human mind. Face bosses in musical showdowns, make your way through puzzles, and explore unique environments.",
-        "id_in_db": "t3_1lwewya",
-        "subreddit": "FreeGameFindings",
-        "steam_app_id": "1085220",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Casual",
-            "Indie"
-        ],
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256929912/movie_max.mp4?t=1683192088",
-        "is_multiplayer": true,
-        "is_online": false,
-        "steam_overall_score": 94,
-        "steam_overall_reviews_count": 264,
-        "steam_recent_score": 94,
-        "steam_recent_reviews_count": 264,
-        "metacritic_userscore": 6.3,
-        "persian_summary": "FIGMENT 2: Creed Valley یک بازی اکشن-ماجراجویی است که در ذهن انسان تنظیم شده است. کارفرمایان چهره در نمایش های موسیقی ، راه خود را از طریق معماها انجام دهید و محیط های منحصر به فرد را کشف کنید."
-    },
-    {
         "title": "Condo Desires",
         "store": "steam",
         "url": "https://store.steampowered.com/app/3205430/Condo_Desires/",
@@ -280,6 +257,7 @@
         "trailer": "http://video.akamai.steamstatic.com/store_trailers/257054232/movie_max.mp4?t=1726078287",
         "is_multiplayer": false,
         "is_online": false,
+        "age_rating": "O",
         "persian_summary": "یک رمان بصری بزرگسالان که در آن زندگی و خیالات زنان جذاب در یک آپارتمان جامعه حرکت می کنید. به عنوان متولی جدید ، روابط ایجاد کنید ، اسرار را کشف کنید و در برخوردهای صمیمی ایجاد کنید. آیا شما به هنر اغواگری تسلط خواهید داشت یا بیشتر هوس خواهید کرد؟ انتخاب های شما ، خواسته های شما."
     },
     {
@@ -406,6 +384,15 @@
         "persian_summary": "چرخ های رنگی یک برنامه کاربردی است که بر اساس تکنیک چرخ رنگ است. این امکان را به شما می دهد تا به سرعت و به راحتی ترکیب های رنگی هماهنگ ایجاد کنید. نوع مورد نظر چرخ و هارمونی مورد نظر را انتخاب کنید ، اصلاح کننده هارمونی و تن ها را کنترل کنید و از ترکیبات رنگی دلپذیر برای پروژه های خود استفاده کنید."
     },
     {
+        "title": "[Windows/Mac] [Ultimate Zombie Defense] [$4.99–> Free] [Top-down shooter with base defense mechanics, set in the heart of continental European city. Play solo or team up with up to four players as soldiers dropped into this plagued location tasked with destroying the source of the infection.]",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1035510/Ultimate_Zombie_Defense/",
+        "image_url": "https://external-preview.redd.it/esiLOqypeSNs3YbUPrXNnU6i8jYFL6dr4RisgbjNfdU.jpeg?width=320&crop=smart&auto=webp&s=849a5cd9f74af45c8d2dfc5f79b65760c4f9bc18",
+        "description": "",
+        "id_in_db": "t3_1lxdj3s",
+        "subreddit": "AppHookup"
+    },
+    {
         "title": "[iOS][WaterBit - Water Tracker][15$ -> FREE][Stay Hydrated!]",
         "store": "ios app store",
         "url": "https://apps.apple.com/us/app/water-tracker-waterbit/id6639589010",
@@ -414,6 +401,33 @@
         "id_in_db": "t3_1lwwp4j",
         "subreddit": "AppHookup",
         "persian_summary": "سلام به همه! چندان پیش ، من برنامه Tracker Water خود را در اینجا به اشتراک گذاشتم و از بسیاری از شما بازخورد خارق العاده ای دریافت کردم - با تشکر از شما! بر اساس پیشنهادات شما ، بر اساس پیشنهادات شما ، سخت کار کرده اید و به روزرسانی می کنید که برخی از ویژگی های درخواستی را به روز می کنید. مشتاق بازخورد بیشتر!"
+    },
+    {
+        "title": "[Windows] [Fantasy General II] [$39.99–> Free] [Lead powerful heroes and mighty armies into battle across the world of Aer, a place of great beauty and even greater danger. Guide your forces through a gripping story campaign and decide the fate of a world on the brink of destruction.]",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1025440/Fantasy_General_II/",
+        "image_url": "https://external-preview.redd.it/phVu1Oa0u-gSn3Iuh7iZFtqQ2O951ieCe5J0IbQQ1GY.jpeg?width=320&crop=smart&auto=webp&s=cbf1ab224d49d28d2408b27e9d008c024b00d72d",
+        "description": "",
+        "id_in_db": "t3_1lwl4h9",
+        "subreddit": "AppHookup"
+    },
+    {
+        "title": "[Windows] [Field of Glory II: Medieval] [$29.99–> Free] [Turn-based tactical game set in the High Middle Ages from 1040 AD to 1270 AD. Lead your chosen army and its named generals to victory in set-piece historical battles or \"what-if\" custom battle situations against an AI or human opponent.]",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1368870/Field_of_Glory_II_Medieval/",
+        "image_url": "https://external-preview.redd.it/zuCxtVS2ButNdyK0YXPkO2XTJ3jqFQKY2GUiBVDKWR8.jpeg?width=320&crop=smart&auto=webp&s=b3f5318446166294e7b48d594309fe0a8e2da273",
+        "description": "",
+        "id_in_db": "t3_1lwkytf",
+        "subreddit": "AppHookup"
+    },
+    {
+        "title": "[Windows] [Battlestar Galactica Deadlock] [$39.99–> Free] [3D turn-based space strategy game in which you take command of a colonial space fleet from the 2004 remake of sci-fi series Battlestar Galactica]",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/544610/Battlestar_Galactica_Deadlock/",
+        "image_url": "https://external-preview.redd.it/lU0NPAS1bBPLTdTI3j72jOCg0FKz6uBytYi9c5egkHI.jpeg?width=320&crop=smart&auto=webp&s=1510c553e4555269f3806ed7649d2c8208d48718",
+        "description": "",
+        "id_in_db": "t3_1lwkwe9",
+        "subreddit": "AppHookup"
     },
     {
         "title": "hocus.",
