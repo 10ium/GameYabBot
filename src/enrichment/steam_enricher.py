@@ -3,6 +3,7 @@ import asyncio
 from typing import Optional, Dict, Any
 import aiohttp
 import re
+from utils import clean_title_for_search # وارد کردن تابع تمیزکننده مشترک
 
 logging.basicConfig(
     level=logging.INFO,
@@ -14,41 +15,10 @@ class SteamEnricher:
     DETAILS_API_URL = "https://store.steampowered.com/api/appdetails"
     REVIEWS_API_URL = "https://store.steampowered.com/appreviews/{appid}"
 
-    def _clean_title_for_search(self, title: str) -> str:
-        """
-        عنوان بازی را برای جستجو در APIهای خارجی تمیز می‌کند.
-        حذف عبارات مانند (Game), ($X -> Free), [Platform] و سایر جزئیات اضافی.
-        """
-        original_title = title.strip()
-        if not original_title:
-            return ""
-
-        # حذف عبارات براکتی (مانند [Windows], [Multi-Platform], [iOS])
-        cleaned_title = re.sub(r'\[.*?\]', '', original_title).strip()
-        
-        # حذف عبارات پرانتزی مربوط به قیمت یا وضعیت (مانند ($X -> Free), (X% off), (Free))
-        cleaned_title = re.sub(r'\s*\(\$.*?->\s*Free\)', '', cleaned_title, flags=re.IGNORECASE).strip()
-        cleaned_title = re.sub(r'\s*\(\d+%\s*off\)', '', cleaned_title, flags=re.IGNORECASE).strip()
-        cleaned_title = re.sub(r'\s*\(\s*free\s*\)', '', cleaned_title, flags=re.IGNORECASE).strip()
-        cleaned_title = re.sub(r'\s*\(\s*game\s*\)', '', cleaned_title, flags=re.IGNORECASE).strip() # حذف (Game)
-        cleaned_title = re.sub(r'\s*\(\s*app\s*\)', '', cleaned_title, flags=re.IGNORECASE).strip() # حذف (App)
-        
-        # حذف عبارات مربوط به قیمت و تخفیف که ممکن است در عنوان باقی مانده باشند
-        cleaned_title = re.sub(r'\b(CA\$|€|\$)\d+(\.\d{1,2})?\s*→\s*Free\b', '', cleaned_title, flags=re.IGNORECASE).strip()
-        cleaned_title = re.sub(r'\b\d+(\.\d{1,2})?\s*-->\s*0\b', '', cleaned_title, flags=re.IGNORECASE).strip()
-        cleaned_title = re.sub(r'\b\d+(\.\d{1,2})?\s*to\s*free\s*lifetime\b', '', cleaned_title, flags=re.IGNORECASE).strip() # برای AppHookup
-        
-        # حذف هرگونه فاصله اضافی
-        cleaned_title = re.sub(r'\s+', ' ', cleaned_title).strip()
-        
-        # Fallback به عنوان اصلی اگر تمیز کردن باعث خالی شدن عنوان شد
-        if not cleaned_title:
-            return original_title
-        
-        return cleaned_title
+    # تابع _clean_title_for_search حذف شد و از utils.clean_title_for_search استفاده می‌شود.
 
     async def _find_app_id(self, session: aiohttp.ClientSession, game_title: str) -> Optional[str]:
-        cleaned_title = self._clean_title_for_search(game_title)
+        cleaned_title = clean_title_for_search(game_title) # استفاده از تابع مشترک
         if not cleaned_title:
             logging.warning(f"عنوان تمیز شده برای '{game_title}' خالی است. جستجوی App ID در استیم انجام نشد.")
             return None
@@ -175,11 +145,11 @@ class SteamEnricher:
                         else:
                             logging.info(f"تعداد رای‌های اخیر Steam برای '{game_title}' کافی نیست ({total_reviews}).")
 
-            if 'steam_overall_score' in game_info or 'steam_recent_score' in game_info or 'genres' in game_info or 'image_url' in game_info or 'description' in game_info or 'age_rating' in game_info:
-                logging.info(f"اطلاعات '{game_title}' با موفقیت از استیم غنی‌سازی شد.")
-            else:
-                logging.warning(f"غنی‌سازی اطلاعات برای '{game_title}' از استیم کامل نبود.")
-            return game_info
+                if 'steam_overall_score' in game_info or 'steam_recent_score' in game_info or 'genres' in game_info or 'image_url' in game_info or 'description' in game_info or 'age_rating' in game_info:
+                    logging.info(f"اطلاعات '{game_title}' با موفقیت از استیم غنی‌سازی شد.")
+                else:
+                    logging.warning(f"غنی‌سازی اطلاعات برای '{game_title}' از استیم کامل نبود.")
+                return game_info
         except Exception as e:
             logging.error(f"خطای پیش‌بینی نشده در SteamEnricher برای '{game_title}': {e}", exc_info=True)
             return game_info

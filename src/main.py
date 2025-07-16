@@ -2,7 +2,7 @@ import os
 import asyncio
 import logging
 import json
-import re 
+import re
 from typing import List, Dict, Any
 
 from core.database import Database
@@ -13,6 +13,7 @@ from sources.epic_games import EpicGamesSource
 from enrichment.steam_enricher import SteamEnricher
 from enrichment.metacritic_enricher import MetacriticEnricher
 from translation.translator import SmartTranslator
+from utils import clean_title_for_search # وارد کردن تابع تمیزکننده مشترک
 
 logging.basicConfig(
     level=logging.INFO,
@@ -21,40 +22,6 @@ logging.basicConfig(
 
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 DEEPL_API_KEY = os.getenv("DEEPL_API_KEY")
-
-def _clean_title_for_deduplication(title: str) -> str:
-    """
-    عنوان بازی را برای استفاده در کلید deduplication تمیز می‌کند.
-    این تابع باید بسیار تهاجمی باشد تا تغییرات کوچک در عنوان را نادیده بگیرد.
-    """
-    if not title:
-        return ""
-    
-    original_title = title.strip()
-
-    # حذف عبارات براکتی (مانند [Windows], [Multi-Platform], [iOS])
-    cleaned_title = re.sub(r'\[.*?\]', '', original_title).strip()
-    
-    # حذف عبارات پرانتزی مربوط به قیمت یا وضعیت (مانند ($X -> Free), (X% off), (Free))
-    cleaned_title = re.sub(r'\s*\(\$.*?->\s*Free\)', '', cleaned_title, flags=re.IGNORECASE).strip()
-    cleaned_title = re.sub(r'\s*\(\d+%\s*off\)', '', cleaned_title, flags=re.IGNORECASE).strip()
-    cleaned_title = re.sub(r'\s*\(\s*free\s*\)', '', cleaned_title, flags=re.IGNORECASE).strip()
-    cleaned_title = re.sub(r'\s*\(\s*game\s*\)', '', cleaned_title, flags=re.IGNORECASE).strip() # حذف (Game)
-    cleaned_title = re.sub(r'\s*\(\s*app\s*\)', '', cleaned_title, flags=re.IGNORECASE).strip() # حذف (App)
-    
-    # حذف عبارات مربوط به قیمت و تخفیف که ممکن است در عنوان باقی مانده باشند
-    cleaned_title = re.sub(r'\b(CA\$|€|\$)\d+(\.\d{1,2})?\s*→\s*Free\b', '', cleaned_title, flags=re.IGNORECASE).strip()
-    cleaned_title = re.sub(r'\b\d+(\.\d{1,2})?\s*-->\s*0\b', '', cleaned_title, flags=re.IGNORECASE).strip()
-    cleaned_title = re.sub(r'\b\d+(\.\d{1,2})?\s*to\s*free\s*lifetime\b', '', cleaned_title, flags=re.IGNORECASE).strip() # برای AppHookup
-    
-    # حذف هرگونه فاصله اضافی
-    cleaned_title = re.sub(r'\s+', ' ', cleaned_title).strip()
-    
-    # Fallback به عنوان اصلی اگر تمیز کردن باعث خالی شدن عنوان شد
-    if not cleaned_title:
-        return original_title.lower() # بازگشت عنوان اصلی به حروف کوچک
-    
-    return cleaned_title.lower()
 
 def _get_deduplication_key(game: Dict[str, Any]) -> str:
     """
@@ -65,7 +32,7 @@ def _get_deduplication_key(game: Dict[str, Any]) -> str:
         return f"steam_{game['steam_app_id']}"
     
     # اگر Steam App ID نبود، از عنوان تمیز شده استفاده می‌کنیم
-    cleaned_title = _clean_title_for_deduplication(game.get('title', ''))
+    cleaned_title = clean_title_for_search(game.get('title', '')) # استفاده از تابع مشترک
     if cleaned_title:
         # برای اطمینان بیشتر، فروشگاه را هم به عنوان اضافه می‌کنیم،
         # مگر اینکه فروشگاه "other" باشد که ممکن است باعث تکرار شود.
@@ -112,9 +79,9 @@ def _merge_game_data(existing_game: Dict[str, Any], new_game: Dict[str, Any]) ->
         merged_game['url'] = new_game['url']
     # در غیر این صورت، اگر لینک جدید یک لینک مستقیم و غیر Reddit/ITAD باشد، آن را اولویت بده
     elif 'url' in new_game and new_game['url'] and \
-         "isthereanydeal.com" not in new_game['url'] and \
-         "reddit.com" not in new_game['url'] and \
-         "placehold.co" not in new_game['url']: # اطمینان از عدم استفاده از لینک‌های placeholder
+          "isthereanydeal.com" not in new_game['url'] and \
+          "reddit.com" not in new_game['url'] and \
+          "placehold.co" not in new_game['url']: # اطمینان از عدم استفاده از لینک‌های placeholder
         merged_game['url'] = new_game['url']
 
     # ادغام نمرات و سایر ویژگی‌ها، با اولویت‌بندی مقادیر غیر خالی
@@ -132,8 +99,8 @@ def _merge_game_data(existing_game: Dict[str, Any], new_game: Dict[str, Any]) ->
     
     # اطمینان از اینکه عنوان تمیز شده، بهترین عنوان ممکن است
     # اگر عنوان جدید پس از تمیز شدن طولانی‌تر (و احتمالا کامل‌تر) باشد، آن را جایگزین کن
-    if len(_clean_title_for_deduplication(new_game.get('title', ''))) > \
-       len(_clean_title_for_deduplication(merged_game.get('title', ''))):
+    if len(clean_title_for_search(new_game.get('title', ''))) > \
+       len(clean_title_for_search(merged_game.get('title', ''))):
         merged_game['title'] = new_game['title']
 
     return merged_game

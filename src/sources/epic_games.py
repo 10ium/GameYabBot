@@ -9,8 +9,9 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(level
 class EpicGamesSource:
     GRAPHQL_API_URL = "https://store-content-ipv4.ak.epicgames.com/api/graphql"
     HEADERS = { # اضافه شده: هدرها برای درخواست‌های API
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
-        'Referer': 'https://www.epicgames.com/store/' # مهم برای جلوگیری از 403
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36', # User-Agent عمومی‌تر
+        'Referer': 'https://www.epicgames.com/store/', # مهم برای جلوگیری از 403
+        'Origin': 'https://www.epicgames.com' # اضافه کردن Origin
     }
     
     def _normalize_game_data(self, game: Dict[str, Any]) -> Optional[Dict[str, str]]:
