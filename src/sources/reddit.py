@@ -39,13 +39,15 @@ class RedditSource:
         """
         try:
             logger.info(f"در حال واکشی لینک دائمی ردیت برای یافتن لینک خارجی: {permalink_url}")
-            async with session.get(permalink_url, headers={'User-agent': 'GameBeaconBot/1.0'}) as response:
-                response.raise_for_status()
+            # استفاده از User-Agent عمومی‌تر و تاخیر برای کاهش بلاک شدن
+            headers = {'User-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'}
+            async with session.get(permalink_url, headers=headers) as response:
+                response.raise_for_status() # اگر وضعیت 200 نباشد، خطا پرتاب می‌کند
+                await asyncio.sleep(1) # تاخیر برای کاهش نرخ درخواست
                 html_content = await response.text()
                 soup = BeautifulSoup(html_content, 'html.parser')
                 
-                # پیدا کردن div اصلی محتوای پست
-                # این سلکتورها ممکن است نیاز به به‌روزرسانی داشته باشند اگر ردیت UI خود را تغییر دهد.
+                # پیدا کردن div اصلی محتوای پست (سلکتورها ممکن است نیاز به به‌روزرسانی داشته باشند)
                 post_content_div = soup.find('div', class_='s19g0207-1') 
                 if not post_content_div:
                     post_content_div = soup.find('div', class_='_292iotee39Lmt0Q_h-B5N') 
@@ -91,18 +93,18 @@ class RedditSource:
 
             # الگوهای URL برای شناسایی فروشگاه‌ها (ترتیب مهم است: خاص‌ترها اول)
             url_store_map_priority = [
-                ("apps.apple.com", "ios app store"),
-                ("play.google.com", "google play"),
-                ("store.steampowered.com", "steam"),
-                # Epic Games desktop/mobile links - order matters for specificity
-                ("epicgames.com/store/p/.*-android-", "google play"), 
-                ("epicgames.com/store/p/.*-ios-", "ios app store"),
-                ("epicgames.com/store/p/", "epic games"), # General Epic Desktop, if not mobile
-                ("gog.com", "gog"),
-                ("xbox.com", "xbox"),
-                ("itch.io", "itch.io"),
-                ("indiegala.com", "indiegala"),
-                ("onstove.com", "stove"),
+                (r"apps\.apple\.com", "ios app store"),
+                (r"play\.google\.com", "google play"),
+                (r"store\.steampowered\.com", "steam"),
+                # Epic Games specific patterns, more specific first
+                (r"epicgames\.com/store/p/.*-android-", "google play"), 
+                (r"epicgames\.com/store/p/.*-ios-", "ios app store"),
+                (r"epicgames\.com/store/p/", "epic games"), # General Epic Desktop, if not mobile
+                (r"gog\.com", "gog"),
+                (r"xbox\.com", "xbox"),
+                (r"itch\.io", "itch.io"),
+                (r"indiegala\.com", "indiegala"),
+                (r"onstove\.com", "stove"),
             ]
 
             # 1. تلاش برای یافتن لینک مستقیم فروشگاه از محتوای پست (غیر از لینک [link] اصلی)
@@ -140,6 +142,7 @@ class RedditSource:
                         else:
                             logger.warning(f"لینک خارجی از لینک دائمی ردیت '{main_post_url}' استخراج نشد. از لینک اصلی ردیت استفاده می‌شود.")
                             final_url = main_post_url # Fallback به لینک دائمی ردیت
+                            detected_store = "reddit" # صریحاً به reddit تنظیم شود اگر permalink URL نهایی است
                     else:
                         final_url = main_post_url
                         # فروشگاه را از لینک [link] اصلی حدس بزن
@@ -149,20 +152,41 @@ class RedditSource:
                                 break
                 else:
                     logger.debug(f"لینک [link] در پست '{raw_title}' از ساب‌ردیت {subreddit_name} یافت نشد.")
-                    return None # اگر هیچ لینکی پیدا نشد، پست را نادیده بگیر
-
-            # 3. اگر هنوز URL معتبری پیدا نشد، از URL اصلی پست RSS استفاده کن (کمترین اولویت)
-            if not final_url:
-                # این URL معمولا به خود پست ردیت اشاره دارد، اما به عنوان آخرین راه حل استفاده می‌شود.
-                # این حالت نباید زیاد پیش بیاید اگر لینک [link] به درستی پردازش شود.
-                link_element = entry.find('atom:link', ns)
-                if link_element is not None and link_element.get('href'):
-                    final_url = link_element.get('href')
-                    logger.warning(f"هیچ لینک فروشگاه مستقیمی برای '{raw_title}' یافت نشد. از لینک RSS پست استفاده می‌شود: {final_url}")
-                else:
-                    logger.warning(f"هیچ URL معتبری برای پست '{raw_title}' از ساب‌ردیت {subreddit_name} یافت نشد. نادیده گرفته شد.")
-                    return None
+                    # Fallback به URL اصلی پست RSS اگر هیچ لینک دیگری پیدا نشد
+                    link_element = entry.find('atom:link', ns)
+                    if link_element is not None and link_element.get('href'):
+                        final_url = link_element.get('href')
+                        detected_store = "reddit" # اگر از لینک RSS پست استفاده شد، فروشگاه را reddit قرار بده
+                        logger.warning(f"هیچ لینک فروشگاه مستقیمی برای '{raw_title}' یافت نشد. از لینک RSS پست استفاده می‌شود: {final_url}")
+                    else:
+                        logger.warning(f"هیچ URL معتبری برای پست '{raw_title}' از ساب‌ردیت {subreddit_name} یافت نشد. نادیده گرفته شد.")
+                        return None
             
+            # 3. اگر هنوز نام فروشگاه عمومی بود، تلاش برای استخراج از براکت در عنوان
+            if detected_store == 'other': # فقط اگر هنوز 'other' است، از براکت استفاده کن
+                store_platform_match = re.search(r'\[([^\]]+)\]', raw_title)
+                if store_platform_match:
+                    platform_str = store_platform_match.group(1).strip().lower()
+
+                    if "steam" in platform_str: detected_store = "steam"
+                    elif "epic games" in platform_str or "epicgames" in platform_str: detected_store = "epic games"
+                    elif "gog" in platform_str: detected_store = "gog"
+                    elif "xbox" in platform_str: detected_store = "xbox"
+                    elif "ps" in platform_str or "playstation" in platform_str: detected_store = "playstation"
+                    elif "nintendo" in platform_str: detected_store = "nintendo"
+                    elif "stove" in platform_str: detected_store = "stove"
+                    elif "indiegala" in platform_str: detected_store = "indiegala"
+                    elif "itch.io" in platform_str or "itchio" in platform_str: detected_store = "itch.io"
+                    elif "android" in platform_str or "googleplay" in platform_str or "google play" in platform_str or "apps" in platform_str:
+                        detected_store = "google play"
+                    elif "ios" in platform_str or "apple" in platform_str:
+                        detected_store = "ios app store"
+                    elif "windows" in platform_str or "mac" in platform_str or "linux" in platform_str:
+                        # برای پلتفرم‌های دسکتاپ، اگر URL مشخص نیست، همچنان 'other' بهتر است
+                        pass # اجازه بده 'other' بماند
+                    elif "multi-platform" in platform_str:
+                        pass # اجازه بده 'other' بماند
+
             # --- استخراج توضیحات و تصویر ---
             description_tag = soup.find('div', class_='md')
             description = description_tag.get_text(strip=True) if description_tag else ""
@@ -196,18 +220,20 @@ class RedditSource:
         found_items = []
         soup = BeautifulSoup(html_content, 'html.parser')
         
+        # الگوهای URL برای شناسایی فروشگاه‌ها (ترتیب مهم است: خاص‌ترها اول)
         url_store_map_priority = [
-            ("apps.apple.com", "ios app store"),
-            ("play.google.com", "google play"),
-            ("store.steampowered.com", "steam"),
-            ("epicgames.com/store/p/.*-android-", "google play"), 
-            ("epicgames.com/store/p/.*-ios-", "ios app store"),
-            ("epicgames.com/store/p/", "epic games"),
-            ("gog.com", "gog"),
-            ("xbox.com", "xbox"),
-            ("itch.io", "itch.io"),
-            ("indiegala.com", "indiegala"),
-            ("onstove.com", "stove"),
+            (r"apps\.apple\.com", "ios app store"),
+            (r"play\.google\.com", "google play"),
+            (r"store\.steampowered\.com", "steam"),
+            # Epic Games specific patterns, more specific first
+            (r"epicgames\.com/store/p/.*-android-", "google play"), 
+            (r"epicgames\.com/store/p/.*-ios-", "ios app store"),
+            (r"epicgames\.com/store/p/", "epic games"), # General Epic Desktop, if not mobile
+            (r"gog\.com", "gog"),
+            (r"xbox\.com", "xbox"),
+            (r"itch\.io", "itch.io"),
+            (r"indiegala\.com", "indiegala"),
+            (r"onstove\.com", "stove"),
         ]
 
         for a_tag in soup.find_all('a', href=True):
