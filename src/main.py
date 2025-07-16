@@ -1,7 +1,7 @@
 import os
 import asyncio
 import logging
-import json # اطمینان حاصل کنید که این خط وجود دارد
+import json
 from typing import List, Dict, Any
 
 from core.database import Database
@@ -22,6 +22,9 @@ TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 DEEPL_API_KEY = os.getenv("DEEPL_API_KEY")
 
 async def enrich_and_translate_game(game: Dict[str, Any], enrichers: list, translator: SmartTranslator) -> Dict[str, Any]:
+    """
+    بازی را با اطلاعات اضافی غنی‌سازی و توضیحات آن را ترجمه می‌کند.
+    """
     for enricher in enrichers:
         game = await enricher.enrich_data(game)
     description = game.get('description')
@@ -40,7 +43,7 @@ async def main():
     bot = TelegramBot(token=TELEGRAM_BOT_TOKEN, db=db)
     translator = SmartTranslator()
 
-    # --- مرحله ۱: پردازش دستورات معلق کاربران (روش صحیح و پایدار) ---
+    # --- مرحله ۱: پردازش دستورات معلق کاربران ---
     await bot.process_pending_updates()
 
     # --- مرحله ۲: نمونه‌سازی و جمع‌آوری داده از تمام منابع ---
@@ -61,62 +64,77 @@ async def main():
         elif isinstance(result, Exception):
             logging.error(f"خطا در یکی از منابع داده: {result}")
 
-    # --- مرحله ۳: فیلتر کردن بازی‌های تکراری ---
-    unique_new_games = []
-    processed_urls = set()
+    # --- مرحله ۳: فیلتر کردن بازی‌های تکراری در بین تمام منابع یافت شده در این اجرا ---
+    # این لیست شامل تمام بازی‌های منحصر به فرد یافت شده در این اجرای فعلی است.
+    # این لیست مبنای غنی‌سازی و ترجمه قرار می‌گیرد.
+    current_run_unique_games = []
+    processed_urls_current_run = set()
     for game in all_games_raw:
         url = game.get('url')
-        if url and url not in processed_urls:
-            if not db.is_game_posted_in_last_30_days(url):
-                unique_new_games.append(game)
-            processed_urls.add(url)
+        if url and url not in processed_urls_current_run:
+            current_run_unique_games.append(game)
+            processed_urls_current_run.add(url)
 
-    if not unique_new_games:
-        logging.info("هیچ بازی جدیدی برای اطلاع‌رسانی یافت نشد.")
-        # اگر بازی جدیدی یافت نشد، هنوز هم باید فایل JSON را به‌روز کنیم تا نشان دهیم هیچ بازی جدیدی نیست.
-        # این کار از نمایش اطلاعات قدیمی جلوگیری می‌کند.
-        # بنابراین، بخش ذخیره JSON را به خارج از این شرط منتقل می‌کنیم.
-        # db.close() # این خط را از اینجا حذف می‌کنیم
-        # return # این خط را از اینجا حذف می‌کنیم
+    if not current_run_unique_games:
+        logging.info("هیچ بازی جدیدی در این اجرا یافت نشد.")
+        # اگر هیچ بازی جدیدی در این اجرا یافت نشد، فایل JSON را با لیست خالی به‌روز می‌کنیم.
+        output_dir = "web_data"
+        os.makedirs(output_dir, exist_ok=True)
+        output_file_path = os.path.join(output_dir, "free_games.json")
+        with open(output_file_path, 'w', encoding='utf-8') as f:
+            json.dump([], f, ensure_ascii=False, indent=4)
+        logging.info(f"✅ فایل {output_file_path} با لیست خالی به‌روز شد.")
+        db.close()
+        return
 
-    logging.info(f"✅ {len(unique_new_games)} بازی جدید برای پردازش یافت شد.")
+    logging.info(f"✅ {len(current_run_unique_games)} بازی منحصر به فرد در این اجرا یافت شد.")
 
-    # --- مرحله ۴: غنی‌سازی و ترجمه ---
+    # --- مرحله ۴: غنی‌سازی و ترجمه تمام بازی‌های منحصر به فرد یافت شده ---
     enrichers = [SteamEnricher(), MetacriticEnricher()]
-    enrich_tasks = [enrich_and_translate_game(game, enrichers, translator) for game in unique_new_games]
-    enriched_games = await asyncio.gather(*enrich_tasks)
-
-    # --- مرحله ۵: ارسال پیام‌ها (همانند قبل) ---
-    for game in enriched_games:
-        store_name = game.get('store', '').replace(' ', '').lower()
-        targets = db.get_targets_for_store(store_name)
-        
-        if not targets:
-            logging.warning(f"هیچ مشترکی برای فروشگاه '{store_name}' یافت نشد. از ارسال '{game['title']}' صرف نظر شد.")
-            continue
-
-        logging.info(f"📤 در حال ارسال پیام برای '{game['title']}' به {len(targets)} مقصد...")
-        send_tasks = [
-            bot.send_formatted_message(game_data=game, chat_id=chat_id, thread_id=thread_id)
-            for chat_id, thread_id in targets
-        ]
-        await asyncio.gather(*send_tasks, return_exceptions=True)
-        db.add_posted_game(game['url'])
-
-    # --- مرحله ۶: ذخیره داده‌های غنی‌شده در یک فایل JSON برای GitHub Pages ---
-    # این بخش باید همیشه اجرا شود، حتی اگر unique_new_games خالی باشد.
-    # این تضمین می‌کند که فایل free_games.json همیشه به‌روز باشد.
-    output_dir = "web_data"
-    os.makedirs(output_dir, exist_ok=True) # اطمینان از وجود دایرکتوری
-    output_file_path = os.path.join(output_dir, "free_games.json")
+    enrich_tasks = [enrich_and_translate_game(game, enrichers, translator) for game in current_run_unique_games]
     
-    # اگر unique_new_games خالی بود، یک لیست خالی ذخیره می‌کنیم
-    # در غیر این صورت، enriched_games را ذخیره می‌کنیم
-    data_to_save = enriched_games if unique_new_games else [] 
+    # این لیست شامل تمام بازی‌های منحصر به فرد و غنی‌شده در این اجرا است.
+    # این لیست برای GitHub Pages استفاده خواهد شد.
+    enriched_games_for_pages = await asyncio.gather(*enrich_tasks)
+    
+    # --- مرحله ۵: فیلتر کردن بازی‌ها برای ارسال به تلگرام (فقط بازی‌های جدید در ۳۰ روز گذشته) ---
+    games_to_post_to_telegram = []
+    for game in enriched_games_for_pages:
+        url = game.get('url')
+        if url and not db.is_game_posted_in_last_30_days(url):
+            games_to_post_to_telegram.append(game)
+        else:
+            logging.info(f"ℹ️ بازی '{game.get('title', 'نامشخص')}' قبلاً در ۳۰ روز گذشته پست شده بود یا URL ندارد. به تلگرام ارسال نمی‌شود.")
 
+    # --- مرحله ۶: ارسال پیام‌ها به تلگرام ---
+    if not games_to_post_to_telegram:
+        logging.info("هیچ بازی جدیدی برای ارسال به تلگرام (بر اساس فیلتر ۳۰ روز گذشته) یافت نشد.")
+    else:
+        logging.info(f"📤 {len(games_to_post_to_telegram)} بازی برای ارسال به تلگرام آماده است.")
+        for game in games_to_post_to_telegram:
+            store_name = game.get('store', '').replace(' ', '').lower()
+            targets = db.get_targets_for_store(store_name)
+            
+            if not targets:
+                logging.warning(f"هیچ مشترکی برای فروشگاه '{store_name}' یافت نشد. از ارسال '{game['title']}' صرف نظر شد.")
+                continue
+
+            logging.info(f"📤 در حال ارسال پیام برای '{game['title']}' به {len(targets)} مقصد...")
+            send_tasks = [
+                bot.send_formatted_message(game_data=game, chat_id=chat_id, thread_id=thread_id)
+                for chat_id, thread_id in targets
+            ]
+            await asyncio.gather(*send_tasks, return_exceptions=True)
+            db.add_posted_game(game['url']) # ثبت بازی پس از ارسال موفقیت‌آمیز
+
+    # --- مرحله ۷: ذخیره داده‌های غنی‌شده برای GitHub Pages ---
+    # این مرحله همیشه اجرا می‌شود تا فایل JSON برای وب‌سایت به‌روز باشد.
+    output_dir = "web_data"
+    os.makedirs(output_dir, exist_ok=True)
+    output_file_path = os.path.join(output_dir, "free_games.json")
     with open(output_file_path, 'w', encoding='utf-8') as f:
-        json.dump(data_to_save, f, ensure_ascii=False, indent=4)
-    logging.info(f"✅ داده‌های بازی‌های رایگان در {output_file_path} ذخیره شد.")
+        json.dump(enriched_games_for_pages, f, ensure_ascii=False, indent=4)
+    logging.info(f"✅ داده‌های بازی‌های رایگان برای GitHub Pages در {output_file_path} ذخیره شد.")
 
     db.close()
     logging.info("🏁 کار ربات با موفقیت به پایان رسید.")
