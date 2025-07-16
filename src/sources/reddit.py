@@ -48,6 +48,7 @@ class RedditSource:
                 soup = BeautifulSoup(html_content, 'html.parser')
                 
                 # پیدا کردن div اصلی محتوای پست (سلکتورها ممکن است نیاز به به‌روزرسانی داشته باشند)
+                # این سلکتورها بر اساس ساختار فعلی ردیت هستند و ممکن است تغییر کنند.
                 post_content_div = soup.find('div', class_='s19g0207-1') 
                 if not post_content_div:
                     post_content_div = soup.find('div', class_='_292iotee39Lmt0Q_h-B5N') 
@@ -97,8 +98,8 @@ class RedditSource:
                 (r"play\.google\.com", "google play"),
                 (r"store\.steampowered\.com", "steam"),
                 # Epic Games specific patterns, more specific first
-                (r"epicgames\.com/store/p/.*-android-", "google play"), 
-                (r"epicgames\.com/store/p/.*-ios-", "ios app store"),
+                (r"epicgames\.com/store/p/.*-android-", "google play"), # اگر لینک اپیک گیمز به اندروید اشاره دارد
+                (r"epicgames\.com/store/p/.*-ios-", "ios app store"),   # اگر لینک اپیک گیمز به iOS اشاره دارد
                 (r"epicgames\.com/store/p/", "epic games"), # General Epic Desktop, if not mobile
                 (r"gog\.com", "gog"),
                 (r"xbox\.com", "xbox"),
@@ -245,7 +246,8 @@ class RedditSource:
 
                 is_free = False
                 # تشخیص "رایگان" یا "تخفیف‌دار"
-                if "free" in text_around_link or "-> 0" in text_around_link or "--> 0" in text_around_link:
+                if "free" in text_around_link or "-> 0" in text_around_link or "--> 0" in text_around_link or "100% off" in text_around_link:
+                    # اگر "off" بود ولی 100% off یا free نبود، یعنی فقط تخفیف است
                     if "off" in text_around_link and "100% off" not in text_around_link and "free" not in text_around_link:
                         is_free = False # تخفیف عادی
                     else:
@@ -263,7 +265,7 @@ class RedditSource:
                     
                     item_description = parent_text_element.get_text(separator=' ', strip=True)
                     item_description = item_description.replace(item_title, '').replace(item_url, '').strip()
-                    if len(item_description) < 20:
+                    if len(item_description) < 20: # اگر توضیحات خیلی کوتاه بود، عنوان را به عنوان توضیحات در نظر بگیر
                         item_description = item_title
 
                     item_image_tag = parent_text_element.find('img', src=True)
@@ -284,7 +286,7 @@ class RedditSource:
                         logger.warning(f"⚠️ آیتم رایگان داخلی با عنوان خالی از AppHookup نادیده گرفته شد. URL: {item_url}")
                 else:
                     logger.debug(f"🔍 آیتم داخلی '{item_title}' از AppHookup رایگان نبود و نادیده گرفته شد.")
-            
+                
         return found_items
 
     async def fetch_free_games(self) -> List[Dict[str, Any]]:
@@ -296,7 +298,7 @@ class RedditSource:
             for subreddit_name, url in self.rss_urls.items():
                 logger.info(f"در حال اسکان فید RSS: {url} (ساب‌ردیت: {subreddit_name})...")
                 async with aiohttp.ClientSession() as session:
-                    headers = {'User-agent': 'GameBeaconBot/1.0'}
+                    headers = {'User-agent': 'GameBeaconBot/1.0'} # User-Agent برای درخواست‌های RSS
                     async with session.get(url, headers=headers) as response:
                         if response.status != 200:
                             logger.error(f"❌ خطا در دریافت فید {url}: Status {response.status}")
@@ -322,7 +324,10 @@ class RedditSource:
                             is_discounted_but_not_free = False
                             
                             # منطق تشخیص رایگان بودن/تخفیف‌دار بودن بر اساس کلمات کلیدی در عنوان
-                            if "free" in title_lower or "100% off" in title_lower or "100% discount" in title_lower:
+                            if subreddit_name == 'FreeGameFindings':
+                                is_truly_free = True # فرض می‌کنیم تمام پست‌ها از FreeGameFindings واقعاً رایگان هستند
+                                logger.debug(f"ℹ️ پست از FreeGameFindings به عنوان رایگان در نظر گرفته شد: {title_element.text}")
+                            elif "free" in title_lower or "100% off" in title_lower or "100% discount" in title_lower:
                                 is_truly_free = True
                             elif "off" in title_lower: # اگر کلمه "off" بود ولی "free" یا "100% off" نبود
                                 is_discounted_but_not_free = True

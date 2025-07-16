@@ -262,6 +262,46 @@
         const scrollToTopBtn = document.getElementById('scroll-to-top');
         const scrollToBottomBtn = document.getElementById('scroll-to-bottom');
 
+        // نگاشت نام‌های انگلیسی فروشگاه‌ها به نام‌های فارسی برای نمایش
+        const storeDisplayMap = {
+            "epic games": "اپیک گیمز (ویندوز)",
+            "steam": "استیم",
+            "google play": "گوگل پلی",
+            "epic games (android)": "اپیک گیمز (اندروید)", 
+            "epic games (ios)": "اپیک گیمز (iOS)", 
+            "ios app store": "اپ استور iOS",
+            "playstation": "پلی‌استیشن",
+            "xbox": "ایکس‌باکس",
+            "gog": "GOG",
+            "itch.io": "Itch.io",
+            "indiegala": "ایندی‌گالا",
+            "stove": "STOVE",
+            "other": "سایر فروشگاه‌ها",
+            "not free (discount)": "غیر رایگان (تخفیف)", 
+            "reddit": "ردیت (لینک مستقیم)" // اگر لینک permalink ردیت URL نهایی باشد
+        };
+
+        // ترتیب نمایش دلخواه فروشگاه‌ها
+        const storeDisplayOrder = [
+            "همه فروشگاه‌ها", // این گزینه همیشه اول است
+            "اپیک گیمز (ویندوز)",
+            "استیم",
+            "گوگل پلی",
+            "اپیک گیمز (اندروید)",
+            "اپیک گیمز (iOS)",
+            "اپ استور iOS",
+            "پلی‌استیشن",
+            "ایکس‌باکس",
+            "GOG",
+            "Itch.io",
+            "ایندی‌گالا",
+            "STOVE",
+            "سایر فروشگاه‌ها",
+            "ردیت (لینک مستقیم)",
+            "غیر رایگان (تخفیف)"
+        ];
+
+
         // Function to set the theme
         function setTheme(isDark) {
             if (isDark) {
@@ -336,6 +376,9 @@
                 // Placeholder image if image_url is missing or broken
                 const imageUrl = game.image_url || `https://placehold.co/600x338/374151/D1D5DB?text=${encodeURIComponent(game.title || 'تصویر موجود نیست').replace(/'/g, "%27")}`;
                 
+                // استفاده از نام فارسی فروشگاه برای نمایش
+                const displayStoreName = storeDisplayMap[game.store.toLowerCase()] || game.store;
+                
                 // Format scores and genres
                 const metacriticScore = game.metacritic_score ? `<p class="text-sm text-gray-300"><i class="fas fa-star text-yellow-400"></i> <span class="font-semibold">متاکریتیک (منتقدان):</span> ${game.metacritic_score}/100</p>` : '';
                 const metacriticUserScore = game.metacritic_userscore ? `<p class="text-sm text-gray-300"><i class="fas fa-users text-green-400"></i> <span class="font-semibold">متاکریتیک (کاربران):</span> ${game.metacritic_userscore}/10</p>` : '';
@@ -368,7 +411,7 @@
                     <img src="${imageUrl}" alt="${game.title || 'تصویر بازی'}">
                     <div class="p-4 flex flex-col flex-grow">
                         <h2 class="font-bold text-white mb-2">${game.title || 'بدون عنوان'}</h2>
-                        <p class="text-gray-400 mb-3">فروشگاه: <span class="font-medium text-purple-300">${game.store || 'نامشخص'}</span></p>
+                        <p class="text-gray-400 mb-3">فروشگاه: <span class="font-medium text-purple-300">${displayStoreName}</span></p>
                         <p class="text-gray-300 mb-4 description-text">${displayDescription}</p>
                         <div class="mt-auto pt-3 border-t border-gray-600 space-y-1">
                             ${metacriticScore}
@@ -460,16 +503,40 @@
                     return;
                 }
 
-                // Populate store filter options
-                const uniqueStores = [...new Set(allGames.map(game => game.store))].sort();
-                uniqueStores.forEach(store => {
-                    if (store && store !== 'نامشخص') {
-                        const option = document.createElement('option');
-                        option.value = store.toLowerCase().replace(/\s/g, '');
-                        option.textContent = store;
-                        storeFilter.appendChild(option);
+                // Populate store filter options with custom order and Persian names
+                const uniqueStores = [...new Set(allGames.map(game => game.store))].filter(Boolean); // Filter out null/undefined stores
+                
+                // ایجاد یک آرایه از اشیاء { englishName, persianName }
+                const mappedStores = uniqueStores.map(store => ({
+                    englishName: store,
+                    persianName: storeDisplayMap[store.toLowerCase()] || store // Fallback به نام انگلیسی در صورت عدم نگاشت
+                }));
+
+                // مرتب‌سازی mappedStores بر اساس storeDisplayOrder
+                mappedStores.sort((a, b) => {
+                    const indexA = storeDisplayOrder.indexOf(a.persianName);
+                    const indexB = storeDisplayOrder.indexOf(b.persianName);
+                    
+                    // اگر هر دو فروشگاه در ترتیب از پیش تعریف شده نباشند، بر اساس حروف الفبا مرتب کن
+                    if (indexA === -1 && indexB === -1) {
+                        return a.persianName.localeCompare(b.persianName, 'fa', { sensitivity: 'base' });
                     }
+                    // فروشگاه‌های ناشناخته را در انتها قرار بده
+                    if (indexA === -1) return 1; 
+                    if (indexB === -1) return -1;
+                    
+                    return indexA - indexB;
                 });
+
+                // اضافه کردن گزینه‌ها به فیلتر
+                // گزینه "همه فروشگاه‌ها" از قبل در HTML وجود دارد و نیازی به اضافه کردن مجدد نیست.
+                mappedStores.forEach(storeObj => {
+                    const option = document.createElement('option');
+                    option.value = storeObj.englishName.toLowerCase().replace(/\s/g, ''); // مقدار همچنان انگلیسی برای منطق فیلترینگ
+                    option.textContent = storeObj.persianName; // نمایش نام فارسی
+                    storeFilter.appendChild(option);
+                });
+
 
                 // Initialize column layout from local storage or default to 3
                 const savedColumns = localStorage.getItem('selectedColumns');
