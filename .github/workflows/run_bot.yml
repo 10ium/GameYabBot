@@ -26,14 +26,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-
+      
       - name: Run the bot script
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: |
+          # این دستور اطمینان می‌دهد که دایرکتوری web_data وجود دارد قبل از اینکه اسکریپت پایتون سعی کند فایلی در آن بنویسد.
+          # اگرچه اسکریپت پایتون هم os.makedirs(exist_ok=True) دارد، این یک لایه اطمینان اضافی است.
+          mkdir -p web_data 
           python src/main.py
-          # اطمینان از وجود دایرکتوری web_data قبل از کامیت (اگر اسکریپت پایتون آن را ایجاد نکند)
-          mkdir -p web_data
 
       - name: Commit database and web data changes
         uses: stefanzweifel/git-auto-commit-action@v5
@@ -41,7 +42,7 @@ jobs:
           commit_message: "chore: Update games database and web data"
           file_pattern: |
             data/games.db
-            web_data/free_games.json # اضافه شده: برای کامیت فایل JSON
+            web_data/free_games.json # این خط باید دقیقاً همین باشد
           commit_user_name: Rayegan Game Bot
           commit_user_email: actions@github.com
           commit_author: Rayegan Game Bot <actions@github.com>

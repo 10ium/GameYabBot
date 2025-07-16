@@ -1,7 +1,7 @@
 import os
 import asyncio
 import logging
-import json # اضافه شده: برای کار با JSON
+import json # اطمینان حاصل کنید که این خط وجود دارد
 from typing import List, Dict, Any
 
 from core.database import Database
@@ -73,12 +73,11 @@ async def main():
 
     if not unique_new_games:
         logging.info("هیچ بازی جدیدی برای اطلاع‌رسانی یافت نشد.")
-        # اگر بازی جدیدی نبود، باز هم ممکن است نیاز به به‌روزرسانی فایل JSON برای وب‌سایت باشد
-        # تا وضعیت "هیچ بازی جدیدی" را منعکس کند یا بازی‌های قدیمی‌تر را نمایش دهد.
-        # برای سادگی، در این مثال، اگر بازی جدیدی نباشد، فایل JSON به‌روز نمی‌شود.
-        # اگر می‌خواهید همیشه JSON به‌روز شود (حتی با لیست خالی)، این خط را جابجا کنید.
-        db.close()
-        return
+        # اگر بازی جدیدی یافت نشد، هنوز هم باید فایل JSON را به‌روز کنیم تا نشان دهیم هیچ بازی جدیدی نیست.
+        # این کار از نمایش اطلاعات قدیمی جلوگیری می‌کند.
+        # بنابراین، بخش ذخیره JSON را به خارج از این شرط منتقل می‌کنیم.
+        # db.close() # این خط را از اینجا حذف می‌کنیم
+        # return # این خط را از اینجا حذف می‌کنیم
 
     logging.info(f"✅ {len(unique_new_games)} بازی جدید برای پردازش یافت شد.")
 
@@ -105,11 +104,18 @@ async def main():
         db.add_posted_game(game['url'])
 
     # --- مرحله ۶: ذخیره داده‌های غنی‌شده در یک فایل JSON برای GitHub Pages ---
+    # این بخش باید همیشه اجرا شود، حتی اگر unique_new_games خالی باشد.
+    # این تضمین می‌کند که فایل free_games.json همیشه به‌روز باشد.
     output_dir = "web_data"
     os.makedirs(output_dir, exist_ok=True) # اطمینان از وجود دایرکتوری
     output_file_path = os.path.join(output_dir, "free_games.json")
+    
+    # اگر unique_new_games خالی بود، یک لیست خالی ذخیره می‌کنیم
+    # در غیر این صورت، enriched_games را ذخیره می‌کنیم
+    data_to_save = enriched_games if unique_new_games else [] 
+
     with open(output_file_path, 'w', encoding='utf-8') as f:
-        json.dump(enriched_games, f, ensure_ascii=False, indent=4)
+        json.dump(data_to_save, f, ensure_ascii=False, indent=4)
     logging.info(f"✅ داده‌های بازی‌های رایگان در {output_file_path} ذخیره شد.")
 
     db.close()
