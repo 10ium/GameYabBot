@@ -14,6 +14,34 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
+# تابع تمیز کردن عنوان را از enricherها قرض می‌گیریم تا در اینجا هم استفاده شود
+# این کار به ما کمک می‌کند تا عنوان تمیزتری را به enricherها بفرستیم
+def _clean_title_for_search_common(title: str) -> str:
+    """
+    عنوان بازی را برای جستجو در APIهای خارجی تمیز می‌کند.
+    حذف عبارات مانند (Game), ($X -> Free), [Platform] و سایر جزئیات اضافی.
+    """
+    # حذف عبارات براکتی (مانند [Windows], [Multi-Platform], [iOS])
+    cleaned_title = re.sub(r'\[.*?\]', '', title).strip()
+    
+    # حذف عبارات پرانتزی مربوط به قیمت یا وضعیت (مانند ($X -> Free), (X% off), (Free))
+    cleaned_title = re.sub(r'\s*\(\$.*?->\s*Free\)', '', cleaned_title, flags=re.IGNORECASE).strip()
+    cleaned_title = re.sub(r'\s*\(\d+%\s*off\)', '', cleaned_title, flags=re.IGNORECASE).strip()
+    cleaned_title = re.sub(r'\s*\(\s*free\s*\)', '', cleaned_title, flags=re.IGNORECASE).strip()
+    cleaned_title = re.sub(r'\s*\(\s*game\s*\)', '', cleaned_title, flags=re.IGNORECASE).strip() # حذف (Game)
+    cleaned_title = re.sub(r'\s*\(\s*app\s*\)', '', cleaned_title, flags=re.IGNORECASE).strip() # حذف (App)
+
+    # حذف عبارات مربوط به قیمت و تخفیف که ممکن است در عنوان باقی مانده باشند
+    cleaned_title = re.sub(r'\b(CA\$|€|\$)\d+(\.\d{1,2})?\s*→\s*Free\b', '', cleaned_title, flags=re.IGNORECASE).strip()
+    cleaned_title = re.sub(r'\b\d+(\.\d{1,2})?\s*-->\s*0\b', '', cleaned_title, flags=re.IGNORECASE).strip()
+    cleaned_title = re.sub(r'\b\d+(\.\d{1,2})?\s*to\s*free\s*lifetime\b', '', cleaned_title, flags=re.IGNORECASE).strip() # برای AppHookup
+    
+    # حذف هرگونه فاصله اضافی
+    cleaned_title = re.sub(r'\s+', ' ', cleaned_title).strip()
+    
+    return cleaned_title
+
+
 class RedditSource:
     def __init__(self):
         self.subreddits = [
@@ -52,11 +80,9 @@ class RedditSource:
             
             url = link_tag['href']
             
-            # استخراج توضیحات: متن اصلی پست (معمولاً در div.md)
             description_tag = soup.find('div', class_='md')
             description = description_tag.get_text(strip=True) if description_tag else ""
 
-            # استخراج تصویر: اولین تگ img در محتوا
             image_tag = soup.find('img', src=True)
             image_url = image_tag['src'] if image_tag else None
 
@@ -78,10 +104,12 @@ class RedditSource:
                 elif "indiegala" in platform_str: store = "indiegala"
                 elif "itch.io" in platform_str or "itchio" in platform_str: store = "itch.io"
                 elif "android" in platform_str or "googleplay" in platform_str or "google play" in platform_str or "apps" in platform_str:
+                    # اگر در عنوان اشاره به اندروید/گوگل پلی/اپس بود، URL را برای تایید نهایی بررسی کن
                     if "play.google.com" in url: store = "google play"
                     elif "apps.apple.com" in url: store = "ios app store"
                     else: store = "google play" # پیش‌فرض برای اپ‌های اندروید
                 elif "ios" in platform_str or "apple" in platform_str:
+                    # اگر در عنوان اشاره به iOS/اپل بود، URL را برای تایید نهایی بررسی کن
                     if "apps.apple.com" in url: store = "ios app store"
                     elif "play.google.com" in url: store = "google play"
                     else: store = "ios app store" # پیش‌فرض برای اپ‌های iOS
@@ -101,6 +129,7 @@ class RedditSource:
                     else: store = "other"
             
             # 2. اگر هنوز نام فروشگاه عمومی بود، تلاش برای حدس زدن از URL اصلی
+            # این بخش را فقط اگر store هنوز 'other' یا 'apps' یا 'نامشخص' است، اجرا می‌کنیم.
             if store in ['other', 'نامشخص', 'apps']:
                 if "play.google.com" in url: store = "google play"
                 elif "apps.apple.com" in url: store = "ios app store"
@@ -112,12 +141,8 @@ class RedditSource:
                 elif "indiegala.com" in url: store = "indiegala"
                 elif "onstove.com" in url: store = "stove"
             
-            # تمیز کردن عنوان: حذف تمام بخش‌های براکتی و عبارات اضافی
-            clean_title = re.sub(r'\[[^\]]+\]', '', raw_title).strip()
-            clean_title = re.sub(r'\(game\)', '', clean_title, flags=re.IGNORECASE).strip()
-            clean_title = re.sub(r'\(\$.*?-> Free\)', '', clean_title, flags=re.IGNORECASE).strip()
-            clean_title = re.sub(r'\(\d+%\s*off\)', '', clean_title, flags=re.IGNORECASE).strip()
-            clean_title = re.sub(r'\(\s*free\s*\)', '', clean_title, flags=re.IGNORECASE).strip()
+            # تمیز کردن عنوان با استفاده از تابع مشترک
+            clean_title = _clean_title_for_search_common(raw_title)
             
             if not clean_title:
                 clean_title = raw_title.strip()
@@ -168,8 +193,7 @@ class RedditSource:
                     elif "indiegala.com" in item_url: store = "indiegala"
                     elif "onstove.com" in item_url: store = "stove"
                     
-                    item_description = parent_text_element.get_text(separator=' ', strip=True) # استفاده از separator برای حفظ فاصله
-                    # حذف عنوان و لینک از توضیحات
+                    item_description = parent_text_element.get_text(separator=' ', strip=True)
                     item_description = item_description.replace(item_title, '').replace(item_url, '').strip()
                     if len(item_description) < 20:
                         item_description = item_title
@@ -179,7 +203,7 @@ class RedditSource:
                     
                     if item_title:
                         found_items.append({
-                            "title": item_title,
+                            "title": _clean_title_for_search_common(item_title), # تمیز کردن عنوان آیتم داخلی
                             "store": store,
                             "url": item_url,
                             "image_url": item_image_url,
@@ -200,7 +224,7 @@ class RedditSource:
 
         try:
             for subreddit_name, url in self.rss_urls.items():
-                logger.info(f"در حال اسکن فید RSS: {url} (ساب‌ردیت: {subreddit_name})...")
+                logger.info(f"در حال اسکان فید RSS: {url} (ساب‌ردیت: {subreddit_name})...")
                 async with aiohttp.ClientSession() as session:
                     headers = {'User-agent': 'GameBeaconBot/1.0'}
                     async with session.get(url, headers=headers) as response:
@@ -237,7 +261,7 @@ class RedditSource:
                                     is_free_game = True
                             
                             elif subreddit_name == 'googleplaydeals' or subreddit_name == 'AppHookup':
-                                keywords = ['free', '100% off', '100% discount', 'free lifetime'] # اضافه شدن 'free lifetime'
+                                keywords = ['free', '100% off', '100% discount', 'free lifetime']
                                 if any(keyword in title_lower for keyword in keywords):
                                     is_free_game = True
                                 
@@ -251,7 +275,7 @@ class RedditSource:
                                             logger.info(f"✅ آیتم رایگان از لیست 'Weekly Deals' ({item['subreddit']}) یافت شد: {item['title']} (فروشگاه: {item['store']})")
                                     continue
 
-                            else: # برای سایر ساب‌ردیت‌ها (مثل GameDeals)
+                            else:
                                 keywords = ['free', '100% off', '100% discount']
                                 if any(keyword in title_lower for keyword in keywords):
                                     is_free_game = True

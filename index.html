@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>بازی‌های رایگان رایگان</title>
+    <!-- Favicon (using an external URL) -->
+    <link rel="icon" type="image/x-icon" href="https://www.flaticon.com/svg/v2/icons/svg/3408/3408544.svg">
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Vazirmatn Font from Google Fonts -->
@@ -223,11 +225,11 @@
                 gameCard.className = 'game-card bg-gray-700 rounded-xl shadow-lg overflow-hidden flex flex-col transform hover:scale-105 transition duration-300 ease-in-out';
 
                 // Placeholder image if image_url is missing or broken
-                const imageUrl = game.image_url || `https://placehold.co/600x338/374151/D1D5DB?text=${encodeURIComponent(game.title || 'تصویر موجود نیست')}`;
-
+                const imageUrl = game.image_url || `https://placehold.co/600x338/374151/D1D5DB?text=${encodeURIComponent(game.title || 'تصویر موجود نیست')}';">
+                
                 // Format scores and genres
-                const metacriticScore = game.metacritic_score ? `<p class="text-sm text-gray-300"><i class="fas fa-star text-yellow-400"></i> <span class="font-semibold">متاکریتیک:</span> ${game.metacritic_score}/100</p>` : '';
-                const metacriticUserScore = game.metacritic_userscore ? `<p class="text-sm text-gray-300"><i class="fas fa-users text-green-400"></i> <span class="font-semibold">کاربران متاکریتیک:</span> ${game.metacritic_userscore}/10</p>` : '';
+                const metacriticScore = game.metacritic_score ? `<p class="text-sm text-gray-300"><i class="fas fa-star text-yellow-400"></i> <span class="font-semibold">متاکریتیک (منتقدان):</span> ${game.metacritic_score}/100</p>` : '';
+                const metacriticUserScore = game.metacritic_userscore ? `<p class="text-sm text-gray-300"><i class="fas fa-users text-green-400"></i> <span class="font-semibold">متاکریتیک (کاربران):</span> ${game.metacritic_userscore}/10</p>` : '';
                 const steamScore = game.steam_score ? `<p class="text-sm text-gray-300"><i class="fab fa-steam text-blue-400"></i> <span class="font-semibold">استیم:</span> ${game.steam_score}% (${game.steam_reviews_count || 0} رای)</p>` : '';
                 const genres = game.genres && game.genres.length > 0 ? `<p class="text-sm text-gray-300"><i class="fas fa-tags text-pink-400"></i> <span class="font-semibold">ژانرها:</span> ${game.genres.join(', ')}</p>` : '';
                 const trailerLink = game.trailer ? `<a href="${game.trailer}" target="_blank" class="text-blue-400 hover:underline text-sm mt-2 block"><i class="fas fa-film"></i> مشاهده تریلر</a>` : '';

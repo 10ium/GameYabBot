@@ -6,7 +6,6 @@ from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandl
 from telegram.constants import ParseMode
 from telegram.error import TelegramError
 
-# فرض بر این است که فایل database.py در همان دایرکتوری قرار دارد
 from .database import Database 
 
 logging.basicConfig(
@@ -53,22 +52,22 @@ class TelegramBot:
         store = self._escape_markdown_v2(game_data.get('store', 'نامشخص'))
         url = game_data.get('url', '')
         
-        # استفاده از Persian Summary اگر موجود باشد، در غیر این صورت Description
         summary_to_use = game_data.get('persian_summary') or game_data.get('description')
         summary_text = ""
         if summary_to_use:
-            # خلاصه داستان را به 250 کاراکتر محدود می‌کند
-            if len(summary_to_use) > 250:
+            if len(summary_to_use) > 250: # کوتاه کردن برای تلگرام
                 summary_to_use = summary_to_use[:250] + "..."
             summary_text = f"\n📝 *خلاصه داستان:*\n_{self._escape_markdown_v2(summary_to_use)}_\n"
         
         scores_parts = []
         if game_data.get('metacritic_score'):
-            scores_parts.append(f"⭐ *Metacritic:* {game_data['metacritic_score']}/100")
-        if game_data.get('metacritic_userscore'): # اضافه شده
-            scores_parts.append(f"👥 *کاربران Metacritic:* {game_data['metacritic_userscore']}/10")
-        if game_data.get('steam_score'):
-            scores_parts.append(f"👍 *Steam:* {game_data['steam_score']}% \\({game_data.get('steam_reviews_count', 0)} رای\\)")
+            scores_parts.append(f"⭐ *Metacritic (منتقدان):* {game_data['metacritic_score']}/100") # تغییر متن
+        if game_data.get('metacritic_userscore'):
+            scores_parts.append(f"👥 *Metacritic (کاربران):* {game_data['metacritic_userscore']}/10")
+        if game_data.get('steam_overall_score'): # نمره کلی استیم
+            scores_parts.append(f"👍 *Steam (کلی):* {game_data['steam_overall_score']}% \\({game_data.get('steam_overall_reviews_count', 0)} رای\\)")
+        if game_data.get('steam_recent_score'): # نمره اخیر استیم
+            scores_parts.append(f"🔥 *Steam (اخیر):* {game_data['steam_recent_score']}% \\({game_data.get('steam_recent_reviews_count', 0)} رای\\)")
         
         scores_text = "\n".join(scores_parts)
         if scores_text:
@@ -78,7 +77,6 @@ class TelegramBot:
         if game_data.get('genres'):
             details_parts.append(f"🔸 *ژانر:* {self._escape_markdown_v2(', '.join(game_data['genres']))}")
         
-        # اطلاعات تعداد بازیکنان و آنلاین/آفلاین
         player_info = ""
         if game_data.get('is_multiplayer') and game_data.get('is_online'):
             player_info = "چندنفره (آنلاین)"
@@ -163,7 +161,7 @@ class TelegramBot:
             logger.info(f"✅ اشتراک جدید برای chat_id={chat_id}, thread_id={thread_id}, store='all' ثبت شد.")
             await update.message.reply_text("سلام! من ربات گیم رایگان هستم. شما به طور خودکار برای دریافت تمام اعلان‌ها مشترک شدید.\nبرای مشاهده لیست کامل دستورات /help را ارسال کنید.")
         else:
-            logger.info(f"ℹ️ اشتراک برای chat_id={chat_id}, thread_id={thread_id}, store='all' از قبل وجود داشت.")
+            logger.info(f"ℹ️ اشتراک برای chat_id={chat_id}, thread_id={thread_id} از قبل وجود داشت.")
             await update.message.reply_text("سلام! شما از قبل مشترک هستید. برای مشاهده لیست کامل دستورات /help را ارسال کنید.")
 
 

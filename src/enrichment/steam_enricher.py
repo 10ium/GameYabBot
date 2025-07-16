@@ -19,19 +19,24 @@ class SteamEnricher:
         عنوان بازی را برای جستجو در APIهای خارجی تمیز می‌کند.
         حذف عبارات مانند (Game), ($X -> Free), [Platform] و سایر جزئیات اضافی.
         """
-        # حذف عبارات براکتی مانند [Windows], [Multi-Platform]
-        cleaned_title = re.sub(r'\[[^\]]+\]', '', title).strip()
-        # حذف عبارات پرانتزی خاص مانند (Game), ($X -> Free), (X% off), (Free)
-        cleaned_title = re.sub(r'\s*\(game\)', '', cleaned_title, flags=re.IGNORECASE).strip()
-        cleaned_title = re.sub(r'\s*\(\$.*?-> Free\)', '', cleaned_title, flags=re.IGNORECASE).strip()
+        # حذف عبارات براکتی (مانند [Windows], [Multi-Platform], [iOS])
+        cleaned_title = re.sub(r'\[.*?\]', '', title).strip()
+        
+        # حذف عبارات پرانتزی مربوط به قیمت یا وضعیت (مانند ($X -> Free), (X% off), (Free))
+        cleaned_title = re.sub(r'\s*\(\$.*?->\s*Free\)', '', cleaned_title, flags=re.IGNORECASE).strip()
         cleaned_title = re.sub(r'\s*\(\d+%\s*off\)', '', cleaned_title, flags=re.IGNORECASE).strip()
         cleaned_title = re.sub(r'\s*\(\s*free\s*\)', '', cleaned_title, flags=re.IGNORECASE).strip()
+        cleaned_title = re.sub(r'\s*\(\s*game\s*\)', '', cleaned_title, flags=re.IGNORECASE).strip() # حذف (Game)
+        cleaned_title = re.sub(r'\s*\(\s*app\s*\)', '', cleaned_title, flags=re.IGNORECASE).strip() # حذف (App)
+        
         # حذف عبارات مربوط به قیمت و تخفیف که ممکن است در عنوان باقی مانده باشند
         cleaned_title = re.sub(r'\b(CA\$|€|\$)\d+(\.\d{1,2})?\s*→\s*Free\b', '', cleaned_title, flags=re.IGNORECASE).strip()
         cleaned_title = re.sub(r'\b\d+(\.\d{1,2})?\s*-->\s*0\b', '', cleaned_title, flags=re.IGNORECASE).strip()
+        cleaned_title = re.sub(r'\b\d+(\.\d{1,2})?\s*to\s*free\s*lifetime\b', '', cleaned_title, flags=re.IGNORECASE).strip() # برای AppHookup
         
         # حذف هرگونه فاصله اضافی
         cleaned_title = re.sub(r'\s+', ' ', cleaned_title).strip()
+        
         return cleaned_title
 
     async def _find_app_id(self, session: aiohttp.ClientSession, game_title: str) -> Optional[str]:
@@ -66,20 +71,29 @@ class SteamEnricher:
                 if not app_id:
                     return game_info
                 
+                game_info['steam_app_id'] = app_id 
+
                 details_task = asyncio.create_task(
                     session.get(self.DETAILS_API_URL, params={'appids': app_id, 'l': 'english'})
                 )
-                reviews_task = asyncio.create_task(
-                    session.get(self.REVIEWS_API_URL.format(appid=app_id), params={'json': '1'})
+                # درخواست برای نمرات کلی
+                reviews_overall_task = asyncio.create_task(
+                    session.get(self.REVIEWS_API_URL.format(appid=app_id), params={'json': '1', 'filter': 'all'})
                 )
-                details_response, reviews_response = await asyncio.gather(details_task, reviews_task)
+                # درخواست برای نمرات اخیر
+                reviews_recent_task = asyncio.create_task(
+                    session.get(self.REVIEWS_API_URL.format(appid=app_id), params={'json': '1', 'filter': 'recent'})
+                )
+                
+                details_response, reviews_overall_response, reviews_recent_response = await asyncio.gather(
+                    details_task, reviews_overall_task, reviews_recent_task
+                )
                 
                 if details_response.status == 200:
                     details_data = await details_response.json()
                     if details_data.get(app_id, {}).get('success'):
                         game_details = details_data[app_id]['data']
                         
-                        # اطلاعات کلی
                         if 'genres' in game_details:
                             game_info['genres'] = [genre['description'] for genre in game_details['genres']]
                         if 'movies' in game_details:
@@ -89,7 +103,6 @@ class SteamEnricher:
                         if 'header_image' in game_details:
                             game_info['image_url'] = game_details['header_image']
                         
-                        # توضیحات: اول short_description را امتحان می‌کنیم، اگر نبود about_the_game
                         if 'short_description' in game_details and game_details['short_description'].strip():
                             clean_description = re.sub(r'<[^>]+>', '', game_details['short_description'])
                             game_info['description'] = clean_description.strip()
@@ -97,7 +110,6 @@ class SteamEnricher:
                             clean_description = re.sub(r'<[^>]+>', '', game_details['about_the_game'])
                             game_info['description'] = clean_description.strip()
 
-                        # اطلاعات چند نفره/آنلاین
                         game_info['is_multiplayer'] = False
                         game_info['is_online'] = False
                         if 'categories' in game_details:
@@ -108,21 +120,37 @@ class SteamEnricher:
                                 if 'online' in desc or 'internet' in desc or 'mmo' in desc:
                                     game_info['is_online'] = True
                                 
-                if reviews_response.status == 200:
-                    reviews_data = await reviews_response.json()
+                # پردازش نمرات کلی Steam
+                if reviews_overall_response.status == 200:
+                    reviews_data = await reviews_overall_response.json()
                     if reviews_data.get('success'):
                         summary = reviews_data.get('query_summary', {})
                         total_reviews = summary.get('total_reviews', 0)
                         if total_reviews > 5:
                             positive_reviews = summary.get('total_positive', 0)
                             score_percent = round((positive_reviews / total_reviews) * 100)
-                            game_info['steam_score'] = score_percent
-                            game_info['steam_reviews_count'] = total_reviews
-                            logging.info(f"نمره Steam برای '{game_title}' یافت شد: {score_percent}% ({total_reviews} رای)")
+                            game_info['steam_overall_score'] = score_percent
+                            game_info['steam_overall_reviews_count'] = total_reviews
+                            logging.info(f"نمره کلی Steam برای '{game_title}' یافت شد: {score_percent}% ({total_reviews} رای)")
                         else:
-                            logging.info(f"تعداد رای‌های Steam برای '{game_title}' کافی نیست ({total_reviews}).")
+                            logging.info(f"تعداد رای‌های کلی Steam برای '{game_title}' کافی نیست ({total_reviews}).")
                 
-            if 'steam_score' in game_info or 'genres' in game_info or 'image_url' in game_info or 'description' in game_info:
+                # پردازش نمرات اخیر Steam
+                if reviews_recent_response.status == 200:
+                    reviews_data = await reviews_recent_response.json()
+                    if reviews_data.get('success'):
+                        summary = reviews_data.get('query_summary', {})
+                        total_reviews = summary.get('total_reviews', 0)
+                        if total_reviews > 5:
+                            positive_reviews = summary.get('total_positive', 0)
+                            score_percent = round((positive_reviews / total_reviews) * 100)
+                            game_info['steam_recent_score'] = score_percent
+                            game_info['steam_recent_reviews_count'] = total_reviews
+                            logging.info(f"نمره اخیر Steam برای '{game_title}' یافت شد: {score_percent}% ({total_reviews} رای)")
+                        else:
+                            logging.info(f"تعداد رای‌های اخیر Steam برای '{game_title}' کافی نیست ({total_reviews}).")
+
+            if 'steam_overall_score' in game_info or 'steam_recent_score' in game_info or 'genres' in game_info or 'image_url' in game_info or 'description' in game_info:
                 logging.info(f"اطلاعات '{game_title}' با موفقیت از استیم غنی‌سازی شد.")
             else:
                 logging.warning(f"غنی‌سازی اطلاعات برای '{game_title}' از استیم کامل نبود.")
