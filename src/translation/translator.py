@@ -1,7 +1,7 @@
 import logging
 import asyncio
 from typing import Optional
-from deep_translator import GoogleTranslator, MyMemoryTranslator # DeepLTranslator
+#from deep_translator import GoogleTranslator, MyMemoryTranslator # DeepLTranslator
 import random
 
 logging.basicConfig(
