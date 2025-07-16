@@ -26,26 +26,31 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
-      - name: Run the bot script
+      - name: Run the bot script and commit changes
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }} # اختیاری
         run: |
-          # این دستور اطمینان می‌دهد که دایرکتوری web_data وجود دارد.
+          # اطمینان از وجود دایرکتوری web_data
           mkdir -p web_data 
+          
+          # اجرای اسکریپت اصلی ربات
           python src/main.py
-          # اضافه کردن صریح فایل JSON به منطقه staging گیت.
-          # این تضمین می‌کند که حتی اگر محتوای فایل تغییر نکرده باشد، گیت آن را برای کامیت در نظر بگیرد.
-          git add web_data/free_games.json 
 
-      - name: Commit database and web data changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: Update games database and web data"
-          # file_pattern همچنان برای data/games.db و اطمینان از ردیابی web_data/free_games.json مفید است.
-          file_pattern: |
-            data/games.db
-            web_data/free_games.json 
-          commit_user_name: Rayegan Game Bot
-          commit_user_email: actions@github.com
-          commit_author: Rayegan Game Bot <actions@github.com>
+          # تنظیمات Git برای کامیت
+          git config user.name "Rayegan Game Bot"
+          git config user.email "actions@github.com"
+          
+          # اضافه کردن فایل‌ها به منطقه staging گیت
+          # --force برای اطمینان از اضافه شدن حتی اگر محتوا تغییر نکرده باشد
+          git add --force data/games.db web_data/free_games.json 
+          
+          # بررسی اینکه آیا چیزی برای کامیت وجود دارد یا خیر (حتی اگر --force استفاده شده باشد)
+          # این شرط برای جلوگیری از ایجاد کامیت‌های خالی است
+          if git diff --staged --quiet; then
+            echo "No changes to commit (after staging). Skipping commit."
+          else
+            git commit -m "chore: Update games database and web data"
+            # Push changes to the repository
+            git push
+          fi
