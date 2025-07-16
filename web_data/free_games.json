@@ -3,23 +3,11 @@
         "title": "Metal Slug 3",
         "store": "xbox",
         "url": "https://www.xbox.com/he-IL/games/store/metal-slug-3/BZHS2XCVV5T3/0001",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250180/header.jpg?t=1727159336",
-        "description": "“METAL SLUG 3”, the masterpiece in SNK’s emblematic 2D run &amp; gun action shooting game series, still continues to fascinate millions of fans worldwide to this day for its intricate dot-pixel graphics, and simple and intuitive game controls, heads out to the Steam gaming platform!",
+        "image_url": null,
+        "description": "",
         "id_in_db": "t3_1m028s6",
         "subreddit": "FreeGameFindings",
-        "steam_app_id": "250180",
-        "genres": [
-            "Action"
-        ],
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/2030803/movie_max.mp4?t=1447360214",
-        "is_multiplayer": true,
-        "is_online": true,
-        "steam_overall_score": 89,
-        "steam_overall_reviews_count": 2418,
-        "steam_recent_score": 89,
-        "steam_recent_reviews_count": 2418,
-        "metacritic_userscore": 7.0,
-        "persian_summary": "\"Metal Slug 3\" ، شاهکار در سری بازی های تیراندازی اکشن 2D Run & Gun Emblematic SNK ، هنوز هم به دلیل گرافیک های پیچیده نقطه پیکسل ، و کنترل های ساده و بصری بازی ، میلیون ها نفر از طرفداران در سراسر جهان را مجذوب خود می کند ، به سمت سکوی بازی Steam می رود!"
+        "metacritic_userscore": 7.0
     },
     {
         "title": "MAD? FROGG",
@@ -191,51 +179,21 @@
     {
         "title": "Figment 2: Creed Valley",
         "store": "epic games",
-        "url": "https://store.steampowered.com/app/1085220/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085220/header.jpg?t=1729500878",
-        "description": "Figment 2: Creed Valley is an action-adventure game set in the human mind. Face bosses in musical showdowns, make your way through puzzles, and explore unique environments.",
+        "url": "https://www.reddit.com/r/FreeGameFindings/comments/1lwewzr/epic_games_mobile_game_figment_2_creed_valley/",
+        "image_url": null,
+        "description": "📝Transactions Page(To see if you claimed or not)⏩ Instant Checkout (Login toEpic Gamesfirst to use)ItemInstant Checkout🎮CLAIM ALLAndroid & iOS🎮Figment 2: Creed Valley﻿Android／iOS🎮 Figment 2: Creed Valley｜Android／iOS⌛ Rating／⛔ Blacklist｜None",
         "id_in_db": "t3_1lwewzr",
         "subreddit": "FreeGameFindings",
-        "steam_app_id": "1085220",
-        "genres": [
-            "Casual",
-            "Indie",
-            "Action",
-            "Adventure"
-        ],
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256929912/movie_max.mp4?t=1683192088",
-        "is_multiplayer": true,
-        "is_online": false,
-        "steam_overall_score": 94,
-        "steam_overall_reviews_count": 264,
-        "steam_recent_score": 94,
-        "steam_recent_reviews_count": 264,
-        "metacritic_userscore": 6.3,
-        "persian_summary": "FIGMENT 2: Creed Valley یک بازی اکشن-ماجراجویی است که در ذهن انسان تنظیم شده است. کارفرمایان چهره در نمایش های موسیقی ، راه خود را از طریق معماها انجام دهید و محیط های منحصر به فرد را کشف کنید."
+        "persian_summary": "صفحه transactions (برای دیدن اینکه شما ادعا کرده اید یا نه) ⏩ بررسی فوری (ورود به سیستم بازی های toepic برای استفاده) checkout🎮claim allandroid & ios🎮figment 2: Creed Valley android ／ iOS🎮 شکل 2: Creed Valley ｜ Android ／ iOS⌛ Rating ／⛔ Blacklist ｜ None None هیچکدام"
     },
     {
         "title": "Sky Racket",
         "store": "epic games",
         "url": "https://store.epicgames.com/p/sky-racket-4cf23a",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/994500/header.jpg?t=1720809366",
-        "description": "Sky Racket is a game that mixes two classic genres from the Arcade era: Shoot’em up and Brick Breakers. In a world where you are unable to attack, using your racket to strike enemy bullets back at them is your only option! Bounce bullets back at your foes and save the galaxy!",
+        "image_url": null,
+        "description": "",
         "id_in_db": "t3_1lwewyk",
-        "subreddit": "FreeGameFindings",
-        "steam_app_id": "994500",
-        "genres": [
-            "Casual",
-            "Indie",
-            "Sports"
-        ],
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256765087/movie_max.mp4?t=1574811334",
-        "is_multiplayer": true,
-        "is_online": false,
-        "steam_overall_score": 87,
-        "steam_overall_reviews_count": 38,
-        "steam_recent_score": 87,
-        "steam_recent_reviews_count": 38,
-        "metacritic_userscore": 8.8,
-        "persian_summary": "Sky Racket بازی است که دو ژانر کلاسیک را از دوره Arcade مخلوط می کند: Shoot'em Up و Brick Breakers. در دنیایی که شما قادر به حمله نیستید ، استفاده از راکت خود برای حمله به گلوله های دشمن به آنها تنها گزینه شماست! گلوله ها را به دشمنان خود برگردانید و کهکشان را ذخیره کنید!"
+        "subreddit": "FreeGameFindings"
     },
     {
         "title": "Condo Desires",
@@ -365,23 +323,10 @@
         "title": "Color Wheel",
         "store": "playstation",
         "url": "https://play.google.com/store/apps/details?id=io.github.utopiacosmica.color_wheel",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3211010/header.jpg?t=1728425319",
-        "description": "Color Wheels is an application based on the color wheel technique. It allows you to quickly and easily create harmonious color combinations. Choose the desired type of color wheel and harmony, control the harmony modifier and tones, and get pleasing color combinations for your projects.",
+        "image_url": "https://external-preview.redd.it/VRGVS4U2rE6hJDP8plj1TG0rXh9KU8bwcWNH3ANJ4vI.png?width=320&crop=smart&auto=webp&s=6ccc8ee2586092547fd4be48f94c82f209462f53",
+        "description": "",
         "id_in_db": "t3_1lvgaa2",
-        "subreddit": "googleplaydeals",
-        "steam_app_id": "3211010",
-        "genres": [
-            "Animation & Modeling",
-            "Design & Illustration",
-            "Photo Editing",
-            "Utilities",
-            "Web Publishing",
-            "Game Development"
-        ],
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257055554/movie_max.mp4?t=1726929898",
-        "is_multiplayer": false,
-        "is_online": false,
-        "persian_summary": "چرخ های رنگی یک برنامه کاربردی است که بر اساس تکنیک چرخ رنگ است. این امکان را به شما می دهد تا به سرعت و به راحتی ترکیب های رنگی هماهنگ ایجاد کنید. نوع مورد نظر چرخ و هارمونی مورد نظر را انتخاب کنید ، اصلاح کننده هارمونی و تن ها را کنترل کنید و از ترکیبات رنگی دلپذیر برای پروژه های خود استفاده کنید."
+        "subreddit": "googleplaydeals"
     },
     {
         "title": "[Windows/Mac] [Ultimate Zombie Defense] [$4.99–> Free] [Top-down shooter with base defense mechanics, set in the heart of continental European city. Play solo or team up with up to four players as soldiers dropped into this plagued location tasked with destroying the source of the infection.]",
@@ -433,24 +378,11 @@
         "title": "hocus.",
         "store": "ios app store",
         "url": "https://apps.apple.com/us/app/hocus/id1030548464",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3204290/header.jpg?t=1734005654",
-        "description": "Just when you thought the Goat Simulator 3 world couldn’t get more enchanting. We’ve added 20 new magical gears to get you brewing with excitement. Sounds wand-erful, right?",
+        "image_url": null,
+        "description": "hocus.",
         "id_in_db": "4cefb297cea36fa95c687363d3537c30d3185d7bcff91b96bd28e50882adddbf",
         "subreddit": "AppHookup",
-        "steam_app_id": "3204290",
-        "genres": [
-            "Adventure",
-            "Casual",
-            "Simulation"
-        ],
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257072991/movie_max.mp4?t=1732543097",
-        "is_multiplayer": true,
-        "is_online": true,
-        "steam_overall_score": 100,
-        "steam_overall_reviews_count": 13,
-        "steam_recent_score": 100,
-        "steam_recent_reviews_count": 13,
-        "persian_summary": "درست وقتی فکر کردید که Goat Simulator 3 World نمی تواند جذاب تر شود. ما 20 چرخ دنده جادویی جدید اضافه کرده ایم تا شما را با هیجان تولید کنیم. به نظر می رسد گرگ و سفید ، درست است؟"
+        "persian_summary": "هوکس"
     },
     {
         "title": "Chloe Puzzle Game Pro",
@@ -505,26 +437,11 @@
         "title": "hyp",
         "store": "ios app store",
         "url": "https://apps.apple.com/us/app/hyp/id746557884",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/523660/header.jpg?t=1747775413",
-        "description": "Hypercharge is a first and third-person shooter action figure game you've always dreamed of! Grab your friends, complete objectives, defend the Hypercore against waves of weaponized toys, and defeat Major Evil together in the story campaign!",
+        "image_url": null,
+        "description": "$0.99–> Free - Relax by interacting with notic visuals, soothing animation and responsive music.",
         "id_in_db": "601c8228b034b355aa8d271c8de136912f52a3e3aa212503721469679692b85f",
         "subreddit": "AppHookup",
-        "steam_app_id": "523660",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Casual",
-            "Indie",
-            "Strategy"
-        ],
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256849307/movie_max.mp4?t=1719929881",
-        "is_multiplayer": true,
-        "is_online": true,
-        "steam_overall_score": 92,
-        "steam_overall_reviews_count": 2996,
-        "steam_recent_score": 92,
-        "steam_recent_reviews_count": 2996,
-        "persian_summary": "HyperChade یک بازی اکشن اکشن تیرانداز اول و سوم است که همیشه در آن خواب دیده اید! دوستان خود را بگیرید ، اهداف کامل کنید ، از Hypercore در برابر امواج اسباب بازی های سلاح شده دفاع کنید و در کمپین داستان با هم بزرگ شر شر را شکست دهید!"
+        "persian_summary": "0.99 $ -> رایگان - با تعامل با تصاویر Netic ، انیمیشن تسکین دهنده و موسیقی پاسخگو ، استراحت کنید."
     },
     {
         "title": "Bear Todo Box – Daily Tasks",
