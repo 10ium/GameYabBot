@@ -1,46 +1,54 @@
-name: Rayegan Game Bot Runner
+name: Free Games Bot Workflow
 
 on:
-  # اجرای زمان‌بندی شده با استفاده از سینتکس cron
   schedule:
-    - cron: '0 8,20 * * *'
-  
-  # این گزینه به شما اجازه می‌دهد تا گردش کار را به صورت دستی از طریق رابط کاربری گیت‌هاب اجرا کنید
+    # هر روز در ساعت 05:00 UTC اجرا می‌شود (مثلاً 08:30 صبح به وقت تهران در تابستان)
+    - cron: '0 5 * * *'
   workflow_dispatch:
+    # اجازه می‌دهد تا به صورت دستی از رابط کاربری GitHub Actions اجرا شود
+  push:
+    branches:
+      - main
+    paths:
+      - 'src/**' # در صورت تغییر در کدهای منبع ربات اجرا شود
+      - '.github/workflows/run_bot.yml' # در صورت تغییر در این فایل اجرا شود
 
 jobs:
-  run-bot:
+  build-and-run:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write # برای اجازه push کردن تغییرات به مخزن نیاز است
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python 3.10
-        uses: actions/setup-python@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.10' # از نسخه پایتون مورد نظر خود استفاده کنید
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
-      - name: Run the bot script and commit changes
+      - name: Ensure data directories exist
+        run: |
+          mkdir -p data # اطمینان از وجود دایرکتوری data
+          mkdir -p web_data # اطمینان از وجود دایرکتوری web_data
+
+      - name: Run Free Games Bot
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }} # اختیاری
-        run: |
-          # اطمینان از وجود دایرکتوری web_data
-          mkdir -p web_data 
-          
-          # اجرای اسکریپت اصلی ربات
-          python src/main.py
+          # DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }} # اگر از DeepL استفاده می‌کنید، این خط را فعال کنید
+        run: python src/main.py
 
-          # تنظیمات Git برای کامیت
-          git config user.name "Rayegan Game Bot"
+      - name: Commit and push changes
+        run: |
+          git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
-          
           # اضافه کردن فایل‌ها به منطقه staging گیت
           # --force برای اطمینان از اضافه شدن حتی اگر محتوا تغییر نکرده باشد
           git add --force data/games.db web_data/free_games.json 
@@ -54,3 +62,5 @@ jobs:
             # Push changes to the repository
             git push
           fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # توکن پیش‌فرض GitHub Actions
