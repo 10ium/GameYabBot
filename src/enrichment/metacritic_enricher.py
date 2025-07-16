@@ -20,8 +20,12 @@ class MetacriticEnricher:
         عنوان بازی را برای جستجو در Metacritic تمیز می‌کند.
         حذف عبارات مانند (Game), ($X -> Free), [Platform] و سایر جزئیات اضافی.
         """
+        original_title = title.strip()
+        if not original_title:
+            return ""
+
         # حذف عبارات براکتی (مانند [Windows], [Multi-Platform], [iOS])
-        cleaned_title = re.sub(r'\[.*?\]', '', title).strip()
+        cleaned_title = re.sub(r'\[.*?\]', '', original_title).strip()
         
         # حذف عبارات پرانتزی مربوط به قیمت یا وضعیت (مانند ($X -> Free), (X% off), (Free))
         cleaned_title = re.sub(r'\s*\(\$.*?->\s*Free\)', '', cleaned_title, flags=re.IGNORECASE).strip()
@@ -38,6 +42,10 @@ class MetacriticEnricher:
         # حذف هرگونه فاصله اضافی
         cleaned_title = re.sub(r'\s+', ' ', cleaned_title).strip()
         
+        # Fallback به عنوان اصلی اگر تمیز کردن باعث خالی شدن عنوان شد
+        if not cleaned_title:
+            return original_title
+
         return cleaned_title
 
     async def enrich_data(self, game_info: Dict[str, Any]) -> Dict[str, Any]:
@@ -92,11 +100,14 @@ class MetacriticEnricher:
                         return game_info
 
                     # استخراج Metascore (نمره منتقدان)
-                    # Selector اصلی برای Metascore
+                    # Selector اصلی برای Metascore (جدیدترین ساختار)
                     metascore_element = page_soup.select_one('div.c-siteReviewScore_score span') 
                     # Fallback selector برای ساختارهای قدیمی‌تر یا متفاوت
                     if not metascore_element:
                         metascore_element = page_soup.select_one('div[data-cy="metascore-score"] span')
+                    # Fallback selector برای ساختارهای دیگر (مثلاً در صفحات فرعی)
+                    if not metascore_element:
+                        metascore_element = page_soup.select_one('div.metascore_w.game span')
                     
                     if metascore_element and metascore_element.text.strip().isdigit():
                         score = int(metascore_element.text.strip())
@@ -108,6 +119,9 @@ class MetacriticEnricher:
 
                     # استخراج User Score (نمره کاربران)
                     userscore_element = page_soup.select_one('div.c-siteReviewScore_user span')
+                    if not userscore_element: # Fallback selector
+                        userscore_element = page_soup.select_one('a.metascore_w.user span')
+
                     if userscore_element:
                         userscore_text = userscore_element.text.strip()
                         try:
@@ -119,6 +133,22 @@ class MetacriticEnricher:
                     else:
                         logging.warning(f"نمره User Score برای '{game_title}' در صفحه یافت نشد.")
 
+                    # استخراج رده‌بندی سنی از Metacritic
+                    # Metacritic معمولا رده‌بندی سنی را در بخش "Rating" یا "Details" قرار می‌دهد.
+                    age_rating_element = page_soup.find('div', class_='c-gameDetails_sectionContainer')
+                    if age_rating_element:
+                        rating_label = age_rating_element.find('span', string='Rating:')
+                        if rating_label and rating_label.find_next_sibling('span'):
+                            game_info['age_rating'] = rating_label.find_next_sibling('span').get_text(strip=True)
+                            logging.info(f"رده‌بندی سنی برای '{game_title}' از Metacritic یافت شد: {game_info['age_rating']}")
+                        else:
+                            # Fallback برای ساختارهای دیگر
+                            rating_div = page_soup.find('div', class_='score_and_media')
+                            if rating_div:
+                                age_rating_text = rating_div.find(string=re.compile(r'(ESRB|PEGI|CERO)\s*\w+'))
+                                if age_rating_text:
+                                    game_info['age_rating'] = age_rating_text.strip()
+                                    logging.info(f"رده‌بندی سنی برای '{game_title}' از Metacritic (fallback) یافت شد: {game_info['age_rating']}")
         except aiohttp.ClientError as e:
             logging.error(f"خطای شبکه هنگام ارتباط با Metacritic برای '{game_title}': {e}")
         except Exception as e:

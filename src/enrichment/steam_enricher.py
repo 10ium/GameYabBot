@@ -19,8 +19,12 @@ class SteamEnricher:
         عنوان بازی را برای جستجو در APIهای خارجی تمیز می‌کند.
         حذف عبارات مانند (Game), ($X -> Free), [Platform] و سایر جزئیات اضافی.
         """
+        original_title = title.strip()
+        if not original_title:
+            return ""
+
         # حذف عبارات براکتی (مانند [Windows], [Multi-Platform], [iOS])
-        cleaned_title = re.sub(r'\[.*?\]', '', title).strip()
+        cleaned_title = re.sub(r'\[.*?\]', '', original_title).strip()
         
         # حذف عبارات پرانتزی مربوط به قیمت یا وضعیت (مانند ($X -> Free), (X% off), (Free))
         cleaned_title = re.sub(r'\s*\(\$.*?->\s*Free\)', '', cleaned_title, flags=re.IGNORECASE).strip()
@@ -36,6 +40,10 @@ class SteamEnricher:
         
         # حذف هرگونه فاصله اضافی
         cleaned_title = re.sub(r'\s+', ' ', cleaned_title).strip()
+        
+        # Fallback به عنوان اصلی اگر تمیز کردن باعث خالی شدن عنوان شد
+        if not cleaned_title:
+            return original_title
         
         return cleaned_title
 
@@ -119,6 +127,23 @@ class SteamEnricher:
                                     game_info['is_multiplayer'] = True
                                 if 'online' in desc or 'internet' in desc or 'mmo' in desc:
                                     game_info['is_online'] = True
+                        
+                        # استخراج رده‌بندی سنی
+                        if 'content_descriptors' in game_details and 'notes' in game_details['content_descriptors']:
+                            # این فیلد معمولا یک لیست از رشته‌هاست. سعی می‌کنیم رده‌بندی سنی را از آن استخراج کنیم.
+                            age_notes = game_details['content_descriptors']['notes']
+                            if age_notes:
+                                # فرض می‌کنیم اولین note ممکن است شامل رده‌بندی باشد
+                                game_info['age_rating'] = age_notes[0]
+                                logging.info(f"رده‌بندی سنی برای '{game_title}' از Steam یافت شد: {age_notes[0]}")
+                        elif 'legal_notice' in game_details and game_details['legal_notice'].strip():
+                            # گاهی اوقات رده‌بندی در legal_notice است (مثلاً PEGI)
+                            legal_text = game_details['legal_notice']
+                            # مثال: "PEGI 12" یا "ESRB Mature"
+                            match = re.search(r'(PEGI\s*\d+|ESRB\s*\w+)', legal_text, re.IGNORECASE)
+                            if match:
+                                game_info['age_rating'] = match.group(0)
+                                logging.info(f"رده‌بندی سنی برای '{game_title}' از legal_notice یافت شد: {match.group(0)}")
                                 
                 # پردازش نمرات کلی Steam
                 if reviews_overall_response.status == 200:
@@ -150,7 +175,7 @@ class SteamEnricher:
                         else:
                             logging.info(f"تعداد رای‌های اخیر Steam برای '{game_title}' کافی نیست ({total_reviews}).")
 
-            if 'steam_overall_score' in game_info or 'steam_recent_score' in game_info or 'genres' in game_info or 'image_url' in game_info or 'description' in game_info:
+            if 'steam_overall_score' in game_info or 'steam_recent_score' in game_info or 'genres' in game_info or 'image_url' in game_info or 'description' in game_info or 'age_rating' in game_info:
                 logging.info(f"اطلاعات '{game_title}' با موفقیت از استیم غنی‌سازی شد.")
             else:
                 logging.warning(f"غنی‌سازی اطلاعات برای '{game_title}' از استیم کامل نبود.")

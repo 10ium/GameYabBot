@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>بازی‌های رایگان رایگان</title>
-    <!-- Favicon (using an external URL) -->
-    <link rel="icon" type="image/x-icon" href="https://www.flaticon.com/svg/v2/icons/svg/3408/3408544.svg">
+    <!-- Favicon (using an emoji as SVG data URI) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎮</text></svg>">
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Vazirmatn Font from Google Fonts -->
@@ -122,6 +122,36 @@
         #theme-toggle:hover {
             transform: scale(1.1);
         }
+
+        /* Scroll buttons */
+        .scroll-button {
+            position: fixed;
+            right: 20px;
+            background-color: #3182ce; /* Blue-600 */
+            color: white;
+            padding: 12px;
+            border-radius: 9999px; /* Full rounded */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            z-index: 90;
+            transition: opacity 0.3s, transform 0.3s;
+            opacity: 0; /* Hidden by default */
+            transform: scale(0.9);
+        }
+        .scroll-button:hover {
+            background-color: #2b6cb0; /* Blue-700 */
+            transform: scale(1);
+        }
+        .scroll-button.show {
+            opacity: 1;
+            transform: scale(1);
+        }
+        #scroll-to-top {
+            bottom: 80px;
+        }
+        #scroll-to-bottom {
+            bottom: 20px;
+        }
     </style>
 </head>
 <body class="bg-gradient-to-br from-gray-900 to-gray-800 text-gray-100 min-h-screen p-4 sm:p-8">
@@ -170,6 +200,16 @@
         </div>
     </div>
 
+    <!-- Scroll to Top Button -->
+    <button id="scroll-to-top" class="scroll-button">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scroll to Bottom Button -->
+    <button id="scroll-to-bottom" class="scroll-button">
+        <i class="fas fa-arrow-down"></i>
+    </button>
+
     <script>
         let allGames = []; // To store all fetched games
         const gamesContainer = document.getElementById('games-container');
@@ -178,6 +218,9 @@
         const noGamesMessage = document.getElementById('no-games-message');
         const storeFilter = document.getElementById('store-filter');
         const themeToggle = document.getElementById('theme-toggle');
+        const scrollToTopBtn = document.getElementById('scroll-to-top');
+        const scrollToBottomBtn = document.getElementById('scroll-to-bottom');
+
 
         // Function to set the theme
         function setTheme(isDark) {
@@ -230,7 +273,11 @@
                 // Format scores and genres
                 const metacriticScore = game.metacritic_score ? `<p class="text-sm text-gray-300"><i class="fas fa-star text-yellow-400"></i> <span class="font-semibold">متاکریتیک (منتقدان):</span> ${game.metacritic_score}/100</p>` : '';
                 const metacriticUserScore = game.metacritic_userscore ? `<p class="text-sm text-gray-300"><i class="fas fa-users text-green-400"></i> <span class="font-semibold">متاکریتیک (کاربران):</span> ${game.metacritic_userscore}/10</p>` : '';
-                const steamScore = game.steam_score ? `<p class="text-sm text-gray-300"><i class="fab fa-steam text-blue-400"></i> <span class="font-semibold">استیم:</span> ${game.steam_score}% (${game.steam_reviews_count || 0} رای)</p>` : '';
+                
+                // Steam Scores - now with overall and recent
+                const steamOverallScore = game.steam_overall_score ? `<p class="text-sm text-gray-300"><i class="fab fa-steam text-blue-400"></i> <span class="font-semibold">استیم (کلی):</span> ${game.steam_overall_score}% (${game.steam_overall_reviews_count || 0} رای)</p>` : '';
+                const steamRecentScore = game.steam_recent_score ? `<p class="text-sm text-gray-300"><i class="fab fa-steam-square text-blue-300"></i> <span class="font-semibold">استیم (اخیر):</span> ${game.steam_recent_score}% (${game.steam_recent_reviews_count || 0} رای)</p>` : '';
+
                 const genres = game.genres && game.genres.length > 0 ? `<p class="text-sm text-gray-300"><i class="fas fa-tags text-pink-400"></i> <span class="font-semibold">ژانرها:</span> ${game.genres.join(', ')}</p>` : '';
                 const trailerLink = game.trailer ? `<a href="${game.trailer}" target="_blank" class="text-blue-400 hover:underline text-sm mt-2 block"><i class="fas fa-film"></i> مشاهده تریلر</a>` : '';
 
@@ -245,6 +292,9 @@
                     playerInfo = `<p class="text-sm text-gray-300"><i class="fas fa-user text-cyan-400"></i> <span class="font-semibold">تعداد بازیکن:</span> تک‌نفره</p>`;
                 }
 
+                const ageRating = game.age_rating ? `<p class="text-sm text-gray-300"><i class="fas fa-child text-orange-400"></i> <span class="font-semibold">رده‌بندی سنی:</span> ${game.age_rating}</p>` : '';
+
+
                 // Use persian_summary if available, otherwise description
                 const displayDescription = game.persian_summary || game.description || 'توضیحات موجود نیست.';
 
@@ -257,9 +307,11 @@
                         <div class="mt-auto pt-3 border-t border-gray-600 space-y-1">
                             ${metacriticScore}
                             ${metacriticUserScore}
-                            ${steamScore}
+                            ${steamOverallScore}
+                            ${steamRecentScore}
                             ${genres}
                             ${playerInfo}
+                            ${ageRating}
                             ${trailerLink}
                             <a href="${game.url}" target="_blank" class="mt-4 block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-200">
                                 دریافت بازی
@@ -281,6 +333,43 @@
             });
             renderGames(filteredGames);
         }
+
+        // --- Scroll Button Logic ---
+        function toggleScrollButtons() {
+            // Show "to top" button if scrolled down
+            if (window.scrollY > 200) {
+                scrollToTopBtn.classList.add('show');
+            } else {
+                scrollToTopBtn.classList.remove('show');
+            }
+
+            // Show "to bottom" button if not at the very bottom
+            const scrollHeight = document.documentElement.scrollHeight;
+            const clientHeight = document.documentElement.clientHeight;
+            const scrollTop = document.documentElement.scrollTop;
+
+            // Check if user is near the bottom (e.g., within 200px from bottom)
+            if (scrollTop + clientHeight < scrollHeight - 200) {
+                scrollToBottomBtn.classList.add('show');
+            } else {
+                scrollToBottomBtn.classList.remove('show');
+            }
+        }
+
+        // Event listeners for scroll buttons
+        scrollToTopBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        scrollToBottomBtn.addEventListener('click', () => {
+            window.scrollTo({ top: document.documentElement.scrollHeight, behavior: 'smooth' });
+        });
+
+        // Listen for scroll events to show/hide buttons
+        window.addEventListener('scroll', toggleScrollButtons);
+        // Initial check on load
+        window.addEventListener('load', toggleScrollButtons);
+
 
         document.addEventListener('DOMContentLoaded', async () => {
             initializeTheme(); // Set initial theme

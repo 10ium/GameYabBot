@@ -266,7 +266,7 @@ class TelegramBot:
                         chat_id,
                         "سلام! من قبلاً در این گروه فعال بودم. خوش برگشتید!\n"
                         "ادمین‌ها می‌توانند با دستور /help اشتراک‌ها را مدیریت کنند.",
-                        message_thread_id=thread_id
+                        message_id=thread_id
                     )
                 break
 
