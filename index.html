@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="fa" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بازی‌های رایگان رایگان</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Vazirmatn Font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            direction: rtl; /* برای پشتیبانی از زبان فارسی */
+            text-align: right; /* تراز متن به راست */
+        }
+        /* Dark Mode Styles (default) */
+        .dark {
+            background: linear-gradient(to bottom right, #1a202c, #2d3748); /* Darker gradient */
+            color: #e2e8f0; /* Light text */
+        }
+        .dark .bg-gray-700 {
+            background-color: #4a5568; /* Darker card background */
+        }
+        .dark .text-gray-400 {
+            color: #a0aec0;
+        }
+        .dark .text-gray-300 {
+            color: #cbd5e0;
+        }
+        .dark .border-gray-600 {
+            border-color: #4a5568;
+        }
+        .dark .shadow-lg {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Light Mode Styles */
+        html.light {
+            background: linear-gradient(to bottom right, #f7fafc, #edf2f7); /* Lighter gradient */
+            color: #2d3748; /* Dark text */
+        }
+        html.light .bg-gray-700 {
+            background-color: #ffffff; /* White card background */
+            border: 1px solid #e2e8f0;
+        }
+        html.light .text-gray-400 {
+            color: #4a5568;
+        }
+        html.light .text-gray-300 {
+            color: #2d3748;
+        }
+        html.light .border-gray-600 {
+            border-color: #e2e8f0;
+        }
+        html.light .shadow-lg {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        html.light .text-white {
+            color: #1a202c;
+        }
+        html.light .bg-clip-text {
+            background-image: linear-gradient(to right, #007bff, #6f42c1); /* Adjust gradient for light mode */
+        }
+
+        /* Common card styles */
+        .game-card {
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .game-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+        /* Custom styles for the theme toggle button */
+        #theme-toggle {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 100;
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            transition: background-color 0.3s, color 0.3s, transform 0.2s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .dark #theme-toggle {
+            background-color: #4a5568;
+            color: #f7fafc;
+        }
+        html.light #theme-toggle {
+            background-color: #fff;
+            color: #2d3748;
+        }
+        #theme-toggle:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-gray-900 to-gray-800 text-gray-100 min-h-screen p-4 sm:p-8">
+    <!-- Theme Toggle Button -->
+    <button id="theme-toggle" class="bg-gray-700 text-white rounded-full p-2">
+        ☀️
+    </button>
+
+    <div class="container mx-auto max-w-7xl">
+        <header class="text-center mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-white mb-4">
+                <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
+                    بازی‌های رایگان امروز
+                </span>
+            </h1>
+            <p class="text-lg sm:text-xl text-gray-300">
+                جدیدترین بازی‌های رایگان از فروشگاه‌های مختلف را اینجا پیدا کنید!
+            </p>
+        </header>
+
+        <!-- Store Filter -->
+        <div class="mb-8 flex flex-col sm:flex-row items-center justify-center gap-4">
+            <label for="store-filter" class="text-lg font-medium text-gray-300 whitespace-nowrap">
+                فیلتر بر اساس فروشگاه:
+            </label>
+            <select id="store-filter" class="bg-gray-700 border border-gray-600 text-white rounded-lg px-4 py-2 focus:ring-blue-500 focus:border-blue-500 w-full sm:w-auto">
+                <option value="all">همه فروشگاه‌ها</option>
+                <!-- Options will be populated by JavaScript -->
+            </select>
+        </div>
+
+        <div id="loading" class="text-center text-xl text-blue-400 mb-8">
+            در حال بارگذاری بازی‌ها...
+        </div>
+
+        <div id="error-message" class="hidden text-center text-xl text-red-400 mb-8">
+            خطا در بارگذاری بازی‌ها. لطفاً بعداً دوباره امتحان کنید.
+        </div>
+
+        <div id="no-games-message" class="hidden text-center text-xl text-gray-400 mb-8">
+            در حال حاضر هیچ بازی رایگانی برای نمایش وجود ندارد.
+        </div>
+
+        <div id="games-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <!-- Game cards will be injected here by JavaScript -->
+        </div>
+    </div>
+
+    <script>
+        let allGames = []; // To store all fetched games
+        const gamesContainer = document.getElementById('games-container');
+        const loadingMessage = document.getElementById('loading');
+        const errorMessage = document.getElementById('error-message');
+        const noGamesMessage = document.getElementById('no-games-message');
+        const storeFilter = document.getElementById('store-filter');
+        const themeToggle = document.getElementById('theme-toggle');
+
+        // Function to set the theme
+        function setTheme(isDark) {
+            if (isDark) {
+                document.documentElement.classList.add('dark');
+                document.documentElement.classList.remove('light');
+                themeToggle.textContent = '☀️'; // Sun icon for light mode toggle
+                localStorage.setItem('theme', 'dark');
+            } else {
+                document.documentElement.classList.add('light');
+                document.documentElement.classList.remove('dark');
+                themeToggle.textContent = '🌙'; // Moon icon for dark mode toggle
+                localStorage.setItem('theme', 'light');
+            }
+        }
+
+        // Initialize theme based on local storage or Tehran time
+        function initializeTheme() {
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme) {
+                setTheme(savedTheme === 'dark');
+            } else {
+                // Determine theme based on Tehran time
+                const now = new Date();
+                const tehranTime = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Tehran' }));
+                const hour = tehranTime.getHours();
+                // Assume day from 6 AM to 6 PM (18:00)
+                const isDayTimeInTehran = hour >= 6 && hour < 18;
+                setTheme(!isDayTimeInTehran); // Default to dark if it's night in Tehran
+            }
+        }
+
+        // Function to render games based on filter
+        function renderGames(gamesToRender) {
+            gamesContainer.innerHTML = ''; // Clear existing games
+            if (gamesToRender.length === 0) {
+                noGamesMessage.classList.remove('hidden');
+                return;
+            } else {
+                noGamesMessage.classList.add('hidden');
+            }
+
+            gamesToRender.forEach(game => {
+                const gameCard = document.createElement('div');
+                gameCard.className = 'game-card bg-gray-700 rounded-xl shadow-lg overflow-hidden flex flex-col transform hover:scale-105 transition duration-300 ease-in-out';
+
+                // Placeholder image if image_url is missing or broken
+                const imageUrl = game.image_url || `https://placehold.co/600x338/374151/D1D5DB?text=${encodeURIComponent(game.title || 'تصویر موجود نیست')}`;
+
+                // Format scores and genres
+                const metacriticScore = game.metacritic_score ? `<p class="text-sm text-gray-300"><span class="font-semibold text-yellow-400">متاکریتیک:</span> ${game.metacritic_score}/100</p>` : '';
+                const steamScore = game.steam_score ? `<p class="text-sm text-gray-300"><span class="font-semibold text-blue-400">استیم:</span> ${game.steam_score}% (${game.steam_reviews_count || 0} رای)</p>` : '';
+                const genres = game.genres && game.genres.length > 0 ? `<p class="text-sm text-gray-300"><span class="font-semibold">ژانرها:</span> ${game.genres.join(', ')}</p>` : '';
+                const trailerLink = game.trailer ? `<a href="${game.trailer}" target="_blank" class="text-blue-400 hover:underline text-sm mt-2 block">مشاهده تریلر</a>` : '';
+
+                gameCard.innerHTML = `
+                    <img src="${imageUrl}" alt="${game.title || 'تصویر بازی'}" class="w-full h-48 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x338/374151/D1D5DB?text=${encodeURIComponent(game.title || 'تصویر موجود نیست')}';">
+                    <div class="p-4 flex flex-col flex-grow">
+                        <h2 class="text-xl font-bold text-white mb-2">${game.title || 'بدون عنوان'}</h2>
+                        <p class="text-gray-400 text-sm mb-3">فروشگاه: <span class="font-medium text-purple-300">${game.store || 'نامشخص'}</span></p>
+                        <p class="text-gray-300 text-sm mb-4 flex-grow">${game.persian_summary || game.description || 'توضیحات موجود نیست.'}</p>
+                        <div class="mt-auto pt-3 border-t border-gray-600">
+                            ${metacriticScore}
+                            ${steamScore}
+                            ${genres}
+                            ${trailerLink}
+                            <a href="${game.url}" target="_blank" class="mt-4 block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-200">
+                                دریافت بازی
+                            </a>
+                        </div>
+                    </div>
+                `;
+                gamesContainer.appendChild(gameCard);
+            });
+        }
+
+        // Function to apply filter
+        function applyFilter() {
+            const selectedStore = storeFilter.value;
+            const filteredGames = allGames.filter(game => {
+                // Ensure store name is consistent for comparison
+                const gameStoreNormalized = game.store ? game.store.toLowerCase().replace(/\s/g, '') : '';
+                const selectedStoreNormalized = selectedStore.toLowerCase().replace(/\s/g, '');
+                return selectedStore === 'all' || gameStoreNormalized === selectedStoreNormalized;
+            });
+            renderGames(filteredGames);
+        }
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            initializeTheme(); // Set initial theme
+
+            // Event listener for theme toggle
+            themeToggle.addEventListener('click', () => {
+                const isDark = document.documentElement.classList.contains('dark');
+                setTheme(!isDark);
+            });
+
+            try {
+                const response = await fetch('web_data/free_games.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                allGames = await response.json(); // Store all games globally
+
+                loadingMessage.classList.add('hidden'); // Hide loading message
+
+                if (allGames.length === 0) {
+                    noGamesMessage.classList.remove('hidden'); // Show no games message
+                    return;
+                }
+
+                // Populate store filter options
+                const uniqueStores = [...new Set(allGames.map(game => game.store))].sort();
+                uniqueStores.forEach(store => {
+                    if (store && store !== 'نامشخص') { // Exclude 'نامشخص' if it appears
+                        const option = document.createElement('option');
+                        option.value = store.toLowerCase().replace(/\s/g, ''); // Normalize value for comparison
+                        option.textContent = store;
+                        storeFilter.appendChild(option);
+                    }
+                });
+
+                // Initial render of all games
+                renderGames(allGames);
+
+                // Event listener for store filter change
+                storeFilter.addEventListener('change', applyFilter);
+
+            } catch (error) {
+                console.error('Error fetching games:', error);
+                loadingMessage.classList.add('hidden');
+                errorMessage.classList.remove('hidden'); // Show error message
+            }
+        });
+    </script>
+</body>
+</html>

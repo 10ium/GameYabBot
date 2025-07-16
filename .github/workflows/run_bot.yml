@@ -1,4 +1,3 @@
-# نام گردش کار که در تب Actions گیت‌هاب نمایش داده می‌شود
 name: Rayegan Game Bot Runner
 
 on:
@@ -27,19 +26,22 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # مرحله تاخیر حذف شد و منطق آن به کد پایتون منتقل گردید
-      
+
       - name: Run the bot script
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }} # اختیاری
-        run: python src/main.py
+        run: |
+          python src/main.py
+          # اطمینان از وجود دایرکتوری web_data قبل از کامیت (اگر اسکریپت پایتون آن را ایجاد نکند)
+          mkdir -p web_data
 
-      - name: Commit database changes
+      - name: Commit database and web data changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: Update games database"
-          file_pattern: data/games.db
+          commit_message: "chore: Update games database and web data"
+          file_pattern: |
+            data/games.db
+            web_data/free_games.json # اضافه شده: برای کامیت فایل JSON
           commit_user_name: Rayegan Game Bot
           commit_user_email: actions@github.com
           commit_author: Rayegan Game Bot <actions@github.com>

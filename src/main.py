@@ -1,6 +1,7 @@
 import os
 import asyncio
 import logging
+import json # اضافه شده: برای کار با JSON
 from typing import List, Dict, Any
 
 from core.database import Database
@@ -72,6 +73,10 @@ async def main():
 
     if not unique_new_games:
         logging.info("هیچ بازی جدیدی برای اطلاع‌رسانی یافت نشد.")
+        # اگر بازی جدیدی نبود، باز هم ممکن است نیاز به به‌روزرسانی فایل JSON برای وب‌سایت باشد
+        # تا وضعیت "هیچ بازی جدیدی" را منعکس کند یا بازی‌های قدیمی‌تر را نمایش دهد.
+        # برای سادگی، در این مثال، اگر بازی جدیدی نباشد، فایل JSON به‌روز نمی‌شود.
+        # اگر می‌خواهید همیشه JSON به‌روز شود (حتی با لیست خالی)، این خط را جابجا کنید.
         db.close()
         return
 
@@ -82,7 +87,7 @@ async def main():
     enrich_tasks = [enrich_and_translate_game(game, enrichers, translator) for game in unique_new_games]
     enriched_games = await asyncio.gather(*enrich_tasks)
 
-    # --- مرحله ۵: ارسال پیام‌ها ---
+    # --- مرحله ۵: ارسال پیام‌ها (همانند قبل) ---
     for game in enriched_games:
         store_name = game.get('store', '').replace(' ', '').lower()
         targets = db.get_targets_for_store(store_name)
@@ -98,6 +103,14 @@ async def main():
         ]
         await asyncio.gather(*send_tasks, return_exceptions=True)
         db.add_posted_game(game['url'])
+
+    # --- مرحله ۶: ذخیره داده‌های غنی‌شده در یک فایل JSON برای GitHub Pages ---
+    output_dir = "web_data"
+    os.makedirs(output_dir, exist_ok=True) # اطمینان از وجود دایرکتوری
+    output_file_path = os.path.join(output_dir, "free_games.json")
+    with open(output_file_path, 'w', encoding='utf-8') as f:
+        json.dump(enriched_games, f, ensure_ascii=False, indent=4)
+    logging.info(f"✅ داده‌های بازی‌های رایگان در {output_file_path} ذخیره شد.")
 
     db.close()
     logging.info("🏁 کار ربات با موفقیت به پایان رسید.")
