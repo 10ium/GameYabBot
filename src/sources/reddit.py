@@ -6,6 +6,7 @@ import xml.etree.ElementTree as ET
 import re
 from bs4 import BeautifulSoup
 import hashlib
+import random # برای تأخیر تصادفی
 from utils import clean_title_for_search # وارد کردن تابع تمیزکننده مشترک
 
 logging.basicConfig(
@@ -14,8 +15,6 @@ logging.basicConfig(
 )
 
 logger = logging.getLogger(__name__)
-
-# تابع _clean_title_for_search_common حذف شد و از utils.clean_title_for_search استفاده می‌شود.
 
 class RedditSource:
     def __init__(self):
@@ -26,10 +25,14 @@ class RedditSource:
             'AppHookup'
         ]
         self.rss_urls = {sub: f"https://www.reddit.com/r/{sub}/new/.rss" for sub in self.subreddits}
+        self.HEADERS = {'User-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'} # User-Agent عمومی‌تر برای ردیت
         logger.info("نمونه RedditSource (نسخه RSS اصلاح شده) با موفقیت ایجاد شد.")
 
     @staticmethod
     def _generate_unique_id(base_id: str, item_url: str) -> str:
+        """
+        یک شناسه منحصر به فرد بر اساس شناسه اصلی و URL آیتم برای جلوگیری از تکرار ایجاد می‌کند.
+        """
         combined_string = f"{base_id}-{item_url}"
         return hashlib.sha256(combined_string.encode()).hexdigest()
 
@@ -39,11 +42,9 @@ class RedditSource:
         """
         try:
             logger.info(f"در حال واکشی لینک دائمی ردیت برای یافتن لینک خارجی: {permalink_url}")
-            # استفاده از User-Agent عمومی‌تر و تاخیر برای کاهش بلاک شدن
-            headers = {'User-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'}
-            async with session.get(permalink_url, headers=headers) as response:
+            await asyncio.sleep(random.uniform(2, 5)) # تأخیر تصادفی برای کاهش بلاک شدن
+            async with session.get(permalink_url, headers=self.HEADERS) as response:
                 response.raise_for_status() # اگر وضعیت 200 نباشد، خطا پرتاب می‌کند
-                await asyncio.sleep(1) # تاخیر برای کاهش نرخ درخواست
                 html_content = await response.text()
                 soup = BeautifulSoup(html_content, 'html.parser')
                 
@@ -73,6 +74,9 @@ class RedditSource:
             return None
 
     async def _normalize_post_data(self, session: aiohttp.ClientSession, entry: ET.Element, subreddit_name: str) -> Optional[Dict[str, Any]]:
+        """
+        داده‌های یک پست RSS ردیت را به فرمت استاندارد پروژه تبدیل می‌کند.
+        """
         try:
             ns = {'atom': 'http://www.w3.org/2005/Atom'}
             title_element = entry.find('atom:title', ns)
@@ -94,15 +98,15 @@ class RedditSource:
 
             # الگوهای URL برای شناسایی فروشگاه‌ها (ترتیب مهم است: خاص‌ترها اول)
             url_store_map_priority = [
-                (r"apps\.apple\.com", "ios app store"),
-                (r"play\.google\.com", "google play"),
-                (r"store\.steampowered\.com", "steam"),
-                # Epic Games specific patterns, more specific first
-                (r"epicgames\.com/store/p/.*-android-", "google play"), # اگر لینک اپیک گیمز به اندروید اشاره دارد
-                (r"epicgames\.com/store/p/.*-ios-", "ios app store"),   # اگر لینک اپیک گیمز به iOS اشاره دارد
+                (r"epicgames\.com/store/p/.*-android-", "epic games (android)"), # اگر لینک اپیک گیمز به اندروید اشاره دارد
+                (r"epicgames\.com/store/p/.*-ios-", "epic games (ios)"),   # اگر لینک اپیک گیمز به iOS اشاره دارد
                 (r"epicgames\.com/store/p/", "epic games"), # General Epic Desktop, if not mobile
-                (r"gog\.com", "gog"),
+                (r"store\.steampowered\.com", "steam"),
+                (r"play\.google\.com", "google play"),
+                (r"apps\.apple\.com", "ios app store"),
                 (r"xbox\.com", "xbox"),
+                (r"playstation\.com", "playstation"), 
+                (r"gog\.com", "gog"),
                 (r"itch\.io", "itch.io"),
                 (r"indiegala\.com", "indiegala"),
                 (r"onstove\.com", "stove"),
@@ -204,6 +208,23 @@ class RedditSource:
                     logger.warning(f"⚠️ پست بازی رایگان با عنوان کاملاً خالی از RSS ردیت ({subreddit_name}) نادیده گرفته شد. ID: {post_id}")
                     return None
 
+            # تعیین is_free و discount_text
+            is_truly_free = False
+            discount_text = None
+            title_lower = raw_title.lower()
+
+            if subreddit_name == 'FreeGameFindings':
+                is_truly_free = True # تمام پست‌ها از FreeGameFindings واقعاً رایگان هستند
+            elif "free" in title_lower or "100% off" in title_lower or "100% discount" in title_lower:
+                is_truly_free = True
+            elif "off" in title_lower: # اگر کلمه "off" بود ولی "free" یا "100% off" نبود
+                is_truly_free = False # تخفیف عادی
+                discount_match = re.search(r'(\d+% off)', title_lower)
+                if discount_match:
+                    discount_text = discount_match.group(1)
+                else:
+                    discount_text = "تخفیف" # اگر درصد تخفیف مشخص نبود
+
             return {
                 "title": clean_title,
                 "store": detected_store, # استفاده از فروشگاه شناسایی شده
@@ -211,27 +232,33 @@ class RedditSource:
                 "image_url": image_url,
                 "description": description,
                 "id_in_db": post_id, # شناسه پست ردیت به عنوان id_in_db
-                "subreddit": subreddit_name
+                "subreddit": subreddit_name,
+                "is_free": is_truly_free, # اضافه شدن فیلد is_free
+                "discount_text": discount_text # اضافه شدن فیلد discount_text
             }
         except Exception as e:
             logger.error(f"❌ خطا در نرمال‌سازی پست RSS ردیت از ساب‌ردیت {subreddit_name}: {e}", exc_info=True)
             return None
 
     def _parse_apphookup_weekly_deals(self, html_content: str, base_post_id: str) -> List[Dict[str, Any]]:
+        """
+        محتوای HTML پست‌های 'Weekly Deals' از ساب‌ردیت AppHookup را تجزیه می‌کند
+        و آیتم‌های رایگان داخلی را استخراج می‌کند.
+        """
         found_items = []
         soup = BeautifulSoup(html_content, 'html.parser')
         
         # الگوهای URL برای شناسایی فروشگاه‌ها (ترتیب مهم است: خاص‌ترها اول)
         url_store_map_priority = [
-            (r"apps\.apple\.com", "ios app store"),
-            (r"play\.google\.com", "google play"),
+            (r"epicgames\.com/store/p/.*-android-", "epic games (android)"), 
+            (r"epicgames\.com/store/p/.*-ios-", "epic games (ios)"),
+            (r"epicgames\.com/store/p/", "epic games"),
             (r"store\.steampowered\.com", "steam"),
-            # Epic Games specific patterns, more specific first
-            (r"epicgames\.com/store/p/.*-android-", "google play"), 
-            (r"epicgames\.com/store/p/.*-ios-", "ios app store"),
-            (r"epicgames\.com/store/p/", "epic games"), # General Epic Desktop, if not mobile
-            (r"gog\.com", "gog"),
+            (r"play\.google\.com", "google play"),
+            (r"apps\.apple\.com", "ios app store"),
             (r"xbox\.com", "xbox"),
+            (r"playstation\.com", "playstation"),
+            (r"gog\.com", "gog"),
             (r"itch\.io", "itch.io"),
             (r"indiegala\.com", "indiegala"),
             (r"onstove\.com", "stove"),
@@ -244,18 +271,30 @@ class RedditSource:
                 item_title = a_tag.get_text().strip()
                 item_url = a_tag['href']
 
-                is_free = False
+                is_truly_free = False
+                discount_text = None
+                
                 # تشخیص "رایگان" یا "تخفیف‌دار"
                 if "free" in text_around_link or "-> 0" in text_around_link or "--> 0" in text_around_link or "100% off" in text_around_link:
                     # اگر "off" بود ولی 100% off یا free نبود، یعنی فقط تخفیف است
                     if "off" in text_around_link and "100% off" not in text_around_link and "free" not in text_around_link:
-                        is_free = False # تخفیف عادی
+                        is_truly_free = False # تخفیف عادی
+                        discount_match = re.search(r'(\d+% off)', text_around_link)
+                        if discount_match:
+                            discount_text = discount_match.group(1)
+                        else:
+                            discount_text = "تخفیف"
                     else:
-                        is_free = True # واقعا رایگان
+                        is_truly_free = True # واقعا رایگان
                 elif "off" in text_around_link: # اگر فقط "off" بود و "free" نبود
-                    is_free = False # این یک تخفیف است، نه رایگان
+                    is_truly_free = False # این یک تخفیف است، نه رایگان
+                    discount_match = re.search(r'(\d+% off)', text_around_link)
+                    if discount_match:
+                        discount_text = discount_match.group(1)
+                    else:
+                        discount_text = "تخفیف"
 
-                if is_free: # فقط بازی‌های واقعا رایگان را اضافه کن
+                if is_truly_free or (not is_truly_free and discount_text): # اضافه کردن هم رایگان و هم تخفیف‌دار
                     store = "other"
                     # 1. تلاش برای حدس زدن از URL اصلی
                     for pattern, store_name in url_store_map_priority:
@@ -279,13 +318,18 @@ class RedditSource:
                             "image_url": item_image_url,
                             "description": item_description,
                             "id_in_db": self._generate_unique_id(base_post_id, item_url),
-                            "subreddit": "AppHookup"
+                            "subreddit": "AppHookup",
+                            "is_free": is_truly_free, # اضافه شدن فیلد is_free
+                            "discount_text": discount_text # اضافه شدن فیلد discount_text
                         })
-                        logger.debug(f"✅ آیتم رایگان داخلی از AppHookup یافت شد: {item_title} (URL: {item_url})")
+                        if is_truly_free:
+                            logger.debug(f"✅ آیتم رایگان داخلی از AppHookup یافت شد: {item_title} (URL: {item_url})")
+                        else:
+                            logger.debug(f"🔍 آیتم تخفیف‌دار داخلی از AppHookup یافت شد: {item_title} (URL: {item_url}, تخفیف: {discount_text})")
                     else:
-                        logger.warning(f"⚠️ آیتم رایگان داخلی با عنوان خالی از AppHookup نادیده گرفته شد. URL: {item_url}")
+                        logger.warning(f"⚠️ آیتم رایگان/تخفیف‌دار داخلی با عنوان خالی از AppHookup نادیده گرفته شد. URL: {item_url}")
                 else:
-                    logger.debug(f"🔍 آیتم داخلی '{item_title}' از AppHookup رایگان نبود و نادیده گرفته شد.")
+                    logger.debug(f"🔍 آیتم داخلی '{item_title}' از AppHookup رایگان/تخفیف‌دار نبود و نادیده گرفته شد.")
                 
         return found_items
 
@@ -298,8 +342,8 @@ class RedditSource:
             for subreddit_name, url in self.rss_urls.items():
                 logger.info(f"در حال اسکان فید RSS: {url} (ساب‌ردیت: {subreddit_name})...")
                 async with aiohttp.ClientSession() as session:
-                    headers = {'User-agent': 'GameBeaconBot/1.0'} # User-Agent برای درخواست‌های RSS
-                    async with session.get(url, headers=headers) as response:
+                    await asyncio.sleep(random.uniform(1, 3)) # تأخیر تصادفی برای درخواست RSS
+                    async with session.get(url, headers=self.HEADERS) as response:
                         if response.status != 200:
                             logger.error(f"❌ خطا در دریافت فید {url}: Status {response.status}")
                             continue
@@ -317,54 +361,67 @@ class RedditSource:
                                 logger.debug(f"پست RSS ناقص در ساب‌ردیت {subreddit_name} (عنوان، محتوا یا ID موجود نیست).")
                                 continue
 
-                            title_lower = title_element.text.lower()
+                            raw_title = title_element.text
                             post_id = id_element.text
 
-                            is_truly_free = False
-                            is_discounted_but_not_free = False
+                            is_truly_free_post = False
+                            discount_text_post = None
+                            title_lower = raw_title.lower()
                             
                             # منطق تشخیص رایگان بودن/تخفیف‌دار بودن بر اساس کلمات کلیدی در عنوان
                             if subreddit_name == 'FreeGameFindings':
-                                is_truly_free = True # فرض می‌کنیم تمام پست‌ها از FreeGameFindings واقعاً رایگان هستند
-                                logger.debug(f"ℹ️ پست از FreeGameFindings به عنوان رایگان در نظر گرفته شد: {title_element.text}")
+                                is_truly_free_post = True # فرض می‌کنیم تمام پست‌ها از FreeGameFindings واقعاً رایگان هستند
+                                logger.debug(f"ℹ️ پست از FreeGameFindings به عنوان رایگان در نظر گرفته شد: {raw_title}")
                             elif "free" in title_lower or "100% off" in title_lower or "100% discount" in title_lower:
-                                is_truly_free = True
+                                is_truly_free_post = True
                             elif "off" in title_lower: # اگر کلمه "off" بود ولی "free" یا "100% off" نبود
-                                is_discounted_but_not_free = True
+                                is_truly_free_post = False # تخفیف عادی
+                                discount_match = re.search(r'(\d+% off)', title_lower)
+                                if discount_match:
+                                    discount_text_post = discount_match.group(1)
+                                else:
+                                    discount_text_post = "تخفیف"
 
                             # مدیریت خاص برای AppHookup weekly deals
                             if subreddit_name == 'AppHookup' and ("weekly" in title_lower and ("deals post" in title_lower or "app deals post" in title_lower or "game deals post" in title_lower)):
-                                logger.info(f"🔍 پست 'Weekly Deals' از AppHookup شناسایی شد: {title_element.text}. در حال بررسی آیتم‌های داخلی...")
+                                logger.info(f"🔍 پست 'Weekly Deals' از AppHookup شناسایی شد: {raw_title}. در حال بررسی آیتم‌های داخلی...")
                                 weekly_items = self._parse_apphookup_weekly_deals(content_element.text, post_id)
                                 for item in weekly_items:
                                     if item['id_in_db'] not in processed_ids:
                                         free_games_list.append(item)
                                         processed_ids.add(item['id_in_db'])
-                                        logger.info(f"✅ آیتم رایگان از لیست 'Weekly Deals' ({item['subreddit']}) یافت شد: {item['title']} (فروشگاه: {item['store']})")
+                                        if item['is_free']:
+                                            logger.info(f"✅ آیتم رایگان از لیست 'Weekly Deals' ({item['subreddit']}) یافت شد: {item['title']} (فروشگاه: {item['store']})")
+                                        else:
+                                            logger.info(f"🔍 آیتم تخفیف‌دار از لیست 'Weekly Deals' ({item['subreddit']}) یافت شد: {item['title']} (فروشگاه: {item['store']}, تخفیف: {item['discount_text']})")
                                 continue # پس از پردازش آیتم‌های داخلی، به پست بعدی بروید
 
                             # پردازش پست‌های عادی (غیر از Weekly Deals)
-                            if is_truly_free or is_discounted_but_not_free:
+                            if is_truly_free_post or (not is_truly_free_post and discount_text_post):
                                 normalized_game = await self._normalize_post_data(session, entry, subreddit_name)
                                 if normalized_game:
-                                    if is_discounted_but_not_free:
-                                        normalized_game['store'] = "Not Free (Discount)" # اختصاص دسته‌بندی ویژه
-                                        logger.info(f"⚠️ پست تخفیف‌دار از RSS ردیت ({normalized_game['subreddit']}) یافت شد: {normalized_game['title']} (فروشگاه: {normalized_game['store']})")
-                                    elif normalized_game['title'].strip(): # اطمینان از خالی نبودن عنوان برای بازی‌های واقعا رایگان
-                                        logger.info(f"✅ پست بازی رایگان از RSS ردیت ({normalized_game['subreddit']}) یافت شد: {normalized_game['title']} (فروشگاه: {normalized_game['store']})")
+                                    # اطمینان حاصل می‌کنیم که is_free و discount_text از این تابع استفاده شوند
+                                    normalized_game['is_free'] = is_truly_free_post
+                                    normalized_game['discount_text'] = discount_text_post
+
+                                    if normalized_game['title'].strip(): # اطمینان از خالی نبودن عنوان
+                                        if normalized_game['is_free']:
+                                            logger.info(f"✅ پست بازی رایگان از RSS ردیت ({normalized_game['subreddit']}) یافت شد: {normalized_game['title']} (فروشگاه: {normalized_game['store']})")
+                                        else:
+                                            logger.info(f"⚠️ پست تخفیف‌دار از RSS ردیت ({normalized_game['subreddit']}) یافت شد: {normalized_game['title']} (فروشگاه: {normalized_game['store']}, تخفیف: {normalized_game['discount_text']})")
                                     else:
-                                        logger.warning(f"⚠️ پست بازی رایگان با عنوان خالی از RSS ردیت ({subreddit_name}) نادیده گرفته شد. ID: {normalized_game['id_in_db']}")
-                                        continue # اگر عنوان خالی بود، حتی اگر رایگان تشخیص داده شد، رد کن
+                                        logger.warning(f"⚠️ پست بازی رایگان/تخفیف‌دار با عنوان خالی از RSS ردیت ({subreddit_name}) نادیده گرفته شد. ID: {normalized_game['id_in_db']}")
+                                        continue # اگر عنوان خالی بود، رد کن
 
                                     if normalized_game['id_in_db'] not in processed_ids:
                                         free_games_list.append(normalized_game)
                                         processed_ids.add(normalized_game['id_in_db'])
                                     else:
-                                        logger.debug(f"ℹ️ پست '{title_element.text}' از {subreddit_name} از قبل پردازش شده بود.")
+                                        logger.debug(f"ℹ️ پست '{raw_title}' از {subreddit_name} از قبل پردازش شده بود.")
                                 else:
-                                    logger.debug(f"ℹ️ پست '{title_element.text}' از {subreddit_name} نرمال‌سازی نشد.")
+                                    logger.debug(f"ℹ️ پست '{raw_title}' از {subreddit_name} نرمال‌سازی نشد.")
                             else:
-                                logger.debug(f"🔍 پست '{title_element.text}' از {subreddit_name} شرایط 'بازی رایگان' یا 'تخفیف‌دار' را نداشت و نادیده گرفته شد.")
+                                logger.debug(f"🔍 پست '{raw_title}' از {subreddit_name} شرایط 'بازی رایگان' یا 'تخفیف‌دار' را نداشت و نادیده گرفته شد.")
 
         except Exception as e:
             logger.critical(f"🔥 یک خطای بحرانی پیش‌بینی نشده در ماژول Reddit (RSS) رخ داد: {e}", exc_info=True)

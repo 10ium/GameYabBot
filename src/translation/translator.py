@@ -1,77 +1,81 @@
 import logging
-import aiohttp
-import json
+import asyncio
 from typing import Optional
+from deep_translator import GoogleTranslator, MyMemoryTranslator # DeepLTranslator
+import random
 
-# تنظیمات اولیه لاگ‌گیری
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
+logger = logging.getLogger(__name__)
 
 class SmartTranslator:
     """
-    کلاسی برای ترجمه هوشمند متن با استفاده از سرویس‌های عمومی و رایگان.
-    این نسخه نیازی به کلید API ندارد.
+    کلاسی برای ترجمه هوشمند متن با استفاده از چندین سرویس ترجمه.
+    اولویت با Google Translate است، سپس MyMemoryTranslator.
     """
-    GOOGLE_TRANSLATE_URL = "https://translate.googleapis.com/translate_a/single"
-    MYMEMORY_API_URL = "https://api.mymemory.translated.net/get"
-
-    async def _translate_with_google(self, session: aiohttp.ClientSession, text: str) -> str:
-        """ترجمه با استفاده از سرویس عمومی گوگل."""
-        params = {
-            'client': 'gtx',
-            'sl': 'en',  # زبان مبدا: انگلیسی
-            'tl': 'fa',  # زبان مقصد: فارسی
-            'dt': 't',
-            'q': text,
-        }
-        async with session.get(self.GOOGLE_TRANSLATE_URL, params=params) as response:
-            response.raise_for_status()
-            data = await response.json()
-            # پاسخ گوگل یک لیست تودرتو است، متن ترجمه شده در اولین عنصر قرار دارد
-            translated_text = "".join([item[0] for item in data[0]])
-            return translated_text
-
-    async def _translate_with_mymemory(self, session: aiohttp.ClientSession, text: str) -> str:
-        """ترجمه با استفاده از MyMemory API به عنوان جایگزین."""
-        params = {"q": text, "langpair": "en|fa"}
-        async with session.get(self.MYMEMORY_API_URL, params=params) as response:
-            response.raise_for_status()
-            data = await response.json()
-            if data.get("responseStatus") == 200:
-                return data["responseData"]["translatedText"]
-            else:
-                raise ValueError(f"MyMemory API error: {data.get('responseDetails')}")
+    def __init__(self, deepl_api_key: Optional[str] = None):
+        # DeepLTranslator نیاز به کلید API دارد و ممکن است برای همه در دسترس نباشد.
+        # ما آن را به عنوان یک گزینه نگه می‌داریم.
+        # self.deepl_translator = DeepLTranslator(api_key=deepl_api_key, source='en', target='fa') if deepl_api_key else None
+        
+        # GoogleTranslator نیازی به کلید API ندارد و برای استفاده عمومی مناسب است.
+        self.google_translator = GoogleTranslator(source='en', target='fa')
+        
+        # MyMemoryTranslator نیز نیازی به کلید API ندارد و می‌تواند به عنوان فال‌بک استفاده شود.
+        self.mymemory_translator = MyMemoryTranslator(source='en', target='fa')
+        
+        logger.info("SmartTranslator مقداردهی اولیه شد. سرویس‌های ترجمه: Google, MyMemory")
+        # if self.deepl_translator:
+        #     logger.info("DeepL Translator فعال است.")
 
     async def translate(self, text: str) -> str:
         """
-        یک متن انگلیسی را به فارسی ترجمه می‌کند.
-
-        Args:
-            text (str): متن انگلیسی برای ترجمه.
-
-        Returns:
-            str: متن ترجمه شده به فارسی، یا متن اصلی انگلیسی در صورت شکست تمام تلاش‌ها.
+        متن را از انگلیسی به فارسی ترجمه می‌کند.
+        ابتدا از Google Translate استفاده می‌کند، سپس به MyMemoryTranslator فال‌بک می‌کند.
         """
         if not text or not text.strip():
             return ""
 
-        logging.info(f"شروع فرآیند ترجمه برای متن: '{text[:50]}...'")
-        async with aiohttp.ClientSession() as session:
-            try:
-                # تلاش اول: سرویس عمومی گوگل
-                translated_text = await self._translate_with_google(session, text)
-                logging.info("ترجمه با سرویس گوگل موفقیت‌آمیز بود.")
+        # محدودیت طول متن برای DeepL (اگر فعال باشد)
+        # if self.deepl_translator and len(text) > 500: # DeepL free tier has character limits
+        #     logger.warning("متن بیش از حد طولانی برای DeepL. از Google Translate استفاده می‌شود.")
+        #     # Fallback to Google for very long texts if DeepL is limited
+
+        translated_text = None
+        
+        # 1. تلاش با Google Translate
+        try:
+            await asyncio.sleep(random.uniform(0.5, 1.5)) # تأخیر تصادفی برای جلوگیری از بلاک شدن
+            translated_text = self.google_translator.translate(text)
+            if translated_text:
+                logger.debug(f"ترجمه موفق با Google Translate: '{text[:30]}...' -> '{translated_text[:30]}...'")
                 return translated_text
-            except Exception as e_google:
-                logging.warning(f"ترجمه با سرویس گوگل ناموفق بود: {e_google}. تلاش با سرویس جایگزین...")
-                try:
-                    # تلاش دوم: MyMemory
-                    translated_text = await self._translate_with_mymemory(session, text)
-                    logging.info("ترجمه با MyMemory موفقیت‌آمیز بود.")
-                    return translated_text
-                except Exception as e_mymemory:
-                    logging.error(f"ترجمه با MyMemory نیز ناموفق بود: {e_mymemory}. بازگرداندن متن اصلی.")
-                    # آخرین راه حل: بازگرداندن متن اصلی
-                    return text
+        except Exception as e:
+            logger.warning(f"خطا در ترجمه با Google Translate (فال‌بک به MyMemory): {e}")
+
+        # 2. تلاش با MyMemoryTranslator (فال‌بک)
+        try:
+            await asyncio.sleep(random.uniform(0.5, 1.5)) # تأخیر تصادفی
+            translated_text = self.mymemory_translator.translate(text)
+            if translated_text:
+                logger.debug(f"ترجمه موفق با MyMemoryTranslator: '{text[:30]}...' -> '{translated_text[:30]}...'")
+                return translated_text
+        except Exception as e:
+            logger.warning(f"خطا در ترجمه با MyMemoryTranslator: {e}")
+
+        # 3. (اختیاری) تلاش با DeepL (اگر فعال باشد و خطایی رخ نداده باشد)
+        # if self.deepl_translator:
+        #     try:
+        #         await asyncio.sleep(random.uniform(0.5, 1.5)) # تأخیر تصادفی
+        #         translated_text = self.deepl_translator.translate(text)
+        #         if translated_text:
+        #             logger.debug(f"ترجمه موفق با DeepL Translator: '{text[:30]}...' -> '{translated_text[:30]}...'")
+        #             return translated_text
+        #     except Exception as e:
+        #         logger.warning(f"خطا در ترجمه با DeepL Translator: {e}")
+
+        logger.error(f"❌ ترجمه متن ناموفق بود: '{text[:100]}...'")
+        return text # در صورت عدم موفقیت، متن اصلی را برمی‌گرداند
+

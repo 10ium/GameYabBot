@@ -4,6 +4,7 @@ import logging
 import json
 import re
 from typing import List, Dict, Any
+import random # برای تأخیر تصادفی
 
 from core.database import Database
 from core.telegram_bot import TelegramBot
@@ -21,7 +22,7 @@ logging.basicConfig(
 )
 
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-DEEPL_API_KEY = os.getenv("DEEPL_API_KEY")
+DEEPL_API_KEY = os.getenv("DEEPL_API_KEY") # این متغیر باید به SmartTranslator پاس داده شود اگر DeepL استفاده می‌شود
 
 def _get_deduplication_key(game: Dict[str, Any]) -> str:
     """
@@ -31,14 +32,19 @@ def _get_deduplication_key(game: Dict[str, Any]) -> str:
     به عنوان ورودی‌های جداگانه در نظر گرفته شوند.
     """
     store_name = game.get('store', 'unknown').lower().replace(' ', '')
+    # اگر بازی رایگان نیست، آن را با یک کلید متفاوت از بازی‌های رایگان تفکیک کن
+    # این کار از تداخل یک بازی رایگان با نسخه تخفیف‌دار آن جلوگیری می‌کند.
+    if not game.get('is_free', True):
+        return f"discount_{store_name}_{clean_title_for_search(game.get('title', ''))}"
+
     if 'steam_app_id' in game and game['steam_app_id']:
         # اگر Steam App ID موجود است، از آن به همراه نام فروشگاه استفاده کن
-        return f"steam_{game['steam_app_id']}_{store_name}" 
+        return f"steam_{game['steam_app_id']}_{store_name}"
     
     # اگر Steam App ID نبود، از عنوان تمیز شده به همراه نام فروشگاه استفاده می‌کنیم
     cleaned_title = clean_title_for_search(game.get('title', '')) # استفاده از تابع مشترک
     if cleaned_title:
-        return f"{cleaned_title}_{store_name}" 
+        return f"{cleaned_title}_{store_name}"
     
     # آخرین راه حل: استفاده از URL اصلی (که ممکن است همچنان تکرار داشته باشد)
     return game.get('url', f"unknown_{os.urandom(8).hex()}") # Fallback ایمن
@@ -77,15 +83,18 @@ def _merge_game_data(existing_game: Dict[str, Any], new_game: Dict[str, Any]) ->
     # نیازی به منطق پیچیده برای URL در اینجا نیست، زیرا deduplication آن را مدیریت می‌کند.
 
     # ادغام نمرات و سایر ویژگی‌ها، با اولویت‌بندی مقادیر غیر خالی
-    for key in ['metacritic_score', 'metacritic_userscore', 
-                'steam_overall_score', 'steam_overall_reviews_count', 
-                'steam_recent_score', 'steam_recent_reviews_count', 
-                'genres', 'trailer', 'is_multiplayer', 'is_online', 'age_rating']: # age_rating هم اضافه شد
+    for key in ['metacritic_score', 'metacritic_userscore',
+                'steam_overall_score', 'steam_overall_reviews_count',
+                'steam_recent_score', 'steam_recent_reviews_count',
+                'genres', 'trailer', 'is_multiplayer', 'is_online', 'age_rating', 'is_free', 'discount_text',
+                'persian_genres', 'persian_age_rating']: # age_rating, is_free, discount_text, persian_genres, persian_age_rating هم اضافه شد
         if key in new_game and new_game[key]:
-            if key in ['is_multiplayer', 'is_online']: # برای پرچم‌های بولی، OR کن
+            if key in ['is_multiplayer', 'is_online', 'is_free']: # برای پرچم‌های بولی، OR کن (برای is_free، اگر یکی True بود، True بماند)
                 merged_game[key] = merged_game.get(key, False) or new_game[key]
-            elif key == 'genres': # برای لیست‌ها، آیتم‌های منحصر به فرد را ادغام کن
+            elif key == 'genres' or key == 'persian_genres': # برای لیست‌ها، آیتم‌های منحصر به فرد را ادغام کن
                 merged_game[key] = list(set(merged_game.get(key, []) + new_game[key]))
+            elif key == 'discount_text' and not merged_game.get('discount_text'): # فقط اگر discount_text موجود نیست، اضافه کن
+                merged_game[key] = new_game[key]
             else: # برای سایر فیلدها، مقدار جدید را جایگزین کن
                 merged_game[key] = new_game[key]
     
@@ -105,9 +114,11 @@ async def enrich_and_translate_game(game: Dict[str, Any], steam_enricher: SteamE
     store = game.get('store', '').lower().replace(' ', '')
 
     # تعیین پلتفرم بر اساس فروشگاه
-    is_desktop_store = store in ['steam', 'epic games', 'gog', 'itch.io', 'indiegala', 'stove', 'other'] # 'other' می تواند دسکتاپ باشد
+    # 'epic games' به عنوان دسکتاپ در نظر گرفته می‌شود.
+    # 'epic games (android)', 'epic games (ios)' به عنوان موبایل در نظر گرفته می‌شوند.
+    is_desktop_store = store in ['steam', 'epic games', 'gog', 'itch.io', 'indiegala', 'stove', 'other', 'reddit'] # 'reddit' هم می‌تواند دسکتاپ باشد
     is_console_store = store in ['xbox', 'playstation', 'nintendo']
-    is_mobile_store = store in ['google play', 'ios app store']
+    is_mobile_store = store in ['google play', 'ios app store', 'epic games (android)', 'epic games (ios)']
 
     # اعمال SteamEnricher فقط برای بازی‌های دسکتاپ
     if is_desktop_store:
@@ -115,16 +126,30 @@ async def enrich_and_translate_game(game: Dict[str, Any], steam_enricher: SteamE
     else:
         logging.info(f"ℹ️ SteamEnricher برای بازی موبایل/کنسول '{game.get('title', 'نامشخص')}' (فروشگاه: {game.get('store')}) اعمال نشد.")
 
-    # اعمال MetacriticEnricher برای بازی‌های دسکتاپ و کنسول
-    if is_desktop_store or is_console_store:
+    # اعمال MetacriticEnricher برای بازی‌های دسکتاپ، کنسول و موبایل
+    if is_desktop_store or is_console_store or is_mobile_store:
         game = await metacritic_enricher.enrich_data(game)
     else:
-        logging.info(f"ℹ️ MetacriticEnricher برای بازی موبایل '{game.get('title', 'نامشخص')}' (فروشگاه: {game.get('store')}) اعمال نشد.")
+        logging.info(f"ℹ️ MetacriticEnricher برای بازی '{game.get('title', 'نامشخص')}' (فروشگاه: {game.get('store')}) اعمال نشد.")
 
     # ترجمه توضیحات در صورت وجود
     description = game.get('description')
     if description and translator:
         game['persian_summary'] = await translator.translate(description)
+
+    # ترجمه ژانرها در صورت وجود
+    genres = game.get('genres')
+    if genres and isinstance(genres, list) and translator:
+        translated_genres = []
+        for genre in genres:
+            translated_genres.append(await translator.translate(genre))
+        game['persian_genres'] = translated_genres
+
+    # ترجمه رده‌بندی سنی در صورت وجود
+    age_rating = game.get('age_rating')
+    if age_rating and translator:
+        game['persian_age_rating'] = await translator.translate(age_rating)
+
     return game
 
 async def main():
@@ -136,7 +161,8 @@ async def main():
 
     db = Database(db_path="data/games.db")
     bot = TelegramBot(token=TELEGRAM_BOT_TOKEN, db=db)
-    translator = SmartTranslator()
+    # SmartTranslator اکنون بدون نیاز به DEEPL_API_KEY کار می‌کند
+    translator = SmartTranslator() 
 
     # --- مرحله ۱: پردازش دستورات معلق کاربران ---
     await bot.process_pending_updates()
@@ -221,11 +247,15 @@ async def main():
     games_to_post_to_telegram = []
     for game in final_unique_games: # از لیست deduplicate شده استفاده می‌کنیم
         url = game.get('url')
-        # از id_in_db یا URL برای چک کردن در دیتابیس استفاده می‌کنیم
-        if url and not db.is_game_posted_in_last_30_days(url): 
-            games_to_post_to_telegram.append(game)
+        # فقط بازی‌های کاملاً رایگان را به تلگرام ارسال کن
+        if game.get('is_free', True): # is_free به صورت پیش‌فرض True در نظر گرفته می‌شود
+            if url and not db.is_game_posted_in_last_30_days(url):
+                games_to_post_to_telegram.append(game)
+            else:
+                logging.info(f"ℹ️ بازی '{game.get('title', 'نامشخص')}' (فروشگاه: {game.get('store')}) قبلاً در ۳۰ روز گذشته پست شده بود یا URL ندارد. به تلگرام ارسال نمی‌شود.")
         else:
-            logging.info(f"ℹ️ بازی '{game.get('title', 'نامشخص')}' قبلاً در ۳۰ روز گذشته پست شده بود یا URL ندارد. به تلگرام ارسال نمی‌شود.")
+            logging.info(f"ℹ️ بازی '{game.get('title', 'نامشخص')}' (فروشگاه: {game.get('store')}, تخفیف: {game.get('discount_text', 'نامشخص')}) یک تخفیف است و به تلگرام ارسال نمی‌شود.")
+
 
     # --- مرحله ۶: ارسال پیام‌ها به تلگرام ---
     if not games_to_post_to_telegram:
@@ -254,8 +284,10 @@ async def main():
     os.makedirs(output_dir, exist_ok=True)
     output_file_path = os.path.join(output_dir, "free_games.json")
     with open(output_file_path, 'w', encoding='utf-8') as f:
+        # اکنون تمام بازی‌های منحصر به فرد (رایگان و تخفیف‌دار) برای وب‌سایت ذخیره می‌شوند.
+        # فیلترینگ در فرانت‌اند انجام خواهد شد.
         json.dump(final_unique_games, f, ensure_ascii=False, indent=4)
-    logging.info(f"✅ داده‌های بازی‌های رایگان برای GitHub Pages در {output_file_path} ذخیره شد.")
+    logging.info(f"✅ داده‌های بازی‌ها (رایگان و تخفیف‌دار) برای GitHub Pages در {output_file_path} ذخیره شد.")
 
     db.close()
     logging.info("🏁 کار ربات با موفقیت به پایان رسید.")

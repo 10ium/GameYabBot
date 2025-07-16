@@ -3,18 +3,22 @@ import asyncio
 from typing import List, Dict, Any, Optional
 import aiohttp
 from datetime import datetime, timezone
+import random # برای تأخیر تصادفی
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 class EpicGamesSource:
     GRAPHQL_API_URL = "https://store-content-ipv4.ak.epicgames.com/api/graphql"
-    HEADERS = { # اضافه شده: هدرها برای درخواست‌های API
+    HEADERS = { # هدرها برای درخواست‌های API
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36', # User-Agent عمومی‌تر
         'Referer': 'https://www.epicgames.com/store/', # مهم برای جلوگیری از 403
         'Origin': 'https://www.epicgames.com' # اضافه کردن Origin
     }
     
     def _normalize_game_data(self, game: Dict[str, Any]) -> Optional[Dict[str, str]]:
+        """
+        داده‌های خام بازی از Epic Games را به فرمت استاندارد پروژه تبدیل می‌کند.
+        """
         try:
             title = game.get('title', 'بدون عنوان')
             description = game.get('description', 'توضیحات موجود نیست.')
@@ -45,7 +49,8 @@ class EpicGamesSource:
             
             return {
                 "title": title, "store": "Epic Games", "url": url,
-                "image_url": image_url, "description": description, "id_in_db": f"epic_{game_id}" 
+                "image_url": image_url, "description": description, "id_in_db": f"epic_{game_id}",
+                "is_free": True # بازی‌های اپیک گیمز از این API همیشه رایگان هستند
             }
         except (KeyError, IndexError, TypeError) as e:
             logging.error(f"خطا در نرمال‌سازی داده‌های اپیک گیمز: {e}")
@@ -91,6 +96,7 @@ class EpicGamesSource:
         
         try:
             async with aiohttp.ClientSession(headers=self.HEADERS) as session: # استفاده از هدرها
+                await asyncio.sleep(random.uniform(2, 5)) # تأخیر تصادفی برای کاهش بلاک شدن
                 async with session.post(self.GRAPHQL_API_URL, json=payload) as response:
                     response.raise_for_status()
                     data = await response.json()
@@ -109,12 +115,14 @@ class EpicGamesSource:
                     end_date = datetime.fromisoformat(offer['endDate'].replace('Z', '+00:00'))
                     if start_date <= now <= end_date:
                         normalized_game = self._normalize_game_data(game)
-                        if normalized_game and not any(g['id_in_db'] == normalized_game['id_in_db'] for g in free_games_list):
+                        # اطمینان از اینکه بازی تکراری نیست (بر اساس id_in_db)
+                        if normalized_game and not any(g.get('id_in_db') == normalized_game['id_in_db'] for g in free_games_list):
                             free_games_list.append(normalized_game)
                             logging.info(f"بازی رایگان از Epic Games یافت شد: {normalized_game['title']}")
-                            break
+                            break # اگر یک پیشنهاد فعال پیدا شد، از حلقه خارج شو
         except aiohttp.ClientResponseError as e: # خطا را دقیق‌تر مدیریت می‌کنیم
             logging.error(f"خطا در ماژول Epic Games (GraphQL): {e.status}, message='{e.message}', url='{e.request_info.url}'", exc_info=True)
         except Exception as e:
             logging.error(f"خطای پیش‌بینی نشده در ماژول Epic Games (GraphQL): {e}", exc_info=True)
         return free_games_list
+

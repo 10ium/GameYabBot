@@ -1,8 +1,10 @@
 import logging
-import aiohttp
+import asyncio
 from typing import List, Dict, Any, Optional
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
+import random # برای تأخیر تصادفی
+import re # برای استفاده از regex
 
 # تنظیمات اولیه لاگ‌گیری
 logging.basicConfig(
@@ -36,6 +38,8 @@ class ITADSource:
 
             store = "نامشخص"
             deal_url = main_link # اگر لینک فروشگاه پیدا نشد، از لینک اصلی استفاده کن
+            is_free = False # پیش‌فرض: رایگان نیست
+            discount_text = None
 
             if description_html:
                 soup = BeautifulSoup(description_html, 'html.parser')
@@ -47,12 +51,25 @@ class ITADSource:
                     # لینک مستقیم به تخفیف
                     if deal_link_tag.has_attr('href'):
                         deal_url = deal_link_tag['href']
+                
+                # بررسی رایگان بودن بر اساس متن توضیحات
+                # ITAD Deals RSS می تواند شامل 100% تخفیف باشد
+                full_description_text = soup.get_text(strip=True).lower()
+                if "100% off" in full_description_text or "free" in full_description_text:
+                    is_free = True
+                else:
+                    # اگر تخفیف عادی بود، متن تخفیف را استخراج کن
+                    discount_match = re.search(r'(\d+% off)', full_description_text)
+                    if discount_match:
+                        discount_text = discount_match.group(1)
 
             return {
                 "title": title,
                 "store": store,
                 "url": deal_url,
-                "id_in_db": main_link  # لینک اصلی ITAD بهترین شناسه منحصر به فرد است
+                "id_in_db": main_link,  # لینک اصلی ITAD بهترین شناسه منحصر به فرد است
+                "is_free": is_free,
+                "discount_text": discount_text
             }
         except Exception as e:
             logging.error(f"خطا در نرمال‌سازی آیتم ITAD: {e}")
@@ -70,6 +87,7 @@ class ITADSource:
             try:
                 logging.info(f"در حال اسکن فید RSS: {url}")
                 async with aiohttp.ClientSession(headers=self.HEADERS) as session:
+                    await asyncio.sleep(random.uniform(1, 3)) # تأخیر تصادفی برای کاهش بلاک شدن
                     async with session.get(url) as response:
                         if response.status != 200:
                             logging.error(f"خطا در دریافت فید {url}: Status {response.status}")
@@ -82,9 +100,12 @@ class ITADSource:
                             normalized_game = self._normalize_game_data(item)
                             
                             if normalized_game and normalized_game['id_in_db'] not in processed_urls:
+                                # ITAD Deals RSS ممکن است شامل بازی‌های رایگان واقعی (100% تخفیف) باشد
+                                # یا فقط تخفیف‌های عادی. اینجا ما همه را اضافه می‌کنیم و فیلتر
+                                # "Not Free (Discount)" در main.py انجام می‌شود.
                                 free_games_list.append(normalized_game)
                                 processed_urls.add(normalized_game['id_in_db'])
-                                logging.info(f"بازی رایگان از ITAD RSS یافت شد: {normalized_game['title']} در فروشگاه {normalized_game['store']}")
+                                logging.info(f"بازی از ITAD RSS یافت شد: {normalized_game['title']} در فروشگاه {normalized_game['store']} (رایگان: {normalized_game['is_free']})")
 
             except aiohttp.ClientError as e:
                 logging.error(f"خطای شبکه هنگام دریافت فید RSS از {url}: {e}")
