@@ -1,6 +1,7 @@
 import sqlite3
 import logging
 from datetime import datetime, timedelta
+from typing import List, Tuple # اضافه کردن List و Tuple از ماژول typing
 
 logging.basicConfig(
     level=logging.INFO,
@@ -130,7 +131,7 @@ class Database:
             logging.debug(f"اشتراک‌های کاربر chat_id={chat_id}, thread_id={thread_id}: {subscriptions}")
             return subscriptions
 
-    def get_targets_for_store(self, store_name: str) -> List[tuple]:
+    def get_targets_for_store(self, store_name: str) -> List[Tuple[int, int]]:
         """
         لیست (chat_id, thread_id) کاربرانی که در فروشگاه مشخص شده مشترک هستند را برمی‌گرداند.
         اگر store_name 'all' باشد، تمام کاربران را برمی‌گرداند.
