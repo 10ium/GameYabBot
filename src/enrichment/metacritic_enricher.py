@@ -118,7 +118,7 @@ class MetacriticEnricher:
                                 age_rating_text = rating_div.find(string=re.compile(r'(ESRB|PEGI|CERO)\s*\w+'))
                                 if age_rating_text:
                                     game_info['age_rating'] = age_rating_text.strip()
-                                    logging.info(f"رده‌بندی سنی برای '{game_title}' از Metacritic (fallback) یافت شد: {game_info['age_rating']}")
+                                    logging.info(f"رده‌بندی سنی برای '{game_title}' از Metacritic (fallback) یافت شد: {age_rating_text}")
         except aiohttp.ClientError as e:
             logging.error(f"خطای شبکه هنگام ارتباط با Metacritic برای '{game_title}': {e}")
         except Exception as e:
