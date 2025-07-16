@@ -7,14 +7,17 @@
         "description": "“METAL SLUG 3”, the masterpiece in SNK’s emblematic 2D run &amp; gun action shooting game series, still continues to fascinate millions of fans worldwide to this day for its intricate dot-pixel graphics, and simple and intuitive game controls, heads out to the Steam gaming platform!",
         "id_in_db": "t3_1m028s6",
         "subreddit": "FreeGameFindings",
+        "steam_app_id": "250180",
         "genres": [
             "Action"
         ],
         "trailer": "http://video.akamai.steamstatic.com/store_trailers/2030803/movie_max.mp4?t=1447360214",
         "is_multiplayer": true,
         "is_online": true,
-        "steam_score": 89,
-        "steam_reviews_count": 2418,
+        "steam_overall_score": 89,
+        "steam_overall_reviews_count": 2418,
+        "steam_recent_score": 89,
+        "steam_recent_reviews_count": 2418,
         "metacritic_userscore": 7.0,
         "persian_summary": "\"Metal Slug 3\" ، شاهکار در سری بازی های تیراندازی اکشن 2D Run & Gun Emblematic SNK ، هنوز هم به دلیل گرافیک های پیچیده نقطه پیکسل ، و کنترل های ساده و بصری بازی ، میلیون ها نفر از طرفداران در سراسر جهان را مجذوب خود می کند ، به سمت سکوی بازی Steam می رود!"
     },
@@ -35,6 +38,7 @@
         "description": "Welcome to the Afgarn Mansion. Don’t ask why it’s empty. Nor why the lights flicker. The more you ask, the more they’ll want to answer. Find your father. If you hear voices, don’t respond. The experiments are still inside. They know you entered. And they’re eager to have you close.",
         "id_in_db": "t3_1lyaw1h",
         "subreddit": "FreeGameFindings",
+        "steam_app_id": "2914740",
         "genres": [
             "Action",
             "Adventure",
@@ -55,6 +59,7 @@
         "description": "4-player co-op, zombie slaying, base building, boss battling mayhem! Cleanse the infected wave by wave and upgrade your base with traps &amp; defenses in Ultimate Zombie Defense 2!",
         "id_in_db": "t3_1lxc87m",
         "subreddit": "FreeGameFindings",
+        "steam_app_id": "1765300",
         "genres": [
             "Action",
             "Adventure",
@@ -66,8 +71,10 @@
         "trailer": "http://video.akamai.steamstatic.com/store_trailers/256999800/movie_max.mp4?t=1707347821",
         "is_multiplayer": true,
         "is_online": true,
-        "steam_score": 86,
-        "steam_reviews_count": 79,
+        "steam_overall_score": 86,
+        "steam_overall_reviews_count": 79,
+        "steam_recent_score": 86,
+        "steam_recent_reviews_count": 79,
         "persian_summary": "4-بازیکن تعاونی ، کشتار زامبی ، ساختمان پایه ، رئیس با ضرب و شتم مبارزه! موج آلوده را با موج پاک کنید و پایه خود را با تله ها و دفاعی در نهایت Zombie Defense 2 ارتقا دهید!"
     },
     {
@@ -78,6 +85,7 @@
         "description": "The most enjoyable Chinese-style Roguelike card game! Play as Cao Cao and conquer the Central, Japanese, and Western waifu with your allies, save the world!",
         "id_in_db": "t3_1lx0yjb",
         "subreddit": "FreeGameFindings",
+        "steam_app_id": "1913420",
         "genres": [
             "Adventure",
             "Casual",
@@ -98,6 +106,7 @@
         "description": "Caribbean Crashers is a fast paced pirate strategy game where you control your own ship and fire cannonballs at enemy vessels to secure victory!",
         "id_in_db": "t3_1lwhzo3",
         "subreddit": "FreeGameFindings",
+        "steam_app_id": "2921380",
         "genres": [
             "Adventure",
             "Casual",
@@ -118,14 +127,17 @@
         "description": "The fantasy wargaming classic is back! Lead powerful heroes and mighty armies into battle in this critically acclaimed turn-based strategy milestone. Level up and train your units and guide them through a gripping story campaign to decide the fate of a world on the brink of destruction.",
         "id_in_db": "t3_1lwhzfm",
         "subreddit": "FreeGameFindings",
+        "steam_app_id": "1025440",
         "genres": [
             "Strategy"
         ],
         "trailer": "http://video.akamai.steamstatic.com/store_trailers/256760722/movie_max.mp4?t=1567171589",
         "is_multiplayer": true,
         "is_online": true,
-        "steam_score": 82,
-        "steam_reviews_count": 518,
+        "steam_overall_score": 82,
+        "steam_overall_reviews_count": 518,
+        "steam_recent_score": 82,
+        "steam_recent_reviews_count": 518,
         "metacritic_userscore": 7.1,
         "persian_summary": "Fantasy Wargaming Classic برگشته است! قهرمانان قدرتمند و ارتش های توانا را در این نقطه عطف انتقادی مبتنی بر استراتژی مبتنی بر تحسین برانگیز به نبرد سوق دهید. واحدهای خود را سطح بالا و آموزش دهید و آنها را از طریق یک کمپین داستانی گیربکس راهنمایی کنید تا در مورد سرنوشت جهانی در آستانه تخریب تصمیم بگیرید."
     },
@@ -137,6 +149,7 @@
         "description": "Field of Glory II Medieval is a turn-based tactical game set in the High Middle Ages from 1040 AD to 1270 AD. Developed by legendary designer Richard Bodley Scott it brings the best from the tabletop world into the best digital framework.",
         "id_in_db": "t3_1lwhz8l",
         "subreddit": "FreeGameFindings",
+        "steam_app_id": "1368870",
         "genres": [
             "Simulation",
             "Strategy"
@@ -144,8 +157,10 @@
         "trailer": "http://video.akamai.steamstatic.com/store_trailers/256820961/movie_max.mp4?t=1612429720",
         "is_multiplayer": true,
         "is_online": true,
-        "steam_score": 86,
-        "steam_reviews_count": 254,
+        "steam_overall_score": 86,
+        "steam_overall_reviews_count": 254,
+        "steam_recent_score": 86,
+        "steam_recent_reviews_count": 254,
         "metacritic_userscore": 6.5,
         "persian_summary": "Field of Glory II Medieval یک بازی تاکتیکی مبتنی بر نوبت است که در قرون وسطی از 1040 میلادی تا 1270 میلادی تنظیم شده است. توسعه یافته توسط طراح افسانه ای ریچارد بدلی اسکات ، بهترین ها را از دنیای تبلت به بهترین چارچوب دیجیتال می رساند."
     },
@@ -157,14 +172,17 @@
         "description": "In Battlestar Galactica Deadlock™ you’ll take command of the Colonial Fleet in defense of the Twelve Colonies during the First Cylon War. Lead many different types of ships in this 3D tactical game. Every decision counts, your strategy will be vital – can you ensure mankind’s survival?",
         "id_in_db": "t3_1lwhz0e",
         "subreddit": "FreeGameFindings",
+        "steam_app_id": "544610",
         "genres": [
             "Strategy"
         ],
         "trailer": "http://video.akamai.steamstatic.com/store_trailers/256684699/movie_max.mp4?t=1494934321",
         "is_multiplayer": true,
         "is_online": true,
-        "steam_score": 88,
-        "steam_reviews_count": 2061,
+        "steam_overall_score": 88,
+        "steam_overall_reviews_count": 2061,
+        "steam_recent_score": 88,
+        "steam_recent_reviews_count": 2061,
         "metacritic_userscore": 6.7,
         "persian_summary": "در Battlestar Galactica Deadlock ™ شما در دفاع از دوازده مستعمره در اولین جنگ سیلون ، ناوگان استعماری را به عهده خواهید گرفت. انواع مختلفی از کشتی ها را در این بازی تاکتیکی سه بعدی هدایت کنید. هر تصمیم گیری ، استراتژی شما بسیار حیاتی خواهد بود - آیا می توانید بقای بشر را تضمین کنید؟"
     },
@@ -176,6 +194,7 @@
         "description": "Figment 2: Creed Valley is an action-adventure game set in the human mind. Face bosses in musical showdowns, make your way through puzzles, and explore unique environments.",
         "id_in_db": "t3_1lwewzr",
         "subreddit": "FreeGameFindings",
+        "steam_app_id": "1085220",
         "genres": [
             "Action",
             "Adventure",
@@ -185,8 +204,10 @@
         "trailer": "http://video.akamai.steamstatic.com/store_trailers/256929912/movie_max.mp4?t=1683192088",
         "is_multiplayer": true,
         "is_online": false,
-        "steam_score": 94,
-        "steam_reviews_count": 264,
+        "steam_overall_score": 94,
+        "steam_overall_reviews_count": 264,
+        "steam_recent_score": 94,
+        "steam_recent_reviews_count": 264,
         "metacritic_userscore": 6.3,
         "persian_summary": "FIGMENT 2: Creed Valley یک بازی اکشن-ماجراجویی است که در ذهن انسان تنظیم شده است. کارفرمایان چهره در نمایش های موسیقی ، راه خود را از طریق معماها انجام دهید و محیط های منحصر به فرد را کشف کنید."
     },
@@ -198,6 +219,7 @@
         "description": "Sky Racket is a game that mixes two classic genres from the Arcade era: Shoot’em up and Brick Breakers. In a world where you are unable to attack, using your racket to strike enemy bullets back at them is your only option! Bounce bullets back at your foes and save the galaxy!",
         "id_in_db": "t3_1lwewyk",
         "subreddit": "FreeGameFindings",
+        "steam_app_id": "994500",
         "genres": [
             "Casual",
             "Indie",
@@ -206,8 +228,10 @@
         "trailer": "http://video.akamai.steamstatic.com/store_trailers/256765087/movie_max.mp4?t=1574811334",
         "is_multiplayer": true,
         "is_online": false,
-        "steam_score": 87,
-        "steam_reviews_count": 38,
+        "steam_overall_score": 87,
+        "steam_overall_reviews_count": 38,
+        "steam_recent_score": 87,
+        "steam_recent_reviews_count": 38,
         "metacritic_userscore": 8.8,
         "persian_summary": "Sky Racket بازی است که دو ژانر کلاسیک را از دوره Arcade مخلوط می کند: Shoot'em Up و Brick Breakers. در دنیایی که شما قادر به حمله نیستید ، استفاده از راکت خود برای حمله به گلوله های دشمن به آنها تنها گزینه شماست! گلوله ها را به دشمنان خود برگردانید و کهکشان را ذخیره کنید!"
     },
@@ -219,6 +243,7 @@
         "description": "Figment 2: Creed Valley is an action-adventure game set in the human mind. Face bosses in musical showdowns, make your way through puzzles, and explore unique environments.",
         "id_in_db": "t3_1lwewya",
         "subreddit": "FreeGameFindings",
+        "steam_app_id": "1085220",
         "genres": [
             "Action",
             "Adventure",
@@ -228,8 +253,10 @@
         "trailer": "http://video.akamai.steamstatic.com/store_trailers/256929912/movie_max.mp4?t=1683192088",
         "is_multiplayer": true,
         "is_online": false,
-        "steam_score": 94,
-        "steam_reviews_count": 264,
+        "steam_overall_score": 94,
+        "steam_overall_reviews_count": 264,
+        "steam_recent_score": 94,
+        "steam_recent_reviews_count": 264,
         "metacritic_userscore": 6.3,
         "persian_summary": "FIGMENT 2: Creed Valley یک بازی اکشن-ماجراجویی است که در ذهن انسان تنظیم شده است. کارفرمایان چهره در نمایش های موسیقی ، راه خود را از طریق معماها انجام دهید و محیط های منحصر به فرد را کشف کنید."
     },
@@ -241,6 +268,7 @@
         "description": "An adult visual novel where you navigate the lives and fantasies of alluring women in a community condominium. As the new trustee, create relationships, uncover secrets, and trigger in intimate encounters. Will you master the art of seduction, or will you crave more? Your choices, your desires.",
         "id_in_db": "t3_1lweshg",
         "subreddit": "FreeGameFindings",
+        "steam_app_id": "3205430",
         "genres": [
             "Casual",
             "Indie",
@@ -262,6 +290,7 @@
         "description": "I Am Fish is a charming, physics-based adventure starring four intrepid fish friends, forcibly separated from their home in a pet shop fish tank. Swim, fly, roll and chomp your way to the open ocean in a bid for freedom and to re-unite once again.",
         "id_in_db": "t3_1lvo1x6",
         "subreddit": "FreeGameFindings",
+        "steam_app_id": "1472560",
         "genres": [
             "Adventure",
             "Simulation"
@@ -269,8 +298,10 @@
         "trailer": "http://video.akamai.steamstatic.com/store_trailers/256854603/movie_max.mp4?t=1633532608",
         "is_multiplayer": false,
         "is_online": false,
-        "steam_score": 74,
-        "steam_reviews_count": 880,
+        "steam_overall_score": 74,
+        "steam_overall_reviews_count": 880,
+        "steam_recent_score": 74,
+        "steam_recent_reviews_count": 880,
         "metacritic_userscore": 6.9,
         "persian_summary": "من ماهی هستم یک ماجراجویی جذاب و فیزیک است که چهار دوست ماهی بی پروا را بازی می کند و به زور از خانه آنها در یک مخزن ماهی حیوانات خانگی جدا شده است. در تلاش برای آزادی و یک بار دیگر دوباره به اقیانوس باز بروید ، پرواز کنید و راه خود را به اقیانوس باز کنید."
     },
@@ -282,14 +313,17 @@
         "description": "Hotel Greenwood is a psychological horror and thriller game played with a first-person camera. Explore this mysterious hotel with its intense and dark atmosphere, solve the events and witness the story behind the disaster that happened in the past.",
         "id_in_db": "t3_1luluwb",
         "subreddit": "FreeGameFindings",
+        "steam_app_id": "2089110",
         "genres": [
             "Indie"
         ],
         "trailer": "http://video.akamai.steamstatic.com/store_trailers/256897323/movie_max.mp4?t=1659792611",
         "is_multiplayer": false,
         "is_online": false,
-        "steam_score": 76,
-        "steam_reviews_count": 79,
+        "steam_overall_score": 76,
+        "steam_overall_reviews_count": 79,
+        "steam_recent_score": 76,
+        "steam_recent_reviews_count": 79,
         "persian_summary": "هتل گرین وود یک بازی وحشت و تریلر روانی است که با یک دوربین اول شخص بازی می شود. این هتل مرموز را با فضای شدید و تاریک خود کاوش کنید ، وقایع را حل کنید و شاهد داستان پشت فاجعه ای باشید که در گذشته اتفاق افتاده است."
     },
     {
@@ -300,6 +334,7 @@
         "description": "Orbit Maze is a unique maze game set on various surfaces. Control gravity, navigate through platforms, and solve mind-bending puzzles!",
         "id_in_db": "t3_1lu2qs4",
         "subreddit": "FreeGameFindings",
+        "steam_app_id": "3740920",
         "genres": [
             "Action",
             "Adventure",
@@ -312,7 +347,7 @@
         "persian_summary": "Orbit Maze یک بازی پیچ و خم منحصر به فرد است که روی سطوح مختلف تنظیم شده است. گرانش را کنترل کنید ، از طریق سیستم عامل ها حرکت کنید و معماهای خمیده ذهن را حل کنید!"
     },
     {
-        "title": "Stick - TV Remote Control Pro Free ( Rs.250 --> 0)",
+        "title": "Stick - TV Remote Control Pro Free ( Rs.)",
         "store": "playstation",
         "url": "https://play.google.com/store/apps/details?id=tv.remote.control.universal.smart.plus.tcl",
         "image_url": "https://external-preview.redd.it/6Qqo2WnS8rf0vIYfW4bUonuOo7Q8ANACeAWGpc2o2AY.jpeg?width=320&crop=smart&auto=webp&s=ad02b21a40ee74fcdca26ffada9145620168e676",
@@ -356,6 +391,7 @@
         "description": "Color Wheels is an application based on the color wheel technique. It allows you to quickly and easily create harmonious color combinations. Choose the desired type of color wheel and harmony, control the harmony modifier and tones, and get pleasing color combinations for your projects.",
         "id_in_db": "t3_1lvgaa2",
         "subreddit": "googleplaydeals",
+        "steam_app_id": "3211010",
         "genres": [
             "Animation & Modeling",
             "Design & Illustration",
@@ -377,7 +413,7 @@
         "description": "Hello everyone! 👋A little while ago, I shared my water tracker app here and received some fantastic feedback from many of you - thank you!Based on your suggestions, l've been working hard and justreleased an updateimplementing some of the most requested features.Big News & Thank You Offer:To celebrate the update and show my appreciation for your input, I'm making Lifetime Pro Access completely FREE for everyone who gets the app within 72 hours 🎁I'm really excited for you to try the improvements and eager for more feedback!",
         "id_in_db": "t3_1lwwp4j",
         "subreddit": "AppHookup",
-        "persian_summary": "سلام به همه! 👋 چندان پیش ، من برنامه Tracker Water خود را در اینجا به اشتراک گذاشتم و از بسیاری از شما بازخورد خارق العاده ای دریافت کردم - با تشکر از شما! بر اساس پیشنهادات شما ، با توجه به پیشنهادات شما ، سخت کار کرده ام و به روزرسانی می کنید که برخی از ویژگی های درخواستی را ارائه می دهید. مشتاق بازخورد بیشتر!"
+        "persian_summary": "سلام به همه! چندان پیش ، من برنامه Tracker Water خود را در اینجا به اشتراک گذاشتم و از بسیاری از شما بازخورد خارق العاده ای دریافت کردم - با تشکر از شما! بر اساس پیشنهادات شما ، بر اساس پیشنهادات شما ، سخت کار کرده اید و به روزرسانی می کنید که برخی از ویژگی های درخواستی را به روز می کنید. مشتاق بازخورد بیشتر!"
     },
     {
         "title": "hocus.",
@@ -387,6 +423,7 @@
         "description": "Just when you thought the Goat Simulator 3 world couldn’t get more enchanting. We’ve added 20 new magical gears to get you brewing with excitement. Sounds wand-erful, right?",
         "id_in_db": "4cefb297cea36fa95c687363d3537c30d3185d7bcff91b96bd28e50882adddbf",
         "subreddit": "AppHookup",
+        "steam_app_id": "3204290",
         "genres": [
             "Adventure",
             "Casual",
@@ -395,8 +432,10 @@
         "trailer": "http://video.akamai.steamstatic.com/store_trailers/257072991/movie_max.mp4?t=1732543097",
         "is_multiplayer": true,
         "is_online": true,
-        "steam_score": 100,
-        "steam_reviews_count": 13,
+        "steam_overall_score": 100,
+        "steam_overall_reviews_count": 13,
+        "steam_recent_score": 100,
+        "steam_recent_reviews_count": 13,
         "persian_summary": "درست وقتی فکر کردید که Goat Simulator 3 World نمی تواند جذاب تر شود. ما 20 چرخ دنده جادویی جدید اضافه کرده ایم تا شما را با هیجان تولید کنیم. به نظر می رسد گرگ و سفید ، درست است؟"
     },
     {
@@ -456,6 +495,7 @@
         "description": "Hypercharge is a first and third-person shooter action figure game you've always dreamed of! Grab your friends, complete objectives, defend the Hypercore against waves of weaponized toys, and defeat Major Evil together in the story campaign!",
         "id_in_db": "601c8228b034b355aa8d271c8de136912f52a3e3aa212503721469679692b85f",
         "subreddit": "AppHookup",
+        "steam_app_id": "523660",
         "genres": [
             "Action",
             "Adventure",
@@ -466,8 +506,10 @@
         "trailer": "http://video.akamai.steamstatic.com/store_trailers/256849307/movie_max.mp4?t=1719929881",
         "is_multiplayer": true,
         "is_online": true,
-        "steam_score": 92,
-        "steam_reviews_count": 2996,
+        "steam_overall_score": 92,
+        "steam_overall_reviews_count": 2996,
+        "steam_recent_score": 92,
+        "steam_recent_reviews_count": 2996,
         "persian_summary": "HyperChade یک بازی اکشن اکشن تیرانداز اول و سوم است که همیشه در آن خواب دیده اید! دوستان خود را بگیرید ، اهداف کامل کنید ، از Hypercore در برابر امواج اسباب بازی های سلاح شده دفاع کنید و در کمپین داستان با هم بزرگ شر شر را شکست دهید!"
     },
     {
