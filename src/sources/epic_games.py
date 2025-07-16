@@ -1,4 +1,5 @@
 import logging
+import asyncio
 from typing import List, Dict, Any, Optional
 import aiohttp
 from datetime import datetime, timezone
@@ -7,6 +8,10 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(level
 
 class EpicGamesSource:
     GRAPHQL_API_URL = "https://store-content-ipv4.ak.epicgames.com/api/graphql"
+    HEADERS = { # اضافه شده: هدرها برای درخواست‌های API
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+        'Referer': 'https://www.epicgames.com/store/' # مهم برای جلوگیری از 403
+    }
     
     def _normalize_game_data(self, game: Dict[str, Any]) -> Optional[Dict[str, str]]:
         try:
@@ -16,10 +21,21 @@ class EpicGamesSource:
             
             image_url = ""
             for img in game.get('keyImages', []):
-                if img.get('type') == 'OfferImageWide':
+                if img.get('type') == 'OfferImageWide': # یا 'VaultHandout' یا 'OfferImageTall'
                     image_url = img.get('url')
                     break
-            
+            # اگر OfferImageWide پیدا نشد، یک fallback دیگر
+            if not image_url:
+                for img in game.get('keyImages', []):
+                    if img.get('type') == 'VaultHandout':
+                        image_url = img.get('url')
+                        break
+            if not image_url:
+                for img in game.get('keyImages', []):
+                    if img.get('type') == 'OfferImageTall':
+                        image_url = img.get('url')
+                        break
+
             product_slug = game.get('productSlug') or game.get('catalogNs', {}).get('mappings', [{}])[0].get('pageSlug') or game.get('urlSlug')
             if product_slug:
                 product_slug = product_slug.replace('/home', '')
@@ -73,7 +89,7 @@ class EpicGamesSource:
         payload = {"query": query, "variables": variables}
         
         try:
-            async with aiohttp.ClientSession() as session:
+            async with aiohttp.ClientSession(headers=self.HEADERS) as session: # استفاده از هدرها
                 async with session.post(self.GRAPHQL_API_URL, json=payload) as response:
                     response.raise_for_status()
                     data = await response.json()
@@ -96,6 +112,8 @@ class EpicGamesSource:
                             free_games_list.append(normalized_game)
                             logging.info(f"بازی رایگان از Epic Games یافت شد: {normalized_game['title']}")
                             break
+        except aiohttp.ClientResponseError as e: # خطا را دقیق‌تر مدیریت می‌کنیم
+            logging.error(f"خطا در ماژول Epic Games (GraphQL): {e.status}, message='{e.message}', url='{e.request_info.url}'", exc_info=True)
         except Exception as e:
-            logging.error(f"خطا در ماژول Epic Games (GraphQL): {e}", exc_info=True)
+            logging.error(f"خطای پیش‌بینی نشده در ماژول Epic Games (GraphQL): {e}", exc_info=True)
         return free_games_list

@@ -206,9 +206,22 @@
 
                 // Format scores and genres
                 const metacriticScore = game.metacritic_score ? `<p class="text-sm text-gray-300"><span class="font-semibold text-yellow-400">متاکریتیک:</span> ${game.metacritic_score}/100</p>` : '';
+                const metacriticUserScore = game.metacritic_userscore ? `<p class="text-sm text-gray-300"><span class="font-semibold text-green-400">کاربران متاکریتیک:</span> ${game.metacritic_userscore}/10</p>` : '';
                 const steamScore = game.steam_score ? `<p class="text-sm text-gray-300"><span class="font-semibold text-blue-400">استیم:</span> ${game.steam_score}% (${game.steam_reviews_count || 0} رای)</p>` : '';
                 const genres = game.genres && game.genres.length > 0 ? `<p class="text-sm text-gray-300"><span class="font-semibold">ژانرها:</span> ${game.genres.join(', ')}</p>` : '';
                 const trailerLink = game.trailer ? `<a href="${game.trailer}" target="_blank" class="text-blue-400 hover:underline text-sm mt-2 block">مشاهده تریلر</a>` : '';
+
+                let playerInfo = '';
+                if (game.is_multiplayer && game.is_online) {
+                    playerInfo = '<p class="text-sm text-gray-300"><span class="font-semibold">تعداد بازیکن:</span> چندنفره (آنلاین)</p>';
+                } else if (game.is_multiplayer) {
+                    playerInfo = '<p class="text-sm text-gray-300"><span class="font-semibold">تعداد بازیکن:</span> چندنفره (آفلاین)</p>';
+                } else if (game.is_online) {
+                    playerInfo = '<p class="text-sm text-gray-300"><span class="font-semibold">تعداد بازیکن:</span> تک‌نفره (آنلاین)</p>';
+                } else {
+                    playerInfo = '<p class="text-sm text-gray-300"><span class="font-semibold">تعداد بازیکن:</span> تک‌نفره</p>';
+                }
+
 
                 gameCard.innerHTML = `
                     <img src="${imageUrl}" alt="${game.title || 'تصویر بازی'}" class="w-full h-48 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x338/374151/D1D5DB?text=${encodeURIComponent(game.title || 'تصویر موجود نیست')}';">
@@ -218,8 +231,10 @@
                         <p class="text-gray-300 text-sm mb-4 flex-grow">${game.persian_summary || game.description || 'توضیحات موجود نیست.'}</p>
                         <div class="mt-auto pt-3 border-t border-gray-600">
                             ${metacriticScore}
+                            ${metacriticUserScore}
                             ${steamScore}
                             ${genres}
+                            ${playerInfo}
                             ${trailerLink}
                             <a href="${game.url}" target="_blank" class="mt-4 block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-200">
                                 دریافت بازی

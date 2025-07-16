@@ -25,8 +25,11 @@ async def enrich_and_translate_game(game: Dict[str, Any], enrichers: list, trans
     """
     بازی را با اطلاعات اضافی غنی‌سازی و توضیحات آن را ترجمه می‌کند.
     """
+    # ابتدا اطلاعات را از Enricherها دریافت می‌کنیم
     for enricher in enrichers:
         game = await enricher.enrich_data(game)
+    
+    # سپس توضیحات (که ممکن است توسط Enricherها اضافه شده باشد) را ترجمه می‌کنیم
     description = game.get('description')
     if description and translator:
         game['persian_summary'] = await translator.translate(description)
