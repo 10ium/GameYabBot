@@ -79,21 +79,23 @@
         }
         .game-card img {
             object-fit: cover; /* Ensures images cover the area without distortion */
-            height: 192px; /* Fixed height for consistency (h-48) */
+            height: 192px; /* Default h-48 */
         }
         .game-card .p-4 {
             flex-grow: 1; /* Allows content area to expand */
             display: flex;
             flex-direction: column;
         }
-        .game-card .text-sm.mb-4.flex-grow {
+        /* Default text truncation */
+        .game-card .description-text {
             flex-grow: 1;
-            overflow: hidden; /* Hide overflow text */
+            overflow: hidden;
             display: -webkit-box;
-            -webkit-line-clamp: 4; /* Limit to 4 lines */
+            -webkit-line-clamp: 4; /* Default to 4 lines */
             -webkit-box-orient: vertical;
-            text-overflow: ellipsis; /* Add ellipsis for clamped text */
+            text-overflow: ellipsis;
         }
+
         /* Custom styles for the theme toggle button */
         #theme-toggle {
             position: fixed;
@@ -152,6 +154,31 @@
         #scroll-to-bottom {
             bottom: 20px;
         }
+
+        /* Responsive layout adjustments based on selected columns */
+        /* For 1 column (Large View) */
+        .layout-cols-1 .game-card img { height: 320px; /* h-80 */ }
+        .layout-cols-1 .game-card h2 { font-size: 2rem; /* text-4xl */ }
+        .layout-cols-1 .game-card .description-text { -webkit-line-clamp: 8; }
+        .layout-cols-1 .game-card .text-sm { font-size: 1rem; /* text-base */ }
+
+        /* For 2 columns (Medium View) */
+        .layout-cols-2 .game-card img { height: 256px; /* h-64 */ }
+        .layout-cols-2 .game-card h2 { font-size: 1.75rem; /* text-3xl */ }
+        .layout-cols-2 .game-card .description-text { -webkit-line-clamp: 6; }
+        .layout-cols-2 .game-card .text-sm { font-size: 0.875rem; /* text-sm */ }
+
+        /* For 3 columns (Small View - Default) */
+        .layout-cols-3 .game-card img { height: 192px; /* h-48 */ }
+        .layout-cols-3 .game-card h2 { font-size: 1.25rem; /* text-xl */ }
+        .layout-cols-3 .game-card .description-text { -webkit-line-clamp: 4; }
+        .layout-cols-3 .game-card .text-sm { font-size: 0.875rem; /* text-sm */ }
+
+        /* For 4 columns (Very Small View) */
+        .layout-cols-4 .game-card img { height: 160px; /* h-40 */ }
+        .layout-cols-4 .game-card h2 { font-size: 1rem; /* text-lg */ }
+        .layout-cols-4 .game-card .description-text { -webkit-line-clamp: 3; }
+        .layout-cols-4 .game-card .text-sm { font-size: 0.75rem; /* text-xs */ }
     </style>
 </head>
 <body class="bg-gradient-to-br from-gray-900 to-gray-800 text-gray-100 min-h-screen p-4 sm:p-8">
@@ -172,14 +199,26 @@
             </p>
         </header>
 
-        <!-- Store Filter -->
+        <!-- Filter and Layout Options -->
         <div class="mb-8 flex flex-col sm:flex-row items-center justify-center gap-4">
+            <!-- Store Filter -->
             <label for="store-filter" class="text-lg font-medium text-gray-300 whitespace-nowrap">
                 فیلتر بر اساس فروشگاه:
             </label>
             <select id="store-filter" class="bg-gray-700 border border-gray-600 text-white rounded-lg px-4 py-2 focus:ring-blue-500 focus:border-blue-500 w-full sm:w-auto">
                 <option value="all">همه فروشگاه‌ها</option>
                 <!-- Options will be populated by JavaScript -->
+            </select>
+
+            <!-- Column Selector -->
+            <label for="column-selector" class="text-lg font-medium text-gray-300 whitespace-nowrap sm:mr-4">
+                تعداد ستون‌ها:
+            </label>
+            <select id="column-selector" class="bg-gray-700 border border-gray-600 text-white rounded-lg px-4 py-2 focus:ring-blue-500 focus:border-blue-500 w-full sm:w-auto">
+                <option value="1">۱ ستون (بزرگ)</option>
+                <option value="2">۲ ستون (متوسط)</option>
+                <option value="3">۳ ستون (کوچک)</option>
+                <option value="4">۴ ستون (خیلی کوچک)</option>
             </select>
         </div>
 
@@ -195,7 +234,8 @@
             در حال حاضر هیچ بازی رایگانی برای نمایش وجود ندارد.
         </div>
 
-        <div id="games-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <!-- games-container will dynamically get grid-cols and layout-cols classes -->
+        <div id="games-container" class="grid gap-6"> 
             <!-- Game cards will be injected here by JavaScript -->
         </div>
     </div>
@@ -217,10 +257,10 @@
         const errorMessage = document.getElementById('error-message');
         const noGamesMessage = document.getElementById('no-games-message');
         const storeFilter = document.getElementById('store-filter');
+        const columnSelector = document.getElementById('column-selector'); // New: Column selector
         const themeToggle = document.getElementById('theme-toggle');
         const scrollToTopBtn = document.getElementById('scroll-to-top');
         const scrollToBottomBtn = document.getElementById('scroll-to-bottom');
-
 
         // Function to set the theme
         function setTheme(isDark) {
@@ -253,6 +293,30 @@
             }
         }
 
+        // Function to apply column layout and sizing
+        function applyColumnLayout(columns) {
+            // Remove existing grid-cols classes
+            gamesContainer.classList.remove('grid-cols-1', 'sm:grid-cols-2', 'lg:grid-cols-3', 'xl:grid-cols-4',
+                                         'sm:grid-cols-1', 'lg:grid-cols-1', 'xl:grid-cols-1',
+                                         'sm:grid-cols-2', 'lg:grid-cols-2', 'xl:grid-cols-2',
+                                         'sm:grid-cols-3', 'lg:grid-cols-3', 'xl:grid-cols-3',
+                                         'sm:grid-cols-4', 'lg:grid-cols-4', 'xl:grid-cols-4');
+            
+            // Add grid-cols for selected number of columns (responsive across all breakpoints)
+            gamesContainer.classList.add(`grid-cols-1`, `sm:grid-cols-${columns}`, `lg:grid-cols-${columns}`, `xl:grid-cols-${columns}`);
+
+            // Remove existing layout-cols classes
+            gamesContainer.classList.remove('layout-cols-1', 'layout-cols-2', 'layout-cols-3', 'layout-cols-4');
+            // Add new layout-cols class
+            gamesContainer.classList.add(`layout-cols-${columns}`);
+
+            // Save preference to local storage
+            localStorage.setItem('selectedColumns', columns);
+
+            // Re-render games to apply new sizing (though CSS handles most of it)
+            applyFilter(); // This will re-render with current filter and new layout
+        }
+
         // Function to render games based on filter
         function renderGames(gamesToRender) {
             gamesContainer.innerHTML = ''; // Clear existing games
@@ -265,11 +329,12 @@
 
             gamesToRender.forEach(game => {
                 const gameCard = document.createElement('div');
+                // Note: The layout-cols-* class is applied to gamesContainer,
+                // and the CSS rules target elements within .game-card based on that.
                 gameCard.className = 'game-card bg-gray-700 rounded-xl shadow-lg overflow-hidden flex flex-col transform hover:scale-105 transition duration-300 ease-in-out';
 
                 // Placeholder image if image_url is missing or broken
-                // اصلاح: استفاده از نقل قول دوتایی برای محتوای رشته onerror
-                const imageUrl = game.image_url || `https://placehold.co/600x338/374151/D1D5DB?text=${encodeURIComponent(game.title || 'تصویر موجود نیست')}`;
+                const imageUrl = game.image_url || `https://placehold.co/600x338/374151/D1D5DB?text=${encodeURIComponent(game.title || 'تصویر موجود نیست').replace(/'/g, "%27")}`;
                 
                 // Format scores and genres
                 const metacriticScore = game.metacritic_score ? `<p class="text-sm text-gray-300"><i class="fas fa-star text-yellow-400"></i> <span class="font-semibold">متاکریتیک (منتقدان):</span> ${game.metacritic_score}/100</p>` : '';
@@ -300,11 +365,11 @@
                 const displayDescription = game.persian_summary || game.description || 'توضیحات موجود نیست.';
 
                 gameCard.innerHTML = `
-                    <img src="${imageUrl}" alt="${game.title || 'تصویر بازی'}" class="w-full h-48 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x338/374151/D1D5DB?text=${encodeURIComponent(game.title || 'تصویر موجود نیست').replace(/'/g, "%27")}';">
+                    <img src="${imageUrl}" alt="${game.title || 'تصویر بازی'}">
                     <div class="p-4 flex flex-col flex-grow">
-                        <h2 class="text-xl font-bold text-white mb-2">${game.title || 'بدون عنوان'}</h2>
-                        <p class="text-gray-400 text-sm mb-3">فروشگاه: <span class="font-medium text-purple-300">${game.store || 'نامشخص'}</span></p>
-                        <p class="text-gray-300 text-sm mb-4 flex-grow">${displayDescription}</p>
+                        <h2 class="font-bold text-white mb-2">${game.title || 'بدون عنوان'}</h2>
+                        <p class="text-gray-400 mb-3">فروشگاه: <span class="font-medium text-purple-300">${game.store || 'نامشخص'}</span></p>
+                        <p class="text-gray-300 mb-4 description-text">${displayDescription}</p>
                         <div class="mt-auto pt-3 border-t border-gray-600 space-y-1">
                             ${metacriticScore}
                             ${metacriticUserScore}
@@ -406,11 +471,19 @@
                     }
                 });
 
-                // Initial render of all games
-                renderGames(allGames);
+                // Initialize column layout from local storage or default to 3
+                const savedColumns = localStorage.getItem('selectedColumns');
+                const initialColumns = savedColumns ? parseInt(savedColumns) : 3;
+                columnSelector.value = initialColumns;
+                applyColumnLayout(initialColumns); // Apply initial layout
 
                 // Event listener for store filter change
                 storeFilter.addEventListener('change', applyFilter);
+
+                // Event listener for column selector change
+                columnSelector.addEventListener('change', (event) => {
+                    applyColumnLayout(parseInt(event.target.value));
+                });
 
             } catch (error) {
                 console.error('Error fetching games:', error);

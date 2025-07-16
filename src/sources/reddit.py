@@ -61,59 +61,59 @@ class RedditSource:
             image_tag = soup.find('img', src=True)
             image_url = image_tag['src'] if image_tag else None
 
-            # --- بهبود استخراج نام فروشگاه ---
-            store = 'other'
-            
-            # 1. تلاش برای استخراج از براکت در عنوان
-            store_platform_match = re.search(r'\[([^\]]+)\]', raw_title)
-            if store_platform_match:
-                platform_str = store_platform_match.group(1).strip().lower()
+            # --- بهبود استخراج نام فروشگاه: اولویت با URL، سپس با براکت در عنوان ---
+            store = 'other' # مقدار پیش‌فرض
 
-                if "steam" in platform_str: store = "steam"
-                elif "epic games" in platform_str or "epicgames" in platform_str: store = "epic games"
-                elif "gog" in platform_str: store = "gog"
-                elif "xbox" in platform_str: store = "xbox"
-                elif "ps" in platform_str or "playstation" in platform_str: store = "playstation"
-                elif "nintendo" in platform_str: store = "nintendo"
-                elif "stove" in platform_str: store = "stove"
-                elif "indiegala" in platform_str: store = "indiegala"
-                elif "itch.io" in platform_str or "itchio" in platform_str: store = "itch.io"
-                elif "android" in platform_str or "googleplay" in platform_str or "google play" in platform_str or "apps" in platform_str:
-                    # اگر در عنوان اشاره به اندروید/گوگل پلی/اپس بود، URL را برای تایید نهایی بررسی کن
-                    if "play.google.com" in url: store = "google play"
-                    elif "apps.apple.com" in url: store = "ios app store"
-                    else: store = "google play" # پیش‌فرض برای اپ‌های اندروید
-                elif "ios" in platform_str or "apple" in platform_str:
-                    # اگر در عنوان اشاره به iOS/اپل بود، URL را برای تایید نهایی بررسی کن
-                    if "apps.apple.com" in url: store = "ios app store"
-                    elif "play.google.com" in url: store = "google play"
-                    else: store = "ios app store" # پیش‌فرض برای اپ‌های iOS
-                elif "windows" in platform_str or "mac" in platform_str or "linux" in platform_str:
-                    if "store.steampowered.com" in url: store = "steam"
-                    elif "epicgames.com" in url: store = "epic games"
-                    elif "gog.com" in url: store = "gog"
-                    elif "itch.io" in url: store = "itch.io"
-                    elif "indiegala.com" in url: store = "indiegala"
-                    else: store = "other"
-                elif "multi-platform" in platform_str:
-                    if "store.steampowered.com" in url: store = "steam"
-                    elif "epicgames.com" in url: store = "epic games"
-                    elif "gog.com" in url: store = "gog"
-                    elif "play.google.com" in url: store = "google play"
-                    elif "apps.apple.com" in url: store = "ios app store"
-                    else: store = "other"
+            # 1. تلاش برای حدس زدن از URL اصلی
+            if "play.google.com" in url: store = "google play"
+            elif "apps.apple.com" in url: store = "ios app store"
+            elif "store.steampowered.com" in url: store = "steam"
+            elif "epicgames.com" in url: store = "epic games"
+            elif "gog.com" in url: store = "gog"
+            elif "xbox.com" in url: store = "xbox"
+            elif "itch.io" in url: store = "itch.io"
+            elif "indiegala.com" in url: store = "indiegala"
+            elif "onstove.com" in url: store = "stove"
             
-            # 2. اگر هنوز نام فروشگاه عمومی بود، تلاش برای حدس زدن از URL اصلی
-            if store in ['other', 'نامشخص', 'apps']:
-                if "play.google.com" in url: store = "google play"
-                elif "apps.apple.com" in url: store = "ios app store"
-                elif "store.steampowered.com" in url: store = "steam"
-                elif "epicgames.com" in url: store = "epic games"
-                elif "gog.com" in url: store = "gog"
-                elif "xbox.com" in url: store = "xbox"
-                elif "itch.io" in url: store = "itch.io"
-                elif "indiegala.com" in url: store = "indiegala"
-                elif "onstove.com" in url: store = "stove"
+            # 2. اگر هنوز نام فروشگاه عمومی بود، تلاش برای استخراج از براکت در عنوان
+            if store in ['other', 'نامشخص', 'apps']: # 'apps' ممکن است از AppHookup بیاید
+                store_platform_match = re.search(r'\[([^\]]+)\]', raw_title)
+                if store_platform_match:
+                    platform_str = store_platform_match.group(1).strip().lower()
+
+                    if "steam" in platform_str: store = "steam"
+                    elif "epic games" in platform_str or "epicgames" in platform_str: store = "epic games"
+                    elif "gog" in platform_str: store = "gog"
+                    elif "xbox" in platform_str: store = "xbox"
+                    elif "ps" in platform_str or "playstation" in platform_str: store = "playstation"
+                    elif "nintendo" in platform_str: store = "nintendo"
+                    elif "stove" in platform_str: store = "stove"
+                    elif "indiegala" in platform_str: store = "indiegala"
+                    elif "itch.io" in platform_str or "itchio" in platform_str: store = "itch.io"
+                    elif "android" in platform_str or "googleplay" in platform_str or "google play" in platform_str or "apps" in platform_str:
+                        # اگر در عنوان اشاره به اندروید/گوگل پلی/اپس بود، URL را برای تایید نهایی بررسی کن
+                        if "play.google.com" in url: store = "google play"
+                        elif "apps.apple.com" in url: store = "ios app store"
+                        else: store = "google play" # پیش‌فرض برای اپ‌های اندروید
+                    elif "ios" in platform_str or "apple" in platform_str:
+                        # اگر در عنوان اشاره به iOS/اپل بود، URL را برای تایید نهایی بررسی کن
+                        if "apps.apple.com" in url: store = "ios app store"
+                        elif "play.google.com" in url: store = "google play"
+                        else: store = "ios app store" # پیش‌فرض برای اپ‌های iOS
+                    elif "windows" in platform_str or "mac" in platform_str or "linux" in platform_str:
+                        if "store.steampowered.com" in url: store = "steam"
+                        elif "epicgames.com" in url: store = "epic games"
+                        elif "gog.com" in url: store = "gog"
+                        elif "itch.io" in url: store = "itch.io"
+                        elif "indiegala.com" in url: store = "indiegala"
+                        else: store = "other"
+                    elif "multi-platform" in platform_str:
+                        if "store.steampowered.com" in url: store = "steam"
+                        elif "epicgames.com" in url: store = "epic games"
+                        elif "gog.com" in url: store = "gog"
+                        elif "play.google.com" in url: store = "google play"
+                        elif "apps.apple.com" in url: store = "ios app store"
+                        else: store = "other"
             
             # تمیز کردن عنوان با استفاده از تابع مشترک
             clean_title = clean_title_for_search(raw_title) # استفاده از تابع مشترک
@@ -157,6 +157,7 @@ class RedditSource:
 
                 if is_free:
                     store = "other"
+                    # 1. تلاش برای حدس زدن از URL اصلی
                     if "apps.apple.com" in item_url: store = "ios app store"
                     elif "play.google.com" in item_url: store = "google play"
                     elif "store.steampowered.com" in item_url: store = "steam"
