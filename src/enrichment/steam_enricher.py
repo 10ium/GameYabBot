@@ -2,7 +2,7 @@ import logging
 import asyncio
 from typing import Optional, Dict, Any
 import aiohttp
-import re # برای تمیز کردن عنوان
+import re
 
 logging.basicConfig(
     level=logging.INFO,
@@ -17,19 +17,28 @@ class SteamEnricher:
     def _clean_title_for_search(self, title: str) -> str:
         """
         عنوان بازی را برای جستجو در APIهای خارجی تمیز می‌کند.
-        حذف عبارات مانند (Game), ($X -> Free), [Platform]
+        حذف عبارات مانند (Game), ($X -> Free), [Platform] و سایر جزئیات اضافی.
         """
-        cleaned_title = re.sub(r'\[[^\]]+\]', '', title).strip() # حذف [Platform]
-        cleaned_title = re.sub(r'\(game\)', '', cleaned_title, flags=re.IGNORECASE).strip() # حذف (Game)
-        cleaned_title = re.sub(r'\(\$.*?-> Free\)', '', cleaned_title, flags=re.IGNORECASE).strip() # حذف ($X -> Free)
-        cleaned_title = re.sub(r'\(\d+%\s*off\)', '', cleaned_title, flags=re.IGNORECASE).strip() # حذف (X% off)
-        cleaned_title = re.sub(r'\(\s*free\s*\)', '', cleaned_title, flags=re.IGNORECASE).strip() # حذف (Free)
+        # حذف عبارات براکتی مانند [Windows], [Multi-Platform]
+        cleaned_title = re.sub(r'\[[^\]]+\]', '', title).strip()
+        # حذف عبارات پرانتزی خاص مانند (Game), ($X -> Free), (X% off), (Free)
+        cleaned_title = re.sub(r'\s*\(game\)', '', cleaned_title, flags=re.IGNORECASE).strip()
+        cleaned_title = re.sub(r'\s*\(\$.*?-> Free\)', '', cleaned_title, flags=re.IGNORECASE).strip()
+        cleaned_title = re.sub(r'\s*\(\d+%\s*off\)', '', cleaned_title, flags=re.IGNORECASE).strip()
+        cleaned_title = re.sub(r'\s*\(\s*free\s*\)', '', cleaned_title, flags=re.IGNORECASE).strip()
+        # حذف عبارات مربوط به قیمت و تخفیف که ممکن است در عنوان باقی مانده باشند
+        cleaned_title = re.sub(r'\b(CA\$|€|\$)\d+(\.\d{1,2})?\s*→\s*Free\b', '', cleaned_title, flags=re.IGNORECASE).strip()
+        cleaned_title = re.sub(r'\b\d+(\.\d{1,2})?\s*-->\s*0\b', '', cleaned_title, flags=re.IGNORECASE).strip()
+        
+        # حذف هرگونه فاصله اضافی
+        cleaned_title = re.sub(r'\s+', ' ', cleaned_title).strip()
         return cleaned_title
 
     async def _find_app_id(self, session: aiohttp.ClientSession, game_title: str) -> Optional[str]:
         cleaned_title = self._clean_title_for_search(game_title)
         if not cleaned_title:
-            return None # اگر عنوان بعد از تمیز کردن خالی شد
+            logging.warning(f"عنوان تمیز شده برای '{game_title}' خالی است. جستجوی App ID در استیم انجام نشد.")
+            return None
             
         params = {'term': cleaned_title, 'l': 'english', 'cc': 'US'}
         try:
@@ -58,7 +67,7 @@ class SteamEnricher:
                     return game_info
                 
                 details_task = asyncio.create_task(
-                    session.get(self.DETAILS_API_URL, params={'appids': app_id, 'l': 'english'}) # l: 'english' برای توضیحات انگلیسی
+                    session.get(self.DETAILS_API_URL, params={'appids': app_id, 'l': 'english'})
                 )
                 reviews_task = asyncio.create_task(
                     session.get(self.REVIEWS_API_URL.format(appid=app_id), params={'json': '1'})
@@ -77,10 +86,14 @@ class SteamEnricher:
                             trailer = next((m['mp4']['max'] for m in game_details['movies'] if 'mp4' in m), None)
                             if trailer:
                                 game_info['trailer'] = trailer
-                        if 'header_image' in game_details: # تصویر اصلی
+                        if 'header_image' in game_details:
                             game_info['image_url'] = game_details['header_image']
-                        if 'about_the_game' in game_details: # توضیحات بازی
-                            # حذف تگ‌های HTML از توضیحات
+                        
+                        # توضیحات: اول short_description را امتحان می‌کنیم، اگر نبود about_the_game
+                        if 'short_description' in game_details and game_details['short_description'].strip():
+                            clean_description = re.sub(r'<[^>]+>', '', game_details['short_description'])
+                            game_info['description'] = clean_description.strip()
+                        elif 'about_the_game' in game_details and game_details['about_the_game'].strip():
                             clean_description = re.sub(r'<[^>]+>', '', game_details['about_the_game'])
                             game_info['description'] = clean_description.strip()
 
@@ -92,7 +105,7 @@ class SteamEnricher:
                                 desc = category.get('description', '').lower()
                                 if 'multi-player' in desc or 'co-op' in desc:
                                     game_info['is_multiplayer'] = True
-                                if 'online' in desc or 'internet' in desc: # ممکن است نیاز به دقت بیشتر باشد
+                                if 'online' in desc or 'internet' in desc or 'mmo' in desc:
                                     game_info['is_online'] = True
                                 
                 if reviews_response.status == 200:
@@ -100,7 +113,7 @@ class SteamEnricher:
                     if reviews_data.get('success'):
                         summary = reviews_data.get('query_summary', {})
                         total_reviews = summary.get('total_reviews', 0)
-                        if total_reviews > 5: # فقط اگر تعداد رای‌ها کافی باشد
+                        if total_reviews > 5:
                             positive_reviews = summary.get('total_positive', 0)
                             score_percent = round((positive_reviews / total_reviews) * 100)
                             game_info['steam_score'] = score_percent
@@ -109,7 +122,7 @@ class SteamEnricher:
                         else:
                             logging.info(f"تعداد رای‌های Steam برای '{game_title}' کافی نیست ({total_reviews}).")
                 
-            if 'steam_score' in game_info or 'genres' in game_info or 'image_url' in game_info:
+            if 'steam_score' in game_info or 'genres' in game_info or 'image_url' in game_info or 'description' in game_info:
                 logging.info(f"اطلاعات '{game_title}' با موفقیت از استیم غنی‌سازی شد.")
             else:
                 logging.warning(f"غنی‌سازی اطلاعات برای '{game_title}' از استیم کامل نبود.")

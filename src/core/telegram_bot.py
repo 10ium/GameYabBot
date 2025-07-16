@@ -10,19 +10,17 @@ from telegram.error import TelegramError
 from .database import Database 
 
 logging.basicConfig(
-    level=logging.INFO, # می‌توانید این را به logging.DEBUG تغییر دهید برای لاگ‌های بسیار جزئی
+    level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 
-# ایجاد یک لاگر خاص برای این ماژول
 logger = logging.getLogger(__name__)
 
-# لیست فروشگاه‌های معتبر برای اشتراک
 VALID_STORES = [
     "epic games", "gog", "steam", "all",
     "xbox", "playstation", "nintendo", "stove",
     "indiegala", "itch.io", "ios app store", "google play",
-    "other" # برای مواردی که فروشگاه مشخصی ندارند یا از دسته‌بندی‌های عمومی هستند
+    "other"
 ]
 
 class TelegramBot:
@@ -30,13 +28,9 @@ class TelegramBot:
         if not token:
             logger.error("توکن تلگرام ارائه نشده است. ربات نمی‌تواند شروع به کار کند.")
             raise ValueError("توکن تلگرام ارائه نشده است.")
-        
-        # --- *** تغییر کلیدی برای حل مشکل اتصال *** ---
-        # ابتدا یک شیء Bot پایدار می‌سازیم
+            
         self.bot = Bot(token)
-        # سپس اپلیکیشن را با استفاده از همان شیء Bot می‌سازیم
         self.application = Application.builder().bot(self.bot).build()
-        
         self.db = db
         self._register_handlers()
         logger.info("نمونه ربات تلگرام و کنترل‌کننده‌های دستورات با موفقیت ایجاد شدند.")
@@ -48,8 +42,6 @@ class TelegramBot:
         """
         if not isinstance(text, str):
             return ""
-        # لیست کاراکترهایی که در MarkdownV2 رزرو شده‌اند و باید Escape شوند.
-        # پرانتزها نیز برای استفاده در متن عادی باید Escape شوند.
         escape_chars = r'_*[]()~`>#+-=|{}.!'
         return "".join(f'\\{char}' if char in escape_chars else char for char in text)
 
@@ -60,20 +52,23 @@ class TelegramBot:
         title = self._escape_markdown_v2(game_data.get('title', 'بدون عنوان'))
         store = self._escape_markdown_v2(game_data.get('store', 'نامشخص'))
         url = game_data.get('url', '')
-        persian_summary = game_data.get('persian_summary')
         
+        # استفاده از Persian Summary اگر موجود باشد، در غیر این صورت Description
+        summary_to_use = game_data.get('persian_summary') or game_data.get('description')
         summary_text = ""
-        if persian_summary:
-            # خلاصه داستان را به 400 کاراکتر محدود می‌کند
-            if len(persian_summary) > 400:
-                persian_summary = persian_summary[:400] + "..."
-            summary_text = f"\n📝 *خلاصه داستان:*\n_{self._escape_markdown_v2(persian_summary)}_\n"
+        if summary_to_use:
+            # خلاصه داستان را به 250 کاراکتر محدود می‌کند
+            if len(summary_to_use) > 250:
+                summary_to_use = summary_to_use[:250] + "..."
+            summary_text = f"\n📝 *خلاصه داستان:*\n_{self._escape_markdown_v2(summary_to_use)}_\n"
         
         scores_parts = []
         if game_data.get('metacritic_score'):
             scores_parts.append(f"⭐ *Metacritic:* {game_data['metacritic_score']}/100")
+        if game_data.get('metacritic_userscore'): # اضافه شده
+            scores_parts.append(f"👥 *کاربران Metacritic:* {game_data['metacritic_userscore']}/10")
         if game_data.get('steam_score'):
-            scores_parts.append(f"👍 *Steam:* {game_data['steam_score']}% \\({game_data.get('steam_reviews_count', 0)} رای\\)") # Escape parentheses
+            scores_parts.append(f"👍 *Steam:* {game_data['steam_score']}% \\({game_data.get('steam_reviews_count', 0)} رای\\)")
         
         scores_text = "\n".join(scores_parts)
         if scores_text:
@@ -82,14 +77,26 @@ class TelegramBot:
         details_parts = []
         if game_data.get('genres'):
             details_parts.append(f"🔸 *ژانر:* {self._escape_markdown_v2(', '.join(game_data['genres']))}")
+        
+        # اطلاعات تعداد بازیکنان و آنلاین/آفلاین
+        player_info = ""
+        if game_data.get('is_multiplayer') and game_data.get('is_online'):
+            player_info = "چندنفره (آنلاین)"
+        elif game_data.get('is_multiplayer'):
+            player_info = "چندنفره (آفلاین)"
+        elif game_data.get('is_online'):
+            player_info = "تک‌نفره (آنلاین)"
+        else:
+            player_info = "تک‌نفره"
+        details_parts.append(f"🎮 *تعداد بازیکن:* {player_info}")
+
         if game_data.get('trailer'):
-            details_parts.append(f"🎬 [لینک تریلر]({self._escape_markdown_v2(game_data['trailer'])})") # Escape URL too
+            details_parts.append(f"🎬 [لینک تریلر]({self._escape_markdown_v2(game_data['trailer'])})")
         
         details_text = "\n".join(details_parts)
         if details_text:
             details_text = f"\n{details_text}\n"
         
-        # اطمینان از Escape شدن URL برای لینک نهایی
         escaped_url = self._escape_markdown_v2(url)
 
         return (
@@ -115,7 +122,7 @@ class TelegramBot:
                 logger.debug(f"ارسال عکس برای '{game_title}' (URL: {image_url})")
                 await self.bot.send_photo(chat_id=chat_id, photo=image_url, caption=message_text, parse_mode=ParseMode.MARKDOWN_V2, message_thread_id=thread_id)
             else:
-                logger.debug(f"ارسال پیام متنی برای '{game_title}'")
+                logger.debug(f"ارسال پیام متنی برای '{game_title}' (بدون تصویر).")
                 await self.bot.send_message(chat_id=chat_id, text=message_text, parse_mode=ParseMode.MARKDOWN_V2, disable_web_page_preview=True, message_thread_id=thread_id)
             logger.info(f"✅ پیام برای '{game_title}' با موفقیت به chat_id={chat_id} ارسال شد.")
         except TelegramError as e:
@@ -152,7 +159,6 @@ class TelegramBot:
         
         logger.info(f"دستور /start از کاربر {user_id} در chat_id={chat_id}, thread_id={thread_id} دریافت شد.")
 
-        # ثبت اشتراک برای 'all' به صورت پیش‌فرض
         if self.db.add_subscription(chat_id, thread_id=thread_id, store='all'):
             logger.info(f"✅ اشتراک جدید برای chat_id={chat_id}, thread_id={thread_id}, store='all' ثبت شد.")
             await update.message.reply_text("سلام! من ربات گیم رایگان هستم. شما به طور خودکار برای دریافت تمام اعلان‌ها مشترک شدید.\nبرای مشاهده لیست کامل دستورات /help را ارسال کنید.")
@@ -170,10 +176,10 @@ class TelegramBot:
         logger.info(f"دستور /help از کاربر {user_id} در chat_id={chat_id} دریافت شد.")
         help_text = (
             "راهنمای دستورات ربات گیم رایگان:\n\n"
-            "🔹 `/subscribe \\[store_name\\]` برای ثبت‌نام این چت (یا تاپیک) جهت دریافت اعلان‌های یک فروشگاه خاص\\. مثال:\n" # Escaped [] and ()
+            "🔹 `/subscribe \\[store_name\\]` برای ثبت‌نام این چت (یا تاپیک) جهت دریافت اعلان‌های یک فروشگاه خاص\\. مثال:\n"
             "`/subscribe epic games`\n"
-            "`/subscribe all` \\(برای دریافت همه اعلان‌ها\\)\n\n" # Escaped ()
-            "🔸 `/unsubscribe \\[store_name\\]` برای لغو اشتراک\\. مثال:\n" # Escaped []
+            "`/subscribe all` \\(برای دریافت همه اعلان‌ها\\)\n\n"
+            "🔸 `/unsubscribe \\[store_name\\]` برای لغو اشتراک\\. مثال:\n"
             "`/unsubscribe steam`\n\n"
             f"فروشگاه‌های معتبر: `{', '.join(VALID_STORES)}`\n\n"
             "توجه: فقط ادمین‌های گروه یا کانال می‌توانند از این دستورات استفاده کنند."
@@ -234,7 +240,7 @@ class TelegramBot:
             await update.message.reply_text(f"❌ اشتراک برای اعلان‌های '{store}' با موفقیت لغو شد.")
         else:
             logger.info(f"ℹ️ اشتراکی برای '{store}' در chat_id={chat_id}, thread_id={thread_id} برای لغو یافت نشد.")
-            await update.message.reply_text("اشتراکی برای لغو یافت نشد.")
+            await update.message.reply_text("این اشتراک از قبل وجود دارد.")
 
     async def _on_new_chat_member(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         """
@@ -247,7 +253,6 @@ class TelegramBot:
                 thread_id = update.message.message_thread_id if update.message.is_topic_message else None
                 logger.info(f"🤖 ربات به گروه جدیدی با شناسه {chat_id} و تاپیک {thread_id} اضافه شد.")
                 
-                # ثبت اشتراک برای 'all' به صورت پیش‌فرض
                 if self.db.add_subscription(chat_id, thread_id=thread_id, store='all'):
                     logger.info(f"✅ اشتراک پیش‌فرض برای 'all' در chat_id={chat_id}, thread_id={thread_id} ثبت شد.")
                     await self.bot.send_message(
@@ -255,11 +260,10 @@ class TelegramBot:
                         "سلام! ممنون که من را به این گروه اضافه کردید.\n"
                         "این گروه به طور خودکار برای دریافت اعلان تمام بازی‌های رایگان مشترک شد.\n"
                         "ادمین‌ها می‌توانند با دستور /help اشتراک‌ها را مدیریت کنند.",
-                        message_thread_id=thread_id # ارسال پیام در همان تاپیک
+                        message_thread_id=thread_id
                     )
                 else:
                     logger.info(f"ℹ️ ربات قبلاً در chat_id={chat_id}, thread_id={thread_id} فعال بود (اشتراک از قبل موجود).")
-                    # اگر از قبل مشترک بوده، فقط یک پیام خوشامدگویی ساده ارسال کنید
                     await self.bot.send_message(
                         chat_id,
                         "سلام! من قبلاً در این گروه فعال بودم. خوش برگشتید!\n"
@@ -281,11 +285,9 @@ class TelegramBot:
     async def process_pending_updates(self):
         """
         به‌روزرسانی‌های در حال انتظار را از تلگرام دریافت و پردازش می‌کند.
-        این متد برای اجرای ربات در یک محیط بدون polling/webhook مداوم مناسب است.
         """
         logger.info("🚀 شروع فرآیند دریافت و پردازش به‌روزرسانی‌های تلگرام...")
-        # اطمینان از اینکه اپلیکیشن قبل از دریافت به‌روزرسانی‌ها مقداردهی اولیه شده است
-        await self.application.initialize() 
+        await self.application.initialize()
         
         updates = await self.application.bot.get_updates(timeout=10)
         
@@ -299,17 +301,12 @@ class TelegramBot:
         
         for update in updates:
             logger.debug(f"در حال پردازش به‌روزرسانی: {update.update_id}")
-            # پردازش هر به‌روزرسانی
             await self.application.process_update(update)
         
-        # پس از پردازش، offset را برای جلوگیری از پردازش مجدد به‌روزرسانی‌های قدیمی تنظیم می‌کند.
-        # این کار باید پس از پردازش موفقیت‌آمیز همه به‌روزرسانی‌ها انجام شود.
         if updates:
             last_update_id = updates[-1].update_id
             logger.info(f"تنظیم offset به‌روزرسانی به {last_update_id + 1} برای جلوگیری از پردازش مجدد.")
             await self.application.bot.get_updates(offset=last_update_id + 1)
-        
-        # خاموش کردن اپلیکیشن
+            
         await self.application.shutdown()
         logger.info("🏁 فرآیند پردازش به‌روزرسانی‌ها به پایان رسید.")
-

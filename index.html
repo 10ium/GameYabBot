@@ -8,6 +8,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Vazirmatn Font from Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             font-family: 'Vazirmatn', sans-serif;
@@ -66,10 +68,29 @@
         /* Common card styles */
         .game-card {
             transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            display: flex; /* Ensures content fills height */
+            flex-direction: column; /* Stacks content vertically */
         }
         .game-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+        .game-card img {
+            object-fit: cover; /* Ensures images cover the area without distortion */
+            height: 192px; /* Fixed height for consistency (h-48) */
+        }
+        .game-card .p-4 {
+            flex-grow: 1; /* Allows content area to expand */
+            display: flex;
+            flex-direction: column;
+        }
+        .game-card .text-sm.mb-4.flex-grow {
+            flex-grow: 1;
+            overflow: hidden; /* Hide overflow text */
+            display: -webkit-box;
+            -webkit-line-clamp: 4; /* Limit to 4 lines */
+            -webkit-box-orient: vertical;
+            text-overflow: ellipsis; /* Add ellipsis for clamped text */
         }
         /* Custom styles for the theme toggle button */
         #theme-toggle {
@@ -205,31 +226,33 @@
                 const imageUrl = game.image_url || `https://placehold.co/600x338/374151/D1D5DB?text=${encodeURIComponent(game.title || 'تصویر موجود نیست')}`;
 
                 // Format scores and genres
-                const metacriticScore = game.metacritic_score ? `<p class="text-sm text-gray-300"><span class="font-semibold text-yellow-400">متاکریتیک:</span> ${game.metacritic_score}/100</p>` : '';
-                const metacriticUserScore = game.metacritic_userscore ? `<p class="text-sm text-gray-300"><span class="font-semibold text-green-400">کاربران متاکریتیک:</span> ${game.metacritic_userscore}/10</p>` : '';
-                const steamScore = game.steam_score ? `<p class="text-sm text-gray-300"><span class="font-semibold text-blue-400">استیم:</span> ${game.steam_score}% (${game.steam_reviews_count || 0} رای)</p>` : '';
-                const genres = game.genres && game.genres.length > 0 ? `<p class="text-sm text-gray-300"><span class="font-semibold">ژانرها:</span> ${game.genres.join(', ')}</p>` : '';
-                const trailerLink = game.trailer ? `<a href="${game.trailer}" target="_blank" class="text-blue-400 hover:underline text-sm mt-2 block">مشاهده تریلر</a>` : '';
+                const metacriticScore = game.metacritic_score ? `<p class="text-sm text-gray-300"><i class="fas fa-star text-yellow-400"></i> <span class="font-semibold">متاکریتیک:</span> ${game.metacritic_score}/100</p>` : '';
+                const metacriticUserScore = game.metacritic_userscore ? `<p class="text-sm text-gray-300"><i class="fas fa-users text-green-400"></i> <span class="font-semibold">کاربران متاکریتیک:</span> ${game.metacritic_userscore}/10</p>` : '';
+                const steamScore = game.steam_score ? `<p class="text-sm text-gray-300"><i class="fab fa-steam text-blue-400"></i> <span class="font-semibold">استیم:</span> ${game.steam_score}% (${game.steam_reviews_count || 0} رای)</p>` : '';
+                const genres = game.genres && game.genres.length > 0 ? `<p class="text-sm text-gray-300"><i class="fas fa-tags text-pink-400"></i> <span class="font-semibold">ژانرها:</span> ${game.genres.join(', ')}</p>` : '';
+                const trailerLink = game.trailer ? `<a href="${game.trailer}" target="_blank" class="text-blue-400 hover:underline text-sm mt-2 block"><i class="fas fa-film"></i> مشاهده تریلر</a>` : '';
 
                 let playerInfo = '';
                 if (game.is_multiplayer && game.is_online) {
-                    playerInfo = '<p class="text-sm text-gray-300"><span class="font-semibold">تعداد بازیکن:</span> چندنفره (آنلاین)</p>';
+                    playerInfo = `<p class="text-sm text-gray-300"><i class="fas fa-users-line text-cyan-400"></i> <span class="font-semibold">تعداد بازیکن:</span> چندنفره (آنلاین)</p>`;
                 } else if (game.is_multiplayer) {
-                    playerInfo = '<p class="text-sm text-gray-300"><span class="font-semibold">تعداد بازیکن:</span> چندنفره (آفلاین)</p>';
+                    playerInfo = `<p class="text-sm text-gray-300"><i class="fas fa-users text-cyan-400"></i> <span class="font-semibold">تعداد بازیکن:</span> چندنفره (آفلاین)</p>`;
                 } else if (game.is_online) {
-                    playerInfo = '<p class="text-sm text-gray-300"><span class="font-semibold">تعداد بازیکن:</span> تک‌نفره (آنلاین)</p>';
+                    playerInfo = `<p class="text-sm text-gray-300"><i class="fas fa-globe text-cyan-400"></i> <span class="font-semibold">تعداد بازیکن:</span> تک‌نفره (آنلاین)</p>`;
                 } else {
-                    playerInfo = '<p class="text-sm text-gray-300"><span class="font-semibold">تعداد بازیکن:</span> تک‌نفره</p>';
+                    playerInfo = `<p class="text-sm text-gray-300"><i class="fas fa-user text-cyan-400"></i> <span class="font-semibold">تعداد بازیکن:</span> تک‌نفره</p>`;
                 }
 
+                // Use persian_summary if available, otherwise description
+                const displayDescription = game.persian_summary || game.description || 'توضیحات موجود نیست.';
 
                 gameCard.innerHTML = `
                     <img src="${imageUrl}" alt="${game.title || 'تصویر بازی'}" class="w-full h-48 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x338/374151/D1D5DB?text=${encodeURIComponent(game.title || 'تصویر موجود نیست')}';">
                     <div class="p-4 flex flex-col flex-grow">
                         <h2 class="text-xl font-bold text-white mb-2">${game.title || 'بدون عنوان'}</h2>
                         <p class="text-gray-400 text-sm mb-3">فروشگاه: <span class="font-medium text-purple-300">${game.store || 'نامشخص'}</span></p>
-                        <p class="text-gray-300 text-sm mb-4 flex-grow">${game.persian_summary || game.description || 'توضیحات موجود نیست.'}</p>
-                        <div class="mt-auto pt-3 border-t border-gray-600">
+                        <p class="text-gray-300 text-sm mb-4 flex-grow">${displayDescription}</p>
+                        <div class="mt-auto pt-3 border-t border-gray-600 space-y-1">
                             ${metacriticScore}
                             ${metacriticUserScore}
                             ${steamScore}
@@ -250,7 +273,6 @@
         function applyFilter() {
             const selectedStore = storeFilter.value;
             const filteredGames = allGames.filter(game => {
-                // Ensure store name is consistent for comparison
                 const gameStoreNormalized = game.store ? game.store.toLowerCase().replace(/\s/g, '') : '';
                 const selectedStoreNormalized = selectedStore.toLowerCase().replace(/\s/g, '');
                 return selectedStore === 'all' || gameStoreNormalized === selectedStoreNormalized;
@@ -284,9 +306,9 @@
                 // Populate store filter options
                 const uniqueStores = [...new Set(allGames.map(game => game.store))].sort();
                 uniqueStores.forEach(store => {
-                    if (store && store !== 'نامشخص') { // Exclude 'نامشخص' if it appears
+                    if (store && store !== 'نامشخص') {
                         const option = document.createElement('option');
-                        option.value = store.toLowerCase().replace(/\s/g, ''); // Normalize value for comparison
+                        option.value = store.toLowerCase().replace(/\s/g, '');
                         option.textContent = store;
                         storeFilter.appendChild(option);
                     }
