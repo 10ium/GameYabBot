@@ -9,8 +9,8 @@ import hashlib
 import random # برای تأخیر تصادفی
 import os
 import time # برای بررسی زمان فایل کش
-from utils import clean_title_for_search # وارد کردن تابع تمیزکننده مشترک
-from utils.store_detector import infer_store_from_game_data # <--- وارد کردن تابع از ماژول جدید
+from utils.clean_title_for_search import clean_title_for_search # <--- خط اصلاح شده
+from utils.store_detector import infer_store_from_game_data # وارد کردن تابع از ماژول جدید
 
 logging.basicConfig(
     level=logging.INFO, # می‌توانید برای جزئیات بیشتر به logging.DEBUG تغییر دهید
@@ -213,7 +213,7 @@ class RedditSource:
             image_url = image_tag['src'] if image_tag else None
 
             # تمیز کردن عنوان با استفاده از تابع مشترک
-            clean_title = clean_title_for_search(raw_title)
+            clean_title = clean_title_for_search(raw_title) # <--- این خط اکنون تابع را به درستی فراخوانی می‌کند
             
             if not clean_title:
                 clean_title = raw_title.strip()
