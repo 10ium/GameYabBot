@@ -2,154 +2,196 @@ import logging
 import asyncio
 import aiohttp
 from typing import Dict, Any, Optional
+from bs4 import BeautifulSoup
 import re
-import random # برای تأخیر تصادفی
+import random
+import os
+import hashlib
+import time # برای بررسی زمان فایل کش
 
-# تنظیمات اولیه لاگ‌گیری
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-)
 logger = logging.getLogger(__name__)
 
 class SteamEnricher:
-    """
-    کلاسی برای غنی‌سازی داده‌های بازی با استفاده از اطلاعات Steam.
-    این کلاس اطلاعاتی مانند Steam App ID، نمرات، ژانرها و تریلر را از Steam API استخراج می‌کند.
-    """
-    STEAM_API_BASE_URL = "https://store.steampowered.com/api/"
-    STEAM_STORE_BASE_URL = "https://store.steampowered.com/app/"
-    
-    # User-Agent عمومی‌تر برای درخواست‌ها
+    STEAM_API_URL = "https://store.steampowered.com/api/appdetails?appids={app_id}&cc=us&l=english"
+    STEAM_SEARCH_URL = "https://store.steampowered.com/search/?term={query}&category1=998" # category1=998 for games
     HEADERS = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
         'Accept-Language': 'en-US,en;q=0.9',
         'Accept-Encoding': 'gzip, deflate, br',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
         'Connection': 'keep-alive'
     }
 
-    async def _get_steam_app_id(self, session: aiohttp.ClientSession, game_title: str) -> Optional[str]:
+    def __init__(self, cache_dir: str = "cache", cache_ttl: int = 86400): # TTL پیش‌فرض 24 ساعت
+        self.cache_dir = os.path.join(cache_dir, "steam")
+        self.cache_ttl = cache_ttl
+        os.makedirs(self.cache_dir, exist_ok=True)
+        logger.info(f"نمونه SteamEnricher با موفقیت ایجاد شد. دایرکتوری کش: {self.cache_dir}, TTL: {self.cache_ttl} ثانیه.")
+
+    def _get_cache_path(self, url: str, is_json: bool = True) -> str:
+        """مسیر فایل کش را بر اساس هش URL تولید می‌کند."""
+        url_hash = hashlib.sha256(url.encode('utf-8')).hexdigest()
+        extension = "json" if is_json else "html"
+        return os.path.join(self.cache_dir, f"{url_hash}.{extension}")
+
+    def _is_cache_valid(self, cache_path: str) -> bool:
+        """بررسی می‌کند که آیا فایل کش وجود دارد و منقضی نشده است."""
+        if not os.path.exists(cache_path):
+            return False
+        file_mod_time = os.path.getmtime(cache_path)
+        if (time.time() - file_mod_time) > self.cache_ttl:
+            logger.debug(f"[SteamEnricher - _is_cache_valid] فایل کش {cache_path} منقضی شده است.")
+            return False
+        logger.debug(f"[SteamEnricher - _is_cache_valid] فایل کش {cache_path} معتبر است.")
+        return True
+
+    async def _fetch_with_retry(self, session: aiohttp.ClientSession, url: str, is_json_expected: bool = True, max_retries: int = 3, initial_delay: float = 2) -> Optional[Any]:
         """
-        با استفاده از Steam API، Steam App ID را بر اساس عنوان بازی پیدا می‌کند.
+        یک URL را با مکانیزم retry و exponential backoff واکشی می‌کند و پاسخ (HTML یا JSON) را برمی‌گرداند.
         """
-        search_url = f"{self.STEAM_API_BASE_URL}storesearch/?term={game_title}&l=english&cc=us"
-        logger.info(f"در حال جستجوی Steam App ID برای: '{game_title}'")
-        try:
-            await asyncio.sleep(random.uniform(0.5, 1.5)) # تأخیر تصادفی
-            async with session.get(search_url, headers=self.HEADERS) as response:
-                response.raise_for_status()
-                data = await response.json()
-                if data and 'items' in data and data['items']:
-                    # سعی می‌کنیم دقیق‌ترین تطابق را پیدا کنیم
-                    for item in data['items']:
-                        if item.get('name', '').lower() == game_title.lower():
-                            logger.info(f"Steam App ID دقیق برای '{game_title}' یافت شد: {item['id']}")
-                            return str(item['id'])
-                    # اگر تطابق دقیق نبود، اولین بازی را برمی‌گردانیم
-                    first_item_id = str(data['items'][0]['id'])
-                    logger.info(f"اولین Steam App ID برای '{game_title}' یافت شد: {first_item_id}")
-                    return first_item_id
-                logger.warning(f"Steam App ID برای '{game_title}' یافت نشد.")
+        cache_path = self._get_cache_path(url, is_json=is_json_expected)
+
+        if self._is_cache_valid(cache_path):
+            logger.info(f"✅ [SteamEnricher - _fetch_with_retry] بارگذاری محتوا از کش: {cache_path}")
+            with open(cache_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+                if is_json_expected:
+                    try:
+                        return json.loads(content)
+                    except json.JSONDecodeError:
+                        logger.warning(f"⚠️ [SteamEnricher - _fetch_with_retry] خطای JSONDecodeError در فایل کش {cache_path}. کش نامعتبر است.")
+                        os.remove(cache_path) # حذف کش خراب
+                        return None
+                return content
+
+        logger.debug(f"[SteamEnricher - _fetch_with_retry] کش برای {url} معتبر نیست یا وجود ندارد. در حال واکشی از وب‌سایت.")
+        for attempt in range(max_retries):
+            try:
+                current_delay = initial_delay * (2 ** attempt) + random.uniform(0, 1)
+                logger.debug(f"[SteamEnricher - _fetch_with_retry] تلاش {attempt + 1}/{max_retries} برای واکشی Steam URL: {url} (تأخیر: {current_delay:.2f} ثانیه)")
+                await asyncio.sleep(current_delay)
+                async with session.get(url, headers=self.HEADERS, timeout=15) as response:
+                    response.raise_for_status()
+                    content = None
+                    if is_json_expected:
+                        try:
+                            content = await response.json()
+                        except aiohttp.ContentTypeError:
+                            logger.warning(f"⚠️ [SteamEnricher - _fetch_with_retry] پاسخ غیر JSON از Steam API برای {url}.")
+                            continue # تلاش مجدد
+                    else:
+                        content = await response.text()
+                    
+                    # ذخیره در کش
+                    with open(cache_path, 'w', encoding='utf-8') as f:
+                        f.write(json.dumps(content, ensure_ascii=False) if is_json_expected else content)
+                    logger.info(f"✅ [SteamEnricher - _fetch_with_retry] محتوا در کش ذخیره شد: {cache_path}")
+                    return content
+            except aiohttp.ClientResponseError as e:
+                logger.warning(f"⚠️ [SteamEnricher - _fetch_with_retry] خطای HTTP هنگام واکشی Steam URL {url} (تلاش {attempt + 1}/{max_retries}): Status {e.status}, Message: '{e.message}'")
+                if attempt < max_retries - 1 and e.status in [403, 429, 500, 502, 503, 504]:
+                    logger.info(f"[SteamEnricher - _fetch_with_retry] در حال تلاش مجدد برای {url}...")
+                else:
+                    logger.error(f"❌ [SteamEnricher - _fetch_with_retry] تمام تلاش‌ها برای واکشی Steam URL {url} با شکست مواجه شد. (آخرین خطا: {e.status})")
+                    return None
+            except asyncio.TimeoutError:
+                logger.warning(f"⚠️ [SteamEnricher - _fetch_with_retry] خطای Timeout هنگام واکشی Steam URL {url} (تلاش {attempt + 1}/{max_retries}).")
+                if attempt < max_retries - 1:
+                    logger.info(f"[SteamEnricher - _fetch_with_retry] در حال تلاش مجدد برای {url}...")
+                else:
+                    logger.error(f"❌ [SteamEnricher - _fetch_with_retry] تمام تلاش‌ها برای واکشی Steam URL {url} به دلیل Timeout با شکست مواجه شد.")
+                    return None
+            except Exception as e:
+                logger.error(f"❌ [SteamEnricher - _fetch_with_retry] خطای پیش‌بینی نشده هنگام واکشی Steam URL {url} (تلاش {attempt + 1}/{max_retries}): {e}", exc_info=True)
                 return None
-        except aiohttp.ClientResponseError as e:
-            logger.error(f"خطای HTTP در دریافت Steam App ID برای '{game_title}': {e.status} - {e.message}")
-        except Exception as e:
-            logger.error(f"خطا در دریافت Steam App ID برای '{game_title}': {e}", exc_info=True)
         return None
 
-    async def _get_game_details(self, session: aiohttp.ClientSession, app_id: str) -> Dict[str, Any]:
+    async def _find_steam_app_id(self, session: aiohttp.ClientSession, game_title: str) -> Optional[str]:
         """
-        جزئیات بازی را از Steam API بر اساس App ID دریافت می‌کند.
+        Steam App ID را با جستجو بر اساس عنوان بازی پیدا می‌کند.
         """
-        details_url = f"{self.STEAM_API_BASE_URL}appdetails/?appids={app_id}&l=english"
-        logger.info(f"در حال دریافت جزئیات بازی از Steam برای App ID: {app_id}")
-        game_details = {}
-        try:
-            await asyncio.sleep(random.uniform(0.5, 1.5)) # تأخیر تصادفی
-            async with session.get(details_url, headers=self.HEADERS) as response:
-                response.raise_for_status()
-                data = await response.json()
-                if data and app_id in data and data[app_id]['success']:
-                    details = data[app_id]['data']
-                    
-                    # نمرات بررسی (overall و recent)
-                    reviews = details.get('recommendations', {})
-                    if reviews:
-                        # نمرات کلی
-                        overall_reviews = reviews.get('total')
-                        overall_score_match = re.search(r'(\d+)%', reviews.get('summary', ''))
-                        if overall_score_match:
-                            game_details['steam_overall_score'] = int(overall_score_match.group(1))
-                            game_details['steam_overall_reviews_count'] = overall_reviews
-                        
-                        # نمرات اخیر (اگر موجود باشد)
-                        recent_reviews_url = f"https://store.steampowered.com/appreviews/{app_id}?json=1&filter=recent&num_per_page=0"
-                        await asyncio.sleep(random.uniform(0.5, 1.5)) # تأخیر تصادفی برای درخواست بررسی‌های اخیر
-                        async with session.get(recent_reviews_url, headers=self.HEADERS) as recent_response:
-                            if recent_response.status == 200:
-                                recent_data = await recent_response.json()
-                                if recent_data and recent_data.get('success') and recent_data.get('query_summary'):
-                                    recent_summary = recent_data['query_summary']
-                                    recent_score_match = re.search(r'(\d+)%', recent_summary.get('review_score_desc', ''))
-                                    if recent_score_match:
-                                        game_details['steam_recent_score'] = int(recent_score_match.group(1))
-                                        game_details['steam_recent_reviews_count'] = recent_summary.get('total_reviews', 0)
-                    
-                    # ژانرها
-                    genres = [g['description'] for g in details.get('genres', [])]
-                    if genres:
-                        game_details['genres'] = genres
+        search_query = re.sub(r'[^a-zA-Z0-9\s]', '', game_title).strip()
+        if not search_query:
+            logger.warning(f"⚠️ [SteamEnricher - _find_steam_app_id] عنوان بازی برای جستجوی Steam App ID خالی است: '{game_title}'")
+            return None
 
-                    # تریلر (اگر موجود باشد، اولین تریلر وب‌ام)
-                    movies = details.get('movies', [])
-                    for movie in movies:
-                        if movie.get('webm') and movie['webm'].get('480'):
-                            game_details['trailer'] = movie['webm']['480']
-                            break
-                    
-                    # بررسی حالت چندنفره و آنلاین
-                    categories = details.get('categories', [])
-                    game_details['is_multiplayer'] = any(cat['description'] in ['Multi-player', 'Co-op', 'MMO'] for cat in categories)
-                    game_details['is_online'] = any(cat['description'] in ['Online Multi-Player', 'Online Co-op', 'MMO'] for cat in categories)
+        search_url = self.STEAM_SEARCH_URL.format(query=search_query)
+        logger.info(f"در حال جستجوی Steam App ID برای: '{game_title}' (URL جستجو: {search_url})")
 
-                    # رده‌بندی سنی
-                    if 'content_descriptors' in details and 'description' in details['content_descriptors']:
-                        game_details['age_rating'] = details['content_descriptors']['description']
-                    elif 'required_age' in details and details['required_age'] != 0:
-                        game_details['age_rating'] = f"{details['required_age']}+"
-                    
-                    logger.info(f"جزئیات Steam برای App ID {app_id} با موفقیت دریافت شد.")
-                else:
-                    logger.warning(f"دریافت جزئیات Steam برای App ID {app_id} ناموفق بود.")
-        except aiohttp.ClientResponseError as e:
-            logger.error(f"خطای HTTP در دریافت جزئیات Steam برای App ID {app_id}: {e.status} - {e.message}")
-        except Exception as e:
-            logger.error(f"خطا در دریافت جزئیات Steam برای App ID {app_id}: {e}", exc_info=True)
-        return game_details
+        html_content = await self._fetch_with_retry(session, search_url, is_json_expected=False)
+        if not html_content:
+            logger.warning(f"⚠️ [SteamEnricher - _find_steam_app_id] جستجوی Steam App ID برای '{game_title}' با شکست مواجه شد (واکشی HTML).")
+            return None
+        
+        if not isinstance(html_content, str):
+            logger.error(f"❌ [SteamEnricher - _find_steam_app_id] پاسخ از Steam Search HTML نیست برای '{game_title}'.")
+            return None
 
-    async def enrich_data(self, game_data: Dict[str, Any]) -> Dict[str, Any]:
+        soup = BeautifulSoup(html_content, 'html.parser')
+        first_result_link = soup.find('a', class_='search_result_row', attrs={'data-ds-appid': True})
+        
+        if first_result_link:
+            app_id = first_result_link['data-ds-appid']
+            logger.info(f"✅ [SteamEnricher - _find_steam_app_id] اولین Steam App ID برای '{game_title}' یافت شد: {app_id}")
+            return app_id
+        else:
+            logger.warning(f"⚠️ [SteamEnricher - _find_steam_app_id] Steam App ID برای '{game_title}' یافت نشد. (هیچ نتیجه‌ای در صفحه جستجو).")
+            return None
+
+    async def enrich_data(self, game: Dict[str, Any]) -> Dict[str, Any]:
         """
-        داده‌های بازی را با اطلاعات Steam غنی‌سازی می‌کند.
+        داده‌های بازی را با اطلاعات از Steam غنی‌سازی می‌کند.
         """
-        title = game_data.get('title')
-        steam_app_id = game_data.get('steam_app_id')
+        game_title = game.get('title', 'نامشخص')
+        store_name = game.get('store', '').lower().replace(' ', '')
 
-        if not title and not steam_app_id:
-            logger.warning("عنوان بازی یا Steam App ID برای غنی‌سازی Steam موجود نیست.")
-            return game_data
+        if store_name != 'steam' and 'steam_app_id' not in game:
+            logger.debug(f"[SteamEnricher] بازی '{game_title}' از فروشگاه Steam نیست و Steam App ID ندارد. غنی‌سازی Steam نادیده گرفته شد.")
+            return game
 
+        app_id = game.get('steam_app_id')
+        if not app_id:
+            async with aiohttp.ClientSession() as session:
+                app_id = await self._find_steam_app_id(session, game_title)
+                if not app_id:
+                    logger.info(f"[SteamEnricher] Steam App ID برای '{game_title}' یافت نشد. غنی‌سازی Steam انجام نشد.")
+                    return game
+                game['steam_app_id'] = app_id
+
+        api_url = self.STEAM_API_URL.format(app_id=app_id)
+        logger.info(f"در حال دریافت جزئیات بازی از Steam برای App ID: {app_id} (URL: {api_url})")
+        
         async with aiohttp.ClientSession() as session:
-            if not steam_app_id:
-                steam_app_id = await self._get_steam_app_id(session, title)
-                if steam_app_id:
-                    game_data['steam_app_id'] = steam_app_id # App ID را به داده‌ها اضافه کن
+            data = await self._fetch_with_retry(session, api_url, is_json_expected=True)
 
-            if steam_app_id:
-                steam_details = await self._get_game_details(session, steam_app_id)
-                game_data.update(steam_details) # اطلاعات Steam را ادغام کن
-                logger.info(f"داده‌های Steam برای '{title}' (App ID: {steam_app_id}) غنی‌سازی شد.")
+        if data and isinstance(data, dict) and str(app_id) in data and data[str(app_id)]['success']:
+            details = data[str(app_id)]['data']
+            
+            game['description'] = details.get('about_the_game', game.get('description', ''))
+            game['image_url'] = details.get('header_image', game.get('image_url', ''))
+            game['genres'] = [g['description'] for g in details.get('genres', [])]
+            game['is_multiplayer'] = details.get('categories') and any(c['description'] in ['Multi-player', 'Online Multi-Player', 'Co-op', 'Online Co-op'] for c in details['categories'])
+            game['is_online'] = details.get('categories') and any(c['description'] in ['Online Multi-Player', 'Online Co-op'] for c in details['categories'])
+            game['trailer'] = details.get('movies') and details['movies'][0].get('webm', {}).get('480', '')
+            game['age_rating'] = details.get('content_descriptors', {}).get('notes', None) or details.get('required_age', None)
+            
+            if details.get('type') == 'game' and details.get('recommendations'):
+                recommendations = details['recommendations']
+                game['steam_overall_reviews_count'] = recommendations.get('total')
+                
+                if 'reviews' in details:
+                    review_summary = details['reviews']
+                    if 'overall_positive' in review_summary and 'total_reviews' in review_summary and review_summary['total_reviews'] > 0:
+                        game['steam_overall_score'] = round((review_summary['overall_positive'] / review_summary['total_reviews']) * 100)
+                    if 'recent_positive' in review_summary and 'recent_reviews' in review_summary and review_summary['recent_reviews'] > 0:
+                        game['steam_recent_score'] = round((review_summary['recent_positive'] / review_summary['recent_reviews']) * 100)
+                        game['steam_recent_reviews_count'] = review_summary['recent_reviews']
+                    logger.debug(f"[SteamEnricher] نمرات Steam (از بخش reviews) برای '{game_title}' یافت شد: کلی={game.get('steam_overall_score')}, اخیر={game.get('steam_recent_score')}")
+                elif game['steam_overall_reviews_count'] is not None:
+                    logger.debug(f"[SteamEnricher] فقط تعداد کل ریویوها برای '{game_title}' در Steam یافت شد: {game['steam_overall_reviews_count']}. درصد قابل محاسبه نیست.")
             else:
-                logger.info(f"Steam App ID برای '{title}' یافت نشد. غنی‌سازی Steam انجام نشد.")
-        return game_data
+                logger.debug(f"[SteamEnricher] اطلاعات ریویو Steam برای '{game_title}' یافت نشد.")
 
+            logger.info(f"✅ [SteamEnricher] داده‌های Steam برای '{game_title}' (App ID: {app_id}) با موفقیت غنی‌سازی شد.")
+        else:
+            logger.warning(f"⚠️ [SteamEnricher] جزئیات Steam برای App ID {app_id} یافت نشد یا موفقیت‌آمیز نبود. غنی‌سازی Steam انجام نشد. (پاسخ: {data})")
+        return game

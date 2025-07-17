@@ -2,7 +2,7 @@ name: Free Games Bot Workflow
 
 on:
   schedule:
-    # این ورک‌فلو هر روز در ساعت 05:00 UTC اجرا می‌شود (مثلاً 08:30 صبح به وقت تهران در تابستان)
+    # هر روز در ساعت 05:00 UTC اجرا می‌شود (مثلاً 08:30 صبح به وقت تهران در تابستان)
     - cron: '0 5 * * *'
   workflow_dispatch:
     # اجازه می‌دهد تا به صورت دستی از رابط کاربری GitHub Actions اجرا شود
@@ -34,13 +34,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt # نصب کتابخانه‌های موجود در requirements.txt
           
-      - name: Install Playwright browsers # مرحله جدید: نصب مرورگرهای Playwright
-        run: playwright install --with-deps chromium # نصب Chromium و وابستگی‌های آن
+      - name: Install Playwright browsers
+        run: playwright install --with-deps chromium # نصب مرورگر Chromium و وابستگی‌های آن
 
       - name: Ensure data directories exist
         run: |
           mkdir -p data # اطمینان از وجود دایرکتوری data
           mkdir -p web_data # اطمینان از وجود دایرکتوری web_data
+          mkdir -p cache # اطمینان از وجود دایرکتوری cache (جدید)
 
       - name: Run Free Games Bot
         env:

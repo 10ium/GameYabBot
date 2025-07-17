@@ -2,166 +2,174 @@ import logging
 import asyncio
 import aiohttp
 from typing import Dict, Any, Optional
-import re # برای استفاده از regex
 from bs4 import BeautifulSoup
-import random # برای تأخیر تصادفی
+import re
+import random
+import os
+import hashlib
+import time # برای بررسی زمان فایل کش
 
-# تنظیمات اولیه لاگ‌گیری
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-)
 logger = logging.getLogger(__name__)
 
 class MetacriticEnricher:
-    """
-    کلاسی برای غنی‌سازی داده‌های بازی با استفاده از اطلاعات Metacritic.
-    این کلاس نمرات منتقدان و کاربران، ژانرها، و رده‌بندی سنی را از Metacritic استخراج می‌کند.
-    """
     BASE_URL = "https://www.metacritic.com"
-    SEARCH_URL = f"{BASE_URL}/search/game/"
+    SEARCH_URL = "https://www.metacritic.com/search/game/{query}/results"
     HEADERS = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
         'Accept-Language': 'en-US,en;q=0.9',
         'Accept-Encoding': 'gzip, deflate, br',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
         'Connection': 'keep-alive'
     }
 
-    def _clean_title_for_metacritic_search(self, title: str) -> str:
+    def __init__(self, cache_dir: str = "cache", cache_ttl: int = 86400): # TTL پیش‌فرض 24 ساعت
+        self.cache_dir = os.path.join(cache_dir, "metacritic")
+        self.cache_ttl = cache_ttl
+        os.makedirs(self.cache_dir, exist_ok=True)
+        logger.info(f"نمونه MetacriticEnricher با موفقیت ایجاد شد. دایرکتوری کش: {self.cache_dir}, TTL: {self.cache_ttl} ثانیه.")
+
+    def _get_cache_path(self, url: str) -> str:
+        """مسیر فایل کش را بر اساس هش URL تولید می‌کند."""
+        url_hash = hashlib.sha256(url.encode('utf-8')).hexdigest()
+        return os.path.join(self.cache_dir, f"{url_hash}.html")
+
+    def _is_cache_valid(self, cache_path: str) -> bool:
+        """بررسی می‌کند که آیا فایل کش وجود دارد و منقضی نشده است."""
+        if not os.path.exists(cache_path):
+            return False
+        file_mod_time = os.path.getmtime(cache_path)
+        if (time.time() - file_mod_time) > self.cache_ttl:
+            logger.debug(f"[MetacriticEnricher - _is_cache_valid] فایل کش {cache_path} منقضی شده است.")
+            return False
+        logger.debug(f"[MetacriticEnricher - _is_cache_valid] فایل کش {cache_path} معتبر است.")
+        return True
+
+    async def _fetch_with_retry(self, session: aiohttp.ClientSession, url: str, max_retries: int = 3, initial_delay: float = 2) -> Optional[str]:
         """
-        عنوان بازی را برای جستجوی بهتر در Metacritic تمیز می‌کند.
-        کاراکترهای خاص را حذف کرده و فواصل اضافی را از بین می‌برد.
+        یک URL را با مکانیزم retry و exponential backoff واکشی می‌کند و محتوای HTML را برمی‌گرداند.
         """
-        # حذف کاراکترهای غیر الفبایی-عددی (به جز فاصله)
-        cleaned_title = re.sub(r'[^\w\s]', '', title)
-        # جایگزینی فواصل متعدد با یک فاصله
-        cleaned_title = re.sub(r'\s+', ' ', cleaned_title).strip()
-        return cleaned_title.replace(' ', '-') # Metacritic از خط تیره برای فواصل استفاده می‌کند
+        cache_path = self._get_cache_path(url)
 
-    async def _search_metacritic(self, session: aiohttp.ClientSession, game_title: str) -> Optional[str]:
-        """
-        عنوان بازی را در Metacritic جستجو می‌کند و URL صفحه بازی را برمی‌گرداند.
-        """
-        search_query = self._clean_title_for_metacritic_search(game_title)
-        if not search_query:
-            logger.warning(f"عنوان بازی برای جستجوی Metacritic خالی است: '{game_title}'")
-            return None
+        if self._is_cache_valid(cache_path):
+            logger.info(f"✅ [MetacriticEnricher - _fetch_with_retry] بارگذاری محتوا از کش: {cache_path}")
+            with open(cache_path, 'r', encoding='utf-8') as f:
+                return f.read()
 
-        full_search_url = f"{self.SEARCH_URL}{search_query}/results"
-        logger.info(f"در حال جستجو در Metacritic برای: '{game_title}' (URL: {full_search_url})")
-
-        try:
-            await asyncio.sleep(random.uniform(1, 3)) # تأخیر تصادفی برای جلوگیری از بلاک شدن
-            async with session.get(full_search_url, headers=self.HEADERS) as response:
-                response.raise_for_status()
-                html = await response.text()
-                soup = BeautifulSoup(html, 'html.parser')
-
-                # Metacritic layout has changed. Look for search results.
-                # The search results are typically in a <tbody> with class 'body'
-                # and each result is an <a> tag within an <h3>.
-                search_results_container = soup.find('ul', class_='search-results')
-                if not search_results_container:
-                    search_results_container = soup.find('div', class_='search_results') # Fallback for older layouts
-
-                if search_results_container:
-                    # Find the first game result link
-                    first_game_link = search_results_container.find('a', class_='title')
-                    if first_game_link and 'href' in first_game_link.attrs:
-                        game_page_url = self.BASE_URL + first_game_link['href']
-                        logger.info(f"لینک Metacritic برای '{game_title}' یافت شد: {game_page_url}")
-                        return game_page_url
-                    else:
-                        logger.warning(f"هیچ لینک بازی در نتایج جستجوی Metacritic برای '{game_title}' یافت نشد.")
+        logger.debug(f"[MetacriticEnricher - _fetch_with_retry] کش برای {url} معتبر نیست یا وجود ندارد. در حال واکشی از وب‌سایت.")
+        for attempt in range(max_retries):
+            try:
+                current_delay = initial_delay * (2 ** attempt) + random.uniform(0, 1)
+                logger.debug(f"[MetacriticEnricher - _fetch_with_retry] تلاش {attempt + 1}/{max_retries} برای واکشی Metacritic URL: {url} (تأخیر: {current_delay:.2f} ثانیه)")
+                await asyncio.sleep(current_delay)
+                async with session.get(url, headers=self.HEADERS, timeout=15) as response:
+                    response.raise_for_status()
+                    html_content = await response.text()
+                    
+                    # ذخیره در کش
+                    with open(cache_path, 'w', encoding='utf-8') as f:
+                        f.write(html_content)
+                    logger.info(f"✅ [MetacriticEnricher - _fetch_with_retry] محتوا در کش ذخیره شد: {cache_path}")
+                    return html_content
+            except aiohttp.ClientResponseError as e:
+                logger.warning(f"⚠️ [MetacriticEnricher - _fetch_with_retry] خطای HTTP هنگام واکشی Metacritic URL {url} (تلاش {attempt + 1}/{max_retries}): Status {e.status}, Message: '{e.message}'")
+                if attempt < max_retries - 1 and e.status in [403, 404, 429, 500, 502, 503, 504]:
+                    logger.info(f"[MetacriticEnricher - _fetch_with_retry] در حال تلاش مجدد برای {url}...")
                 else:
-                    logger.warning(f"کانتینر نتایج جستجو در Metacritic برای '{game_title}' یافت نشد.")
-                
-                # Fallback: اگر صفحه جستجو مستقیماً به صفحه بازی ریدایرکت شد (برای تطابق دقیق)
-                # این ممکن است در response.url پس از ریدایرکت موجود باشد
-                if "game/" in str(response.url) and "search/" not in str(response.url):
-                    logger.info(f"ریدایرکت مستقیم به صفحه بازی Metacritic برای '{game_title}' شناسایی شد: {response.url}")
-                    return str(response.url)
-
-        except aiohttp.ClientResponseError as e:
-            logger.error(f"خطای HTTP در جستجوی Metacritic برای '{game_title}': {e.status} - {e.message}")
-        except Exception as e:
-            logger.error(f"خطا در جستجوی Metacritic برای '{game_title}': {e}", exc_info=True)
+                    logger.error(f"❌ [MetacriticEnricher - _fetch_with_retry] تمام تلاش‌ها برای واکشی Metacritic URL {url} با شکست مواجه شد. (آخرین خطا: {e.status})")
+                    return None
+            except asyncio.TimeoutError:
+                logger.warning(f"⚠️ [MetacriticEnricher - _fetch_with_retry] خطای Timeout هنگام واکشی Metacritic URL {url} (تلاش {attempt + 1}/{max_retries}).")
+                if attempt < max_retries - 1:
+                    logger.info(f"[MetacriticEnricher - _fetch_with_retry] در حال تلاش مجدد برای {url}...")
+                else:
+                    logger.error(f"❌ [MetacriticEnricher - _fetch_with_retry] تمام تلاش‌ها برای واکشی Metacritic URL {url} به دلیل Timeout با شکست مواجه شد.")
+                    return None
+            except Exception as e:
+                logger.error(f"❌ [MetacriticEnricher - _fetch_with_retry] خطای پیش‌بینی نشده هنگام واکشی Metacritic URL {url} (تلاش {attempt + 1}/{max_retries}): {e}", exc_info=True)
+                return None
         return None
 
-    async def _parse_game_page(self, session: aiohttp.ClientSession, game_page_url: str) -> Dict[str, Any]:
+    async def enrich_data(self, game: Dict[str, Any]) -> Dict[str, Any]:
         """
-        اطلاعات را از صفحه بازی Metacritic استخراج می‌کند.
+        داده‌های بازی را با اطلاعات از Metacritic غنی‌سازی می‌کند.
         """
-        game_info = {}
-        logger.info(f"در حال تجزیه صفحه Metacritic: {game_page_url}")
+        game_title = game.get('title')
+        if not game_title:
+            logger.warning("⚠️ [MetacriticEnricher] عنوان بازی برای جستجو در Metacritic خالی است. غنی‌سازی Metacritic انجام نشد.")
+            return game
 
-        try:
-            await asyncio.sleep(random.uniform(1, 3)) # تأخیر تصادفی
-            async with session.get(game_page_url, headers=self.HEADERS) as response:
-                response.raise_for_status()
-                html = await response.text()
-                soup = BeautifulSoup(html, 'html.parser')
-
-                # نمره منتقدان (Metascore)
-                metascore_tag = soup.find('div', class_='c-siteReviewScore_score')
-                if metascore_tag:
-                    score_text = metascore_tag.get_text(strip=True)
-                    try:
-                        game_info['metacritic_score'] = int(score_text)
-                    except ValueError:
-                        logger.warning(f"نمره متاکریتیک نامعتبر برای {game_page_url}: {score_text}")
-
-                # نمره کاربران (User Score)
-                userscore_tag = soup.find('div', class_='c-siteReviewScore_score u-flexbox-column')
-                if userscore_tag:
-                    score_text = userscore_tag.get_text(strip=True)
-                    try:
-                        game_info['metacritic_userscore'] = float(score_text)
-                    except ValueError:
-                        logger.warning(f"نمره کاربر متاکریتیک نامعتبر برای {game_page_url}: {score_text}")
-
-                # ژانرها
-                genres_section = soup.find('div', class_='c-gameDetails_sectionContainer u-flexbox-column')
-                if genres_section:
-                    genre_tags = genres_section.find_all('li', class_='c-gameDetails_listItem')
-                    genres = []
-                    for tag in genre_tags:
-                        genre_text = tag.find('span', class_='c-gameDetails_listItem_value').get_text(strip=True)
-                        genres.append(genre_text)
-                    if genres:
-                        game_info['genres'] = genres
-
-                # رده‌بندی سنی (ESRB, PEGI و غیره)
-                age_rating_tag = soup.find('li', class_='c-gameDetails_listItem', attrs={'data-cy': 'gameDetails-ageRating'})
-                if age_rating_tag:
-                    age_rating_value_tag = age_rating_tag.find('span', class_='c-gameDetails_listItem_value')
-                    if age_rating_value_tag:
-                        game_info['age_rating'] = age_rating_value_tag.get_text(strip=True)
-
-        except aiohttp.ClientResponseError as e:
-            logger.error(f"خطای HTTP در تجزیه صفحه Metacritic {game_page_url}: {e.status} - {e.message}")
-        except Exception as e:
-            logger.error(f"خطا در تجزیه صفحه Metacritic {game_page_url}: {e}", exc_info=True)
+        # تمیز کردن عنوان برای جستجو: حذف پرانتزها و محتوای آنها، سپس کاراکترهای خاص
+        cleaned_title = re.sub(r'\(.*?\)|\[.*?\]', '', game_title) # حذف (محتوا) و [محتوا]
+        cleaned_title = re.sub(r'[^a-zA-Z0-9\s]', '', cleaned_title).strip() # حذف کاراکترهای خاص
         
-        return game_info
+        if not cleaned_title:
+            logger.warning(f"⚠️ [MetacriticEnricher] عنوان تمیز شده برای جستجو در Metacritic خالی است: '{game_title}'. غنی‌سازی Metacritic انجام نشد.")
+            return game
 
-    async def enrich_data(self, game_data: Dict[str, Any]) -> Dict[str, Any]:
-        """
-        داده‌های بازی را با اطلاعات Metacritic غنی‌سازی می‌کند.
-        """
-        title = game_data.get('title')
-        if not title:
-            logger.warning("عنوان بازی برای غنی‌سازی Metacritic موجود نیست.")
-            return game_data
+        search_url = self.SEARCH_URL.format(query=cleaned_title.replace(' ', '-')) # Metacritic uses hyphens
+        logger.info(f"در حال جستجو در Metacritic برای: '{game_title}' (URL: {search_url})")
 
         async with aiohttp.ClientSession() as session:
-            game_page_url = await self._search_metacritic(session, title)
-            if game_page_url:
-                metacritic_info = await self._parse_game_page(session, game_page_url)
-                game_data.update(metacritic_info)
-                logger.info(f"داده‌های Metacritic برای '{title}' غنی‌سازی شد.")
-            else:
-                logger.info(f"صفحه Metacritic برای '{title}' یافت نشد. غنی‌سازی انجام نشد.")
-        return game_data
+            html_content = await self._fetch_with_retry(session, search_url)
 
+        if not html_content:
+            logger.info(f"[MetacriticEnricher] صفحه Metacritic برای '{game_title}' یافت نشد یا واکشی با شکست مواجه شد. غنی‌سازی انجام نشد.")
+            return game
+
+        soup = BeautifulSoup(html_content, 'html.parser')
+        
+        # سلکتور برای کانتینر نتایج جستجو
+        results_container = soup.find('div', class_='search_results') or \
+                            soup.find('ul', class_='search_results') or \
+                            soup.find('div', class_='results')
+
+        if not results_container:
+            logger.warning(f"⚠️ [MetacriticEnricher] کانتینر نتایج جستجو در Metacritic برای '{game_title}' یافت نشد. ساختار HTML ممکن است تغییر کرده باشد.")
+            return game
+
+        # یافتن اولین نتیجه بازی که معمولاً دقیق‌ترین است
+        first_result_link = results_container.find('a', class_='title')
+        if not first_result_link:
+            # Fallback برای ساختارهای مختلف یا زمانی که 'title' تنها نیست
+            first_result_link = results_container.find('a', class_='search_result_row') 
+            if first_result_link:
+                first_result_link = first_result_link.find('a', class_='title') # مطمئن شویم که تگ <a> با کلاس 'title' را می‌گیریم
+
+        if first_result_link and 'href' in first_result_link.attrs:
+            game_page_url = self.BASE_URL + first_result_link['href']
+            logger.debug(f"[MetacriticEnricher] صفحه بازی Metacritic یافت شد: {game_page_url}")
+
+            game_page_html = await self._fetch_with_retry(session, game_page_url)
+            if not game_page_html:
+                logger.warning(f"⚠️ [MetacriticEnricher] واکشی صفحه بازی Metacritic برای '{game_title}' با شکست مواجه شد. غنی‌سازی انجام نشد.")
+                return game
+
+            game_soup = BeautifulSoup(game_page_html, 'html.parser')
+
+            # استخراج نمره متاکریتیک (منتقدان)
+            score_tag = game_soup.find('div', class_='metascore_w')
+            if score_tag:
+                try:
+                    game['metacritic_score'] = int(score_tag.get_text(strip=True))
+                    logger.debug(f"[MetacriticEnricher] نمره متاکریتیک (منتقدان) برای '{game_title}' یافت شد: {game['metacritic_score']}")
+                except ValueError:
+                    logger.warning(f"⚠️ [MetacriticEnricher] نمره متاکریتیک (منتقدان) برای '{game_title}' قابل تبدیل به عدد نبود.")
+            else:
+                logger.debug(f"[MetacriticEnricher] تگ نمره متاکریتیک (منتقدان) برای '{game_title}' یافت نشد.")
+
+            # استخراج نمره کاربران
+            userscore_tag = game_soup.find('div', class_='metascore_w user')
+            if userscore_tag:
+                try:
+                    game['metacritic_userscore'] = float(userscore_tag.get_text(strip=True))
+                    logger.debug(f"[MetacriticEnricher] نمره متاکریتیک (کاربران) برای '{game_title}' یافت شد: {game['metacritic_userscore']}")
+                except ValueError:
+                    logger.warning(f"⚠️ [MetacriticEnricher] نمره متاکریتیک (کاربران) برای '{game_title}' قابل تبدیل به عدد نبود.")
+            else:
+                logger.debug(f"[MetacriticEnricher] تگ نمره متاکریتیک (کاربران) برای '{game_title}' یافت نشد.")
+            
+            logger.info(f"✅ [MetacriticEnricher] داده‌های Metacritic برای '{game_title}' با موفقیت غنی‌سازی شد.")
+
+        else:
+            logger.info(f"[MetacriticEnricher] صفحه Metacritic برای '{game_title}' یافت نشد. غنی‌سازی انجام نشد.")
+        
+        return game
