@@ -1,7 +1,7 @@
 import logging
 import re
 from typing import Dict, Any
-from urllib.parse import urlparse, urlunparse # <--- اضافه شد
+from urllib.parse import urlparse, urlunparse
 
 logger = logging.getLogger(__name__)
 
@@ -98,7 +98,7 @@ def infer_store_from_game_data(game: Dict[str, Any]) -> str:
     logger.debug(f"[StoreDetector] فروشگاه برای '{game.get('title', 'نامشخص')}' از هیچ منبعی استنتاج نشد. 'other' برگردانده شد.")
     return 'other'
 
-def normalize_url_for_key(url: str) -> str: # <--- این تابع اضافه شد
+def normalize_url_for_key(url: str) -> str:
     """
     URL را برای استفاده به عنوان بخشی از کلید deduplication نرمال‌سازی می‌کند.
     شناسه منحصر به فرد بازی را از URLهای فروشگاه‌های خاص استخراج می‌کند.
@@ -120,13 +120,13 @@ def normalize_url_for_key(url: str) -> str: # <--- این تابع اضافه ش
             match = re.search(r'/store/p/([^/?#]+)', normalized_path)
             if match:
                 logger.debug(f"[StoreDetector - normalize_url_for_key] URL Epic Games نرمال‌سازی شد به: epic_product_{match.group(1)}")
-                return f"epic_product_{match.group(1)}")
+                return f"epic_product_{match.group(1)}" # <--- پرانتز اضافی حذف شد
         elif 'gog.com' in parsed.netloc:
             # slugهای بازی GOG منحصر به فرد هستند
             match = re.search(r'/(game|movie)/([^/?#]+)', normalized_path)
             if match:
                 logger.debug(f"[StoreDetector - normalize_url_for_key] URL GOG نرمال‌سازی شد به: gog_game_{match.group(2)}")
-                return f"gog_game_{match.group(2)}")
+                return f"gog_game_{match.group(2)}"
 
         # برای سایر URLها، فقط طرح+دامنه+مسیر نرمال‌شده را برگردان
         normalized_full_url = urlunparse((parsed.scheme, parsed.netloc, normalized_path, '', '', ''))
