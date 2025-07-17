@@ -20,8 +20,8 @@ from enrichment.metacritic_enricher import MetacriticEnricher
 # وارد کردن ماژول ترجمه
 from translation.translator import SmartTranslator
 # وارد کردن ابزارهای کمکی
-from utils import clean_title_for_search # وارد کردن تابع تمیزکننده مشترک
-from utils.store_detector import infer_store_from_game_data, normalize_url_for_key # <--- وارد کردن تابع جدید از ماژول جدید
+import utils.clean_title_for_search as title_cleaner # <--- خط اصلاح شده: وارد کردن ماژول به عنوان title_cleaner
+from utils.store_detector import infer_store_from_game_data, normalize_url_for_key # وارد کردن تابع جدید از ماژول جدید
 
 # تنظیمات اولیه لاگ‌گیری
 logging.basicConfig(
@@ -37,9 +37,6 @@ DEEPL_API_KEY = os.getenv("DEEPL_API_KEY") # این متغیر باید به Sma
 # تنظیمات کش سراسری
 CACHE_DIR = "cache"
 CACHE_TTL = 86400 # 24 ساعت به ثانیه
-
-# تابع _infer_store_from_game_data از اینجا حذف شد و به utils/store_detector.py منتقل شد.
-# تابع _normalize_url_for_key نیز از اینجا حذف شد و به utils/store_detector.py منتقل شد.
 
 def _classify_game_type(game: Dict[str, Any]) -> Dict[str, Any]:
     """
@@ -127,7 +124,7 @@ def _get_deduplication_key(game: Dict[str, Any]) -> str:
         return key
     
     # 3. فال‌بک به عنوان تمیز شده + نام فروشگاه
-    cleaned_title = clean_title_for_search(game.get('title', ''))
+    cleaned_title = title_cleaner.clean_title_for_search(game.get('title', '')) # <--- فراخوانی اصلاح شده
     if cleaned_title:
         key = f"{combined_prefix}{cleaned_title}_{store_name}"
         logger.debug(f"[_get_deduplication_key] کلید deduplication بر اساس عنوان تمیز شده و فروشگاه تولید شد: {key}")
@@ -182,8 +179,8 @@ def _merge_game_data(existing_game: Dict[str, Any], new_game: Dict[str, Any]) ->
                 merged_game[key] = new_game[key]
     
     # اطمینان از اینکه عنوان تمیز شده، بهترین عنوان ممکن است
-    if len(clean_title_for_search(new_game.get('title', ''))) > \
-       len(clean_title_for_search(merged_game.get('title', ''))):
+    if len(title_cleaner.clean_title_for_search(new_game.get('title', ''))) > \
+       len(title_cleaner.clean_title_for_search(merged_game.get('title', ''))):
         merged_game['title'] = new_game['title']
 
     return merged_game
