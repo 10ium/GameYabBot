@@ -5,24 +5,119 @@ import json
 import re
 from typing import List, Dict, Any
 import random # برای تأخیر تصادفی
+from urllib.parse import urlparse # برای تجزیه URL
 
+# وارد کردن ماژول‌های اصلی
 from core.database import Database
 from core.telegram_bot import TelegramBot
+# وارد کردن منابع داده (ITAD اکنون از Playwright استفاده می‌کند، Epic Games از aiohttp)
 from sources.itad import ITADSource
 from sources.reddit import RedditSource
 from sources.epic_games import EpicGamesSource
+# وارد کردن ماژول‌های غنی‌سازی داده
 from enrichment.steam_enricher import SteamEnricher
 from enrichment.metacritic_enricher import MetacriticEnricher
+# وارد کردن ماژول ترجمه
 from translation.translator import SmartTranslator
+# وارد کردن ابزارهای کمکی
 from utils import clean_title_for_search # وارد کردن تابع تمیزکننده مشترک
 
+# تنظیمات اولیه لاگ‌گیری
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 
+# دریافت توکن‌ها از متغیرهای محیطی
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 DEEPL_API_KEY = os.getenv("DEEPL_API_KEY") # این متغیر باید به SmartTranslator پاس داده شود اگر DeepL استفاده می‌شود
+
+def _infer_store_from_game_data(game: Dict[str, Any]) -> str:
+    """
+    نام فروشگاه را از داده‌های بازی (ترجیحاً از فیلد 'store'، سپس از URL، سپس از عنوان) استنتاج می‌کند.
+    """
+    # 1. اولویت با فیلد 'store' موجود
+    if game.get('store') and game['store'].lower() != 'unknown':
+        return game['store'].lower().replace(' ', '')
+
+    # 2. استنتاج از URL
+    url = game.get('url')
+    if url:
+        try:
+            parsed_url = urlparse(url)
+            domain = parsed_url.netloc.lower()
+            if 'steampowered.com' in domain:
+                return 'steam'
+            elif 'epicgames.com' in domain:
+                return 'epicgames'
+            elif 'gog.com' in domain:
+                return 'gog'
+            elif 'itch.io' in domain:
+                return 'itch.io'
+            elif 'indiegala.com' in domain:
+                return 'indiegala'
+            elif 'microsoft.com' in domain or 'xbox.com' in domain:
+                return 'microsoftstore' # یا 'xbox'
+            elif 'playstation.com' in domain:
+                return 'playstation'
+            elif 'nintendo.com' in domain:
+                return 'nintendo'
+            elif 'ea.com' in domain:
+                return 'eastore'
+            elif 'ubisoft.com' in domain:
+                return 'ubisoftstore'
+            elif 'humblebundle.com' in domain:
+                return 'humblestore'
+            elif 'fanatical.com' in domain:
+                return 'fanatical'
+            elif 'greenmangaming.com' in domain:
+                return 'greenmangaming'
+            elif 'amazon.com' in domain:
+                return 'amazon'
+            elif 'blizzard.com' in domain:
+                return 'blizzard'
+            elif 'reddit.com' in domain or 'redd.it' in domain: # برای لینک‌هایی که مستقیماً از Reddit می‌آیند
+                return 'reddit'
+            # می‌توانید دامنه های بیشتری را اینجا اضافه کنید
+        except Exception as e:
+            logging.warning(f"⚠️ خطای تجزیه URL برای استنتاج فروشگاه: {url} - {e}")
+
+    # 3. استنتاج از عنوان (با استفاده از تگ‌های رایج)
+    title = game.get('title', '').lower()
+    if '[steam]' in title:
+        return 'steam'
+    elif '[epic games]' in title or '[egs]' in title:
+        return 'epicgames'
+    elif '[gog]' in title:
+        return 'gog'
+    elif '[itch.io]' in title:
+        return 'itch.io'
+    elif '[indiegala]' in title:
+        return 'indiegala'
+    elif '[xbox]' in title:
+        return 'microsoftstore' # یا 'xbox'
+    elif '[ps]' in title or '[playstation]' in title:
+        return 'playstation'
+    elif '[switch]' in title or '[nintendo]' in title:
+        return 'nintendo'
+    elif '[amazon]' in title:
+        return 'amazon'
+    elif '[ubisoft]' in title:
+        return 'ubisoftstore'
+    elif '[humble]' in title:
+        return 'humblestore'
+    elif '[fanatical]' in title:
+        return 'fanatical'
+    elif '[gmg]' in title:
+        return 'greenmangaming'
+    elif '[blizzard]' in title:
+        return 'blizzard'
+    elif '[reddit]' in title:
+        return 'reddit'
+
+    # 4. در نهایت، به 'other' برگرد
+    return 'other'
+
 
 def _get_deduplication_key(game: Dict[str, Any]) -> str:
     """
@@ -31,14 +126,26 @@ def _get_deduplication_key(game: Dict[str, Any]) -> str:
     این کلید اکنون شامل نام فروشگاه نیز می‌شود تا پیشنهادهای رایگان از فروشگاه‌های مختلف برای یک بازی،
     به عنوان ورودی‌های جداگانه در نظر گرفته شوند.
     """
-    store_name = game.get('store', 'unknown').lower().replace(' ', '')
+    # از تابع جدید برای استنتاج نام فروشگاه استفاده کن
+    store_name = _infer_store_from_game_data(game)
+
     # اگر بازی رایگان نیست، آن را با یک کلید متفاوت از بازی‌های رایگان تفکیک کن
     # این کار از تداخل یک بازی رایگان با نسخه تخفیف‌دار آن جلوگیری می‌کند.
     if not game.get('is_free', True):
+        # برای تخفیف‌ها، از عنوان تمیز شده و فروشگاه استفاده می‌کنیم.
+        # این باعث می‌شود که تخفیف‌های یک بازی از فروشگاه‌های مختلف، کلیدهای متفاوتی داشته باشند.
         return f"discount_{store_name}_{clean_title_for_search(game.get('title', ''))}"
 
     if 'steam_app_id' in game and game['steam_app_id']:
         # اگر Steam App ID موجود است، از آن به همراه نام فروشگاه استفاده کن
+        # این باعث می‌شود که یک بازی Steam که از فروشگاه‌های مختلف (مثل Humble, ITAD) رایگان شده،
+        # به عنوان یک ورودی واحد در نظر گرفته شود اما با توجه به store_name
+        # اگر ITADSource و EpicGamesSource فیلد store را به درستی پر کنند،
+        # این بخش برای Steam App IDهای مشابه از فروشگاه‌های مختلف، کلیدهای متفاوتی تولید می‌کند.
+        # اگر هدف این است که یک بازی (با Steam App ID مشخص) فقط یک بار ثبت شود
+        # بدون توجه به اینکه از کدام فروشگاه رایگان شده، می‌توان store_name را از اینجا حذف کرد.
+        # اما درخواست کاربر این است که "پیشنهادهای رایگان از فروشگاه‌های مختلف برای یک بازی،
+        # به عنوان ورودی‌های جداگانه در نظر گرفته شوند." پس store_name باید بماند.
         return f"steam_{game['steam_app_id']}_{store_name}"
     
     # اگر Steam App ID نبود، از عنوان تمیز شده به همراه نام فروشگاه استفاده می‌کنیم
@@ -47,6 +154,8 @@ def _get_deduplication_key(game: Dict[str, Any]) -> str:
         return f"{cleaned_title}_{store_name}"
     
     # آخرین راه حل: استفاده از URL اصلی (که ممکن است همچنان تکرار داشته باشد)
+    # این fallback برای مواردی است که نه عنوان و نه Steam App ID کمک نمی‌کنند.
+    # به عنوان مثال، بازی‌های بسیار مبهم یا لینک‌های مستقیم دانلود.
     return game.get('url', f"unknown_{os.urandom(8).hex()}") # Fallback ایمن
 
 def _merge_game_data(existing_game: Dict[str, Any], new_game: Dict[str, Any]) -> Dict[str, Any]:
@@ -116,7 +225,7 @@ async def enrich_and_translate_game(game: Dict[str, Any], steam_enricher: SteamE
     # تعیین پلتفرم بر اساس فروشگاه
     # 'epic games' به عنوان دسکتاپ در نظر گرفته می‌شود.
     # 'epic games (android)', 'epic games (ios)' به عنوان موبایل در نظر گرفته می‌شوند.
-    is_desktop_store = store in ['steam', 'epic games', 'gog', 'itch.io', 'indiegala', 'stove', 'other', 'reddit'] # 'reddit' هم می‌تواند دسکتاپ باشد
+    is_desktop_store = store in ['steam', 'epicgames', 'gog', 'itch.io', 'indiegala', 'stove', 'other', 'reddit', 'microsoftstore', 'humblestore', 'fanatical', 'greenmangaming', 'amazon', 'blizzard', 'eastore', 'ubisoftstore'] # 'reddit' هم می‌تواند دسکتاپ باشد
     is_console_store = store in ['xbox', 'playstation', 'nintendo']
     is_mobile_store = store in ['google play', 'ios app store', 'epic games (android)', 'epic games (ios)']
 
@@ -263,7 +372,7 @@ async def main():
     else:
         logging.info(f"📤 {len(games_to_post_to_telegram)} بازی برای ارسال به تلگرام آماده است.")
         for game in games_to_post_to_telegram:
-            store_name = game.get('store', '').replace(' ', '').lower()
+            store_name = _infer_store_from_game_data(game) # استفاده از تابع جدید برای تعیین نام فروشگاه در اینجا
             targets = db.get_targets_for_store(store_name)
             
             if not targets:

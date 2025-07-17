@@ -275,7 +275,7 @@
 
         // نگاشت نام‌های انگلیسی فروشگاه‌ها به نام‌های فارسی برای نمایش
         const storeDisplayMap = {
-            "epic games": "اپیک گیمز (ویندوز)",
+            "epicgames": "اپیک گیمز (ویندوز)", // Changed from "epic games" to "epicgames" for consistency with backend
             "steam": "استیم",
             "google play": "اندروید", // Consolidated
             "epic games (android)": "اندروید", // Consolidated
@@ -288,10 +288,18 @@
             "indiegala": "ایندی‌گالا",
             "stove": "STOVE",
             "other": "سایر فروشگاه‌ها",
-            "not free (discount)": "غیر رایگان (تخفیف)", 
             "reddit": "ردیت (لینک مستقیم)",
+            // "not free (discount)": "غیر رایگان (تخفیف)", // Removed as per user request
             "android": "اندروید", // New entry for the consolidated filter value
-            "ios": "iOS" // New entry for the consolidated filter value
+            "ios": "iOS", // New entry for the consolidated filter value
+            "microsoftstore": "مایکروسافت استور", // New store
+            "humblestore": "هامبل استور", // New store
+            "fanatical": "فناتیکال", // New store
+            "greenmangaming": "گرین من گیمینگ", // New store
+            "amazon": "آمازون", // New store
+            "blizzard": "بلیزارد", // New store
+            "eastore": "EA استور", // New store
+            "ubisoftstore": "یوبی‌سافت استور" // New store
         };
 
         // ترتیب نمایش دلخواه فروشگاه‌ها
@@ -307,9 +315,17 @@
             "Itch.io",
             "ایندی‌گالا",
             "STOVE",
+            "مایکروسافت استور", // Added new store
+            "هامبل استور", // Added new store
+            "فناتیکال", // Added new store
+            "گرین من گیمینگ", // Added new store
+            "آمازون", // Added new store
+            "بلیزارد", // Added new store
+            "EA استور", // Added new store
+            "یوبی‌سافت استور", // Added new store
             "سایر فروشگاه‌ها",
-            "ردیت (لینک مستقیم)",
-            "غیر رایگان (تخفیف)"
+            "ردیت (لینک مستقیم)"
+            // "غیر رایگان (تخفیف)" // Removed as per user request
         ];
 
         // نگاشت نام‌های انگلیسی ژانرها به نام‌های فارسی
@@ -335,80 +351,6 @@
             "platformer": "پلتفرمر",
             "rhythm": "ریتمیک",
             "educational": "آموزشی",
-            "family": "خانوادگی",
-            "music": "موسیقی",
-            "board game": "بازی رومیزی",
-            "card game": "بازی کارتی",
-            "visual novel": "رمان تصویری",
-            "point & click": "اشاره و کلیک",
-            "turn-based": "نوبتی",
-            "real-time strategy": "استراتژی هم‌زمان",
-            "tower defense": "دفاع از برج",
-            "role-playing": "نقش‌آفرینی",
-            "open world": "جهان باز",
-            "sandbox": "سندباکس",
-            "stealth": "مخفی‌کاری",
-            "puzzle-platformer": "پلتفرمر پازلی",
-            "metroidvania": "مترویدوانیا",
-            "roguelike": "روگ‌لایک",
-            "rogue-lite": "روگ‌لایت",
-            "city-builder": "شهرسازی",
-            "grand strategy": "استراتژی بزرگ",
-            "wargame": "بازی جنگی",
-            "historical": "تاریخی",
-            "fantasy": "فانتزی",
-            "sci-fi": "علمی تخیلی",
-            "cyberpunk": "سایبرپانک",
-            "post-apocalyptic": "پساآخرالزمانی",
-            "superhero": "ابرقهرمانی",
-            "anime": "انیمه",
-            "pixel graphics": "گرافیک پیکسلی",
-            "2d": "دوبعدی",
-            "3d": "سه‌بعدی",
-            "vr": "واقعیت مجازی",
-            "co-op": "همکاری",
-            "multiplayer": "چندنفره",
-            "singleplayer": "تک‌نفره",
-            "online multi-player": "چندنفره آنلاین",
-            "local multi-player": "چندنفره محلی",
-            "online co-op": "همکاری آنلاین",
-            "local co-op": "همکاری محلی",
-            "controller support": "پشتیبانی از کنترلر",
-            "full controller support": "پشتیبانی کامل از کنترلر",
-            "partial controller support": "پشتیبانی جزئی از کنترلر",
-            "steam achievements": "دستاوردها",
-            "steam trading cards": "کارت‌های تجاری استیم",
-            "steam cloud": "ذخیره ابری استیم",
-            "steam workshop": "کارگاه استیم",
-            "in-app purchases": "خرید درون برنامه‌ای",
-            "free to play": "رایگان",
-            "rts": "استراتژی هم‌زمان (RTS)",
-            "fps": "شوتر اول شخص (FPS)",
-            "tps": "شوتر سوم شخص (TPS)",
-            "moba": "میدان نبرد آنلاین چندنفره (MOBA)",
-            "mmorpg": "نقش‌آفرینی آنلاین چندنفره گسترده (MMORPG)",
-            "jrpg": "نقش‌آفرینی ژاپنی (JRPG)",
-            "western rpg": "نقش‌آفرینی غربی",
-            "visual novel": "رمان تصویری",
-            "dating sim": "شبیه‌ساز دوستیابی",
-            "farming sim": "شبیه‌ساز کشاورزی",
-            "life sim": "شبیه‌ساز زندگی",
-            "tycoon": "تایگون",
-            "management": "مدیریت",
-            "building": "ساخت و ساز",
-            "crafting": "ساخت و ساز",
-            "survival horror": "وحشت بقا",
-            "psychological horror": "وحشت روان‌شناختی",
-            "action rpg": "نقش‌آفرینی اکشن",
-            "adventure rpg": "ماجراجویی نقش‌آفرینی",
-            "puzzle adventure": "ماجراجویی پازلی",
-            "hidden object": "اشیاء پنهان",
-            "match 3": "جورچین ۳",
-            "rhythm & music": "ریتم و موسیقی",
-            "trivia": "دانستنی‌ها",
-            "party game": "بازی مهمانی",
-            "educational game": "بازی آموزشی",
-            "kids": "کودکان",
             "family": "خانوادگی",
             "music": "موسیقی",
             "board game": "بازی رومیزی",
@@ -656,8 +598,10 @@
                 let getGameButtonClass = 'bg-blue-600 hover:bg-blue-700'; // Default for free games
 
                 if (game.is_free === false) { // If it's a discounted item
-                    const originalStoreDisplay = storeDisplayMap[game.store.toLowerCase()] || game.store;
-                    storeInfoHtml = `<p class="text-gray-400 mb-3">فروشگاه: <span class="font-medium text-red-400">${storeDisplayMap['not free (discount)']}</span> از <span class="font-medium text-purple-300">${originalStoreDisplay}</span></p>`;
+                    // Ensure the store name is normalized for display map lookup
+                    const normalizedStoreForDisplay = game.store ? game.store.toLowerCase().replace(/\s/g, '') : '';
+                    const originalStoreDisplay = storeDisplayMap[normalizedStoreForDisplay] || game.store;
+                    storeInfoHtml = `<p class="text-gray-400 mb-3">فروشگاه: <span class="font-medium text-red-400">تخفیف‌خورده</span> از <span class="font-medium text-purple-300">${originalStoreDisplay}</span></p>`;
                     if (game.discount_text) {
                         storeInfoHtml += `<p class="text-gray-400 mb-3"><span class="font-medium text-orange-400">جزئیات تخفیف:</span> ${game.discount_text}</p>`;
                     }
@@ -671,8 +615,8 @@
                     } else if (displayStoreName === 'ios app store' || displayStoreName === 'epic games (ios)') {
                         displayStoreName = 'ios';
                     }
-                    displayStoreName = storeDisplayMap[displayStoreName] || game.store; // Get Persian name
-
+                    // Normalize for map lookup (remove spaces)
+                    displayStoreName = storeDisplayMap[displayStoreName.replace(/\s/g, '')] || game.store; // Get Persian name
                     storeInfoHtml = `<p class="text-gray-400 mb-3">فروشگاه: <span class="font-medium text-purple-300">${displayStoreName}</span></p>`;
                 }
                 
@@ -686,8 +630,8 @@
 
                 // Use translated genres
                 const displayGenres = (game.persian_genres && game.persian_genres.length > 0) 
-                                      ? game.persian_genres.map(g => genreDisplayMap[g.toLowerCase()] || g).join(', ')
-                                      : (game.genres && game.genres.length > 0 ? game.genres.map(g => genreDisplayMap[g.toLowerCase()] || g).join(', ') : '');
+                                            ? game.persian_genres.map(g => genreDisplayMap[g.toLowerCase()] || g).join(', ')
+                                            : (game.genres && game.genres.length > 0 ? game.genres.map(g => genreDisplayMap[g.toLowerCase()] || g).join(', ') : '');
                 const genresHtml = displayGenres ? `<p class="text-sm text-gray-300"><i class="fas fa-tags text-pink-400"></i> <span class="font-semibold">ژانرها:</span> ${displayGenres}</p>` : '';
                 
                 const trailerLink = game.trailer ? `<a href="${game.trailer}" target="_blank" class="text-blue-400 hover:underline text-sm mt-2 block"><i class="fas fa-film"></i> مشاهده تریلر</a>` : '';
@@ -705,8 +649,8 @@
 
                 // Use translated age rating
                 const displayAgeRating = (game.persian_age_rating && ageRatingDisplayMap[game.persian_age_rating.toLowerCase()]) 
-                                         ? ageRatingDisplayMap[game.persian_age_rating.toLowerCase()] 
-                                         : (game.age_rating && ageRatingDisplayMap[game.age_rating.toLowerCase()] ? ageRatingDisplayMap[game.age_rating.toLowerCase()] : game.age_rating || '');
+                                             ? ageRatingDisplayMap[game.persian_age_rating.toLowerCase()] 
+                                             : (game.age_rating && ageRatingDisplayMap[game.age_rating.toLowerCase()] ? ageRatingDisplayMap[game.age_rating.toLowerCase()] : game.age_rating || '');
                 const ageRatingHtml = displayAgeRating ? `<p class="text-sm text-gray-300"><i class="fas fa-child text-orange-400"></i> <span class="font-semibold">رده‌بندی سنی:</span> ${displayAgeRating}</p>` : '';
 
 
@@ -737,7 +681,7 @@
 
         // Function to apply filter
         function applyFilter() {
-            const selectedStoreFilterValue = storeFilter.value; // e.g., "android", "ios", "steam", "notfree(discount)", "all"
+            const selectedStoreFilterValue = storeFilter.value; // e.g., "android", "ios", "steam", "all"
             const displayMode = displayModeFilter.value; // "all-games", "free-only", "discounted-only"
 
             const filteredGames = allGames.filter(game => {
@@ -752,20 +696,15 @@
                 // Step 2: Filter by store
                 let passesStoreFilter = true;
                 if (selectedStoreFilterValue !== 'all') {
-                    const gameStoreRaw = game.store ? game.store.toLowerCase() : ''; // Get raw store name
+                    const gameStoreRaw = game.store ? game.store.toLowerCase().replace(/\s/g, '') : ''; // Get raw store name, remove spaces
 
                     if (selectedStoreFilterValue === 'android') {
-                        passesStoreFilter = (gameStoreRaw === 'google play' || gameStoreRaw === 'epic games (android)');
+                        passesStoreFilter = (gameStoreRaw === 'googleplay' || gameStoreRaw === 'epicgames(android)');
                     } else if (selectedStoreFilterValue === 'ios') {
-                        passesStoreFilter = (gameStoreRaw === 'ios app store' || gameStoreRaw === 'epic games (ios)');
-                    } else if (selectedStoreFilterValue === 'notfree(discount)') {
-                        // If 'notfree(discount)' is selected in store filter,
-                        // we only care that the game is indeed discounted.
-                        // The primary filtering by 'discounted-only' display mode is already handled.
-                        passesStoreFilter = (game.is_free === false);
+                        passesStoreFilter = (gameStoreRaw === 'iosappstore' || gameStoreRaw === 'epicgames(ios)');
                     } else {
-                        // For other specific stores (steam, epic games, xbox, etc.)
-                        passesStoreFilter = gameStoreRaw.replace(/\s/g, '') === selectedStoreFilterValue;
+                        // For other specific stores (steam, epicgames, xbox, etc.)
+                        passesStoreFilter = gameStoreRaw === selectedStoreFilterValue;
                     }
                 }
                 
@@ -859,18 +798,15 @@
                     }
 
                     // اضافه کردن به لیست گزینه‌ها فقط در صورتی که نام نمایشی تکراری نباشد
-                    if (!addedDisplayNames.has(displayText)) {
+                    // از filterValue به عنوان کلید برای addedDisplayNames استفاده می‌کنیم
+                    // تا از تکرار فیلترهای "اندروید" و "iOS" جلوگیری شود.
+                    if (!addedDisplayNames.has(filterValue)) { 
                         filterOptionsData.push({ value: filterValue, text: displayText });
-                        addedDisplayNames.add(displayText);
+                        addedDisplayNames.add(filterValue);
                     }
                 });
 
-                // اضافه کردن "غیر رایگان (تخفیف)" به لیست گزینه‌ها اگر هنوز اضافه نشده باشد
-                const discountedDisplayName = storeDisplayMap['not free (discount)'];
-                if (!addedDisplayNames.has(discountedDisplayName)) {
-                    filterOptionsData.push({ value: 'notfree(discount)', text: discountedDisplayName });
-                    addedDisplayNames.add(discountedDisplayName);
-                }
+                // "غیر رایگان (تخفیف)" دیگر به عنوان یک گزینه فروشگاه اضافه نمی‌شود.
 
                 // مرتب‌سازی filterOptionsData بر اساس storeDisplayOrder
                 filterOptionsData.sort((a, b) => {

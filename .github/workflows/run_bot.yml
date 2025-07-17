@@ -2,7 +2,7 @@ name: Free Games Bot Workflow
 
 on:
   schedule:
-    # هر روز در ساعت 05:00 UTC اجرا می‌شود (مثلاً 08:30 صبح به وقت تهران در تابستان)
+    # این ورک‌فلو هر روز در ساعت 05:00 UTC اجرا می‌شود (مثلاً 08:30 صبح به وقت تهران در تابستان)
     - cron: '0 5 * * *'
   workflow_dispatch:
     # اجازه می‌دهد تا به صورت دستی از رابط کاربری GitHub Actions اجرا شود
@@ -32,8 +32,11 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
-      
+          pip install -r requirements.txt # نصب کتابخانه‌های موجود در requirements.txt
+          
+      - name: Install Playwright browsers # مرحله جدید: نصب مرورگرهای Playwright
+        run: playwright install --with-deps chromium # نصب Chromium و وابستگی‌های آن
+
       - name: Ensure data directories exist
         run: |
           mkdir -p data # اطمینان از وجود دایرکتوری data
@@ -51,7 +54,7 @@ jobs:
           git config user.email "actions@github.com"
           # اضافه کردن فایل‌ها به منطقه staging گیت
           # --force برای اطمینان از اضافه شدن حتی اگر محتوا تغییر نکرده باشد
-          git add --force data/games.db web_data/free_games.json 
+          git add --force data/games.db web_data/free_games.json
           
           # بررسی اینکه آیا چیزی برای کامیت وجود دارد یا خیر (حتی اگر --force استفاده شده باشد)
           # این شرط برای جلوگیری از ایجاد کامیت‌های خالی است
