@@ -210,16 +210,24 @@
                 <!-- Options will be populated by JavaScript -->
             </select>
 
-            <!-- Display Mode Filter -->
-            <label for="display-mode-filter" class="text-lg font-medium text-gray-300 whitespace-nowrap">
-                حالت نمایش:
+            <!-- Content Type Filter -->
+            <label for="content-type-filter" class="text-lg font-medium text-gray-300 whitespace-nowrap">
+                نوع محتوا:
             </label>
-            <select id="display-mode-filter" class="bg-gray-700 border border-gray-600 text-white rounded-lg px-4 py-2 focus:ring-blue-500 focus:border-blue-500 w-full sm:w-auto">
-                <option value="all-games">همه بازی‌ها</option>
-                <option value="free-only">فقط بازی‌های رایگان</option>
-                <option value="discounted-only">فقط بازی‌های تخفیف‌خورده</option>
-                <option value="full-games-only">فقط بازی‌های کامل</option>
-                <option value="dlc-only">فقط DLC و محتوای اضافی</option> <!-- New option for DLCs -->
+            <select id="content-type-filter" class="bg-gray-700 border border-gray-600 text-white rounded-lg px-4 py-2 focus:ring-blue-500 focus:border-blue-500 w-full sm:w-auto">
+                <option value="all-content">همه (بازی و افزونه)</option>
+                <option value="games-only">فقط بازی</option>
+                <option value="dlc-only">فقط DLC و افزونه</option>
+            </select>
+
+            <!-- Price Type Filter -->
+            <label for="price-type-filter" class="text-lg font-medium text-gray-300 whitespace-nowrap">
+                نوع قیمت:
+            </label>
+            <select id="price-type-filter" class="bg-gray-700 border border-gray-600 text-white rounded-lg px-4 py-2 focus:ring-blue-500 focus:border-blue-500 w-full sm:w-auto">
+                <option value="all-prices">همه (رایگان و تخفیف)</option>
+                <option value="free-only">فقط رایگان</option>
+                <option value="discounted-only">فقط تخفیف‌خورده</option>
             </select>
 
             <!-- Column Selector -->
@@ -269,20 +277,23 @@
         const errorMessage = document.getElementById('error-message');
         const noGamesMessage = document.getElementById('no-games-message');
         const storeFilter = document.getElementById('store-filter');
-        const columnSelector = document.getElementById('column-selector'); // New: Column selector
+        const columnSelector = document.getElementById('column-selector'); // Column selector
         const themeToggle = document.getElementById('theme-toggle');
         const scrollToTopBtn = document.getElementById('scroll-to-top');
         const scrollToBottomBtn = document.getElementById('scroll-to-bottom');
-        const displayModeFilter = document.getElementById('display-mode-filter'); // New: Display Mode Filter
+        
+        // New filter elements
+        const contentTypeFilter = document.getElementById('content-type-filter'); 
+        const priceTypeFilter = document.getElementById('price-type-filter'); 
 
         // نگاشت نام‌های انگلیسی فروشگاه‌ها به نام‌های فارسی برای نمایش
         const storeDisplayMap = {
             "epicgames": "اپیک گیمز (ویندوز)",
             "steam": "استیم",
-            "googleplay": "اندروید", // Corrected key for consistency
-            "epicgames(android)": "اندروید", // Corrected key for consistency
-            "epicgames(ios)": "iOS", // Corrected key for consistency
-            "iosappstore": "iOS", // Corrected key for consistency
+            "googleplay": "اندروید",
+            "epicgames(android)": "اندروید",
+            "epicgames(ios)": "iOS",
+            "iosappstore": "iOS",
             "playstation": "پلی‌استیشن",
             "xbox": "ایکس‌باکس",
             "gog": "GOG",
@@ -291,8 +302,8 @@
             "stove": "STOVE",
             "other": "سایر فروشگاه‌ها",
             "reddit": "ردیت (لینک مستقیم)",
-            "android": "اندروید", // Consolidated filter value
-            "ios": "iOS", // Consolidated filter value
+            "android": "اندروید",
+            "ios": "iOS",
             "microsoftstore": "مایکروسافت استور",
             "humblestore": "هامبل استور",
             "fanatical": "فناتیکال",
@@ -596,11 +607,26 @@
                 let getGameButtonText = 'دریافت بازی';
                 let getGameButtonClass = 'bg-blue-600 hover:bg-blue-700'; // Default for free games
 
+                // Determine store display name
+                let displayStoreName = game.store ? game.store.toLowerCase() : '';
+                if (displayStoreName === 'google play' || displayStoreName === 'epic games (android)') {
+                    displayStoreName = 'android';
+                } else if (displayStoreName === 'ios app store' || displayStoreName === 'epic games (ios)') {
+                    displayStoreName = 'ios';
+                }
+                // Normalize for map lookup (remove spaces)
+                displayStoreName = storeDisplayMap[displayStoreName.replace(/\s/g, '')] || game.store; // Get Persian name
+
+                let dlcOrAddonTag = '';
+                if (game.is_dlc_or_addon) {
+                    dlcOrAddonTag = `<span class="bg-purple-600 text-white text-xs font-semibold px-2.5 py-0.5 rounded-full mr-2">DLC/افزونه</span>`;
+                }
+
                 if (game.is_free === false) { // If it's a discounted item
                     // Ensure the store name is normalized for display map lookup
                     const normalizedStoreForDisplay = game.store ? game.store.toLowerCase().replace(/\s/g, '') : '';
                     const originalStoreDisplay = storeDisplayMap[normalizedStoreForDisplay] || game.store;
-                    storeInfoHtml = `<p class="text-gray-400 mb-3">فروشگاه: <span class="font-medium text-red-400">تخفیف‌خورده</span> از <span class="font-medium text-purple-300">${originalStoreDisplay}</span></p>`;
+                    storeInfoHtml = `<p class="text-gray-400 mb-3">فروشگاه: ${dlcOrAddonTag}<span class="font-medium text-red-400">تخفیف‌خورده</span> از <span class="font-medium text-purple-300">${originalStoreDisplay}</span></p>`;
                     if (game.discount_text) {
                         storeInfoHtml += `<p class="text-gray-400 mb-3"><span class="font-medium text-orange-400">جزئیات تخفیف:</span> ${game.discount_text}</p>`;
                     }
@@ -616,7 +642,7 @@
                     }
                     // Normalize for map lookup (remove spaces)
                     displayStoreName = storeDisplayMap[displayStoreName.replace(/\s/g, '')] || game.store; // Get Persian name
-                    storeInfoHtml = `<p class="text-gray-400 mb-3">فروشگاه: <span class="font-medium text-purple-300">${displayStoreName}</span></p>`;
+                    storeInfoHtml = `<p class="text-gray-400 mb-3">فروشگاه: ${dlcOrAddonTag}<span class="font-medium text-purple-300">${displayStoreName}</span></p>`;
                 }
                 
                 // Format scores and genres
@@ -680,43 +706,46 @@
 
         // Function to apply filter
         function applyFilter() {
-            const selectedStoreFilterValue = storeFilter.value; // e.g., "android", "ios", "steam", "all"
-            const displayMode = displayModeFilter.value; // "all-games", "free-only", "discounted-only", "full-games-only", "dlc-only"
+            const selectedStoreFilterValue = storeFilter.value;
+            const selectedContentTypeFilterValue = contentTypeFilter.value; // New: Get content type filter value
+            const selectedPriceTypeFilterValue = priceTypeFilter.value;     // New: Get price type filter value
 
             const filteredGames = allGames.filter(game => {
-                // Step 1: Filter by display mode
-                let passesDisplayModeFilter = true;
-                if (displayMode === 'free-only') {
-                    // Show only truly free AND NOT DLC
-                    passesDisplayModeFilter = game.is_free !== false && !game.is_dlc_or_addon;
-                } else if (displayMode === 'discounted-only') {
-                    // Show all discounted items (can be full games or DLCs)
-                    passesDisplayModeFilter = game.is_free === false;
-                } else if (displayMode === 'full-games-only') {
-                    // Show only full games (free or discounted), exclude DLCs
-                    passesDisplayModeFilter = !game.is_dlc_or_addon;
-                } else if (displayMode === 'dlc-only') {
-                    // Show only DLCs/Addons (free or discounted)
-                    passesDisplayModeFilter = game.is_dlc_or_addon;
+                // Step 1: Filter by Content Type
+                let passesContentTypeFilter = false;
+                if (selectedContentTypeFilterValue === 'all-content') {
+                    passesContentTypeFilter = true; // Show all (games and DLCs)
+                } else if (selectedContentTypeFilterValue === 'games-only') {
+                    passesContentTypeFilter = !game.is_dlc_or_addon; // Show only full games
+                } else if (selectedContentTypeFilterValue === 'dlc-only') {
+                    passesContentTypeFilter = game.is_dlc_or_addon; // Show only DLCs/Addons
                 }
-                // 'all-games' passesDisplayModeFilter remains true (shows everything)
 
-                // Step 2: Filter by store
+                // Step 2: Filter by Price Type
+                let passesPriceTypeFilter = false;
+                if (selectedPriceTypeFilterValue === 'all-prices') {
+                    passesPriceTypeFilter = true; // Show all (free and discounted)
+                } else if (selectedPriceTypeFilterValue === 'free-only') {
+                    passesPriceTypeFilter = game.is_free; // Show only free items
+                } else if (selectedPriceTypeFilterValue === 'discounted-only') {
+                    passesPriceTypeFilter = !game.is_free; // Show only discounted items
+                }
+
+                // Step 3: Filter by Store
                 let passesStoreFilter = true;
                 if (selectedStoreFilterValue !== 'all') {
-                    const gameStoreRaw = game.store ? game.store.toLowerCase().replace(/\s/g, '') : ''; // Get raw store name, remove spaces
+                    const gameStoreRaw = game.store ? game.store.toLowerCase().replace(/\s/g, '') : '';
 
                     if (selectedStoreFilterValue === 'android') {
                         passesStoreFilter = (gameStoreRaw === 'googleplay' || gameStoreRaw === 'epicgames(android)');
                     } else if (selectedStoreFilterValue === 'ios') {
                         passesStoreFilter = (gameStoreRaw === 'iosappstore' || gameStoreRaw === 'epicgames(ios)');
                     } else {
-                        // For other specific stores (steam, epicgames, xbox, etc.)
                         passesStoreFilter = gameStoreRaw === selectedStoreFilterValue;
                     }
                 }
                 
-                return passesDisplayModeFilter && passesStoreFilter;
+                return passesContentTypeFilter && passesPriceTypeFilter && passesStoreFilter;
             });
             renderGames(filteredGames);
         }
@@ -782,63 +811,51 @@
                 }
 
                 // Populate store filter options with custom order and Persian names
-                // جمع‌آوری تمام فروشگاه‌های موجود (رایگان و تخفیف‌دار)
                 const rawUniqueStores = [...new Set(allGames.map(game => game.store))].filter(Boolean); 
-                
-                // ایجاد یک آرایه از اشیاء { value, text } برای گزینه‌های فیلتر
                 const filterOptionsData = [];
-                const addedDisplayNames = new Set(); // برای جلوگیری از تکرار نام‌های نمایشی
+                const addedDisplayNames = new Set(); 
 
                 rawUniqueStores.forEach(store => {
                     const normalizedStore = store.toLowerCase();
-                    let filterValue = normalizedStore.replace(/\s/g, ''); // مقدار واقعی برای فیلتر
+                    let filterValue = normalizedStore.replace(/\s/g, '');
                     let displayText;
 
-                    // منطق ادغام برای اندروید
                     if (normalizedStore === 'google play' || normalizedStore === 'epic games (android)') {
                         filterValue = 'android';
                         displayText = 'اندروید';
                     } 
-                    // منطق ادغام برای iOS
                     else if (normalizedStore === 'ios app store' || normalizedStore === 'epic games (ios)') {
                         filterValue = 'ios';
                         displayText = 'iOS';
                     } else {
-                        // برای سایر فروشگاه‌ها، از storeDisplayMap استفاده کن
                         displayText = storeDisplayMap[filterValue] || store;
                     }
 
-                    // اضافه کردن به لیست گزینه‌ها فقط در صورتی که نام نمایشی تکراری نباشد
                     if (!addedDisplayNames.has(displayText)) { 
                         filterOptionsData.push({ value: filterValue, text: displayText });
                         addedDisplayNames.add(displayText);
                     }
                 });
 
-                // مرتب‌سازی filterOptionsData بر اساس storeDisplayOrder
                 filterOptionsData.sort((a, b) => {
                     const indexA = storeDisplayOrder.indexOf(a.text);
                     const indexB = storeDisplayOrder.indexOf(b.text);
                     
-                    // اگر هر دو فروشگاه در ترتیب از پیش تعریف شده نباشند، بر اساس حروف الفبا مرتب کن
                     if (indexA === -1 && indexB === -1) {
                         return a.text.localeCompare(b.text, 'fa', { sensitivity: 'base' });
                     }
-                    // فروشگاه‌های ناشناخته را در انتها قرار بده
                     if (indexA === -1) return 1; 
                     if (indexB === -1) return -1;
                     
                     return indexA - indexB;
                 });
 
-                // پاک کردن گزینه‌های موجود و اضافه کردن "همه فروشگاه‌ها" در ابتدا
                 storeFilter.innerHTML = '';
                 const newAllOption = document.createElement('option');
                 newAllOption.value = 'all';
                 newAllOption.textContent = 'همه فروشگاه‌ها';
                 storeFilter.appendChild(newAllOption);
 
-                // اضافه کردن گزینه‌های مرتب شده
                 filterOptionsData.forEach(storeObj => {
                     const option = document.createElement('option');
                     option.value = storeObj.value;
@@ -846,30 +863,16 @@
                     storeFilter.appendChild(option);
                 });
 
-                // Set default display mode to 'free-only'
-                displayModeFilter.value = 'free-only';
+                // Set default display modes
+                contentTypeFilter.value = 'all-content'; // Default to show all content types
+                priceTypeFilter.value = 'all-prices';     // Default to show all price types
+                applyFilter(); // Initial filter application
 
-                // Determine initial columns based on device width or saved preference
-                const savedColumns = localStorage.getItem('selectedColumns');
-                let initialColumns;
-                const isMobile = window.innerWidth < 768; // Tailwind's 'sm' breakpoint
-
-                if (isMobile) {
-                    initialColumns = 1; // Default to 1 column for mobile
-                } else {
-                    initialColumns = savedColumns ? parseInt(savedColumns) : 3; // Default to 3 for desktop
-                }
+                // Event listeners for new filters
+                contentTypeFilter.addEventListener('change', applyFilter);
+                priceTypeFilter.addEventListener('change', applyFilter);
+                storeFilter.addEventListener('change', applyFilter); // Existing listener
                 
-                columnSelector.value = initialColumns;
-                applyColumnLayout(initialColumns); // Apply initial layout
-
-                // Event listener for store filter change
-                storeFilter.addEventListener('change', applyFilter);
-
-                // New: Event listener for display mode filter change
-                displayModeFilter.addEventListener('change', applyFilter);
-
-                // Event listener for column selector change
                 columnSelector.addEventListener('change', (event) => {
                     applyColumnLayout(parseInt(event.target.value));
                 });
@@ -877,7 +880,7 @@
             } catch (error) {
                 console.error('Error fetching games:', error);
                 loadingMessage.classList.add('hidden');
-                errorMessage.classList.remove('hidden'); // Show error message
+                errorMessage.classList.remove('hidden');
             }
         });
     </script>

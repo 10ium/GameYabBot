@@ -6,6 +6,7 @@ from datetime import datetime, timezone
 import random # برای تأخیر تصادفی
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__) # تعریف لاگر برای این ماژول
 
 class EpicGamesSource:
     GRAPHQL_API_URL = "https://store-content-ipv4.ak.epicgames.com/api/graphql"
@@ -53,11 +54,11 @@ class EpicGamesSource:
                 "is_free": True # بازی‌های اپیک گیمز از این API همیشه رایگان هستند
             }
         except (KeyError, IndexError, TypeError) as e:
-            logging.error(f"خطا در نرمال‌سازی داده‌های اپیک گیمز: {e}")
+            logger.error(f"❌ خطا در نرمال‌سازی داده‌های اپیک گیمز برای بازی با ID: {game.get('id', 'نامشخص')}: {e}", exc_info=True)
             return None
 
     async def fetch_free_games(self) -> List[Dict[str, str]]:
-        logging.info("شروع فرآیند دریافت بازی‌های رایگان از Epic Games (GraphQL)...")
+        logger.info("🚀 شروع فرآیند دریافت بازی‌های رایگان از Epic Games (GraphQL)...")
         free_games_list = []
         query = """
             query searchStoreQuery($country: String!, $locale: String, $category: String) {
@@ -94,35 +95,80 @@ class EpicGamesSource:
         variables = {"country": "US", "locale": "en-US", "category": "freegames"}
         payload = {"query": query, "variables": variables}
         
-        try:
-            async with aiohttp.ClientSession(headers=self.HEADERS) as session: # استفاده از هدرها
-                await asyncio.sleep(random.uniform(2, 5)) # تأخیر تصادفی برای کاهش بلاک شدن
-                async with session.post(self.GRAPHQL_API_URL, json=payload) as response:
-                    response.raise_for_status()
-                    data = await response.json()
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                async with aiohttp.ClientSession(headers=self.HEADERS) as session:
+                    # تأخیر تصادفی بین 3 تا 8 ثانیه برای کاهش بلاک شدن
+                    await asyncio.sleep(random.uniform(3, 8)) 
+                    logger.debug(f"تلاش {attempt + 1}/{max_retries} برای دریافت داده از Epic Games API...")
+                    async with session.post(self.GRAPHQL_API_URL, json=payload) as response:
+                        response.raise_for_status() # اگر وضعیت 200 نباشد، خطا پرتاب می‌کند
+                        data = await response.json()
+                        break # اگر موفق بود، از حلقه retry خارج شو
+            except aiohttp.ClientResponseError as e:
+                logger.error(f"❌ خطای HTTP هنگام دریافت از Epic Games API (تلاش {attempt + 1}/{max_retries}): Status {e.status}, Message: '{e.message}', URL: '{e.request_info.url}'", exc_info=True)
+                if attempt < max_retries - 1 and e.status in [403, 429, 500, 502, 503, 504]: # Retry on specific error codes
+                    retry_delay = 2 ** attempt + random.uniform(0, 2) # Exponential backoff + jitter
+                    logger.info(f"در حال تلاش مجدد در {retry_delay:.2f} ثانیه...")
+                    await asyncio.sleep(retry_delay)
+                else:
+                    logger.critical(f"🔥 تمام تلاش‌ها برای دریافت از Epic Games API با شکست مواجه شد.")
+                    return [] # اگر تمام تلاش‌ها با شکست مواجه شد، لیست خالی برگردان
+            except asyncio.TimeoutError:
+                logger.error(f"❌ خطای Timeout هنگام دریافت از Epic Games API (تلاش {attempt + 1}/{max_retries}).")
+                if attempt < max_retries - 1:
+                    retry_delay = 2 ** attempt + random.uniform(0, 2)
+                    logger.info(f"در حال تلاش مجدد در {retry_delay:.2f} ثانیه...")
+                    await asyncio.sleep(retry_delay)
+                else:
+                    logger.critical(f"🔥 تمام تلاش‌ها برای دریافت از Epic Games API به دلیل Timeout با شکست مواجه شد.")
+                    return []
+            except Exception as e:
+                logger.critical(f"🔥 یک خطای پیش‌بینی نشده در ماژول Epic Games (GraphQL) رخ داد: {e}", exc_info=True)
+                return [] # در صورت خطای غیرمنتظره، بلافاصله خاتمه بده
+        else: # اگر حلقه for بدون break کامل شد (یعنی تمام تلاش‌ها با شکست مواجه شد)
+            logger.critical(f"🔥 تمام {max_retries} تلاش برای دریافت از Epic Games API با شکست مواجه شد.")
+            return []
 
-            games = data.get('data', {}).get('Catalog', {}).get('searchStore', {}).get('elements', [])
-            now = datetime.now(timezone.utc)
+        games = data.get('data', {}).get('Catalog', {}).get('searchStore', {}).get('elements', [])
+        now = datetime.now(timezone.utc)
 
-            for game in games:
-                promotions = game.get('promotions')
-                if not promotions or not promotions.get('promotionalOffers'):
-                    continue
-                
-                offers = promotions['promotionalOffers'][0].get('promotionalOffers', [])
-                for offer in offers:
+        for game in games:
+            promotions = game.get('promotions')
+            if not promotions or not promotions.get('promotionalOffers'):
+                logger.debug(f"بازی '{game.get('title', 'نامشخص')}' پیشنهاد تبلیغاتی فعال ندارد. نادیده گرفته شد.")
+                continue
+            
+            offers = promotions['promotionalOffers'][0].get('promotionalOffers', [])
+            is_active_free_offer = False
+            for offer in offers:
+                try:
                     start_date = datetime.fromisoformat(offer['startDate'].replace('Z', '+00:00'))
                     end_date = datetime.fromisoformat(offer['endDate'].replace('Z', '+00:00'))
                     if start_date <= now <= end_date:
-                        normalized_game = self._normalize_game_data(game)
-                        # اطمینان از اینکه بازی تکراری نیست (بر اساس id_in_db)
-                        if normalized_game and not any(g.get('id_in_db') == normalized_game['id_in_db'] for g in free_games_list):
-                            free_games_list.append(normalized_game)
-                            logging.info(f"بازی رایگان از Epic Games یافت شد: {normalized_game['title']}")
-                            break # اگر یک پیشنهاد فعال پیدا شد، از حلقه خارج شو
-        except aiohttp.ClientResponseError as e: # خطا را دقیق‌تر مدیریت می‌کنیم
-            logging.error(f"خطا در ماژول Epic Games (GraphQL): {e.status}, message='{e.message}', url='{e.request_info.url}'", exc_info=True)
-        except Exception as e:
-            logging.error(f"خطای پیش‌بینی نشده در ماژول Epic Games (GraphQL): {e}", exc_info=True)
-        return free_games_list
+                        is_active_free_offer = True
+                        break # اگر یک پیشنهاد فعال پیدا شد، از حلقه خارج شو
+                except ValueError as ve:
+                    logger.warning(f"⚠️ خطای تجزیه تاریخ برای بازی '{game.get('title', 'نامشخص')}': {ve}")
+                    continue
 
+            if is_active_free_offer:
+                normalized_game = self._normalize_game_data(game)
+                if normalized_game:
+                    # اطمینان از اینکه بازی تکراری نیست (بر اساس id_in_db)
+                    # Deduplication نهایی در main.py انجام می‌شود، اینجا فقط از تکرار اولیه جلوگیری می‌کنیم
+                    if normalized_game['id_in_db'] not in [g['id_in_db'] for g in free_games_list]:
+                        free_games_list.append(normalized_game)
+                        logger.info(f"✅ بازی رایگان از Epic Games یافت شد: {normalized_game['title']}")
+                    else:
+                        logger.debug(f"ℹ️ بازی '{normalized_game['title']}' از Epic Games قبلاً در لیست موقت اضافه شده بود.")
+                else:
+                    logger.warning(f"⚠️ نرمال‌سازی داده برای بازی Epic Games '{game.get('title', 'نامشخص')}' با شکست مواجه شد.")
+            else:
+                logger.debug(f"بازی '{game.get('title', 'نامشخص')}' در حال حاضر رایگان نیست یا پیشنهاد فعال ندارد.")
+
+        if not free_games_list:
+            logger.info("ℹ️ در حال حاضر بازی رایگان فعالی از Epic Games یافت نشد.")
+            
+        return free_games_list
