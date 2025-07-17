@@ -1,5 +1,83 @@
 [
     {
+        "title": "TactiCon | Kaiserpunk ($19.49/ -35% off)",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/2012190/KAISERPUNK/",
+        "image_url": null,
+        "description": "Hi everyone!Kaiserpunk is a blend of city-building and strategic warfare on a global scale, developed by Overseer Games, based in Zagreb. I work at Elda, based in Sweden, and we are co-publishing the game together with them.This curated event specifically highlights unique strategy games, covering everything from strategic management games to tactical roguelikes, a reflection of the genre’s variety, and Kaiserpunk is happy to take its place among them with a 35% discount until June 21st.For more information:https://www.overseer-games.com/https://store.steampowered.com/app/2012190/KAISERPUNK/Gameplay trailer :https://youtu.be/ZoeVwfDlTfI",
+        "id_in_db": "t3_1m2d6sm",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "35% off",
+        "persian_summary": "سلام به همه! Kaiserpunk ترکیبی از جنگ شهر و استراتژیک در مقیاس جهانی است که توسط بازی های ناظر ، مستقر در زاگرب ساخته شده است. من در الدا ، مستقر در سوئد کار می کنم ، و ما بازی را به همراه آنها منتشر می کنیم. این رویداد به طور خاص بازی های استراتژی منحصر به فرد را برجسته می کند ، همه چیز را از بازی های مدیریت استراتژیک گرفته تا روگوئیلک های تاکتیکی پوشش می دهد ، بازتابی از تنوع ژانر ، و Kaiserpunk خوشحال است که تا 35 ٪ تخفیف تا 35 ٪ تخفیف ، جای خود را در میان آنها به دست آورد. اطلاعات: https: //www.overseer-games.com/https: //store.steampowered.com/app/2012190/kaiserpunk/gameplay تریلر: https: //youtu.be/zoevwfdltfi"
+    },
+    {
+        "title": "Multiplayer Sale: Remnant II - Ultimate Edition, Overcooked! All You Can Eat, Cat Quest III, Golf With Your Friends, Worms W.M.D, PlateUp!, Asterix & Obelix: Slap them All!, Torchlight III & more",
+        "store": "indiegala",
+        "url": "https://www.indiegala.com/store/franchise-sale/multiplayer",
+        "image_url": "https://external-preview.redd.it/kiwWz9KR5ZYd4XwHfPR3cXcHeWMI0v_wJP1BQyXKFzA.jpeg?width=640&crop=smart&auto=webp&s=226aa281d4b80e867595ea758be767d4b8c6127d",
+        "description": "",
+        "id_in_db": "t3_1m2c7ly",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "60% off"
+    },
+    {
+        "title": "Final Factory ($9.49/50% off)",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1383150/Final_Factory/",
+        "image_url": "https://external-preview.redd.it/nb0Y06RO4Z_rc6lzQpvTAD-sz2ImUlbfoU_sKPgfhJs.jpeg?width=320&crop=smart&auto=webp&s=93528c9c18ff5b08744ca45ae49363182a548fe0",
+        "description": "",
+        "id_in_db": "t3_1m2at7x",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "50% off"
+    },
+    {
+        "title": "He is Coming ($9.74 / 35% off)",
+        "store": "other",
+        "url": "https://us.gamesplanet.com/game/he-is-coming-steam-key--7686-1",
+        "image_url": null,
+        "description": "",
+        "id_in_db": "t3_1m2a3ip",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "35% off"
+    },
+    {
+        "title": "Sid Meier’s Civilization® VI Platinum Edition (100% off / FREE)",
+        "store": "epic games",
+        "url": "https://store.epicgames.com/en-US/p/sid-meiers-civilization-vi--platinum-edition",
+        "image_url": null,
+        "description": "",
+        "id_in_db": "t3_1m29tn5",
+        "subreddit": "GameDeals",
+        "is_free": true,
+        "discount_text": null
+    },
+    {
+        "title": "WUCHANG: Fallen Feathers - Pre Order (€40.89 / $40.75 / -18% off), EU, US. | Steam Activation",
+        "store": "other",
+        "url": "https://www.allyouplay.com/wuchang-fallen-feathers-pre-order-row-jan-2022-c3a0ba6a-f80f-4c34-a775-4a11f9e99d15",
+        "image_url": "https://external-preview.redd.it/1HR153RMNK3PIlgEJefFJeJOuoQU-R1_FeASm8dugFo.jpeg?width=640&crop=smart&auto=webp&s=4538a97127ce88fd0532398ccf157601c4617c7a",
+        "description": "",
+        "id_in_db": "t3_1m26e5r",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "18% off"
+    },
+    {
+        "title": "Sniper Elite V2 Remastered ($17.49/50% Off)",
+        "store": "other",
+        "url": "https://www.zoom-platform.com/product/sniper-elite-v2-remastered",
+        "image_url": "https://external-preview.redd.it/B35VSGtPQu3GzOvp_BHBgTD3mB_qq_9GGqbe2gkVuY0.jpeg?width=108&crop=smart&auto=webp&s=b20f724a803c3cfa4d06c6b35eed38928ce027d3",
+        "description": "",
+        "id_in_db": "t3_1m1zch0",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "50% off"
+    },
+    {
         "title": "Red Pistol (5.79€/ £5.11/ $6.39/ 36-39% Off)",
         "store": "reddit",
         "url": "https://www.reddit.com/r/GameDeals/comments/1m1z0bg/dlgamer_red_pistol_579_511_639_3639_off/",
@@ -82,116 +160,202 @@
         ]
     },
     {
-        "title": "Joystick Publisher Sale: ANTONBLAST, Chicken Police: Into the HIVE!, Hell of an Office, Toy Tactics, Do Not Feed the Monkeys 2099, Lost in Play, FixFox",
-        "store": "indiegala",
-        "url": "https://www.indiegala.com/store/publisher-sale/joystick",
-        "image_url": "https://external-preview.redd.it/QSg--JMc4J19QakyJhz_44CcceoBBCD9hZp8fEDqrl4.jpeg?width=640&crop=smart&auto=webp&s=244fe29ad018869cd8584dc6407e7d00ab8ace52",
-        "description": "",
-        "id_in_db": "t3_1m1b0b9",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "32% off"
-    },
-    {
-        "title": "BioShock: The Collection ( 11,99 EUR / 80% Off )",
-        "store": "steam",
-        "url": "https://store.steampowered.com/sub/127633/",
-        "image_url": "https://external-preview.redd.it/0oDmgkakn52amZ-kJq5QNHPPlHEEcF4luw6YwUUMtgY.jpeg?width=640&crop=smart&auto=webp&s=9025ec084a6eb4a7214d72f6f1414dce76b36042",
-        "description": "",
-        "id_in_db": "t3_1m1aet1",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "80% off"
-    },
-    {
-        "title": "Veranoia: Nightmare of Case 37 ($0.9 / 80% off)",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/2709220/Veranoia_Nightmare_of_Case_37/",
-        "image_url": "https://external-preview.redd.it/fVtWhmP1DJEiQfFkVfx0JNUh34KGF-ycBo0F00Qvt8I.jpeg?width=320&crop=smart&auto=webp&s=41e78a5bd184289901c320db435848a48a936b31",
-        "description": "",
-        "id_in_db": "t3_1m18wqx",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "80% off"
-    },
-    {
-        "title": "The Wrath of the Goose King (5,51€ / 20% off)",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/2787630/The_Wrath_of_the_Goose_King/",
-        "image_url": "https://external-preview.redd.it/4gkaOTJG2IdTVxhHZh5237uUoRSBdZ-dc6ypKaXYq40.jpeg?width=320&crop=smart&auto=webp&s=b76b789bf5e7cc0e836ae4dd90027d59435a6e52",
-        "description": "",
-        "id_in_db": "t3_1m164xi",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "20% off"
-    },
-    {
-        "title": "Warhammer 40,000: Darktide - Imperial Edition (18.60€/ £15.50/ $18.60/ 69% Off)",
-        "store": "reddit",
-        "url": "https://www.reddit.com/r/GameDeals/comments/1m150kp/dlgamer_warhammer_40000_darktide_imperial_edition/",
+        "title": "(Other) 3 New PlayStation Avatars for Ghost of Tsushima's 5th Anniversary",
+        "store": "playstation",
+        "url": "https://www.playstation.com/en-ca/support/store/redeem-ps-store-voucher-code/",
         "image_url": null,
-        "description": "Get Warhammer 40,000: Darktide - Imperial Edition at 69% Off. Limited time only!EU -69% Off.EN -69% Off.US -69% Off.",
-        "id_in_db": "t3_1m150kp",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "69% off",
-        "persian_summary": "دریافت Warhammer 40،000: DarkTide - Edition Imperial با 69 ٪ تخفیف. فقط زمان محدود! EU -69 ٪ Off.en -69 ٪ Off.us -69 ٪ تخفیف."
-    },
-    {
-        "title": "Banishers: Ghosts of New Eden ( 19,99 EUR / 60% off )",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/1493640/Banishers_Ghosts_of_New_Eden/",
-        "image_url": "https://external-preview.redd.it/SYPA4kfwomZD8GFHNtQHqpwujztfohp8A1dhnYRny9g.jpeg?width=320&crop=smart&auto=webp&s=ae66dad788cfeabaceb8103c876cda86f868b094",
         "description": "",
-        "id_in_db": "t3_1m13k09",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "60% off"
+        "id_in_db": "t3_1m2jjde",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": null
     },
     {
-        "title": "Beholder: Conductor (-25% off ~ $10.48 / €10.33 / C$13.48 with code CHEERS) | Beholder (-90% off ~ $1.39 / €1.39 / C$1.79 with code)",
-        "store": "reddit",
-        "url": "https://www.reddit.com/r/GameDeals/comments/1m0xk8o/playsum_beholder_conductor_25_off_1048_1033_c1348/",
+        "title": "(DLC) The Traded Groom - extra booklet",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/3814010/The_Traded_Groom/",
         "image_url": null,
-        "description": "End date: July 29th at 11:59 PM EDTW = Windows / M = Mac / L = LinuxIf you use the codeCHEERSyou’ll get an extra 10% off, which btw is already calculated into the % off and prices in the table :)DealsPlatform% Off w/ codeUS ($)DE (€)CA ($C)UK (£)AU ($A)TypesBeholderW, M, L90%1.391.391.791.192.09SteamBeholder: ConductorW, M25%10.4810.3313.488.8315.35Steam",
-        "id_in_db": "t3_1m0xk8o",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "25% off",
-        "persian_summary": "تاریخ پایان: 29 ژوئیه در ساعت 11:59 بعد از ظهر EDTW = ویندوز / M = M = M / L = Linuxif شما از CodeCheyersyou استفاده می کنید 10 ٪ تخفیف اضافی دریافت خواهید کرد ، که BTW در حال حاضر در ٪ OFF و قیمت ها در جدول محاسبه می شود:) معاملات ٪ Off W / Codeus ($) De (€) Ca ($ C) UK ($) AU (£) AU (£) L90 ٪ 1.391.391.791.192.09steambeholder: Conductorw ، M25 ٪ 10.4810.3313.488.8315.35steam"
+        "description": "Adding this base game to your account will also give you the DLC booklet. The DLC wasn't supposed to be available now and it wasn't supposed to be free; it's probably an error and it may be reversed in the near future.",
+        "id_in_db": "t3_1m2iq7w",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": null,
+        "persian_summary": "اضافه کردن این بازی پایه به حساب شما ، جزوه DLC را نیز به شما می دهد. DLC قرار نبود اکنون در دسترس باشد و قرار نبود رایگان باشد. این احتمالاً یک خطا است و ممکن است در آینده نزدیک معکوس شود."
     },
     {
-        "title": "Opollo ($0.59 USD / 40% off)",
+        "title": "StellarHub",
         "store": "steam",
-        "url": "https://store.steampowered.com/app/3475580/Opollo/",
-        "image_url": "https://external-preview.redd.it/_W_cnpC5PeKTPD4Nf0xjQn5fPLQPHFsYMoZrg5MbUBs.jpeg?width=320&crop=smart&auto=webp&s=c06e4d5675f13be4eaeb4e5b25810ae060eacbd6",
+        "url": "https://givee.club/en/event/1066",
+        "image_url": "https://external-preview.redd.it/hLC_IvTuu-LnqRhs8qb9bDa-o8ccWKcrB5-Kkqi2ogk.jpeg?width=320&crop=smart&auto=webp&s=9b9be3b354b9462f19ca258494ce4b6c03318c64",
         "description": "",
-        "id_in_db": "t3_1m0t7jz",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "40% off"
+        "id_in_db": "t3_1m2ergn",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": null,
+        "steam_app_id": "672860",
+        "genres": [
+            "Simulation"
+        ],
+        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256724470/movie480.webm?t=1533366693",
+        "is_multiplayer": false,
+        "is_online": false,
+        "persian_genres": [
+            "شبیه سازی"
+        ]
     },
     {
-        "title": "Saloon Simulator - 10% Off Launch Discount | ($17.09 / -10%) Sale ends 22 July",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/1876930/Saloon_Simulator/",
-        "image_url": "https://external-preview.redd.it/GWuIhtEs6m3Cr3DdiF9T53EWnNxxVdcK-qq5hqOQhxs.jpeg?width=320&crop=smart&auto=webp&s=1c45959913c9fdff89110069313efebeda22d8d2",
+        "title": "ENDLESS Space 2 - Definitive Edition (Amazon Games) and Besiege + The Splintered Sea DLC (Amazon Games) are complimentary with Prime Gaming",
+        "store": "playstation",
+        "url": "https://gaming.amazon.com/home?filter=Game",
+        "image_url": "https://external-preview.redd.it/YhC5UGHUSWogViGih_qi-WVDC67C3VRMExrTNy9YaRM.jpeg?width=640&crop=smart&auto=webp&s=d6063cc6040deb77777cc87eefdfe544726844e0",
         "description": "",
-        "id_in_db": "t3_1m0sc7s",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "10% off"
+        "id_in_db": "t3_1m2d3ed",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": null
     },
     {
-        "title": "Automation Fest - Terranny (3.51€ / 64% off), Shapez 2 (15.11€ / 30% off), Satisfactory (27.29€ / 30% off), Dyson Sphere Program (13.43€ / 20% off)",
+        "title": "Creepy Shift House for Sale",
         "store": "steam",
-        "url": "https://store.steampowered.com/category/automation",
-        "image_url": "https://external-preview.redd.it/EgZ5Zqhad94WvEwImndcc0ZcvZr_JEC9U48cnW8SHHA.jpeg?width=640&crop=smart&auto=webp&s=28a3812f94a069caae58f8ad82feec530c7a9d49",
+        "url": "https://na.alienwarearena.com/ucf/show/2172351/boards/contest-and-giveaways-global/Giveaway/creepy-shift-house-for-sale-steam-game-key-giveaway",
+        "image_url": "https://external-preview.redd.it/Qahr5M8WXyuIW1Nq-vlvWu5lq4iXlQsM9EkkzYl3gMk.jpeg?width=320&crop=smart&auto=webp&s=a732a6f2c5f91e508f0f202a5d2cbbb62c78f9fd",
         "description": "",
-        "id_in_db": "t3_1m0dz28",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "64% off"
+        "id_in_db": "t3_1m2ciyn",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": null,
+        "steam_app_id": "3400650",
+        "genres": [
+            "Action",
+            "Indie",
+            "Simulation"
+        ],
+        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257111387/movie480_vp9.webm?t=1741362098",
+        "is_multiplayer": false,
+        "is_online": false,
+        "persian_genres": [
+            "عمل",
+            "وابسته به",
+            "شبیه سازی"
+        ]
+    },
+    {
+        "title": "Empyreal",
+        "store": "steam",
+        "url": "https://na.alienwarearena.com/ucf/show/2172678/boards/contest-and-giveaways-global/Giveaway/empyreal-steam-game-key-giveaway",
+        "image_url": "https://external-preview.redd.it/sJYj8wLNpEjNEH_Hjt-yAg_vIRQ9Sy70pHI6KU7o9HU.jpeg?width=320&crop=smart&auto=webp&s=9340f7c1c867409aa02a3f948d879881a32cc89d",
+        "description": "",
+        "id_in_db": "t3_1m2ceqv",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": null,
+        "steam_app_id": "1377700",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Indie",
+            "RPG"
+        ],
+        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257133469/movie480_vp9.webm?t=1751976215",
+        "is_multiplayer": false,
+        "is_online": false,
+        "persian_genres": [
+            "عمل",
+            "ماجراجویی",
+            "وابسته به",
+            "RPG"
+        ]
+    },
+    {
+        "title": "Parcel Corps",
+        "store": "steam",
+        "url": "https://na.alienwarearena.com/ucf/show/2172679/boards/contest-and-giveaways-global/Giveaway/parcel-corps-steam-game-key-giveaway",
+        "image_url": "https://external-preview.redd.it/NAMRNcvsLvggXSg9-ig6TF_zF-jIqXzNagc7oi64ryM.jpeg?width=320&crop=smart&auto=webp&s=a8f0670e71b4de55ed120a1e9b7f998b9c0fff30",
+        "description": "",
+        "id_in_db": "t3_1m2cehe",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": null,
+        "steam_app_id": "2015960",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Indie",
+            "Racing",
+            "Sports"
+        ],
+        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257093187/movie480_vp9.webm?t=1751879614",
+        "is_multiplayer": true,
+        "is_online": false,
+        "persian_genres": [
+            "عمل",
+            "ماجراجویی",
+            "وابسته به",
+            "مسابقه",
+            "ورزش"
+        ]
+    },
+    {
+        "title": "Chivalry 2",
+        "store": "steam",
+        "url": "https://na.alienwarearena.com/ucf/show/2172680/boards/contest-and-giveaways-global/Giveaway/chivalry-2-steam-game-key-giveaway",
+        "image_url": "https://external-preview.redd.it/nTT9BMMwFAX5aiCsuNAjqj_zC-IUn_EgpR93QworMFc.jpeg?width=320&crop=smart&auto=webp&s=8211b9ef671ac430779b2c7764d4d13ae1a8da24",
+        "description": "",
+        "id_in_db": "t3_1m2ce1f",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": null,
+        "steam_app_id": "1824220",
+        "genres": [
+            "Action",
+            "Massively Multiplayer"
+        ],
+        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257024592/movie480_vp9.webm?t=1716390435",
+        "is_multiplayer": true,
+        "is_online": false,
+        "age_rating": "17+",
+        "persian_genres": [
+            "عمل",
+            "چند نفره انبوه"
+        ],
+        "persian_age_rating": "17+"
+    },
+    {
+        "title": "Sid Meier’s Civilization® VI Platinum Edition",
+        "store": "epic games",
+        "url": "https://store.epicgames.com/p/sid-meiers-civilization-vi--platinum-edition",
+        "image_url": null,
+        "description": "",
+        "id_in_db": "t3_1m29tns",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": null
+    },
+    {
+        "title": "There Is No Game: Wrong Dimension",
+        "store": "reddit",
+        "url": "https://www.reddit.com/r/FreeGameFindings/comments/1m29tnr/epic_games_mobile_game_there_is_no_game_wrong/",
+        "image_url": null,
+        "description": "📝Transactions Page(To see if you claimed or not)⏩ Instant Checkout (Login toEpic Gamesfirst to use)ItemInstant Checkout🎮CLAIM ALLAndroid & iOS🎮﻿There Is No Game: Wrong DimensionAndroid／iOS🎮 There Is No Game: Wrong Dimension｜Android／iOS⌛ Rating／⛔ Blacklist｜China, Russia",
+        "id_in_db": "t3_1m29tnr",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": null,
+        "steam_app_id": "1240210",
+        "genres": [
+            "Adventure",
+            "Casual",
+            "Indie"
+        ],
+        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256793611/movie480_vp9.webm?t=1595513367",
+        "is_multiplayer": false,
+        "is_online": false,
+        "persian_summary": "صفحه transactions (برای دیدن اینکه ادعا کرده اید یا نه) ⏩ بررسی فوری (ورود به سیستم بازی های toepic برای استفاده) checkout🎮claim Allandroid & iOS🎮 هیچ بازی وجود ندارد: DIMENSIONANDORIOD ／ iOS🎮 هیچ بازی وجود ندارد: Android Android ／ iOS⌛ RATINT",
+        "persian_genres": [
+            "ماجراجویی",
+            "گاه",
+            "وابسته به"
+        ]
     },
     {
         "title": "Linked",
@@ -465,215 +629,16 @@
         ]
     },
     {
-        "title": "Field of Glory II: Medieval",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/1368870/Field_of_Glory_II_Medieval/",
-        "image_url": "https://external-preview.redd.it/zuCxtVS2ButNdyK0YXPkO2XTJ3jqFQKY2GUiBVDKWR8.jpeg?width=320&crop=smart&auto=webp&s=b3f5318446166294e7b48d594309fe0a8e2da273",
-        "description": "",
-        "id_in_db": "t3_1lwhz8l",
-        "subreddit": "FreeGameFindings",
+        "title": "Perplexity Pro 1 year subscription free for Airtel India Users Only",
+        "store": "google play",
+        "url": "https://play.google.com/store/apps/details?id=com.myairtelapp",
+        "image_url": "https://external-preview.redd.it/W9pW1fbSJGbMseDF-tf_8CrHSdGXHX3AoOdrj49wl4k.png?width=320&crop=smart&auto=webp&s=134857b38ae8a4c03edfc99b8091e888b4c8cbf5",
+        "description": "Free 1 year Perplexity Pro sub for Airtel India Users (any active Airtel service)just log on Airtel app and open \"Claim OTTs and More\"option and just follow the instructions to activate 1 year Perplexity Pro account for free (valued Rs 17000).does not auto renew and no need to give any payment details to activateClaim period valid from 17th July 2025 to 17th January 2026Airtel app link :https://play.google.com/store/apps/details?id=com.myairtelapp",
+        "id_in_db": "t3_1m2a2wv",
+        "subreddit": "googleplaydeals",
         "is_free": true,
         "discount_text": null,
-        "steam_app_id": "1368870",
-        "genres": [
-            "Simulation",
-            "Strategy"
-        ],
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256820961/movie480_vp9.webm?t=1612429720",
-        "is_multiplayer": true,
-        "is_online": false,
-        "persian_genres": [
-            "شبیه سازی",
-            "استراتژی"
-        ]
-    },
-    {
-        "title": "Battlestar Galactica Deadlock",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/544610/Battlestar_Galactica_Deadlock/",
-        "image_url": "https://external-preview.redd.it/lU0NPAS1bBPLTdTI3j72jOCg0FKz6uBytYi9c5egkHI.jpeg?width=320&crop=smart&auto=webp&s=1510c553e4555269f3806ed7649d2c8208d48718",
-        "description": "",
-        "id_in_db": "t3_1lwhz0e",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": null,
-        "steam_app_id": "544610",
-        "genres": [
-            "Strategy"
-        ],
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256684699/movie480.webm?t=1494934321",
-        "is_multiplayer": true,
-        "is_online": true,
-        "persian_genres": [
-            "استراتژی"
-        ]
-    },
-    {
-        "title": "Figment 2: Creed Valley",
-        "store": "reddit",
-        "url": "https://www.reddit.com/r/FreeGameFindings/comments/1lwewzr/epic_games_mobile_game_figment_2_creed_valley/",
-        "image_url": null,
-        "description": "📝Transactions Page(To see if you claimed or not)⏩ Instant Checkout (Login toEpic Gamesfirst to use)ItemInstant Checkout🎮CLAIM ALLAndroid & iOS🎮Figment 2: Creed Valley﻿Android／iOS🎮 Figment 2: Creed Valley｜Android／iOS⌛ Rating／⛔ Blacklist｜None",
-        "id_in_db": "t3_1lwewzr",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": null,
-        "steam_app_id": "1085220",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Casual",
-            "Indie"
-        ],
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256929912/movie480_vp9.webm?t=1683192088",
-        "is_multiplayer": true,
-        "is_online": false,
-        "persian_summary": "صفحه transactions (برای دیدن اینکه شما ادعا کرده اید یا نه) ⏩ بررسی فوری (ورود به سیستم بازی های toepic برای استفاده) checkout🎮claim allandroid & ios🎮figment 2: Creed Valley android ／ iOS🎮 شکل 2: Creed Valley ｜ Android ／ iOS⌛ Rating ／⛔ Blacklist ｜ None None هیچکدام",
-        "persian_genres": [
-            "عمل",
-            "ماجراجویی",
-            "گاه",
-            "وابسته به"
-        ]
-    },
-    {
-        "title": "Sky Racket",
-        "store": "epic games",
-        "url": "https://store.epicgames.com/p/sky-racket-4cf23a",
-        "image_url": null,
-        "description": "",
-        "id_in_db": "t3_1lwewyk",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": null
-    },
-    {
-        "title": "Figment 2: Creed Valley",
-        "store": "epic games",
-        "url": "https://store.epicgames.com/p/figment2-creed-valley",
-        "image_url": null,
-        "description": "",
-        "id_in_db": "t3_1lwewya",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": null
-    },
-    {
-        "title": "Condo Desires",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/3205430/Condo_Desires/",
-        "image_url": null,
-        "description": "The very next update probably will introduce a price tag.",
-        "id_in_db": "t3_1lweshg",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": null,
-        "steam_app_id": "3205430",
-        "genres": [
-            "Casual",
-            "Indie",
-            "RPG",
-            "Simulation",
-            "Free To Play",
-            "Early Access"
-        ],
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257054232/movie480_vp9.webm?t=1726078287",
-        "is_multiplayer": false,
-        "is_online": false,
-        "persian_summary": "به روزرسانی بعدی احتمالاً برچسب قیمت را معرفی می کند.",
-        "persian_genres": [
-            "گاه",
-            "وابسته به",
-            "RPG",
-            "شبیه سازی",
-            "رایگان برای بازی",
-            "دسترسی زود هنگام"
-        ]
-    },
-    {
-        "title": "I Am Fish",
-        "store": "steam",
-        "url": "https://gaming.lenovo.com/i-am-fish-key-drops",
-        "image_url": null,
-        "description": "To claim key:Make sure to create a Legion Gaming Community account ahead of time for the best chance to claim a keyLogin to your Legion Gaming Community accountClaim* the key voucher on the key drop post:https://gaming.lenovo.com/i-am-fish-key-drops\\Check the three tick boxes, then click claim*Refresh the page if you don't see your voucher code after claiming itLogin to Gamesplanet to redeem your voucher for a Steam key:https://us.gamesplanet.com/promo/LM090924_IAmFishPlease note you must login to Gamesplanet for the voucher to workKeys expire 07/31/2025",
-        "id_in_db": "t3_1lvo1x6",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": null,
-        "steam_app_id": "1472560",
-        "genres": [
-            "Adventure",
-            "Simulation"
-        ],
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256854603/movie480_vp9.webm?t=1633532608",
-        "is_multiplayer": false,
-        "is_online": false,
-        "persian_summary": "برای ادعای کلید: حتماً یک حساب کاربری انجمن لژیون بازی را برای بهترین فرصت برای ادعای keylogin به حساب انجمن بازی لژیون خود ایجاد کنید* کوپن کلیدی در پست کلیدی: https: //gaming.lenovo.com/i-am-key-drops \\ سه جعبه تیک را بررسی کنید ، سپس پس از ادعای خود را کلیک کنید* ادعای خود را مشاهده نکنید. کوپن شما برای یک کلید بخار: https: //us.gamesplanet.com/promo/lm090924_iamfishplease توجه داشته باشید شما باید برای بازی های کپی به Workkeys منقضی شوید. 07/31/2025 منقضی شوید",
-        "persian_genres": [
-            "ماجراجویی",
-            "شبیه سازی"
-        ]
-    },
-    {
-        "title": "HOTEL GREENWOOD",
-        "store": "indiegala",
-        "url": "https://freebies.indiegala.com/hotel-greenwood",
-        "image_url": "https://external-preview.redd.it/c46G_Fw0Ec8_GKcbz_1fpt8zq0sTLlzbFcanmVjXE40.png?width=320&crop=smart&auto=webp&s=0c244ccfda606b9e58ade0912b8b44f4ef93967c",
-        "description": "",
-        "id_in_db": "t3_1luluwb",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": null,
-        "steam_app_id": "2089110",
-        "genres": [
-            "Indie"
-        ],
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256897323/movie480_vp9.webm?t=1659792611",
-        "is_multiplayer": false,
-        "is_online": false,
-        "persian_genres": [
-            "وابسته به"
-        ]
-    },
-    {
-        "title": "Marvel’s Midnight Suns, Football Manager 2024, Amnesia: The Dark Descent, and STAR WARS Jedi Knight: Dark Forces II are complimentary with Amazon Prime Gaming (Prime Day 2025)",
-        "store": "playstation",
-        "url": "https://gaming.amazon.com/home",
-        "image_url": "https://external-preview.redd.it/YhC5UGHUSWogViGih_qi-WVDC67C3VRMExrTNy9YaRM.jpeg?width=640&crop=smart&auto=webp&s=d6063cc6040deb77777cc87eefdfe544726844e0",
-        "description": "Article with more information:https://primegaming.blog/celebrate-prime-day-2025-with-another-four-bonus-games-and-select-amazon-luna-controller-discounts-78cb862d07e6",
-        "id_in_db": "t3_1lugtsb",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": null,
-        "persian_summary": "مقاله با اطلاعات بیشتر: https: //primegaming.blog/celebrate-prime-day-2025-with-another-four-bonus-games و select-amazon-controller-discounts-78cb862d07e6"
-    },
-    {
-        "title": "Orbit Maze",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/3740920/",
-        "image_url": "https://external-preview.redd.it/Q6DHcGki6gB8Sa0z5CjUJU9AS0bm7EOFytmftEn-Yo4.jpeg?width=320&crop=smart&auto=webp&s=d5e9c8b2daadedc1b44b7a8112e1a1433d73bd20",
-        "description": "Announcement:https://steamcommunity.com/games/3740920/announcements/detail/532102384016429792",
-        "id_in_db": "t3_1lu2qs4",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": null,
-        "steam_app_id": "3740920",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Casual",
-            "Indie"
-        ],
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257164839/movie480_vp9.webm?t=1751537501",
-        "is_multiplayer": false,
-        "is_online": false,
-        "persian_summary": "اطلاعیه: https: //steamcommunity.com/games/3740920/announcements/detail/532102384016429792",
-        "persian_genres": [
-            "عمل",
-            "ماجراجویی",
-            "گاه",
-            "وابسته به"
-        ]
+        "persian_summary": "رایگان 1 سال PERPELEXITY PRO SUB برای کاربران Airtel India (هر سرویس فعال Airtel) فقط روی برنامه Airtel وارد شوید و گزینه \"OTTS COMENT و بیشتر\" را باز کنید و فقط دستورالعمل ها را برای فعال کردن 1 سال حساب Pro Pro به صورت رایگان دنبال کنید. : https: //play.google.com/store/apps/details؟ id = com.myairtelapp"
     },
     {
         "title": "Reminder Pro",
@@ -763,6 +728,53 @@
         "subreddit": "googleplaydeals",
         "is_free": true,
         "discount_text": null
+    },
+    {
+        "title": "FREE $0 (was $20) – ClueWing, an on‑device AI meeting coach – Lifetime License",
+        "store": "other",
+        "url": "https://gumroad.cluewing.com",
+        "image_url": "https://external-preview.redd.it/aTw0cY3TcTIjmcf4Z18uk138qAJJwmvfLUcNbG5Vrio.jpeg?width=640&crop=smart&auto=webp&s=ac7662d512115e1926cd55c2d5ab91342c38e176",
+        "description": "Deal: 100 % off (lifetime license)Price before: $20 one‑timePlatform: macOS 12+ on Apple Silicon (M‑series) onlyExpires: codes valid until end of the week, but can extend on requestHey AppHookup!I’m the solo dev behindClueWing– 100% private, local \"real-time\" meeting coach: it listens to your mic/output locally and gives real‑time traffic light coaching during your meetings. Does not need to join the meeting, does not share ANY data with anybody, uses local AI for all intelligence.No cloud, no bots in the meeting, no recording, no data leaving your device ever.How to claimUse the code MACAPPS25 onhttps://gumroad.cluewing.comEnjoyFINE PRINT:Apple Silicon only – Intel Macs won’t run the Metal build of whisper.cpp.Privacy – audio stays local; nothing ever leaves your machine.If you grab it, a quick “thanks” or bug report is gold. ❤️Happy to answer anything in the comments!- Enrico",
+        "id_in_db": "t3_1m2akmf",
+        "subreddit": "AppHookup",
+        "is_free": true,
+        "discount_text": null,
+        "persian_summary": "معامله: 100 ٪ تخفیف (پروانه طول عمر) قیمت قبل: 20 دلار یک-TimePlatform: MacOS 12+ در Apple Silicon (M-Series) Onlyexpires: کدهای معتبر تا پایان هفته ، اما می توانند در صورت درخواست Apphookup گسترش دهند! من من انفرادی هستم-100 ٪ خصوصی ، محلی \"در زمان واقعی\" جلسه شما در طول دوره TRAVELINES OUTPUT OUT PUPPUT OUT PUPPUTY OUT PUPPUT OUT PUPPUT OUT PUP PUP PUP PUP PULAPE: نیازی به پیوستن به جلسه نیست ، هیچ اطلاعاتی را با هیچ کس به اشتراک نمی گذارد ، از AI محلی برای همه اطلاعات استفاده می کند. هیچ ابر ، هیچ ربات در جلسه ، بدون ضبط ، هیچ داده ای از دستگاه شما باقی نمی ماند. هیچ چیز هرگز دستگاه شما را ترک نمی کند. اگر آن را بگیرید ، گزارش سریع \"تشکر\" یا اشکال طلا است. ❤ خوشحال به پاسخ دادن به هر چیزی در نظرات!- Enrico"
+    },
+    {
+        "title": "[iOS / Android] [There Is No Game: Wrong Dimension] [CA$5.69 → Free] [Point&Click comedy adventure that will take you on a journey you never asked to go on]",
+        "store": "reddit",
+        "url": "https://www.reddit.com/r/AppHookup/comments/1m2a9zr/ios_android_there_is_no_game_wrong_dimension/",
+        "image_url": null,
+        "description": "https://store.epicgames.com/en-US/p/there-is-no-game-wd-ios-cfba3ahttps://store.epicgames.com/en-US/p/there-is-no-game-wd-android-ccd766A Point&Click comedy adventure. You can go ahead and put your controller back up on the shelf.Incredible 3D graphics that are flat. Completely flat. And very pixelated.Almost fully voiced. (May contain traces of foreign accents here and there.)Solve riddles that require you to think \"Outside the box\".Hint system included because you can't think \"Outside the box\"...Shorter than an MMORPG, which leaves you plenty of time to finish some REAL good games.Discover the Top 10 best walls. The fourth one will surprise you!Motion sickness free, which is pretty remarkable for a non-VR experience.Contains tons of bugs... but it’s supposed to be like that.And lots of other surprises!",
+        "id_in_db": "t3_1m2a9zr",
+        "subreddit": "AppHookup",
+        "is_free": true,
+        "discount_text": null,
+        "persian_summary": "https://store.epicgames.com/en-us/p/there-is-no-game-ios-cfba3ahttps://store.epicgames.com/en-us/p/there-is-no-game-wd-android-ccd766a Point & کلیک ماجراجویی کمدی. می توانید جلو بروید و کنترلر خود را به عقب برگردانید. گرافیک سه بعدی قابل اعتباری که مسطح است. کاملاً مسطح و بسیار پیکسل. تقریباً کاملاً ابراز شده. (ممکن است حاوی اثری از لهجه های خارجی در اینجا و آنجا باشد.) معماری را حل کنید که شما را ملزم به فکر کردن \"خارج از جعبه\" می کند. سیستم را شامل می شود زیرا نمی توانید فکر کنید \"خارج از جعبه\" ... کوتاه تر از یک MMORPG ، که زمان زیادی را برای به پایان رساندن برخی از بازی های خوب خوب به شما می دهد. 10 دیوار برتر را کشف کنید. چهارمین مورد شما را غافلگیر خواهد کرد! Motion Sickness Free ، که برای یک تجربه غیر VR بسیار قابل توجه است. تعداد زیادی از اشکالات را به خود اختصاص می دهد ... اما قرار است چنین باشد. و بسیاری از شگفتی های دیگر!"
+    },
+    {
+        "title": "[Windows] [Sid Meier’s Civilization VI: Platinum Edition] [CA$79.99 → Free] [Interact with your world, expand your empire across the map, advance your culture, and compete against history’s greatest leaders]",
+        "store": "other",
+        "url": "https://store.epicgames.com/en-US/p/sid-meiers-civilization-vi--platinum-edition",
+        "image_url": null,
+        "description": "",
+        "id_in_db": "t3_1m29xb1",
+        "subreddit": "AppHookup",
+        "is_free": true,
+        "discount_text": null
+    },
+    {
+        "title": "[iOS Universal] [Cleaner Cat] [Lifetime $9.99 → Free] [Ditch the storage anxiety and boring cleanup – adopt a digital cat!​​ Your new pet tidies up your phone space​ on a regular basis]",
+        "store": "ios app store",
+        "url": "https://apps.apple.com/us/app/cleaner-cat-clean-storage/id6745424711",
+        "image_url": "https://external-preview.redd.it/2jaDAN3_w__GnTM4jzAThal7sfQu11ZulGVkd-vwxm4.png?width=640&crop=smart&auto=webp&s=28427bf98179f1575434438fa0fabdde1b35643f",
+        "description": "Tired of forgetting to clean your photo clutter? Meet Cleaner Cat - where decluttering feeds a virtual pet.As someone drowning in 10,000+ photos, I built Cleaner Cat to solve my own pain point: ​Traditional cleaning tools are too boring to use consistently.​​ We all know the cycle - ignore clutter until storage warnings force a stressful cleanup.That’s why I designed this differently:​Your storage space becomes virtual cat food.​​Every 1MB cleared = 1g food for your \"Cleaner Cat\". This simple gamification solves the motivation problem – suddenly decluttering feels rewarding.​Key mechanics that keep you engaged:​​🔄​Daily Commitment Made Simple​Your cat needs 50g food daily (equal to deleting 50 low-quality photos/1 short video). This creates a sustainable habit – no more storage crises.​Backed by powerful utility (no gimmicks):​​• AI Similar Photo Detection: Batch delete duplicates in 2 taps• Low-Quality Photo Finder: Instantly surface blurry/overexposed shots• Swipe-to-Delete: Streamlined bulk removal• Lossless Video Compression: Reduce sizes by 50-80%100% Private & Offline​Your data never leaves your device – works without internet.",
+        "id_in_db": "t3_1m28tzv",
+        "subreddit": "AppHookup",
+        "is_free": true,
+        "discount_text": null,
+        "persian_summary": "از فراموش کردن برای تمیز کردن عکس خود خسته شده اید؟ ملاقات با گربه تمیزتر - جایی که دفع یک حیوان خانگی مجازی را تغذیه می کند. همانطور که شخصی در 10،000+ عکس غرق می شود ، من گربه تمیزتر را برای حل نقطه درد خودم ساختم: ابزارهای تمیز کردن سنتی بیش از حد کسل کننده هستند که به طور مداوم از آن استفاده می کنیم. همه ما چرخه را می دانیم. این بازی سازی ساده مشکل انگیزه را حل می کند-ناگهان فروپاشی احساس پاداش می کند. مکانیک های کلیدی که شما را درگیر نگه می دارد: 🔄 تعهد روزانه گربه شما روزانه به 50 گرم غذای روزانه نیاز دارد (برابر با حذف 50 عکس با کیفیت پایین/1 فیلم کوتاه). این یک عادت پایدار ایجاد می کند-بدون بحران های ذخیره سازی بیشتر. پشتیبانی از ابزار قدرتمند (بدون جیمز): • تشخیص عکس مشابه: نسخه های حذف شده دسته ای در 2 شیرچه • یاب عکس با کیفیت پایین: بلافاصله مبهم/عکس های بیش از حد شما: کپی کردن به کاشت شما: بازپرداخت فله شما • بدون استفاده از آن ، و بدون استفاده"
     },
     {
         "title": "[iOS Universal] [Wingy] [Lifetime $24.99 → Free] [AI-powered assistant for effortless and engaging conversations. Simple and intuitive interface for ice breakers, text, and chat replies, and date ideas]",
@@ -1080,51 +1092,5 @@
         "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": null
-    },
-    {
-        "title": "[Multi-Platform] [Figment] [CA$21.99 → Free] [Humorous Action-Adventure Puzzle Game in a Surreal World]",
-        "store": "reddit",
-        "url": "https://www.reddit.com/r/AppHookup/comments/1lqs03c/multiplatform_figment_ca2199_free_humorous/",
-        "image_url": null,
-        "description": "https://store.epicgames.com/en-US/p/figmenthttps://store.epicgames.com/en-US/p/figment-ios-982b04https://store.epicgames.com/en-US/p/figment-android-38e58fFigment is an action-adventure game that invites you to explore a unique surreal universe filled with music, humor and multi layered narrative.",
-        "id_in_db": "t3_1lqs03c",
-        "subreddit": "AppHookup",
-        "is_free": true,
-        "discount_text": null,
-        "persian_summary": "https://store.epicgames.com/en-us/p/figmenthttps://store.epicgames.com/en-us/p/figment-ios-982b04https://store.epicgames.com/en-us/p/figment-ne-andidroid-38e58e58ffteMenture action- adea-adites action-us با موسیقی ، طنز و روایت چند لایه."
-    },
-    {
-        "title": "[ iOS ][ KM Animal Sounds Explorer ][ $1.99 → Free ][ Learn in 5 languages with Native speaker pronunciations ]",
-        "store": "ios app store",
-        "url": "https://apps.apple.com/app/km-animal-sounds-explorer/id6742056685",
-        "image_url": "https://external-preview.redd.it/JOBBajq9CwQKXa67s3U9n72Wam-Nqc3uX_qv3T3Qzx4.png?width=640&crop=smart&auto=webp&s=6134ed815ba4aa61e7888ab84f997bcb77c29f85",
-        "description": "",
-        "id_in_db": "t3_1lqiza6",
-        "subreddit": "AppHookup",
-        "is_free": true,
-        "discount_text": null
-    },
-    {
-        "title": "[iOS] [‎Nanonote - Note to self] [$2.99--> Free] [Quickest way to take notes like you're chatting with yourself]",
-        "store": "ios app store",
-        "url": "https://apps.apple.com/us/app/nanonote-note-to-self/id1575376162",
-        "image_url": "https://external-preview.redd.it/cyyc-mZpz2ObO7Zxq-CA9AQnnCkLoAVHheWpDyB2cdY.png?width=640&crop=smart&auto=webp&s=f1e76e8664fe2397ad449cedf652681d650aa0b1",
-        "description": "",
-        "id_in_db": "t3_1lqiwch",
-        "subreddit": "AppHookup",
-        "is_free": true,
-        "discount_text": null
-    },
-    {
-        "title": "[iOS] [Conjuga – English Verb Trainer] [$5.99 → $1.99] [Master English verb conjugation with drills, quizzes, and audio. No ads, offline access, and lifetime unlock – limited time offer!][48 hours]",
-        "store": "ios app store",
-        "url": "https://apps.apple.com/us/app/conjuga-english-conjugation/id1543583013",
-        "image_url": "https://external-preview.redd.it/HU0TpysInhfu0Zwl5c-jPlpTt_qebkl43Vyz7zZZsQc.png?width=640&crop=smart&auto=webp&s=2a57b38988b0b4ca26ec10a94faa7b8cb1bad0ee",
-        "description": "Hey learners! 🇬🇧✨We just launchedConjuga: English Verb Trainer— the sister app to our French version — now on alimited-time launch discount:✅ English conjugation drills & practice✅ Grammar support + translations✅ Audio pronunciation✅ Offline access✅ One-time payment, no ads, no subscriptions🎉 Regular price:$5.99💸Now: $1.99 (for a short time)📲 App Store link:https://apps.apple.com/us/app/conjuga-english-conjugation/id1543583013If you grab it, let us know what you think — and feel free to suggest features you’d love to see next! 💬",
-        "id_in_db": "t3_1lpry7n",
-        "subreddit": "AppHookup",
-        "is_free": false,
-        "discount_text": "تخفیف",
-        "persian_summary": "سلام زبان آموزان! ما به تازگی راه اندازی شده Consconjuga: English Verb Trainer— برنامه خواهر به نسخه فرانسوی ما-اکنون در تخفیف راه اندازی زمان نامحسوس: ✅ تمرینات کونژوگه انگلیسی و تمرین-پشتیبانی گرامر + ترجمه ها-تلفظ صوتی دسترسی به آفلاین-دسترسی به یک بار ، بدون تبلیغ ، بدون قیمت ، قیمت معمولی: $ 5.99💸now: $ 1.99 (برای مدت زمان کوتاه) پیوند: https: //apps.apple.com/us/app/conjuga-english-conjugation/id1543583013 اگر آن را بگیرید ، به ما اطلاع دهید که چه فکر می کنید-و احساس رایگان می کنید تا ویژگی هایی را که دوست دارید در آینده ببینید! 💬"
     }
 ]
