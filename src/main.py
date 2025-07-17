@@ -21,7 +21,7 @@ from enrichment.metacritic_enricher import MetacriticEnricher
 from translation.translator import SmartTranslator
 # وارد کردن ابزارهای کمکی
 from utils import clean_title_for_search # وارد کردن تابع تمیزکننده مشترک
-from utils.store_detector import infer_store_from_game_data # <--- وارد کردن تابع از ماژول جدید
+from utils.store_detector import infer_store_from_game_data, normalize_url_for_key # <--- وارد کردن تابع جدید از ماژول جدید
 
 # تنظیمات اولیه لاگ‌گیری
 logging.basicConfig(
@@ -39,45 +39,7 @@ CACHE_DIR = "cache"
 CACHE_TTL = 86400 # 24 ساعت به ثانیه
 
 # تابع _infer_store_from_game_data از اینجا حذف شد و به utils/store_detector.py منتقل شد.
-
-def _normalize_url_for_key(url: str) -> str:
-    """
-    URL را برای استفاده به عنوان بخشی از کلید deduplication نرمال‌سازی می‌کند.
-    شناسه منحصر به فرد بازی را از URLهای فروشگاه‌های خاص استخراج می‌کند.
-    """
-    try:
-        parsed = urlparse(url)
-        # حذف پارامترهای کوئری و قطعات، فقط طرح، دامنه و مسیر را حفظ می‌کند
-        normalized_path = parsed.path.rstrip('/') # حذف اسلش انتهایی
-        
-        # مدیریت خاص برای URLهای فروشگاه برای قوی‌تر کردن آن‌ها
-        if 'steampowered.com' in parsed.netloc:
-            # شناسه‌های Steam app معمولاً در /app/{id}/ هستند
-            match = re.search(r'/app/(\d+)/?', normalized_path)
-            if match:
-                logger.debug(f"[_normalize_url_for_key] URL Steam نرمال‌سازی شد به: steam_app_{match.group(1)}")
-                return f"steam_app_{match.group(1)}"
-        elif 'epicgames.com/store/p/' in url:
-            # slugهای محصول Epic منحصر به فرد هستند
-            match = re.search(r'/store/p/([^/?#]+)', normalized_path)
-            if match:
-                logger.debug(f"[_normalize_url_for_key] URL Epic Games نرمال‌سازی شد به: epic_product_{match.group(1)}")
-                return f"epic_product_{match.group(1)}"
-        elif 'gog.com' in parsed.netloc:
-            # slugهای بازی GOG منحصر به فرد هستند
-            match = re.search(r'/(game|movie)/([^/?#]+)', normalized_path)
-            if match:
-                logger.debug(f"[_normalize_url_for_key] URL GOG نرمال‌سازی شد به: gog_game_{match.group(2)}")
-                return f"gog_game_{match.group(2)}")
-        # می‌توانید منطق نرمال‌سازی خاص فروشگاه‌های بیشتری را اینجا اضافه کنید
-
-        # برای سایر URLها، فقط طرح+دامنه+مسیر نرمال‌شده را برگردان
-        normalized_full_url = urlunparse((parsed.scheme, parsed.netloc, normalized_path, '', '', ''))
-        logger.debug(f"[_normalize_url_for_key] URL عمومی نرمال‌سازی شد به: {normalized_full_url}")
-        return normalized_full_url
-    except Exception:
-        logger.warning(f"⚠️ [_normalize_url_for_key] خطای نرمال‌سازی URL برای کلید: {url}. از URL اصلی استفاده می‌شود.", exc_info=True)
-        return url # فال‌بک به URL اصلی اگر نرمال‌سازی با شکست مواجه شد
+# تابع _normalize_url_for_key نیز از اینجا حذف شد و به utils/store_detector.py منتقل شد.
 
 def _classify_game_type(game: Dict[str, Any]) -> Dict[str, Any]:
     """
@@ -152,7 +114,7 @@ def _get_deduplication_key(game: Dict[str, Any]) -> str:
 
     # 1. اولویت با URL نرمال‌شده + نام فروشگاه
     if 'url' in game and game['url'] and game['url'].startswith(('http://', 'https://')):
-        normalized_url_part = _normalize_url_for_key(game['url'])
+        normalized_url_part = normalize_url_for_key(game['url']) # <--- استفاده از تابع از ماژول جدید
         if normalized_url_part: # اطمینان حاصل کن که نرمال‌سازی موفقیت‌آمیز بوده و یک کلید معنی‌دار تولید کرده است
             key = f"{combined_prefix}{normalized_url_part}_{store_name}"
             logger.debug(f"[_get_deduplication_key] کلید deduplication بر اساس URL نرمال‌شده و فروشگاه تولید شد: {key}")
@@ -229,7 +191,7 @@ def _merge_game_data(existing_game: Dict[str, Any], new_game: Dict[str, Any]) ->
 async def enrich_and_translate_game(game: Dict[str, Any], steam_enricher: SteamEnricher, metacritic_enricher: MetacriticEnricher, translator: SmartTranslator) -> Dict[str, Any]:
     """
     بازی را با اطلاعات اضافی غنی‌سازی و توضیحات آن را ترجمه می‌کند،
-    با اعمال enricherها بر اساس پلتفرم.
+    با اعمال enricher‌ها بر اساس پلتفرم.
     """
     logger.debug(f"شروع غنی‌سازی و ترجمه برای بازی: '{game.get('title', 'نامشخص')}'")
     
