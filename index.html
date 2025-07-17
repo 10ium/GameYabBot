@@ -288,12 +288,12 @@
 
         // نگاشت نام‌های انگلیسی فروشگاه‌ها به نام‌های فارسی برای نمایش
         const storeDisplayMap = {
-            "epicgames": "اپیک گیمز (ویندوز)",
+            "epicgames": "اپیک گیمز", // Changed from "اپیک گیمز (ویندوز)"
             "steam": "استیم",
             "googleplay": "اندروید",
             "epicgames(android)": "اندروید",
-            "epicgames(ios)": "iOS",
-            "iosappstore": "iOS",
+            "epicgames(ios)": "آی‌اواس", // Changed to آی‌اواس
+            "iosappstore": "آی‌اواس", // Changed to آی‌اواس
             "playstation": "پلی‌استیشن",
             "xbox": "ایکس‌باکس",
             "gog": "GOG",
@@ -303,7 +303,7 @@
             "other": "سایر فروشگاه‌ها",
             "reddit": "ردیت (لینک مستقیم)",
             "android": "اندروید",
-            "ios": "iOS",
+            "ios": "آی‌اواس", // Changed to آی‌اواس
             "microsoftstore": "مایکروسافت استور",
             "humblestore": "هامبل استور",
             "fanatical": "فناتیکال",
@@ -318,9 +318,9 @@
         const storeDisplayOrder = [
             "همه فروشگاه‌ها", // این گزینه همیشه اول است
             "استیم",
-            "اپیک گیمز (ویندوز)",
+            "اپیک گیمز", // Changed
             "اندروید",
-            "iOS",
+            "آی‌اواس", // Changed
             "پلی‌استیشن",
             "ایکس‌باکس",
             "GOG",
@@ -561,10 +561,9 @@
         function applyColumnLayout(columns) {
             // Remove existing grid-cols classes
             gamesContainer.classList.remove('grid-cols-1', 'sm:grid-cols-2', 'lg:grid-cols-3', 'xl:grid-cols-4',
-                                         'sm:grid-cols-1', 'lg:grid-cols-1', 'xl:grid-cols-1',
-                                         'sm:grid-cols-2', 'lg:grid-cols-2', 'xl:grid-cols-2',
-                                         'sm:grid-cols-3', 'lg:grid-cols-3', 'xl:grid-cols-3',
-                                         'sm:grid-cols-4', 'lg:grid-cols-4', 'xl:grid-cols-4');
+                                         'sm:grid-cols-1', 'sm:grid-cols-2', 'sm:grid-cols-3', 'sm:grid-cols-4',
+                                         'lg:grid-cols-1', 'lg:grid-cols-2', 'lg:grid-cols-3', 'lg:grid-cols-4',
+                                         'xl:grid-cols-1', 'xl:grid-cols-2', 'xl:grid-cols-3', 'xl:grid-cols-4');
             
             // Add grid-cols for selected number of columns (responsive across all breakpoints)
             gamesContainer.classList.add(`grid-cols-1`, `sm:grid-cols-${columns}`, `lg:grid-cols-${columns}`, `xl:grid-cols-${columns}`);
@@ -707,28 +706,28 @@
         // Function to apply filter
         function applyFilter() {
             const selectedStoreFilterValue = storeFilter.value;
-            const selectedContentTypeFilterValue = contentTypeFilter.value; // New: Get content type filter value
-            const selectedPriceTypeFilterValue = priceTypeFilter.value;     // New: Get price type filter value
+            const selectedContentTypeFilterValue = contentTypeFilter.value; 
+            const selectedPriceTypeFilterValue = priceTypeFilter.value;     
 
             const filteredGames = allGames.filter(game => {
                 // Step 1: Filter by Content Type
                 let passesContentTypeFilter = false;
                 if (selectedContentTypeFilterValue === 'all-content') {
-                    passesContentTypeFilter = true; // Show all (games and DLCs)
+                    passesContentTypeFilter = true; 
                 } else if (selectedContentTypeFilterValue === 'games-only') {
-                    passesContentTypeFilter = !game.is_dlc_or_addon; // Show only full games
+                    passesContentTypeFilter = !game.is_dlc_or_addon; 
                 } else if (selectedContentTypeFilterValue === 'dlc-only') {
-                    passesContentTypeFilter = game.is_dlc_or_addon; // Show only DLCs/Addons
+                    passesContentTypeFilter = game.is_dlc_or_addon; 
                 }
 
                 // Step 2: Filter by Price Type
                 let passesPriceTypeFilter = false;
                 if (selectedPriceTypeFilterValue === 'all-prices') {
-                    passesPriceTypeFilter = true; // Show all (free and discounted)
+                    passesPriceTypeFilter = true; 
                 } else if (selectedPriceTypeFilterValue === 'free-only') {
-                    passesPriceTypeFilter = game.is_free; // Show only free items
+                    passesPriceTypeFilter = game.is_free; 
                 } else if (selectedPriceTypeFilterValue === 'discounted-only') {
-                    passesPriceTypeFilter = !game.is_free; // Show only discounted items
+                    passesPriceTypeFilter = !game.is_free; 
                 }
 
                 // Step 3: Filter by Store
@@ -826,7 +825,7 @@
                     } 
                     else if (normalizedStore === 'ios app store' || normalizedStore === 'epic games (ios)') {
                         filterValue = 'ios';
-                        displayText = 'iOS';
+                        displayText = 'آی‌اواس'; // Changed to آی‌اواس
                     } else {
                         displayText = storeDisplayMap[filterValue] || store;
                     }
@@ -866,7 +865,20 @@
                 // Set default display modes
                 contentTypeFilter.value = 'all-content'; // Default to show all content types
                 priceTypeFilter.value = 'all-prices';     // Default to show all price types
-                applyFilter(); // Initial filter application
+                
+                // Determine initial columns based on device width or saved preference
+                const savedColumns = localStorage.getItem('selectedColumns');
+                let initialColumns;
+                const isMobile = window.innerWidth < 768; // Tailwind's 'sm' breakpoint
+
+                if (isMobile) {
+                    initialColumns = 1; // Default to 1 column for mobile
+                } else {
+                    initialColumns = savedColumns ? parseInt(savedColumns) : 3; // Default to 3 for desktop
+                }
+                
+                columnSelector.value = initialColumns;
+                applyColumnLayout(initialColumns); // Apply initial layout
 
                 // Event listeners for new filters
                 contentTypeFilter.addEventListener('change', applyFilter);

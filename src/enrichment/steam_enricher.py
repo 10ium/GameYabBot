@@ -7,7 +7,8 @@ import re
 import random
 import os
 import hashlib
-import time # برای بررسی زمان فایل کش
+import json # <--- این خط اضافه شد
+import time
 
 logger = logging.getLogger(__name__)
 
@@ -25,7 +26,7 @@ class SteamEnricher:
         self.cache_dir = os.path.join(cache_dir, "steam")
         self.cache_ttl = cache_ttl
         os.makedirs(self.cache_dir, exist_ok=True)
-        logger.info(f"نمونه SteamEnricher با موفقیت ایجاد شد. دایرکتوری کش: {self.cache_dir}, TTL: {self.cache_ttl} ثانیه.")
+        logger.info(f"[SteamEnricher] نمونه SteamEnricher با موفقیت ایجاد شد. دایرکتوری کش: {self.cache_dir}, TTL: {self.cache_ttl} ثانیه.")
 
     def _get_cache_path(self, url: str, is_json: bool = True) -> str:
         """مسیر فایل کش را بر اساس هش URL تولید می‌کند."""
@@ -58,10 +59,10 @@ class SteamEnricher:
                     try:
                         return json.loads(content)
                     except json.JSONDecodeError:
-                        logger.warning(f"⚠️ [SteamEnricher - _fetch_with_retry] خطای JSONDecodeError در فایل کش {cache_path}. کش نامعتبر است.")
+                        logger.warning(f"⚠️ [SteamEnricher - _fetch_with_retry] خطای JSONDecodeError در فایل کش {cache_path}. کش نامعتبر است. حذف کش.")
                         os.remove(cache_path) # حذف کش خراب
-                        return None
-                return content
+                        # ادامه پیدا می‌کند تا از شبکه واکشی کند
+                return content # برای HTML
 
         logger.debug(f"[SteamEnricher - _fetch_with_retry] کش برای {url} معتبر نیست یا وجود ندارد. در حال واکشی از وب‌سایت.")
         for attempt in range(max_retries):
@@ -69,14 +70,14 @@ class SteamEnricher:
                 current_delay = initial_delay * (2 ** attempt) + random.uniform(0, 1)
                 logger.debug(f"[SteamEnricher - _fetch_with_retry] تلاش {attempt + 1}/{max_retries} برای واکشی Steam URL: {url} (تأخیر: {current_delay:.2f} ثانیه)")
                 await asyncio.sleep(current_delay)
-                async with session.get(url, headers=self.HEADERS, timeout=15) as response:
+                async with session.get(url, headers=self.HEADERS, timeout=20) as response: # افزایش timeout
                     response.raise_for_status()
                     content = None
                     if is_json_expected:
                         try:
                             content = await response.json()
                         except aiohttp.ContentTypeError:
-                            logger.warning(f"⚠️ [SteamEnricher - _fetch_with_retry] پاسخ غیر JSON از Steam API برای {url}.")
+                            logger.warning(f"⚠️ [SteamEnricher - _fetch_with_retry] پاسخ غیر JSON از Steam API برای {url} (تلاش {attempt + 1}/{max_retries}).")
                             continue # تلاش مجدد
                     else:
                         content = await response.text()
@@ -109,12 +110,15 @@ class SteamEnricher:
         """
         Steam App ID را با جستجو بر اساس عنوان بازی پیدا می‌کند.
         """
-        search_query = re.sub(r'[^a-zA-Z0-9\s]', '', game_title).strip()
-        if not search_query:
+        # تمیز کردن عنوان برای جستجو: حذف پرانتزها و محتوای آنها، سپس کاراکترهای خاص
+        cleaned_title = re.sub(r'\(.*?\)|\[.*?\]', '', game_title) # حذف (محتوا) و [محتوا]
+        cleaned_title = re.sub(r'[^a-zA-Z0-9\s]', '', cleaned_title).strip() # حذف کاراکترهای خاص
+        
+        if not cleaned_title:
             logger.warning(f"⚠️ [SteamEnricher - _find_steam_app_id] عنوان بازی برای جستجوی Steam App ID خالی است: '{game_title}'")
             return None
 
-        search_url = self.STEAM_SEARCH_URL.format(query=search_query)
+        search_url = self.STEAM_SEARCH_URL.format(query=cleaned_title)
         logger.info(f"در حال جستجوی Steam App ID برای: '{game_title}' (URL جستجو: {search_url})")
 
         html_content = await self._fetch_with_retry(session, search_url, is_json_expected=False)

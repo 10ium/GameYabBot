@@ -10,7 +10,7 @@ from urllib.parse import urlparse, urlunparse, parse_qs # وارد کردن ما
 # وارد کردن ماژول‌های اصلی
 from core.database import Database
 from core.telegram_bot import TelegramBot
-# وارد کردن منابع داده (ITAD اکنون از Playwright استفاده می‌کند، Epic Games از aiohttp)
+# وارد کردن منابع داده
 from sources.itad import ITADSource
 from sources.reddit import RedditSource
 from sources.epic_games import EpicGamesSource
@@ -21,6 +21,7 @@ from enrichment.metacritic_enricher import MetacriticEnricher
 from translation.translator import SmartTranslator
 # وارد کردن ابزارهای کمکی
 from utils import clean_title_for_search # وارد کردن تابع تمیزکننده مشترک
+from utils.store_detector import infer_store_from_game_data # <--- وارد کردن تابع از ماژول جدید
 
 # تنظیمات اولیه لاگ‌گیری
 logging.basicConfig(
@@ -33,141 +34,11 @@ logger = logging.getLogger(__name__) # تعریف لاگر برای این ما�
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 DEEPL_API_KEY = os.getenv("DEEPL_API_KEY") # این متغیر باید به SmartTranslator پاس داده شود اگر DeepL استفاده می‌شود
 
-def _infer_store_from_game_data(game: Dict[str, Any]) -> str:
-    """
-    نام فروشگاه را از داده‌های بازی (ترجیحاً از فیلد 'store'، سپس از URL، سپس از عنوان) استنتاج می‌کند.
-    """
-    # 1. اولویت با فیلد 'store' موجود
-    if game.get('store') and game['store'].lower() != 'unknown':
-        store_name = game['store'].lower().replace(' ', '')
-        logger.debug(f"[_infer_store_from_game_data] فروشگاه از فیلد 'store' استنتاج شد: {store_name} (عنوان: {game.get('title')})")
-        return store_name
+# تنظیمات کش سراسری
+CACHE_DIR = "cache"
+CACHE_TTL = 86400 # 24 ساعت به ثانیه
 
-    # 2. استنتاج از URL
-    url = game.get('url')
-    if url:
-        try:
-            parsed_url = urlparse(url)
-            domain = parsed_url.netloc.lower()
-            
-            # الگوهای دامنه را برای فروشگاه‌های خاص بررسی کن
-            if 'steampowered.com' in domain:
-                logger.debug(f"[_infer_store_from_game_data] فروشگاه 'steam' از URL استنتاج شد: {url} (عنوان: {game.get('title')})")
-                return 'steam'
-            elif 'epicgames.com' in domain:
-                logger.debug(f"[_infer_store_from_game_data] فروشگاه 'epicgames' از URL استنتاج شد: {url} (عنوان: {game.get('title')})")
-                return 'epicgames'
-            elif 'gog.com' in domain:
-                logger.debug(f"[_infer_store_from_game_data] فروشگاه 'gog' از URL استنتاج شد: {url} (عنوان: {game.get('title')})")
-                return 'gog'
-            elif 'itch.io' in domain:
-                logger.debug(f"[_infer_store_from_game_data] فروشگاه 'itch.io' از URL استنتاج شد: {url} (عنوان: {game.get('title')})")
-                return 'itch.io'
-            elif 'indiegala.com' in domain:
-                logger.debug(f"[_infer_store_from_game_data] فروشگاه 'indiegala' از URL استنتاج شد: {url} (عنوان: {game.get('title')})")
-                return 'indiegala'
-            elif 'microsoft.com' in domain or 'xbox.com' in domain:
-                logger.debug(f"[_infer_store_from_game_data] فروشگاه 'microsoftstore' از URL استنتاج شد: {url} (عنوان: {game.get('title')})")
-                return 'microsoftstore'
-            elif 'playstation.com' in domain:
-                logger.debug(f"[_infer_store_from_game_data] فروشگاه 'playstation' از URL استنتاج شد: {url} (عنوان: {game.get('title')})")
-                return 'playstation'
-            elif 'nintendo.com' in domain:
-                logger.debug(f"[_infer_store_from_game_data] فروشگاه 'nintendo' از URL استنتاج شد: {url} (عنوان: {game.get('title')})")
-                return 'nintendo'
-            elif 'ea.com' in domain:
-                logger.debug(f"[_infer_store_from_game_data] فروشگاه 'eastore' از URL استنتاج شد: {url} (عنوان: {game.get('title')})")
-                return 'eastore'
-            elif 'ubisoft.com' in domain:
-                logger.debug(f"[_infer_store_from_game_data] فروشگاه 'ubisoftstore' از URL استنتاج شد: {url} (عنوان: {game.get('title')})")
-                return 'ubisoftstore'
-            elif 'humblebundle.com' in domain:
-                logger.debug(f"[_infer_store_from_game_data] فروشگاه 'humblestore' از URL استنتاج شد: {url} (عنوان: {game.get('title')})")
-                return 'humblestore'
-            elif 'fanatical.com' in domain:
-                logger.debug(f"[_infer_store_from_game_data] فروشگاه 'fanatical' از URL استنتاج شد: {url} (عنوان: {game.get('title')})")
-                return 'fanatical'
-            elif 'greenmangaming.com' in domain:
-                logger.debug(f"[_infer_store_from_game_data] فروشگاه 'greenmangaming' از URL استنتاج شد: {url} (عنوان: {game.get('title')})")
-                return 'greenmangaming'
-            elif 'amazon.com' in domain:
-                logger.debug(f"[_infer_store_from_game_data] فروشگاه 'amazon' از URL استنتاج شد: {url} (عنوان: {game.get('title')})")
-                return 'amazon'
-            elif 'blizzard.com' in domain:
-                logger.debug(f"[_infer_store_from_game_data] فروشگاه 'blizzard' از URL استنتاج شد: {url} (عنوان: {game.get('title')})")
-                return 'blizzard'
-            elif 'reddit.com' in domain or 'redd.it' in domain: # برای لینک‌هایی که مستقیماً از Reddit می‌آیند
-                logger.debug(f"[_infer_store_from_game_data] فروشگاه 'reddit' از URL استنتاج شد: {url} (عنوان: {game.get('title')})")
-                return 'reddit'
-            elif 'givee.club' in domain: # اضافه شدن givee.club
-                logger.debug(f"[_infer_store_from_game_data] فروشگاه 'other' از URL givee.club استنتاج شد: {url} (عنوان: {game.get('title')})")
-                return 'other'
-        except Exception as e:
-            logger.warning(f"⚠️ خطای تجزیه URL برای استنتاج فروشگاه: {url} - {e}")
-
-    # 3. استنتاج از عنوان (با استفاده از تگ‌های رایج)
-    title = game.get('title', '').lower()
-    if '[steam]' in title:
-        logger.debug(f"[_infer_store_from_game_data] فروشگاه 'steam' از عنوان استنتاج شد: {title}")
-        return 'steam'
-    elif '[epic games]' in title or '[egs]' in title:
-        logger.debug(f"[_infer_store_from_game_data] فروشگاه 'epicgames' از عنوان استنتاج شد: {title}")
-        return 'epicgames'
-    elif '[gog]' in title:
-        logger.debug(f"[_infer_store_from_game_data] فروشگاه 'gog' از عنوان استنتاج شد: {title}")
-        return 'gog'
-    elif '[xbox]' in title:
-        logger.debug(f"[_infer_store_from_game_data] فروشگاه 'microsoftstore' از عنوان استنتاج شد: {title}")
-        return 'microsoftstore'
-    elif '[ps]' in title or '[playstation]' in title:
-        logger.debug(f"[_infer_store_from_game_data] فروشگاه 'playstation' از عنوان استنتاج شد: {title}")
-        return 'playstation'
-    elif '[switch]' in title or '[nintendo]' in title:
-        logger.debug(f"[_infer_store_from_game_data] فروشگاه 'nintendo' از عنوان استنتاج شد: {title}")
-        return 'nintendo'
-    elif '[android]' in title or '[googleplay]' in title or '[google play]' in title:
-        logger.debug(f"[_infer_store_from_game_data] فروشگاه 'google play' از عنوان استنتاج شد: {title}")
-        return 'google play'
-    elif '[ios]' in title or '[apple]' in title:
-        logger.debug(f"[_infer_store_from_game_data] فروشگاه 'ios app store' از عنوان استنتاج شد: {title}")
-        return 'ios app store'
-    elif '[itch.io]' in title or '[itchio]' in title:
-        logger.debug(f"[_infer_store_from_game_data] فروشگاه 'itch.io' از عنوان استنتاج شد: {title}")
-        return 'itch.io'
-    elif '[indiegala]' in title:
-        logger.debug(f"[_infer_store_from_game_data] فروشگاه 'indiegala' از عنوان استنتاج شد: {title}")
-        return 'indiegala'
-    elif '[stove]' in title:
-        logger.debug(f"[_infer_store_from_game_data] فروشگاه 'stove' از عنوان استنتاج شد: {title}")
-        return 'stove'
-    elif '[amazon]' in title:
-        logger.debug(f"[_infer_store_from_game_data] فروشگاه 'amazon' از عنوان استنتاج شد: {title}")
-        return 'amazon'
-    elif '[ubisoft]' in title:
-        logger.debug(f"[_infer_store_from_game_data] فروشگاه 'ubisoftstore' از عنوان استنتاج شد: {title}")
-        return 'ubisoftstore'
-    elif '[humble]' in title:
-        logger.debug(f"[_infer_store_from_game_data] فروشگاه 'humblestore' از عنوان استنتاج شد: {title}")
-        return 'humblestore'
-    elif '[fanatical]' in title:
-        logger.debug(f"[_infer_store_from_game_data] فروشگاه 'fanatical' از عنوان استنتاج شد: {title}")
-        return 'fanatical'
-    elif '[gmg]' in title:
-        logger.debug(f"[_infer_store_from_game_data] فروشگاه 'greenmangaming' از عنوان استنتاج شد: {title}")
-        return 'greenmangaming'
-    elif '[blizzard]' in title:
-        logger.debug(f"[_infer_store_from_game_data] فروشگاه 'blizzard' از عنوان استنتاج شد: {title}")
-        return 'blizzard'
-    elif '[ea]' in title:
-        logger.debug(f"[_infer_store_from_game_data] فروشگاه 'eastore' از عنوان استنتاج شد: {title}")
-        return 'eastore'
-    elif '[reddit]' in title:
-        logger.debug(f"[_infer_store_from_game_data] فروشگاه 'reddit' از عنوان استنتاج شد: {title}")
-        return 'reddit'
-
-    # 4. در نهایت، به 'other' برگرد
-    logger.debug(f"[_infer_store_from_game_data] فروشگاه برای '{game.get('title', 'نامشخص')}' از هیچ منبعی استنتاج نشد. 'other' برگردانده شد.")
-    return 'other'
+# تابع _infer_store_from_game_data از اینجا حذف شد و به utils/store_detector.py منتقل شد.
 
 def _normalize_url_for_key(url: str) -> str:
     """
@@ -197,7 +68,7 @@ def _normalize_url_for_key(url: str) -> str:
             match = re.search(r'/(game|movie)/([^/?#]+)', normalized_path)
             if match:
                 logger.debug(f"[_normalize_url_for_key] URL GOG نرمال‌سازی شد به: gog_game_{match.group(2)}")
-                return f"gog_game_{match.group(2)}"
+                return f"gog_game_{match.group(2)}")
         # می‌توانید منطق نرمال‌سازی خاص فروشگاه‌های بیشتری را اینجا اضافه کنید
 
         # برای سایر URLها، فقط طرح+دامنه+مسیر نرمال‌شده را برگردان
@@ -269,7 +140,7 @@ def _get_deduplication_key(game: Dict[str, Any]) -> str:
     یک کلید منحصر به فرد برای deduplication بازی‌ها ایجاد می‌کند.
     اولویت با URL نرمال‌شده به همراه نام فروشگاه است.
     """
-    store_name = _infer_store_from_game_data(game) # دریافت نام فروشگاه استنتاج شده
+    store_name = infer_store_from_game_data(game) # <--- استفاده از تابع از ماژول جدید
 
     # اگر بازی تخفیف‌دار است، یک پیشوند اضافه کن تا از پیشنهادهای رایگان متمایز شود
     prefix_discount = "discount_" if not game.get('is_free', True) else ""
@@ -363,8 +234,9 @@ async def enrich_and_translate_game(game: Dict[str, Any], steam_enricher: SteamE
     logger.debug(f"شروع غنی‌سازی و ترجمه برای بازی: '{game.get('title', 'نامشخص')}'")
     
     # استنتاج و به‌روزرسانی فیلد 'store' در دیکشنری بازی
-    inferred_store = _infer_store_from_game_data(game)
-    game['store'] = inferred_store # این خط تضمین می‌کند که فیلد store در بازی به‌روز شود
+    # این تابع از ماژول store_detector وارد شده است.
+    inferred_store = infer_store_from_game_data(game)
+    game['store'] = inferred_store 
 
     store = game.get('store', '').lower().replace(' ', '')
 
@@ -444,9 +316,9 @@ async def main():
     # --- مرحله ۲: نمونه‌سازی و جمع‌آوری داده از تمام منابع ---
     logger.info("🎮 شروع فرآیند یافتن بازی‌های رایگان از منابع مختلف...")
     sources = [
-        ITADSource(),
-        RedditSource(),
-        EpicGamesSource()
+        ITADSource(cache_dir=CACHE_DIR, cache_ttl=CACHE_TTL),
+        RedditSource(cache_dir=CACHE_DIR, cache_ttl=CACHE_TTL),
+        EpicGamesSource(cache_dir=CACHE_DIR, cache_ttl=CACHE_TTL)
     ]
     
     fetch_tasks = [source.fetch_free_games() for source in sources]
@@ -476,8 +348,8 @@ async def main():
 
     # --- مرحله ۳: غنی‌سازی و ترجمه تمام بازی‌های یافت شده (قبل از deduplication) ---
     logger.info("✨ شروع فرآیند غنی‌سازی و ترجمه بازی‌ها...")
-    steam_enricher = SteamEnricher()
-    metacritic_enricher = MetacriticEnricher()
+    steam_enricher = SteamEnricher(cache_dir=CACHE_DIR, cache_ttl=CACHE_TTL)
+    metacritic_enricher = MetacriticEnricher(cache_dir=CACHE_DIR, cache_ttl=CACHE_TTL)
     
     enrich_tasks = [
         enrich_and_translate_game(game, steam_enricher, metacritic_enricher, translator)
@@ -543,7 +415,7 @@ async def main():
     # else:
     #     logger.info(f"📤 {len(games_to_post_to_telegram)} بازی برای ارسال به تلگرام آماده است.")
     #     for game in games_to_post_to_telegram:
-    #         store_name = _infer_store_from_game_data(game)
+    #         store_name = infer_store_from_game_data(game)
     #         targets = db.get_targets_for_store(store_name)
             
     #         if not targets:

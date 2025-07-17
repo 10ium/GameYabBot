@@ -10,6 +10,7 @@ import random # برای تأخیر تصادفی
 import os
 import time # برای بررسی زمان فایل کش
 from utils import clean_title_for_search # وارد کردن تابع تمیزکننده مشترک
+from utils.store_detector import infer_store_from_game_data # <--- وارد کردن تابع از ماژول جدید
 
 logging.basicConfig(
     level=logging.INFO, # می‌توانید برای جزئیات بیشتر به logging.DEBUG تغییر دهید
@@ -32,7 +33,7 @@ class RedditSource:
         self.cache_dir = os.path.join(cache_dir, "reddit")
         self.cache_ttl = cache_ttl
         os.makedirs(self.cache_dir, exist_ok=True)
-        logger.info(f"نمونه RedditSource با موفقیت ایجاد شد. دایرکتوری کش: {self.cache_dir}, TTL: {self.cache_ttl} ثانیه.")
+        logger.info(f"[RedditSource] نمونه RedditSource با موفقیت ایجاد شد. دایرکتوری کش: {self.cache_dir}, TTL: {self.cache_ttl} ثانیه.")
 
     @staticmethod
     def _generate_unique_id(base_id: str, item_url: str) -> str:
@@ -160,106 +161,50 @@ class RedditSource:
             
             soup = BeautifulSoup(content_element.text, 'html.parser')
             
-            # --- اولویت‌بندی استخراج URL و فروشگاه ---
             final_url = None
-            detected_store = 'other' # مقدار پیش‌فرض
-
-            # الگوهای URL برای شناسایی فروشگاه‌ها (ترتیب مهم است: خاص‌ترها اول)
-            url_store_map_priority = [
-                (r"epicgames\.com/store/p/.*-android-", "epic games (android)"), 
-                (r"epicgames\.com/store/p/.*-ios-", "epic games (ios)"),
-                (r"epicgames\.com/store/p/", "epic games"),
-                (r"store\.steampowered\.com", "steam"),
-                (r"play\.google\.com", "google play"),
-                (r"apps\.apple\.com", "ios app store"),
-                (r"xbox\.com", "xbox"),
-                (r"playstation\.com", "playstation"), 
-                (r"gog\.com", "gog"),
-                (r"itch\.io", "itch.io"),
-                (r"indiegala\.com", "indiegala"),
-                (r"onstove\.com", "stove"),
-                (r"givee\.club", "other") # اضافه شدن givee.club
-            ]
-
+            
             # 1. تلاش برای یافتن لینک مستقیم فروشگاه از محتوای پست (غیر از لینک [link] اصلی)
             all_links_in_content = soup.find_all('a', href=True)
             for a_tag in all_links_in_content:
                 href = a_tag['href']
-                # از لینک‌های ردیت داخلی و لینک‌های خالی صرف نظر کن
                 if "reddit.com" in href or not href.startswith("http"):
                     continue
-                
-                for pattern, store_name in url_store_map_priority:
-                    if re.search(pattern, href, re.IGNORECASE):
-                        final_url = href
-                        detected_store = store_name
-                        logger.debug(f"[RedditSource - _normalize_post_data] فروشگاه '{store_name}' از لینک داخلی محتوا برای '{raw_title}' استنتاج شد: {href}")
-                        break # اولین تطابق با اولویت بالاتر را پیدا کردیم
-                if final_url: # اگر لینکی پیدا شد، از حلقه خارج شو
-                    break
+                final_url = href # اولین لینک معتبر خارجی را به عنوان final_url در نظر بگیر
+                logger.debug(f"[RedditSource - _normalize_post_data] لینک خارجی از محتوای پست یافت شد: {final_url}")
+                break
 
             # 2. اگر هنوز لینک فروشگاه مستقیم پیدا نشد، لینک [link] اصلی را بررسی کن
             if not final_url:
                 link_tag = soup.find('a', string='[link]')
                 if link_tag and 'href' in link_tag.attrs:
                     main_post_url = link_tag['href']
-                    # اگر لینک [link] یک لینک دائمی ردیت باشد، آن را واکشی و تجزیه کن
                     if "reddit.com" in main_post_url and "/comments/" in main_post_url:
                         logger.debug(f"[RedditSource - _normalize_post_data] لینک [link] به یک لینک دائمی ردیت اشاره دارد: {main_post_url}. در حال واکشی محتوا...")
                         fetched_external_url = await self._fetch_and_parse_reddit_permalink(session, main_post_url)
                         if fetched_external_url:
                             final_url = fetched_external_url
-                            # پس از واکشی، فروشگاه را دوباره از URL جدید حدس بزن
-                            for pattern, store_name in url_store_map_priority:
-                                if re.search(pattern, final_url, re.IGNORECASE):
-                                    detected_store = store_name
-                                    logger.debug(f"[RedditSource - _normalize_post_data] فروشگاه '{store_name}' از لینک خارجی واکشی شده برای '{raw_title}' استنتاج شد: {final_url}")
-                                    break
+                            logger.debug(f"[RedditSource - _normalize_post_data] لینک خارجی از لینک دائمی ردیت واکشی شد: {final_url}")
                         else:
                             logger.warning(f"⚠️ [RedditSource - _normalize_post_data] لینک خارجی از لینک دائمی ردیت '{main_post_url}' استخراج نشد. از لینک اصلی ردیت استفاده می‌شود.")
                             final_url = main_post_url # Fallback به لینک دائمی ردیت
-                            detected_store = "reddit" # صریحاً به reddit تنظیم شود اگر permalink URL نهایی است
                     else: # اگر لینک [link] یک URL مستقیم فروشگاه بود
                         final_url = main_post_url
-                        # فروشگاه را از لینک [link] اصلی حدس بزن
-                        for pattern, store_name in url_store_map_priority:
-                            if re.search(pattern, final_url, re.IGNORECASE):
-                                detected_store = store_name
-                                logger.debug(f"[RedditSource - _normalize_post_data] فروشگاه '{store_name}' از لینک [link] اصلی برای '{raw_title}' استنتاج شد: {final_url}")
-                                break
+                        logger.debug(f"[RedditSource - _normalize_post_data] لینک [link] یک URL مستقیم فروشگاه است: {final_url}")
                 else:
                     logger.debug(f"[RedditSource - _normalize_post_data] لینک [link] در پست '{raw_title}' از ساب‌ردیت {subreddit_name} یافت نشد.")
-                    # Fallback به URL اصلی پست RSS اگر هیچ لینک دیگری پیدا نشد
                     link_element = entry.find('atom:link', ns)
                     if link_element is not None and link_element.get('href'):
                         final_url = link_element.get('href')
-                        detected_store = "reddit" # اگر از لینک RSS پست استفاده شد، فروشگاه را reddit قرار بده
                         logger.warning(f"⚠️ [RedditSource - _normalize_post_data] هیچ لینک فروشگاه مستقیمی برای '{raw_title}' یافت نشد. از لینک RSS پست استفاده می‌شود: {final_url}")
                     else:
                         logger.warning(f"⚠️ [RedditSource - _normalize_post_data] هیچ URL معتبری برای پست '{raw_title}' از ساب‌ردیت {subreddit_name} یافت نشد. نادیده گرفته شد.")
                         return None
             
-            # 3. اگر هنوز نام فروشگاه عمومی بود، تلاش برای استخراج از براکت در عنوان
-            if detected_store == 'other': # فقط اگر هنوز 'other' است، از براکت استفاده کن
-                store_platform_match = re.search(r'\[([^\]]+)\]', raw_title)
-                if store_platform_match:
-                    platform_str = store_platform_match.group(1).strip().lower()
+            # استفاده از infer_store_from_game_data برای استنتاج نهایی فروشگاه
+            # این تابع از utils.store_detector وارد شده است.
+            detected_store = infer_store_from_game_data({"url": final_url, "title": raw_title})
+            logger.debug(f"[RedditSource - _normalize_post_data] فروشگاه نهایی استنتاج شده برای '{raw_title}': {detected_store}")
 
-                    if "steam" in platform_str: detected_store = "steam"
-                    elif "epic games" in platform_str or "epicgames" in platform_str: detected_store = "epic games"
-                    elif "gog" in platform_str: detected_store = "gog"
-                    elif "xbox" in platform_str: detected_store = "xbox"
-                    elif "ps" in platform_str or "playstation" in platform_str: detected_store = "playstation"
-                    elif "nintendo" in platform_str: detected_store = "nintendo"
-                    elif "stove" in platform_str: detected_store = "stove"
-                    elif "indiegala" in platform_str: detected_store = "indiegala"
-                    elif "itch.io" in platform_str or "itchio" in platform_str: detected_store = "itch.io"
-                    elif "android" in platform_str or "googleplay" in platform_str or "google play" in platform_str or "apps" in platform_str:
-                        detected_store = "google play"
-                    elif "ios" in platform_str or "apple" in platform_str:
-                        detected_store = "ios app store"
-                    logger.debug(f"[RedditSource - _normalize_post_data] فروشگاه '{detected_store}' از براکت در عنوان برای '{raw_title}' استنتاج شد.")
-            
             # --- استخراج توضیحات و تصویر ---
             description_tag = soup.find('div', class_='md')
             description = description_tag.get_text(strip=True) if description_tag else ""
@@ -273,7 +218,7 @@ class RedditSource:
             if not clean_title:
                 clean_title = raw_title.strip()
                 if not clean_title:
-                    logger.warning(f"⚠️ [RedditSource - _normalize_post_data] پست بازی رایگان با عنوان کاملاً خالی از RSS ردیت ({subreddit_name}) نadیده گرفته شد. ID: {post_id}")
+                    logger.warning(f"⚠️ [RedditSource - _normalize_post_data] پست بازی رایگان با عنوان کاملاً خالی از RSS ردیت ({subreddit_name}) نادیده گرفته شد. ID: {post_id}")
                     return None
 
             # تعیین is_free و discount_text
@@ -320,22 +265,8 @@ class RedditSource:
         soup = BeautifulSoup(html_content, 'html.parser')
         logger.debug(f"[RedditSource - _parse_apphookup_weekly_deals] در حال تجزیه محتوای HTML برای پست Weekly Deals (ID: {base_post_id}).")
         
-        # الگوهای URL برای شناسایی فروشگاه‌ها (ترتیب مهم است: خاص‌ترها اول)
-        url_store_map_priority = [
-            (r"epicgames\.com/store/p/.*-android-", "epic games (android)"), 
-            (r"epicgames\.com/store/p/.*-ios-", "epic games (ios)"),
-            (r"epicgames\.com/store/p/", "epic games"),
-            (r"store\.steampowered\.com", "steam"),
-            (r"play\.google\.com", "google play"),
-            (r"apps\.apple\.com", "ios app store"),
-            (r"xbox\.com", "xbox"),
-            (r"playstation\.com", "playstation"),
-            (r"gog\.com", "gog"),
-            (r"itch\.io", "itch.io"),
-            (r"indiegala\.com", "indiegala"),
-            (r"onstove\.com", "stove"),
-            (r"givee\.club", "other") # اضافه شدن givee.club
-        ]
+        # الگوهای URL برای شناسایی فروشگاه‌ها (ترتیب مهم است: خاص‌ترها اول) - اینها دیگر استفاده نمی‌شوند
+        # url_store_map_priority = [...]
 
         # سلکتورهای احتمالی برای آیتم‌های لیست در پست‌های AppHookup
         list_items = soup.find_all(['p', 'li'])
@@ -383,13 +314,9 @@ class RedditSource:
                 logger.debug(f"[RedditSource - _parse_apphookup_weekly_deals] آیتم '{item_title}' به عنوان تخفیف‌دار (متن: '{text_around_link}') شناسایی شد.")
 
             if is_truly_free or (not is_truly_free and discount_text): # اضافه کردن هم رایگان و هم تخفیف‌دار
-                store = "other"
-                # 1. تلاش برای حدس زدن از URL اصلی
-                for pattern, store_name in url_store_map_priority:
-                    if re.search(pattern, item_url, re.IGNORECASE):
-                        store = store_name
-                        logger.debug(f"[RedditSource - _parse_apphookup_weekly_deals] فروشگاه '{store_name}' از URL داخلی برای '{item_title}' استنتاج شد.")
-                        break
+                # استفاده از infer_store_from_game_data برای استنتاج نهایی فروشگاه
+                detected_store = infer_store_from_game_data({"url": item_url, "title": item_title})
+                logger.debug(f"[RedditSource - _parse_apphookup_weekly_deals] فروشگاه نهایی استنتاج شده برای '{item_title}': {detected_store}")
                 
                 item_description = item_element.get_text(separator=' ', strip=True)
                 item_description = item_description.replace(item_title, '').replace(item_url, '').strip()
@@ -404,7 +331,7 @@ class RedditSource:
                 if item_title:
                     found_items.append({
                         "title": clean_title_for_search(item_title), # تمیز کردن عنوان آیتم داخلی با تابع مشترک
-                        "store": store,
+                        "store": detected_store, # استفاده از فروشگاه شناسایی شده
                         "url": item_url,
                         "image_url": item_image_url,
                         "description": item_description,
@@ -414,9 +341,9 @@ class RedditSource:
                         "discount_text": discount_text # اضافه شدن فیلد discount_text
                     })
                     if is_truly_free:
-                        logger.info(f"✅ آیتم رایگان داخلی از لیست 'Weekly Deals' (AppHookup) یافت شد: {item_title} (فروشگاه: {store})")
+                        logger.info(f"✅ آیتم رایگان داخلی از لیست 'Weekly Deals' (AppHookup) یافت شد: {item_title} (فروشگاه: {detected_store})")
                     else:
-                        logger.info(f"🔍 آیتم تخفیف‌دار داخلی از لیست 'Weekly Deals' (AppHookup) یافت شد: {item_title} (فروشگاه: {store}, تخفیف: {discount_text})")
+                        logger.info(f"🔍 آیتم تخفیف‌دار داخلی از لیست 'Weekly Deals' (AppHookup) یافت شد: {item_title} (فروشگاه: {detected_store}, تخفیف: {discount_text})")
                 else:
                     logger.warning(f"⚠️ [RedditSource - _parse_apphookup_weekly_deals] آیتم رایگان/تخفیف‌دار داخلی با عنوان خالی از AppHookup نادیده گرفته شد. URL: {item_url}")
             else:
