@@ -218,6 +218,8 @@
                 <option value="all-games">همه بازی‌ها</option>
                 <option value="free-only">فقط بازی‌های رایگان</option>
                 <option value="discounted-only">فقط بازی‌های تخفیف‌خورده</option>
+                <option value="full-games-only">فقط بازی‌های کامل</option>
+                <option value="dlc-only">فقط DLC و محتوای اضافی</option> <!-- New option for DLCs -->
             </select>
 
             <!-- Column Selector -->
@@ -275,12 +277,12 @@
 
         // نگاشت نام‌های انگلیسی فروشگاه‌ها به نام‌های فارسی برای نمایش
         const storeDisplayMap = {
-            "epicgames": "اپیک گیمز (ویندوز)", // Changed from "epic games" to "epicgames" for consistency with backend
+            "epicgames": "اپیک گیمز (ویندوز)",
             "steam": "استیم",
-            "google play": "اندروید", // Consolidated
-            "epic games (android)": "اندروید", // Consolidated
-            "epic games (ios)": "iOS", // Consolidated
-            "ios app store": "iOS", // Consolidated
+            "googleplay": "اندروید", // Corrected key for consistency
+            "epicgames(android)": "اندروید", // Corrected key for consistency
+            "epicgames(ios)": "iOS", // Corrected key for consistency
+            "iosappstore": "iOS", // Corrected key for consistency
             "playstation": "پلی‌استیشن",
             "xbox": "ایکس‌باکس",
             "gog": "GOG",
@@ -289,43 +291,41 @@
             "stove": "STOVE",
             "other": "سایر فروشگاه‌ها",
             "reddit": "ردیت (لینک مستقیم)",
-            // "not free (discount)": "غیر رایگان (تخفیف)", // Removed as per user request
-            "android": "اندروید", // New entry for the consolidated filter value
-            "ios": "iOS", // New entry for the consolidated filter value
-            "microsoftstore": "مایکروسافت استور", // New store
-            "humblestore": "هامبل استور", // New store
-            "fanatical": "فناتیکال", // New store
-            "greenmangaming": "گرین من گیمینگ", // New store
-            "amazon": "آمازون", // New store
-            "blizzard": "بلیزارد", // New store
-            "eastore": "EA استور", // New store
-            "ubisoftstore": "یوبی‌سافت استور" // New store
+            "android": "اندروید", // Consolidated filter value
+            "ios": "iOS", // Consolidated filter value
+            "microsoftstore": "مایکروسافت استور",
+            "humblestore": "هامبل استور",
+            "fanatical": "فناتیکال",
+            "greenmangaming": "گرین من گیمینگ",
+            "amazon": "آمازون",
+            "blizzard": "بلیزارد",
+            "eastore": "EA استور",
+            "ubisoftstore": "یوبی‌سافت استور"
         };
 
-        // ترتیب نمایش دلخواه فروشگاه‌ها
+        // ترتیب نمایش دلخواه فروشگاه‌ها (بر اساس نام‌های فارسی)
         const storeDisplayOrder = [
             "همه فروشگاه‌ها", // این گزینه همیشه اول است
-            "اپیک گیمز (ویندوز)",
             "استیم",
-            "اندروید", // New consolidated category
-            "iOS", // New consolidated category
+            "اپیک گیمز (ویندوز)",
+            "اندروید",
+            "iOS",
             "پلی‌استیشن",
             "ایکس‌باکس",
             "GOG",
             "Itch.io",
             "ایندی‌گالا",
             "STOVE",
-            "مایکروسافت استور", // Added new store
-            "هامبل استور", // Added new store
-            "فناتیکال", // Added new store
-            "گرین من گیمینگ", // Added new store
-            "آمازون", // Added new store
-            "بلیزارد", // Added new store
-            "EA استور", // Added new store
-            "یوبی‌سافت استور", // Added new store
-            "سایر فروشگاه‌ها",
-            "ردیت (لینک مستقیم)"
-            // "غیر رایگان (تخفیف)" // Removed as per user request
+            "مایکروسافت استور",
+            "هامبل استور",
+            "فناتیکال",
+            "گرین من گیمینگ",
+            "آمازون",
+            "بلیزارد",
+            "EA استور",
+            "یوبی‌سافت استور",
+            "ردیت (لینک مستقیم)",
+            "سایر فروشگاه‌ها"
         ];
 
         // نگاشت نام‌های انگلیسی ژانرها به نام‌های فارسی
@@ -397,7 +397,6 @@
             "steam cloud": "ذخیره ابری استیم",
             "steam workshop": "کارگاه استیم",
             "in-app purchases": "خرید درون برنامه‌ای",
-            "free to play": "رایگان",
             "rts": "استراتژی هم‌زمان (RTS)",
             "fps": "شوتر اول شخص (FPS)",
             "tps": "شوتر سوم شخص (TPS)",
@@ -682,16 +681,25 @@
         // Function to apply filter
         function applyFilter() {
             const selectedStoreFilterValue = storeFilter.value; // e.g., "android", "ios", "steam", "all"
-            const displayMode = displayModeFilter.value; // "all-games", "free-only", "discounted-only"
+            const displayMode = displayModeFilter.value; // "all-games", "free-only", "discounted-only", "full-games-only", "dlc-only"
 
             const filteredGames = allGames.filter(game => {
                 // Step 1: Filter by display mode
                 let passesDisplayModeFilter = true;
                 if (displayMode === 'free-only') {
-                    passesDisplayModeFilter = game.is_free !== false; // Only show truly free games
+                    // Show only truly free AND NOT DLC
+                    passesDisplayModeFilter = game.is_free !== false && !game.is_dlc_or_addon;
                 } else if (displayMode === 'discounted-only') {
-                    passesDisplayModeFilter = game.is_free === false; // Only show discounted games
+                    // Show all discounted items (can be full games or DLCs)
+                    passesDisplayModeFilter = game.is_free === false;
+                } else if (displayMode === 'full-games-only') {
+                    // Show only full games (free or discounted), exclude DLCs
+                    passesDisplayModeFilter = !game.is_dlc_or_addon;
+                } else if (displayMode === 'dlc-only') {
+                    // Show only DLCs/Addons (free or discounted)
+                    passesDisplayModeFilter = game.is_dlc_or_addon;
                 }
+                // 'all-games' passesDisplayModeFilter remains true (shows everything)
 
                 // Step 2: Filter by store
                 let passesStoreFilter = true;
@@ -784,7 +792,7 @@
                 rawUniqueStores.forEach(store => {
                     const normalizedStore = store.toLowerCase();
                     let filterValue = normalizedStore.replace(/\s/g, ''); // مقدار واقعی برای فیلتر
-                    let displayText = storeDisplayMap[normalizedStore] || store; // نام نمایشی فارسی
+                    let displayText;
 
                     // منطق ادغام برای اندروید
                     if (normalizedStore === 'google play' || normalizedStore === 'epic games (android)') {
@@ -795,18 +803,17 @@
                     else if (normalizedStore === 'ios app store' || normalizedStore === 'epic games (ios)') {
                         filterValue = 'ios';
                         displayText = 'iOS';
+                    } else {
+                        // برای سایر فروشگاه‌ها، از storeDisplayMap استفاده کن
+                        displayText = storeDisplayMap[filterValue] || store;
                     }
 
                     // اضافه کردن به لیست گزینه‌ها فقط در صورتی که نام نمایشی تکراری نباشد
-                    // از filterValue به عنوان کلید برای addedDisplayNames استفاده می‌کنیم
-                    // تا از تکرار فیلترهای "اندروید" و "iOS" جلوگیری شود.
-                    if (!addedDisplayNames.has(filterValue)) { 
+                    if (!addedDisplayNames.has(displayText)) { 
                         filterOptionsData.push({ value: filterValue, text: displayText });
-                        addedDisplayNames.add(filterValue);
+                        addedDisplayNames.add(displayText);
                     }
                 });
-
-                // "غیر رایگان (تخفیف)" دیگر به عنوان یک گزینه فروشگاه اضافه نمی‌شود.
 
                 // مرتب‌سازی filterOptionsData بر اساس storeDisplayOrder
                 filterOptionsData.sort((a, b) => {

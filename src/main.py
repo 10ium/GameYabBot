@@ -5,7 +5,7 @@ import json
 import re
 from typing import List, Dict, Any
 import random # برای تأخیر تصادفی
-from urllib.parse import urlparse # برای تجزیه URL
+from urllib.parse import urlparse, urlunparse, parse_qs # وارد کردن ماژول‌های تجزیه URL
 
 # وارد کردن ماژول‌های اصلی
 from core.database import Database
@@ -90,16 +90,22 @@ def _infer_store_from_game_data(game: Dict[str, Any]) -> str:
         return 'epicgames'
     elif '[gog]' in title:
         return 'gog'
-    elif '[itch.io]' in title:
-        return 'itch.io'
-    elif '[indiegala]' in title:
-        return 'indiegala'
     elif '[xbox]' in title:
         return 'microsoftstore' # یا 'xbox'
     elif '[ps]' in title or '[playstation]' in title:
         return 'playstation'
     elif '[switch]' in title or '[nintendo]' in title:
         return 'nintendo'
+    elif '[android]' in title or '[googleplay]' in title or '[google play]' in title:
+        return 'google play'
+    elif '[ios]' in title or '[apple]' in title:
+        return 'ios app store'
+    elif '[itch.io]' in title or '[itchio]' in title:
+        return 'itch.io'
+    elif '[indiegala]' in title:
+        return 'indiegala'
+    elif '[stove]' in title:
+        return 'stove'
     elif '[amazon]' in title:
         return 'amazon'
     elif '[ubisoft]' in title:
@@ -112,51 +118,141 @@ def _infer_store_from_game_data(game: Dict[str, Any]) -> str:
         return 'greenmangaming'
     elif '[blizzard]' in title:
         return 'blizzard'
+    elif '[ea]' in title:
+        return 'eastore'
     elif '[reddit]' in title:
         return 'reddit'
 
     # 4. در نهایت، به 'other' برگرد
     return 'other'
 
+def _normalize_url_for_key(url: str) -> str:
+    """
+    URL را برای استفاده به عنوان بخشی از کلید deduplication نرمال‌سازی می‌کند.
+    شناسه منحصر به فرد بازی را از URLهای فروشگاه‌های خاص استخراج می‌کند.
+    """
+    try:
+        parsed = urlparse(url)
+        # حذف پارامترهای کوئری و قطعات، فقط طرح، دامنه و مسیر را حفظ می‌کند
+        normalized_path = parsed.path.rstrip('/') # حذف اسلش انتهایی
+        
+        # مدیریت خاص برای URLهای فروشگاه برای قوی‌تر کردن آن‌ها
+        if 'steampowered.com' in parsed.netloc:
+            # شناسه‌های Steam app معمولاً در /app/{id}/ هستند
+            match = re.search(r'/app/(\d+)/?', normalized_path)
+            if match:
+                return f"steam_app_{match.group(1)}"
+        elif 'epicgames.com/store/p/' in url:
+            # slugهای محصول Epic منحصر به فرد هستند
+            match = re.search(r'/store/p/([^/?#]+)', normalized_path)
+            if match:
+                return f"epic_product_{match.group(1)}"
+        elif 'gog.com' in parsed.netloc:
+            # slugهای بازی GOG منحصر به فرد هستند
+            match = re.search(r'/(game|movie)/([^/?#]+)', normalized_path)
+            if match:
+                return f"gog_game_{match.group(2)}"
+        # می‌توانید منطق نرمال‌سازی خاص فروشگاه‌های بیشتری را اینجا اضافه کنید
+        # برای مثال:
+        # elif 'microsoft.com/store/p/' in url:
+        #     match = re.search(r'/store/p/([^/?#]+)', normalized_path)
+        #     if match:
+        #         return f"ms_product_{match.group(1)}"
+
+        # برای سایر URLها، فقط طرح+دامنه+مسیر نرمال‌شده را برگردان
+        return urlunparse((parsed.scheme, parsed.netloc, normalized_path, '', '', ''))
+    except Exception:
+        # اگر تجزیه URL با شکست مواجه شد، URL اصلی را به عنوان فال‌بک برگردان، اما لاگ کن
+        logging.warning(f"Failed to normalize URL for key: {url}", exc_info=True)
+        return url # فال‌بک به URL اصلی اگر نرمال‌سازی با شکست مواجه شد
+
+def _classify_game_type(game: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    بازی را به عنوان یک بازی کامل یا DLC/محتوای اضافی طبقه‌بندی می‌کند.
+    فیلد 'is_dlc_or_addon' را به دیکشنری بازی اضافه می‌کند.
+    """
+    game['is_dlc_or_addon'] = False # پیش‌فرض
+
+    title_lower = game.get('title', '').lower()
+    url_lower = game.get('url', '').lower()
+    product_slug_lower = game.get('productSlug', '').lower() # برای Epic Games
+
+    # کلمات کلیدی رایج برای DLC/محتوای اضافی در عنوان
+    dlc_keywords = [
+        "dlc", "expansion", "season pass", "soundtrack", "artbook", "bonus",
+        "pack", "upgrade", "add-on", "bundle", "edition", "ultimate", "deluxe" # "bundle", "edition", "ultimate", "deluxe" ممکن است بازی کامل هم باشند، با احتیاط استفاده شود.
+    ]
+    # الگوهای خاص برای جلوگیری از false positives برای "bundle", "edition"
+    # اگر عنوان شامل "game" یا "full game" باشد، کمتر احتمال دارد DLC باشد.
+    positive_game_keywords = ["game", "full game", "standard edition"]
+
+    # بررسی کلمات کلیدی در عنوان
+    if any(keyword in title_lower for keyword in dlc_keywords):
+        # بررسی برای false positives: اگر کلمه کلیدی DLC وجود دارد اما کلمه کلیدی بازی کامل هم هست
+        if not any(pk in title_lower for pk in positive_game_keywords):
+            game['is_dlc_or_addon'] = True
+            logging.debug(f"بازی '{game.get('title')}' به عنوان DLC/Addon (عنوان) طبقه‌بندی شد.")
+            return game # اگر از عنوان تشخیص داده شد، دیگر نیازی به بررسی URL نیست
+
+    # بررسی الگوهای URL/slug برای Epic Games
+    if game.get('store', '').lower().replace(' ', '') == 'epicgames':
+        if "edition" in product_slug_lower and "standard-edition" not in product_slug_lower:
+             game['is_dlc_or_addon'] = True
+             logging.debug(f"بازی '{game.get('title')}' به عنوان DLC/Addon (اسلاگ Epic) طبقه‌بندی شد.")
+        elif "dlc" in product_slug_lower or "expansion" in product_slug_lower or "soundtrack" in product_slug_lower:
+            game['is_dlc_or_addon'] = True
+            logging.debug(f"بازی '{game.get('title')}' به عنوان DLC/Addon (اسلاگ Epic) طبقه‌بندی شد.")
+        elif "bundle" in product_slug_lower and "game" not in title_lower: # اگر bundle بود و عنوان شامل "game" نبود
+            game['is_dlc_or_addon'] = True
+            logging.debug(f"بازی '{game.get('title')}' به عنوان DLC/Addon (اسلاگ Epic Bundle) طبقه‌بندی شد.")
+    
+    # بررسی الگوهای URL عمومی
+    if "/dlc/" in url_lower or "/addons/" in url_lower or "/soundtrack/" in url_lower or "/artbook/" in url_lower:
+        game['is_dlc_or_addon'] = True
+        logging.debug(f"بازی '{game.get('title')}' به عنوان DLC/Addon (URL) طبقه‌بندی شد.")
+
+    # اگر هنوز تشخیص داده نشد و عنوان شامل "bundle" یا "pack" است، با احتیاط بیشتر بررسی کن
+    if not game['is_dlc_or_addon'] and ("bundle" in title_lower or "pack" in title_lower):
+        # اگر "bundle" یا "pack" بود اما "game" یا "collection" یا "games" در عنوان نبود، احتمالاً DLC است
+        if not any(kw in title_lower for kw in ["game", "games", "collection", "complete"]):
+            game['is_dlc_or_addon'] = True
+            logging.debug(f"بازی '{game.get('title')}' به عنوان DLC/Addon (عنوان مشکوک) طبقه‌بندی شد.")
+
+    return game
+
 
 def _get_deduplication_key(game: Dict[str, Any]) -> str:
     """
     یک کلید منحصر به فرد برای deduplication بازی‌ها ایجاد می‌کند.
-    اولویت با Steam App ID است، سپس با یک عنوان بسیار تمیز شده.
-    این کلید اکنون شامل نام فروشگاه نیز می‌شود تا پیشنهادهای رایگان از فروشگاه‌های مختلف برای یک بازی،
-    به عنوان ورودی‌های جداگانه در نظر گرفته شوند.
+    اولویت با URL نرمال‌شده به همراه نام فروشگاه است.
     """
-    # از تابع جدید برای استنتاج نام فروشگاه استفاده کن
-    store_name = _infer_store_from_game_data(game)
+    store_name = _infer_store_from_game_data(game) # دریافت نام فروشگاه استنتاج شده
 
-    # اگر بازی رایگان نیست، آن را با یک کلید متفاوت از بازی‌های رایگان تفکیک کن
-    # این کار از تداخل یک بازی رایگان با نسخه تخفیف‌دار آن جلوگیری می‌کند.
-    if not game.get('is_free', True):
-        # برای تخفیف‌ها، از عنوان تمیز شده و فروشگاه استفاده می‌کنیم.
-        # این باعث می‌شود که تخفیف‌های یک بازی از فروشگاه‌های مختلف، کلیدهای متفاوتی داشته باشند.
-        return f"discount_{store_name}_{clean_title_for_search(game.get('title', ''))}"
+    # اگر بازی تخفیف‌دار است، یک پیشوند اضافه کن تا از پیشنهادهای رایگان متمایز شود
+    prefix = "discount_" if not game.get('is_free', True) else ""
+    # اگر DLC یا Addon است، یک پیشوند اضافه کن تا از بازی‌های کامل متمایز شود
+    dlc_prefix = "dlc_" if game.get('is_dlc_or_addon', False) else ""
 
+    # 1. اولویت با URL نرمال‌شده + نام فروشگاه
+    if 'url' in game and game['url'] and game['url'].startswith(('http://', 'https://')):
+        normalized_url_part = _normalize_url_for_key(game['url'])
+        if normalized_url_part: # اطمینان حاصل کن که نرمال‌سازی موفقیت‌آمیز بوده و یک کلید معنی‌دار تولید کرده است
+            return f"{prefix}{dlc_prefix}{normalized_url_part}_{store_name}"
+    
+    # 2. فال‌بک به Steam App ID + نام فروشگاه (اگر URL مناسب نبود یا موجود نبود)
+    # این شامل مواردی است که یک بازی Steam ممکن است بدون URL مستقیم Steam لیست شده باشد
+    # اما یک Steam App ID از غنی‌سازی داشته باشد.
     if 'steam_app_id' in game and game['steam_app_id']:
-        # اگر Steam App ID موجود است، از آن به همراه نام فروشگاه استفاده کن
-        # این باعث می‌شود که یک بازی Steam که از فروشگاه‌های مختلف (مثل Humble, ITAD) رایگان شده،
-        # به عنوان یک ورودی واحد در نظر گرفته شود اما با توجه به store_name
-        # اگر ITADSource و EpicGamesSource فیلد store را به درستی پر کنند،
-        # این بخش برای Steam App IDهای مشابه از فروشگاه‌های مختلف، کلیدهای متفاوتی تولید می‌کند.
-        # اگر هدف این است که یک بازی (با Steam App ID مشخص) فقط یک بار ثبت شود
-        # بدون توجه به اینکه از کدام فروشگاه رایگان شده، می‌توان store_name را از اینجا حذف کرد.
-        # اما درخواست کاربر این است که "پیشنهادهای رایگان از فروشگاه‌های مختلف برای یک بازی،
-        # به عنوان ورودی‌های جداگانه در نظر گرفته شوند." پس store_name باید بماند.
-        return f"steam_{game['steam_app_id']}_{store_name}"
+        return f"{prefix}{dlc_prefix}steam_app_{game['steam_app_id']}_{store_name}"
     
-    # اگر Steam App ID نبود، از عنوان تمیز شده به همراه نام فروشگاه استفاده می‌کنیم
-    cleaned_title = clean_title_for_search(game.get('title', '')) # استفاده از تابع مشترک
+    # 3. فال‌بک به عنوان تمیز شده + نام فروشگاه
+    cleaned_title = clean_title_for_search(game.get('title', ''))
     if cleaned_title:
-        return f"{cleaned_title}_{store_name}"
+        return f"{prefix}{dlc_prefix}{cleaned_title}_{store_name}"
     
-    # آخرین راه حل: استفاده از URL اصلی (که ممکن است همچنان تکرار داشته باشد)
-    # این fallback برای مواردی است که نه عنوان و نه Steam App ID کمک نمی‌کنند.
-    # به عنوان مثال، بازی‌های بسیار مبهم یا لینک‌های مستقیم دانلود.
-    return game.get('url', f"unknown_{os.urandom(8).hex()}") # Fallback ایمن
+    # 4. آخرین راه حل: استفاده از id_in_db (شناسه خاص منبع) + هش تصادفی
+    # این باید در موارد بسیار نادر رخ دهد اگر منابع داده‌های خوبی ارائه دهند.
+    return f"{prefix}{dlc_prefix}fallback_{game.get('id_in_db', os.urandom(8).hex())}"
 
 def _merge_game_data(existing_game: Dict[str, Any], new_game: Dict[str, Any]) -> Dict[str, Any]:
     """
@@ -196,9 +292,9 @@ def _merge_game_data(existing_game: Dict[str, Any], new_game: Dict[str, Any]) ->
                 'steam_overall_score', 'steam_overall_reviews_count',
                 'steam_recent_score', 'steam_recent_reviews_count',
                 'genres', 'trailer', 'is_multiplayer', 'is_online', 'age_rating', 'is_free', 'discount_text',
-                'persian_genres', 'persian_age_rating']: # age_rating, is_free, discount_text, persian_genres, persian_age_rating هم اضافه شد
+                'persian_genres', 'persian_age_rating', 'is_dlc_or_addon']: # is_dlc_or_addon هم اضافه شد
         if key in new_game and new_game[key]:
-            if key in ['is_multiplayer', 'is_online', 'is_free']: # برای پرچم‌های بولی، OR کن (برای is_free، اگر یکی True بود، True بماند)
+            if key in ['is_multiplayer', 'is_online', 'is_free', 'is_dlc_or_addon']: # برای پرچم‌های بولی، OR کن (برای is_free، اگر یکی True بود، True بماند)
                 merged_game[key] = merged_game.get(key, False) or new_game[key]
             elif key == 'genres' or key == 'persian_genres': # برای لیست‌ها، آیتم‌های منحصر به فرد را ادغام کن
                 merged_game[key] = list(set(merged_game.get(key, []) + new_game[key]))
@@ -259,6 +355,9 @@ async def enrich_and_translate_game(game: Dict[str, Any], steam_enricher: SteamE
     if age_rating and translator:
         game['persian_age_rating'] = await translator.translate(age_rating)
 
+    # طبقه‌بندی نوع بازی (DLC/Addon)
+    game = _classify_game_type(game)
+
     return game
 
 async def main():
@@ -269,12 +368,11 @@ async def main():
         return
 
     db = Database(db_path="data/games.db")
-    bot = TelegramBot(token=TELEGRAM_BOT_TOKEN, db=db)
-    # SmartTranslator اکنون بدون نیاز به DEEPL_API_KEY کار می‌کند
+    # bot = TelegramBot(token=TELEGRAM_BOT_TOKEN, db=db) # غیرفعال کردن موقت ربات تلگرام
     translator = SmartTranslator() 
 
     # --- مرحله ۱: پردازش دستورات معلق کاربران ---
-    await bot.process_pending_updates()
+    # await bot.process_pending_updates() # غیرفعال کردن موقت پردازش آپدیت‌ها
 
     # --- مرحله ۲: نمونه‌سازی و جمع‌آوری داده از تمام منابع ---
     logging.info("🎮 شروع فرآیند یافتن بازی‌های رایگان...")
@@ -353,39 +451,41 @@ async def main():
     logging.info(f"✅ {len(final_unique_games)} بازی منحصر به فرد (پس از deduplication) برای پردازش یافت شد.")
 
     # --- مرحله ۵: فیلتر کردن بازی‌ها برای ارسال به تلگرام (فقط بازی‌های جدید در ۳۰ روز گذشته) ---
-    games_to_post_to_telegram = []
-    for game in final_unique_games: # از لیست deduplicate شده استفاده می‌کنیم
-        url = game.get('url')
-        # فقط بازی‌های کاملاً رایگان را به تلگرام ارسال کن
-        if game.get('is_free', True): # is_free به صورت پیش‌فرض True در نظر گرفته می‌شود
-            if url and not db.is_game_posted_in_last_30_days(url):
-                games_to_post_to_telegram.append(game)
-            else:
-                logging.info(f"ℹ️ بازی '{game.get('title', 'نامشخص')}' (فروشگاه: {game.get('store')}) قبلاً در ۳۰ روز گذشته پست شده بود یا URL ندارد. به تلگرام ارسال نمی‌شود.")
-        else:
-            logging.info(f"ℹ️ بازی '{game.get('title', 'نامشخص')}' (فروشگاه: {game.get('store')}, تخفیف: {game.get('discount_text', 'نامشخص')}) یک تخفیف است و به تلگرام ارسال نمی‌شود.")
+    # games_to_post_to_telegram = [] # غیرفعال کردن موقت ارسال به تلگرام
+    # for game in final_unique_games: # از لیست deduplicate شده استفاده می‌کنیم
+    #     url = game.get('url')
+    #     # فقط بازی‌های کاملاً رایگان و غیر DLC را به تلگرام ارسال کن
+    #     if game.get('is_free', True) and not game.get('is_dlc_or_addon', False): 
+    #         if url and not db.is_game_posted_in_last_30_days(url):
+    #             games_to_post_to_telegram.append(game)
+    #         else:
+    #             logging.info(f"ℹ️ بازی '{game.get('title', 'نامشخص')}' (فروشگاه: {game.get('store')}) قبلاً در ۳۰ روز گذشته پست شده بود یا URL ندارد. به تلگرام ارسال نمی‌شود.")
+    #     else:
+    #         # این لاگ برای بازی‌های تخفیف‌دار یا DLCها (رایگان یا تخفیف‌دار) است که به تلگرام ارسال نمی‌شوند.
+    #         game_type_info = "تخفیف" if not game.get('is_free', True) else "DLC/Addon"
+    #         logging.info(f"ℹ️ بازی '{game.get('title', 'نامشخص')}' (فروشگاه: {game.get('store')}, نوع: {game_type_info}) به تلگرام ارسال نمی‌شود.")
 
 
     # --- مرحله ۶: ارسال پیام‌ها به تلگرام ---
-    if not games_to_post_to_telegram:
-        logging.info("هیچ بازی جدیدی برای ارسال به تلگرام (بر اساس فیلتر ۳۰ روز گذشته) یافت نشد.")
-    else:
-        logging.info(f"📤 {len(games_to_post_to_telegram)} بازی برای ارسال به تلگرام آماده است.")
-        for game in games_to_post_to_telegram:
-            store_name = _infer_store_from_game_data(game) # استفاده از تابع جدید برای تعیین نام فروشگاه در اینجا
-            targets = db.get_targets_for_store(store_name)
+    # if not games_to_post_to_telegram: # غیرفعال کردن موقت ارسال به تلگرام
+    #     logging.info("هیچ بازی جدیدی برای ارسال به تلگرام (بر اساس فیلتر ۳۰ روز گذشته) یافت نشد.")
+    # else:
+    #     logging.info(f"📤 {len(games_to_post_to_telegram)} بازی برای ارسال به تلگرام آماده است.")
+    #     for game in games_to_post_to_telegram:
+    #         store_name = _infer_store_from_game_data(game) # استفاده از تابع جدید برای تعیین نام فروشگاه در اینجا
+    #         targets = db.get_targets_for_store(store_name)
             
-            if not targets:
-                logging.warning(f"هیچ مشترکی برای فروشگاه '{store_name}' یافت نشد. از ارسال '{game['title']}' صرف نظر شد.")
-                continue
+    #         if not targets:
+    #             logging.warning(f"هیچ مشترکی برای فروشگاه '{store_name}' یافت نشد. از ارسال '{game['title']}' صرف نظر شد.")
+    #             continue
 
-            logging.info(f"📤 در حال ارسال پیام برای '{game['title']}' به {len(targets)} مقصد...")
-            send_tasks = [
-                bot.send_formatted_message(game_data=game, chat_id=chat_id, thread_id=thread_id)
-                for chat_id, thread_id in targets
-            ]
-            await asyncio.gather(*send_tasks, return_exceptions=True)
-            db.add_posted_game(game['url']) # ثبت بازی پس از ارسال موفقیت‌آمیز
+    #         logging.info(f"📤 در حال ارسال پیام برای '{game['title']}' به {len(targets)} مقصد...")
+    #         send_tasks = [
+    #             bot.send_formatted_message(game_data=game, chat_id=chat_id, thread_id=thread_id)
+    #             for chat_id, thread_id in targets
+    #         ]
+    #         await asyncio.gather(*send_tasks, return_exceptions=True)
+    #         db.add_posted_game(game['url']) # ثبت بازی پس از ارسال موفقیت‌آمیز
 
     # --- مرحله ۷: ذخیره داده‌های غنی‌شده برای GitHub Pages ---
     # این مرحله همیشه اجرا می‌شود تا فایل JSON برای وب‌سایت با بازی‌های منحصر به فرد به‌روز باشد.
@@ -393,7 +493,7 @@ async def main():
     os.makedirs(output_dir, exist_ok=True)
     output_file_path = os.path.join(output_dir, "free_games.json")
     with open(output_file_path, 'w', encoding='utf-8') as f:
-        # اکنون تمام بازی‌های منحصر به فرد (رایگان و تخفیف‌دار) برای وب‌سایت ذخیره می‌شوند.
+        # اکنون تمام بازی‌های منحصر به فرد (رایگان و تخفیف‌دار، شامل DLC/Addon) برای وب‌سایت ذخیره می‌شوند.
         # فیلترینگ در فرانت‌اند انجام خواهد شد.
         json.dump(final_unique_games, f, ensure_ascii=False, indent=4)
     logging.info(f"✅ داده‌های بازی‌ها (رایگان و تخفیف‌دار) برای GitHub Pages در {output_file_path} ذخیره شد.")
