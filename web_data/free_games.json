@@ -34,6 +34,7 @@
         "subreddit": "GameDeals",
         "is_free": false,
         "discount_text": "50% off",
+        "steam_app_id": "1066780",
         "is_dlc_or_addon": false
     },
     {
@@ -50,7 +51,7 @@
     },
     {
         "title": "Sid Meier’s Civilization® VI Platinum Edition (100% off / FREE)",
-        "store": "epic games",
+        "store": "epicgames",
         "url": "https://store.epicgames.com/en-US/p/sid-meiers-civilization-vi--platinum-edition",
         "image_url": null,
         "description": "",
@@ -144,17 +145,7 @@
         "subreddit": "GameDeals",
         "is_free": true,
         "discount_text": null,
-        "is_dlc_or_addon": false,
-        "steam_app_id": "429470",
-        "genres": [
-            "Adventure",
-            "Indie"
-        ],
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256659255/movie480.webm?t=1450724480",
-        "persian_genres": [
-            "ماجراجویی",
-            "وابسته به"
-        ]
+        "is_dlc_or_addon": false
     },
     {
         "title": "Dungeons & Dragons Neverwinter Nights 2: Enhanced Edition (€26.39 / $27.20 / -8% off), EU, US. | Steam Activation",
@@ -166,20 +157,6 @@
         "subreddit": "GameDeals",
         "is_free": false,
         "discount_text": "8% off",
-        "steam_app_id": "2738630",
-        "genres": [
-            "Action",
-            "Adventure",
-            "RPG"
-        ],
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257142950/movie480_vp9.webm?t=1749409509",
-        "is_multiplayer": true,
-        "is_online": true,
-        "persian_genres": [
-            "عمل",
-            "ماجراجویی",
-            "RPG"
-        ],
         "is_dlc_or_addon": true
     },
     {
@@ -218,15 +195,6 @@
         "is_free": true,
         "discount_text": null,
         "steam_app_id": "672860",
-        "genres": [
-            "Simulation"
-        ],
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256724470/movie480.webm?t=1533366693",
-        "is_multiplayer": false,
-        "is_online": false,
-        "persian_genres": [
-            "شبیه سازی"
-        ],
         "is_dlc_or_addon": false
     },
     {
@@ -252,19 +220,6 @@
         "is_free": true,
         "discount_text": null,
         "steam_app_id": "3400650",
-        "genres": [
-            "Action",
-            "Indie",
-            "Simulation"
-        ],
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257111387/movie480_vp9.webm?t=1741362098",
-        "is_multiplayer": false,
-        "is_online": false,
-        "persian_genres": [
-            "عمل",
-            "وابسته به",
-            "شبیه سازی"
-        ],
         "is_dlc_or_addon": false
     },
     {
@@ -278,21 +233,6 @@
         "is_free": true,
         "discount_text": null,
         "steam_app_id": "1377700",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Indie",
-            "RPG"
-        ],
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257133469/movie480_vp9.webm?t=1751976215",
-        "is_multiplayer": false,
-        "is_online": false,
-        "persian_genres": [
-            "عمل",
-            "ماجراجویی",
-            "وابسته به",
-            "RPG"
-        ],
         "is_dlc_or_addon": false
     },
     {
@@ -306,23 +246,6 @@
         "is_free": true,
         "discount_text": null,
         "steam_app_id": "2015960",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Indie",
-            "Racing",
-            "Sports"
-        ],
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257093187/movie480_vp9.webm?t=1751879614",
-        "is_multiplayer": true,
-        "is_online": false,
-        "persian_genres": [
-            "عمل",
-            "ماجراجویی",
-            "وابسته به",
-            "مسابقه",
-            "ورزش"
-        ],
         "is_dlc_or_addon": false
     },
     {
@@ -336,24 +259,11 @@
         "is_free": true,
         "discount_text": null,
         "steam_app_id": "1824220",
-        "genres": [
-            "Action",
-            "Massively Multiplayer"
-        ],
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257024592/movie480_vp9.webm?t=1716390435",
-        "is_multiplayer": true,
-        "is_online": false,
-        "age_rating": "17+",
-        "persian_genres": [
-            "عمل",
-            "چند نفره انبوه"
-        ],
-        "persian_age_rating": "17+",
         "is_dlc_or_addon": false
     },
     {
         "title": "Sid Meier’s Civilization® VI Platinum Edition",
-        "store": "epic games",
+        "store": "epicgames",
         "url": "https://store.epicgames.com/p/sid-meiers-civilization-vi--platinum-edition",
         "image_url": null,
         "description": "",
@@ -373,21 +283,7 @@
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": null,
-        "steam_app_id": "1240210",
-        "genres": [
-            "Adventure",
-            "Casual",
-            "Indie"
-        ],
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256793611/movie480_vp9.webm?t=1595513367",
-        "is_multiplayer": false,
-        "is_online": false,
         "persian_summary": "صفحه transactions (برای دیدن اینکه آیا ادعا کرده اید یا نه) ⏩ بررسی فوری (ورود به سیستم بازی های Toepic برای استفاده) checkout🎮claim Allandroid & iOS🎮 هیچ بازی وجود ندارد: اشتباه DimensionAndroid ／ iOS🎮 هیچ بازی وجود ندارد: Androids ／ IOS⌛ RATINT",
-        "persian_genres": [
-            "ماجراجویی",
-            "گاه",
-            "وابسته به"
-        ],
         "is_dlc_or_addon": false
     },
     {
@@ -401,17 +297,6 @@
         "is_free": true,
         "discount_text": null,
         "steam_app_id": "596590",
-        "genres": [
-            "Casual",
-            "Indie"
-        ],
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256679913/movie480.webm?t=1487663910",
-        "is_multiplayer": false,
-        "is_online": false,
-        "persian_genres": [
-            "گاه",
-            "وابسته به"
-        ],
         "is_dlc_or_addon": false
     },
     {
@@ -486,24 +371,7 @@
         "is_free": true,
         "discount_text": null,
         "steam_app_id": "2914740",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Indie",
-            "Free To Play",
-            "Early Access"
-        ],
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257036064/movie480_vp9.webm?t=1720233746",
-        "is_multiplayer": false,
-        "is_online": false,
         "persian_summary": "https://store.steampowered.com/news/app/2914740/view/836096896714932260",
-        "persian_genres": [
-            "عمل",
-            "ماجراجویی",
-            "وابسته به",
-            "رایگان برای بازی",
-            "دسترسی زود هنگام"
-        ],
         "is_dlc_or_addon": false
     },
     {
@@ -541,21 +409,6 @@
         "is_free": true,
         "discount_text": null,
         "steam_app_id": "1035510",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Casual",
-            "Strategy"
-        ],
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256803006/movie480_vp9.webm?t=1601488571",
-        "is_multiplayer": true,
-        "is_online": true,
-        "persian_genres": [
-            "عمل",
-            "ماجراجویی",
-            "گاه",
-            "استراتژی"
-        ],
         "is_dlc_or_addon": true
     },
     {
@@ -580,24 +433,6 @@
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": null,
-        "steam_app_id": "1913420",
-        "genres": [
-            "Adventure",
-            "Casual",
-            "Indie",
-            "RPG",
-            "Strategy"
-        ],
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256928121/movie480_vp9.webm?t=1683875452",
-        "is_multiplayer": false,
-        "is_online": false,
-        "persian_genres": [
-            "ماجراجویی",
-            "گاه",
-            "وابسته به",
-            "RPG",
-            "استراتژی"
-        ],
         "is_dlc_or_addon": false
     },
     {
@@ -611,23 +446,6 @@
         "is_free": true,
         "discount_text": null,
         "steam_app_id": "2921380",
-        "genres": [
-            "Adventure",
-            "Casual",
-            "Indie",
-            "Simulation",
-            "Strategy"
-        ],
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257012645/movie480_vp9.webm?t=1712700958",
-        "is_multiplayer": false,
-        "is_online": false,
-        "persian_genres": [
-            "ماجراجویی",
-            "گاه",
-            "وابسته به",
-            "شبیه سازی",
-            "استراتژی"
-        ],
         "is_dlc_or_addon": false
     },
     {
@@ -641,20 +459,11 @@
         "is_free": true,
         "discount_text": null,
         "steam_app_id": "1025440",
-        "genres": [
-            "Strategy"
-        ],
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256760722/movie480.webm?t=1567171589",
-        "is_multiplayer": true,
-        "is_online": false,
-        "persian_genres": [
-            "استراتژی"
-        ],
         "is_dlc_or_addon": false
     },
     {
         "title": "Perplexity Pro 1 year subscription free for Airtel India Users Only",
-        "store": "google play",
+        "store": "googleplay",
         "url": "https://play.google.com/store/apps/details?id=com.myairtelapp",
         "image_url": "https://external-preview.redd.it/W9pW1fbSJGbMseDF-tf_8CrHSdGXHX3AoOdrj49wl4k.png?width=320&crop=smart&auto=webp&s=134857b38ae8a4c03edfc99b8091e888b4c8cbf5",
         "description": "Free 1 year Perplexity Pro sub for Airtel India Users (any active Airtel service)just log on Airtel app and open \"Claim OTTs and More\"option and just follow the instructions to activate 1 year Perplexity Pro account for free (valued Rs 17000).does not auto renew and no need to give any payment details to activateClaim period valid from 17th July 2025 to 17th January 2026Airtel app link :https://play.google.com/store/apps/details?id=com.myairtelapp",
@@ -667,7 +476,7 @@
     },
     {
         "title": "7Days: Offline Mystery Story ($3.99 -> $0.49)",
-        "store": "google play",
+        "store": "googleplay",
         "url": "https://play.google.com/store/apps/details?id=com.buffstudio.sevendays",
         "image_url": "https://external-preview.redd.it/bnM5O_tZ5VdeXlTns2IrnrtsnTjH1OpI4aP9AUixyHg.png?width=320&crop=smart&auto=webp&s=eaa70bcee22d21879883a8a1dd6ba2db24dee710",
         "description": "",
@@ -717,7 +526,7 @@
     },
     {
         "title": "[iOS Universal] [Cleaner Cat] [Lifetime $9.99 → Free] [Ditch the storage anxiety and boring cleanup – adopt a digital cat!​​ Your new pet tidies up your phone space​ on a regular basis]",
-        "store": "ios app store",
+        "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/cleaner-cat-clean-storage/id6745424711",
         "image_url": "https://external-preview.redd.it/2jaDAN3_w__GnTM4jzAThal7sfQu11ZulGVkd-vwxm4.png?width=640&crop=smart&auto=webp&s=28427bf98179f1575434438fa0fabdde1b35643f",
         "description": "Tired of forgetting to clean your photo clutter? Meet Cleaner Cat - where decluttering feeds a virtual pet.As someone drowning in 10,000+ photos, I built Cleaner Cat to solve my own pain point: ​Traditional cleaning tools are too boring to use consistently.​​ We all know the cycle - ignore clutter until storage warnings force a stressful cleanup.That’s why I designed this differently:​Your storage space becomes virtual cat food.​​Every 1MB cleared = 1g food for your \"Cleaner Cat\". This simple gamification solves the motivation problem – suddenly decluttering feels rewarding.​Key mechanics that keep you engaged:​​🔄​Daily Commitment Made Simple​Your cat needs 50g food daily (equal to deleting 50 low-quality photos/1 short video). This creates a sustainable habit – no more storage crises.​Backed by powerful utility (no gimmicks):​​• AI Similar Photo Detection: Batch delete duplicates in 2 taps• Low-Quality Photo Finder: Instantly surface blurry/overexposed shots• Swipe-to-Delete: Streamlined bulk removal• Lossless Video Compression: Reduce sizes by 50-80%100% Private & Offline​Your data never leaves your device – works without internet.",
@@ -730,7 +539,7 @@
     },
     {
         "title": "[iOS Universal] [Wingy] [Lifetime $24.99 → Free] [AI-powered assistant for effortless and engaging conversations. Simple and intuitive interface for ice breakers, text, and chat replies, and date ideas]",
-        "store": "ios app store",
+        "store": "iosappstore",
         "url": "https://itunes.apple.com/app/id6476637191",
         "image_url": "https://external-preview.redd.it/nYNQuFtS5nfdnMjxRlwx-gPeGSmrbPXgR1cLG1xYVHg.png?width=640&crop=smart&auto=webp&s=478879d35058180deecd50f07d1a24fd65de4560",
         "description": "If you missed this last time, here is another chance to get lifetime free access.",
@@ -756,7 +565,7 @@
     },
     {
         "title": "[iOS][WaterBit - Water Tracker][15$ -> FREE][Stay Hydrated!]",
-        "store": "ios app store",
+        "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/water-tracker-waterbit/id6639589010",
         "image_url": "https://external-preview.redd.it/fNLRoAi4_06qUkPeoo5JnQx4bDKPddIDBMDYbF8MWBY.png?width=640&crop=smart&auto=webp&s=e9fc6985641592497a78cacf4f97eecb0418af65",
         "description": "Hello everyone! 👋A little while ago, I shared my water tracker app here and received some fantastic feedback from many of you - thank you!Based on your suggestions, l've been working hard and justreleased an updateimplementing some of the most requested features.Big News & Thank You Offer:To celebrate the update and show my appreciation for your input, I'm making Lifetime Pro Access completely FREE for everyone who gets the app within 72 hours 🎁I'm really excited for you to try the improvements and eager for more feedback!",
@@ -777,6 +586,7 @@
         "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": null,
+        "steam_app_id": "1368870",
         "is_dlc_or_addon": false
     },
     {
@@ -793,7 +603,7 @@
     },
     {
         "title": "hocus.",
-        "store": "ios app store",
+        "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/hocus/id1030548464",
         "image_url": null,
         "description": "hocus.",
@@ -806,7 +616,7 @@
     },
     {
         "title": "Chloe Puzzle Game Pro",
-        "store": "ios app store",
+        "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/chloe-puzzle-game-pro/id1665917003",
         "image_url": null,
         "description": "Chloe Puzzle Game Pro",
@@ -819,7 +629,7 @@
     },
     {
         "title": "Lanota - Music game with story",
-        "store": "ios app store",
+        "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/lanota-music-game-with-story/id1050535507",
         "image_url": null,
         "description": "Base game $1.99–> Free | Expansion Chapters B to Y DLCs $3.99–> $1.99 each, Side Story Chapters 1 & 2 DLCs $3.99–> $1.99 each, rest of the IAPs not discounted",
@@ -857,7 +667,7 @@
     },
     {
         "title": "[iOS] [Conjuga – French Verb Trainer] [$5.99 → $0.99] [Master French verbs with audio, quizzes & offline access. No ads. Lifetime unlock – 24 hours only!]",
-        "store": "ios app store",
+        "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/id1469234408",
         "image_url": "https://external-preview.redd.it/LFkt5300QCHtxKrRuEUqDyZapG0yzZH4bNBGJpmuJCA.png?width=640&crop=smart&auto=webp&s=63149dda8de281b07f3a9418b8dac01dadcb40ba",
         "description": "Hey language learners! 🇫🇷✨Conjuga: French Verb Traineris nowjust $0.99 (was $5.99)for the next24 hours only— a full premium unlock with no ads, no subscriptions, and offline support.🧠 Features:Full French verb conjugation tablesSmart quiz & drill modesAudio pronunciation for each verbOffline accessOne-time payment, lifetime accessClean UI, no tracking, no ads🎉 Discounted for 24 hours only📲https://apps.apple.com/us/app/id1469234408",
@@ -870,7 +680,7 @@
     },
     {
         "title": "[iOS & Android] [Kindergarten Learning Games+] [99.99$ to free lifetime] [Learn to read, phonics, sight words, math, coloring, interactive stories, memory & brain games...]",
-        "store": "ios app store",
+        "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/kindergarten-learning-games/id6470336123",
         "image_url": "https://external-preview.redd.it/1OkgJsjZXucvbCE3aQ_N-QIPkzZ9TGVgaeNB_9FlOAs.png?width=640&crop=smart&auto=webp&s=087e6f49a009813ce858f60f693c6c0b08a473a9",
         "description": "Heyr/AppHookup! I’m the developer ofKindergarten Learning Games+, a preschool app packed with phonics, memory matches, math puzzles, interactive stories, and more.🔥 Free Lifetime Giveaway (Limited Time) 🔥iOS (US App Store):Lifetime upgrade isFREEtoday only!https://apps.apple.com/us/app/kindergarten-learning-games/id6470336123Android (Play Store):Lifetime upgrade for just$0.10(Play Store won’t allow free IAP)https://play.google.com/store/apps/details?id=com.games.lumornis.luvinciKey Features:📚 Phonics & early reading (letter sounds, sight words, rhymic stories)🧠 Memory match games with fun characters➕ Math puzzles: counting, shapes & logic challenges🎨 Interactive role-play stories that spark imagination✅ Simple, kid-friendly interface for ages 2–8🙏 If you try it and like it:Please consider leaving a quick App Store review — it really helps as a solo developer. Or feel free to share with friends who could use it.No ads, no subscriptions—just one-time access to everything. Would love your feedback and hope this giveaway brings some joy to young learners! 😊",
@@ -883,7 +693,7 @@
     },
     {
         "title": "hyp",
-        "store": "ios app store",
+        "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/hyp/id746557884",
         "image_url": null,
         "description": "$0.99–> Free - Relax by interacting with notic visuals, soothing animation and responsive music.",
@@ -896,7 +706,7 @@
     },
     {
         "title": "Bear Todo Box – Daily Tasks",
-        "store": "ios app store",
+        "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/bear-todo-box-daily-tasks/id6745726368",
         "image_url": null,
         "description": "$0.99–> Free - A cute bear-themed todo app. Features home widgets, voice input, and typewriter effects. Simple and intuitive task management experience.",
@@ -909,7 +719,7 @@
     },
     {
         "title": "Sunny Sea Ocean Sleep Sounds",
-        "store": "ios app store",
+        "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/sunny-sea-ocean-sleep-sounds/id916540089",
         "image_url": null,
         "description": "$4.99–> Free - Let the most beautiful beach and ocean soundscapes lull you to sleep quickly. Explore a great variety of sceneries and discover your favorite. Featuring nature audio, which means that all nature audio within is crystal clear, exhibiting absolutely zero human made noise intrusions. No people, no airplanes, no trucks whatsoever. Just wonderful nature with infinite playback.",
@@ -922,7 +732,7 @@
     },
     {
         "title": "Squish - Photos Size Reducer",
-        "store": "ios app store",
+        "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/squish-photos-size-reducer/id6747663908",
         "image_url": null,
         "description": "$0.99–> Free - Free up space and speed up sharing with Squish, the easiest way to compress images directly from your photo library.",
@@ -935,7 +745,7 @@
     },
     {
         "title": "Neongraf",
-        "store": "ios app store",
+        "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/neongraf/id1479572902",
         "image_url": null,
         "description": "$2.99–> $1.99 ($1 above historical low) - Inspired by sci-fi, neon-noir and cyberpunk,  helps you capture the beauty of night through photos or videos.  offers 30 fantastic cyberpunk style presets that combine these elements appropriately.",
@@ -948,7 +758,7 @@
     },
     {
         "title": "Barograph: Barometer&Altimeter",
-        "store": "ios app store",
+        "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/barograph-barometer-altimeter/id926055907",
         "image_url": null,
         "description": "Upgrade IAP $7.99–> $6.99 ($5 above historical low) - Tool for tracking atmospheric pressure, the original barometer data logger app designed specifically for iPhone and iPad. Offers powerful features to measure and analyze air pressure with real-time atmospheric pressure monitoring, pressure alarms, background data logging and more.",
@@ -974,7 +784,7 @@
     },
     {
         "title": "BLEASS Arpeggiator",
-        "store": "ios app store",
+        "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/bleass-arpeggiator/id6464041408",
         "image_url": null,
         "description": "$14.99–> $9.99 (matching historical low) - Takes the inspirationally melodic power of a classic synth arpeggiator and supercharges it with modern features. The plugin’s hands-on user interface is as intuitive and spontaneous to use as a classic subtractive synth, so varying and adapting arpeggios on-the-fly is an easy, fun and organic experience. Also offers a built-in sound generator.",
@@ -1012,7 +822,7 @@
     },
     {
         "title": "AROCHECKY",
-        "store": "ios app store",
+        "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/arochecky/id1543605585",
         "image_url": null,
         "description": "AROCHECKY",
@@ -1025,7 +835,7 @@
     },
     {
         "title": "Space Clutter",
-        "store": "ios app store",
+        "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/space-clutter/id1366657385",
         "image_url": null,
         "description": "Space Clutter",
