@@ -171,5 +171,5 @@ class MetacriticEnricher:
 
         else:
             logger.info(f"[MetacriticEnricher] صفحه Metacritic برای '{game_title}' یافت نشد. غنی‌سازی انجام نشد.")
-        
+            
         return game

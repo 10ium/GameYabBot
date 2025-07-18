@@ -120,7 +120,7 @@ def normalize_url_for_key(url: str) -> str:
             match = re.search(r'/store/p/([^/?#]+)', normalized_path)
             if match:
                 logger.debug(f"[StoreDetector - normalize_url_for_key] URL Epic Games نرمال‌سازی شد به: epic_product_{match.group(1)}")
-                return f"epic_product_{match.group(1)}" # <--- پرانتز اضافی حذف شد
+                return f"epic_product_{match.group(1)}"
         elif 'gog.com' in parsed.netloc:
             # slugهای بازی GOG منحصر به فرد هستند
             match = re.search(r'/(game|movie)/([^/?#]+)', normalized_path)
@@ -135,4 +135,3 @@ def normalize_url_for_key(url: str) -> str:
     except Exception:
         logger.warning(f"⚠️ [StoreDetector - normalize_url_for_key] خطای نرمال‌سازی URL برای کلید: {url}. از URL اصلی استفاده می‌شود.", exc_info=True)
         return url # فال‌بک به URL اصلی اگر نرمال‌سازی با شکست مواجه شد
-

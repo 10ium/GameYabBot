@@ -265,9 +265,6 @@ class RedditSource:
         soup = BeautifulSoup(html_content, 'html.parser')
         logger.debug(f"[RedditSource - _parse_apphookup_weekly_deals] در حال تجزیه محتوای HTML برای پست Weekly Deals (ID: {base_post_id}).")
         
-        # الگوهای URL برای شناسایی فروشگاه‌ها (ترتیب مهم است: خاص‌ترها اول) - اینها دیگر استفاده نمی‌شوند
-        # url_store_map_priority = [...]
-
         # سلکتورهای احتمالی برای آیتم‌های لیست در پست‌های AppHookup
         list_items = soup.find_all(['p', 'li'])
         logger.debug(f"[RedditSource - _parse_apphookup_weekly_deals] تعداد تگ‌های <p> یا <li> یافت شده در Weekly Deals: {len(list_items)}")

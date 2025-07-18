@@ -9,7 +9,7 @@ from urllib.parse import urlparse, urlunparse, parse_qs # وارد کردن ما
 
 # وارد کردن ماژول‌های اصلی
 from core.database import Database
-from core.telegram_bot import TelegramBot
+from core.telegram_bot import TelegramBot # در حال حاضر غیرفعال است
 # وارد کردن منابع داده
 from sources.itad import ITADSource
 from sources.reddit import RedditSource
@@ -164,10 +164,10 @@ def _merge_game_data(existing_game: Dict[str, Any], new_game: Dict[str, Any]) ->
 
     # ادغام نمرات و سایر ویژگی‌ها، با اولویت‌بندی مقادیر غیر خالی
     for key in ['metacritic_score', 'metacritic_userscore',
-                'steam_overall_score', 'steam_overall_reviews_count',
-                'steam_recent_score', 'steam_recent_reviews_count',
-                'genres', 'trailer', 'is_multiplayer', 'is_online', 'age_rating', 'is_free', 'discount_text',
-                'persian_genres', 'persian_age_rating', 'is_dlc_or_addon']:
+                 'steam_overall_score', 'steam_overall_reviews_count',
+                 'steam_recent_score', 'steam_recent_reviews_count',
+                 'genres', 'trailer', 'is_multiplayer', 'is_online', 'age_rating', 'is_free', 'discount_text',
+                 'persian_genres', 'persian_age_rating', 'is_dlc_or_addon']:
         if key in new_game and new_game[key]:
             if key in ['is_multiplayer', 'is_online', 'is_free', 'is_dlc_or_addon']:
                 merged_game[key] = merged_game.get(key, False) or new_game[key]
@@ -202,7 +202,7 @@ async def enrich_and_translate_game(game: Dict[str, Any], steam_enricher: SteamE
     # تعیین پلتفرم بر اساس فروشگاه
     is_desktop_store = store in ['steam', 'epicgames', 'gog', 'itch.io', 'indiegala', 'stove', 'other', 'reddit', 'microsoftstore', 'humblestore', 'fanatical', 'greenmangaming', 'amazon', 'blizzard', 'eastore', 'ubisoftstore']
     is_console_store = store in ['xbox', 'playstation', 'nintendo']
-    is_mobile_store = store in ['google play', 'ios app store', 'epic games (android)', 'epic games (ios)']
+    is_mobile_store = store in ['google play', 'ios app store', 'epic games (android)', 'epic games (ios)', 'android', 'ios'] # اضافه شدن 'android', 'ios'
 
     # اعمال SteamEnricher فقط برای بازی‌های دسکتاپ
     if is_desktop_store:
@@ -262,7 +262,7 @@ async def main():
 
     if not TELEGRAM_BOT_TOKEN:
         logger.error("متغیر محیطی TELEGRAM_BOT_TOKEN تنظیم نشده است. برنامه متوقف می‌شود.")
-        return
+        # return # این خط را کامنت کردم تا برنامه حتی بدون توکن تلگرام هم اجرا شود
 
     db = Database(db_path="data/games.db")
     # bot = TelegramBot(token=TELEGRAM_BOT_TOKEN, db=db) # غیرفعال کردن موقت ربات تلگرام
