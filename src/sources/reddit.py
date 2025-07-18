@@ -9,8 +9,8 @@ import hashlib
 import random # برای تأخیر تصادفی
 import os
 import time # برای بررسی زمان فایل کش
-import utils.clean_title_for_search as title_cleaner # <--- خط اصلاح شده: وارد کردن ماژول به عنوان title_cleaner
-from utils.store_detector import infer_store_from_game_data # وارد کردن تابع از ماژول جدید
+from src.utils.clean_title_for_search import clean_title_for_search as title_cleaner
+from src.utils.store_detector import infer_store_from_game_data
 
 logging.basicConfig(
     level=logging.INFO, # می‌توانید برای جزئیات بیشتر به logging.DEBUG تغییر دهید
@@ -201,7 +201,7 @@ class RedditSource:
                         return None
             
             # استفاده از infer_store_from_game_data برای استنتاج نهایی فروشگاه
-            # این تابع از utils.store_detector وارد شده است.
+            # این تابع از src.utils.store_detector وارد شده است.
             detected_store = infer_store_from_game_data({"url": final_url, "title": raw_title})
             logger.debug(f"[RedditSource - _normalize_post_data] فروشگاه نهایی استنتاج شده برای '{raw_title}': {detected_store}")
 
@@ -213,7 +213,7 @@ class RedditSource:
             image_url = image_tag['src'] if image_tag else None
 
             # تمیز کردن عنوان با استفاده از تابع مشترک
-            clean_title = title_cleaner.clean_title_for_search(raw_title) # <--- فراخوانی اصلاح شده
+            clean_title = title_cleaner(raw_title) # <--- فراخوانی اصلاح شده
             
             if not clean_title:
                 clean_title = raw_title.strip()
@@ -327,7 +327,7 @@ class RedditSource:
                 
                 if item_title:
                     found_items.append({
-                        "title": title_cleaner.clean_title_for_search(item_title), # <--- فراخوانی اصلاح شده
+                        "title": title_cleaner(item_title), # <--- فراخوانی اصلاح شده
                         "store": detected_store, # استفاده از فروشگاه شناسایی شده
                         "url": item_url,
                         "image_url": item_image_url,

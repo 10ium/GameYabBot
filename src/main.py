@@ -8,20 +8,20 @@ import random # برای تأخیر تصادفی
 from urllib.parse import urlparse, urlunparse, parse_qs # وارد کردن ماژول‌های تجزیه URL
 
 # وارد کردن ماژول‌های اصلی
-from core.database import Database
-from core.telegram_bot import TelegramBot # در حال حاضر غیرفعال است
+from src.core.database import Database
+from src.core.telegram_bot import TelegramBot # در حال حاضر غیرفعال است
 # وارد کردن منابع داده
-from sources.itad import ITADSource
-from sources.reddit import RedditSource
-from sources.epic_games import EpicGamesSource
+from src.sources.itad import ITADSource
+from src.sources.reddit import RedditSource
+from src.sources.epic_games import EpicGamesSource
 # وارد کردن ماژول‌های غنی‌سازی داده
-from enrichment.steam_enricher import SteamEnricher
-from enrichment.metacritic_enricher import MetacriticEnricher
+from src.enrichment.steam_enricher import SteamEnricher
+from src.enrichment.metacritic_enricher import MetacriticEnricher
 # وارد کردن ماژول ترجمه
-from translation.translator import SmartTranslator
+from src.translation.translator import SmartTranslator
 # وارد کردن ابزارهای کمکی
-import utils.clean_title_for_search as title_cleaner # <--- خط اصلاح شده: وارد کردن ماژول به عنوان title_cleaner
-from utils.store_detector import infer_store_from_game_data, normalize_url_for_key # وارد کردن تابع جدید از ماژول جدید
+from src.utils.clean_title_for_search import clean_title_for_search as title_cleaner
+from src.utils.store_detector import infer_store_from_game_data, normalize_url_for_key
 
 # تنظیمات اولیه لاگ‌گیری
 logging.basicConfig(
@@ -124,7 +124,7 @@ def _get_deduplication_key(game: Dict[str, Any]) -> str:
         return key
     
     # 3. فال‌بک به عنوان تمیز شده + نام فروشگاه
-    cleaned_title = title_cleaner.clean_title_for_search(game.get('title', '')) # <--- فراخوانی اصلاح شده
+    cleaned_title = title_cleaner(game.get('title', '')) # <--- فراخوانی اصلاح شده
     if cleaned_title:
         key = f"{combined_prefix}{cleaned_title}_{store_name}"
         logger.debug(f"[_get_deduplication_key] کلید deduplication بر اساس عنوان تمیز شده و فروشگاه تولید شد: {key}")
@@ -179,8 +179,8 @@ def _merge_game_data(existing_game: Dict[str, Any], new_game: Dict[str, Any]) ->
                 merged_game[key] = new_game[key]
     
     # اطمینان از اینکه عنوان تمیز شده، بهترین عنوان ممکن است
-    if len(title_cleaner.clean_title_for_search(new_game.get('title', ''))) > \
-       len(title_cleaner.clean_title_for_search(merged_game.get('title', ''))):
+    if len(title_cleaner(new_game.get('title', ''))) > \
+       len(title_cleaner(merged_game.get('title', ''))):
         merged_game['title'] = new_game['title']
 
     return merged_game
