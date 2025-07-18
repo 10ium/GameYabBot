@@ -409,7 +409,7 @@
         const modalPlayerInfo = document.getElementById('modal-player-info');
         const modalAgeRating = document.getElementById('modal-age-rating');
         const modalTrailerLink = document.getElementById('modal-trailer-link');
-        const modalGameLink = document.getElementById('modal-game-link');
+        const modalGameLink = document = document.getElementById('modal-game-link');
 
 
         // نگاشت نام‌های انگلیسی فروشگاه‌ها به نام‌های فارسی برای نمایش
@@ -866,7 +866,10 @@
             errorMessage.classList.add('hidden');
             noGamesMessage.classList.add('hidden');
             try {
-                const response = await fetch('free_games.json');
+                // Use the direct raw GitHub URL for the JSON file
+                const jsonPath = 'https://raw.githubusercontent.com/10ium/GameYabBot/refs/heads/main/web_data/free_games.json'; // <--- این خط اصلاح شده است
+
+                const response = await fetch(jsonPath);
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
