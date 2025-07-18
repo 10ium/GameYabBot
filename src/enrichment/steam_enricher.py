@@ -196,32 +196,23 @@ class SteamEnricher:
             # مقداردهی اولیه نمرات به None برای اطمینان از وجود فیلدها
             game['steam_overall_score'] = None
             game['steam_overall_reviews_count'] = None
-            game['steam_recent_score'] = None
-            game['steam_recent_reviews_count'] = None
+            game['steam_recent_score'] = None # این از این API قابل استخراج نیست
+            game['steam_recent_reviews_count'] = None # این از این API قابل استخراج نیست
 
             if details.get('type') == 'game' and details.get('recommendations'):
                 recommendations = details['recommendations']
-                game['steam_overall_reviews_count'] = recommendations.get('total')
                 
-                if 'reviews' in details:
-                    review_summary = details['reviews']
-                    
-                    overall_positive = review_summary.get('overall_positive')
-                    total_reviews = review_summary.get('total_reviews')
-                    if overall_positive is not None and total_reviews is not None and total_reviews > 0:
-                        game['steam_overall_score'] = round((overall_positive / total_reviews) * 100)
-                    
-                    recent_positive = review_summary.get('recent_positive')
-                    recent_reviews = review_summary.get('recent_reviews')
-                    if recent_positive is not None and recent_reviews is not None and recent_reviews > 0:
-                        game['steam_recent_score'] = round((recent_positive / recent_reviews) * 100)
-                        game['steam_recent_reviews_count'] = recent_reviews
-                    
-                    logger.debug(f"[SteamEnricher] نمرات Steam (از بخش reviews) برای '{game_title}' یافت شد: کلی={game.get('steam_overall_score')}, اخیر={game.get('steam_recent_score')}")
-                elif game['steam_overall_reviews_count'] is not None:
-                    logger.debug(f"[SteamEnricher] فقط تعداد کل ریویوها برای '{game_title}' در Steam یافت شد: {game['steam_overall_reviews_count']}. درصد قابل محاسبه نیست.")
+                total_recommendations = recommendations.get('total')
+                positive_recommendations = recommendations.get('positive')
+
+                if total_recommendations is not None and positive_recommendations is not None and total_recommendations > 0:
+                    game['steam_overall_reviews_count'] = total_recommendations
+                    game['steam_overall_score'] = round((positive_recommendations / total_recommendations) * 100)
+                    logger.debug(f"[SteamEnricher] نمرات کلی Steam برای '{game_title}' یافت شد: امتیاز={game['steam_overall_score']}, تعداد ریویو={game['steam_overall_reviews_count']}")
+                else:
+                    logger.debug(f"[SteamEnricher] اطلاعات کافی برای محاسبه نمره کلی Steam برای '{game_title}' یافت نشد.")
             else:
-                logger.debug(f"[SteamEnricher] اطلاعات ریویو Steam برای '{game_title}' یافت نشد.")
+                logger.debug(f"[SteamEnricher] اطلاعات توصیه Steam برای '{game_title}' یافت نشد.")
 
             logger.info(f"✅ [SteamEnricher] داده‌های Steam برای '{game_title}' (App ID: {app_id}) با موفقیت غنی‌سازی شد.")
         else:
