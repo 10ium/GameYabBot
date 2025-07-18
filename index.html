@@ -125,6 +125,43 @@
             overflow: hidden;
             text-overflow: ellipsis; /* Truncate long text */
         }
+        /* Buttons on card */
+        .card-button {
+            display: block;
+            width: 100%;
+            text-align: center;
+            padding: 12px 20px;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: background-color 0.2s, transform 0.2s;
+            margin-top: 10px; /* Space between info grid and button */
+        }
+        .card-button.get-game {
+            background-color: #4299e1; /* Blue */
+            color: white;
+        }
+        .card-button.get-game:hover {
+            background-color: #3182ce;
+            transform: translateY(-2px);
+        }
+        .card-button.view-discount {
+            background-color: #38a169; /* Green */
+            color: white;
+        }
+        .card-button.view-discount:hover {
+            background-color: #2f855a;
+            transform: translateY(-2px);
+        }
+        .card-button.trailer {
+            background-color: #6b46c1; /* Purple */
+            color: white;
+            margin-top: 10px;
+        }
+        .card-button.trailer:hover {
+            background-color: #553c9a;
+            transform: translateY(-2px);
+        }
+
 
         /* Custom styles for the theme toggle button */
         #theme-toggle {
@@ -183,139 +220,6 @@
         }
         #scroll-to-bottom {
             bottom: 20px;
-        }
-
-        /* Modal Styles */
-        .modal {
-            position: fixed;
-            z-index: 1000;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            overflow: auto;
-            background-color: rgba(0, 0, 0, 0.8);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            opacity: 0;
-            visibility: hidden;
-            transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
-        }
-        .modal.show {
-            opacity: 1;
-            visibility: visible;
-        }
-        .modal-content {
-            background-color: #2d3748; /* Dark background for modal */
-            margin: auto;
-            padding: 30px;
-            border-radius: 15px;
-            width: 90%;
-            max-width: 800px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
-            position: relative;
-            transform: translateY(20px);
-            transition: transform 0.3s ease-in-out;
-            max-height: 90vh; /* Limit height for scrollability */
-            overflow-y: auto; /* Enable scrolling for content */
-        }
-        .modal.show .modal-content {
-            transform: translateY(0);
-        }
-        .close-button {
-            position: absolute;
-            top: 15px;
-            right: 20px;
-            color: #aaa;
-            font-size: 30px;
-            font-weight: bold;
-            cursor: pointer;
-            transition: color 0.2s;
-        }
-        .close-button:hover,
-        .close-button:focus {
-            color: #f00;
-            text-decoration: none;
-            cursor: pointer;
-        }
-        .modal-image {
-            width: 100%;
-            height: 300px; /* Fixed height for modal image */
-            object-fit: cover;
-            border-radius: 10px;
-            margin-bottom: 20px;
-        }
-        .modal-title {
-            font-size: 2.5rem;
-            font-weight: bold;
-            color: #e2e8f0;
-            margin-bottom: 15px;
-            text-align: right;
-        }
-        .modal-section-title {
-            font-size: 1.5rem;
-            font-weight: 600;
-            color: #cbd5e0;
-            margin-top: 20px;
-            margin-bottom: 10px;
-            border-bottom: 1px solid #4a5568;
-            padding-bottom: 5px;
-        }
-        .modal-text {
-            color: #a0aec0;
-            line-height: 1.8;
-            margin-bottom: 10px;
-            text-align: justify; /* Justify text for better readability */
-        }
-        .modal-info-item {
-            display: flex;
-            align-items: center;
-            margin-bottom: 8px;
-            color: #cbd5e0;
-            font-size: 0.95rem;
-        }
-        .modal-info-item i {
-            margin-left: 10px;
-            color: #63b3ed; /* A nice blue for icons */
-        }
-        .modal-info-item span {
-            font-weight: 500;
-        }
-        .modal-button {
-            display: block;
-            width: 100%;
-            text-align: center;
-            padding: 12px 20px;
-            border-radius: 10px;
-            font-weight: bold;
-            transition: background-color 0.2s, transform 0.2s;
-            margin-top: 20px;
-        }
-        .modal-button.get-game {
-            background-color: #4299e1; /* Blue */
-            color: white;
-        }
-        .modal-button.get-game:hover {
-            background-color: #3182ce;
-            transform: translateY(-2px);
-        }
-        .modal-button.view-discount {
-            background-color: #38a169; /* Green */
-            color: white;
-        }
-        .modal-button.view-discount:hover {
-            background-color: #2f855a;
-            transform: translateY(-2px);
-        }
-        .modal-button.trailer {
-            background-color: #6b46c1; /* Purple */
-            color: white;
-            margin-top: 10px;
-        }
-        .modal-button.trailer:hover {
-            background-color: #553c9a;
-            transform: translateY(-2px);
         }
 
         /* Responsive layout adjustments for grid columns */
@@ -437,38 +341,8 @@
         <i class="fas fa-arrow-down"></i>
     </button>
 
-    <!-- Game Details Modal -->
-    <div id="game-details-modal" class="modal">
-        <div class="modal-content">
-            <span class="close-button">&times;</span>
-            <img id="modal-image" src="" alt="Game Image" class="modal-image">
-            <h2 id="modal-title" class="modal-title"></h2>
-            
-            <p id="modal-store-info" class="text-gray-400 mb-3"></p>
-            <p id="modal-discount-text" class="text-gray-400 mb-3 hidden"></p>
-
-            <div id="modal-scores-genres" class="mb-4">
-                <!-- Scores and Genres will be injected here -->
-            </div>
-
-            <h3 class="modal-section-title">خلاصه داستان</h3>
-            <p id="modal-description" class="modal-text"></p>
-
-            <div id="modal-additional-info" class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
-                <!-- Additional info like player count, age rating -->
-            </div>
-
-            <a id="modal-get-game-button" href="#" target="_blank" rel="noopener noreferrer" class="modal-button get-game">
-                دریافت بازی
-            </a>
-            <a id="modal-trailer-button" href="#" target="_blank" rel="noopener noreferrer" class="modal-button trailer hidden">
-                مشاهده تریلر
-            </a>
-        </div>
-    </div>
-
     <script>
-        // تابع برای پاکسازی متن از تگ‌های HTML و کاراکترهای خاص (انتقال به بالا)
+        // تابع برای پاکسازی متن از تگ‌های HTML و کاراکترهای خاص
         function cleanText(text) {
             if (!text) return '';
             // حذف تگ‌های HTML (مانند <div class="bb_img_ctn">, <p>, <h2>, <img>, <video>)
@@ -491,22 +365,9 @@
         const scrollToTopBtn = document.getElementById('scroll-to-top');
         const scrollToBottomBtn = document.getElementById('scroll-to-bottom');
         
-        // New filter elements
+        // Filter elements
         const contentTypeFilter = document.getElementById('content-type-filter'); 
         const priceTypeFilter = document.getElementById('price-type-filter'); 
-
-        // Modal elements
-        const modal = document.getElementById('game-details-modal');
-        const closeButton = modal.querySelector('.close-button');
-        const modalImage = document.getElementById('modal-image');
-        const modalTitle = document.getElementById('modal-title');
-        const modalStoreInfo = document.getElementById('modal-store-info');
-        const modalDiscountText = document.getElementById('modal-discount-text');
-        const modalScoresGenres = document.getElementById('modal-scores-genres');
-        const modalDescription = document.getElementById('modal-description');
-        const modalAdditionalInfo = document.getElementById('modal-additional-info');
-        const modalGetGameButton = document.getElementById('modal-get-game-button');
-        const modalTrailerButton = document.getElementById('modal-trailer-button');
 
         // نگاشت نام‌های انگلیسی فروشگاه‌ها به نام‌های فارسی برای نمایش
         const storeDisplayMap = {
@@ -686,8 +547,7 @@
 
 
                 let storeInfoHtml = '';
-                let getGameButtonText = 'دریافت بازی';
-                let getGameButtonClass = 'bg-blue-600 hover:bg-blue-700'; // Default for free games
+                let buttonHtml = ''; // For the "Get Game" or "View Discount" button
 
                 // Determine store display name
                 let displayStoreName = game.store ? game.store.toLowerCase() : '';
@@ -708,8 +568,7 @@
                     const normalizedStoreForDisplay = game.store ? game.store.toLowerCase().replace(/\s/g, '') : '';
                     const originalStoreDisplay = storeDisplayMap[normalizedStoreForDisplay] || game.store;
                     storeInfoHtml = `<p class="text-gray-400 mb-2">${dlcOrAddonTag}<span class="font-medium text-red-400">تخفیف‌خورده</span> از <span class="font-medium text-purple-300">${originalStoreDisplay}</span></p>`;
-                    getGameButtonText = 'مشاهده تخفیف';
-                    getGameButtonClass = 'bg-green-600 hover:bg-green-700'; // Different color for discounted games
+                    buttonHtml = `<a href="${game.url}" target="_blank" rel="noopener noreferrer" class="card-button view-discount">مشاهده تخفیف</a>`;
                 } else { // If it's a truly free game
                     let displayStoreNameCleaned = game.store.toLowerCase();
                     if (displayStoreNameCleaned === 'google play' || displayStoreNameCleaned === 'epic games (android)') {
@@ -719,9 +578,10 @@
                     }
                     displayStoreNameCleaned = storeDisplayMap[displayStoreNameCleaned.replace(/\s/g, '')] || game.store;
                     storeInfoHtml = `<p class="text-gray-400 mb-2">${dlcOrAddonTag}<span class="font-medium text-purple-300">${displayStoreNameCleaned}</span></p>`;
+                    buttonHtml = `<a href="${game.url}" target="_blank" rel="noopener noreferrer" class="card-button get-game">دریافت بازی</a>`;
                 }
 
-                // --- Start: Information to display on the main card ---
+                // --- Start: All requested information to display on the main card ---
                 let cardInfoHtml = '';
 
                 // Genres
@@ -769,7 +629,7 @@
                 if (game.steam_recent_score) {
                     cardInfoHtml += `<div class="card-info-item"><i class="fab fa-steam-square text-blue-300"></i> <span>استیم (اخیر):</span> ${game.steam_recent_score}% (${game.steam_recent_reviews_count || 0} رای)</div>`;
                 }
-                // --- End: Information to display on the main card ---
+                // --- End: All requested information to display on the main card ---
                 
                 gameCard.innerHTML = `
                     <img src="${imageUrl}" alt="${game.title}" class="w-full object-cover rounded-t-xl" onerror="this.onerror=null;this.src='https://placehold.co/600x338/374151/D1D5DB?text=${encodeURIComponent(game.title || 'تصویر موجود نیست').replace(/'/g, "%27")}';">
@@ -782,128 +642,19 @@
                         <p class="description-summary text-gray-300 text-sm">
                             ${displaySummary}
                         </p>
-                        <button class="show-details-button mt-auto w-full text-center py-2 px-4 rounded-lg text-white font-bold transition duration-200 bg-gray-500 hover:bg-gray-600" data-game-id="${game.id_in_db}">
-                            مشاهده جزئیات
-                        </button>
+                        ${buttonHtml}
+                        ${game.trailer ? `<a href="${game.trailer}" target="_blank" rel="noopener noreferrer" class="card-button trailer">مشاهده تریلر</a>` : ''}
                     </div>
                 `;
                 gamesContainer.appendChild(gameCard);
             });
-
-            // Add event listeners to "Show Details" buttons
-            document.querySelectorAll('.show-details-button').forEach(button => {
-                button.addEventListener('click', (event) => {
-                    const gameId = event.target.dataset.gameId;
-                    const game = allGames.find(g => g.id_in_db === gameId);
-                    if (game) {
-                        openModal(game);
-                    }
-                });
-            });
+            // Removed event listener for "Show Details" button as modal is removed
         }
 
-        // Function to open the modal and populate with game data
-        function openModal(game) {
-            modalImage.src = game.image_url || `https://placehold.co/800x450/374151/D1D5DB?text=${encodeURIComponent(game.title || 'تصویر موجود نیست').replace(/'/g, "%27")}`;
-            modalImage.onerror = () => {
-                modalImage.src = `https://placehold.co/800x450/374151/D1D5DB?text=${encodeURIComponent(game.title || 'تصویر موجود نیست').replace(/'/g, "%27")}`;
-            };
-            modalTitle.textContent = game.title;
-
-            let dlcOrAddonTag = '';
-            if (game.is_dlc_or_addon) {
-                dlcOrAddonTag = `<span class="bg-purple-600 text-white text-sm font-semibold px-2.5 py-0.5 rounded-full mr-2">DLC/افزونه</span>`;
-            }
-
-            let displayStoreName = game.store ? game.store.toLowerCase() : '';
-            if (displayStoreName === 'google play' || displayStoreName === 'epic games (android)') {
-                displayStoreName = 'android';
-            } else if (displayStoreName === 'ios app store' || displayStoreName === 'epic games (ios)') {
-                displayStoreName = 'ios';
-            }
-            displayStoreName = storeDisplayMap[displayStoreName.replace(/\s/g, '')] || game.store;
-
-            if (game.is_free === false) {
-                modalStoreInfo.innerHTML = `${dlcOrAddonTag}<span class="font-medium text-red-400">تخفیف‌خورده</span> از <span class="font-medium text-purple-300">${displayStoreName}</span>`;
-                if (game.discount_text) {
-                    modalDiscountText.textContent = `جزئیات تخفیف: ${game.discount_text}`;
-                    modalDiscountText.classList.remove('hidden');
-                } else {
-                    modalDiscountText.classList.add('hidden');
-                }
-                modalGetGameButton.textContent = 'مشاهده تخفیف';
-                modalGetGameButton.classList.remove('bg-blue-600', 'hover:bg-blue-700');
-                modalGetGameButton.classList.add('bg-green-600', 'hover:bg-green-700', 'view-discount');
-            } else {
-                modalStoreInfo.innerHTML = `${dlcOrAddonTag}<span class="font-medium text-purple-300">${displayStoreName}</span>`;
-                modalDiscountText.classList.add('hidden');
-                modalGetGameButton.textContent = 'دریافت بازی';
-                modalGetGameButton.classList.remove('bg-green-600', 'hover:bg-green-700', 'view-discount');
-                modalGetGameButton.classList.add('bg-blue-600', 'hover:bg-blue-700', 'get-game');
-            }
-            
-            modalGetGameButton.href = game.url;
-
-            // Populate scores and genres for modal (full details)
-            let scoresGenresHtml = '';
-            const metacriticScore = game.metacritic_score ? `<div class="modal-info-item"><i class="fas fa-star text-yellow-400"></i> <span>متاکریتیک (منتقدان):</span> ${game.metacritic_score}/100</div>` : '';
-            const metacriticUserScore = game.metacritic_userscore ? `<div class="modal-info-item"><i class="fas fa-users text-green-400"></i> <span>متاکریتیک (کاربران):</span> ${game.metacritic_userscore}/10</div>` : '';
-            const steamOverallScore = game.steam_overall_score ? `<div class="modal-info-item"><i class="fab fa-steam text-blue-400"></i> <span>استیم (کلی):</span> ${game.steam_overall_score}% (${game.steam_overall_reviews_count || 0} رای)</div>` : '';
-            const steamRecentScore = game.steam_recent_score ? `<div class="modal-info-item"><i class="fab fa-steam-square text-blue-300"></i> <span>استیم (اخیر):</span> ${game.steam_recent_score}% (${game.steam_recent_reviews_count || 0} رای)</div>` : '';
-            
-            const displayGenres = (game.persian_genres && game.persian_genres.length > 0) 
-                                    ? game.persian_genres.map(g => genreDisplayMap[g.toLowerCase()] || g).join(', ')
-                                    : (game.genres && game.genres.length > 0 ? game.genres.map(g => genreDisplayMap[g.toLowerCase()] || g).join(', ') : '');
-            const genresHtml = displayGenres ? `<div class="modal-info-item"><i class="fas fa-tags text-pink-400"></i> <span>ژانرها:</span> ${displayGenres}</div>` : '';
-            
-            scoresGenresHtml = `
-                ${metacriticScore}
-                ${metacriticUserScore}
-                ${steamOverallScore}
-                ${steamRecentScore}
-                ${genresHtml}
-            `;
-            modalScoresGenres.innerHTML = scoresGenresHtml;
-
-            // Populate description, ensuring it's cleaned
-            modalDescription.textContent = cleanedText(game.persian_summary || game.description || 'توضیحات موجود نیست.');
-
-            // Populate additional info
-            let additionalInfoHtml = '';
-            let playerInfo = '';
-            if (game.is_multiplayer && game.is_online) {
-                playerInfo = `<div class="modal-info-item"><i class="fas fa-users-line text-cyan-400"></i> <span>تعداد بازیکن:</span> چندنفره (آنلاین)</div>`;
-            } else if (game.is_multiplayer) {
-                playerInfo = `<div class="modal-info-item"><i class="fas fa-users text-cyan-400"></i> <span>تعداد بازیکن:</span> چندنفره (آفلاین)</div`;
-            } else if (game.is_online) {
-                playerInfo = `<div class="modal-info-item"><i class="fas fa-globe text-cyan-400"></i> <span>تعداد بازیکن:</span> تک‌نفره (آنلاین)</div>`;
-            } else {
-                playerInfo = `<div class="modal-info-item"><i class="fas fa-user text-cyan-400"></i> <span>تعداد بازیکن:</span> تک‌نفره</div>`;
-            }
-            additionalInfoHtml += playerInfo;
-
-            const displayAgeRating = (game.persian_age_rating && ageRatingDisplayMap[game.persian_age_rating.toLowerCase()]) 
-                                         ? ageRatingDisplayMap[game.persian_age_rating.toLowerCase()] 
-                                         : (game.age_rating && ageRatingDisplayMap[game.age_rating.toLowerCase()] ? ageRatingDisplayMap[game.age_rating.toLowerCase()] : game.age_rating || '');
-            const ageRatingHtml = displayAgeRating ? `<div class="modal-info-item"><i class="fas fa-child text-orange-400"></i> <span>رده‌بندی سنی:</span> ${displayAgeRating}</div>` : '';
-            additionalInfoHtml += ageRatingHtml;
-
-            modalAdditionalInfo.innerHTML = additionalInfoHtml;
-
-            if (game.trailer) {
-                modalTrailerButton.href = game.trailer;
-                modalTrailerButton.classList.remove('hidden');
-            } else {
-                modalTrailerButton.classList.add('hidden');
-            }
-
-            modal.classList.add('show');
-        }
-
-        // Function to close the modal
-        function closeModal() {
-            modal.classList.remove('show');
-        }
+        // Removed modal-related functions and elements
+        // const modal = document.getElementById('game-details-modal'); // Removed
+        // const closeButton = modal.querySelector('.close-button'); // Removed
+        // ... (all other modal related constants and functions)
 
         // Function to apply filters and re-render games
         function applyFilter() {
@@ -1031,18 +782,10 @@
             setTheme(!document.documentElement.classList.contains('dark'));
         });
 
-        // Modal close events
-        closeButton.addEventListener('click', closeModal);
-        modal.addEventListener('click', (event) => {
-            if (event.target === modal) {
-                closeModal();
-            }
-        });
-        document.addEventListener('keydown', (event) => {
-            if (event.key === 'Escape' && modal.classList.contains('show')) {
-                closeModal();
-            }
-        });
+        // Removed modal close events
+        // closeButton.addEventListener('click', closeModal); // Removed
+        // modal.addEventListener('click', (event) => { ... }); // Removed
+        // document.addEventListener('keydown', (event) => { ... }); // Removed
 
         // Scroll button logic
         window.addEventListener('scroll', () => {
