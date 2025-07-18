@@ -319,51 +319,32 @@
         }
 
         /* Responsive layout adjustments for grid columns */
-        /* For 1 column */
-        .layout-cols-1 #games-container { grid-template-columns: repeat(1, minmax(0, 1fr)); }
-        .layout-cols-1 .game-card img { height: 320px; }
-        .layout-cols-1 .game-card h2 { font-size: 2rem; }
-        .layout-cols-1 .game-card .description-summary { -webkit-line-clamp: 5; }
-        .layout-cols-1 .card-info-item { font-size: 1rem; } /* text-base */
-
+        /* Apply grid-template-columns directly to the element with layout-cols-X */
+        .layout-cols-1 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
         /* For 2 columns */
-        .layout-cols-2 #games-container { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+        .layout-cols-2 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
         @media (min-width: 640px) { /* sm breakpoint */
-            .layout-cols-2 #games-container { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+            .layout-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
         }
-        .layout-cols-2 .game-card img { height: 256px; }
-        .layout-cols-2 .game-card h2 { font-size: 1.75rem; }
-        .layout-cols-2 .game-card .description-summary { -webkit-line-clamp: 4; }
-        .layout-cols-2 .card-info-item { font-size: 0.875rem; } /* text-sm */
-
         /* For 3 columns (Default) */
-        .layout-cols-3 #games-container { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+        .layout-cols-3 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
         @media (min-width: 640px) { /* sm breakpoint */
-            .layout-cols-3 #games-container { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+            .layout-cols-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
         }
         @media (min-width: 1024px) { /* lg breakpoint */
-            .layout-cols-3 #games-container { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+            .layout-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
         }
-        .layout-cols-3 .game-card img { height: 192px; }
-        .layout-cols-3 .game-card h2 { font-size: 1.25rem; }
-        .layout-cols-3 .game-card .description-summary { -webkit-line-clamp: 3; }
-        .layout-cols-3 .card-info-item { font-size: 0.875rem; } /* text-sm */
-
         /* For 4 columns */
-        .layout-cols-4 #games-container { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+        .layout-cols-4 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
         @media (min-width: 640px) { /* sm breakpoint */
-            .layout-cols-4 #games-container { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+            .layout-cols-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
         }
         @media (min-width: 1024px) { /* lg breakpoint */
-            .layout-cols-4 #games-container { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+            .layout-cols-4 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
         }
         @media (min-width: 1280px) { /* xl breakpoint */
-            .layout-cols-4 #games-container { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+            .layout-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
         }
-        .layout-cols-4 .game-card img { height: 160px; }
-        .layout-cols-4 .game-card h2 { font-size: 1rem; }
-        .layout-cols-4 .game-card .description-summary { -webkit-line-clamp: 2; }
-        .layout-cols-4 .card-info-item { font-size: 0.75rem; } /* text-xs */
 
     </style>
 </head>
@@ -487,6 +468,18 @@
     </div>
 
     <script>
+        // تابع برای پاکسازی متن از تگ‌های HTML و کاراکترهای خاص (انتقال به بالا)
+        function cleanText(text) {
+            if (!text) return '';
+            // حذف تگ‌های HTML (مانند <div class="bb_img_ctn">, <p>, <h2>, <img>, <video>)
+            let cleaned = text.replace(/<[^>]*>/g, '');
+            // حذف هرگونه URL باقی‌مانده که ممکن است به عنوان متن ظاهر شود
+            cleaned = cleaned.replace(/(https?:\/\/[^\s]+)/g, '');
+            // حذف فضاهای اضافی
+            cleaned = cleaned.replace(/\s\s+/g, ' ').trim();
+            return cleaned;
+        }
+
         let allGames = []; // To store all fetched games
         const gamesContainer = document.getElementById('games-container');
         const loadingMessage = document.getElementById('loading');
@@ -626,18 +619,6 @@
             "e": "همه", "e10+": "همه ۱۰+"
         };
 
-        // تابع برای پاکسازی متن از تگ‌های HTML و کاراکترهای خاص
-        function cleanText(text) {
-            if (!text) return '';
-            // حذف تگ‌های HTML (مانند <div class="bb_img_ctn">, <p>, <h2>, <img>, <video>)
-            let cleaned = text.replace(/<[^>]*>/g, '');
-            // حذف هرگونه URL باقی‌مانده که ممکن است به عنوان متن ظاهر شود
-            cleaned = cleaned.replace(/(https?:\/\/[^\s]+)/g, '');
-            // حذف فضاهای اضافی
-            cleaned = cleaned.replace(/\s\s+/g, ' ').trim();
-            return cleaned;
-        }
-
         // Function to set the theme
         function setTheme(isDark) {
             if (isDark) {
@@ -671,9 +652,9 @@
 
         // Function to apply column layout and sizing
         function applyColumnLayout(columns) {
-            // Remove existing layout-cols classes
+            // Remove existing layout-cols classes from gamesContainer
             gamesContainer.classList.remove('layout-cols-1', 'layout-cols-2', 'layout-cols-3', 'layout-cols-4');
-            // Add new layout-cols class
+            // Add the new layout-cols class to gamesContainer
             gamesContainer.classList.add(`layout-cols-${columns}`);
 
             // Save preference to local storage
@@ -893,7 +874,7 @@
             if (game.is_multiplayer && game.is_online) {
                 playerInfo = `<div class="modal-info-item"><i class="fas fa-users-line text-cyan-400"></i> <span>تعداد بازیکن:</span> چندنفره (آنلاین)</div>`;
             } else if (game.is_multiplayer) {
-                playerInfo = `<div class="modal-info-item"><i class="fas fa-users text-cyan-400"></i> <span>تعداد بازیکن:</span> چندنفره (آفلاین)</div>`;
+                playerInfo = `<div class="modal-info-item"><i class="fas fa-users text-cyan-400"></i> <span>تعداد بازیکن:</span> چندنفره (آفلاین)</div`;
             } else if (game.is_online) {
                 playerInfo = `<div class="modal-info-item"><i class="fas fa-globe text-cyan-400"></i> <span>تعداد بازیکن:</span> تک‌نفره (آنلاین)</div>`;
             } else {
