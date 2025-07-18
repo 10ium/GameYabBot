@@ -7,7 +7,7 @@ import re
 import random
 import os
 import hashlib
-import json # <--- این خط اضافه شد
+import json
 import time
 
 logger = logging.getLogger(__name__)
@@ -148,11 +148,15 @@ class SteamEnricher:
         game_title = game.get('title', 'نامشخص')
         store_name = game.get('store', '').lower().replace(' ', '')
 
-        if store_name != 'steam' and 'steam_app_id' not in game:
-            logger.debug(f"[SteamEnricher] بازی '{game_title}' از فروشگاه Steam نیست و Steam App ID ندارد. غنی‌سازی Steam نادیده گرفته شد.")
+        app_id = game.get('steam_app_id')
+
+        # اگر بازی از Steam یا Epic Games باشد، یا اگر Steam App ID از قبل موجود باشد، تلاش برای غنی‌سازی انجام شود.
+        # در غیر این صورت، غنی‌سازی Steam نادیده گرفته می‌شود.
+        if store_name not in ['steam', 'epic games'] and not app_id:
+            logger.debug(f"[SteamEnricher] بازی '{game_title}' از فروشگاه Steam یا Epic Games نیست و Steam App ID ندارد. غنی‌سازی Steam نادیده گرفته شد.")
             return game
 
-        app_id = game.get('steam_app_id')
+        # اگر app_id از قبل موجود نیست، تلاش برای یافتن آن از طریق جستجو
         if not app_id:
             async with aiohttp.ClientSession() as session:
                 app_id = await self._find_steam_app_id(session, game_title)
@@ -173,22 +177,46 @@ class SteamEnricher:
             game['description'] = details.get('about_the_game', game.get('description', ''))
             game['image_url'] = details.get('header_image', game.get('image_url', ''))
             game['genres'] = [g['description'] for g in details.get('genres', [])]
-            game['is_multiplayer'] = details.get('categories') and any(c['description'] in ['Multi-player', 'Online Multi-Player', 'Co-op', 'Online Co-op'] for c in details['categories'])
-            game['is_online'] = details.get('categories') and any(c['description'] in ['Online Multi-Player', 'Online Co-op'] for c in details['categories'])
+            
+            # بررسی دقیق‌تر برای حالت‌های چند نفره و آنلاین
+            is_multiplayer_found = False
+            is_online_found = False
+            if details.get('categories'):
+                for c in details['categories']:
+                    if c['description'] in ['Multi-player', 'Online Multi-Player', 'Co-op', 'Online Co-op']:
+                        is_multiplayer_found = True
+                    if c['description'] in ['Online Multi-Player', 'Online Co-op']:
+                        is_online_found = True
+            game['is_multiplayer'] = is_multiplayer_found
+            game['is_online'] = is_online_found
+
             game['trailer'] = details.get('movies') and details['movies'][0].get('webm', {}).get('480', '')
             game['age_rating'] = details.get('content_descriptors', {}).get('notes', None) or details.get('required_age', None)
             
+            # مقداردهی اولیه نمرات به None برای اطمینان از وجود فیلدها
+            game['steam_overall_score'] = None
+            game['steam_overall_reviews_count'] = None
+            game['steam_recent_score'] = None
+            game['steam_recent_reviews_count'] = None
+
             if details.get('type') == 'game' and details.get('recommendations'):
                 recommendations = details['recommendations']
                 game['steam_overall_reviews_count'] = recommendations.get('total')
                 
                 if 'reviews' in details:
                     review_summary = details['reviews']
-                    if 'overall_positive' in review_summary and 'total_reviews' in review_summary and review_summary['total_reviews'] > 0:
-                        game['steam_overall_score'] = round((review_summary['overall_positive'] / review_summary['total_reviews']) * 100)
-                    if 'recent_positive' in review_summary and 'recent_reviews' in review_summary and review_summary['recent_reviews'] > 0:
-                        game['steam_recent_score'] = round((review_summary['recent_positive'] / review_summary['recent_reviews']) * 100)
-                        game['steam_recent_reviews_count'] = review_summary['recent_reviews']
+                    
+                    overall_positive = review_summary.get('overall_positive')
+                    total_reviews = review_summary.get('total_reviews')
+                    if overall_positive is not None and total_reviews is not None and total_reviews > 0:
+                        game['steam_overall_score'] = round((overall_positive / total_reviews) * 100)
+                    
+                    recent_positive = review_summary.get('recent_positive')
+                    recent_reviews = review_summary.get('recent_reviews')
+                    if recent_positive is not None and recent_reviews is not None and recent_reviews > 0:
+                        game['steam_recent_score'] = round((recent_positive / recent_reviews) * 100)
+                        game['steam_recent_reviews_count'] = recent_reviews
+                    
                     logger.debug(f"[SteamEnricher] نمرات Steam (از بخش reviews) برای '{game_title}' یافت شد: کلی={game.get('steam_overall_score')}, اخیر={game.get('steam_recent_score')}")
                 elif game['steam_overall_reviews_count'] is not None:
                     logger.debug(f"[SteamEnricher] فقط تعداد کل ریویوها برای '{game_title}' در Steam یافت شد: {game['steam_overall_reviews_count']}. درصد قابل محاسبه نیست.")

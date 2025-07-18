@@ -117,22 +117,19 @@ class MetacriticEnricher:
 
         soup = BeautifulSoup(html_content, 'html.parser')
         
-        # سلکتور برای کانتینر نتایج جستجو
-        results_container = soup.find('div', class_='search_results') or \
-                            soup.find('ul', class_='search_results') or \
-                            soup.find('div', class_='results')
-
+        # سلکتور برای کانتینر نتایج جستجو (به‌روزرسانی شده)
+        # Metacritic's structure has changed, looking for a more stable container.
+        # This might be within a div with class "c-pageProductResults"
+        results_container = soup.find('div', class_='c-pageProductResults')
+        
         if not results_container:
-            logger.warning(f"⚠️ [MetacriticEnricher] کانتینر نتایج جستجو در Metacritic برای '{game_title}' یافت نشد. ساختار HTML ممکن است تغییر کرده باشد.")
+            logger.warning(f"⚠️ [MetacriticEnricher] کانتینر نتایج جستجو (c-pageProductResults) در Metacritic برای '{game_title}' یافت نشد. ساختار HTML ممکن است تغییر کرده باشد.")
             return game
 
-        # یافتن اولین نتیجه بازی که معمولاً دقیق‌ترین است
-        first_result_link = results_container.find('a', class_='title')
-        if not first_result_link:
-            # Fallback برای ساختارهای مختلف یا زمانی که 'title' تنها نیست
-            first_result_link = results_container.find('a', class_='search_result_row') 
-            if first_result_link:
-                first_result_link = first_result_link.find('a', class_='title') # مطمئن شویم که تگ <a> با کلاس 'title' را می‌گیریم
+        # یافتن اولین نتیجه بازی که معمولاً دقیق‌ترین است (به‌روزرسانی شده)
+        # Each result is typically an <a> tag with class "c-finderProductCard" or "c-finderProductCard_Container"
+        first_result_link = results_container.find('a', class_='c-finderProductCard_Container') or \
+                            results_container.find('a', class_='c-finderProductCard')
 
         if first_result_link and 'href' in first_result_link.attrs:
             game_page_url = self.BASE_URL + first_result_link['href']
@@ -145,8 +142,9 @@ class MetacriticEnricher:
 
             game_soup = BeautifulSoup(game_page_html, 'html.parser')
 
-            # استخراج نمره متاکریتیک (منتقدان)
-            score_tag = game_soup.find('div', class_='metascore_w')
+            # استخراج نمره متاکریتیک (منتقدان) - به‌روزرسانی شده
+            # The score is typically in a div with class 'c-siteReviewScore_score'
+            score_tag = game_soup.find('div', class_='c-siteReviewScore_score')
             if score_tag:
                 try:
                     game['metacritic_score'] = int(score_tag.get_text(strip=True))
@@ -156,8 +154,9 @@ class MetacriticEnricher:
             else:
                 logger.debug(f"[MetacriticEnricher] تگ نمره متاکریتیک (منتقدان) برای '{game_title}' یافت نشد.")
 
-            # استخراج نمره کاربران
-            userscore_tag = game_soup.find('div', class_='metascore_w user')
+            # استخراج نمره کاربران - به‌روزرسانی شده
+            # The user score is typically in a div with class 'c-siteReviewScore_score u-color-secondary'
+            userscore_tag = game_soup.find('div', class_='c-siteReviewScore_score u-color-secondary')
             if userscore_tag:
                 try:
                     game['metacritic_userscore'] = float(userscore_tag.get_text(strip=True))
