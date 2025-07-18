@@ -47,7 +47,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           # DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }} # اگر از DeepL استفاده می‌کنید، این خط را فعال کنید
-        run: python src/main.py
+        run: python -m src.main # <--- این خط اصلاح شده است
 
       - name: Commit and push changes
         run: |
