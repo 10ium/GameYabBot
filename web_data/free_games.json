@@ -1,5 +1,102 @@
 [
     {
+        "title": "Bloody Spell 239 EUR",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/992300/_Bloody_Spell/",
+        "image_url": "https://external-preview.redd.it/uXztdmZonSH_EypHDnh_r3B6ztm8XpFdMu9ad947g4U.jpeg?width=320&crop=smart&auto=webp&s=68a4dbaba2e73b4ceaa9e3d6efc6c2ffbbb5f7ab",
+        "description": "",
+        "id_in_db": "t3_1mcyb71",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "88% off",
+        "is_dlc_or_addon": false
+    },
+    {
+        "title": "EA August Sale It takes Two 1199 EUR70 Off Battlefied IV 399 EUR Battlefield V 499 EUR Star Wars Jedi Survivor 1199EUR Dead Space 1199EUR Mass Effect Legendary Edition 599 EUR Titanfall 2 599 EUR",
+        "store": "steam",
+        "url": "https://store.steampowered.com/developer/EA/sale/august-sale-2025",
+        "image_url": "https://external-preview.redd.it/wwzimxmGWK88QlPF1_5SIxOvPydBkS1Y1VgHNjmlQMw.jpeg?width=640&crop=smart&auto=webp&s=4131f49c863b3adceef332e5885e47c7404de57f",
+        "description": "",
+        "id_in_db": "t3_1mcy694",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "85% off",
+        "is_dlc_or_addon": true
+    },
+    {
+        "title": "IndieGala 2K Publisher Sale NBA 2K25 Borderlands 3 The Quarry Mafia Marvels Midnight Suns XCOM Chimera Squad WWE 2K25 PGA TOUR 2K25 Sid Meiers Civilization VII",
+        "store": "indiegala",
+        "url": "https://www.indiegala.com/store/publisher-sale/2k",
+        "image_url": "https://external-preview.redd.it/npuNbJXhqi4AWvmAm_JmiCTsQTkeDgzT3XifbN4dZbo.jpeg?width=640&crop=smart&auto=webp&s=3405ff8d0f981888e7095a179f83cad3b27b0201",
+        "description": "",
+        "id_in_db": "t3_1mcw7yw",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "86% off",
+        "is_dlc_or_addon": false
+    },
+    {
+        "title": "PLAYSUM Tales of the Shire A The Lord of The Rings Game Cwith code CHEERS",
+        "store": "other",
+        "url": "https://store.playsum.live/product/87de0974-1e91-434f-8771-976b666b00f9/tales-of-the-shire-a-the-lord-of-the-rings-game",
+        "image_url": "https://external-preview.redd.it/PHfNJ7SbINOr_ZiEBL5c2YJ2ikQIo5ZLBj1rj_D1us8.jpeg?width=216&crop=smart&auto=webp&s=4639620c795b5e11097d4076757c6ca59893a517",
+        "description": "",
+        "id_in_db": "t3_1mcn0kd",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "24% off",
+        "is_dlc_or_addon": false
+    },
+    {
+        "title": "Whispers on Paper sale event celebrating Inkborn EA launch Inkborn Inkborn Tainted Grail Conquest and same for other Inkborns Gordian Quest Hadean Tactics Astrea SixSided Oracles Concordia Digital Edition",
+        "store": "steam",
+        "url": "https://store.steampowered.com/publisher/Acram/sale/WhispersOnPaper",
+        "image_url": "https://external-preview.redd.it/wKFiyBBaWAsEOvdrsIJRDEC0Eazl-j4RQ7QM_pY9fmI.jpeg?width=640&crop=smart&auto=webp&s=9f063e5959b21881fc298334093dbef11f3216aa",
+        "description": "",
+        "id_in_db": "t3_1mcjgf2",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "10% off",
+        "is_dlc_or_addon": true
+    },
+    {
+        "title": "EtailMarket The Precinct",
+        "store": "other",
+        "url": "https://etail.market/the-precinct-1",
+        "image_url": "https://external-preview.redd.it/EsGeYKYY5on9bJTdisCo6LgM6Jst5x3ZXzAlzqnYwBM.jpeg?width=640&crop=smart&auto=webp&s=0028fce48a1937b7081d58100bc3b80dd598ef7b",
+        "description": "",
+        "id_in_db": "t3_1mcc8j5",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "43% off",
+        "is_dlc_or_addon": false
+    },
+    {
+        "title": "Madruga Works games Dawn of man Planetbase The Mobiushine",
+        "store": "steam",
+        "url": "https://madrugaworks.com/main/",
+        "image_url": null,
+        "description": "My name is Tucho fromMadruga Works, all our games are 50% off this week (July 28-August 04)Dawn of man($12.49):https://store.steampowered.com/app/858810/Dawn_of_Man/Planetbase($7.49):https://store.steampowered.com/app/403190/Planetbase/The Mobius Machine($9.99):https://store.steampowered.com/app/2281940/The_Mobius_Machine/",
+        "id_in_db": "t3_1mc7j4e",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "50% off",
+        "persian_summary": "نام من Tucho Fromadruga Works است ، تمام بازی های ما در این هفته 50 ٪ تخفیف دارند (28 ژوئیه 04) مرد (12.49 دلار): https: //store.steampowered.com/app/85810/dawn_of_man/planetbase (7.49 دلار): https: //store.steampowered.com/app/403190/planetbase/the moblobius دستگاه (9.99 دلار): https: //store.steampowered.com/app/2281940/the_mobius_machine/",
+        "is_dlc_or_addon": false
+    },
+    {
+        "title": "ALLYOUPLAY Abiotic Factor EU US Activation",
+        "store": "steam",
+        "url": "https://www.allyouplay.com/abiotic-factor-row-a5aebaa8-c444-4933-9f8c-20f2612b764f",
+        "image_url": "https://external-preview.redd.it/FD8zm69G4qoigjdglZzZAr0f1W1e0FyrpfCoWPd9rZ0.png?width=640&crop=smart&auto=webp&s=64c1cd5756d7cd5ce51ed84522775ac0addbbcc8",
+        "description": "",
+        "id_in_db": "t3_1mc6e3h",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "18% off",
+        "is_dlc_or_addon": false
+    },
+    {
         "title": "Racing Fest 2025 Retro Rally",
         "store": "steam",
         "url": "https://store.steampowered.com/app/2669620/Retro_Rally/",
@@ -57,9 +154,9 @@
         "discount_text": null,
         "steam_app_id": "1307090",
         "genres": [
-            "Racing",
             "Indie",
-            "Casual"
+            "Casual",
+            "Racing"
         ],
         "is_multiplayer": true,
         "is_online": false,
@@ -71,8 +168,8 @@
         "steam_recent_reviews_count": null,
         "persian_summary": "<p class = \"bb_paragraph\"> <strong> توجه: نسخه GT حاوی پرش مانند نسخه عادی نیست. class = \"bb_ul\"> <li> <p class = \"bb_paragraph\"> 26 نوع اتومبیل </p> </li> <li> <p class = \"bb_paragraph\"> 21 آهنگ مسابقه جدید class = \"bb_paragraph\"> تک بازیکن </p> </li> <li> <p class = \"bb_paragraph\"> حداکثر 4 بازیکن صفحه تقسیم محلی </p> </li> <li> <p class = \"bb_paragraph\"> حداکثر 20 اتومبیل در شبکه </p> </li> </li> </ul>",
         "persian_genres": [
-            "گاه",
             "وابسته به",
+            "گاه",
             "مسابقه"
         ],
         "is_dlc_or_addon": false
@@ -185,114 +282,61 @@
         "is_dlc_or_addon": false
     },
     {
-        "title": "Deep Rock Galactic",
+        "title": "Game Call of Duty Modern Warfare II",
+        "store": "xbox",
+        "url": "https://www.microsoft.com/store/productId/9N872NBW5XG5",
+        "image_url": null,
+        "description": "",
+        "id_in_db": "t3_1mcxw34",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": null,
+        "is_dlc_or_addon": false
+    },
+    {
+        "title": "game Art of Beauties",
         "store": "steam",
-        "url": "https://store.steampowered.com/app/548430/Deep_Rock_Galactic/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548430/header.jpg?t=1745514515",
-        "description": "<div class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548430/extras/AboutThisGame_Top.gif?t=1745514515\" /></div><br><br>Deep Rock Galactic is a 1-4 player co-op FPS featuring badass space Dwarves, 100% destructible environments, procedurally-generated caves, and endless hordes of alien monsters.<h2 class=\"bb_tag\">1-4 PLAYER CO-OP</h2>Work together as a team to dig, explore, and fight your way through a massive cave system filled with hordes of deadly enemies and valuable resources. You will need to rely on your teammates if you want to survive the most hostile cave systems in the galaxy!<h2 class=\"bb_tag\">4 UNIQUE CLASSES</h2>Pick the right class for the job. Mow through enemies as the Gunner, scout ahead and light up the caves as the Scout, chew through solid rock as the Driller, or support the team with defensive structures and turrets as the Engineer.<h2 class=\"bb_tag\">FULLY DESTRUCTIBLE ENVIRONMENTS</h2>Destroy everything around you to reach your goal. There is no set path so you can complete your mission your way. Drill straight down to your objective or build an intricate network of paths to explore your surroundings -- the choice is yours. But proceed with caution, you don’t want to stumble into an alien swarm unprepared!<h2 class=\"bb_tag\">PROCEDURALLY GENERATED CAVE NETWORK</h2>Explore a network of procedurally generated cave systems filled with enemies to fight and riches to collect. There’s always something new to discover and no two playthroughs are alike.<h2 class=\"bb_tag\">HIGH-TECH GADGETS AND WEAPONS</h2>Dwarves know what they need to bring to get the job done. This means the most powerful weapons and the most advanced gadgets around - flamethrowers, gatling guns, portable platform launchers, and much, much more.<h2 class=\"bb_tag\">LIGHT YOUR PATH</h2>The underground caves are dark and full of terrors. You will need to bring your own lights if you want to illuminate these pitch-black caverns.<br><br><br><div class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548430/extras/SteamStore_VignetteA_01.png?t=1745514515\" /></div>",
-        "id_in_db": "t3_1maadct",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "70% off",
-        "steam_app_id": "548430",
+        "url": "https://gleam.io/p77Ds/art-of-beauties-steam-key",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1906570/header.jpg?t=1724073772",
+        "description": "<h2 class=\"bb_tag\">Overview</h2><br>The Art of War: Card Game is a non-collectable game where you can lead one of four factions and fight for dominance in fierce card battles against other players online. This game is a digital version of our tabletop version with some limitations. In the digital version matches are limited by two players (instead of 4 in the tabletop version) and only &quot;versus&quot; mode is available. On the other hand, digital version of the game provide quick and easy search for opponents, ranking system and solo mode where the player can fight with AI without a human partner. All other aspects of the game are equivalent in both versions of the game.<h2 class=\"bb_tag\">Gameplay</h2><br><strong>Four factions of your choice:</strong><br><br><ul class=\"bb_ul\"><li><strong>The Kingdom of Etlia</strong> is a kingdom of the middle lands, which for a long time existed without wars and gave the world many literature and art masterpieces of. Its culture is known far beyond the borders of the kingdom, but the civil war made the country easy prey in the eyes of its neighbors. The self-defense units of Etlia are not so strong, but the heroes of these lands are able to inspire the troops by restoring their health and recruit additional units under their banners.<br></li><li><strong>Nordkönigreich</strong> is the kingdom of the north, a nation that has tempered its character in centuries of incessant wars. Artillery, battle mages and warriors of this faction can unleash all their power and fury on the enemies of the Kaiser and inflict large damage upon them, from which they can never recover.<br></li><li><strong>The Sarioantian Empire</strong>, which was once the most powerful nation on the continent, is now in a political crisis. Despite the shaky position and unrest in society, its new leader intends to return the empire to greatness. This faction specializes in covert operations that can leave the enemy without an army and disrupt enemy strategy before Sarioantia deploys its main forces.<br></li><li><strong>The Greatunion Tsardom</strong> is a religious kingdom of the east, in which the practice of magic is prohibited. However, despite the absence of magicians in the ranks of its troops, the troops of this nation are the most powerful and disciplined, and clerics give protection to soldiers from enemy magic attacks.</li></ul><br><strong>Ten cards</strong><br><br>Each player starts the game with 10 cards in their hands. Players draws cards only between rounds, so during a round you can only count on card you have in your hand. Use your cards wisely! Before the game you can construct your main deck in Deck Builder or you can play with default one.\t<br><br><strong>Best out of three</strong>\t<br><br>To win the game, you need to score two Victory Points. The loser of the round gets 0 points, and the winner gets 1 point. A draw gives 1 point to each player. If two rounds did not reveal a winner, then an additional (third) round is played.\t<br><br><strong>Two rows</strong><br><br>Each player's field, which is called the player's side in the game, consists of two equal rows in which the player places his cards. The rows are no different from each other and only allow you to disperse your forces, depending on the tactics chosen.\t<br><br><strong>Six cards per row</strong><br><br>Each row is limited to 6 cards. Player cannot place another card in a row with 6 cards. Also, the accumulation of the main forces in one row can be a good target for an enemy attack or effect.<br><br><strong>One turn - one card</strong><br><br>During player's turn, each player must play one card from his hand and if they can't, then they must pass. The passing player no longer participates in the round and passes the initiative to the opponent.<br><br><strong>Winner of the round</strong><br><br>At the end of each round, the health of all units on a player's side is calculated. The player who controls the army with more health wins the round. If the combined health of units is the same for two or more players, then a draw is declared.<h2 class=\"bb_tag\">Story</h2><br>After the death of King of Etlia – Louis VII – a civil split began in the country, which soon escalated into a civil war. The brother of the late king, supported by some aristocrats, did not acknowledge the illegitimate son of the monarch – Charles – and declared himself as the new king. General Covali de Villefort – the commander of the royal forces of Etlia, as well as the regent of the young monarch – remained loyal to the late king and is trying to protect the heir and get even from the opposition.<br><br>Seeing the state of the kingdom, Nordkönigraich, in the person of Kaiser Alexander III the Ferocious, under an imaginary pretext, declares war on Etlia and occupies its northern territories. Sarioantia, in the person of Emperor Serginian ebn Julius, fearing that the northerners will occupy the gold mines and trading centers of Etlia, announces that Etlia has violated neutral status and introduces its troops into the southern territories of the country, in an attempt to prevent the north from strengthening in the region.<br><br>General Kovali de Villefort, now forced to fight at once with Sarioantia, the Northern Kingdom and the rebels, asks for help from his eastern neighbor – the Greatunion Tsardom, which is now ruled by the young and ambitious Vladislav IV – the Terrible – the son of his great father, with whom the late King of Etlia had friendly relations.<br><br>In a small kingdom, a war has now begun between four forces, each of which sees itself as a beneficiary of this war. In addition, the situation is complicated by groups disloyal to De Villefort, who either situationally enter alliances or fight against everyone.",
+        "id_in_db": "t3_1mcbn28",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": null,
+        "steam_app_id": "1906570",
         "genres": [
-            "Action"
-        ],
-        "is_multiplayer": true,
-        "is_online": true,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257031000/movie480_vp9.webm?t=1718276246",
-        "age_rating": "Violence, Use of Alcohol, Strong Language ",
-        "steam_overall_score": null,
-        "steam_overall_reviews_count": null,
-        "steam_recent_score": null,
-        "steam_recent_reviews_count": null,
-        "persian_summary": "<div class = \"bb_img_ctn\"> <img class = \"bb_img\" src = \"https://shared.akamai.steamstatic.com/store_item_assets/apps/548430/extras/aboutthisgame_top.gip.gif.gif؟t=174514515 Galactic یک FPS 1-4 بازیکن FPS است که دارای کوتوله های فضایی Badass ، 100 ٪ محیط های تخریب شده ، غارهای تولید شده از رویه و انبوهی بی پایان هیولاهای بیگانه است. <H2 Class = \"BB_TAG\"> 1-4 بازیکن تعاونی با هم به عنوان یک تیم با ارزش برای حفر کردن ، آشکار کردن و مبارزه با Cave Maskive System با یکدیگر کار می کنند و با یک روش بزرگ و با یک سیستم بزرگ می توانند با یک سیستم عظیم مبارزه کنند. اگر می خواهید از خصمانه ترین سیستم های غار در کهکشان زنده بمانید ، باید به هم تیمی های خود اعتماد کنید! از طریق دشمنان به عنوان تفنگدار ، پیشاهنگ جلو و غارها را به عنوان پیشاهنگ روشن کنید ، از طریق سنگ جامد به عنوان دریلر جوید ، یا از تیم با ساختارهای دفاعی و برجک ها به عنوان مهندس پشتیبانی کنید. هیچ مسیر مشخصی وجود ندارد تا بتوانید مأموریت خود را به روش خود انجام دهید. مستقیماً به سمت هدف خود بروید یا یک شبکه پیچیده از مسیرها را برای کشف محیط اطراف خود بسازید - انتخاب مورد نظر شماست. اما با احتیاط ادامه دهید ، شما نمی خواهید در یک Swarm بیگانه آماده نشده باشید! همیشه چیز جدیدی برای کشف وجود دارد و هیچ دو بازی با هم یکسان نیستند. این به معنای قدرتمندترین سلاح ها و پیشرفته ترین وسایل اطراف است - Flamethrowers ، Gatling Guns ، Launchers Platform قابل حمل و بسیار بیشتر. اگر می خواهید این غارهای سیاه و سفید را روشن کنید ، باید چراغ های خود را بیاورید. src = \"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548430/extras/steamstore_vignette_01.png؟t=1745514515\"/> </div>",
-        "persian_genres": [
-            "عمل"
-        ],
-        "persian_age_rating": "خشونت ، استفاده از الکل ، زبان قوی",
-        "is_dlc_or_addon": false
-    },
-    {
-        "title": "Assassins Creed Black Flag 1199 EUR",
-        "store": "steam",
-        "url": "https://store.steampowered.com/sub/586532/",
-        "image_url": null,
-        "description": "",
-        "id_in_db": "t3_1ma0798",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "70% off",
-        "is_dlc_or_addon": false
-    },
-    {
-        "title": "Sams Club eShop 5xeShop gift cards email delivery Membership required",
-        "store": "nintendo",
-        "url": "https://www.samsclub.com/p/nintendo-mp-5-x-20-multi-code-email-delivery-gift-card/P990431641",
-        "image_url": null,
-        "description": "",
-        "id_in_db": "t3_1m9x0k4",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "20% off",
-        "is_dlc_or_addon": false
-    },
-    {
-        "title": "IndieGala WayForward Sale RWBY Arrowfell Spidersaurs The Mummy Demastered River City Girls 2 River City Girls Zero LUNARK Dawn of the Monsters Shantae and the Seven Sirens Mighty Force60",
-        "store": "indiegala",
-        "url": "https://www.indiegala.com/store/publisher-sale/wayforward",
-        "image_url": null,
-        "description": "",
-        "id_in_db": "t3_1m9p8l8",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "75% off",
-        "is_dlc_or_addon": false
-    },
-    {
-        "title": "Space Menace 2",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/3136380/Space_Menace_2/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3136380/header.jpg?t=1753506429",
-        "description": "Navigate a galaxy in chaos, full of opportunity and danger, in this seamless blend of sci-fi RTS and space combat. You’ll start with a small, modest fleet but your journey is anything but ordinary. Completing missions or engaging in combat earns you credits, which you can use to upgrade and expand your fleet. The game offers a satisfying depth of customization, with a variety of modules and upgrade options that allow players to fine-tune their ships for different strategies and playstyles.<br><br><div class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3136380/extras/Gameplay_616.gif?t=1753506429\" /></div><h2 class=\"bb_tag\">Rise to Power</h2>As you rise through the ranks, the stakes grow higher. Initially commanding just a few ships, you'll soon find yourself in control of powerful fleets, gaining the trust and respect of the galaxy's most formidable factions. Align yourself wisely, your reputation will open doors to powerful alliances and devastating confrontations. But even as you navigate the shifting tides of power, whispers of an unknown force grow louder, threatening to upend everything.<h2 class=\"bb_tag\">Customize</h2>Customization is at the heart of Space Menace 2. Build and fine-tune your fleet with deep loadout options, combining a wide variety of weapons, utilities, strike craft and upgrade options. Whether you prefer raw firepower, tactical control, or balanced strategies, the game offers satisfying depth to support your playstyle.<br><br><div class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3136380/extras/Loadouts_2_616.gif?t=1753506429\" /></div><h2 class=\"bb_tag\">Maximum Excitement, Minimal Grind</h2>Space Menace 2 is designed for maximum excitement with minimal grind, offering a deep, strategic experience that evolves as you do. As the game unfolds, so do the challenges and complexities, ensuring every moment is filled with tactical decisions and thrilling encounters. Whether you're outmaneuvering enemy fleets or negotiating with powerful allies, your choices will echo through the galaxy, leaving a legacy that only you can forge.<br><br>Prepare for a journey that balances strategy, action, and storytelling, as you strive for dominance among the stars in a galaxy on the brink of war.",
-        "id_in_db": "t3_1m9lgc4",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "15% off",
-        "steam_app_id": "3136380",
-        "genres": [
-            "Action",
+            "Casual",
+            "Free To Play",
             "Indie",
-            "Simulation",
             "Strategy"
         ],
-        "is_multiplayer": false,
+        "is_multiplayer": true,
         "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257048205/movie480_vp9.webm?t=1724244583",
+        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256938813/movie480_vp9.webm?t=1680250533",
         "age_rating": 0,
         "steam_overall_score": null,
         "steam_overall_reviews_count": null,
         "steam_recent_score": null,
         "steam_recent_reviews_count": null,
-        "persian_summary": "در این ترکیب بدون درز از RTS علمی تخیلی و مبارزه با فضایی ، یک کهکشان را در هرج و مرج ، پر از فرصت و خطر حرکت دهید. شما با یک ناوگان کوچک و متوسط شروع خواهید کرد اما سفر شما چیزی غیر عادی است. تکمیل مأموریت ها یا شرکت در مبارزه ، اعتبار شما را کسب می کند ، که می توانید برای ارتقاء و گسترش ناوگان خود استفاده کنید. این بازی عمق رضایت بخش از سفارشی سازی را ارائه می دهد ، با انواع ماژول ها و گزینه های به روزرسانی که به بازیکنان امکان می دهد کشتی های خود را برای استراتژی های مختلف و بازیگران مختلف تنظیم کنند. src = \"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3136380/extras/gameplay/gameplay/gameply/616.gif؟t=1753506429\"/> <h2 class = \"triz ، your stakes triz ، your stains> stain در ابتدا با فرماندهی فقط چند کشتی ، به زودی خود را در کنترل ناوگان های قدرتمند پیدا خواهید کرد و اعتماد و احترام به جناح های شدید کهکشان را به دست می آورید. خود را عاقلانه تراز کنید ، شهرت شما درهای اتحادهای قدرتمند و رویارویی های ویرانگر را باز خواهد کرد. اما حتی هنگامی که به جزر و مد در حال تغییر قدرت حرکت می کنید ، زمزمه های یک نیروی ناشناخته بلندتر می شوند و تهدید می کنند که همه چیز را بالا می برید. این که آیا شما قدرت آتش سوزی خام ، کنترل تاکتیکی یا استراتژی های متعادل را ترجیح می دهید ، بازی عمق رضایت بخش را برای پشتیبانی از Playstyle شما ارائه می دهد. src = \"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3136380/extras/oadouts_2_616.gif؟t=1753506429\"/> </div> <h2 class = \"grind> h2 grind <h2 grind <h2 class =\" bb_tag \". هیجان با حداقل خرد کردن ، ارائه یک تجربه عمیق و استراتژیک که مانند شما تکامل می یابد. همانطور که بازی آشکار می شود ، چالش ها و پیچیدگی ها را نیز انجام دهید ، و اطمینان حاصل کنید که هر لحظه پر از تصمیمات تاکتیکی و برخوردهای هیجان انگیز است. این که آیا شما از ناوگان دشمن خارج می شوید و چه در حال مذاکره با متحدین قدرتمند باشید ، انتخاب های شما از طریق کهکشان تکرار می شود ، میراثی را ترک می کند که فقط شما می توانید جعل کنید. <br> <br> برای سفری آماده می شود که استراتژی ، اکشن و قصه گویی را متعادل می کند ، همانطور که در تلاش برای سلطه در میان ستارگان در یک کهکشان در آستانه جنگ هستید.",
+        "persian_summary": "<h2 class = \"bb_tag\"> بررسی اجمالی </h2> <br> بازی کارت: بازی کارت یک بازی غیر قابل جمع آوری است که می توانید یکی از چهار جناح را هدایت کنید و برای تسلط در نبردهای سخت در مقابل سایر بازیکنان آنلاین مبارزه کنید. این بازی یک نسخه دیجیتالی از نسخه Tabletop ما با برخی محدودیت ها است. در نسخه های دیجیتالی بازی توسط دو بازیکن (به جای 4 در نسخه Tabletop) محدود است و فقط حالت \"در مقابل\" در دسترس است. از طرف دیگر ، نسخه دیجیتالی بازی جستجوی سریع و آسان برای حریفان ، سیستم رتبه بندی و حالت انفرادی را فراهم می کند که بازیکن می تواند بدون شریک انسانی با هوش مصنوعی بجنگد. All other aspects of the game are equivalent in both versions of the game.<h2 class=\"bb_tag\">Gameplay</h2><br><strong>Four factions of your choice:</strong><br><br><ul class=\"bb_ul\"><li><strong>The Kingdom of Etlia</strong> is a kingdom of the middle lands, which for a long time existed without wars and gave the world many literature and شاهکارهای هنری. فرهنگ آن بسیار فراتر از مرزهای پادشاهی شناخته شده است ، اما جنگ داخلی باعث شده است که این کشور طعمه ای را در نگاه همسایگان خود آسان کند. واحدهای دفاع از خود اتلیا چندان قوی نیستند ، اما قهرمانان این سرزمین ها می توانند با ترمیم سلامتی خود به سربازان الهام بخشند و واحدهای اضافی را در زیر آگهی های خود استخدام کنند. توپخانه ، مگس های نبرد و جنگجویان این جناح می توانند تمام قدرت و خشم خود را بر دشمنان قیصر وارد کنند و صدمات بزرگی به آنها وارد کنند ، که از این رو آنها هرگز نمی توانند بهبود یابند. با وجود موقعیت لرزان و ناآرامی ها در جامعه ، رهبر جدید آن قصد دارد امپراتوری را به عظمت برگرداند. این جناح در عملیات پنهانی تخصص دارد که می تواند دشمن را بدون ارتش ترک کند و استراتژی دشمن را مختل کند قبل از اینکه Sarioantia نیروهای اصلی خود را مستقر کند. با این حال ، علی رغم عدم وجود جادوگران در رده های سربازان خود ، سربازان این ملت قدرتمندترین و انضباطی هستند و روحانیون از حملات جادویی دشمن محافظت می کنند. بازیکنان فقط بین دور کارتها می کشند ، بنابراین در طول دور فقط می توانید روی کارت موجود در دست خود حساب کنید. از کارتهای خود عاقلانه استفاده کنید! قبل از بازی می توانید عرشه اصلی خود را در Deck Builder بسازید یا می توانید با یک پیش فرض بازی کنید.\t<br> <br> <br> بهترین از سه </strong> <br> <br> برای پیروزی در بازی ، شما باید دو امتیاز پیروزی کسب کنید. بازنده دور 0 امتیاز کسب می کند و برنده 1 امتیاز کسب می کند. یک قرعه کشی به هر بازیکن 1 امتیاز می دهد. اگر دو دور یک برنده را فاش نکرد ، یک دور اضافی (سوم) بازی می شود.\t<br> <br> <br> <strong> دو ردیف </strong> <br> <br> میدان هر بازیکن که در بازی بازیکن به آن نامیده می شود ، از دو ردیف مساوی تشکیل شده است که در آن بازیکن کارتهای خود را قرار می دهد. ردیف ها هیچ تفاوتی با یکدیگر ندارند و فقط به شما امکان می دهد بسته به تاکتیک های انتخاب شده ، نیروهای خود را پراکنده کنید.\t<br> <br> <br> <strong> شش کارت در هر ردیف </strong> <br> <br> هر سطر به 6 کارت محدود می شود. بازیکن نمی تواند کارت دیگری را پشت سر هم با 6 کارت قرار دهد. همچنین ، تجمع نیروهای اصلی در یک ردیف می تواند هدف خوبی برای حمله یا اثر دشمن باشد. <br> <br> <br> یک نوبت - یک کارت </strong> <br> <br> در طول نوبت بازیکن ، هر بازیکن باید یک کارت را از دست خود بازی کند و اگر نتوانند ، پس باید از آن عبور کنند. بازیکن در حال گذر دیگر در دور شرکت نمی کند و ابتکار عمل را به حریف منتقل می کند. بازیکنی که ارتش را با سلامت بیشتر کنترل می کند ، در دور پیروز می شود. اگر سلامت ترکیبی واحدها برای دو یا چند بازیکن یکسان باشد ، یک قرعه کشی اعلام می شود. برادر پادشاه فقید ، با حمایت برخی از اشراف ، فرزند نامشروع سلطنت - چارلز - را تصدیق نکرد و خود را به عنوان پادشاه جدید اعلام کرد. ژنرال کووالای د ویلفورت - فرمانده نیروهای سلطنتی اتلیا ، و همچنین ریجنت پادشاه جوان - به پادشاه فقید وفادار مانده و در تلاش است تا از وارث محافظت کند و حتی از مخالفت بگیرد. سرزمین های شمالی. Sarioantia ، در شخص امپراتور سرجینیان ابن جولیوس ، با ترس از اینکه شمالی ها مین های طلا و مراکز تجاری اتلیا را اشغال می کنند ، اعلام می کند که اتلیا وضعیت خنثی را نقض کرده و سربازان خود را به صورت یکبار در مناطق جنوبی در حال جنگیدن در منطقه می کند. پادشاهی شمالی و شورشیان ، از همسایه شرقی خود - Greatunion Tsardom ، که اکنون توسط ولادیسلاو IV جوان و بلندپروازانه اداره می شود - پسر پدر بزرگ خود ، که با او پادشاه فقید اتلیا روابط دوستانه ای داشت ، کمک می کند. علاوه بر این ، اوضاع توسط گروههای بی اعتمادی نسبت به د ویلفورت ، که یا از نظر موقعیتی وارد اتحاد می شوند یا با همه می جنگند ، پیچیده است.",
         "persian_genres": [
-            "عمل",
+            "گاه",
+            "رایگان برای بازی",
             "وابسته به",
-            "شبیه سازی",
             "استراتژی"
         ],
         "is_dlc_or_addon": false
     },
     {
-        "title": "The Outer Worlds 749 EUR",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/578650/The_Outer_Worlds/",
-        "image_url": "https://external-preview.redd.it/r5isQ6X4HVA72R3qJyCYxW3_WQNT5HXgI-_auB8s0BA.jpeg?width=320&crop=smart&auto=webp&s=a5dd536a9933510d18195913aad58c4e3f324855",
+        "title": "Game A Game of Changes or Fairy Escape",
+        "store": "other",
+        "url": "https://givee.club/event/1071",
+        "image_url": "https://external-preview.redd.it/RNWaVMdVJMMSEqoEkIwq8pGCEYY4p2ulP75NsoapUtc.png?width=320&crop=smart&auto=webp&s=5c0bb1058a177bc8f20d4f6d745926243c5a4a46",
         "description": "",
-        "id_in_db": "t3_1m9i586",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "75% off",
+        "id_in_db": "t3_1mc93gx",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": null,
         "is_dlc_or_addon": false
     },
     {
@@ -633,49 +677,6 @@
         "is_dlc_or_addon": false
     },
     {
-        "title": "Game Deadlight Directors Cut",
-        "store": "steam",
-        "url": "https://gaming.lenovo.com/deadlight-key-drops",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/header.jpg?t=1750948552",
-        "description": "<i>For the very first time on PC, play through Jin Sakai’s journey and discover the complete Ghost of Tsushima experience in this Director’s Cut.</i><br><br>In the late 13th century, the Mongol empire has laid waste to entire nations along their campaign to conquer the East. Tsushima Island is all that stands between mainland Japan and a massive Mongol invasion fleet led by the ruthless and cunning general, Khotun Khan.<br><br>As the island burns in the wake of the first wave of the Mongol assault, courageous samurai warrior Jin Sakai stands resolute. As one of the last surviving members of his clan, Jin is resolved to do whatever it takes, at any cost, to protect his people and reclaim his home. He must set aside the traditions that have shaped him as a warrior to forge a new path, the path of the Ghost, and wage an unconventional war for the freedom of Tsushima.<br><br><ul class=\"bb_ul\"><li>Experience Ghost of Tsushima with unlocked framerates and a variety of graphics options tailored to a wide range of hardware, ranging from high-end PCs to portable PC gaming devices.*<br></li><li>Get a view of even more of the action with support for Ultrawide (21:9), Super Ultrawide (32:9) and even 48:9 Triple Monitor support.*<br></li><li>Boost performance with upscaling and frame generation technologies like NVIDIA DLSS 3, AMD FSR 3 and Intel XeSS. NVIDIA Reflex and image quality-enhancing NVIDIA DLAA are also supported.** <br></li><li>Japanese lip sync – enjoy a more authentic experience with lip sync for Japanese voiceover, made possible by cinematics being rendered in real time by your PC.<br></li><li>Choose how you control the action: experience haptic feedback and adaptive triggers through a wired DualSense™ controller…***<br></li><li>…or go with mouse and keyboard, with fully customizable controls.<br></li><li>Haptic feedback – master your blade through the DualSense™ controller’s immersive haptic feedback.***<br></li><li>Adaptive triggers – enhance your accuracy with a bow using adaptive trigger resistance.***</li></ul><br><i>* Compatible PC and display device required.<br>** Compatible PC and graphics card required.<br>*** Wired connection required to experience the full range of in-game controller features.</i>",
-        "id_in_db": "t3_1m7dgrx",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": null,
-        "steam_app_id": "2215430",
-        "genres": [
-            "Action",
-            "Adventure"
-        ],
-        "is_multiplayer": true,
-        "is_online": true,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257022043/movie480_vp9.webm?t=1716411558",
-        "age_rating": "Ghost of Tsushima is an action game set in feudal Japan. Players take the role of Jin Sakai, a samurai risking everything to defend Tsushima from the Mongol invaders pillaging the land. Players travel the Japanese countryside helping civilians and defending them from the Mongol invaders. Frequent sword battles take place in 3rd person melee and ranged combat. Successful attacks can result in dismemberment and decapitation, often accompanied by large blood-splatter effects. Players can also use stealth to take out enemies unseen, with assassination kills. Cinematics and other scenes show other examples of intense violence and gore, including a scene where a civilian is burned alive, a scene showing a person beheaded and the decapitated man’s head held up towards the camera. Red blood can be seen in environments, on clothing, and spraying from successful attacks.",
-        "steam_overall_score": null,
-        "steam_overall_reviews_count": null,
-        "steam_recent_score": null,
-        "steam_recent_reviews_count": null,
-        "persian_summary": "<i> برای اولین بار در رایانه شخصی ، از طریق سفر جین ساکای بازی کنید و روح کامل تجربه Tsushima را در این کارگردان کشف کنید. جزیره Tsushima تمام آنچه در بین سرزمین اصلی ژاپن و یک ناوگان تهاجم عظیم مغول قرار دارد به رهبری ژنرال بی رحمانه و حیله گر ، خووتون خان است. به عنوان یکی از آخرین اعضای بازمانده قبیله خود ، جین تصمیم گرفته است که هر کاری را که انجام می دهد ، به هر قیمتی ، برای محافظت از مردم خود و بازپس گیری خانه خود انجام دهد. او باید سنت هایی را که او را به عنوان یک جنگجو شکل داده است ، کنار بگذارد تا بتواند یک مسیر جدید ، مسیر شبح را جعل کند و یک جنگ غیر متعارف را برای آزادی Tsushima انجام دهد. دستگاه های بازی.*<br> </li> <li> با پشتیبانی از Ultrawide (21: 9) ، Super Ultrawide (32: 9) و حتی 48: 9 پشتیبانی از مانیتور ، حتی بیشتر از اقدامات خود را مشاهده کنید. NVIDIA رفلکس و تصویر با افزایش کیفیت Nvidia DLAA نیز پشتیبانی می شود. کنترلر… *** <br> </li> <li>… یا با ماوس و صفحه کلید ، با کنترل های کاملاً قابل تنظیم بروید. مقاومت. *** </li> </ul> <br> <i>*رایانه و نمایشگر سازگار مورد نیاز. <br> ** کارت سازگار و کارت گرافیک مورد نیاز است.",
-        "persian_genres": [
-            "عمل",
-            "ماجراجویی"
-        ],
-        "persian_age_rating": "Ghost of Tsushima یک بازی اکشن است که در ژاپن فئودالی تنظیم شده است. بازیکنان نقش جین ساکای را به عهده می گیرند ، سامورایی که همه چیز را برای دفاع از Tsushima از مهاجمان مغول در حال غارت زمین به خطر می اندازد. بازیکنان به حومه ژاپن سفر می کنند و به غیرنظامیان کمک می کنند و از آنها از مهاجمان مغول دفاع می کنند. نبردهای مکرر شمشیر در غوغا شخص 3 و مبارزه با دامنه انجام می شود. حملات موفقیت آمیز می تواند منجر به پراکندگی و فریب شود ، که اغلب با اثرات بزرگ لکه دار خون همراه است. بازیکنان همچنین می توانند از مخفیانه برای بیرون کشیدن دشمنان غیب استفاده کنند و قتل های ترور. فیلم های سینمایی و صحنه های دیگر نمونه های دیگری از خشونت شدید و گور را نشان می دهند ، از جمله صحنه ای که یک غیرنظامی زنده سوخته می شود ، صحنه ای که نشان می دهد یک شخص بریده شده است و سر انسان فریب خورده به سمت دوربین است. خون قرمز را می توان در محیط ها ، لباس ها و پاشش حملات موفق مشاهده کرد.",
-        "is_dlc_or_addon": false
-    },
-    {
-        "title": "STOVE Game Bullet Delivery Space Spot",
-        "store": "stove",
-        "url": "https://store.onstove.com/en/games/101940",
-        "image_url": null,
-        "description": "",
-        "id_in_db": "t3_1m6fbfl",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": null,
-        "is_dlc_or_addon": false
-    },
-    {
         "title": "Ap Perplexity Pro 1 year subscriptionfor Airtel India Users Only",
         "store": "google play",
         "url": "https://play.google.com/store/apps/details?id=com.TheLonelyDeveloper.TheLonelyHacker",
@@ -687,6 +688,19 @@
         "discount_text": null,
         "is_dlc_or_addon": false,
         "persian_summary": "رایگان 1 سال PERPELEXITY PRO SUB برای کاربران Airtel India (هر سرویس فعال Airtel) فقط روی برنامه Airtel وارد شوید و گزینه \"OTTS COMENT و بیشتر\" را باز کنید و فقط دستورالعمل ها را برای فعال کردن 1 سال حساب Pro Pro به صورت رایگان دنبال کنید. : https: //play.google.com/store/apps/details؟ id = com.myairtelapp"
+    },
+    {
+        "title": "Alti ADHD Planner Lifetime Premium AccessWas Nowfor 7 Days",
+        "store": "ios app store",
+        "url": "https://apps.apple.com/us/app/alti-adhd-planner/id6738433959",
+        "image_url": "https://external-preview.redd.it/TZgNNnwamISktyutn498unilPikV2cMtdFEKIvdEdpE.png?width=640&crop=smart&auto=webp&s=f7bf660d3f043e80d2b554309348fdafecc4b907",
+        "description": "Hey everyone! I’m the solo dev behindAlti - ADHD Planner, an iOS app designed to make task management more visual and motivating — especially for ADHD users and visual thinkers.📌What it does:Turns your tasks into cozy animated room scenes (e.g., reading, cleaning, working)Designed for dopamine-driven focus with a soft, calming UIIncludes features like voice-to-task (\"Brain Dump\"), procrastination breaker (\"Spark Push\"), habit tracking, and focus timerFully supports both iPhone and iPad with a native design for each device💸Lifetime Premium is FREE for the next 7 days(was $29.99)🔗App Store LinkIf you enjoy it, a5-star rating and short reviewwould mean a lot and help support continued updates.Happy to hear your feedback or answer any questions!",
+        "id_in_db": "t3_1mcopdz",
+        "subreddit": "AppHookup",
+        "is_free": true,
+        "discount_text": null,
+        "persian_summary": "سلام به همه! من تکنوازی پشت سر هم هستم-برنامه ریز ADHD ، یک برنامه iOS که به منظور ایجاد مدیریت کار بیشتر و انگیزه تر-به خصوص برای کاربران ADHD و متفکران بصری طراحی شده است. فشار \") ، ردیابی عادت ، و تمرکز به موقع از آیفون و آیپد با طراحی بومی برای هر دستگاه پشتیبانی می کند-برای 7 روز آینده رایگان است (29.99 دلار بود) 🔗APP فروشگاه Linkif شما از آن لذت می برید ، رتبه بندی A5 ستاره و بررسی کوتاه می تواند به معنای زیادی باشد و به شما کمک می کند تا به روزرسانی های خود را بشنوید.",
+        "is_dlc_or_addon": false
     },
     {
         "title": "Moneta Currency Converter with Live Rates Price Scanner LifetimeUntil July 30",
@@ -1107,18 +1121,5 @@
         ],
         "persian_age_rating": "این بازی ممکن است حاوی محتوای مناسب برای همه سنین باشد ، یا ممکن است برای مشاهده در محل کار مناسب نباشد: خشونت مکرر یا گور ، محتوای بالغ عمومی",
         "is_dlc_or_addon": true
-    },
-    {
-        "title": "WaterBit Water Tracker15 Stay Hydrated",
-        "store": "ios app store",
-        "url": "https://apps.apple.com/us/app/water-tracker-waterbit/id6639589010",
-        "image_url": "https://external-preview.redd.it/fNLRoAi4_06qUkPeoo5JnQx4bDKPddIDBMDYbF8MWBY.png?width=640&crop=smart&auto=webp&s=e9fc6985641592497a78cacf4f97eecb0418af65",
-        "description": "Hello everyone! 👋A little while ago, I shared my water tracker app here and received some fantastic feedback from many of you - thank you!Based on your suggestions, l've been working hard and justreleased an updateimplementing some of the most requested features.Big News & Thank You Offer:To celebrate the update and show my appreciation for your input, I'm making Lifetime Pro Access completely FREE for everyone who gets the app within 72 hours 🎁I'm really excited for you to try the improvements and eager for more feedback!",
-        "id_in_db": "t3_1lwwp4j",
-        "subreddit": "AppHookup",
-        "is_free": true,
-        "discount_text": null,
-        "persian_summary": "سلام به همه! 👋 چندان پیش ، من برنامه Tracker Water خود را در اینجا به اشتراک گذاشتم و از بسیاری از شما بازخورد خارق العاده ای دریافت کردم - با تشکر از شما! بر اساس پیشنهادات شما ، با توجه به پیشنهادات شما ، سخت کار کرده ام و به روزرسانی می کنید که برخی از ویژگی های درخواستی را ارائه می دهید. مشتاق بازخورد بیشتر!",
-        "is_dlc_or_addon": false
     }
 ]
