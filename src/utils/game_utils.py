@@ -60,78 +60,70 @@ def clean_title(raw_title: str) -> str:
 
 def infer_store_from_game_data(game: GameData) -> str:
     """
-    Infers the canonical store name from the game's URL and title.
+    Infers the canonical store name with a multi-layered priority system.
+    Priority: 1. URL Domain, 2. Title Tags, 3. Subreddit Name, 4. Fallback
     """
     url = game.get('url', '').lower()
-    title = game.get('title', '').lower()
+    raw_title = game.get('title', '').lower() # Use raw title for tag matching
     
-    logger.debug(f"[infer_store] Inferring store for URL: '{url}' and Title: '{title[:50]}...'")
+    logger.debug(f"[infer_store] Inferring store for URL='{url}', Title='{raw_title[:50]}...'")
 
+    # Priority 1: Check URL domain (most reliable)
     for domain, store_name in STORE_KEYWORD_MAP.items():
         if domain in url:
             logger.debug(f"[infer_store] Found store '{store_name}' from domain '{domain}' in URL.")
             return store_name
             
+    # Priority 2: Check for explicit tags in the raw title (e.g., [Steam], (GOG))
     for keyword, store_name in STORE_KEYWORD_MAP.items():
-        if f'[{keyword}]' in title or f'({keyword})' in title:
-            logger.debug(f"[infer_store] Found store '{store_name}' from keyword '{keyword}' in title.")
+        # Look for the keyword inside brackets or parentheses
+        if re.search(r'[\[\(]\s*' + re.escape(keyword) + r'\s*[\]\)]', raw_title, re.IGNORECASE):
+            logger.debug(f"[infer_store] Found store '{store_name}' from tag '[{keyword}]' in title.")
             return store_name
             
-    fallback_store = game.get('store', 'other').lower().replace(' ', '')
-    logger.debug(f"[infer_store] No match found. Falling back to store: '{fallback_store}'")
-    return fallback_store
+    # Priority 3 (Suggestion): Infer from subreddit name
+    subreddit = game.get('subreddit', '').lower()
+    if 'googleplaydeals' in subreddit or 'apphookup' in subreddit:
+        if 'play.google.com' in url:
+            logger.debug(f"[infer_store] Confirmed store 'googleplay' from subreddit '{subreddit}' and URL.")
+            return 'googleplay'
+        if 'apps.apple.com' in url:
+            logger.debug(f"[infer_store] Confirmed store 'iosappstore' from subreddit '{subreddit}' and URL.")
+            return 'iosappstore'
+            
+    # Priority 4 (Fallback): If no specific store is found, return 'other'
+    logger.debug(f"[infer_store] No specific store identified. Falling back to 'other'.")
+    return 'other'
 
 def normalize_url_for_key(url: str) -> str:
     """
     Normalizes a URL to create a consistent key for deduplication.
     """
-    if not url:
-        return ""
-        
-    logger.debug(f"[normalize_url_for_key] Normalizing URL: '{url}'")
-    
+    if not url: return ""
     try:
         parsed = urlparse(url)
         query_params = parse_qs(parsed.query)
         tracking_params = ['utm_source', 'utm_medium', 'utm_campaign', 'ref', 'source', 'mc_cid', 'mc_eid']
-        for param in tracking_params:
-            query_params.pop(param, None)
-        
+        for param in tracking_params: query_params.pop(param, None)
         path = parsed.path.rstrip('/')
-        
         if 'steampowered.com' in parsed.netloc:
             match = re.search(r'/app/(\d+)', path)
             if match: return f"steam_app_{match.group(1)}"
-        
         if 'epicgames.com' in parsed.netloc:
             match = re.search(r'/(?:p|product)/([a-z0-9-]+)', path)
             if match: return f"epic_product_{match.group(1)}"
-
         cleaned_query = urlencode(query_params, doseq=True)
         key_parts = [parsed.netloc.replace('www.', ''), path]
-        if cleaned_query:
-            key_parts.append(cleaned_query)
-            
-        final_key = "_".join(part for part in key_parts if part)
-        logger.debug(f"[normalize_url_for_key] Generated generic key: '{final_key}'")
-        return final_key
-
-    except Exception:
-        return url
+        if cleaned_query: key_parts.append(cleaned_query)
+        return "_".join(part for part in key_parts if part)
+    except Exception: return url
 
 def sanitize_html(html_text: str) -> str:
     """
     Removes all HTML tags from a string, returning only the clean text.
-    Also decodes HTML entities.
     """
-    if not html_text:
-        return ""
-    
-    # Use BeautifulSoup to parse the HTML and get the text content
+    if not html_text: return ""
     soup = BeautifulSoup(html_text, "lxml")
-    
-    # Get text and replace multiple newlines/spaces for cleaner output
     text = soup.get_text(separator=' ', strip=True)
-    text = re.sub(r'\s\s+', ' ', text) # Collapse multiple whitespace characters
-    
+    text = re.sub(r'\s\s+', ' ', text)
     return text
