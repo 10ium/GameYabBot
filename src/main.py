@@ -27,13 +27,13 @@ from src.sources.reddit import RedditSource
 # --- Enrichment Services ---
 from src.enrichment.steam_enricher import SteamEnricher
 from src.enrichment.metacritic_enricher import MetacriticEnricher
-from src.enrichment.image_enricher import ImageEnricher  # <-- Import the new enricher
+from src.enrichment.image_enricher import ImageEnricher
 
 # --- Translation Service ---
 from src.translation.translator import SmartTranslator
 
 # --- Utility Functions ---
-from src.utils.game_utils import infer_store_from_game_data, normalize_url_for_key, clean_title
+from src.utils.game_utils import infer_store_from_game_data, normalize_url_for_key, clean_title, sanitize_html
 
 # ===== CONFIGURATION & CONSTANTS =====
 logging.basicConfig(
@@ -60,7 +60,7 @@ class GamePipeline:
         ]
         self.steam_enricher = SteamEnricher(session)
         self.metacritic_enricher = MetacriticEnricher(session)
-        self.image_enricher = ImageEnricher(session)  # <-- Instantiate the new enricher
+        self.image_enricher = ImageEnricher(session)
         self.translator = SmartTranslator(session)
 
     def _get_canonical_id(self, game: GameData) -> str:
@@ -128,10 +128,8 @@ class GamePipeline:
         return all_games
 
     async def _enrich_and_finalize(self, raw_games: List[GameData]) -> List[GameData]:
-        """Enriches, translates, classifies, and deduplicates the list of raw games."""
         logger.info("--- Step 2: Enriching, classifying, and deduplicating data ---")
         
-        # Enrich with core data (Steam, Metacritic)
         enrich_tasks = []
         for game in raw_games:
             game['store'] = infer_store_from_game_data(game)
@@ -139,14 +137,12 @@ class GamePipeline:
             enrich_tasks.append(asyncio.create_task(self.metacritic_enricher.enrich(game)))
         await asyncio.gather(*enrich_tasks, return_exceptions=True)
         
-        # **NEW STEP**: Find missing images using the new ImageEnricher
         image_tasks = [
             asyncio.create_task(self.image_enricher.enrich(game, clean_title(game['title'])))
             for game in raw_games
         ]
         await asyncio.gather(*image_tasks, return_exceptions=True)
 
-        # Classify and deduplicate using (now fully) enriched data
         unique_games: Dict[str, GameData] = {}
         for game in raw_games:
             canonical_id = self._get_canonical_id(game)
@@ -159,12 +155,16 @@ class GamePipeline:
         final_list = list(unique_games.values())
         logger.info(f"Deduplication complete. Final unique game count: {len(final_list)}")
         
-        # Translate the final unique list
-        translate_tasks = [self.translator.translate(game.get('description', '')) for game in final_list]
+        translate_tasks = []
+        for game in final_list:
+            clean_description = sanitize_html(game.get('description', ''))
+            translate_tasks.append(self.translator.translate(clean_description))
+        
         translations = await asyncio.gather(*translations, return_exceptions=True)
         for i, game in enumerate(final_list):
             if isinstance(translations[i], str):
                 game['persian_summary'] = translations[i]
+            game['description'] = sanitize_html(game.get('description', ''))
 
         return final_list
 
@@ -181,7 +181,7 @@ class GamePipeline:
 
     async def _send_notifications(self, games_to_notify: List[GameData]) -> None:
         if not self.bot:
-            logger.warning("Telegram bot is not initialized. Skipping notifications.")
+            logger.warning("Telegram bot object not initialized. Skipping notifications.")
             return
         logger.info(f"--- Step 4: Sending {len(games_to_notify)} notifications ---")
         for game in games_to_notify:
@@ -197,11 +197,19 @@ class GamePipeline:
         logger.info("--- Step 5: Saving data for web front-end ---")
         os.makedirs(WEB_DATA_DIR, exist_ok=True)
         output_path = os.path.join(WEB_DATA_DIR, WEB_DATA_FILE)
+        
+        sanitized_games_for_web = []
+        for game in all_games:
+            sanitized_game = game.copy()
+            sanitized_game['description'] = sanitize_html(game.get('description', ''))
+            sanitized_game['persian_summary'] = sanitize_html(game.get('persian_summary', ''))
+            sanitized_games_for_web.append(sanitized_game)
+
         try:
-            all_games.sort(key=lambda g: g.get('title', '').lower())
+            sanitized_games_for_web.sort(key=lambda g: g.get('title', '').lower())
             with open(output_path, 'w', encoding='utf-8') as f:
-                json.dump(all_games, f, ensure_ascii=False, indent=4)
-            logger.info(f"✅ Successfully saved {len(all_games)} games to {output_path}")
+                json.dump(sanitized_games_for_web, f, ensure_ascii=False, indent=4)
+            logger.info(f"✅ Successfully saved {len(sanitized_games_for_web)} sanitized games to {output_path}")
         except Exception as e:
             logger.error(f"❌ Failed to save web data to {output_path}: {e}", exc_info=True)
 
