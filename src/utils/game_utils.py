@@ -51,7 +51,7 @@ def clean_title(raw_title: str) -> str:
 
     logger.debug(f"[clean_title] Intelligently cleaned title: '{cleaned}'")
     
-    if len(cleaned) < 4:
+    if len(cleaned) < 4 and len(raw_title) > len(cleaned):
         simpler_cleaned = re.sub(r'\[.*?\]|\(.*?\)', '', raw_title).strip()
         logger.debug(f"[clean_title] Cleaned title was too short, falling back to simpler clean: '{simpler_cleaned}'")
         return simpler_cleaned
@@ -61,37 +61,41 @@ def clean_title(raw_title: str) -> str:
 def infer_store_from_game_data(game: GameData) -> str:
     """
     Infers the canonical store name with a multi-layered priority system.
-    Priority: 1. URL Domain, 2. Title Tags, 3. Subreddit Name, 4. Fallback
+    Priority: 1. URL Domain, 2. Title Tags, 3. Title Keywords, 4. Subreddit Hints, 5. Fallback.
     """
     url = game.get('url', '').lower()
-    raw_title = game.get('title', '').lower() # Use raw title for tag matching
+    raw_title = game.get('title', '').lower()
     
-    logger.debug(f"[infer_store] Inferring store for URL='{url}', Title='{raw_title[:50]}...'")
+    logger.debug(f"[infer_store] Inferring for URL='{url}', Title='{raw_title[:50]}...'")
 
-    # Priority 1: Check URL domain (most reliable)
+    # Priority 1: Check URL for domain mapping (most reliable)
     for domain, store_name in STORE_KEYWORD_MAP.items():
         if domain in url:
-            logger.debug(f"[infer_store] Found store '{store_name}' from domain '{domain}' in URL.")
+            logger.debug(f"[infer_store] Priority 1 Match: Found '{store_name}' from domain '{domain}' in URL.")
             return store_name
             
     # Priority 2: Check for explicit tags in the raw title (e.g., [Steam], (GOG))
     for keyword, store_name in STORE_KEYWORD_MAP.items():
-        # Look for the keyword inside brackets or parentheses
         if re.search(r'[\[\(]\s*' + re.escape(keyword) + r'\s*[\]\)]', raw_title, re.IGNORECASE):
-            logger.debug(f"[infer_store] Found store '{store_name}' from tag '[{keyword}]' in title.")
+            logger.debug(f"[infer_store] Priority 2 Match: Found '{store_name}' from tag '[{keyword}]' in title.")
             return store_name
             
-    # Priority 3 (Suggestion): Infer from subreddit name
+    # Priority 3: Check for keywords directly in the title (less reliable)
+    for keyword, store_name in STORE_KEYWORD_MAP.items():
+        if re.search(r'\b' + re.escape(keyword) + r'\b', raw_title, re.IGNORECASE):
+             logger.debug(f"[infer_store] Priority 3 Match: Found '{store_name}' from keyword '{keyword}' in title.")
+             return store_name
+
+    # Priority 4: Infer from subreddit name
     subreddit = game.get('subreddit', '').lower()
-    if 'googleplaydeals' in subreddit or 'apphookup' in subreddit:
-        if 'play.google.com' in url:
-            logger.debug(f"[infer_store] Confirmed store 'googleplay' from subreddit '{subreddit}' and URL.")
-            return 'googleplay'
-        if 'apps.apple.com' in url:
-            logger.debug(f"[infer_store] Confirmed store 'iosappstore' from subreddit '{subreddit}' and URL.")
-            return 'iosappstore'
+    if 'googleplaydeals' in subreddit:
+        logger.debug(f"[infer_store] Priority 4 Match: Inferred 'googleplay' from subreddit name.")
+        return 'googleplay'
+    if 'apphookup' in subreddit:
+        if 'apps.apple.com' in url: return 'iosappstore'
+        if 'play.google.com' in url: return 'googleplay'
             
-    # Priority 4 (Fallback): If no specific store is found, return 'other'
+    # Priority 5 (Fallback)
     logger.debug(f"[infer_store] No specific store identified. Falling back to 'other'.")
     return 'other'
 

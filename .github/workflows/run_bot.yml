@@ -9,8 +9,6 @@ on:
   workflow_dispatch:
     # اجازه می‌دهد تا به صورت دستی از رابط کاربری GitHub Actions اجرا شود
 
-# بخش 'push' حذف شد تا از اجرای خودکار هنگام تغییر کد جلوگیری شود
-
 jobs:
   build-and-run:
     runs-on: ubuntu-latest
@@ -40,12 +38,23 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-chromium
+          restore-keys: |
+            ${{ runner.os }}-playwright-
+
+      - name: Install Playwright browsers and dependencies
+        run: playwright install --with-deps chromium
+
       - name: Ensure data directories exist
         run: mkdir -p data web_data cache
 
       - name: Run Free Games Bot
         env:
-          # این مقادیر باید در بخش Secrets مخزن شما تنظیم شده باشند
+          # این مقادیر باید در بخش Settings > Secrets > Actions مخزن شما تنظیم شده باشند
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
         run: python -m src.main
