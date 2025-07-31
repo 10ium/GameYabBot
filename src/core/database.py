@@ -1,4 +1,4 @@
-// ===== IMPORTS & DEPENDENCIES =====
+# ===== IMPORTS & DEPENDENCIES =====
 import sqlite3
 import logging
 from datetime import datetime, timedelta
@@ -6,10 +6,10 @@ from typing import List, Tuple, Optional
 
 from src.config import DATABASE_PATH
 
-// ===== CONFIGURATION & CONSTANTS =====
+# ===== CONFIGURATION & CONSTANTS =====
 logger = logging.getLogger(__name__)
 
-// ===== CORE BUSINESS LOGIC =====
+# ===== CORE BUSINESS LOGIC =====
 class Database:
     """Handles all database operations for the bot, including subscriptions and posted games."""
     
@@ -131,4 +131,4 @@ class Database:
                 "SELECT DISTINCT chat_id, thread_id FROM user_subscriptions WHERE store_name = ? OR store_name = 'all'",
                 (store_name.lower(),)
             )
-            return cursor.fetchall()```
+            return cursor.fetchall()

@@ -1,4 +1,4 @@
-// ===== IMPORTS & DEPENDENCIES =====
+# ===== IMPORTS & DEPENDENCIES =====
 import logging
 import asyncio
 import os
@@ -7,15 +7,15 @@ import hashlib
 import re
 from typing import List, Optional
 from bs4 import BeautifulSoup
-from playwright.async_api import async_playwright, TimeoutError, Page
+from playwright.async_api import async_playwright, TimeoutError, Page, BrowserContext # Import BrowserContext
 
 from src.models.game import GameData
 from src.config import ITAD_DEALS_URL, DEFAULT_CACHE_TTL, CACHE_DIR
 
-// ===== CONFIGURATION & CONSTANTS =====
+# ===== CONFIGURATION & CONSTANTS =====
 logger = logging.getLogger(__name__)
 
-// ===== CORE BUSINESS LOGIC =====
+# ===== CORE BUSINESS LOGIC =====
 class ITADSource:
     """Fetches deals from IsThereAnyDeal.com using Playwright for dynamic content."""
 
@@ -37,14 +37,15 @@ class ITADSource:
 
     async def _fetch_with_playwright(self) -> Optional[str]:
         """Fetches the dynamic page content using Playwright."""
-        pw_context = None
+        browser = None
+        pw_context: Optional[BrowserContext] = None # Explicitly type pw_context
         try:
             async with async_playwright() as p:
                 browser = await p.chromium.launch()
                 pw_context = await browser.new_context(
                     user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
                 )
-                page = await pw_context.new_page()
+                page: Page = await pw_context.new_page() # Explicitly type page
                 
                 logger.info(f"🚀 [{self.__class__.__name__}] Navigating to {self.url}")
                 await page.goto(self.url, wait_until='domcontentloaded', timeout=60000)
@@ -65,16 +66,18 @@ class ITADSource:
                 
                 logger.info(f"[{self.__class__.__name__}] Finished scrolling. Capturing page content.")
                 content = await page.content()
-                await browser.close()
                 return content
         except TimeoutError:
             logger.error(f"❌ [{self.__class__.__name__}] Playwright timed out waiting for content on {self.url}.")
-            if pw_context: await pw_context.close()
             return None
         except Exception as e:
             logger.error(f"❌ [{self.__class__.__name__}] An unexpected error occurred during Playwright fetch: {e}", exc_info=True)
-            if pw_context: await pw_context.close()
             return None
+        finally:
+            if browser:
+                await browser.close()
+                logger.debug(f"[{self.__class__.__name__}] Playwright browser closed.")
+
 
     def _parse_deal_element(self, deal_tag: BeautifulSoup) -> Optional[GameData]:
         """Parses a single deal HTML element into GameData."""
@@ -83,6 +86,7 @@ class ITADSource:
         cut_tag = deal_tag.select_one('.deal-cut')
 
         if not all([title_tag, store_tag, cut_tag]):
+            logger.debug(f"[{self.__class__.__name__}] Skipping malformed deal element (missing title, store, or cut tag).")
             return None
             
         title = title_tag.get_text(strip=True)
@@ -96,7 +100,7 @@ class ITADSource:
 
         return {
             "title": title,
-            "store": store_tag.get_text(strip=True).lower(),
+            "store": store_tag.get_text(strip=True).lower(), # Ensure store name is lowercase
             "url": url,
             "id_in_db": id_in_db,
             "is_free": is_free,
@@ -119,19 +123,25 @@ class ITADSource:
                 with open(cache_path, 'w', encoding='utf-8') as f:
                     f.write(html_content)
                 logger.info(f"💾 [{self.__class__.__name__}] Content saved to cache: {cache_path}")
+            else:
+                logger.error(f"❌ [{self.__class__.__name__}] Failed to fetch content via Playwright.")
+                return [] # Return empty list if fetching failed
 
         if not html_content:
             logger.error(f"❌ [{self.__class__.__name__}] Could not retrieve HTML content.")
             return []
 
         soup = BeautifulSoup(html_content, 'html.parser')
-        deal_elements = soup.select('#deals-list .deal')
+        # Select for article.deal elements directly within #deals-list
+        deal_elements = soup.select('#deals-list article.deal') 
         
         found_games: List[GameData] = []
         for element in deal_elements:
             game_data = self._parse_deal_element(element)
             if game_data:
                 found_games.append(game_data)
+            else:
+                logger.debug(f"[{self.__class__.__name__}] Skipping an unparseable deal element.")
         
         logger.info(f"✅ [{self.__class__.__name__}] Found {len(found_games)} total deals.")
         return found_games

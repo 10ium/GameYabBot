@@ -1,4 +1,4 @@
-// ===== CONFIGURATION & CONSTANTS =====
+# ===== CONFIGURATION & CONSTANTS =====
 import logging
 import os
 

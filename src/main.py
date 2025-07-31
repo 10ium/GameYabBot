@@ -1,4 +1,4 @@
-// ===== IMPORTS & DEPENDENCIES =====
+# ===== IMPORTS & DEPENDENCIES =====
 import asyncio
 import logging
 import os
@@ -34,7 +34,7 @@ from src.translation.translator import SmartTranslator
 # --- Utility Functions ---
 from src.utils.game_utils import infer_store_from_game_data, normalize_url_for_key, clean_title
 
-// ===== CONFIGURATION & CONSTANTS =====
+# ===== CONFIGURATION & CONSTANTS =====
 logging.basicConfig(
     level=LOG_LEVEL,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -42,7 +42,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-// ===== CORE BUSINESS LOGIC / PIPELINE =====
+# ===== CORE BUSINESS LOGIC / PIPELINE =====
 class GamePipeline:
     """Orchestrates the entire process of fetching, enriching, and distributing game deals."""
 
@@ -237,7 +237,7 @@ class GamePipeline:
         
         logger.info("🏁🏁🏁 Pipeline finished successfully 🏁🏁🏁")
 
-// ===== INITIALIZATION & STARTUP =====
+# ===== INITIALIZATION & STARTUP =====
 async def main():
     """Initializes and runs the GamePipeline."""
     db = Database()

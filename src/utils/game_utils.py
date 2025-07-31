@@ -1,4 +1,4 @@
-// ===== IMPORTS & DEPENDENCIES =====
+# ===== IMPORTS & DEPENDENCIES =====
 import re
 from typing import Dict, Any
 from urllib.parse import urlparse, urlunparse, parse_qs, urlencode
@@ -6,7 +6,7 @@ from urllib.parse import urlparse, urlunparse, parse_qs, urlencode
 from src.config import STORE_KEYWORD_MAP
 from src.models.game import GameData
 
-// ===== UTILITY FUNCTIONS =====
+# ===== UTILITY FUNCTIONS =====
 
 def clean_title(raw_title: str) -> str:
     """

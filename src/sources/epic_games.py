@@ -1,4 +1,4 @@
-// ===== IMPORTS & DEPENDENCIES =====
+# ===== IMPORTS & DEPENDENCIES =====
 import logging
 import aiohttp
 from datetime import datetime, timezone
@@ -9,10 +9,10 @@ from src.models.game import GameData
 from src.config import EPIC_GAMES_API_URL, EPIC_GAMES_HEADERS, DEFAULT_CACHE_TTL, CACHE_DIR
 import os
 
-// ===== CONFIGURATION & CONSTANTS =====
+# ===== CONFIGURATION & CONSTANTS =====
 logger = logging.getLogger(__name__)
 
-// ===== CORE BUSINESS LOGIC =====
+# ===== CORE BUSINESS LOGIC =====
 class EpicGamesSource(BaseWebClient):
     """Fetches free games from the Epic Games Store using its GraphQL API."""
 
