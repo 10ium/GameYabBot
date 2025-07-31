@@ -4,7 +4,7 @@ import logging
 import os
 import json
 import aiohttp
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional # <--- **خط اصلاح شده در اینجا قرار دارد**
 
 # --- Configuration ---
 from src.config import (
@@ -56,8 +56,8 @@ class GamePipeline:
         
         # Initialize all components, injecting the shared session
         self.sources = [
-            EpicGamesSource(session),
-            ITADSource(session), # Now correctly initialized with the session
+            EpicGamesSource(), # EpicGamesSource now uses Playwright, doesn't need a session
+            ITADSource(session),
             RedditSource(session)
         ]
         self.steam_enricher = SteamEnricher(session)
