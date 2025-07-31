@@ -152,27 +152,27 @@
         "title": "beauty in time",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/soonly-beauty-in-time/id6746845817",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/eb/ba/65ebba76-b254-58d7-4db8-2a9e1ba53b82/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.jpg",
-        "description": "Soonly: Beauty in Time $1.99–> Free - Track life’s milestones with Soonly, the beautifully designed countdown app that keeps you effortlessly in sync with every special moment with elegant home screen widgets in multiple sizes — from birthdays and deadlines to dream vacations.",
         "id_in_db": "23051b17ec3882848e62ce8b92424a7c5b4c9ea17f816ad20a038fdcfcddd3ce",
         "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": "100% Off",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/eb/ba/65ebba76-b254-58d7-4db8-2a9e1ba53b82/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.jpg",
         "is_dlc_or_addon": false,
-        "persian_summary": "به زودی: Beauty in Time 1.99 $ -> رایگان - نقاط عطف زندگی را به زودی ، برنامه شمارش معکوس زیبا طراحی شده که شما را با هر لحظه خاص با ابزارک های صفحه اصلی زیبا در اندازه های مختلف - از روزهای تولد و مهلت تا تعطیلات رویایی - همگام می کند."
+        "persian_summary": "",
+        "description": ""
     },
     {
         "title": "betext",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/betext/id1528764523",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/92/8b/ab/928bab1c-bafe-ad27-cd5e-02783026135d/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
-        "description": "BeText $2.99–> $0.99 (matching historical low) - Minimalist text editor crafted for writers who value simplicity and efficiency. Whether you're drafting documents, jotting down quick notes, or composing your next blog post, BeText offers a distraction-free environment tailored to your writing needs, including dimming everything but the current paragraph, keeping you deeply immersed in your writing.",
         "id_in_db": "29e22575f073d4a0a60dd59961838ad4d1c753bff119c6026378e2c8de6d7b02",
         "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": "100% Off",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/92/8b/ab/928bab1c-bafe-ad27-cd5e-02783026135d/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
         "is_dlc_or_addon": false,
-        "persian_summary": "Betext 2.99 $ -> 0.99 $ (مطابق با کمترین تاریخی) - ویرایشگر متن مینیمالیستی برای نویسندگانی که سادگی و کارآیی دارند ، ساخته شده است. این که آیا شما در حال تهیه اسناد هستید ، یادداشت های سریع را یادداشت می کنید ، یا پست وبلاگ بعدی خود را آهنگسازی می کنید ، Betext یک محیط بدون حواس پرتی را متناسب با نیازهای نوشتاری شما ارائه می دهد ، از جمله کم رنگ کردن همه چیز به جز پاراگراف فعلی ، و شما را عمیقاً در نوشتن خود غوطه ور می کند."
+        "persian_summary": "",
+        "description": ""
     },
     {
         "title": "block n load",
@@ -214,14 +214,14 @@
         "title": "cat sandbox",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/cat-sandbox/id6468987588",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/79/fd/f3/79fdf3bb-f0fd-f14e-6813-1b55af86478c/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
-        "description": "Cat Sandbox $0.99–> Free",
         "id_in_db": "46e5afc158d33158ad62cd47645b436d2cef56121c55e7204ba0d88413f74c83",
         "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": "100% Off",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/79/fd/f3/79fdf3bb-f0fd-f14e-6813-1b55af86478c/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
         "is_dlc_or_addon": false,
-        "persian_summary": "ماسهبازی گربه 0.99 $ -> رایگان"
+        "persian_summary": "",
+        "description": ""
     },
     {
         "title": "chimera squad wwe 2k25 pga tour 2k25 sid meiers civilization vii",
@@ -235,19 +235,6 @@
         "discount_text": "86% off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u /indieg [پیوند] [نظرات]"
-    },
-    {
-        "title": "conquest and same for other inkborn bundles gordian quest hadean tactics astrea",
-        "store": "reddit",
-        "url": "https://www.reddit.com/r/GameDeals/comments/1mcjgf2/steam_whispers_on_paper_sale_event_celebrating/",
-        "image_url": "https://external-preview.redd.it/wKFiyBBaWAsEOvdrsIJRDEC0Eazl-j4RQ7QM_pY9fmI.jpeg?width=640&crop=smart&auto=webp&s=9f063e5959b21881fc298334093dbef11f3216aa",
-        "description": "submitted by /u/Paxtorn [link] [comments]",
-        "id_in_db": "t3_1mcjgf2",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "10% off",
-        "is_dlc_or_addon": true,
-        "persian_summary": "ارسال شده توسط /u /paxtorn [پیوند] [نظرات]"
     },
     {
         "title": "currency converter with live rates price scanner lifetime 1999 free until july 30",
@@ -339,14 +326,14 @@
         "title": "eyka",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/eyka/id6472593312",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/74/35/f0743541-39e6-96f5-5356-350602d6e5e1/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
-        "description": "Eyka $0.99–> Free",
         "id_in_db": "d2d7871df265a416dd98148ca31c042880ef10740e4238d50a24b8eaf5da0149",
         "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": "100% Off",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/74/35/f0743541-39e6-96f5-5356-350602d6e5e1/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
         "is_dlc_or_addon": false,
-        "persian_summary": "eyka 0.99 $ -> رایگان"
+        "persian_summary": "",
+        "description": ""
     },
     {
         "title": "fallen feathers 26 off 3710",
@@ -452,7 +439,7 @@
         "is_online": false,
         "trailer": "http://video.akamai.steamstatic.com/store_trailers/256683276/movie_max.webm?t=1492199004",
         "is_dlc_or_addon": false,
-        "persian_summary": "او احتمالاً نباید اسلحه ها و طلا را از آن راهزنان به سرقت می برد. و گرفتن آن فضل روی سرش نیز کمکی نمی کند. قانونگذاران خیلی عقب مانده از راهزنان نیستند. هیچ راهی برای خارج شدن از این یکی ، ممکن است با جهنمی از انفجار بیرون برود. یک تیرانداز 2D Arena ناخوشایند و سریع با چشم به جزئیات (اسلحه). نمره بالایی کسب کنید و در حالی که در قطار فراری که با دشمنان خزیده است ، فضل را روی سر خود افزایش دهید. ویژگی ها: - 8 اسلحه منحصر به فرد که از زندگی واقعی خود تقلید می کنند - 4 دشمن منحصر به فرد و 2 نوع - تیراندازی گلوله های دشمن از هوا - صداهای اسلحه ای با دقت طراحی شده - نه طرح بندی سطح قطار - زمان تغییر موسیقی به طور کلی - پیگیری مفصل زندگی - بالاترین نمرات ردیابی - تمام هنر و موسیقی اصلی - بازه گذاری - بازه های تجاری 50 گزینه های سفارشی سازی سفارشی سازی 8 آرایشی - و یک گالری اسلحه دقیق برای سلاح گرم مورد علاقه خود که می خواهیم به تعداد زیادی برسیم ..."
+        "persian_summary": "او احتمالاً نباید اسلحه ها و طلا را از آن راهزنان به سرقت می برد. و گرفتن آن فضل روی سرش نیز کمکی نمی کند. قانونگذاران خیلی عقب مانده از راهزنان نیستند. هیچ راهی برای خارج شدن از این یکی ، ممکن است با جهنمی از انفجار بیرون برود. یک تیرانداز 2D Arena ناخوشایند و سریع با چشم به جزئیات (اسلحه). نمره بالایی کسب کنید و در حالی که در قطار فراری که با دشمنان خزیده است ، فضل را روی سر خود افزایش دهید. ویژگی ها: - 8 اسلحه منحصر به فرد که از زندگی واقعی خود تقلید می کنند - 4 دشمن منحصر به فرد و 2 نوع - تیراندازی گلوله های دشمن از هوا - صداهای اسلحه ای با دقت طراحی شده - نه طرح بندی سطح قطار - زمان تغییر موسیقی به طور کلی - پیگیری مفصل زندگی - بالاترین نمرات ردیابی - تمام هنر و موسیقی اصلی - بازه گذاری - بازه های تجاری 50 گزینه های سفارشی سازی سفارشی سازی 8 آرایشی - و یک گالری دقیق اسلحه برای سلاح گرم مورد علاقه خود که می خواهیم به تعداد زیادی برسیم ..."
     },
     {
         "title": "ios free lifetime access until july 31 cleaninder",
@@ -556,14 +543,14 @@
         "title": "learn geography",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/mapgolf-learn-geography/id6748778310",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/f0/05/54f0052d-e128-24b6-e817-189b8c27c580/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-        "description": "MapGolf: Learn Geography $1.99–> Free",
         "id_in_db": "8c5b2f3b168083c364547b871312c01cc0ad38254c4cb03f1643ad67d89523e4",
         "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": "100% Off",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/f0/05/54f0052d-e128-24b6-e817-189b8c27c580/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
         "is_dlc_or_addon": false,
-        "persian_summary": "MapGolf: یاد بگیرید جغرافیا 1.99 دلار> رایگان"
+        "persian_summary": "",
+        "description": ""
     },
     {
         "title": "legend of the moon 060 80 off",
@@ -663,14 +650,14 @@
         "title": "pastelgraf",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/pastelgraf/id1550754902",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/24/0b/21240b69-e4e2-5bbb-a3c3-0bedb4926ed0/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg",
-        "description": "Pastelgraf $2.99–> $1.99 ($1 above historical low) - Inspired by bright and creamy instagram feeds, Pastelgraf will give a soft pastel vibe to your photos + videos. It offers 30 pastel-toned presets, each with its own unique colorway and vibrancy. Create your own look by combining the overlays provided. Each filter brings dreamy tones to any edit. You can alter the exposure, contrast, temperature, tint, and clarity, enhance shadows and highlights, add vignette and chromatic aberration, and much more.",
         "id_in_db": "40605f1fd6d3a85f1bf1198aa5dc107a0a41e6641057b4b3667dfe61cbbab6c1",
         "subreddit": "AppHookup",
         "is_free": false,
         "discount_text": "Discount",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/24/0b/21240b69-e4e2-5bbb-a3c3-0bedb4926ed0/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg",
         "is_dlc_or_addon": false,
-        "persian_summary": "Pastelgraf 2.99 $ -> 1.99 $ (1 دلار بالاتر از پایین تاریخی) - با الهام از فیدهای اینستاگرام روشن و خامه ای ، Pastelgraf یک عکس پاستیل نرم به عکسهای شما + فیلم می دهد. این دستگاه 30 از پیش تنظیم شده با رنگ پاستلی را ارائه می دهد که هر کدام دارای رنگ و نشاط منحصر به فرد خود هستند. با ترکیب پوشش های ارائه شده ، ظاهر خود را ایجاد کنید. هر فیلتر تن های رویایی را برای هر ویرایش به ارمغان می آورد. شما می توانید قرار گرفتن در معرض ، کنتراست ، دما ، رنگ و وضوح را تغییر دهید ، سایه ها و نکات برجسته را تقویت کنید ، ویگت و ناهنجاری کروماتیک و موارد دیگر را اضافه کنید."
+        "persian_summary": "",
+        "description": ""
     },
     {
         "title": "pilgrims",
@@ -731,6 +718,19 @@
         "persian_summary": "دویدن ، پرش ، رول. این یک بازی پارکور است. اما در اینجا ، این فقط مربوط به موانع نیست - شما با دوستان خود نیز آشفتگی می کنید. آنها را ترول کنید ، آنها را از تعادل دور کنید ، جلو بروید. چند نفره آنلاین برای حداکثر 16 بازیکن. با دوستان خود بازی کنید یا به تنهایی به یک لابی آنلاین بپیوندید. هرج و مرج و رقابت همیشه وجود دارد. در نقشه های مختلف بازی کنید. هر نقشه طرح و چالش های خاص خود را دارد. سرعت در حال تغییر است. لوازم آرایشی منتظر هستند. شخصیت خود را با لباس و ظاهر سفارشی کنید. با بازی بیشتر باز کنید. قوانین ساده ، سرگرم کننده زیادی. هدف واضح است: سریعترین یا جالب ترین باشید. چگونه بازی می کنید به شما بستگی دارد."
     },
     {
+        "title": "playsum day of the shell 1198 1137 c1579 with code cheers",
+        "store": "reddit",
+        "url": "https://www.reddit.com/r/GameDeals/comments/1megb3v/playsum_day_of_the_shell_20_off_1198_1137_c1579/",
+        "image_url": "https://external-preview.redd.it/lgDgpwUY-iryApG5FIMEwbIaeWY8vS-bDH2b-vdmoTg.jpeg?width=320&crop=smart&auto=webp&s=a9c986937c620fd882ce2653f9b6cbe1b61db137",
+        "description": "submitted by /u/Lets_Playsum [link] [comments]",
+        "id_in_db": "t3_1megb3v",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "20% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u /lets_playsum [لینک] [نظرات]"
+    },
+    {
         "title": "playsum primal planet 1449 1289 c1996 with code cheers",
         "store": "reddit",
         "url": "https://www.reddit.com/r/GameDeals/comments/1mdjr0u/playsum_primal_planet_28_off_1449_1289_c1996_with/",
@@ -747,14 +747,14 @@
         "title": "practice music",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/mujo-practice-music/id6449793039",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/99/58/66995863-0e35-1de7-bcb5-b1676f4cfd26/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-        "description": "Mujo: Practice Music Lifetime IAP $9.99–> $0.99 (matching historical low) - Mujo is a practice journal as simple as a metronome. It offers time tracking, task management, note taking, and more. Over time, your timed sessions will generate beautiful graphs, supercharging your efficiency.",
         "id_in_db": "450a76b4ddbdb5d679d105184d0834f904479fed8f7c7556b308b62f075efcfd",
         "subreddit": "AppHookup",
         "is_free": false,
         "discount_text": "Discount",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/99/58/66995863-0e35-1de7-bcb5-b1676f4cfd26/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
         "is_dlc_or_addon": false,
-        "persian_summary": "Mujo: تمرین Lifetime IAP 9.99 $ -> 0.99 $ (تطبیق کم تاریخی) - Mujo یک ژورنال عملی به همان اندازه یک مترونوم است. این پیگیری زمان ، مدیریت کار ، یادداشت برداری و موارد دیگر را ارائه می دهد. با گذشت زمان ، جلسات به موقع شما نمودارهای زیبایی را تولید می کند ، و بهره وری شما را بسیار شارژ می کند."
+        "persian_summary": "",
+        "description": ""
     },
     {
         "title": "psa heroes of loot gog is complimentary with prime gaming",
@@ -821,40 +821,40 @@
         "title": "puzzle maze",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/btw-puzzle-maze/id1137739981",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/03/fb/dd/03fbddf5-8e11-59e8-f302-2380206c896b/AppIcon-0-1x_U007emarketing-0-85-220-0-7.png/512x512bb.jpg",
-        "description": "btw – puzzle maze $1.99–> Free",
         "id_in_db": "c10938b3dcc520ed99943fff4e322154d953a758ee9046c38470312467251dd3",
         "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": "100% Off",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/03/fb/dd/03fbddf5-8e11-59e8-f302-2380206c896b/AppIcon-0-1x_U007emarketing-0-85-220-0-7.png/512x512bb.jpg",
         "is_dlc_or_addon": false,
-        "persian_summary": "BTW - پیچ و خم پازل 1.99 دلار> رایگان"
+        "persian_summary": "",
+        "description": ""
     },
     {
         "title": "repeatable checklists",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/repeatable-checklists/id6503002237",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/c4/49/8ac449f4-1cd7-739a-8e52-5899a83f12be/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-        "description": "Repeatable Checklists Lifetime IAP $3.99–> $0.99 (matching historical low) - Create customizable checklists for any activity, track progress with detailed records, and access powerful features designed to enhance your productivity. Whether you're organizing daily chores, planning a project, or tracking habits, this app offers everything you need to stay on top of your goals.",
         "id_in_db": "382265526147af927c2ea3665147ecbdcba1e5ffc77f31466621490a51f0a2d3",
         "subreddit": "AppHookup",
         "is_free": false,
         "discount_text": "Discount",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/c4/49/8ac449f4-1cd7-739a-8e52-5899a83f12be/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
         "is_dlc_or_addon": false,
-        "persian_summary": "چک لیست های قابل تکرار Lifetime IAP 3.99 $ -> 0.99 $ (تطبیق کم تاریخی) - برای هر فعالیت ، لیست های قابل تنظیم را ایجاد کنید ، پیشرفت با سوابق دقیق را دنبال کنید و به ویژگی های قدرتمند طراحی شده برای افزایش بهره وری خود دسترسی پیدا کنید. این که آیا شما در حال سازماندهی کارهای روزانه ، برنامه ریزی یک پروژه یا عادات ردیابی هستید ، این برنامه همه چیزهایی را که برای ماندن در بالای اهداف خود نیاز دارید ارائه می دهد."
+        "persian_summary": "",
+        "description": ""
     },
     {
         "title": "riffler flow",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/riffler-flow/id6467568526",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6c/02/b8/6c02b892-0871-9f11-3a09-dfbdf6d42e01/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-        "description": "Riffler Flow $14.99–> $3.99 ($2 above historical low) - Instantly generates softer, clean, arpeggio based riffs at the press of a button. Craft catchy and copyright-free riffs tailored for modern genres. Dive into the world of Riffler Flow by selecting from a diverse range of preset styles specifically curated for Hip-Hop, Pop, EDM and Rock. Tap \"Create\" and watch as unique arpeggio-driven riffs come to life. Each riff is presented in intuitive tablature format, allowing you to both listen and save your musical creations.",
         "id_in_db": "3ebaef2858fac81215d6e890c0581ba43f666269f515a66fe91ae43d0c1e432f",
         "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": "100% Off",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6c/02/b8/6c02b892-0871-9f11-3a09-dfbdf6d42e01/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
         "is_dlc_or_addon": false,
-        "persian_summary": "Riffler Flow 14.99 $ -> 3.99 $ (2 دلار بالاتر از پایین تاریخی) - فوراً ریف های نرم تر ، تمیز و مبتنی بر Arpeggio را در فشار یک دکمه ایجاد می کند. ریف های جذاب و بدون کپی رایت متناسب با ژانرهای مدرن. با انتخاب از طیف متنوعی از سبک های از پیش تعیین شده که به طور خاص برای هیپ هاپ ، پاپ ، EDM و راک تنظیم شده اند ، وارد دنیای جریان ریفل شوید. روی \"ایجاد\" ضربه بزنید و همانطور که ریف های منحصر به فرد Arpeggio محور به زندگی می آیند ، تماشا کنید. هر ریف با فرمت شهودی بصری ارائه می شود ، و به شما امکان می دهد تا هر دو خلاقیت موسیقی خود را گوش دهید و ذخیره کنید."
+        "persian_summary": "",
+        "description": ""
     },
     {
         "title": "roguestone",
@@ -987,27 +987,27 @@
         "title": "the wolf and the dragon",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/the-wolf-and-the-dragon/id6745433587",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fc/e7/2c/fce72c87-1238-d943-0a18-3f6ec76e4f42/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-        "description": "The Wolf and the Dragon $1.99–> Free",
         "id_in_db": "03e7e0abcb8993605f0ec6f659e74c803724618d27c1e5b6701b7b4db57fac40",
         "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": "100% Off",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fc/e7/2c/fce72c87-1238-d943-0a18-3f6ec76e4f42/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
         "is_dlc_or_addon": false,
-        "persian_summary": "گرگ و اژدها 1.99 دلار -> رایگان"
+        "persian_summary": "",
+        "description": ""
     },
     {
         "title": "time tracker 3d",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/iss-real-time-tracker-3d/id1079990061",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/19/d4/3a/19d43a4f-5682-a540-863b-a41fba953582/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-        "description": "ISS Real-Time Tracker 3D $4.99–> $0.99 (matching historical low) - Experience the wonders of orbit with my app that tracks and predicts flyovers of the International Space Station, Tiangong (Chinese Space Station), and Hubble Space Telescope in stunning 3D, real-time visuals. Immerse yourself in a photorealistic 3D model of Earth, offering detailed insights into upcoming passes from your location for up to 30 days. Never miss a flyover with easy calendar integration—tap to set alerts.",
         "id_in_db": "c3fd5015c5f88a9f8bed99739d37de7301e9aeef0d4c66bd5a074ae133d936d6",
         "subreddit": "AppHookup",
         "is_free": false,
         "discount_text": "Discount",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/19/d4/3a/19d43a4f-5682-a540-863b-a41fba953582/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
         "is_dlc_or_addon": false,
-        "persian_summary": "ISS REAL-TIME TRACE 3D 4.99 $-> 0.99 $ (مطابق با کمترین تاریخی)-شگفتی های مدار را با برنامه من تجربه کنید که پروازهای ایستگاه فضایی بین المللی ، Tiangong (ایستگاه فضایی چین) و تلسکوپ فضایی هابل را در تصاویر خیره کننده 3D ، زمان واقعی پیش بینی و پیش بینی می کند. خود را در یک مدل سه بعدی عکسبرداری از زمین غوطه ور کنید و بینش مفصلی در مورد پاس های آینده از مکان خود تا 30 روز ارائه دهید. هرگز با ادغام آسان تقویم ، یک پرواز را از دست ندهید - برای تنظیم هشدارها."
+        "persian_summary": "",
+        "description": ""
     },
     {
         "title": "timen runner",
@@ -1069,27 +1069,27 @@
         "title": "today i am",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/today-i-am-daily-persona/id6450616950",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/b4/80/89b48085-b486-17a8-84a0-071a08b1d803/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
-        "description": "Today I Am - Daily Persona $4.99–> $2.99 (first sale) - Quickly and effortlessly frame a positive outlook with Today I Am, your delightful companion app offering a unique experience every day. Discover your daily persona, from everyday objects like a bicycle or a tree. Each persona is paired with a personalized affirmation designed to uplift your spirits and set a positive tone for the day ahead.",
         "id_in_db": "31430e5ac3ea712fbe2021fc59636b43386a6040a4ddd7c3c82ae05ec36c173c",
         "subreddit": "AppHookup",
         "is_free": false,
         "discount_text": "Discount",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/b4/80/89b48085-b486-17a8-84a0-071a08b1d803/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
         "is_dlc_or_addon": false,
-        "persian_summary": "امروز من - روزانه Persona 4.99 دلار -> 2.99 دلار (اولین فروش) - سریع و بدون زحمت چشم انداز مثبتی را با امروز من ، برنامه همراه دلپذیر شما هر روز تجربه ای بی نظیر را ارائه می دهد. شخصیت روزانه خود را از اشیاء روزمره مانند دوچرخه یا درخت کشف کنید. هر شخصیت با یک تأیید شخصی که برای بالا بردن روحیه شما طراحی شده و لحن مثبتی را برای روز پیش رو ایجاد می کند ، جفت می شود."
+        "persian_summary": "",
+        "description": ""
     },
     {
         "title": "tracing board",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/tracing-board-lightbox/id1040566627",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/7f/6e/877f6ee5-7520-c26d-b009-91191354f858/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
-        "description": "Tracing Board | Lightbox $2.99–> Free - Converts your iPad into an on-the-go light box. This is a tool for those of us who draw daily (wherever we are) and sometimes need to re-draw sketches until we are pleased with the results.",
         "id_in_db": "e6db3df2e570dce8d513e17fbdcc7a226a9cf74f419867719e9bc0fb2c2373c3",
         "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": "100% Off",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/7f/6e/877f6ee5-7520-c26d-b009-91191354f858/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
         "is_dlc_or_addon": false,
-        "persian_summary": "صفحه ردیابی | Lightbox 2.99 $-> رایگان-iPad خود را به یک جعبه نور در حال تبدیل تبدیل می کند. این ابزاری برای کسانی است که روزانه می کشیم (هر کجا که هستیم) و گاهی اوقات نیاز به طراحی مجدد طرح ها تا زمانی که از نتایج راضی نباشیم."
+        "persian_summary": "",
+        "description": ""
     },
     {
         "title": "train valley origins",
@@ -1160,14 +1160,14 @@
         "title": "underworld office",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/underworld-office-novel-game/id1523265842",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/bd/00/73/bd007327-9f61-88f9-05d9-c5fa6b1ac3f2/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-        "description": "Underworld Office- Novel Game $4.99–> $0.49 ($0.20 above historical low)",
         "id_in_db": "850c2690e6982a65d14118179f962f1b91692f9ded7785f764ef1caa84049dee",
         "subreddit": "AppHookup",
         "is_free": false,
         "discount_text": "Discount",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/bd/00/73/bd007327-9f61-88f9-05d9-c5fa6b1ac3f2/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
         "is_dlc_or_addon": false,
-        "persian_summary": "Office Underworld- بازی جدید 4.99 $-> 0.49 دلار (0.20 دلار بالاتر از پایین تاریخی)"
+        "persian_summary": "",
+        "description": ""
     },
     {
         "title": "war of the human tanks",
@@ -1195,14 +1195,14 @@
         "title": "wheels of aurelia",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/wheels-of-aurelia/id1198170026",
-        "image_url": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000000739/533e063c9e3e5bfee0b75e9848796e37453891e2508265a4aa16516fc0d52286",
-        "description": "Wheels of Aurelia $0.99–> Free",
         "id_in_db": "161a5dc47068d0f1cb4c6cfd54f7b8e046fc5b6b25f53f9ce725352c0a755173",
         "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": "100% Off",
+        "image_url": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000000739/533e063c9e3e5bfee0b75e9848796e37453891e2508265a4aa16516fc0d52286",
         "is_dlc_or_addon": false,
-        "persian_summary": "چرخ های Aurelia 0.99 $ -> رایگان"
+        "persian_summary": "",
+        "description": ""
     },
     {
         "title": "windows macos legion td 2 ca2299 free defend against waves of enemies and destroy the enemys king before they destroy yours",
