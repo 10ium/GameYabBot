@@ -2,6 +2,7 @@
 import logging
 import aiohttp
 from typing import Optional
+from urllib.parse import urlencode  # <-- Correct import for urlencode
 
 from src.core.base_client import BaseWebClient
 from src.config import GOOGLE_TRANSLATE_URL, MYMEMORY_API_URL, DEFAULT_CACHE_TTL, CACHE_DIR
@@ -26,13 +27,11 @@ class SmartTranslator(BaseWebClient):
     async def _translate_with_google(self, text: str) -> Optional[str]:
         """Translates text using the public Google Translate API."""
         params = {'client': 'gtx', 'sl': 'en', 'tl': 'fa', 'dt': 't', 'q': text}
-        # We cannot use self._fetch here directly as Google Translate API response format
-        # is a bit unusual and needs specific parsing
         try:
             async with self._session.get(GOOGLE_TRANSLATE_URL, params=params, timeout=10) as response:
                 response.raise_for_status()
                 data = await response.json()
-                # Google's response is a nested list, we need to join the translated parts
+                # Google's response is a nested list; we need to join the translated parts
                 if data and isinstance(data, list) and len(data) > 0 and isinstance(data[0], list):
                     translated_parts = [item[0] for item in data[0] if isinstance(item, list) and len(item) > 0 and isinstance(item[0], str)]
                     return "".join(translated_parts)
@@ -45,10 +44,9 @@ class SmartTranslator(BaseWebClient):
     async def _translate_with_mymemory(self, text: str) -> Optional[str]:
         """Translates text using the MyMemory API as a fallback."""
         params = {"q": text, "langpair": "en|fa"}
-        # MyMemory API is a more standard JSON API, can use _fetch
         try:
-            # Construct full URL with query parameters for caching to work
-            full_url = f"{MYMEMORY_API_URL}?{aiohttp.helpers.urlencode(params)}"
+            # Construct full URL with correctly imported urlencode for caching to work
+            full_url = f"{MYMEMORY_API_URL}?{urlencode(params)}"
             response_data = await self._fetch(full_url, is_json=True)
             
             if response_data and response_data.get("responseStatus") == 200:
@@ -67,7 +65,7 @@ class SmartTranslator(BaseWebClient):
         if not text or not text.strip():
             return ""
 
-        # Check cache first (handled by _fetch for MyMemory, but we need manual for Google's custom URL)
+        # Check cache first
         cache_path = self._get_cache_path(text, extension="txt")
         if self._is_cache_valid(cache_path):
              with open(cache_path, 'r', encoding='utf-8') as f:
