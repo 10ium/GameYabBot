@@ -3,20 +3,20 @@ name: Free Games Bot Workflow
 
 on:
   schedule:
+    # هر روز در ساعت 05:00 UTC اجرا می‌شود
     - cron: '0 5 * * *'
+  
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - 'src/**'
-      - '.github/workflows/run_bot.yml'
+    # اجازه می‌دهد تا به صورت دستی از رابط کاربری GitHub Actions اجرا شود
+
+# بخش 'push' حذف شد تا از اجرای خودکار هنگام تغییر کد جلوگیری شود
 
 jobs:
   build-and-run:
     runs-on: ubuntu-latest
+
     permissions:
-      contents: write
+      contents: write # برای اجازه push کردن تغییرات به مخزن نیاز است
 
     steps:
       - name: Checkout repository
@@ -36,25 +36,31 @@ jobs:
             ${{ runner.os }}-pip-
 
       - name: Install Python dependencies
-        run: python -m pip install --upgrade pip && pip install -r requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
       - name: Ensure data directories exist
         run: mkdir -p data web_data cache
 
       - name: Run Free Games Bot
         env:
-          # Secrets are securely passed from GitHub repository settings
+          # این مقادیر باید در بخش Secrets مخزن شما تنظیم شده باشند
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }} # <--- **خط جدید اضافه شد**
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
         run: python -m src.main
 
       - name: Commit and push changes
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions-bot@github.com"
+          
+          # اضافه کردن فایل‌های داده تولید شده به منطقه staging
           git add --force data/games.db web_data/free_games.json
+          
+          # بررسی اینکه آیا تغییری برای کامیت وجود دارد یا خیر
           if git diff --staged --quiet; then
-            echo "No data changes to commit."
+            echo "No data changes to commit. Skipping commit."
           else
             git commit -m "chore(data): Update games database and web data"
             git push
