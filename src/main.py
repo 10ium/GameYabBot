@@ -8,7 +8,7 @@ from typing import List, Dict, Any
 
 # --- Configuration ---
 from src.config import (
-    LOG_LEVEL, TELEGRAM_BOT_TOKEN, WEB_DATA_DIR, WEB_DATA_FILE,
+    LOG_LEVEL, WEB_DATA_DIR, WEB_DATA_FILE, # Removed TELEGRAM_BOT_TOKEN from here
     DLC_KEYWORDS, AMBIGUOUS_KEYWORDS, POSITIVE_GAME_KEYWORDS
 )
 
@@ -41,6 +41,9 @@ logging.basicConfig(
     datefmt='%Y-%m-%d %H:%M:%S'
 )
 logger = logging.getLogger(__name__)
+
+# Fetch Telegram bot token from environment variable
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN") # Reintroduced fetching token here
 
 # ===== CORE BUSINESS LOGIC / PIPELINE =====
 class GamePipeline:
@@ -129,10 +132,9 @@ class GamePipeline:
         enrich_tasks = []
         for game in raw_games:
             game['store'] = infer_store_from_game_data(game)
-            task = asyncio.create_task(self.steam_enricher.enrich(game))
-            enrich_tasks.append(task)
-            task = asyncio.create_task(self.metacritic_enricher.enrich(game))
-            enrich_tasks.append(task)
+            task_steam = asyncio.create_task(self.steam_enricher.enrich(game))
+            task_metacritic = asyncio.create_task(self.metacritic_enricher.enrich(game))
+            enrich_tasks.extend([task_steam, task_metacritic])
         await asyncio.gather(*enrich_tasks)
 
         # Classify and deduplicate
@@ -176,8 +178,8 @@ class GamePipeline:
 
     async def _send_notifications(self, games_to_notify: List[GameData]) -> None:
         """Sends Telegram notifications for the filtered list of games."""
-        if not self.bot or not TELEGRAM_BOT_TOKEN:
-            logger.warning("Telegram bot is not configured. Skipping notifications.")
+        if not self.bot: # Check if bot object was successfully created
+            logger.warning("Telegram bot object not initialized (TELEGRAM_BOT_TOKEN might be missing). Skipping notifications.")
             return
 
         logger.info(f"--- Step 4: Sending {len(games_to_notify)} notifications ---")
@@ -241,7 +243,9 @@ class GamePipeline:
 async def main():
     """Initializes and runs the GamePipeline."""
     db = Database()
-    bot = TelegramBot(token=TELEGRAM_BOT_TOKEN, db=db) if TELEGRAM_BOT_TOKEN else None
+    # Now TELEGRAM_BOT_TOKEN is read directly here
+    telegram_bot_token_env = os.getenv("TELEGRAM_BOT_TOKEN")
+    bot = TelegramBot(token=telegram_bot_token_env, db=db) if telegram_bot_token_env else None
 
     async with aiohttp.ClientSession() as session:
         pipeline = GamePipeline(db, bot, session)
