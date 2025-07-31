@@ -6,12 +6,12 @@ on:
     - cron: '0 5 * * *'
   workflow_dispatch:
     # اجازه می‌دهد تا به صورت دستی از رابط کاربری GitHub Actions اجرا شود
-  push:
-    branches:
-      - main
-    paths:
-      - 'src/**' # در صورت تغییر در کدهای منبع ربات اجرا شود
-      - '.github/workflows/run_bot.yml' # در صورت تغییر در این فایل اجرا شود
+  #push:
+   # branches:
+    #  - main
+    #paths:
+     # - 'src/**' # در صورت تغییر در کدهای منبع ربات اجرا شود
+      #- '.github/workflows/run_bot.yml' # در صورت تغییر در این فایل اجرا شود
 
 jobs:
   build-and-run:
