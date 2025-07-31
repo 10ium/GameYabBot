@@ -90,29 +90,27 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // --- STATE & CONFIG ---
             let allGames = [];
             const storeDisplayMap = {"epicgames":"اپیک گیمز","steam":"استیم","googleplay":"گوگل پلی","android":"اندروید","ios":"آی‌اواس","iosappstore":"اپ استور iOS","playstation":"پلی‌استیشن","xbox":"ایکس‌باکس","gog":"GOG","itch.io":"Itch.io","indiegala":"ایندی‌گالا","stove":"STOVE","microsoftstore":"مایکروسافت استور","other":"سایر","reddit":"ردیت","humblestore":"هامبل استور","fanatical":"فناتیکال","greenmangaming":"گرین من گیمینگ","amazon":"آمازون","blizzard":"بلیزارد","eastore":"EA استور","ubisoftstore":"یوبی‌سافت استور"};
             
-            // ** NEW: Store Icon Mapping **
+            // ** FIXED: Store Icon Mapping with quoted keys **
             const storeIconMap = {
-                steam: 'fa-brands fa-steam',
-                epicgames: 'fa-solid fa-e',
-                gog: 'fa-solid fa-g',
-                googleplay: 'fa-brands fa-google-play',
-                android: 'fa-brands fa-android',
-                iosappstore: 'fa-brands fa-apple',
-                ios: 'fa-brands fa-apple',
-                playstation: 'fa-brands fa-playstation',
-                xbox: 'fa-brands fa-xbox',
-                itch.io: 'fa-brands fa-itch-io',
-                reddit: 'fa-brands fa-reddit-alien',
-                microsoftstore: 'fa-brands fa-windows',
-                amazon: 'fa-brands fa-amazon',
-                default: 'fa-solid fa-gamepad' // Fallback icon
+                "steam": "fa-brands fa-steam",
+                "epicgames": "fa-solid fa-e",
+                "gog": "fa-solid fa-g",
+                "googleplay": "fa-brands fa-google-play",
+                "android": "fa-brands fa-android",
+                "iosappstore": "fa-brands fa-apple",
+                "ios": "fa-brands fa-apple",
+                "playstation": "fa-brands fa-playstation",
+                "xbox": "fa-brands fa-xbox",
+                "itch.io": "fa-brands fa-itch-io",
+                "reddit": "fa-brands fa-reddit-alien",
+                "microsoftstore": "fa-brands fa-windows",
+                "amazon": "fa-brands fa-amazon",
+                "default": "fa-solid fa-gamepad"
             };
             
-            // --- DOM ELEMENTS ---
             const elements = {
                 themeToggle: document.getElementById('theme-toggle'),
                 gamesContainer: document.getElementById('games-container'),
@@ -151,22 +149,13 @@
                 card.className = 'game-card card rounded-lg shadow-md overflow-hidden cursor-pointer';
                 card.onclick = () => showModal(game);
 
-                const storeKey = game.store.replace(/\./g, ''); // Remove dots for key lookup
-                const storeName = storeDisplayMap[storeKey] || game.store;
-                const storeIcon = storeIconMap[storeKey] || storeIconMap.default;
+                const storeKey = game.store; // Use the direct store name
+                const storeName = storeDisplayMap[storeKey] || storeKey;
+                const storeIcon = storeIconMap[storeKey] || storeIconMap.default; // Direct lookup
                 const dealTypeClass = game.is_free ? 'bg-sky-500' : 'bg-emerald-500';
                 
-                const getScoreColor = (score) => {
-                    if (score >= 75) return 'text-green-400';
-                    if (score >= 50) return 'text-yellow-400';
-                    return 'text-red-400';
-                };
-                
-                const getPlayerInfo = () => {
-                    if (game.is_multiplayer) return '<span><i class="fa-solid fa-users"></i> چندنفره</span>';
-                    if (game.is_online) return '<span><i class="fa-solid fa-globe"></i> آنلاین</span>';
-                    return '<span><i class="fa-solid fa-user"></i> تک‌نفره</span>';
-                };
+                const getScoreColor = (score) => (score >= 75 ? 'text-green-400' : score >= 50 ? 'text-yellow-400' : 'text-red-400');
+                const getPlayerInfo = () => game.is_multiplayer ? '<span><i class="fa-solid fa-users"></i> چندنفره</span>' : game.is_online ? '<span><i class="fa-solid fa-globe"></i> آنلاین</span>' : '<span><i class="fa-solid fa-user"></i> تک‌نفره</span>';
 
                 card.innerHTML = `
                     <div class="relative">
@@ -202,8 +191,8 @@
             };
 
             const showModal = (game) => {
-                const storeKey = game.store.replace(/\./g, '');
-                const storeName = storeDisplayMap[storeKey] || game.store;
+                const storeKey = game.store;
+                const storeName = storeDisplayMap[storeKey] || storeKey;
                 const storeIcon = storeIconMap[storeKey] || storeIconMap.default;
 
                 elements.modalBody.innerHTML = `
