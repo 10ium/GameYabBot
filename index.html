@@ -256,7 +256,7 @@
                         </div>
                         <div class="flex gap-4">
                             <a href="${game.url}" target="_blank" class="flex-1 text-center font-bold py-3 px-4 rounded-lg transition ${game.is_free ? 'bg-blue-600 hover:bg-blue-700' : 'bg-green-600 hover:bg-green-700'} text-white">
-                                ${game.is_free ? 'دریافت بازی' : 'مشاهده تخفیf'}
+                                ${game.is_free ? 'دریافت بازی' : 'مشاهده تخفیف'}
                             </a>
                             ${game.trailer ? `<a href="${game.trailer}" target="_blank" class="flex-1 text-center font-bold py-3 px-4 rounded-lg transition bg-gray-600 hover:bg-gray-700 text-white"><i class="fa-solid fa-film mr-2"></i> مشاهده تریلر</a>` : ''}
                         </div>
@@ -297,8 +297,8 @@
 
             const fetchGames = async () => {
                 try {
-                    // IMPORTANT: Replace with your GitHub username and repository name
-                    const url = 'https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/web_data/free_games.json';
+                    // THE ONLY LINE CHANGED TO FIX THE 404 ERROR
+                    const url = 'https://raw.githubusercontent.com/10ium/GameYabBot/main/web_data/free_games.json';
                     const response = await fetch(`${url}?t=${new Date().getTime()}`); // Cache-busting
                     if (!response.ok) throw new Error(`HTTP error ${response.status}`);
                     allGames = await response.json();

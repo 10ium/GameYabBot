@@ -48,7 +48,16 @@ TELEGRAM_STORE_DISPLAY_NAMES = {
 
 # --- Epic Games Source ---
 EPIC_GAMES_API_URL = "https://store-content-ipv4.ak.epicgames.com/api/graphql"
-EPIC_GAMES_HEADERS = {**COMMON_HEADERS, 'Referer': 'https://www.epicgames.com/store/', 'Origin': 'https://www.epicgames.com'}
+# هدرهای بهبود یافته برای شبیه‌سازی بهتر یک مرورگر واقعی و جلوگیری از خطای 403
+EPIC_GAMES_HEADERS = {
+    **COMMON_HEADERS,
+    'Referer': 'https://www.epicgames.com/store/en-US/free-games',
+    'Origin': 'https://www.epicgames.com',
+    'Sec-Fetch-Dest': 'empty',
+    'Sec-Fetch-Mode': 'cors',
+    'Sec-Fetch-Site': 'same-site',
+    'X-Requested-With': 'XMLHttpRequest'
+}
 
 # --- ITAD Source ---
 ITAD_DEALS_URL = "https://isthereanydeal.com/deals/#filter:N4IgDgTglgxgpiAXKAtlAdk9BXANrgGhBQEMAPJABgF8iAXATzAUQG0BGAXWqA=="
