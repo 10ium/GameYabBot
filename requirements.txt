@@ -2,3 +2,4 @@ python-telegram-bot
 aiohttp
 beautifulsoup4
 playwright
+lxml

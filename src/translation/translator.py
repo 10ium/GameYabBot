@@ -1,72 +1,88 @@
 // ===== IMPORTS & DEPENDENCIES =====
 import logging
+import aiohttp
 from typing import Optional
 
-import aiohttp
-
-from src.config import GOOGLE_TRANSLATE_URL, MYMEMORY_API_URL
+from src.core.base_client import BaseWebClient
+from src.config import GOOGLE_TRANSLATE_URL, MYMEMORY_API_URL, DEFAULT_CACHE_TTL, CACHE_DIR
+import os
 
 // ===== CONFIGURATION & CONSTANTS =====
 logger = logging.getLogger(__name__)
 
 // ===== CORE BUSINESS LOGIC =====
-class SmartTranslator:
+class SmartTranslator(BaseWebClient):
     """
-    A simple class for translating text using free public APIs.
-    It attempts translation with Google Translate first, falling back to MyMemory.
+    A smart translator that uses free public APIs with fallbacks.
+    It does not require an API key.
     """
-
-    async def _translate_with_service(self, session: aiohttp.ClientSession, url: str, params: dict) -> Optional[str]:
-        """A generic method to attempt translation with a given service."""
+    def __init__(self, session: aiohttp.ClientSession, cache_ttl: int = DEFAULT_CACHE_TTL * 30): # Longer TTL for translations
+        super().__init__(
+            cache_dir=os.path.join(CACHE_DIR, "translations"),
+            cache_ttl=cache_ttl,
+            session=session
+        )
+        
+    async def _translate_with_google(self, text: str) -> Optional[str]:
+        """Translates text using the public Google Translate API."""
+        params = {'client': 'gtx', 'sl': 'en', 'tl': 'fa', 'dt': 't', 'q': text}
+        # We cannot use self._fetch here as the URL structure is different
         try:
-            async with session.get(url, params=params) as response:
+            async with self._session.get(GOOGLE_TRANSLATE_URL, params=params) as response:
                 response.raise_for_status()
-                data = await response.json(content_type=None)
-                
-                if "translate.googleapis.com" in url:
-                    return "".join([item[0] for item in data[0] if item[0]])
-                elif "api.mymemory.translated.net" in url:
-                    if data.get("responseStatus") == 200:
-                        return data["responseData"]["translatedText"]
-                    else:
-                        logger.warning(f"MyMemory API error: {data.get('responseDetails')}")
-                        return None
+                data = await response.json()
+                # Google's response is a nested list; we need to join the translated parts
+                return "".join([item[0] for item in data[0] if item[0]])
         except Exception as e:
-            logger.warning(f"Translation service at {url} failed: {e}")
+            logger.warning(f"[{self.__class__.__name__}] Google Translate failed: {e}")
             return None
-        return None
+
+    async def _translate_with_mymemory(self, text: str) -> Optional[str]:
+        """Translates text using the MyMemory API as a fallback."""
+        params = {"q": text, "langpair": "en|fa"}
+        try:
+            response = await self._fetch(f"{MYMEMORY_API_URL}?{aiohttp.helpers.urlencode(params)}")
+            if response and response.get("responseStatus") == 200:
+                return response["responseData"]["translatedText"]
+            logger.warning(f"[{self.__class__.__name__}] MyMemory API error: {response.get('responseDetails') if response else 'No response'}")
+            return None
+        except Exception as e:
+            logger.warning(f"[{self.__class__.__name__}] MyMemory request failed: {e}")
+            return None
 
     async def translate(self, text: str) -> str:
         """
-        Translates an English text to Persian.
-
-        Args:
-            text (str): The English text to translate.
-
-        Returns:
-            str: The translated Persian text, or the original English text if all attempts fail.
+        Translates an English text to Persian, trying multiple services.
+        Returns the original text if all translation attempts fail.
         """
         if not text or not text.strip():
             return ""
 
-        logger.debug(f"[{self.__class__.__name__}] Attempting to translate: '{text[:70]}...'")
+        # Check cache first (handled by _fetch in MyMemory, but not Google)
+        cache_path = self._get_cache_path(text, extension="txt")
+        if self._is_cache_valid(cache_path):
+             with open(cache_path, 'r', encoding='utf-8') as f:
+                logger.info(f"✅ [{self.__class__.__name__}] Loading translation from cache for: '{text[:30]}...'")
+                return f.read()
+
+        logger.info(f"➡️ [{self.__class__.__name__}] Translating text: '{text[:50]}...'")
         
-        async with aiohttp.ClientSession() as session:
-            # 1. Try Google Translate
-            google_params = {'client': 'gtx', 'sl': 'en', 'tl': 'fa', 'dt': 't', 'q': text}
-            translated_text = await self._translate_with_service(session, GOOGLE_TRANSLATE_URL, google_params)
+        # Attempt 1: Google Translate
+        translated_text = await self._translate_with_google(text)
+        if translated_text:
+            logger.info("✅ Translation successful with Google Translate.")
+        else:
+            # Attempt 2: MyMemory
+            logger.info("⚠️ Google failed, trying MyMemory as fallback...")
+            translated_text = await self._translate_with_mymemory(text)
             if translated_text:
-                logger.debug(f"[{self.__class__.__name__}] Translation successful with Google Translate.")
-                return translated_text
+                logger.info("✅ Translation successful with MyMemory.")
+            else:
+                logger.error(f"❌ All translation attempts failed for: '{text[:50]}...'. Returning original text.")
+                return text # Fallback to original text
 
-            # 2. Fallback to MyMemory
-            logger.info(f"[{self.__class__.__name__}] Google Translate failed, falling back to MyMemory.")
-            mymemory_params = {"q": text, "langpair": "en|fa"}
-            translated_text = await self._translate_with_service(session, MYMEMORY_API_URL, mymemory_params)
-            if translated_text:
-                logger.debug(f"[{self.__class__.__name__}] Translation successful with MyMemory.")
-                return translated_text
+        # Save successful translation to cache
+        with open(cache_path, 'w', encoding='utf-8') as f:
+            f.write(translated_text)
 
-            # 3. If all fails, return original text
-            logger.error(f"❌ [{self.__class__.__name__}] All translation services failed for text. Returning original.")
-            return text
+        return translated_text

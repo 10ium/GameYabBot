@@ -1,937 +1,332 @@
 <!DOCTYPE html>
-<html lang="fa" class="dark">
+<html lang="fa" dir="rtl" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>بازی‌های رایگان رایگان</title>
-    <!-- Favicon (using an emoji as SVG data URI) -->
+    <title>بازی‌های رایگان و تخفیف‌ها</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎮</text></svg>">
-    <!-- Tailwind CSS CDN -->
+    
+    <!-- External Libraries -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Vazirmatn Font from Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Font Awesome for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700&display=swap" rel="stylesheet">
+
     <style>
+        /* Base Styles */
         body {
             font-family: 'Vazirmatn', sans-serif;
-            direction: rtl; /* برای پشتیبانی از زبان فارسی */
-            text-align: right; /* تراز متن به راست */
-        }
-        /* Dark Mode Styles (default) */
-        .dark {
-            background: linear-gradient(to bottom right, #1a202c, #2d3748); /* Darker gradient */
-            color: #e2e8f0; /* Light text */
-        }
-        .dark .bg-gray-700 {
-            background-color: #4a5568; /* Darker card background */
-        }
-        .dark .text-gray-400 {
-            color: #a0aec0;
-        }
-        .dark .text-gray-300 {
-            color: #cbd5e0;
-        }
-        .dark .border-gray-600 {
-            border-color: #4a5568;
-        }
-        .dark .shadow-lg {
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, color 0.3s;
         }
 
-        /* Light Mode Styles */
+        /* Dark Mode (Default) */
+        html.dark {
+            color-scheme: dark;
+            --bg-color: #111827; /* gray-900 */
+            --text-color: #d1d5db; /* gray-300 */
+            --card-bg: #1f2937; /* gray-800 */
+            --card-border: #374151; /* gray-700 */
+            --header-text-color: transparent;
+            --header-gradient: linear-gradient(to right, #60a5fa, #c084fc);
+        }
+
+        /* Light Mode */
         html.light {
-            background: linear-gradient(to bottom right, #f7fafc, #edf2f7); /* Lighter gradient */
-            color: #2d3748; /* Dark text */
+            color-scheme: light;
+            --bg-color: #f9fafb; /* gray-50 */
+            --text-color: #1f2937; /* gray-800 */
+            --card-bg: #ffffff;
+            --card-border: #e5e7eb; /* gray-200 */
+            --header-text-color: #1f2937;
+            --header-gradient: none;
         }
-        html.light .bg-gray-700 {
-            background-color: #ffffff; /* White card background */
-            border: 1px solid #e2e8f0;
+        
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
         }
-        html.light .text-gray-400 {
-            color: #4a5568;
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--card-border);
         }
-        html.light .text-gray-300 {
-            color: #2d3748;
-        }
-        html.light .border-gray-600 {
-            border-color: #e2e8f0;
-        }
-        html.light .shadow-lg {
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-        }
-        html.light .text-white {
-            color: #1a202c;
-        }
-        html.light .bg-clip-text {
-            background-image: linear-gradient(to right, #007bff, #6f42c1); /* Adjust gradient for light mode */
+        .header-gradient-text {
+            color: var(--header-text-color);
+            background-image: var(--header-gradient);
+            -webkit-background-clip: text;
+            background-clip: text;
         }
 
-        /* Common card styles */
+        /* Game Card Styles */
         .game-card {
             transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-            display: flex; /* Ensures content fills height */
-            flex-direction: column; /* Stacks content vertically */
-            cursor: pointer; /* Indicate clickable */
         }
         .game-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
         }
-        .game-card img {
-            object-fit: cover; /* Ensures images cover the area without distortion */
-            height: 192px; /* Default h-48 */
-        }
-        .game-card .p-4 {
-            flex-grow: 1; /* Allows content area to expand */
-            display: flex;
-            flex-direction: column;
-        }
-        /* Default text truncation */
-        .game-card .description-text {
-            flex-grow: 1;
+        .description-text {
             overflow: hidden;
             display: -webkit-box;
-            -webkit-line-clamp: 4; /* Default to 4 lines */
             -webkit-box-orient: vertical;
-            text-overflow: ellipsis;
+            -webkit-line-clamp: 3; /* Default line clamp */
         }
-
-        /* Custom styles for the theme toggle button */
-        #theme-toggle {
-            position: fixed;
-            top: 20px;
-            left: 20px;
-            z-index: 100;
-            cursor: pointer;
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5rem;
-            transition: background-color 0.3s, color 0.3s, transform 0.2s;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        .dark #theme-toggle {
-            background-color: #4a5568;
-            color: #f7fafc;
-        }
-        html.light #theme-toggle {
-            background-color: #fff;
-            color: #2d3748;
-        }
-        #theme-toggle:hover {
-            transform: scale(1.1);
-        }
-
-        /* Scroll buttons */
-        .scroll-button {
-            position: fixed;
-            right: 20px;
-            background-color: #3182ce; /* Blue-600 */
-            color: white;
-            padding: 12px;
-            border-radius: 9999px; /* Full rounded */
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            cursor: pointer;
-            z-index: 90;
-            transition: opacity 0.3s, transform 0.3s;
-            opacity: 0; /* Hidden by default */
-            transform: scale(0.9);
-        }
-        .scroll-button:hover {
-            background-color: #2b6cb0; /* Blue-700 */
-            transform: scale(1);
-        }
-        .scroll-button.show {
-            opacity: 1;
-            transform: scale(1);
-        }
-        #scroll-to-top {
-            bottom: 80px;
-        }
-        #scroll-to-bottom {
-            bottom: 20px;
-        }
-
-        /* Responsive layout adjustments based on selected columns */
-        /* For 1 column (Large View) */
-        .layout-cols-1 .game-card img { height: 320px; /* h-80 */ }
-        .layout-cols-1 .game-card h2 { font-size: 2rem; /* text-4xl */ }
-        .layout-cols-1 .game-card .description-text { -webkit-line-clamp: 8; }
-        .layout-cols-1 .game-card .text-sm { font-size: 1rem; /* text-base */ }
-
-        /* For 2 columns (Medium View) */
-        .layout-cols-2 .game-card img { height: 256px; /* h-64 */ }
-        .layout-cols-2 .game-card h2 { font-size: 1.75rem; /* text-3xl */ }
-        .layout-cols-2 .game-card .description-text { -webkit-line-clamp: 6; }
-        .layout-cols-2 .game-card .text-sm { font-size: 0.875rem; /* text-sm */ }
-
-        /* For 3 columns (Small View - Default) */
-        .layout-cols-3 .game-card img { height: 192px; /* h-48 */ }
-        .layout-cols-3 .game-card h2 { font-size: 1.25rem; /* text-xl */ }
-        .layout-cols-3 .game-card .description-text { -webkit-line-clamp: 4; }
-        .layout-cols-3 .game-card .text-sm { font-size: 0.875rem; /* text-sm */ }
-
-        /* For 4 columns (Very Small View) */
-        .layout-cols-4 .game-card img { height: 160px; /* h-40 */ }
-        .layout-cols-4 .game-card h2 { font-size: 1rem; /* text-lg */ }
-        .layout-cols-4 .game-card .description-text { -webkit-line-clamp: 3; }
-        .layout-cols-4 .game-card .text-sm { font-size: 0.75rem; /* text-xs */ }
-
+        .layout-cols-1 .description-text { -webkit-line-clamp: 6; }
+        .layout-cols-2 .description-text { -webkit-line-clamp: 4; }
+        .layout-cols-4 .description-text { -webkit-line-clamp: 2; }
+        
         /* Modal Styles */
-        .modal {
-            display: none; /* Hidden by default */
-            position: fixed; /* Stay in place */
-            z-index: 1000; /* Sit on top */
-            left: 0;
-            top: 0;
-            width: 100%; /* Full width */
-            height: 100%; /* Full height */
-            overflow: auto; /* Enable scroll if needed */
-            background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-        }
-        .modal-content {
-            background-color: #4a5568; /* Darker card background */
-            margin: auto;
-            padding: 20px;
-            border-radius: 0.75rem; /* rounded-xl */
-            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.2), 0 4px 6px -2px rgba(0,0,0,0.1);
-            width: 90%;
-            max-width: 800px;
-            position: relative;
-            max-height: 90vh; /* Limit height */
-            overflow-y: auto; /* Enable scrolling within modal content */
-            color: #e2e8f0;
-        }
-        html.light .modal-content {
-            background-color: #ffffff; /* White card background */
-            color: #2d3748;
-        }
-        html.light .modal-content h2 {
-            color: #1a202c;
-        }
-        html.light .modal-content p {
-            color: #4a5568;
-        }
-        .modal-content h2 {
-            font-size: 1.75rem; /* text-3xl */
-            font-weight: bold;
-            margin-bottom: 1rem;
-            color: #fff;
-        }
-        .modal-content p {
-            margin-bottom: 0.5rem;
-            color: #cbd5e0;
-        }
-        .modal-content img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 0.5rem;
-            margin-bottom: 1rem;
-        }
-        .close-button {
-            position: absolute;
-            top: 10px;
-            right: 15px;
-            color: #aaa;
-            font-size: 28px;
-            font-weight: bold;
-            cursor: pointer;
-        }
-        .close-button:hover,
-        .close-button:focus {
-            color: #fff;
-            text-decoration: none;
-            cursor: pointer;
-        }
-        html.light .close-button {
-             color: #4a5568;
-        }
-        html.light .close-button:hover,
-        html.light .close-button:focus {
-            color: #1a202c;
-        }
-        /* Style for full description within modal */
-        .full-description-text {
-            white-space: pre-wrap; /* Preserves whitespace and line breaks */
-            word-wrap: break-word; /* Breaks long words */
-        }
+        .modal { z-index: 1000; }
+        .modal-content { max-height: 90vh; }
+        .full-description-text { white-space: pre-wrap; word-wrap: break-word; }
+
+        /* Utility classes */
+        .hidden { display: none; }
     </style>
 </head>
-<body class="bg-gradient-to-br from-gray-900 to-gray-800 text-gray-100 min-h-screen p-4 sm:p-8">
+<body class="min-h-screen p-4 sm:p-8">
+
     <!-- Theme Toggle Button -->
-    <button id="theme-toggle" class="bg-gray-700 text-white rounded-full p-2">
-        ☀️
+    <button id="theme-toggle" class="fixed top-5 left-5 z-50 w-12 h-12 rounded-full flex items-center justify-center card text-2xl shadow-lg">
+        <i class="fa-solid fa-sun"></i>
     </button>
 
     <div class="container mx-auto max-w-7xl">
         <header class="text-center mb-12">
-            <h1 class="text-4xl sm:text-5xl font-extrabold text-white mb-4">
-                <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
-                    بازی‌های رایگان امروز
-                </span>
+            <h1 class="text-4xl sm:text-5xl font-extrabold mb-4 header-gradient-text">
+                بازی‌های رایگان و تخفیف‌ها
             </h1>
-            <p class="text-lg sm:text-xl text-gray-300">
-                جدیدترین بازی‌های رایگان از فروشگاه‌های مختلف را اینجا پیدا کنید!
+            <p class="text-lg">
+                جدیدترین بازی‌های رایگان و تخفیف‌های ویژه از فروشگاه‌های مختلف
             </p>
         </header>
 
-        <!-- Filter and Layout Options -->
-        <div class="mb-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <!-- Store Filter -->
-            <label for="store-filter" class="text-lg font-medium text-gray-300 whitespace-nowrap">
-                فیلتر بر اساس فروشگاه:
-            </label>
-            <select id="store-filter" class="bg-gray-700 border border-gray-600 text-white rounded-lg px-4 py-2 focus:ring-blue-500 focus:border-blue-500 w-full sm:w-auto">
+        <!-- Filters and Layout Options -->
+        <div class="mb-8 p-4 rounded-lg card flex flex-wrap items-center justify-center gap-4 shadow">
+            <select id="store-filter" class="bg-transparent border border-gray-600 rounded-lg px-4 py-2 w-full sm:w-auto">
                 <option value="all">همه فروشگاه‌ها</option>
-                <!-- Options will be populated by JavaScript -->
             </select>
-
-            <!-- Content Type Filter -->
-            <label for="content-type-filter" class="text-lg font-medium text-gray-300 whitespace-nowrap">
-                نوع محتوا:
-            </label>
-            <select id="content-type-filter" class="bg-gray-700 border border-gray-600 text-white rounded-lg px-4 py-2 focus:ring-blue-500 focus:border-blue-500 w-full sm:w-auto">
-                <option value="all-content">همه (بازی و افزونه)</option>
-                <option value="games-only">فقط بازی</option>
-                <option value="dlc-only">فقط DLC و افزونه</option>
+            <select id="price-type-filter" class="bg-transparent border border-gray-600 rounded-lg px-4 py-2 w-full sm:w-auto">
+                <option value="all">رایگان و تخفیف</option>
+                <option value="free">فقط رایگان</option>
+                <option value="discount">فقط تخفیف</option>
             </select>
-
-            <!-- Price Type Filter -->
-            <label for="price-type-filter" class="text-lg font-medium text-gray-300 whitespace-nowrap">
-                نوع قیمت:
-            </label>
-            <select id="price-type-filter" class="bg-gray-700 border border-gray-600 text-white rounded-lg px-4 py-2 focus:ring-blue-500 focus:border-blue-500 w-full sm:w-auto">
-                <option value="all-prices">همه (رایگان و تخفیف)</option>
-                <option value="free-only">فقط رایگان</option>
-                <option value="discounted-only">فقط تخفیف‌خورده</option>
+            <select id="content-type-filter" class="bg-transparent border border-gray-600 rounded-lg px-4 py-2 w-full sm:w-auto">
+                <option value="all">بازی و DLC</option>
+                <option value="game">فقط بازی</option>
+                <option value="dlc">فقط DLC</option>
             </select>
-
-            <!-- Column Selector -->
-            <label for="column-selector" class="text-lg font-medium text-gray-300 whitespace-nowrap sm:mr-4">
-                تعداد ستون‌ها:
-            </label>
-            <select id="column-selector" class="bg-gray-700 border border-gray-600 text-white rounded-lg px-4 py-2 focus:ring-blue-500 focus:border-blue-500 w-full sm:w-auto">
-                <option value="1">۱ ستون (بزرگ)</option>
-                <option value="2">۲ ستون (متوسط)</option>
-                <option value="3">۳ ستون (کوچک)</option>
-                <option value="4">۴ ستون (خیلی کوچک)</option>
+            <select id="column-selector" class="bg-transparent border border-gray-600 rounded-lg px-4 py-2 w-full sm:w-auto">
+                <option value="3">۳ ستون</option>
+                <option value="1">۱ ستون</option>
+                <option value="2">۲ ستون</option>
+                <option value="4">۴ ستون</option>
             </select>
         </div>
 
-        <div id="loading" class="text-center text-xl text-blue-400 mb-8">
-            در حال بارگذاری بازی‌ها...
+        <!-- Status Messages -->
+        <div id="status-container" class="text-center text-xl mb-8">
+            <p id="loading-message">در حال بارگذاری بازی‌ها... <i class="fa-solid fa-spinner fa-spin"></i></p>
+            <p id="error-message" class="hidden text-red-500">خطا در بارگذاری بازی‌ها. لطفاً بعداً دوباره امتحان کنید.</p>
+            <p id="no-games-message" class="hidden">با توجه به فیلترهای انتخابی، بازی‌ای یافت نشد.</p>
         </div>
 
-        <div id="error-message" class="hidden text-center text-xl text-red-400 mb-8">
-            خطا در بارگذاری بازی‌ها. لطفاً بعداً دوباره امتحان کنید.
-        </div>
-
-        <div id="no-games-message" class="hidden text-center text-xl text-gray-400 mb-8">
-            در حال حاضر هیچ بازی رایگانی برای نمایش وجود ندارد.
-        </div>
-
-        <!-- games-container will dynamically get grid-cols and layout-cols classes -->
-        <div id="games-container" class="grid gap-6"> 
-            <!-- Game cards will be injected here by JavaScript -->
+        <!-- Games Grid -->
+        <div id="games-container" class="grid gap-6">
+            <!-- Game cards will be injected here -->
         </div>
     </div>
-
-    <!-- Modal for Full Game Details -->
-    <div id="game-detail-modal" class="modal">
-        <div class="modal-content">
-            <span class="close-button" onclick="closeModal()">&times;</span>
-            <img id="modal-image" src="" alt="تصویر بازی" class="mb-4 rounded-lg">
-            <h2 id="modal-title" class="text-white text-3xl mb-2"></h2>
-            <p id="modal-store-info" class="text-gray-400 mb-3"></p>
-            <p id="modal-discount-info" class="text-gray-400 mb-3"></p>
-            <p id="modal-description" class="text-gray-300 mb-4 full-description-text"></p>
-            <div class="space-y-1">
-                <p id="modal-metacritic-score" class="text-sm text-gray-300"></p>
-                <p id="modal-metacritic-userscore" class="text-sm text-gray-300"></p>
-                <p id="modal-steam-overall-score" class="text-sm text-gray-300"></p>
-                <p id="modal-steam-recent-score" class="text-sm text-gray-300"></p>
-                <p id="modal-genres" class="text-sm text-gray-300"></p>
-                <p id="modal-player-info" class="text-sm text-gray-300"></p>
-                <p id="modal-age-rating" class="text-sm text-gray-300"></p>
-                <a id="modal-trailer-link" href="#" target="_blank" class="text-blue-400 hover:underline text-sm mt-2 block hidden"><i class="fas fa-film"></i> مشاهده تریلر</a>
-                <a id="modal-game-link" href="#" target="_blank" class="mt-4 block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-200">
-                    دریافت بازی
-                </a>
+    
+    <!-- Modal -->
+    <div id="game-modal" class="hidden fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center p-4 modal">
+        <div class="card rounded-xl shadow-2xl w-full max-w-3xl relative overflow-y-auto modal-content">
+            <button id="close-modal" class="absolute top-3 right-4 text-2xl hover:opacity-70">×</button>
+            <div id="modal-body" class="p-6">
+                <!-- Modal content will be injected here -->
             </div>
         </div>
     </div>
 
-    <!-- Scroll to Top Button -->
-    <button id="scroll-to-top" class="scroll-button">
-        <i class="fas fa-arrow-up"></i>
-    </button>
-
-    <!-- Scroll to Bottom Button -->
-    <button id="scroll-to-bottom" class="scroll-button">
-        <i class="fas fa-arrow-down"></i>
-    </button>
-
     <script>
-        let allGames = []; // To store all fetched games
-        const gamesContainer = document.getElementById('games-container');
-        const loadingMessage = document.getElementById('loading');
-        const errorMessage = document.getElementById('error-message');
-        const noGamesMessage = document.getElementById('no-games-message');
-        const storeFilter = document.getElementById('store-filter');
-        const columnSelector = document.getElementById('column-selector'); // Column selector
-        const themeToggle = document.getElementById('theme-toggle');
-        const scrollToTopBtn = document.getElementById('scroll-to-top');
-        const scrollToBottomBtn = document.getElementById('scroll-to-bottom');
-        
-        // New filter elements
-        const contentTypeFilter = document.getElementById('content-type-filter'); 
-        const priceTypeFilter = document.getElementById('price-type-filter'); 
-
-        // Modal elements
-        const gameDetailModal = document.getElementById('game-detail-modal');
-        const modalImage = document.getElementById('modal-image');
-        const modalTitle = document.getElementById('modal-title');
-        const modalStoreInfo = document.getElementById('modal-store-info');
-        const modalDiscountInfo = document.getElementById('modal-discount-info');
-        const modalDescription = document.getElementById('modal-description');
-        const modalMetacriticScore = document.getElementById('modal-metacritic-score');
-        const modalMetacriticUserScore = document.getElementById('modal-metacritic-userscore');
-        const modalSteamOverallScore = document.getElementById('modal-steam-overall-score');
-        const modalSteamRecentScore = document.getElementById('modal-steam-recent-score');
-        const modalGenres = document.getElementById('modal-genres');
-        const modalPlayerInfo = document.getElementById('modal-player-info');
-        const modalAgeRating = document.getElementById('modal-age-rating');
-        const modalTrailerLink = document.getElementById('modal-trailer-link');
-        const modalGameLink = document = document.getElementById('modal-game-link');
-
-
-        // نگاشت نام‌های انگلیسی فروشگاه‌ها به نام‌های فارسی برای نمایش
-        const storeDisplayMap = {
-            "epicgames": "اپیک گیمز", 
-            "steam": "استیم",
-            "googleplay": "اندروید",
-            "epicgames(android)": "اندروید",
-            "epicgames(ios)": "آی‌اواس", 
-            "iosappstore": "آی‌اواس", 
-            "playstation": "پلی‌استیشن",
-            "xbox": "ایکس‌باکس",
-            "gog": "GOG",
-            "itch.io": "Itch.io",
-            "indiegala": "ایندی‌گالا",
-            "stove": "STOVE",
-            "other": "سایر فروشگاه‌ها",
-            "reddit": "ردیت (لینک مستقیم)",
-            "android": "اندروید",
-            "ios": "آی‌اواس", 
-            "microsoftstore": "مایکروسافت استور",
-            "humblestore": "هامبل استور",
-            "fanatical": "فناتیکال",
-            "greenmangaming": "گرین من گیمینگ",
-            "amazon": "آمازون",
-            "blizzard": "بلیزارد",
-            "eastore": "EA استور",
-            "ubisoftstore": "یوبی‌سافت استور"
-        };
-
-        // ترتیب نمایش دلخواه فروشگاه‌ها (بر اساس نام‌های فارسی)
-        const storeDisplayOrder = [
-            "همه فروشگاه‌ها", 
-            "استیم",
-            "اپیک گیمز", 
-            "اندروید",
-            "آی‌اواس", 
-            "پلی‌استیشن",
-            "ایکس‌باکس",
-            "GOG",
-            "Itch.io",
-            "ایندی‌گالا",
-            "STOVE",
-            "مایکروسافت استور",
-            "هامبل استور",
-            "فناتیکال",
-            "گرین من گیمینگ",
-            "آمازون",
-            "بلیزارد",
-            "EA استور",
-            "یوبی‌سافت استور",
-            "ردیت (لینک مستقیم)",
-            "سایر فروشگاه‌ها"
-        ];
-
-        // نگاشت نام‌های انگلیسی ژانرها به نام‌های فارسی
-        const genreDisplayMap = {
-            "action": "اکشن", "adventure": "ماجراجویی", "rpg": "نقش‌آفرینی", "strategy": "استراتژی", 
-            "simulation": "شبیه‌سازی", "sports": "ورزشی", "puzzle": "پازل", "indie": "ایندی", 
-            "casual": "کژوال", "racing": "مسابقه‌ای", "fighting": "مبارزه‌ای", "horror": "ترسناک", 
-            "survival": "بقا", "shooter": "شوتر", "massively multiplayer": "چندنفره آنلاین گسترده", 
-            "early access": "دسترسی زودهنگام", "free to play": "رایگان", "arcade": "آرکید", 
-            "platformer": "پلتفرمر", "rhythm": "ریتمیک", "educational": "آموزشی", "family": "خانوادگی", 
-            "music": "موسیقی", "board game": "بازی رومیزی", "card game": "بازی کارتی", 
-            "visual novel": "رمان تصویری", "point & click": "اشاره و کلیک", "turn-based": "نوبتی", 
-            "real-time strategy": "استراتژی هم‌زمان", "tower defense": "دفاع از برج", "role-playing": "نقش‌آفرینی", 
-            "open world": "جهان باز", "sandbox": "سندباکس", "stealth": "مخفی‌کاری", "puzzle-platformer": "پلتفرمر پازلی", 
-            "metroidvania": "مترویدوانیا", "roguelike": "روگ‌لایک", "rogue-lite": "روگ‌لایت", 
-            "city-builder": "شهرسازی", "grand strategy": "استراتژی بزرگ", "wargame": "بازی جنگی", 
-            "historical": "تاریخی", "fantasy": "فانتزی", "sci-fi": "علمی تخیلی", "cyberpunk": "سایبرپانک", 
-            "post-apocalyptic": "پساآخرالزمانی", "superhero": "ابرقهرمانی", "anime": "انیمه", 
-            "pixel graphics": "گرافیک پیکسلی", "2d": "دوبعدی", "3d": "سه‌بعدی", "vr": "واقعیت مجازی", 
-            "co-op": "همکاری", "multiplayer": "چندنفره", "singleplayer": "تک‌نفره", 
-            "online multi-player": "چندنفره آنلاین", "local multi-player": "چندنفره محلی", "online co-op": "همکاری آنلاین", 
-            "local co-op": "همکاری محلی", "controller support": "پشتیبانی از کنترلر", "full controller support": "پشتیبانی کامل از کنترلر", 
-            "partial controller support": "پشتیبانی جزئی از کنترلر", "steam achievements": "دستاوردها", 
-            "steam trading cards": "کارت‌های تجاری استیم", "steam cloud": "ذخیره ابری استیم", "steam workshop": "کارگاه استیم", 
-            "in-app purchases": "خرید درون برنامه‌ای", "rts": "استراتژی هم‌زمان (RTS)", "fps": "شوتر اول شخص (FPS)", 
-            "tps": "شوتر سوم شخص (TPS)", "moba": "میدان نبرد آنلاین چندنفره (MOBA)", "mmorpg": "نقش‌آفرینی آنلاین چندنفره گسترده (MMORPG)", 
-            "jrpg": "نقش‌آفرینی ژاپنی (JRPG)", "western rpg": "نقش‌آفرینی غربی", "dating sim": "شبیه‌ساز دوستیابی", 
-            "farming sim": "شبیه‌ساز کشاورزی", "life sim": "شبیه‌ساز زندگی", "tycoon": "تایگون", 
-            "management": "مدیریت", "building": "ساخت و ساز", "crafting": "ساخت و ساز", 
-            "survival horror": "وحشت بقا", "psychological horror": "وحشت روان‌شناختی", "action rpg": "نقش‌آفرینی اکشن", 
-            "adventure rpg": "نقش‌آفرینی ماجراجویی", "puzzle adventure": "ماجراجویی پازلی", "hidden object": "اشیاء پنهان", 
-            "match 3": "جورچین ۳", "card battle": "نبرد کارتی", "deckbuilding": "ساخت عرشه", 
-            "tabletop": "رومیزی", "party game": "بازی مهمانی", "trivia": "دانستنی‌ها", 
-            "dance": "رقص", "karaoke": "کارائوکه", "exercise": "ورزشی", "fitness": "تناسب اندام", 
-            "vr exclusive": "انحصاری واقعیت مجازی", "vr support": "پشتیبانی واقعیت مجازی", "room-scale": "مقیاس اتاق", 
-            "seated": "نشسته", "standing": "ایستاده", "motion controls": "کنترل‌های حرکتی", 
-            "online pvp": "بازیکن در مقابل بازیکن آنلاین", "local pvp": "بازیکن در مقابل بازیکن محلی", 
-            "co-op campaign": "کمپین همکاری", "pvp": "بازیکن در مقابل بازیکن", "online": "آنلاین", 
-            "offline": "آفلاین", "local": "محلی", "controller": "کنترلر", "keyboard": "کیبورد", 
-            "mouse": "موس", "touch": "لمسی", "voxel": "وکسل", "hand-drawn": "نقاشی دستی", 
-            "stylized": "سبک‌دار", "minimalist": "مینیمالیستی", "abstract": "انتزاعی", "beautiful": "زیبا", 
-            "atmospheric": "جوگیر", "relaxing": "آرامش‌بخش", "meditation": "مدیتیشن", "comedy": "کمدی", 
-            "dark comedy": "کمدی سیاه", "satire": "هجو", "political": "سیاسی", "social commentary": "نقد اجتماعی", 
-            "dystopian": "دیستوپیایی", "utopian": "آرمان‌شهری", "surreal": "سورئال", "experimental": "تجربی", 
-            "art game": "بازی هنری", "walking simulator": "شبیه‌ساز پیاده‌روی"
-        };
-
-
-        // نگاشت رده‌بندی‌های سنی انگلیسی به نام‌های فارسی
-        const ageRatingDisplayMap = {
-            "esrb everyone": "ESRB: همه", "esrb everyone 10+": "ESRB: همه ۱۰+", "esrb teen": "ESRB: نوجوان", 
-            "esrb mature": "ESRB: بزرگسال", "esrb adults only": "ESRB: فقط بزرگسالان", "pegi 3": "PEGI: ۳+", 
-            "pegi 7": "PEGI: ۷+", "pegi 12": "PEGI: ۱۲+", "pegi 16": "PEGI: ۱۶+", "pegi 18": "PEGI: ۱۸+", 
-            "cero a": "CERO: A (همه سنین)", "cero b": "CERO: B (۱۲+)", "cero c": "CERO: C (۱۵+)", 
-            "cero d": "CERO: D (۱۷+)", "cero z": "CERO: Z (۱۸+)", "rating pending": "رده‌بندی در دست بررسی", 
-            "rp": "رده‌بندی در دست بررسی", "ao": "فقط بزرگسالان", "m": "بالغ", "t": "نوجوان", "e": "همه", 
-            "e10+": "همه ۱۰+",
-        };
-
-
-        // Function to set the theme
-        function setTheme(isDark) {
-            if (isDark) {
-                document.documentElement.classList.add('dark');
-                document.documentElement.classList.remove('light');
-                themeToggle.textContent = '☀️'; // Sun icon for light mode toggle
-                localStorage.setItem('theme', 'dark');
-            } else {
-                document.documentElement.classList.add('light');
-                document.documentElement.classList.remove('dark');
-                themeToggle.textContent = '🌙'; // Moon icon for dark mode toggle
-                localStorage.setItem('theme', 'light');
-            }
-        }
-
-        // Initialize theme based on local storage or Tehran time
-        function initializeTheme() {
-            const savedTheme = localStorage.getItem('theme');
-            if (savedTheme) {
-                setTheme(savedTheme === 'dark');
-            } else {
-                // Determine theme based on Tehran time
-                const now = new Date();
-                const tehranTime = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Tehran' }));
-                const hour = tehranTime.getHours();
-                // Assume day from 6 AM to 6 PM (18:00)
-                const isDayTimeInTehran = hour >= 6 && hour < 18;
-                setTheme(!isDayTimeInTehran); // Default to dark if it's night in Tehran
-            }
-        }
-
-        // Function to apply column layout and sizing
-        function applyColumnLayout(columns) {
-            // Remove existing grid-cols classes
-            gamesContainer.classList.remove('grid-cols-1', 'sm:grid-cols-2', 'lg:grid-cols-3', 'xl:grid-cols-4',
-                                         'sm:grid-cols-1', 'sm:grid-cols-2', 'sm:grid-cols-3', 'sm:grid-cols-4',
-                                         'lg:grid-cols-1', 'lg:grid-cols-2', 'lg:grid-cols-3', 'lg:grid-cols-4',
-                                         'xl:grid-cols-1', 'xl:grid-cols-2', 'xl:grid-cols-3', 'xl:grid-cols-4');
+        document.addEventListener('DOMContentLoaded', () => {
+            // --- STATE & CONFIGURATION ---
+            let allGames = [];
+            const storeDisplayMap = {"epicgames":"اپیک گیمز","steam":"استیم","googleplay":"گوگل پلی","android":"اندروید","ios":"آی‌اواس","iosappstore":"اپ استور iOS","playstation":"پلی‌استیشن","xbox":"ایکس‌باکس","gog":"GOG","itch.io":"Itch.io","indiegala":"ایندی‌گالا","stove":"STOVE","microsoftstore":"مایکروسافت استور","other":"سایر","reddit":"ردیت","humblestore":"هامبل استور","fanatical":"فناتیکال","greenmangaming":"گرین من گیمینگ","amazon":"آمازون","blizzard":"بلیزارد","eastore":"EA استور","ubisoftstore":"یوبی‌سافت استور"};
             
-            // Add grid-cols for selected number of columns (responsive across all breakpoints)
-            gamesContainer.classList.add(`grid-cols-1`, `sm:grid-cols-${columns}`, `lg:grid-cols-${columns}`, `xl:grid-cols-${columns}`);
+            // --- DOM ELEMENTS ---
+            const elements = {
+                themeToggle: document.getElementById('theme-toggle'),
+                gamesContainer: document.getElementById('games-container'),
+                loadingMessage: document.getElementById('loading-message'),
+                errorMessage: document.getElementById('error-message'),
+                noGamesMessage: document.getElementById('no-games-message'),
+                storeFilter: document.getElementById('store-filter'),
+                priceFilter: document.getElementById('price-type-filter'),
+                contentFilter: document.getElementById('content-type-filter'),
+                columnSelector: document.getElementById('column-selector'),
+                modal: document.getElementById('game-modal'),
+                modalBody: document.getElementById('modal-body'),
+                closeModalBtn: document.getElementById('close-modal'),
+            };
 
-            // Remove existing layout-cols classes
-            gamesContainer.classList.remove('layout-cols-1', 'layout-cols-2', 'layout-cols-3', 'layout-cols-4');
-            // Add new layout-cols class
-            gamesContainer.classList.add(`layout-cols-${columns}`);
+            // --- THEME MANAGEMENT ---
+            const applyTheme = (isDark) => {
+                const html = document.documentElement;
+                html.classList.toggle('dark', isDark);
+                html.classList.toggle('light', !isDark);
+                elements.themeToggle.innerHTML = isDark ? '<i class="fa-solid fa-sun"></i>' : '<i class="fa-solid fa-moon"></i>';
+                localStorage.setItem('theme', isDark ? 'dark' : 'light');
+            };
 
-            // Save preference to local storage
-            localStorage.setItem('selectedColumns', columns);
+            const initializeTheme = () => {
+                const savedTheme = localStorage.getItem('theme');
+                if (savedTheme) {
+                    applyTheme(savedTheme === 'dark');
+                } else {
+                    applyTheme(window.matchMedia('(prefers-color-scheme: dark)').matches);
+                }
+            };
+            
+            // --- LAYOUT MANAGEMENT ---
+            const applyColumnLayout = (columns) => {
+                const gridClasses = { 1: 'lg:grid-cols-1', 2: 'lg:grid-cols-2', 3: 'lg:grid-cols-3', 4: 'lg:grid-cols-4' };
+                elements.gamesContainer.className = `grid gap-6 sm:grid-cols-2 ${gridClasses[columns] || 'lg:grid-cols-3'} layout-cols-${columns}`;
+                localStorage.setItem('columns', columns);
+            };
 
-            // Re-render games to apply new sizing (though CSS handles most of it)
-            applyFilter(); // This will re-render with current filter and new layout
-        }
+            // --- RENDERING ---
+            const createGameCard = (game) => {
+                const card = document.createElement('div');
+                card.className = 'game-card card rounded-lg shadow-md overflow-hidden flex flex-col cursor-pointer';
+                card.onclick = () => showModal(game);
 
-        // Function to sanitize HTML from a string
-        function stripHtml(html) {
-            let doc = new DOMParser().parseFromString(html, 'text/html');
-            return doc.body.textContent || "";
-        }
-
-        // Function to render games based on filter
-        function renderGames(gamesToRender) {
-            gamesContainer.innerHTML = ''; // Clear existing games
-            if (gamesToRender.length === 0) {
-                noGamesMessage.classList.remove('hidden');
-                return;
-            } else {
-                noGamesMessage.classList.add('hidden');
-            }
-
-            gamesToRender.forEach(game => {
-                const gameCard = document.createElement('div');
-                gameCard.className = 'game-card bg-gray-700 rounded-xl shadow-lg overflow-hidden flex flex-col transform hover:scale-105 transition duration-300 ease-in-out';
-                gameCard.onclick = () => openModal(game); // Add click event to open modal
-
-                // Placeholder image if image_url is missing or broken
-                const imageUrl = game.image_url || `https://placehold.co/600x338/374151/D1D5DB?text=${encodeURIComponent(game.title || 'تصویر موجود نیست').replace(/'/g, "%27")}`;
+                const storeName = storeDisplayMap[game.store] || game.store;
+                const headerClass = game.is_free ? 'bg-blue-600' : 'bg-green-600';
+                const typeTag = game.is_dlc_or_addon ? `<span class="bg-purple-600 text-white text-xs font-semibold px-2 py-0.5 rounded-full">DLC</span>` : '';
                 
-                // Use short_description if available, otherwise persian_summary, then description
-                let displayDescription = game.short_description || game.persian_summary || game.description || 'توضیحات موجود نیست.';
-                displayDescription = stripHtml(displayDescription); // Strip HTML tags
-                const maxDescriptionLength = 150; // Limit description length for card view
-                if (displayDescription.length > maxDescriptionLength) {
-                    displayDescription = displayDescription.substring(0, maxDescriptionLength) + '...';
-                }
-
-                let storeInfoHtml = '';
-                let getGameButtonText = 'دریافت بازی';
-                let getGameButtonClass = 'bg-blue-600 hover:bg-blue-700'; // Default for free games
-
-                // Determine store display name
-                let displayStoreName = game.store ? game.store.toLowerCase() : '';
-                if (displayStoreName === 'google play' || displayStoreName === 'epic games (android)') {
-                    displayStoreName = 'اندروید';
-                } else if (displayStoreName === 'ios app store' || displayStoreName === 'epic games (ios)') {
-                    displayStoreName = 'آی‌اواس';
-                }
-                displayStoreName = storeDisplayMap[displayStoreName.replace(/\s/g, '')] || game.store;
-
-                let dlcOrAddonTag = '';
-                if (game.is_dlc_or_addon) {
-                    dlcOrAddonTag = `<span class="bg-purple-600 text-white text-xs font-semibold px-2.5 py-0.5 rounded-full mr-2">DLC/افزونه</span>`;
-                }
-
-                if (game.is_free === false) { // If it's a discounted item
-                    const normalizedStoreForDisplay = game.store ? game.store.toLowerCase().replace(/\s/g, '') : '';
-                    const originalStoreDisplay = storeDisplayMap[normalizedStoreForDisplay] || game.store;
-                    storeInfoHtml = `<p class="text-gray-400 mb-3">فروشگاه: ${dlcOrAddonTag}<span class="font-medium text-red-400">تخفیف‌خورده</span> از <span class="font-medium text-purple-300">${originalStoreDisplay}</span></p>`;
-                    if (game.discount_text) {
-                        storeInfoHtml += `<p class="text-gray-400 mb-3"><span class="font-medium text-orange-400">جزئیات تخفیف:</span> ${game.discount_text}</p>`;
-                    }
-                    getGameButtonText = 'مشاهده تخفیف';
-                    getGameButtonClass = 'bg-green-600 hover:bg-green-700';
-                } else { // If it's a truly free game
-                    storeInfoHtml = `<p class="text-gray-400 mb-3">فروشگاه: ${dlcOrAddonTag}<span class="font-medium text-purple-300">${displayStoreName}</span></p>`;
-                }
-                
-                // Format scores and genres
-                const metacriticScore = game.metacritic_score ? `<p class="text-sm text-gray-300"><i class="fas fa-star text-yellow-400"></i> <span class="font-semibold">متاکریتیک (منتقدان):</span> ${game.metacritic_score}/100</p>` : '';
-                const metacriticUserScore = game.metacritic_userscore ? `<p class="text-sm text-gray-300"><i class="fas fa-users text-green-400"></i> <span class="font-semibold">متاکریتیک (کاربران):</span> ${game.metacritic_userscore}/10</p>` : '';
-                
-                const steamOverallScore = game.steam_overall_score ? `<p class="text-sm text-gray-300"><i class="fab fa-steam text-blue-400"></i> <span class="font-semibold">استیم (کلی):</span> ${game.steam_overall_score}% (${game.steam_overall_reviews_count || 0} رای)</p>` : '';
-                const steamRecentScore = game.steam_recent_score ? `<p class="text-sm text-gray-300"><i class="fab fa-steam-square text-blue-300"></i> <span class="font-semibold">استیم (اخیر):</span> ${game.steam_recent_score}% (${game.steam_recent_reviews_count || 0} رای)</p>` : '';
-
-                const genresHtml = game.persian_genres && game.persian_genres.length > 0 ?
-                    `<p class="text-sm text-gray-300"><i class="fas fa-tags text-pink-400"></i> <span class="font-semibold">ژانرها:</span> ${game.persian_genres.join(', ')}</p>` :
-                    (game.genres && game.genres.length > 0 ?
-                        `<p class="text-sm text-gray-300"><i class="fas fa-tags text-pink-400"></i> <span class="font-semibold">ژانرها:</span> ${game.genres.map(g => genreDisplayMap[g.toLowerCase()] || g).join(', ')}</p>` : '');
-
-                let playerInfoHtml = '';
-                if (game.is_multiplayer || game.is_online) {
-                    playerInfoHtml = `<p class="text-sm text-gray-300"><i class="fas fa-users-cog text-indigo-400"></i> <span class="font-semibold">بازیکنان:</span> `;
-                    if (game.is_multiplayer && game.is_online) {
-                        playerInfoHtml += `چندنفره آنلاین و آفلاین`;
-                    } else if (game.is_multiplayer) {
-                        playerInfoHtml += `چندنفره (آفلاین)`;
-                    } else if (game.is_online) {
-                        playerInfoHtml += `فقط آنلاین`;
-                    }
-                    playerInfoHtml += `</p>`;
-                } else { // Explicitly show single-player if not multiplayer or online
-                    playerInfoHtml = `<p class="text-sm text-gray-300"><i class="fas fa-user text-indigo-400"></i> <span class="font-semibold">بازیکنان:</span> تک‌نفره</p>`;
-                }
-
-                const ageRatingHtml = game.persian_age_rating ?
-                    `<p class="text-sm text-gray-300"><i class="fas fa-child text-orange-400"></i> <span class="font-semibold">رده‌بندی سنی:</span> ${game.persian_age_rating}</p>` :
-                    (game.age_rating ?
-                        `<p class="text-sm text-gray-300"><i class="fas fa-child text-orange-400"></i> <span class="font-semibold">رده‌بندی سنی:</span> ${ageRatingDisplayMap[game.age_rating.toLowerCase()] || game.age_rating}</p>` : '');
-
-                gameCard.innerHTML = `
-                    <img src="${imageUrl}" alt="${game.title || 'تصویر بازی'}" class="w-full h-48 sm:h-56 md:h-64 lg:h-72 xl:h-80 rounded-t-xl object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x338/374151/D1D5DB?text=${encodeURIComponent(game.title || 'تصویر موجود نیست').replace(/'/g, "%27")}';">
+                card.innerHTML = `
+                    <div class="relative">
+                        <img src="${game.image_url || 'https://placehold.co/400x225/1f2937/d1d5db?text=No+Image'}" alt="${game.title}" class="w-full h-48 object-cover">
+                        <div class="absolute top-2 right-2 flex items-center gap-2">
+                            ${typeTag}
+                            <span class="${headerClass} text-white text-xs font-bold px-2.5 py-1 rounded-full">${game.is_free ? 'رایگان' : game.discount_text || 'تخفیف'}</span>
+                        </div>
+                    </div>
                     <div class="p-4 flex flex-col flex-grow">
-                        <h2 class="text-white text-xl font-bold mb-2 flex-grow">${game.title || 'عنوان نامشخص'}</h2>
-                        ${storeInfoHtml}
-                        <p class="text-gray-300 text-sm description-text mb-4">${displayDescription}</p>
-                        <div class="mt-auto space-y-1">
-                            ${metacriticScore}
-                            ${metacriticUserScore}
-                            ${steamOverallScore}
-                            ${steamRecentScore}
-                            ${genresHtml}
-                            ${playerInfoHtml}
-                            ${ageRatingHtml}
-                            <a href="${game.url}" target="_blank" class="mt-4 block w-full text-center ${getGameButtonClass} text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-200">
-                                ${getGameButtonText}
-                            </a>
+                        <h3 class="text-lg font-bold mb-2 flex-grow">${game.title}</h3>
+                        <div class="text-sm opacity-80 mb-3">
+                            <i class="fa-solid fa-store mr-1"></i> ${storeName}
+                        </div>
+                        <p class="text-sm description-text mb-4 opacity-70">${game.persian_summary || game.description || ''}</p>
+                        <div class="mt-auto text-xs opacity-60">
+                            ${game.steam_overall_score ? `<span><i class="fa-brands fa-steam"></i> ${game.steam_overall_score}%</span>` : ''}
+                            ${game.metacritic_score ? `<span class="ml-3"><i class="fa-solid fa-star"></i> ${game.metacritic_score}</span>` : ''}
                         </div>
                     </div>
                 `;
-                gamesContainer.appendChild(gameCard);
-            });
-        }
-
-        // Function to open the modal with game details
-        function openModal(game) {
-            modalImage.src = game.image_url || `https://placehold.co/800x450/374151/D1D5DB?text=${encodeURIComponent(game.title || 'تصویر موجود نیست').replace(/'/g, "%27")}`;
-            modalImage.onerror = function() {
-                this.onerror = null;
-                this.src = `https://placehold.co/800x450/374151/D1D5DB?text=${encodeURIComponent(game.title || 'تصویر موجود نیست').replace(/'/g, "%27")}`;
+                return card;
             };
-            modalTitle.textContent = game.title || 'عنوان نامشخص';
+
+            const renderGames = (games) => {
+                elements.gamesContainer.innerHTML = '';
+                if (games.length === 0) {
+                    elements.noGamesMessage.classList.remove('hidden');
+                } else {
+                    elements.noGamesMessage.classList.add('hidden');
+                    games.forEach(game => elements.gamesContainer.appendChild(createGameCard(game)));
+                }
+                elements.loadingMessage.classList.add('hidden');
+            };
+
+            // --- MODAL MANAGEMENT ---
+            const showModal = (game) => {
+                const storeName = storeDisplayMap[game.store] || game.store;
+                elements.modalBody.innerHTML = `
+                    <img src="${game.image_url || 'https://placehold.co/800x450/1f2937/d1d5db?text=No+Image'}" alt="${game.title}" class="w-full h-64 object-cover rounded-t-lg mb-4">
+                    <div class="p-4">
+                        <h2 class="text-3xl font-bold mb-2">${game.title}</h2>
+                        <div class="flex items-center gap-4 text-sm opacity-80 mb-4">
+                            <span><i class="fa-solid fa-store mr-1"></i> ${storeName}</span>
+                            ${game.is_dlc_or_addon ? `<span><i class="fa-solid fa-puzzle-piece mr-1"></i> DLC/Addon</span>` : ''}
+                        </div>
+                        <p class="mb-4 full-description-text">${game.persian_summary || game.description || 'توضیحات موجود نیست.'}</p>
+                        <div class="grid grid-cols-2 gap-2 text-sm mb-6">
+                            ${game.steam_overall_score ? `<div><i class="fa-brands fa-steam mr-2"></i><b>استیم:</b> ${game.steam_overall_score}% (${game.steam_overall_reviews_count || 0} رای)</div>` : ''}
+                            ${game.metacritic_score ? `<div><i class="fa-solid fa-star mr-2"></i><b>متاکریتیک:</b> ${game.metacritic_score}/100</div>` : ''}
+                            ${game.persian_genres ? `<div><i class="fa-solid fa-tags mr-2"></i><b>ژانرها:</b> ${game.persian_genres.join(', ')}</div>` : ''}
+                            ${game.persian_age_rating ? `<div><i class="fa-solid fa-child mr-2"></i><b>رده سنی:</b> ${game.persian_age_rating}</div>` : ''}
+                        </div>
+                        <div class="flex gap-4">
+                            <a href="${game.url}" target="_blank" class="flex-1 text-center font-bold py-3 px-4 rounded-lg transition ${game.is_free ? 'bg-blue-600 hover:bg-blue-700' : 'bg-green-600 hover:bg-green-700'} text-white">
+                                ${game.is_free ? 'دریافت بازی' : 'مشاهده تخفیf'}
+                            </a>
+                            ${game.trailer ? `<a href="${game.trailer}" target="_blank" class="flex-1 text-center font-bold py-3 px-4 rounded-lg transition bg-gray-600 hover:bg-gray-700 text-white"><i class="fa-solid fa-film mr-2"></i> مشاهده تریلر</a>` : ''}
+                        </div>
+                    </div>
+                `;
+                elements.modal.classList.remove('hidden');
+                document.body.style.overflow = 'hidden';
+            };
+
+            const closeModal = () => {
+                elements.modal.classList.add('hidden');
+                document.body.style.overflow = '';
+            };
+
+            // --- DATA & FILTERING ---
+            const populateFilters = () => {
+                const stores = [...new Set(allGames.map(g => g.store))].sort();
+                stores.forEach(store => {
+                    const option = document.createElement('option');
+                    option.value = store;
+                    option.textContent = storeDisplayMap[store] || store;
+                    elements.storeFilter.appendChild(option);
+                });
+            };
+
+            const applyFilters = () => {
+                const store = elements.storeFilter.value;
+                const price = elements.priceFilter.value;
+                const content = elements.contentFilter.value;
+                
+                const filtered = allGames.filter(g => 
+                    (store === 'all' || g.store === store) &&
+                    (price === 'all' || (price === 'free' && g.is_free) || (price === 'discount' && !g.is_free)) &&
+                    (content === 'all' || (content === 'game' && !g.is_dlc_or_addon) || (content === 'dlc' && g.is_dlc_or_addon))
+                );
+                renderGames(filtered);
+            };
+
+            const fetchGames = async () => {
+                try {
+                    // IMPORTANT: Replace with your GitHub username and repository name
+                    const url = 'https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/web_data/free_games.json';
+                    const response = await fetch(`${url}?t=${new Date().getTime()}`); // Cache-busting
+                    if (!response.ok) throw new Error(`HTTP error ${response.status}`);
+                    allGames = await response.json();
+                    
+                    populateFilters();
+                    applyFilters();
+                    elements.errorMessage.classList.add('hidden');
+                } catch (error) {
+                    console.error("Failed to fetch games:", error);
+                    elements.loadingMessage.classList.add('hidden');
+                    elements.errorMessage.classList.remove('hidden');
+                }
+            };
             
-            let displayStoreName = game.store ? game.store.toLowerCase() : '';
-            if (displayStoreName === 'google play' || displayStoreName === 'epic games (android)') {
-                displayStoreName = 'اندروید';
-            } else if (displayStoreName === 'ios app store' || displayStoreName === 'epic games (ios)') {
-                displayStoreName = 'آی‌اواس';
-            }
-            displayStoreName = storeDisplayMap[displayStoreName.replace(/\s/g, '')] || game.store;
-
-            let dlcOrAddonTag = '';
-            if (game.is_dlc_or_addon) {
-                dlcOrAddonTag = `<span class="bg-purple-600 text-white text-xs font-semibold px-2.5 py-0.5 rounded-full mr-2">DLC/افزونه</span>`;
-            }
-
-            if (game.is_free === false) {
-                const normalizedStoreForDisplay = game.store ? game.store.toLowerCase().replace(/\s/g, '') : '';
-                const originalStoreDisplay = storeDisplayMap[normalizedStoreForDisplay] || game.store;
-                modalStoreInfo.innerHTML = `فروشگاه: ${dlcOrAddonTag}<span class="font-medium text-red-400">تخفیف‌خورده</span> از <span class="font-medium text-purple-300">${originalStoreDisplay}</span>`;
-                modalDiscountInfo.textContent = game.discount_text ? `جزئیات تخفیف: ${game.discount_text}` : '';
-                modalDiscountInfo.classList.toggle('hidden', !game.discount_text);
-                modalGameLink.textContent = 'مشاهده تخفیف';
-                modalGameLink.className = 'mt-4 block w-full text-center bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-200';
-            } else {
-                modalStoreInfo.innerHTML = `فروشگاه: ${dlcOrAddonTag}<span class="font-medium text-purple-300">${displayStoreName}</span>`;
-                modalDiscountInfo.classList.add('hidden');
-                modalGameLink.textContent = 'دریافت بازی';
-                modalGameLink.className = 'mt-4 block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-200';
-            }
-
-            modalDescription.textContent = stripHtml(game.persian_summary || game.description || 'توضیحات موجود نیست.');
-
-            modalMetacriticScore.textContent = game.metacritic_score ? `متاکریتیک (منتقدان): ${game.metacritic_score}/100` : '';
-            modalMetacriticUserScore.textContent = game.metacritic_userscore ? `متاکریتیک (کاربران): ${game.metacritic_userscore}/10` : '';
-            modalSteamOverallScore.textContent = game.steam_overall_score ? `استیم (کلی): ${game.steam_overall_score}% (${game.steam_overall_reviews_count || 0} رای)` : '';
-            modalSteamRecentScore.textContent = game.steam_recent_score ? `استیم (اخیر): ${game.steam_recent_score}% (${game.steam_recent_reviews_count || 0} رای)` : '';
-
-            const translatedGenres = game.persian_genres && game.persian_genres.length > 0 ?
-                game.persian_genres.join(', ') :
-                (game.genres && game.genres.length > 0 ?
-                    game.genres.map(g => genreDisplayMap[g.toLowerCase()] || g).join(', ') : '');
-            modalGenres.textContent = translatedGenres ? `ژانرها: ${translatedGenres}` : '';
-
-            let playerInfo = '';
-            if (game.is_multiplayer || game.is_online) {
-                playerInfo = `بازیکنان: `;
-                if (game.is_multiplayer && game.is_online) {
-                    playerInfo += `چندنفره آنلاین و آفلاین`;
-                } else if (game.is_multiplayer) {
-                    playerInfo += `چندنفره (آفلاین)`;
-                } else if (game.is_online) {
-                    playerInfo += `فقط آنلاین`;
-                }
-            } else { // Explicitly show single-player if not multiplayer or online
-                playerInfo = `بازیکنان: تک‌نفره`;
-            }
-            modalPlayerInfo.textContent = playerInfo;
-
-            const translatedAgeRating = game.persian_age_rating || (game.age_rating ? ageRatingDisplayMap[game.age_rating.toLowerCase()] || game.age_rating : '');
-            modalAgeRating.textContent = translatedAgeRating ? `رده‌بندی سنی: ${translatedAgeRating}` : '';
-
-            modalTrailerLink.href = game.trailer || '#';
-            modalTrailerLink.classList.toggle('hidden', !game.trailer);
-            
-            modalGameLink.href = game.url || '#';
-
-            gameDetailModal.style.display = 'flex'; // Use flex to center content
-            document.body.style.overflow = 'hidden'; // Prevent scrolling body when modal is open
-        }
-
-        // Function to close the modal
-        function closeModal() {
-            gameDetailModal.style.display = 'none';
-            document.body.style.overflow = ''; // Restore body scrolling
-        }
-
-        // Close modal when clicking outside of it
-        window.onclick = function(event) {
-            if (event.target == gameDetailModal) {
-                closeModal();
-            }
-        }
-
-        // Function to populate store filter options
-        function populateStoreFilter() {
-            const uniqueStores = new Set();
-            allGames.forEach(game => {
-                if (game.store) {
-                    let normalizedStore = game.store.toLowerCase().replace(/\s/g, '');
-                    // Handle Epic Games (Android/iOS) and Google Play/iOS App Store as "Android" / "iOS"
-                    if (normalizedStore === 'googleplay' || normalizedStore === 'epicgames(android)') {
-                        uniqueStores.add('android');
-                    } else if (normalizedStore === 'iosappstore' || normalizedStore === 'epicgames(ios)') {
-                        uniqueStores.add('ios');
-                    } else {
-                        uniqueStores.add(normalizedStore);
-                    }
-                }
+            // --- EVENT LISTENERS ---
+            elements.themeToggle.addEventListener('click', () => applyTheme(!document.documentElement.classList.contains('dark')));
+            [elements.storeFilter, elements.priceFilter, elements.contentFilter].forEach(el => el.addEventListener('change', applyFilters));
+            elements.columnSelector.addEventListener('change', (e) => applyColumnLayout(e.target.value));
+            elements.closeModalBtn.addEventListener('click', closeModal);
+            elements.modal.addEventListener('click', (e) => {
+                if (e.target === elements.modal) closeModal();
             });
 
-            // Convert set to array and sort according to desired order
-            const sortedStores = Array.from(uniqueStores).sort((a, b) => {
-                const faA = storeDisplayMap[a] || a;
-                const faB = storeDisplayMap[b] || b;
-                const indexA = storeDisplayOrder.indexOf(faA);
-                const indexB = storeDisplayOrder.indexOf(faB);
-                return indexA - indexB;
-            });
-
-            // Clear existing options except "همه فروشگاه‌ها"
-            storeFilter.innerHTML = '<option value="all">همه فروشگاه‌ها</option>';
-            sortedStores.forEach(storeKey => {
-                const option = document.createElement('option');
-                option.value = storeKey;
-                option.textContent = storeDisplayMap[storeKey] || storeKey;
-                storeFilter.appendChild(option);
-            });
-        }
-
-        // Function to apply all filters
-        function applyFilter() {
-            const selectedStore = storeFilter.value;
-            const selectedContentType = contentTypeFilter.value;
-            const selectedPriceType = priceTypeFilter.value;
-
-            const filteredGames = allGames.filter(game => {
-                // Filter by store
-                let gameStoreNormalized = game.store ? game.store.toLowerCase().replace(/\s/g, '') : '';
-                if (gameStoreNormalized === 'googleplay' || gameStoreNormalized === 'epicgames(android)') {
-                    gameStoreNormalized = 'android';
-                } else if (gameStoreNormalized === 'iosappstore' || gameStoreNormalized === 'epicgames(ios)') {
-                    gameStoreNormalized = 'ios';
-                }
-
-                const storeMatch = selectedStore === 'all' || gameStoreNormalized === selectedStore;
-
-                // Filter by content type
-                let contentTypeMatch = true;
-                if (selectedContentType === 'games-only') {
-                    contentTypeMatch = !game.is_dlc_or_addon;
-                } else if (selectedContentType === 'dlc-only') {
-                    contentTypeMatch = game.is_dlc_or_addon;
-                }
-
-                // Filter by price type
-                let priceTypeMatch = true;
-                if (selectedPriceType === 'free-only') {
-                    priceTypeMatch = game.is_free === true;
-                } else if (selectedPriceType === 'discounted-only') {
-                    priceTypeMatch = game.is_free === false;
-                }
-
-                return storeMatch && contentTypeMatch && priceTypeMatch;
-            });
-            renderGames(filteredGames);
-        }
-
-        // Fetch games data from JSON file
-        async function fetchGames() {
-            loadingMessage.classList.remove('hidden');
-            errorMessage.classList.add('hidden');
-            noGamesMessage.classList.add('hidden');
-            try {
-                // Use the direct raw GitHub URL for the JSON file
-                const jsonPath = 'https://raw.githubusercontent.com/10ium/GameYabBot/refs/heads/main/web_data/free_games.json'; // <--- این خط اصلاح شده است
-
-                const response = await fetch(jsonPath);
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                allGames = await response.json();
-                // Sort games by title alphabetically (case-insensitive)
-                allGames.sort((a, b) => (a.title || '').localeCompare(b.title || '', 'fa', { sensitivity: 'base' }));
-                
-                populateStoreFilter(); // Populate filter options after fetching games
-                
-                // Set initial column layout from local storage or default to 3
-                const savedColumns = localStorage.getItem('selectedColumns');
-                const initialColumns = savedColumns ? parseInt(savedColumns) : 3;
-                columnSelector.value = initialColumns;
-                applyColumnLayout(initialColumns); // This will also call applyFilter()
-                
-            } catch (error) {
-                console.error("Error fetching games:", error);
-                errorMessage.classList.remove('hidden');
-            } finally {
-                loadingMessage.classList.add('hidden');
-            }
-        }
-
-        // Event Listeners
-        document.addEventListener('DOMContentLoaded', () => {
+            // --- INITIALIZATION ---
             initializeTheme();
+            applyColumnLayout(localStorage.getItem('columns') || 3);
+            elements.columnSelector.value = localStorage.getItem('columns') || 3;
             fetchGames();
-
-            storeFilter.addEventListener('change', applyFilter);
-            contentTypeFilter.addEventListener('change', applyFilter);
-            priceTypeFilter.addEventListener('change', applyFilter);
-            columnSelector.addEventListener('change', (event) => {
-                applyColumnLayout(parseInt(event.target.value));
-            });
-
-            themeToggle.addEventListener('click', () => {
-                const isDark = document.documentElement.classList.contains('dark');
-                setTheme(!isDark);
-            });
-
-            // Scroll buttons logic
-            window.addEventListener('scroll', () => {
-                if (window.scrollY > 200) { // Show after scrolling down 200px
-                    scrollToTopBtn.classList.add('show');
-                } else {
-                    scrollToTopBtn.classList.remove('show');
-                }
-
-                if ((window.innerHeight + window.scrollY) < document.body.offsetHeight - 200) { // Show if not near bottom
-                    scrollToBottomBtn.classList.add('show');
-                } else {
-                    scrollToBottomBtn.classList.remove('show');
-                }
-            });
-
-            scrollToTopBtn.addEventListener('click', () => {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-            });
-
-            scrollToBottomBtn.addEventListener('click', () => {
-                window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-            });
         });
     </script>
 </body>

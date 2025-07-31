@@ -1,70 +1,88 @@
+# ===== GITHUB ACTIONS WORKFLOW =====
 name: Free Games Bot Workflow
 
 on:
   schedule:
-    # هر روز در ساعت 05:00 UTC اجرا می‌شود (مثلاً 08:30 صبح به وقت تهران در تابستان)
+    # Runs every day at 05:00 UTC (e.g., 08:30 AM Tehran time in summer)
     - cron: '0 5 * * *'
   workflow_dispatch:
-    # اجازه می‌دهد تا به صورت دستی از رابط کاربری GitHub Actions اجرا شود
-  #push:
-   # branches:
-    #  - main
-    #paths:
-     # - 'src/**' # در صورت تغییر در کدهای منبع ربات اجرا شود
-      #- '.github/workflows/run_bot.yml' # در صورت تغییر در این فایل اجرا شود
+    # Allows manual execution from the GitHub Actions UI
+  push:
+    branches:
+      - main
+    paths:
+      - 'src/**'
+      - '.github/workflows/run_bot.yml'
 
 jobs:
   build-and-run:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write # برای اجازه push کردن تغییرات به مخزن نیاز است
+      contents: write # Needed to allow the bot to commit and push changes
 
     steps:
-      - name: Checkout repository
+      - name:  checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Set up Python 3.10
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10' # از نسخه پایتون مورد نظر خود استفاده کنید
+          python-version: '3.10'
 
-      - name: Install dependencies
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt # نصب کتابخانه‌های موجود در requirements.txt
-          
+          pip install -r requirements.txt
+
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-playwright-
+
       - name: Install Playwright browsers
-        run: playwright install --with-deps chromium # نصب مرورگر Chromium و وابستگی‌های آن
+        run: playwright install --with-deps chromium
 
       - name: Ensure data directories exist
         run: |
-          mkdir -p data # اطمینان از وجود دایرکتوری data
-          mkdir -p web_data # اطمینان از وجود دایرکتوری web_data
-          mkdir -p cache # اطمینان از وجود دایرکتوری cache (جدید)
+          mkdir -p data
+          mkdir -p web_data
+          mkdir -p cache
 
       - name: Run Free Games Bot
         env:
+          # Secrets must be configured in your repository's settings
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          # DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }} # اگر از DeepL استفاده می‌کنید، این خط را فعال کنید
-        run: python -m src.main # <--- این خط اصلاح شده است
+        run: python -m src.main
 
       - name: Commit and push changes
         run: |
           git config user.name "GitHub Actions Bot"
-          git config user.email "actions@github.com"
-          # اضافه کردن فایل‌ها به منطقه staging گیت
-          # --force برای اطمینان از اضافه شدن حتی اگر محتوا تغییر نکرده باشد
+          git config user.email "actions-bot@github.com"
+          
+          # Add the generated data files to the staging area.
+          # Use --force to ensure they are added even if git thinks they are unchanged.
           git add --force data/games.db web_data/free_games.json
           
-          # بررسی اینکه آیا چیزی برای کامیت وجود دارد یا خیر (حتی اگر --force استفاده شده باشد)
-          # این شرط برای جلوگیری از ایجاد کامیت‌های خالی است
+          # Check if there are any staged changes to commit.
+          # This prevents creating empty commits if the data hasn't changed.
           if git diff --staged --quiet; then
-            echo "No changes to commit (after staging). Skipping commit."
+            echo "No data changes to commit. Skipping commit."
           else
-            git commit -m "chore: Update games database and web data"
-            # Push changes to the repository
+            git commit -m "chore(data): Update games database and web data"
             git push
           fi
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # توکن پیش‌فرض GitHub Actions
+          # The GITHUB_TOKEN is automatically provided by GitHub Actions
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

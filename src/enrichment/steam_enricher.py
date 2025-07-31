@@ -1,120 +1,127 @@
 // ===== IMPORTS & DEPENDENCIES =====
 import logging
-import asyncio
-from typing import Optional
-
 import aiohttp
+import re
+from typing import Optional, Dict, Any
 from bs4 import BeautifulSoup
 
 from src.core.base_client import BaseWebClient
 from src.models.game import GameData
-from src.config import (
-    STEAM_API_URL,
-    STEAM_SEARCH_URL,
-    CACHE_DIR,
-    DEFAULT_CACHE_TTL
-)
+from src.config import STEAM_API_URL, STEAM_SEARCH_URL, DEFAULT_CACHE_TTL, CACHE_DIR
 from src.utils.clean_title import clean_title_for_search
+import os
 
 // ===== CONFIGURATION & CONSTANTS =====
 logger = logging.getLogger(__name__)
 
 // ===== CORE BUSINESS LOGIC =====
 class SteamEnricher(BaseWebClient):
-    """Enriches game data with information from Steam, including reviews and metadata."""
+    """Enriches game data with information from Steam's API and store pages."""
 
-    def __init__(self, session: aiohttp.ClientSession):
-        cache_path = f"{CACHE_DIR}/steam"
-        super().__init__(cache_dir=cache_path, cache_ttl=DEFAULT_CACHE_TTL, session=session)
+    def __init__(self, session: aiohttp.ClientSession, cache_ttl: int = DEFAULT_CACHE_TTL):
+        super().__init__(
+            cache_dir=os.path.join(CACHE_DIR, "steam"),
+            cache_ttl=cache_ttl,
+            session=session
+        )
 
-    async def _find_steam_app_id(self, game_title: str) -> Optional[str]:
-        """Finds the Steam App ID by searching for the game title."""
+    async def _find_app_id(self, game_title: str) -> Optional[str]:
+        """Searches the Steam store to find the App ID for a given game title."""
         cleaned_title = clean_title_for_search(game_title)
         if not cleaned_title:
             return None
 
         search_url = STEAM_SEARCH_URL.format(query=cleaned_title)
-        logger.debug(f"[{self.__class__.__name__}] Searching for App ID for '{game_title}' at {search_url}")
-
+        logger.info(f"[{self.__class__.__name__}] Searching for App ID for '{cleaned_title}' at {search_url}")
+        
         html_content = await self._fetch(search_url, is_json=False)
-        if not html_content or not isinstance(html_content, str):
-            logger.warning(f"[{self.__class__.__name__}] Failed to fetch or received non-HTML content from Steam search for '{game_title}'.")
+        if not html_content:
             return None
 
         soup = BeautifulSoup(html_content, 'html.parser')
+        # The search results are in <a> tags with a data-ds-appid attribute
         first_result = soup.select_one('a.search_result_row[data-ds-appid]')
         
-        if first_result and first_result['data-ds-appid']:
+        if first_result:
             app_id = first_result['data-ds-appid']
-            logger.info(f"✅ [{self.__class__.__name__}] Found App ID for '{game_title}': {app_id}")
+            logger.info(f"✅ [{self.__class__.__name__}] Found App ID '{app_id}' for title '{cleaned_title}'.")
             return app_id
         
-        logger.warning(f"⚠️ [{self.__class__.__name__}] Could not find App ID for '{game_title}' in search results.")
+        logger.warning(f"⚠️ [{self.__class__.__name__}] No App ID found for title '{cleaned_title}'.")
         return None
 
-    async def enrich_data(self, game: GameData) -> GameData:
-        """
-        Enriches a GameData object with details from the Steam API.
-        It prioritizes an existing app_id but will search if one isn't present.
-        """
-        game_title = game.get('title', 'N/A')
-        app_id = game.get('steam_app_id')
-
-        # Only enrich if the game is from a relevant store or already has an app_id
-        if game.get('store') not in ['steam', 'epicgames', 'other', 'reddit'] and not app_id:
-            logger.debug(f"[{self.__class__.__name__}] Skipping Steam enrichment for '{game_title}' from store '{game.get('store')}'.")
-            return game
-
-        if not app_id:
-            app_id = await self._find_steam_app_id(game_title)
-            if not app_id:
-                return game # No App ID found, nothing to enrich
-            game['steam_app_id'] = app_id
-
-        api_url = STEAM_API_URL.format(app_id=app_id)
-        logger.info(f"[{self.__class__.__name__}] Enriching '{game_title}' using Steam API for App ID {app_id}")
+    def _parse_steam_api_response(self, app_id: str, response_data: Dict[str, Any]) -> Optional[GameData]:
+        """Parses the JSON response from the Steam API into the GameData format."""
+        if not response_data or not response_data.get(app_id, {}).get('success'):
+            logger.warning(f"[{self.__class__.__name__}] Steam API response for App ID {app_id} was unsuccessful or empty.")
+            return None
         
-        api_data = await self._fetch(api_url, is_json=True)
-
-        if not api_data or not api_data.get(str(app_id), {}).get('success'):
-            logger.warning(f"⚠️ [{self.__class__.__name__}] Failed to get successful API response for App ID {app_id}.")
-            return game
-            
-        details = api_data[str(app_id)]['data']
-
-        # Prioritize more detailed data from Steam
-        game['description'] = details.get('about_the_game', game.get('description'))
-        if not game.get('image_url'): # Only set image if not already present
-            game['image_url'] = details.get('header_image')
+        details = response_data[app_id]['data']
+        enriched_data: GameData = {}
         
-        game['genres'] = [g['description'] for g in details.get('genres', [])]
-        
-        # Player categorization
-        is_multiplayer = False
-        is_online = False
-        if details.get('categories'):
-            for category in details['categories']:
-                cat_desc = category.get('description', '').lower()
-                if 'multi-player' in cat_desc or 'co-op' in cat_desc:
-                    is_multiplayer = True
-                if 'online' in cat_desc:
-                    is_online = True
-        game['is_multiplayer'] = is_multiplayer
-        game['is_online'] = is_online
+        # Core metadata
+        enriched_data['description'] = details.get('about_the_game')
+        enriched_data['image_url'] = details.get('header_image')
+        enriched_data['genres'] = [genre['description'] for genre in details.get('genres', [])]
 
+        # Player modes
+        enriched_data['is_multiplayer'] = any(cat['description'] == 'Multi-player' for cat in details.get('categories', []))
+        enriched_data['is_online'] = any(cat['description'] == 'Online Multi-Player' for cat in details.get('categories', []))
+
+        # Trailer
         if details.get('movies'):
-            game['trailer'] = details['movies'][0].get('webm', {}).get('max', '')
+            # Prefer the highest quality webm trailer
+            trailer = details['movies'][0]
+            enriched_data['trailer'] = trailer.get('webm', {}).get('max') or trailer.get('webm', {}).get('480')
+        
+        # Age rating
+        enriched_data['age_rating'] = details.get('required_age') or details.get('content_descriptors', {}).get('notes')
 
-        game['age_rating'] = details.get('required_age') or (details.get('content_descriptors', {}).get('notes'))
+        # Review scores
+        recommendations = details.get('recommendations')
+        if recommendations and 'total' in recommendations:
+            total_reviews = recommendations['total']
+            # Steam API sometimes gives review summary text instead
+            if 'review_score_desc' in details:
+                 match = re.search(r'(\d+)% of the (\d+)', details['review_score_desc'])
+                 if match:
+                    enriched_data['steam_overall_score'] = int(match.group(1))
+                    enriched_data['steam_overall_reviews_count'] = int(match.group(2).replace(',', ''))
+
+        return enriched_data
+
+    async def enrich(self, game_data: GameData) -> GameData:
+        """
+        Public method to enrich a single GameData object.
+        It finds the App ID if not present, then fetches and parses API data.
+        """
+        title = game_data.get('title')
+        if not title:
+            return game_data
+
+        app_id = game_data.get('steam_app_id')
+        if not app_id:
+            # Only search for app ID if it seems to be a PC game
+            store = game_data.get('store', '').lower()
+            if store in ['steam', 'epicgames', 'gog', 'other', 'reddit', 'humblestore', 'fanatical', 'microsoftstore']:
+                app_id = await self._find_app_id(title)
         
-        # Steam review scores
-        if details.get('recommendations'):
-            total_reviews = details['recommendations'].get('total')
-            game['steam_overall_reviews_count'] = total_reviews
-            # Steam API only provides total recommendations, not positives.
-            # This part of the logic needs to be re-evaluated or sourced differently.
-            # For now, we'll leave the score calculation part out as the API doesn't directly support it.
-            # A different endpoint or scraping might be needed for percentage.
+        if not app_id:
+            return game_data
         
-        logger.info(f"✅ [{self.__class__.__name__}] Successfully enriched data for '{game_title}'.")
-        return game
+        # Add the found app_id to the game data immediately
+        game_data['steam_app_id'] = app_id
+        api_url = STEAM_API_URL.format(app_id=app_id)
+        
+        response_data = await self._fetch(api_url, is_json=True)
+        if not response_data:
+            return game_data
+            
+        parsed_data = self._parse_steam_api_response(app_id, response_data)
+        if parsed_data:
+            # Merge the new data into the existing game_data, preferring new non-empty values
+            for key, value in parsed_data.items():
+                if value is not None and (not isinstance(value, list) or value):
+                    game_data[key] = value
+
+        return game_data
