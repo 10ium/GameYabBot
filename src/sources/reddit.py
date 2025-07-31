@@ -8,6 +8,7 @@ import hashlib
 from typing import List, Optional, Dict, Any
 from bs4 import BeautifulSoup
 from urllib.parse import urlencode
+import os  # <--- **خط اصلاح شده در اینجا قرار دارد**
 
 from src.core.base_client import BaseWebClient
 from src.models.game import GameData
@@ -17,7 +18,7 @@ from src.utils.game_utils import clean_title, infer_store_from_game_data
 # ===== CONFIGURATION & CONSTANTS =====
 logger = logging.getLogger(__name__)
 
-SERPAPI_API_KEY = os.getenv("SERPAPI_API_KEY") # Ensure this is read from env
+SERPAPI_API_KEY = os.getenv("SERPAPI_API_KEY")
 
 # ===== CORE BUSINESS LOGIC =====
 class RedditSource(BaseWebClient):
@@ -41,41 +42,30 @@ class RedditSource(BaseWebClient):
         logger.info(f"➡️ [RedditSource] Fetching permalink '{permalink_url}' via SerpApi...")
         params = {
             "api_key": SERPAPI_API_KEY,
-            "url": permalink_url, # Specify the URL to scrape
-            "output": "json" # We want the raw HTML content in JSON
+            "url": permalink_url,
+            "output": "html" # We want the raw HTML content
         }
         
         try:
-            # Note: We are using a direct aiohttp call here, not self._fetch from BaseWebClient,
-            # because SerpApi has its own caching and retry mechanisms, and we don't want to
-            # expose the API key in our local cache's URL hash.
             async with self._session.get("https://serpapi.com/search", params=params, timeout=30) as response:
                 response.raise_for_status()
-                data = await response.json()
+                # SerpApi with output=html returns the raw HTML directly
+                html_content = await response.text()
                 
-                # The HTML content is usually in the 'html' field of the JSON response
-                html_content = data.get("html")
                 if not html_content:
                     logger.warning(f"⚠️ [RedditSource] SerpApi returned no HTML content for {permalink_url}.")
                     return None
 
                 soup = BeautifulSoup(html_content, 'lxml')
-                # Common selectors for outbound links in Reddit posts (new and old UI)
                 main_link = soup.select_one('a[data-testid="outbound-link"]')
                 if main_link and main_link.get('href'):
-                    logger.debug(f"[{self.__class__.__name__}] Found outbound link via data-testid: {main_link['href']} (via SerpApi)")
                     return main_link['href']
                 
-                # Fallback to search within post content for any external link
-                post_content_div = soup.find('div', class_='_292iotee39Lmt0Q_h-B5N') or \
-                                   soup.find('div', class_='_1qeIAgB0cPwnLhDF9Xvm') or \
-                                   soup.find('div', class_='md')
-                
+                post_content_div = soup.find('div', class_='md')
                 if post_content_div:
                     for a_tag in post_content_div.find_all('a', href=True):
                         href = a_tag['href']
                         if not re.search(r'reddit\.com|redd\.it', href) and href.startswith('http'):
-                            logger.debug(f"[{self.__class__.__name__}] Found fallback external link in post content: {href} (via SerpApi)")
                             return href
                 
                 logger.warning(f"[{self.__class__.__name__}] No external link found in permalink {permalink_url} via SerpApi.")
@@ -85,7 +75,6 @@ class RedditSource(BaseWebClient):
             return None
 
     async def _normalize_post_data(self, entry: ET.Element, subreddit_name: str) -> Optional[GameData]:
-        # ... (بخش ابتدایی بدون تغییر) ...
         ns = {'atom': 'http://www.w3.org/2005/Atom'}
         raw_title_elem = entry.find('atom:title', ns)
         content_elem = entry.find('atom:content', ns)
@@ -93,39 +82,28 @@ class RedditSource(BaseWebClient):
         link_elem = entry.find('atom:link', ns)
 
         if not all([raw_title_elem is not None, content_elem is not None, id_elem is not None, link_elem is not None]):
-            logger.debug(f"[{self.__class__.__name__}] Skipping malformed RSS entry in {subreddit_name} (missing core elements).")
             return None
 
         raw_title = raw_title_elem.text or ""
         post_id = id_elem.text
         permalink_from_rss = link_elem.get('href')
 
-        deal_url = permalink_from_rss # Default to permalink
+        deal_url = permalink_from_rss
         
-        # If the primary link from RSS is a Reddit permalink, try to resolve its external URL via SerpApi
         if re.search(r'reddit\.com/r/[^/]+/comments/', permalink_from_rss):
             resolved_external_url = await self._fetch_and_parse_permalink_with_serpapi(permalink_from_rss)
             if resolved_external_url:
                 deal_url = resolved_external_url
-                logger.debug(f"[{self.__class__.__name__}] Resolved external URL from permalink: {deal_url} (via SerpApi)")
             else:
-                logger.warning(f"[{self.__class__.__name__}] Could not resolve external URL from '{permalink_from_rss}' via SerpApi. Using Reddit permalink as fallback.")
-        else:
-            # If the RSS link is already external, use it
-            deal_url = permalink_from_rss
-            logger.debug(f"[{self.__class__.__name__}] RSS link is already external: {deal_url}")
-            
-        # Parse description and image from the content element (HTML embedded in CDATA)
+                logger.warning(f"[{self.__class__.__name__}] Could not resolve external URL from '{permalink_from_rss}'. Using Reddit permalink as fallback.")
+        
         soup_content = BeautifulSoup(content_elem.text, 'lxml')
-        description_tag = soup_content.find('div', class_='md')
-        description = description_tag.get_text(strip=True) if description_tag else ""
-
+        description = soup_content.get_text(strip=True, separator=' ')
         image_tag = soup_content.find('img', src=True)
         image_url = image_tag['src'] if image_tag else None
 
         title = clean_title(raw_title)
         if not title.strip():
-            logger.debug(f"[{self.__class__.__name__}] Skipping post with empty cleaned title from raw: '{raw_title}'")
             return None
 
         is_free = False
@@ -152,13 +130,10 @@ class RedditSource(BaseWebClient):
                 is_free=is_free,
                 discount_text=discount_text
             )
-        else:
-            logger.debug(f"[{self.__class__.__name__}] Skipping post '{raw_title}' as it is not identified as free or a discount.")
         
         return None
 
     def _parse_apphookup_weekly_deals(self, html_content: str, base_post_id: str) -> List[GameData]:
-        # ... (این متد بدون تغییر باقی می‌ماند) ...
         found_items: List[GameData] = []
         soup = BeautifulSoup(html_content, 'lxml')
         list_elements = soup.find_all(['p', 'li'])
@@ -185,11 +160,9 @@ class RedditSource(BaseWebClient):
         return found_items
 
     async def fetch_free_games(self) -> List[GameData]:
-        """Fetches and processes deals from all configured subreddits."""
         logger.info(f"🚀 [{self.__class__.__name__}] Starting fetch from subreddits: {', '.join(self.rss_urls.keys())}")
         all_games: List[GameData] = []
         for subreddit_name, url in self.rss_urls.items():
-            logger.info(f"[{self.__class__.__name__}] Fetching RSS for r/{subreddit_name} from {url}")
             rss_content = await self._fetch(url, is_json=False, headers=COMMON_HEADERS)
             if not rss_content:
                 logger.error(f"❌ [{self.__class__.__name__}] Failed to fetch RSS for r/{subreddit_name}. Skipping.")
@@ -201,23 +174,19 @@ class RedditSource(BaseWebClient):
                 continue
             ns = {'atom': 'http://www.w3.org/2005/Atom'}
             entries = root.findall('atom:entry', ns)
-            logger.info(f"[{self.__class__.__name__}] Found {len(entries)} entries in r/{subreddit_name} RSS feed.")
             for entry in entries:
                 raw_title_elem = entry.find('atom:title', ns)
                 content_elem = entry.find('atom:content', ns)
                 id_elem = entry.find('atom:id', ns)
-
                 if not all([raw_title_elem is not None, content_elem is not None, id_elem is not None]): continue
                 raw_title = raw_title_elem.text or ""
                 post_id = id_elem.text
                 if subreddit_name.lower() == 'apphookup' and ("weekly" in raw_title.lower() and "deals" in raw_title.lower()):
-                    logger.info(f"[{self.__class__.__name__}] Detected AppHookup 'Weekly Deals' post: '{raw_title}'. Parsing internal items.")
                     internal_deals = self._parse_apphookup_weekly_deals(content_elem.text, post_id)
                     all_games.extend(internal_deals)
                     continue
                 game_data = await self._normalize_post_data(entry, subreddit_name)
                 if game_data:
                     all_games.append(game_data)
-                    logger.debug(f"[{self.__class__.__name__}] Added post: '{game_data['title']}' from r/{subreddit_name}.")
         logger.info(f"✅ [{self.__class__.__name__}] Finished fetching from Reddit. Total potential deals: {len(all_games)}")
         return all_games
