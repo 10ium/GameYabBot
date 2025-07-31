@@ -14,27 +14,56 @@ logger = logging.getLogger(__name__)
 
 def clean_title(raw_title: str) -> str:
     """
-    Cleans a game title for searching and display by removing store tags,
-    platform info, and other noise.
+    Intelligently cleans a game title for searching and display by removing noise in multiple stages.
     """
     if not raw_title:
         return ""
 
     logger.debug(f"[clean_title] Original title: '{raw_title}'")
     
-    # Remove store/platform tags in brackets: [Steam], [PC], etc.
-    cleaned = re.sub(r'\[\s*(steam|epic\s*games?|gog|pc|windows|mac|linux|drm-?free)\s*\]', '', raw_title, flags=re.IGNORECASE)
-    
-    # Remove free/discount tags in parentheses: (100% off), (Free), etc.
-    cleaned = re.sub(r'\(\s*(100%\s*off|free|free\s*to\s*keep)\s*\)', '', cleaned, flags=re.IGNORECASE)
-    
-    # Remove promotional suffixes
-    cleaned = re.sub(r'\s*-\s*100%\s*off', '', cleaned, flags=re.IGNORECASE)
+    # Stage 1: Basic normalization and removal of common tags
+    cleaned = raw_title.lower()
+    # Remove store/platform/content tags in brackets or parentheses
+    cleaned = re.sub(r'\[\s*(steam|epic\s*games?|gog|pc|windows|mac|linux|drm-?free|itch\.io|indiegala|other|reddit|game|dlc|addon|app)\s*\]', '', cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r'\(\s*(game|dlc|addon|app|soundtrack|pc|windows|mac|linux)\s*\)', '', cleaned, flags=re.IGNORECASE)
 
-    # Collapse multiple spaces and strip whitespace
+    # Stage 2: Remove edition-specific keywords
+    edition_patterns = [
+        r'game of the year edition', r'goty', r'deluxe edition', r'definitive edition',
+        r'complete edition', r'ultimate edition', r'gold edition', r'standard edition',
+        r'director\'s cut'
+    ]
+    for pattern in edition_patterns:
+        cleaned = re.sub(r'\b' + pattern + r'\b', '', cleaned, flags=re.IGNORECASE)
+
+    # Stage 3: Remove price and discount information
+    # Matches patterns like ($5.99), (€10), (80% off), (Free), (100% off), etc.
+    cleaned = re.sub(r'\([\s\$\€\£]?\d*[\.,]?\d+[\s\$\€\£]?\s*(\/\s*\d+%\s*off)?\)', '', cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r'\(\s*\d+%\s*off\s*\)', '', cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r'\(\s*free\s*\)', '', cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r'-\s*\d+%\s*off', '', cleaned, flags=re.IGNORECASE)
+    
+    # Stage 4: Split by common delimiters and take the most likely part
+    parts = re.split(r'\s*[:|–-]\s*', cleaned)
+    main_part = parts[0].strip()
+    if len(parts) > 1:
+        # Heuristic: if the first part is very short (e.g., a sale name), prefer a longer part
+        longest_part = max(parts, key=lambda p: len(p.strip()))
+        if len(longest_part) > len(main_part) * 1.5:
+             main_part = longest_part.strip()
+
+    # Final cleanup
+    cleaned = re.sub(r'[^a-z0-9\s]', '', main_part) # Remove remaining special characters from the main part
     cleaned = re.sub(r'\s+', ' ', cleaned).strip()
 
-    logger.debug(f"[clean_title] Cleaned title: '{cleaned}'")
+    logger.debug(f"[clean_title] Intelligently cleaned title: '{cleaned}'")
+    
+    # If the result is too short, fall back to a simpler cleaning of the original title
+    if len(cleaned) < 4:
+        simpler_cleaned = re.sub(r'\[.*?\]|\(.*?\)', '', raw_title).strip()
+        logger.debug(f"[clean_title] Cleaned title was too short, falling back to simpler clean: '{simpler_cleaned}'")
+        return simpler_cleaned
+        
     return cleaned
 
 def infer_store_from_game_data(game: GameData) -> str:
@@ -54,7 +83,7 @@ def infer_store_from_game_data(game: GameData) -> str:
             
     # 2. Check title for keywords (less reliable, used as fallback)
     for keyword, store_name in STORE_KEYWORD_MAP.items():
-        if keyword in title:
+        if f'[{keyword}]' in title or f'({keyword})' in title:
             logger.debug(f"[infer_store] Found store '{store_name}' from keyword '{keyword}' in title.")
             return store_name
             
@@ -69,7 +98,6 @@ def normalize_url_for_key(url: str) -> str:
     Removes tracking parameters and standardizes the path.
     """
     if not url:
-        logger.warning("[normalize_url_for_key] Received an empty URL.")
         return ""
         
     logger.debug(f"[normalize_url_for_key] Normalizing URL: '{url}'")
@@ -77,7 +105,6 @@ def normalize_url_for_key(url: str) -> str:
     try:
         parsed = urlparse(url)
         
-        # Remove common tracking parameters
         query_params = parse_qs(parsed.query)
         tracking_params = ['utm_source', 'utm_medium', 'utm_campaign', 'ref', 'source', 'mc_cid', 'mc_eid']
         for param in tracking_params:
@@ -85,32 +112,22 @@ def normalize_url_for_key(url: str) -> str:
         
         path = parsed.path.rstrip('/')
         
-        # Steam: use app ID from URL path for a stable key
         if 'steampowered.com' in parsed.netloc:
             match = re.search(r'/app/(\d+)', path)
-            if match:
-                key = f"steam_app_{match.group(1)}"
-                logger.debug(f"[normalize_url_for_key] Generated Steam key: '{key}'")
-                return key
+            if match: return f"steam_app_{match.group(1)}"
         
-        # Epic Games: use product slug from URL path
         if 'epicgames.com' in parsed.netloc:
-            match = re.search(r'/(?:p|product)/([^/]+)', path)
-            if match:
-                key = f"epic_product_{match.group(1)}"
-                logger.debug(f"[normalize_url_for_key] Generated Epic Games key: '{key}'")
-                return key
+            match = re.search(r'/(?:p|product)/([a-z0-9-]+)', path)
+            if match: return f"epic_product_{match.group(1)}"
 
-        # Reconstruct a clean path and query for a generic key
         cleaned_query = urlencode(query_params, doseq=True)
-        key_parts = [parsed.netloc, path]
+        key_parts = [parsed.netloc.replace('www.', ''), path]
         if cleaned_query:
             key_parts.append(cleaned_query)
             
-        final_key = "_".join(part for part in key_parts if part) # Join non-empty parts
+        final_key = "_".join(part for part in key_parts if part)
         logger.debug(f"[normalize_url_for_key] Generated generic key: '{final_key}'")
         return final_key
 
-    except Exception as e:
-        logger.error(f"[normalize_url_for_key] Failed to parse URL '{url}': {e}. Falling back to original URL.")
-        return url # Fallback to the original URL if parsing fails
+    except Exception:
+        return url
