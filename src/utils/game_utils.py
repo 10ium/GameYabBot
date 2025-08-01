@@ -4,7 +4,6 @@ import logging
 from typing import Dict, Any
 from urllib.parse import urlparse, parse_qs, urlencode
 from bs4 import BeautifulSoup
-from fuzzywuzzy import process
 
 from src.config import STORE_KEYWORD_MAP
 from src.models.game import GameData
@@ -61,48 +60,55 @@ def clean_title(raw_title: str) -> str:
 
 def infer_store_from_game_data(game: GameData) -> str:
     """
-    Infers the canonical store name with a multi-layered priority system,
-    including fuzzy matching for higher accuracy.
+    Infers the canonical store name with a multi-layered priority system and verbose logging.
     """
     url = game.get('url', '').lower()
     raw_title = game.get('title', '').lower()
     
-    logger.debug(f"[infer_store] Inferring for URL='{url}', Title='{raw_title[:50]}...'")
+    logger.debug(f"--- Inferring Store for: '{raw_title[:70]}' ---")
+    logger.debug(f"  URL: {url}")
 
     # Priority 1: Check URL for domain mapping (most reliable)
+    logger.debug("  Running Priority 1: URL Domain Matching...")
     for domain, store_name in STORE_KEYWORD_MAP.items():
-        if domain in url:
-            logger.debug(f"[infer_store] Priority 1 Match: Found '{store_name}' from domain '{domain}' in URL.")
+        if '.' in domain and domain in url:
+            logger.debug(f"  ✅ SUCCESS (P1): Found '{store_name}' from domain '{domain}' in URL.")
             return store_name
             
     # Priority 2: Check for explicit tags in the raw title (e.g., [Steam], (GOG))
+    logger.debug("  Running Priority 2: Explicit Title Tags...")
     for keyword, store_name in STORE_KEYWORD_MAP.items():
-        if re.search(r'[\[\(]\s*' + re.escape(keyword) + r'\s*[\]\)]', raw_title, re.IGNORECASE):
-            logger.debug(f"[infer_store] Priority 2 Match: Found '{store_name}' from tag '[{keyword}]' in title.")
+        pattern = r'[\[\(]\s*' + re.escape(keyword) + r'\s*[\]\)]'
+        if re.search(pattern, raw_title, re.IGNORECASE):
+            logger.debug(f"  ✅ SUCCESS (P2): Found '{store_name}' from tag matching pattern '{pattern}' in title.")
             return store_name
             
-    # Priority 3: Fuzzy match keywords against the title
-    title_words = set(re.split(r'[\s\-]+', raw_title))
-    choices = list(STORE_KEYWORD_MAP.keys())
-    
-    for word in title_words:
-        best_match, score = process.extractOne(word, choices)
-        if score > 90: # High confidence threshold
-            store_name = STORE_KEYWORD_MAP[best_match]
-            logger.debug(f"[infer_store] Priority 3 (Fuzzy) Match: Word '{word}' matched '{best_match}' with score {score}. Store: '{store_name}'.")
-            return store_name
+    # Priority 3: Check for keywords directly in the title (less reliable)
+    logger.debug("  Running Priority 3: Keywords in Title...")
+    sorted_keywords = sorted([k for k in STORE_KEYWORD_MAP.keys() if '.' not in k], key=len, reverse=True)
+    for keyword in sorted_keywords:
+        pattern = r'\b' + re.escape(keyword) + r'\b'
+        if re.search(pattern, raw_title, re.IGNORECASE):
+             logger.debug(f"  ✅ SUCCESS (P3): Found '{store_name}' from keyword matching pattern '{pattern}' in title.")
+             return STORE_KEYWORD_MAP[keyword]
 
     # Priority 4: Infer from subreddit name
+    logger.debug("  Running Priority 4: Subreddit Hints...")
     subreddit = game.get('subreddit', '').lower()
-    if 'googleplaydeals' in subreddit:
-        logger.debug(f"[infer_store] Priority 4 Match: Inferred 'googleplay' from subreddit name.")
-        return 'googleplay'
-    if 'apphookup' in subreddit:
-        if 'apps.apple.com' in url: return 'iosappstore'
-        if 'play.google.com' in url: return 'googleplay'
+    if subreddit:
+        if 'googleplaydeals' in subreddit:
+            logger.debug(f"  ✅ SUCCESS (P4): Inferred 'googleplay' from subreddit name.")
+            return 'googleplay'
+        if 'apphookup' in subreddit:
+            if 'apps.apple.com' in url:
+                logger.debug(f"  ✅ SUCCESS (P4): Inferred 'iosappstore' from subreddit name and URL.")
+                return 'iosappstore'
+            if 'play.google.com' in url:
+                logger.debug(f"  ✅ SUCCESS (P4): Inferred 'googleplay' from subreddit name and URL.")
+                return 'googleplay'
             
     # Priority 5 (Fallback)
-    logger.debug(f"[infer_store] No specific store identified. Falling back to 'other'.")
+    logger.debug("  - FALLBACK: No specific store identified. Returning 'other'.")
     return 'other'
 
 def normalize_url_for_key(url: str) -> str:

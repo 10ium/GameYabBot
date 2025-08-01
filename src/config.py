@@ -3,7 +3,7 @@ import logging
 import os
 
 # --- General Settings ---
-LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO").upper()
+LOG_LEVEL = os.getenv("LOG_LEVEL", "DEBUG").upper()
 CACHE_DIR = "cache"
 DEFAULT_CACHE_TTL = 3600  # 1 hour in seconds
 DATABASE_PATH = "data/games.db"
