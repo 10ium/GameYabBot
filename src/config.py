@@ -23,44 +23,32 @@ COMMON_HEADERS = {
 TELEGRAM_STORE_DISPLAY_NAMES = {
     "epicgames": "اپیک گیمز",
     "steam": "استیم",
+    "gog": "GOG",
     "googleplay": "گوگل پلی",
     "android": "اندروید",
-    "ios": "آی‌اواس",
     "iosappstore": "اپ استور iOS",
+    "ios": "آی‌اواس",
     "playstation": "پلی‌استیشن",
     "xbox": "ایکس‌باکس",
-    "gog": "GOG",
     "itch.io": "Itch.io",
     "indiegala": "ایندی‌گالا",
-    "stove": "STOVE",
-    "microsoftstore": "مایکروسافت استور",
-    "other": "سایر",
-    "reddit": "ردیت",
     "humblestore": "هامبل استور",
     "fanatical": "فناتیکال",
+    "gamersgate": "گیمرزگیت",
     "greenmangaming": "گرین من گیمینگ",
+    "microsoftstore": "مایکروسافت استور",
     "amazon": "آمازون",
     "blizzard": "بلیزارد",
     "eastore": "EA استور",
     "ubisoftstore": "یوبی‌سافت استور",
+    "stove": "STOVE",
+    "reddit": "ردیت",
+    "other": "سایر",
     "all": "همه فروشگاه‌ها"
 }
 
-# --- Epic Games Source ---
-EPIC_GAMES_API_URL = "https://store-content-ipv4.ak.epicgames.com/api/graphql"
-# هدرهای بهبود یافته برای شبیه‌سازی بهتر یک مرورگر واقعی و جلوگیری از خطای 403
-EPIC_GAMES_HEADERS = {
-    **COMMON_HEADERS,
-    'Referer': 'https://www.epicgames.com/store/en-US/free-games',
-    'Origin': 'https://www.epicgames.com',
-    'Sec-Fetch-Dest': 'empty',
-    'Sec-Fetch-Mode': 'cors',
-    'Sec-Fetch-Site': 'same-site',
-    'X-Requested-With': 'XMLHttpRequest'
-}
-
 # --- ITAD Source ---
-ITAD_DEALS_URL = "https://isthereanydeal.com/deals/#filter:N4IgDgTglgxgpiAXKAtlAdk9BXANrgGhBQEMAPJABgF8iAXATzAUQG0BGAXWqA=="
+ITAD_RSS_URL = "https://isthereanydeal.com/feeds/US/USD/deals.rss?filter=N4IgDgTglgxgpiAXKAtlAdk9BXANrgGhBQEMAPJABgF8iAXATzAUQG0BGAXWqA%3D%3D"
 
 # --- Metacritic Enricher ---
 METACRITIC_BASE_URL = "https://www.metacritic.com"
@@ -84,8 +72,10 @@ AMBIGUOUS_KEYWORDS = ["bundle", "edition", "ultimate", "deluxe", "collection", "
 POSITIVE_GAME_KEYWORDS = ["game", "full game", "standard edition"]
 
 # --- Store Detection Keywords ---
-# A mapping of domain/keyword to a canonical store name
+# A mapping of domain/keyword to a canonical store name.
+# This is now more comprehensive to improve store detection accuracy.
 STORE_KEYWORD_MAP = {
+    # Domains (Priority 1)
     "steampowered.com": "steam",
     "epicgames.com": "epicgames",
     "play.google.com": "googleplay",
@@ -95,6 +85,7 @@ STORE_KEYWORD_MAP = {
     "indiegala.com": "indiegala",
     "humblebundle.com": "humblestore",
     "fanatical.com": "fanatical",
+    "gamersgate.com": "gamersgate",
     "greenmangaming.com": "greenmangaming",
     "playstation.com": "playstation",
     "xbox.com": "xbox",
@@ -104,6 +95,18 @@ STORE_KEYWORD_MAP = {
     "ubisoft.com": "ubisoftstore",
     "ea.com": "eastore",
     "onstove.com": "stove",
-    "freegamefindings": "reddit",
-    "gamedeals": "reddit"
+    
+    # Title Tags (Priority 2 & 3)
+    "steam": "steam",
+    "gog": "gog",
+    "epic": "epicgames", # Short version
+    "epic games": "epicgames",
+    "itch.io": "itch.io",
+    "indiegala": "indiegala",
+    "humble": "humblestore",
+    "fanatical": "fanatical",
+    "gamersgate": "gamersgate",
+    "green man gaming": "greenmangaming",
+    "gmg": "greenmangaming", # Acronym
+    "prime gaming": "amazon"
 }

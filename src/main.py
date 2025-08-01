@@ -54,8 +54,9 @@ class GamePipeline:
         self.bot = bot
         self.session = session
         
+        # Initialize all components
         self.sources = [
-            ITADSource(session),
+            ITADSource(),  # ITADSource uses Playwright and doesn't need the aiohttp session
             RedditSource(session)
         ]
         self.steam_enricher = SteamEnricher(session)
@@ -64,7 +65,10 @@ class GamePipeline:
         self.translator = SmartTranslator(session)
 
     def _get_canonical_id(self, game: GameData) -> str:
-        if game.get('steam_app_id'): return f"steam_{game.get('steam_app_id')}"
+        """Creates the most stable and unique identifier for a game."""
+        if game.get('steam_app_id'):
+            return f"steam_{game.get('steam_app_id')}"
+        
         url = game.get('url', '').lower()
         if 'gog.com' in url:
             match = re.search(r'/game/([a-z0-9_]+)', url)
@@ -72,32 +76,41 @@ class GamePipeline:
         if 'epicgames.com' in url:
             match = re.search(r'/(p|product)/([a-z0-9-]+)', url)
             if match: return f"epic_{match.group(2)}"
+        
         title_key = clean_title(game.get('title', ''))
         title_key = re.sub(r'\s+', '_', title_key)
+        
         store = game.get('store', 'other')
         platform = "pc"
         if store in ['googleplay', 'android']: platform = 'android'
         if store in ['iosappstore', 'ios']: platform = 'ios'
         if store in ['playstation']: platform = 'playstation'
         if store in ['xbox']: platform = 'xbox'
+        
         return f"title_{title_key}_{platform}"
 
     def _classify_game_type(self, game: GameData) -> GameData:
         title_lower = game.get('title', '').lower()
         is_dlc = False
-        if any(keyword in title_lower for keyword in DLC_KEYWORDS): is_dlc = True
+        if any(keyword in title_lower for keyword in DLC_KEYWORDS):
+            is_dlc = True
         elif any(keyword in title_lower for keyword in AMBIGUOUS_KEYWORDS):
-            if not any(pk in title_lower for pk in POSITIVE_GAME_KEYWORDS): is_dlc = True
+            if not any(pk in title_lower for pk in POSITIVE_GAME_KEYWORDS):
+                is_dlc = True
         game['is_dlc_or_addon'] = is_dlc
         return game
 
     def _merge_game_data(self, existing_game: GameData, new_game: GameData) -> GameData:
         merged = existing_game.copy()
-        if len(new_game.get('title', '')) > len(merged.get('title', '')): merged['title'] = new_game['title']
-        if len(new_game.get('description', '')) > len(merged.get('description', '')): merged['description'] = new_game['description']
-        if not merged.get('image_url') or ('placehold.co' in merged.get('image_url', '')): merged['image_url'] = new_game.get('image_url')
+        if len(new_game.get('title', '')) > len(merged.get('title', '')):
+            merged['title'] = new_game['title']
+        if len(new_game.get('description', '')) > len(merged.get('description', '')):
+            merged['description'] = new_game['description']
+        if not merged.get('image_url') or ('placehold.co' in merged.get('image_url', '')):
+            merged['image_url'] = new_game.get('image_url')
         for key, value in new_game.items():
-            if merged.get(key) is None and value is not None: merged[key] = value
+            if merged.get(key) is None and value is not None:
+                merged[key] = value
         return merged
 
     async def _fetch_raw_games(self) -> List[GameData]:
@@ -148,9 +161,7 @@ class GamePipeline:
             clean_description = sanitize_html(game.get('description', ''))
             translate_tasks.append(self.translator.translate(clean_description))
         
-        # **CRITICAL FIX**: Use `translate_tasks` here, not `translations`
         translations = await asyncio.gather(*translate_tasks, return_exceptions=True)
-        
         for i, game in enumerate(final_list):
             if isinstance(translations[i], str):
                 game['persian_summary'] = translations[i]
@@ -162,7 +173,8 @@ class GamePipeline:
         logger.info("--- Step 3: Filtering games for Telegram notification ---")
         games_to_notify = []
         for game in games:
-            if not game.get('is_free') or game.get('is_dlc_or_addon'): continue
+            if not game.get('is_free') or game.get('is_dlc_or_addon'):
+                continue
             dedup_key = self._get_canonical_id(game)
             if not self.db.is_game_posted_in_last_days(dedup_key, days=30):
                 games_to_notify.append(game)
@@ -170,7 +182,7 @@ class GamePipeline:
 
     async def _send_notifications(self, games_to_notify: List[GameData]) -> None:
         if not self.bot:
-            logger.warning("Telegram bot not initialized. Skipping notifications.")
+            logger.warning("Telegram bot object not initialized. Skipping notifications.")
             return
         logger.info(f"--- Step 4: Sending {len(games_to_notify)} notifications ---")
         for game in games_to_notify:
@@ -186,12 +198,14 @@ class GamePipeline:
         logger.info("--- Step 5: Saving data for web front-end ---")
         os.makedirs(WEB_DATA_DIR, exist_ok=True)
         output_path = os.path.join(WEB_DATA_DIR, WEB_DATA_FILE)
+        
         sanitized_games_for_web = []
         for game in all_games:
             sanitized_game = game.copy()
             sanitized_game['description'] = sanitize_html(game.get('description', ''))
             sanitized_game['persian_summary'] = sanitize_html(game.get('persian_summary', ''))
             sanitized_games_for_web.append(sanitized_game)
+
         try:
             sanitized_games_for_web.sort(key=lambda g: g.get('title', '').lower())
             with open(output_path, 'w', encoding='utf-8') as f:

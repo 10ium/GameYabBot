@@ -54,7 +54,7 @@ jobs:
 
       - name: Run Free Games Bot
         env:
-          # این مقادیر باید در بخش Settings > Secrets > Actions مخزن شما تنظیم شده باشند
+          # این مقادیر باید در بخش Secrets مخزن شما تنظیم شده باشند
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
         run: python -m src.main
@@ -64,10 +64,8 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "actions-bot@github.com"
           
-          # اضافه کردن فایل‌های داده تولید شده به منطقه staging
           git add --force data/games.db web_data/free_games.json
           
-          # بررسی اینکه آیا تغییری برای کامیت وجود دارد یا خیر
           if git diff --staged --quiet; then
             echo "No data changes to commit. Skipping commit."
           else

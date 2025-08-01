@@ -4,6 +4,7 @@ import logging
 from typing import Dict, Any
 from urllib.parse import urlparse, parse_qs, urlencode
 from bs4 import BeautifulSoup
+from fuzzywuzzy import process
 
 from src.config import STORE_KEYWORD_MAP
 from src.models.game import GameData
@@ -60,8 +61,8 @@ def clean_title(raw_title: str) -> str:
 
 def infer_store_from_game_data(game: GameData) -> str:
     """
-    Infers the canonical store name with a multi-layered priority system.
-    Priority: 1. URL Domain, 2. Title Tags, 3. Title Keywords, 4. Subreddit Hints, 5. Fallback.
+    Infers the canonical store name with a multi-layered priority system,
+    including fuzzy matching for higher accuracy.
     """
     url = game.get('url', '').lower()
     raw_title = game.get('title', '').lower()
@@ -80,11 +81,16 @@ def infer_store_from_game_data(game: GameData) -> str:
             logger.debug(f"[infer_store] Priority 2 Match: Found '{store_name}' from tag '[{keyword}]' in title.")
             return store_name
             
-    # Priority 3: Check for keywords directly in the title (less reliable)
-    for keyword, store_name in STORE_KEYWORD_MAP.items():
-        if re.search(r'\b' + re.escape(keyword) + r'\b', raw_title, re.IGNORECASE):
-             logger.debug(f"[infer_store] Priority 3 Match: Found '{store_name}' from keyword '{keyword}' in title.")
-             return store_name
+    # Priority 3: Fuzzy match keywords against the title
+    title_words = set(re.split(r'[\s\-]+', raw_title))
+    choices = list(STORE_KEYWORD_MAP.keys())
+    
+    for word in title_words:
+        best_match, score = process.extractOne(word, choices)
+        if score > 90: # High confidence threshold
+            store_name = STORE_KEYWORD_MAP[best_match]
+            logger.debug(f"[infer_store] Priority 3 (Fuzzy) Match: Word '{word}' matched '{best_match}' with score {score}. Store: '{store_name}'.")
+            return store_name
 
     # Priority 4: Infer from subreddit name
     subreddit = game.get('subreddit', '').lower()
