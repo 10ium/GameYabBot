@@ -42,7 +42,7 @@
         "title": "amazon stellar blade",
         "store": "amazon",
         "url": "https://www.amazon.com/Stellar-Blade-Complete-Steam-Online/dp/B0FFJBMJFB/ref=sr_1_2?dib=eyJ2IjoiMSJ9.ePrzIZIlYw9TDD_ouLq_hM4tZBdkWfAATHlmf-kUx4H8Vp10uCxhOIinOLDx9b5jSorLec1UAf2RvZp5y_AWEIg_QiqepNxDCaGwRHKD36lzssUziTBrfmFQ3EikJxiL6JuPd4fg_grcHMxtEB0SGlQnywqXjpW4N6SNn88yb6oj9PpaT9fXJ1ltiBRBY6gCma_eLWkso9qbSP62KNOIPuhnV-ftAavHbZ8SHGRhveY.0-XpL_DrytxzNPmtaidpqxq9_Se25kgOqtgP80S0l4Y&dib_tag=se&keywords=stellar+blade+complete&qid=1754666673&sr=8-2",
-        "image_url": "https://m.media-amazon.com/images/I/51LmY-RXsOL.jpg_BO30,255,255,255_UF900,850_SR1910,1000,0,C_PIRIOFIVE-medium,BottomLeft,30,-20_ZA1%252C285,500,900,420,420,AmazonEmber,50,4,0,0_QL100_.jpg",
+        "image_url": "https://m.media-amazon.com/images/I/51LmY-RXsOL.jpg_BO30,255,255,255_UF900,850_SR1910,1000,0,C_QL100_.jpg",
         "description": "submitted by /u/Bauerpost8 [link] [comments]",
         "id_in_db": "t3_1mky79d",
         "subreddit": "GameDeals",
@@ -52,33 +52,10 @@
         "persian_summary": "ارسال شده توسط /u /bauerpost8 [لینک] [نظرات]"
     },
     {
-        "title": "anant express",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/3720550/Anant_Express/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3720550/f0523efff00286e58dd36ede1f1a071e058b2724/header.jpg?t=1754607497",
-        "description": "Anant Express – A Journey Into the Unknown Beware of the anomalies. If you sense something unusual, turn back immediately... Anant Express is set aboard a haunted sleeper-class train. You board the train as an ordinary traveler, but as the journey progresses, strange events begin to unfold. Mysterious passengers. Shifting compartments. Whispers in the dark. Nothing is as it seems. The train is connected to Blara Junction , a now-abandoned station rumored to be the site of a tragic and unsolved train accident. As you explore the train and uncover clues, you’ll begin to piece together the chilling history that ties the express to this long-forgotten disaster. Gameplay Overview Immersive Horror Experience : Navigate dark corridors and eerie compartments filled with atmospheric detail and supernatural surprises. Narrative-Driven Exploration : Discover hidden notes, investigate personal belongings, and interact with haunted objects that reveal the story piece by piece. Psychological Horror : Expect the unexpected. Reality shifts. The train changes. Time loops. You’ll question what’s real and what’s part of the nightmare. Environmental Puzzles : Solve light puzzles and make decisions that uncover deeper secrets or open new paths. Key Features A haunting journey through a fully explorable sleeper train Creepy ambient sound design and minimal UI for deep immersion Narrative-focused experience with no combat – pure exploration and psychological tension Unique Indian cultural setting rarely explored in horror games Replayable moments with alternate scenes and endings based on exploration depth Controls Move – WASD Run – Left Shift Interact – E Zoom – Right Click",
-        "id_in_db": "t3_1mjzowt",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "40% off",
-        "steam_app_id": "3720550",
-        "genres": [
-            "Adventure",
-            "Casual",
-            "Indie",
-            "Simulation"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257166641/movie_max_vp9.webm?t=1752082197",
-        "is_dlc_or_addon": false,
-        "persian_summary": "Anant Express - سفری به ناشناخته از ناهنجاری ها مراقب باشید. اگر چیزی غیرمعمول را حس می کنید ، بلافاصله به عقب برگردید ... Anant Express در یک قطار کلاس خواب خالی از سکنه قرار دارد. شما به عنوان یک مسافر معمولی سوار قطار می شوید ، اما با پیشرفت سفر ، وقایع عجیب شروع می شود. مسافران مرموز. جابجایی محفظه. زمزمه در تاریکی. هیچ چیز همانطور که به نظر می رسد نیست. این قطار به Blara Junction متصل است ، یک ایستگاه اکنون رها شده که شایعه می شود محل حادثه غم انگیز و حل نشده قطار است. هنگامی که قطار را کشف می کنید و سرنخ ها را کشف می کنید ، می توانید تاریخ سردی را که اکسپرس را با این فاجعه طولانی فراموش شده مرتبط می کند ، جمع کنید. نمای کلی گیم پلی تجربه ترسناک همهجانبه: راهروهای تاریک و محفظه های عجیب و غریب پر از جزئیات جوی و شگفتی های فوق طبیعی را هدایت کنید. اکتشافات روایت محور: یادداشت های پنهان را کشف کنید ، وسایل شخصی را بررسی کنید و با اشیاء خالی از سکنه تعامل داشته باشید که قطعه داستان را به صورت قطعه نشان می دهد. وحشت روانشناختی ..."
-    },
-    {
         "title": "anniversary edition gone home tacoma and more at discounted prices",
         "store": "other",
         "url": "https://www.reddit.com/r/AppHookup/comments/1m80mhi/macos_mac_app_store_game_deals_post_2_down_in/",
-        "image_url": "https://cdn.shopify.com/s/files/1/0580/0965/collections/store_banner-gone_home.jpg?v=1536244189",
+        "image_url": "https://fullbright.company/wp-content/uploads/2014/07/gone-home-box-exterior.jpg",
         "description": "Notes: * MAS = Mac App Store * MAS All-time low = The historical low price on MAS, Steam All-time low = The historical low price on Steam * Have mentioned the All-time low Steam prices as well since the mac port for most of em is available there as well, If you're outside the US or similar, The Steam price is generally lower than that of the Mac App Store due to regional pricing... Universal (Mac, iPhone, iPad and Apple TV) Down in Bermuda $5.99→$3.99 [MAS All-time low: $0.99, Steam All-time low: $1.99] (Supports Achievements, Game Controllers and Family Sharing) Quirky adventure filled with puzzles to solve and mysteries to uncover. Our adventurous aviator Milton finds himself trapped in a time bubble deep inside the Bermuda and needs your help to escape. Universal (Mac, iPhone and iPad) Cat Sandbox $0.99→Free (No In-App Purchases) Save pixel cats in this physics puzzle game! Money Jump: 13th Ave Madness $1.99→$0.99 (First sale, By the same developer as Dark Reader, Supports Family Sharing) A wild arcade-style action game packed with humor, chaos, and surprise. Can you survive the madness and walk away rich? Hero of the Kingdom: Tales 3 $5.99→$3.99 [All-time low for MAS (NOTE: Other parts of the series have gone for Free on MAS before), Steam All-time low: $3.49] (Supports Family Sharing) Enjoy a casual and lovely adventuring RPG that features classic story-driven Point&Click exploration in an old-school isometric style. Embark on a journey to explore a beautiful country, help people and complete many interesting quests. Learn skills, trade and collect items in your inventory. Earn nice rewards for your good deeds and achievements. Get ready for a new heroic adventure to stop the evil wizard’s terrible revenge. 60 Parsecs! $3.99→$1.99 (MAS All-time low: $0.99, Steam All-time low: $2.49) (Supports Achievements and Family Sharing) Atomic Space Age adventure of scavenge and survival. Keep your crew alive and ready for action. Make difficult choices, face soup shortages and other horrors of outer space. And maybe reach your destination. Or not. Afterplace $6.99→$2.99 (MAS All-time low: $0.99, Steam All-time low: $2.99) (Supports Game Controllers and Family Sharing) An open world adventure game filled with silly characters and terrible secrets. Explore the woods, find hidden paths, hack and slash through strange monsters, and try very, very hard not to break reality. Or don't. You do you. Mac only Septourian Desktop Edition $2.99→$0.99 [MAS All-time low: Free (2024/07/01)] (Supports Game Controllers and Family Sharing) Turn-based RPG with roguelike elements. Embark on an epic quest through the sprawling lands of Septouria to discover its secrets. Battle of Warships $3.99→$1.99 (MAS All-time low: $0.99) (Supports Family Sharing) Dominate the seas with this strategy board style game! Developer: Thekla, inc. The Witness $39.99→$12.99 [MAS All-time low: $9.99, Steam All-time low: $7.59, Was also free on Epic Games (2019/04/04)] (Supports Family Sharing) Single-player game in an open world with dozens of locations to explore and over 500 puzzles. This game respects you as an intelligent player and it treats your time as precious. There's no filler; each of those puzzles brings its own new idea into the mix. So, this is a game full of ideas. Braid: Anniversary Edition $19.99→$7.99 [MAS All-time low: $6.99 (Last month - 2025/06/18), Steam All-time low: $4.99] (Supports Family Sharing) Puzzle-platformer where time manipulation is key Developer: The Fullbright Company/Fullbright Gone Home $14.99→$4.99 [MAS All-time low: $2.99, Was also on sale last month for lower ($3.99), Steam All-time low: $1.49] (Supports Achievements and Family Sharing) Interactive exploration simulator. Interrogate every detail of a seemingly normal house to discover the story of the people who live there. Open any drawer and door. Pick up objects and examine them to discover clues. Uncover the events of one family's lives by investigating what they've left behind. Tacoma $19.99→$6.99 [MAS All-time low: $3.99, Steam All-time low: $1.99, Was free as a Direct Download from Humble Bundle (2019/03/23)] (Supports Achievements and Family Sharing) Narrative adventure from the creators of Gone Home, set aboard a high-tech space station in the year 2088. As you go about your mission, you’ll explore every detail of how the station’s crew lived and worked, finding the clues that add up to a gripping story of trust, fear, and resolve in the face of disaster. submitted by /u/Atifus [link] [comments]",
         "id_in_db": "t3_1m80mhi",
         "subreddit": "AppHookup",
@@ -233,31 +210,10 @@
         "persian_summary": "Dracomaton یک جهنم Bullet Roguelike از بالا به پایین است که در آن بین چندین بازی پلی استیل در پرواز تعویض می کنید. خود را به اشکال مختلفی که دارای نقاط قوت و ضعف متفاوتی هستند ، یا اشکال موجود را با ویژگی های سایر موارد مجهز کنید! یک تجربه سریع و تک نفره ساخته شده برای پخش مجدد جالب 10 فرم منحصر به فرد با 3 نسخه مود بالقوه هر کدام بیش از 30+ مورد ایجاد ایجاد کننده ساخت ، شامل چندین مورد هرج و مرج در حال تغییر بازی 2 کارفرما صفحه را تار کنید ، و سعی کنید و سعی کنید دوباره امتحان کنید تا به پایان برسید. و بعد ، آنها بیدار شدند"
     },
     {
-        "title": "dungeon drops",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/3625870/Dungeon_Drops/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3625870/8d827410604f891cecba071a207b3e02e2aaaee2/header.jpg?t=1754593753",
-        "description": "Dungeon Drops throws you into the depths of Snake Castle. By jumping and fighting, you are trying to climb the ever-shifting tower, where you never know which dungeon part will drop down onto you next. Master over 30 floors, with each being different every time. This game features a setting, items, and monsters inspired by Turkish folklore. Between your adventures in the dangerous tower you will meet the mystical Şahmaran for tips and upgrades. Use all your bravery and skill to escape the Snake Castle!",
-        "id_in_db": "t3_1mjvrai",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "40% off",
-        "steam_app_id": "3625870",
-        "genres": [
-            "Action",
-            "Indie"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257137450/movie_max_vp9.webm?t=1749190214",
-        "is_dlc_or_addon": false,
-        "persian_summary": "Dungeon Drops شما را به اعماق قلعه مار پرتاب می کند. با پریدن و جنگیدن ، شما در حال تلاش برای صعود از برج همیشه در حال تغییر هستید ، جایی که هرگز نمی دانید کدام قسمت سیاه چال در مرحله بعدی به سمت شما فرو می رود. بیش از 30 طبقه تسلط داشته باشید که هر بار هر بار متفاوت است. این بازی دارای یک تنظیم ، موارد و هیولا با الهام از فولکلور ترکیه است. بین ماجراهای خود در برج خطرناک برای نکات و به روزرسانی ها با عرفانی şahmaran ملاقات خواهید کرد. برای فرار از قلعه مار از تمام شجاعت و مهارت خود استفاده کنید!"
-    },
-    {
         "title": "dungeons of hinterberg for the king ii the ascent you suck at parking golf gang human fall flat vr i am fish patch quest just die already lawn mowing simulator",
         "store": "indiegala",
         "url": "https://www.indiegala.com/store/publisher-sale/curve-digital",
-        "image_url": "https://img.gg.deals/58/31/fb7334b0ed3ab2d86366bc7d9ea4b83d5d5c_1232xr706_Q100.jpg",
+        "image_url": "https://cogconnected.com/wp-content/uploads/2024/07/hinterberg-review-box.jpg",
         "description": "submitted by /u/indieg [link] [comments]",
         "id_in_db": "t3_1mk1ai2",
         "subreddit": "GameDeals",
@@ -270,7 +226,7 @@
         "title": "epic alchemy ca289 free create crimes or fight them in this crime",
         "store": "epicgames",
         "url": "https://www.reddit.com/r/AppHookup/comments/1m8727l/android_ios_doodle_mafia_epic_alchemy_ca289_free/",
-        "image_url": "https://i.ytimg.com/vi/PwS1WOISUtM/hqdefault.jpg",
+        "image_url": "https://files.otakustudy.com/wp-content/uploads/2022/08/24222721/TheLastAlchemist_KeyArt.webp",
         "description": "https://store.epicgames.com/en-US/p/doodle-mafia-epic-alchemy-ios-f77211 https://store.epicgames.com/en-US/p/doodle-mafia-epic-alchemy-android-f2683e Doodle Mafia is the biggest “Doodle” game ever! Over 500 puzzles to solve and items to create as you play the role of Crime Boss or Cop. You decide how you want to play as you play through multiple hard-nosed storylines & play modes. submitted by /u/PM_ME_FREEGAMES [link] [comments]",
         "id_in_db": "t3_1m8727l",
         "subreddit": "AppHookup",
@@ -302,19 +258,6 @@
         "persian_summary": "از تیمی که فولاد را قطع کرده است ، به یک FPS گسترده در دنیای باز که برای بازی انفرادی و 4 نفره تعاونی طراحی شده است ، شیرجه بزنید! شما به عنوان یک اکسپلورر با مهارت های جنگی استثنایی بازی می کنید که زمین های سیاره ای مرموز را سقوط می کند. این سیاره تحت سلطه یک نیروی مزدور بی رحمانه است که از فناوری باستانی برای تهیه سلاح های ویرانگر استفاده می کند. تلاش اصلی برای از بین بردن عملیات آنها یا کشف جهان با سرعت خود را دنبال کنید! یک دنیای باز یکپارچه را کاوش کنید که هر ویستا دوردست در دسترس است. با استفاده از قلاب ، هوور بورد و انواع قدرتهای قابل باز کردن ، دنیای کاملاً یکپارچه را طی کنید. نبردهای حماسی و کارفرمایان عظیم در تلاش اصلی برای مواجهه با کلوسی برجسته یا برخاستن از این دشمنان در طی کاوش های شما قرار می گیرند. نبرد با کلاسهای متنوع دشمن مانند پیرومانسانس که حملات منطقه را پرتاب می کنند ، ساپرهای گریزان که برج ها را کاشت می کنند و هلیکوپترها باران می بارد. تک نفره انعطاف پذیر و گیم پلی تعاونی از ابتدا با هیچ ..."
     },
     {
-        "title": "etailmarket police simulator",
-        "store": "other",
-        "url": "https://etail.market/police-simulator-patrol-officers-279",
-        "image_url": "https://external-preview.redd.it/E5HocQ8R2LizJDJJmr78A_-IcdKUMpBjGy7yaQbBV0I.jpeg?width=640&crop=smart&auto=webp&s=28171feb46801d27cd36b2c0abe2a82ffc96bd7e",
-        "description": "submitted by /u/etailmarket [link] [comments]",
-        "id_in_db": "t3_1mjyis7",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "45% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u /etailmarket [پیوند] [نظرات]"
-    },
-    {
         "title": "ethereal enigma visual novel",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/ethereal-enigma-visual-novel/id1519306362",
@@ -331,7 +274,7 @@
         "title": "exiled giveaways and itchio mega threads",
         "store": "other",
         "url": "https://www.reddit.com/r/FreeGameFindings/comments/1mhj1yb/exiled_giveaways_and_itchio_mega_threads/",
-        "image_url": "https://i.redd.it/umipi32szlze1.png",
+        "image_url": "https://i.redd.it/ol7yel74jaaf1.png",
         "description": "To increase visibility, the mega threads are posted on a weekly basis. This is being done following the overall discussion of Mega Threads via FGF Update - https://redd.it/jkxyzw Please use the below threads for your posts. :) Exiled Giveaways Mega Thread (#2) Itchio Mega Thread (#10) Want to setup alerts to these threads? RSS Feed information can be found in our wiki! https://www.reddit.com/r/FreeGameFindings/wiki/rssfeed Included is information about our discord bot and general RSS feed stuff. Definitely give it a look! submitted by /u/AutoModerator [link] [comments]",
         "id_in_db": "t3_1mhj1yb",
         "subreddit": "FreeGameFindings",
@@ -344,7 +287,7 @@
         "title": "fgf giveaway",
         "store": "other",
         "url": "https://www.reddit.com/r/FreeGameFindings/comments/1mf0rdy/fgf_giveaway_gatekeeper_2/",
-        "image_url": "https://preview.redd.it/fgf-giveaway-stormedge-v0-l8yfnso9tlod1.png?width=1092&format=png&auto=webp&s=49a72d25c14a1d2f38fee11f26807da44d6b25d3",
+        "image_url": "https://preview.redd.it/fgf-giveaway-stormedge-v0-981rch1ctlod1.png?width=976&format=png&auto=webp&s=f94ffe721c0eda83209421bdfe8afafc1ce00b85",
         "description": "MAIN EDIT: The giveaway has officially ended! Huge thanks to everyone for entering and to HypeTrain Digital obvisouly. Congratulations to the developers of Gatekeeper for getting to 1.0. Love the game and am happy to see it fully launch. Gleam winners have been emailed (check your junk!) and commenters have been Reddit Chatted. A new FGF Giveaway of Gatekeeper! This is a direct from dev/pub giveaway for FGF. Similar to those we have done before. Second time working on a little promo for Gatekeeper. Big thanks once again to HypeTrain Digital for doing this! Last year, we ran a nice promotion with HypeTrain Digital for Gatekeeper , which was launching into early access at the time. Today marks the official 1.0 release of Gatekeeper ! Developed by Gravity Lagoon, Gatekeeper is a wonderful solo/4 player online co-op roguelike title with a top-down gameplay style. I've been on and off playing it with a friend of mine over the last year and we still really dig it. Very excited about this full release version of the game and hyped to check it out! Gatekeeper is a fast-paced rogue-like. Go on a quest to find the stolen Heart of the Universe and shoot your way through the hordes of machine enemies guarding the planetary gates. Play in solo or in 4 player online co-op with friends and become the next Guardian! Go on a quest to find the stolen Heart of the Universe and shoot your way through the hordes of machine enemies guarding the planetary gates. Just like last time, you can play Gatekeeper solo or in 4 player online co-op. The intention of this event is to promote the game's big 1.0 launch and encourage you and your buddies to get into it for yourselves! I am happy to announce an FGF Giveaway of 50 keys for Gatekeeper! Like last time, if you win and like the game then maybe you should get some buddies into it as well. Embark on a lovely adventure together! To enter We will use the comments and Gleam. It'll be 30 Steam Keys via Gleam and 20 Steam keys through the comments. https://gleam.io/Findy/fgf-gatekeeper-10-giveaway-13 https://gleam.io/4LFTZ/fgf-gatekeeper-10-giveaway-23 https://gleam.io/uuHcc/fgf-gatekeeper-10-giveaway-33 To enter in the comments, just make a singular top-level comment (basically not a comment replying to a comment). Winners will be selected at random. This offer will be live until the 7th of August. Entries will close and I'll pick the winners shortly after. Good luck, and enjoy the game(s)! Some links relating to Gatekeeper! Gatekeeper on Steam - https://store.steampowered.com/app/2106670/Gatekeeper/?utm_source=reddit_giveaway HypeTrain Digital's Steam Homepage - https://store.steampowered.com/publisher/HypeTrainDigital Full disclosure, I was not provided any personal key for this event but was given some during the first FGF x Gatekeeper event we did, which was really nice of them. For more details about when I have and have not been supplied an item for these FGF Giveaways, see here - https://docs.google.com/spreadsheets/d/1RFeaSIpqFvvSzfOowecLz_rbbFo-YKa25PYAqF6Y6ko/ submitted by /u/StOoPiD_U [link] [comments]",
         "id_in_db": "t3_1mf0rdy",
         "subreddit": "FreeGameFindings",
@@ -517,30 +460,6 @@
         "persian_summary": "کل جهان سقوط کرده است و سطح آن توسط یک گروهی خصمانه و تهاجمی در حال تحول جهش ها غلبه کرده است. خوب ، نه کاملاً. یک گروه موتوری از پیشگامان پشتکار ، لحظه شکوه و جلال خود را به دست می آورند و در برابر تهدید ناعادلانه درست در خارج از محیط تأسیس ساخته شده خود قرار می گیرند. Guntouchables یک بازیکن 1-4 بازیکن Roguelike Doomsday تیرانداز است که در آن هر دوم حساب می شود. کار تیمی بی عیب و نقص و تصمیم گیری عاقلانه مهم خواهد بود که هنگام مواجهه با دشمنان در حال تغییر در بیابان ، شانس های قریب به اتفاق را شکست دهد. هیچ کس نمی توانست پایان بارها را پیش بینی کند ، اما کسی می توانست برای آن آماده شود. شما باید شخصیت خود را انتخاب کرده و نقش خود را به عنوان یکی از Guntouchables بازی کنید - یک گروه ragtag از بازماندگان غیرقابل برگشت که سالها را صرف آماده سازی برای سناریوهای قابل تصور می کنند. اکنون آنها با فاجعه رویاهای خود روبرو هستند! Fortune به نفع جسورانه! اهداف ماموریت کامل و جمع آوری ناپایدار ها برای پول نقد و قدرتها که ..."
     },
     {
-        "title": "guntouchables free100 off",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/2543510/GUNTOUCHABLES/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2203070/04513cb6092582aec59ee1e791c4d65b281f3840/header.jpg?t=1752627973",
-        "description": "The classic dark fantasy strategy RPG Dragonheir: Silent Gods returns with its Reborn update! Experience the official Dungeons & Dragons collaboration event, back for a limited time, featuring the legendary hero Drizzt Do'Urden with his signature weapons. The Reborn update brings massive improvements after months offline: log in now to claim 650 FREE summons, enjoy 70% discount on pulls, and participate in the \"Summon More, Get More\" event to build your ultimate team. Discover completely revamped strategic gameplay and unprecedented exploration freedom in this thoroughly reworked adventure—join the rebirth now! ◉New Version Highlights◉ 〓Fight Alongside Legends, Attain New Glory〓 On August 1st, the legendary Western fantasy IP \"Dungeons & Dragons\" official collaboration continues! The legendary hero Drizzt makes a powerful return—you'll fight alongside him and unlock unique battle abilities with his exclusive Artifact. Uncover buried secrets in classic collaboration story quests. Don't miss this excitement—stay tuned! 〓Boundless Freedom in Exploration〓 The sandbox open world features diverse landscapes, from shadowy forests to scorching deserts, mysterious underground realms to vast archipelagos—each hiding surprises waiting to be discovered. Create your protagonist freely, with your attribute choices influencing story directions. Roll dice to trigger random events and interact with NPCs to unlock hidden quests, experiencing an adventure journey filled with unknowns and extraordinary encounters! 〓Epic Benefit Discounts〓 Join the \"Prophecy Summons\" and \"Account Appraisal\" events now to get massive amounts of free summons and abundant resource packs! The summoning system gets a complete overhaul in the Reborn version—single summons now only cost 100 Wyrmarrow, with 70% off summon privileges available immediately upon launch! You can also get additional Summon Dice and selectable Legendary heroes through the concurrent \"Summon More, Get More\" celebration event—building your desired lineup has never been easier. Command an army of champions! 〓Strategies Renewed and Upgraded〓 The brand-new Hero Talent system revolutionizes traditional progression! 300+ heroes each boasts 12 unique Talent effects, with no talent trees limiting your mixes and matches! Unlock exclusive battle abilities for your heroes and customize in-depth tactical styles! Make every battle your strategic masterpiece! 〓A Burden-Free Experience〓 Embracing the philosophy of returning to strategic gameplay, we've created the innovative \"Resonance Level\" system. Level up once, shared across your entire team! Gone are the days of individually leveling each character—now your entire roster benefits from shared progression, letting you focus on what truly matters: tactics and discovery!",
-        "id_in_db": "t3_1mjufgs",
-        "subreddit": "GameDeals",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "2203070",
-        "genres": [
-            "Adventure",
-            "Massively Multiplayer",
-            "RPG",
-            "Strategy",
-            "Free To Play"
-        ],
-        "is_multiplayer": true,
-        "is_online": true,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257168609/movie_max_vp9.webm?t=1752494394",
-        "is_dlc_or_addon": false,
-        "persian_summary": "استراتژی کلاسیک خیالی تاریک RPG Dragonheir: Silent Gods با بروزرسانی متولد شده خود باز می گردد! رویداد رسمی همکاری Dungeons & Dragons را تجربه کنید ، برای مدت زمان محدود ، با حضور قهرمان افسانه ای Drizzt Do'urden با سلاح های امضای خود. به روزرسانی Reborn پیشرفت های گسترده ای را پس از ماه های آفلاین به ارمغان می آورد: اکنون وارد شوید تا 650 احضار رایگان را انتخاب کنید ، از 70 ٪ تخفیف در کشش ها لذت ببرید و در رویداد \"Summon More\" دریافت کنید \"برای ساخت تیم نهایی خود. گیم پلی استراتژیک کاملاً بازسازی شده و آزادی اکتشافی بی سابقه را در این ماجراجویی کاملاً اصلاح شده کشف کنید - به تولد دوباره بپیوندید! ◉ new نسخه برجسته ◉ در کنار افسانه ها ، در اول اوت به شکوه و عظمت جدید برسید ، IP افسانه ای فانتزی غربی \"Dungeons & Dragons\" همکاری رسمی ادامه می یابد! قهرمان افسانه ای Drizzt بازگشت قدرتمندی را انجام می دهد - شما در کنار او می جنگید و توانایی های نبرد منحصر به فرد را با مصنوعات منحصر به فرد خود باز می کنید. پرده از اسرار دفن شده در جستجوی داستان های کلاسیک همکاری. نکن ..."
-    },
-    {
         "title": "hold your houses",
         "store": "other",
         "url": "https://givee.club/en/event/1073",
@@ -562,17 +481,30 @@
         "persian_summary": "خانه های خود را نگه دارید آیا تا به حال در یک سرقت بوده اید و اسلحه ای برای دفاع از خود و خانه ندارید؟ خوب اکنون می توانید ، با نگه داشتن خانه های خود انواع سلاح های مختلف برای استفاده از خود در دفاع از خود ، خانه خود و گرفتن آن سارقان ناخواسته استفاده کنید. سارقین بسیار ماهر هستند و می دانند که چگونه می توانند دسترسی پیدا کنند ، آنها سلاح هایی مانند تپانچه ، تفنگ های حمله و اسلحه را حمل می کنند. سلاح های خود را با استفاده از امتیازات به دست آمده از کمد و دیوارهای خارج از آن خریداری کنید. پنجره ها و درها برای آهسته کردن آنها ، به شما فرصت می دهد تا حرکتی انجام دهید. خانه های خود را نگه دارید که دارای پنج نقشه منحصر به فرد طراحی شده است که با هر نقشه فضای متفاوتی به شما امکان می دهد. بنابراین خود را تجهیز کنید و عجله کنید ، برای کشتن شلیک کنید ، زیرا هر 30 ثانیه موجی از سارقان می آیند. حالا بروید و از خود و خانه خود دفاع کنید. موفق باشید"
     },
     {
-        "title": "ios free lifetime",
-        "store": "iosappstore",
-        "url": "https://apps.apple.com/us/app/timestamp-camera-stamper/id6743544880",
-        "image_url": "https://external-preview.redd.it/u-A_ieJwlqejoa_BR2wGGAqEJU12J3tTqcIo42ntRtc.png?width=640&crop=smart&auto=webp&s=6c0898637a7c85ce6e7b762ca41792c552fbc6d3",
-        "description": "Hey! Here's a pretty niche, small app I built that you can use to add dates to your photos. You can adjust: Date Size Date Format Date Position Date Color Font The app extracts date from the photos EXIF data. You can also just choose a custom date. I felt waaaay too lazy to implement gestures, so the app only supports fixed positions. Looking forward to your feedback. Enjoy! To claim: Pass the onboarding screens, locate the paywall, choose the Lifetime package, tap continue. Enjoy forever for $0. App Store: https://apps.apple.com/us/app/timestamp-camera-stamper/id6743544880 submitted by /u/Dipshiiet [link] [comments]",
-        "id_in_db": "t3_1m6pi9z",
-        "subreddit": "AppHookup",
+        "title": "icon packs toska turqoise icon pack 099",
+        "store": "googleplay",
+        "url": "https://play.google.com/store/apps/details?id=com.panotogomo.olytosca",
+        "image_url": "https://external-preview.redd.it/qWNvfVI2aaRyJvLlBz37S3vijiDHShItimtVN89RqzI.jpeg?width=320&crop=smart&auto=webp&s=8f8a4e8a47d9f90ab6774d5a537da4146e658714",
+        "description": "submitted by /u/ac_del [link] [comments]",
+        "id_in_db": "t3_1mlmfk4",
+        "subreddit": "googleplaydeals",
         "is_free": true,
         "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "سلام! در اینجا یک برنامه کوچک و طاقت فرسا وجود دارد که من ساخته ام که می توانید برای اضافه کردن خرما به عکس های خود استفاده کنید. می توانید تنظیم کنید: تاریخ اندازه تاریخ قالب تاریخ موقعیت تاریخ موقعیت تاریخ فونت برنامه عصاره برنامه از داده های exif عکس. همچنین می توانید فقط یک تاریخ سفارشی را انتخاب کنید. من احساس کردم Waaay برای اجرای حرکات بسیار تنبل است ، بنابراین برنامه فقط از موقعیت های ثابت پشتیبانی می کند. منتظر بازخورد شما هستم. لذت بردن! برای ادعای: از صفحه های پردازنده عبور کنید ، Paywall را پیدا کنید ، بسته Lifetime را انتخاب کنید ، روی ادامه ضربه بزنید. برای همیشه با 0 دلار لذت ببرید. فروشگاه برنامه: https://apps.apple.com/us/app/timestamp-camera-stamper/id6743544880 ارسال شده توسط/u/dipshiiet [لینک] [نظرات]"
+        "is_dlc_or_addon": true,
+        "persian_summary": "ارسال شده توسط /u /ac_del [پیوند] [نظرات]"
+    },
+    {
+        "title": "icon packs turqoise",
+        "store": "googleplay",
+        "url": "https://play.google.com/store/apps/details?id=com.panotogomo.tosca",
+        "image_url": "https://external-preview.redd.it/VNwbYFmmUZW4Yzp4ORCkM_SWhqwTZqqCgaH-zuFweCk.png?width=320&crop=smart&auto=webp&s=39b67fc86770819c706bf029e5b016b925be8557",
+        "description": "submitted by /u/ac_del [link] [comments]",
+        "id_in_db": "t3_1mlmh24",
+        "subreddit": "googleplaydeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": true,
+        "persian_summary": "ارسال شده توسط /u /ac_del [پیوند] [نظرات]"
     },
     {
         "title": "ios ipad all paid apps from 16 bit virtual studios 199 to free",
@@ -614,6 +546,19 @@
         "persian_summary": "این برنامه من است که در سال 2016 منتشر شد و در واقع برنده جایزه Apple Design شد که باورنکردنی بود. این یک برنامه صدای صوتی/صدای محیط سفید است که از یک شبکه 4x4 استفاده می کند که می توانید صداها را به سمت خود بکشید تا صدای صدای بسیار خنک و تسکین دهنده ایجاد شود. من آن را آزاد می کنم زیرا فضای برنامه سر و صدای سفید بسیار رقابتی است. ما از مبلغ فروش ماهانه مناسب به نزدیک به صفر رفتیم. بنابراین به جای اینکه اجازه دهید در فروشگاه App گم شود- امیدوارم که آن را آزاد کند (شاید به طور دائم) زندگی جدیدی را در آن نفس بکشد و آن را به دست بیشتری برساند. لذت ببرید و لطفاً به من اطلاع دهید که چه فکر می کنید! ارسال شده توسط /u /dynamicappdesign [پیوند] [نظرات]"
     },
     {
+        "title": "ios499 to free for 48h beastinterval",
+        "store": "iosappstore",
+        "url": "https://apps.apple.com/us/app/beastinterval-interval-timer/id6744288215",
+        "image_url": "https://external-preview.redd.it/m9SrPg4ifORtEbJwPXAtz5dd3-iPNXhxL4J8TMty2LE.png?width=640&crop=smart&auto=webp&s=aefb791d61053e0814726d3bcc213b8d8e160a58",
+        "description": "Hello Just updated: BeastInterval – the ultimate HIIT timer for iOS! I built this app as an indie dev to help anyone doing HIIT, circuit, or EMOM workouts stay focused, track progress, and stay motivated over time. To celebrate the transition from Subscription model to One-Time Purchase, I'm running promo offer, just grab the pro version for FREE! Why BeastInterval?🔥 18 ready-to-go programs (HIIT, EMOM, Tabata & more)⚙️ Custom timer setup (up to 5:59 active/rest & 30 rounds)📈 7-day performance graphs📆 Full workout history🏆 Streaks & achievements to keep you on track🧘‍♂️ Clean, no-distraction interface What I’m Looking For: Any feedback on app usability, design, or anything that doesn’t feel quite right. Suggestions for new features or improvements! General thoughts on your experience using the app. Regular Price: FREEIAP - 4.99$ Pro version now its FREE for 2 DAYS I'd love your feedback — every bit of support means the world to a solo indie devThanks for helping an indie dev grow submitted by /u/MefjuEditor [link] [comments]",
+        "id_in_db": "t3_1mm7b72",
+        "subreddit": "AppHookup",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "سلام فقط به روز شده: Beastinterval - تایمر نهایی HIIT برای iOS! من این برنامه را به عنوان یک indie dev ساختم تا به هر کسی که تمرینات HIIT ، مدار یا emom را انجام می دهد ، متمرکز شود ، پیشرفت کند و با گذشت زمان انگیزه بماند. برای تجلیل از انتقال از مدل اشتراک به یک بار خرید ، من پیشنهاد تبلیغاتی را اجرا می کنم ، فقط نسخه حرفه ای را به صورت رایگان بگیرید! چرا BeastInterval؟ 🔥 18 برنامه آماده برای رفتن (سلام ، emom ، tabata و موارد دیگر) ⚙ تنظیم تایمر سفارشی (حداکثر 5:59 فعال/استراحت و 30 دور) نمودار عملکرد 7 روزه-تاریخچه کامل تمرین-رگه ها و دستاوردهای شما را در مسیر نگه داشتن ، بدون استفاده از رابط من به دنبال آنچه که من به دنبال آن هستم ، بدون هیچ گونه بازخورد در مورد برنامه بازخورد است. پیشنهادات برای ویژگی های جدید یا پیشرفت ها! افکار عمومی در مورد تجربه خود با استفاده از برنامه. قیمت منظم: FreeIAP - نسخه 4.99 $ Pro اکنون به مدت 2 روز رایگان است که من می خواهم بازخورد شما را دوست داشته باشم - هر پشتیبانی از این به معنای جهان به یک انفرادی DevThanks برای کمک به رشد indie dev ..."
+    },
+    {
         "title": "kaori after story visual novel",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/kaori-after-story-visual-novel/id1454412797",
@@ -625,6 +570,28 @@
         "is_dlc_or_addon": false,
         "persian_summary": "",
         "description": ""
+    },
+    {
+        "title": "kings blade",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/2204620/Kings_Blade/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2824490/02598f72d80e7c5da9f4b418f7fce15532d60388/header.jpg?t=1754582449",
+        "description": "A long-forgotten enemy rises and brings portents of doom – the Demon King is coming, and without a champion to strike him down, the world will surely fall to his corruption. Seek out powerful weapons and artifacts by day, stand against his minions by night, and prepare to be hunted by powerful entities from ages past in this roguelite role-playing game. Every three days, a terrifying new minion of the Demon King begins his hunt, drawn from a pool of over 30 potential bosses. Study each monster’s strengths and unique powers, and adapt your build accordingly. Explore the realm in search of the weapons and equipment best suited to defeat this powerful predator, but be wary of other fell creatures that roam the world by night. With limited time, will you opt to sharpen your blade at hidden ancient forges, pay a high price for rare trinkets from greedy merchants, or seek out mighty armor and magical shields? Choose the tools that work best against the powerful enemy that hunts you today, without sacrificing your preparedness for what comes next, overcoming the guardians of each realm until the Demon King Himself stands before you. Pursue a multitude of strategies and synergies with over 350 items at your disposal to confront the unique challenge of each monstrous boss. When hunted by the Razorclaw Grizzly, whose fierce attacks ignore all armor, how much armor will you sacrifice for equipment that prioritizes maximum health, speed, or damage? The lesser monsters stalking the realms will wage a war of attrition against an unarmored hero, and should the Razorclaw Grizzly be slain, three days may not provide enough time to gather enough armor for the next great foe that hunts you. You may, in place of armor, find several items that enhance your speed and attack strength, allowing you to strike first and hard, vanquishing your enemy swiftly – sometimes before it’s able to strike at all. Then, if you luck upon the Saffron Feather, you’d be able to take advantage of your high speed to help regenerate wounds during battle. But should you find yourself hunted by the Black Knight, who absorbs your attack power as his own, high armor becomes a priority over raw attack strength – with the aid of Razor Scales armor to reflect damage back upon your enemy, and enchanted Ruby Earrings to inflict damage every other turn, the Black Knight would face steady damage without raw attack power to absorb for himself. But if you happen upon a powerful magical weapon, do you dare take it up, knowing it will strengthen the Black Knight for the fight ahead, but come to your aid should you survive it? There are a plethora of options for each threat, with a variety of powerful combinations to be discovered and exploited at your disposal among the countless items, and constant tradeoffs between the near and long-term threats – with limited space in your inventory, you must choose wisely and adapt constantly. He is Coming also features an asynchronous multiplayer mode, Kingmaker – seek out the fallen Demon King’s crown in an ultimate test of your strategies where your champion faces off against the powerful builds of other players. Plan around the equipment and abilities of these would-be heroes in the hunt for the crown, and face a constant onslaught of unique combinations and unforeseeable circumstances – how will you rise above all others? You will face both great victories and noble defeats. Each run will contribute to your progression as you complete over 100 unique challenges that add powerful new artifacts to the pool of items available for future runs – while your first hero may not defeat the Demon King, their efforts will not be in vain. The world descends slowly into chaos as the Demon King grows in strength – the trees wither away, the grass turns to ash, and the bogs turn putrid with the stench of death. Take on the mantle of a hero and prepare yourself – for He is Coming.",
+        "id_in_db": "t3_1mloavb",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "15% off",
+        "steam_app_id": "2824490",
+        "genres": [
+            "RPG",
+            "Strategy",
+            "Early Access"
+        ],
+        "is_multiplayer": true,
+        "is_online": false,
+        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257169123/movie_max_vp9.webm?t=1752756921",
+        "is_dlc_or_addon": false,
+        "persian_summary": "یک دشمن طولانی فراموش شده بلند می شود و محورهای عذاب را به ارمغان می آورد-شیطان پادشاه در حال آمدن است و بدون قهرمانی برای حمله به او ، مطمئناً جهان به فساد او می افتد. به روز سلاح ها و آثار باستانی قدرتمند را جستجو کنید ، شبانه در برابر مأموریت های خود بایستید و آماده شوید تا توسط موجودات قدرتمند از سنین گذشته در این بازی نقش آفرینی Roguelite شکار شود. هر سه روز ، یک مینیون جدید وحشتناک از شیطان پادشاه شکار خود را آغاز می کند ، که از استخر بیش از 30 رئیس بالقوه گرفته شده است. نقاط قوت و قدرتهای منحصر به فرد هیولا را مطالعه کنید و ساخت خود را بر این اساس تطبیق دهید. در جستجوی سلاح ها و تجهیزات مناسب برای شکست این شکارچی قدرتمند ، قلمرو را کاوش کنید ، اما نسبت به سایر موجودات افتاده که شبانه جهان را پرسه می زنند ، احتیاط کنید. آیا با مدت زمان محدود ، آیا می خواهید تیغه خود را در جعل های باستانی پنهان تیز کنید ، قیمت بالایی را برای خرده های نادر از بازرگانان حریص بپردازید ، یا به دنبال زره های قدرتمند و سپرهای جادویی باشید؟ ابزارهایی را انتخاب کنید که در برابر دشمن قدرتمندی که امروز شما را شکار می کند ، بهترین کار را می کنند ، ..."
     },
     {
         "title": "kitchen wars",
@@ -687,6 +654,19 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": true,
         "persian_summary": "ارسال شده توسط /u /meguminshiro [لینک] [نظرات]"
+    },
+    {
+        "title": "need for speed unbound 489 eur93 off need for speed heat 489 eur93 off need for speed most wanted 479 eur75 off need for speed payback 479 eur 84 off need for speed hot pursuit remastered 599 eur80 off",
+        "store": "steam",
+        "url": "https://store.steampowered.com/sale/NeedforSpeedFranchiseSale",
+        "image_url": "https://external-preview.redd.it/sMZqN8vFle5niwD55xRzGv4HmuJzKP6Pnc_21YE_mOE.jpeg?width=640&crop=smart&auto=webp&s=5086d26b360ebc2d2ac53cd9fa7e0b3659b096a0",
+        "description": "submitted by /u/DsLmaNiaC [link] [comments]",
+        "id_in_db": "t3_1mlk9pp",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "93% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u /dslmaniac [لینک] [نظرات]"
     },
     {
         "title": "once upon a dungeon",
@@ -757,7 +737,7 @@
         "title": "platform pilgrims ca899 free playful adventure card game created by the team behind machinarium and samorost",
         "store": "other",
         "url": "https://www.reddit.com/r/AppHookup/comments/1me446q/multiplatform_pilgrims_ca899_free_playful/",
-        "image_url": "https://www.indiegamebundles.com/wp-content/uploads/2025/07/pilgrims.jpg",
+        "image_url": "https://img.itch.zone/aW1nLzI0ODQwMDgucG5n/original/tFb3%2Fh.png",
         "description": "https://store.epicgames.com/en-US/p/pilgrims-6d250f https://store.epicgames.com/en-US/p/pilgrims-android-dcb011 https://store.epicgames.com/en-US/p/pilgrims-ios-e004ba Pilgrims is a playful adventure game, created by the team behind Machinarium and Samorost. Roam the land as you please and make new friends, share a laugh with your fellow travelers and help them complete their little stories, your way. How many different solutions can you find? submitted by /u/PM_ME_FREEGAMES [link] [comments]",
         "id_in_db": "t3_1me446q",
         "subreddit": "AppHookup",
@@ -770,7 +750,7 @@
         "title": "playstation other 5 new playstation avatars 15th anniversary of playstation plus",
         "store": "playstation",
         "url": "https://www.playstation.com/en-us/support/store/redeem-ps-store-voucher-code/",
-        "image_url": "https://img.gg.deals/09/59/a9b659faffedf2be556e49920b94c2baae92_912cr476.jpg",
+        "image_url": "https://img.gg.deals/09/59/a9b659faffedf2be556e49920b94c2baae92_1920xt1080_Q100.png",
         "description": "submitted by /u/Slippy2k [link] [comments]",
         "id_in_db": "t3_1mijrmd",
         "subreddit": "FreeGameFindings",
@@ -789,19 +769,6 @@
         "subreddit": "GameDeals",
         "is_free": false,
         "discount_text": "25% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u /lets_playsum [لینک] [نظرات]"
-    },
-    {
-        "title": "playsum youtubers life 383 383 c530 with code cheers",
-        "store": "other",
-        "url": "https://store.playsum.live/product/4f5dba74-75fd-5ef5-9d92-a857f9f3ca42/youtubers-life",
-        "image_url": "https://external-preview.redd.it/yU9T9an7uf7ANLlij427v2mwqquhmSZ3DlnyH2M0164.jpeg?width=320&crop=smart&auto=webp&s=e1002bf5d056f8ec0fa3c5caa2f693a71616887d",
-        "description": "submitted by /u/Lets_Playsum [link] [comments]",
-        "id_in_db": "t3_1mjqm06",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "81% off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u /lets_playsum [لینک] [نظرات]"
     },
@@ -857,7 +824,7 @@
         "title": "psa stove is giving away nocturnal elypse simulakros naheulbeuks dungeon master lempo and born of bread for daily attendance",
         "store": "other",
         "url": "https://www.reddit.com/r/FreeGameFindings/comments/1meqw1w/psa_stove_is_giving_away_nocturnal_elypse/",
-        "image_url": "https://external-preview.redd.it/steam-dlc-the-traded-groom-extra-booklet-v0-sri6j9nhYOYVCEBj44YCjAMBQpU3Z5BhTkCOqSJ__L8.jpeg?auto=webp&s=62bb3cc88077dfeec8c56973311f6e27538417cd",
+        "image_url": "https://external-preview.redd.it/stove-game-love-n-war-warlord-by-chance-v0-zbSn-9jlEup9ujp4vXgSITZSBabdT5ovl2L4FJBtPiU.png?auto=webp&s=6046b524e23a33c8c0a9ea3f8c2756325f0c9a36",
         "description": "Okay, so given the quality of these games I think this deserves a post, even if it requires some concerted effort for the games. Stove is giving away 6 games, and some store credit, for doing daily check-in on their website. The only catch is that you have to download their launcher and play two games for a few minutes each day. Edit: To clarify the games are for the Stove store and use the Stove launcher. The first 4 games, Nocturnal, Elypse, Simulakros, and Naheulbeuk's Dungeon Master are available through this promotion: https://event.onstove.com/en/dailyshop/STOVEINDIE/202508 To get them you just need to play a game through their launcher for a few minutes each day and then check in on that webpage. However I believe Riichi City, LORD NINE, and Epic SEVEN are excluded from this promotion (Edit: also BTS cooking, thanks to TOMdMAK for bringing that up). Then for doing this for 5, 10, 15, and 20 days you get the aforementioned free games. Plus logging in gets $1.60 in free store credit coupons, and the free games may have missions for even more store credit if you want to take the time. You can see this official post for more information: https://page.onstove.com/indie/global/view/10932874 If you're looking for a game, why not try 7Days Origins while it's still free for a few days. Edit: Unfortunately this deal has ended. The next two games, Lempo and Born of Bread, are through this promotion: https://event.onstove.com/en/dailyshop/RIICHICITY_IND/202508 Same deal as above, except you need to play Riichi City, using their launcher and a stove connected account, to satisfy the check in for this one. Then you can get the games for 10 and 15 days of attendance. Steam links for review reading. https://store.steampowered.com/app/1634080/Nocturnal/ https://store.steampowered.com/app/1725340/Elypse/ https://store.steampowered.com/app/2067160/Simulakros/ https://store.steampowered.com/app/2005160/Naheulbeuks_Dungeon_Master/ https://store.steampowered.com/app/1891620/Lempo/ https://store.steampowered.com/app/1555140/Born_of_Bread/ Other notes. Don't forget to grab the $1 coupon, and use it before Aug 3, from this promotion: https://store.onstove.com/en/store/25summersale There's $5 + 50% off, and a few other extras, for accounts under 7 days old here: https://event.onstove.com/en/welcome And an unknown deal for accounts 7-30 days old that haven't agreed to game terms and haven't made a puchase (probably including free stuff). I can't actually see what's on offer but it can be found here: https://event.onstove.com/en/welcome-for-you You also get a bunch of flakes for checking in that can potentially be used to exchange for some limited quantity games (Edit: found lower down on the monthly check in page ( https://event.onstove.com/en/dailyshop/STOVEINDIE/202508) ). However they sell out very fast so don't count on it. But assuming you want more flakes there's a third check in event that you can also do, but there's no games for it or anything. Some other basically always free stuff. GigaBash Under the blue horizon - Aquarium Knight Overloaded Infinite Incarnation Also there's a DLC for Kalpa: Cosmic Symphony that requires the base game. Kalpa: Cosmic Symphony DLC submitted by /u/Fhczvyd474374846 [link] [comments]",
         "id_in_db": "t3_1meqw1w",
         "subreddit": "FreeGameFindings",
@@ -1143,6 +1110,19 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u /pm_me_freegames [لینک] [نظرات]"
+    },
+    {
+        "title": "wingamestore hegemony iii",
+        "store": "other",
+        "url": "https://www.wingamestore.com/product/9184/Hegemony-III-Clash-of-the-Ancients/",
+        "image_url": "https://external-preview.redd.it/netyw3yT-3qY9TdClLMa4Hriah6SbZ13xHKWJXHUre0.jpeg?width=320&crop=smart&auto=webp&s=123f4bd7305e4176b7f4a6f623f5b512aeb510cd",
+        "description": "submitted by /u/Krnu777 [link] [comments]",
+        "id_in_db": "t3_1mlz3du",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "93% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u /krnu777 [لینک] [نظرات]"
     },
     {
         "title": "硬汉猫猫：手法大师",
