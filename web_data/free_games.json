@@ -20,43 +20,23 @@
         "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": "100% Off",
-        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/396650/capsule_616x353.jpg?t=1709309521",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/22/3a/0e/223a0e4f-8bc8-d17d-511b-102be05d84c3/AppIcon-0-0-1x_U007emarketing-0-0-0-6-85-220.png/512x512bb.jpg",
         "is_dlc_or_addon": false,
         "persian_summary": "",
         "description": ""
     },
     {
-        "title": "alan wake 2",
-        "store": "epicgames",
-        "url": "https://store.epicgames.com/en-US/p/alan-wake-2--deluxe-edition",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108710/header.jpg?t=1726554283",
-        "description": "When the wife of the best-selling writer Alan Wake disappears on their vacation, his search turns up pages from a thriller he doesn’t even remember writing. A Dark Presence stalks the small town of Bright Falls, pushing Wake to the brink of sanity in his fight to unravel the mystery and save his love. Presented in the style of a TV series, Alan Wake features the trademark Remedy storytelling and pulse-pounding action sequences. As players dive deeper and deeper into the mystery, they’ll face overwhelming odds, plot twists, and cliffhangers. It’s only by mastering the Fight With Light combat mechanic that they can stay one step ahead of the darkness that spreads across Bright Falls. With the body of an action game and the mind of a psychological thriller, Alan Wake’s intense atmosphere, deep and multilayered story, and exceptionally tense combat sequences provide players with an entertaining and original gaming experience. Enhanced for the PC Includes Alan Wake Special Episodes “The Signal” and “The Writer” Experience Alan Wake’s Pacific Northwest in higher resolutions and higher fidelity than the Xbox360 version. Fully configurable mouse and keyboard support, or if you prefer to play with the Steam or Microsoft gamepad connected to your PC, you can do that too! Lots of customizable graphics settings and support for 4:3, 16:9 and 16:10 aspect ratios! Multithreaded engine that takes advantage of quad core CPUs. Additional features our fans have sought after such as field of view adjustment as well as “hide HUD”. Works with AMD Eyefinity 3D 3-screen mode.",
-        "id_in_db": "t3_1mubhd5",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "60% off",
-        "steam_app_id": "108710",
-        "genres": [
-            "Action",
-            "Adventure"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
+        "title": "alphaputt",
+        "store": "iosappstore",
+        "url": "https://apps.apple.com/us/app/alphaputt/id1192689055",
+        "id_in_db": "dddc2427e723a5ec1b16d3557a10b7999d684bf4e3eca441569509453bca9cde",
+        "subreddit": "AppHookup",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/b7/ad/b4/b7adb480-ae1e-f4e3-666c-5c06190d0136/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
         "is_dlc_or_addon": false,
-        "persian_summary": "هنگامی که همسر نویسنده پرفروش آلن ویک در تعطیلات خود ناپدید می شود ، جستجوی او صفحات از یک هیجان انگیز را به وجود می آورد که حتی به یاد نمی آورد که بنویسد. یک حضور تاریک شهر کوچک Falls Bright را غرق می کند و در مبارزه خود برای آشکار کردن رمز و راز و نجات عشق او ، به آستانه عقل و بیدار می شود. آلن ویک که به سبک یک سریال تلویزیونی ارائه شده است ، دارای سکانس های اکشن داستان پردازی و پالس است. هرچه بازیکنان عمیق تر و عمیق تر به رمز و راز فرو می روند ، با شانس های بسیار زیاد ، پیچ و تاب های توطئه و صخره ها روبرو می شوند. این تنها با تسلط بر مبارزه با مکانیک جنگی سبک است که می توانند یک قدم جلوتر از تاریکی که در آبشارهای روشن گسترش می یابد بمانند. با بدنه یک بازی اکشن و ذهن یک تریلر روانشناختی ، فضای شدید آلن ویک ، داستان عمیق و چند لایه و سکانس های جنگی فوق العاده پرتنش یک تجربه بازی سرگرم کننده و اصلی را به بازیکنان می دهد. پیشرفته برای رایانه شامل قسمتهای ویژه آلن ویک \"..."
-    },
-    {
-        "title": "allyouplay dayz 3279 3250 eu us",
-        "store": "other",
-        "url": "https://www.allyouplay.com/dayz",
-        "image_url": "https://external-preview.redd.it/8lf3NPhXEXo9pUjMGvEHR20URjp8etWHQKmQuYUZtI0.jpeg?width=640&crop=smart&auto=webp&s=ee07803fb4b090e25906f865eb6b54e06fa87432",
-        "description": "submitted by /u/AllYouPlay [link] [comments]",
-        "id_in_db": "t3_1mucy41",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "31% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u /allyouplay [پیوند] [نظرات]"
+        "persian_summary": "",
+        "description": ""
     },
     {
         "title": "american football pack",
@@ -82,19 +62,6 @@
         "persian_summary": "جهش ها و هیولا در این بازی بسته بندی شده و بازی فوتبال به سبک بازی ، قتل عام دیوانه وار را بر روی Gridiron رها می کنند. لیگ فوتبال جهش یافته عملکرد چند نفره آنلاین ، استراتژی عمیق و طنز کشنده را ارائه می دهد. عرصه های خارق العاده و پر از طرفداران بی رحمانه و تله های کشنده صحنه را برای ضرب و شتم در هر مسابقه ای که به بازیکنان اجازه می دهد با بالاترین امتیاز یا با کشتن و ریشه کن کردن حریفان خود به پیروزی برسند - یک شاهکار آسانتر می شود زیرا تیم ها از \"ترفندهای کثیف\" خود استفاده می کنند ، مانند \"Bribe the Ref\" برای واژگون شدن یک تماس و یا داشتن یک بازیکن در \"Ginormous\" تبدیل به Painmel می شوند. هر زمان که یک بازی شروع شود ، به سرعت کشف خواهید کرد که تنها عنصر قابل پیش بینی استخوانهای شکسته است. Mutant Football League ، جانشین خونین ، نسل بعدی ، جانشین بازی های فوتبال به سبک Arcade است و از بازی های ورزشی بیش از حد مانند NFL Blitz و Sega Genesis Classic ، Football Mutant League الهام می گیرد. Digital Dreams 'MFL بازی گیم پلی استراتژیک عمیق 7 بر 7 را ارائه می دهد ، با ..."
     },
     {
-        "title": "apple tv magic best fireplace 299 free cozy window experience",
-        "store": "iosappstore",
-        "url": "https://apps.apple.com/app/magic-best-fireplace/id6746743385",
-        "image_url": "https://external-preview.redd.it/MW-rgkPPlzp5os4VVU93qvzgDX_ai4thox8u2G8uaPs.png?width=640&crop=smart&auto=webp&s=ea45b5d681867a2321d1bdfe4a4026529ea89e2b",
-        "description": "submitted by /u/scorch4907 [link] [comments]",
-        "id_in_db": "t3_1mhaem3",
-        "subreddit": "AppHookup",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u /scorch4907 [لینک] [نظرات]"
-    },
-    {
         "title": "apps kibo ai expense manager 499",
         "store": "googleplay",
         "url": "https://play.google.com/store/apps/details?id=com.kibo.app",
@@ -108,26 +75,52 @@
         "persian_summary": "ارسال شده توسط /u /saulmm [پیوند] [نظرات]"
     },
     {
-        "title": "assassins creed origins",
+        "title": "automate text transformation lifetime 1499",
+        "store": "iosappstore",
+        "url": "https://apps.apple.com/us/app/text-workflow-text-processing/id1623230250",
+        "image_url": "https://external-preview.redd.it/RuEAuLcMktB4EnZykCftlL7WQhMo0X4V6UyFGaCigQ0.png?width=640&crop=smart&auto=webp&s=6235580e2548aaf0f887a57c120c6f66dafca03b",
+        "description": "submitted by /u/gtrigonakis [link] [comments]",
+        "id_in_db": "t3_1mwc2wv",
+        "subreddit": "AppHookup",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u /gtrigonakis [لینک] [نظرات]"
+    },
+    {
+        "title": "call of juarez 199 eur 199 80 off",
         "store": "steam",
-        "url": "https://store.steampowered.com/app/582160/Assassins_Creed_Origins/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3035570/header.jpg?t=1753294133",
-        "description": "THE ULTIMATE ASSASSIN Become the most versatile and resourceful Assassin in franchise history. Parkour seamlessly through the city and leverage the largest assortment of tools to date. Get contracts and upgrades at the Assassin’s bureaus, collect vital clues, and stealthily take down targets with more visceral assassinations than ever before. A TRIBUTE TO AN ORIGINAL Experience a modern take on the iconic features and gameplay that have defined a franchise for 15 years. Journey to Alamut, the legendary home of the Assassins who laid the foundations of the Creed in this heartfelt homage to the game that started it all. AN IMMERSIVE, REACTIVE CITY Explore an incredibly dense and vibrant city whose inhabitants react to your every move. Uncover the secrets of four unique districts, from the industrial Karkh to the lush gardens of the Round City. Discover surprising world events and interact with historical figures that shaped the Golden Age of Baghdad. A POWERFUL COMING-OF-AGE STORY Follow Basim’s journey in this tightly crafted, narrative-driven action-adventure experience. Witness his transformation from a defiant young thief to a Master Assassin as he meets allies, mentors, and foes who shape his destiny.",
-        "id_in_db": "t3_1mv21sf",
+        "url": "https://store.steampowered.com/app/3020/Call_of_Juarez/",
+        "image_url": "https://external-preview.redd.it/PZiK_cTVad4vWHc2zfm84ox34EV00Bi1Q7m6IjQBxz0.jpeg?width=320&crop=smart&auto=webp&s=c1d37a5a5fd33654f64c421aa67f2439dd280e27",
+        "description": "submitted by /u/DsLmaNiaC [link] [comments]",
+        "id_in_db": "t3_1mwxl3y",
         "subreddit": "GameDeals",
         "is_free": false,
-        "discount_text": "90% off",
-        "steam_app_id": "3035570",
+        "discount_text": "80% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u /dslmaniac [لینک] [نظرات]"
+    },
+    {
+        "title": "cartoon survivor",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/3378190/Cartoon_Survivor/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3378190/45e8893e720c7a525f5eceb34b6b6511394bc260/header.jpg?t=1752454251",
+        "description": "Try Cartoon Survivor and play the first three levels for free ! You've run the temple . You've stolen the jetpack . You've crossed the road . Have you got what it takes to survive the biggest challenge ever!?! In Cartoon Survivor , you’ll face off against an unforgiving prehistoric world full of chaotic obstacles and feisty creatures across five worlds! This 3D adventure runner is bursting with vibrant colours, wild action, and creatures of all shapes and sizes. Encounter rampaging dinosaurs and towering mammoths to sneaky tigers and slithering snakes. Every step could be your last, so you’ll need your wits—and some seriously impressive parkour skills—to stay alive! Can you conquer the most insane obstacle courses ever designed and bring the Cartoon Survivors’ ratings back from the brink? Your survival is the only thing standing between this show and total cancellation. Wild, Colourful Worlds : Immerse yourself in a bright, cartoonish prehistoric landscape filled with danger, humour, and thrilling obstacles. Think you’ve seen it all? Think again. Crazy Obstacles : Run, leap, and glide through ever-changing environments and wild courses, each one more intense than the last. Can you make it to the end? Unique Characters : Follow in the clumsy, courageous footsteps of the latest cartoon hero. There's over 40 costumes to unlock and creative power-ups to help you along the way! Dynamic Gameplay : Put your speed and reflexes to the test! Every run is different, collectable trophies in each level designed to keep you on your toes. Cartoon Survivor Base Game Includes: First 3 levels of the Jurassic World for free All costumes and helmets are available to unlock with in-game coins Access all of World 1 and 2 in the Jurassic and Prehisteria DLC",
+        "id_in_db": "t3_1mw7k23",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "3378190",
         "genres": [
-            "Action",
-            "Adventure"
+            "Adventure",
+            "Indie",
+            "Free To Play"
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257060903/movie_max_vp9.webm?t=1728308610",
-        "age_rating": "This is an action-adventure game in which players assume the role of a thief/assassin battling a secret order in ancient Baghdad.",
+        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257120256/movie_max_vp9.webm?t=1744347441",
         "is_dlc_or_addon": false,
-        "persian_summary": "قاتل نهایی تبدیل به همه کاره و باهوش ترین قاتل در تاریخ حق رای دادن می شود. پارکور یکپارچه از طریق شهر و از بزرگترین مجموعه ابزارها تا به امروز بهره می برد. قراردادها و به روزرسانی ها را در دفاتر قاتل دریافت کنید ، سرنخ های حیاتی را جمع آوری کنید و با ترورهای احشایی بیشتر از گذشته اهداف را با ترورهای احشایی تر از بین ببرید. ادای احترام به یک تجربه اصلی یک ویژگی مدرن در مورد ویژگی های نمادین و گیم پلی که 15 سال یک حق رای دادن را تعریف کرده است. سفر به آلاموت ، خانه افسانه ای قاتلان که پایه های این عقیده را در این ادای احترام صمیمانه به بازی که همه آن را آغاز کرده بود ، قرار دادند. یک شهر غوطه ور و واکنشی یک شهر فوق العاده متراکم و پر جنب و جوش را کشف می کند که ساکنان آن به هر حرکتی شما واکنش نشان می دهند. از اسرار چهار منطقه منحصر به فرد ، از کره صنعتی گرفته تا باغهای سرسبز شهر دور ، پرده برداری کنید. وقایع غافلگیرکننده جهان را کشف کرده و با چهره های تاریخی که عصر طلایی بغداد را شکل داده است ، تعامل برقرار کنید. یک داستان قدرتمند در سن ..."
+        "persian_summary": "بازمانده کارتون را امتحان کنید و سه سطح اول را به صورت رایگان بازی کنید! شما معبد را اجرا کرده اید. شما Jetpack را سرقت کرده اید. شما از جاده عبور کرده اید. آیا آنچه را که برای زنده ماندن از بزرگترین چالش تا کنون لازم است!؟! در بازمانده کارتونی ، شما در برابر دنیای نابخشودنی پیش از تاریخ پر از موانع هرج و مرج و موجودات بی پروا در پنج جهان روبرو خواهید شد! این دونده ماجراجویی سه بعدی با رنگهای پر جنب و جوش ، عمل وحشی و موجودات از هر شکل و اندازه در حال ترکیدن است. مواجهه با دایناسورها و ماموتهای برجسته برای ببرهای دزدکی و مارهای چرمی. هر مرحله می تواند آخرین شما باشد ، بنابراین به عقل خود - و برخی از مهارت های جدی پارکور - نیاز دارید تا زنده بمانید! آیا می توانید مجنون ترین دوره های مانع را که تاکنون طراحی شده است فتح کنید و رتبه های بازماندگان کارتون را از آستانه بازگردانید؟ بقای شما تنها چیزی است که بین این نمایش و لغو کامل ایستاده است. دنیای وحشی و رنگارنگ: خود را در یک منظره ماقبل تاریخ روشن و کارتونی پر از خطر ، طنز ، غوطه ور کنید ..."
     },
     {
         "title": "configured options for youtube facebook twitter instagram linkedin reddit google search and whatsapp web",
@@ -141,6 +134,19 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u /singhvistaar [پیوند] [نظرات]"
+    },
+    {
+        "title": "contact 18 neko hentai girl neko hentai girl",
+        "store": "other",
+        "url": "https://www.reddit.com/r/GameDeals/comments/1mwl5a9/steam_hentai_girls_lust_18_18320_off_hentai_girls/",
+        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1720560/capsule_616x353.jpg?t=1741789416",
+        "description": "Game Price Discount Hentai Girls: Lust [18+] $1.83 20% Hentai Girls: The Princesses $1.59 20% Hentai Girls: Contact [18+] $1.83 20% Neko Hentai Girl $0.92 20% Neko Hentai Girl: Beach Match-3 $0.92 20% Hentai Girls - Anime Puzzle 18+ $0.92 20% submitted by /u/iDotaUSA [link] [comments]",
+        "id_in_db": "t3_1mwl5a9",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "20% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "تخفیف قیمت بازی دختران: شهوت [18+] 1.83 $ 20 ٪ HENTAI دختران: شاهزاده خانم ها 1.59 $ 20 ٪ Hentai دختران: تماس با [18+] 1.83 $ 20 ٪ Neko Hentai دختر 0.92 $ 0.92 20 ٪ Neko Hentai Girl: Beach Match -0.92 $ 20 ٪ Hentai Girls - Anime Puzzer 18+ $ 0.92 $ 0.92 $ 0.92 $ 0.92 $"
     },
     {
         "title": "cricket jaes really peculiar game",
@@ -173,7 +179,7 @@
         "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": "100% Off",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/616250/capsule_616x353.jpg?t=1709309527",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/1d/dd/59/1ddd59bc-b8f0-74f9-aa23-7fc65c0debfc/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
         "is_dlc_or_addon": false,
         "persian_summary": "",
         "description": ""
@@ -190,19 +196,6 @@
         "discount_text": "39% off",
         "is_dlc_or_addon": false,
         "persian_summary": "با 36-39 ٪ تخفیف یک مشت یانکی دریافت کنید. فقط زمان محدود! اتحادیه اروپا - 39 ٪ تخفیف. en - 36 ٪ تخفیف. ایالات متحده - 36 ٪ تخفیف. ارسال شده توسط /u /dlgamerstaff [لینک] [نظرات]"
-    },
-    {
-        "title": "dlgamer warhammer 40000",
-        "store": "other",
-        "url": "https://www.reddit.com/r/GameDeals/comments/1mubxy8/dlgamer_warhammer_40000_dawn_of_war_definitive/",
-        "image_url": "https://4kwallpapers.com/images/wallpapers/warhammer-40k-1920x1080-9174.jpg",
-        "description": "Get Warhammer 40,000: Dawn of War - Definitive Edition at 26-28% Off. Limited time only! EU - 28% Off . EN - 26% Off . US - 26% Off . submitted by /u/dlgamerstaff [link] [comments]",
-        "id_in_db": "t3_1mubxy8",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "28% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "دریافت Warhammer 40،000: Dawn of War - نسخه قطعی با 26-28 ٪ تخفیف. فقط زمان محدود! اتحادیه اروپا - 28 ٪ تخفیف. en - 26 ٪ تخفیف. ایالات متحده - 26 ٪ تخفیف. ارسال شده توسط /u /dlgamerstaff [لینک] [نظرات]"
     },
     {
         "title": "doctor strange master of black magic costume",
@@ -227,26 +220,27 @@
         "persian_summary": "پرده از داستان حماسی قبل از فروشنده شماره 1 ، Agarest: نسل های جنگ به دنبال داغ روی پاشنه شماره 1 فروش حماسه SRPG \"Agarest: Generations of War\" ، Ghostlight مفتخر است که \"Agarest\" خود را اعلام کند: نسل های جنگ صفر \"به ارمغان می آورد که ترکیبی از جذابیت از استراتژی عمیق و Epic Multi-Greation! ... از خلاء ، خدایان تاریکی و نور آگارست ، کاملترین و الهی ترین جهان را ایجاد کردند. با گذشت نسل ها ، بهشت ​​با ناراحتی به ویروس های زمان افتاد. جنگ آسمان را تاریک کرد و Agarest به زودی به جهنم شکنجه گر تبدیل شد زیرا خدایان تقسیم و عظیم درگیری کردند و سرزمین زیبایی را هدر دادند ... پس از سالها با جنگ در بن بست ، سیغارت ، یک افسر جوان وفادار به ارتش های نور ، از کوههای زخمی شده در یک مأموریت خطرناک عبور می کند. در آنجا ، او با یک دختر عجیب ملاقات می کند و ناآگاهانه سرنوشت جهان را برای همیشه تغییر می دهد. در حالی که با بیش از 80 ساعت در یک قانع کننده و ..."
     },
     {
-        "title": "epic games mobile hidden folks",
+        "title": "epic games mobile strange horticulture",
         "store": "epicgames",
-        "url": "https://www.reddit.com/r/FreeGameFindings/comments/1mq39k2/epic_games_mobile_game_hidden_folks/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1836730/header.jpg?t=1747232703",
-        "description": "From the team that brought you Severed Steel, dive into a vast open-world FPS designed for both solo and 4-player cooperative play! You play as an explorer with exceptional combat skills who crash-lands on a mysterious planet. This planet is dominated by a ruthless mercenary force exploiting ancient technology to craft devastating weapons. Pursue the main quest to dismantle their operations, or explore the world at your own pace! Explore a Seamless Open World Every distant vista is within reach. Traverse a completely seamless world using your grapple hook, hoverboard, and a variety of unlockable powers. Epic Battles and Colossal Bosses Embark on a main quest to encounter towering colossi or stumble upon these foes during your explorations. Battle against diverse enemy classes such as pyromancers launching area attacks, elusive sappers planting turrets, and helicopters raining down rockets. Flexible Singleplayer and Co-op Gameplay Jump into cooperative play from the start with no mandatory tutorials. Progress on the same save whether in solo or co-op mode, and tailor individual difficulty settings within the same multiplayer session. Note: Co-op play is supported through Steam Friends invites (random matchmaking is not available). Unlock Secrets and Power-Ups Echo Point Nova is filled with hidden weapons, character enhancements, and stylish cosmetics. Collect agility orbs to enhance your mobility, and unlock weapon attachments by racking up kills. An Accessible Game Echo Point Nova's default settings and recommended difficulty are pretty hard core! But there's loads of options for all players to set things up the way they like. A Growing Game Our last game, Severed Steel, received new game modes, weapons, maps, and more for many months after launch. We pay lots of attention to our community and plan on a steady flow of content, quality of life improvements, and gameplay tweaks. Join our Discord or post in the Steam community to get in on the action!",
-        "id_in_db": "t3_1mq39k2",
+        "url": "https://www.reddit.com/r/FreeGameFindings/comments/1mwdw8j/epic_games_mobile_game_strange_horticulture/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391730/header.jpg?t=1744298392",
+        "description": "TIME Magazine Top 10 Games of 2016 \"Usually I can say what a game IS and be done, but it's hard to figure out what Crashlands ISN'T. It's a funny, crafty, fighty, jumpy, makey, adventurey, type... thing. I think they started making a cool game and just couldn't stop. \" - Tycho, Penny Arcade Crash land and craft, battle, and quest your way through this story-driven Crafting ARPG overflowing with sass! Become Flux Dabes, a galactic trucker whose latest shipment gets derailed by a chin-strapped alien menace named Hewgodooko, leaving you stranded on an alien planet. As you hustle to retrieve your packages you’ll become enmeshed in a nefarious plot of world domination, which will require all of your wits and both of your glutes to overcome. Learn recipes from the local sentient life, make new friends, uncover ancient secrets and deadly bosses, tame everything and build yourself a home-away-from-home as you learn to thrive after crash landing on planet Woanope. Player 2 can now play as Juicebox! Juicebox's S.T.R.A.W.™ not only harvests resources but also brings additional firepower to the battlefield. But watch out, the enemies are gonna try to kick his robotic butt too now! But Juicebox has a few special moves up his mechanical sleeves... Happy Juiceboxing with your friend! Key Features Expansive Crafting System Unlock over 500 craftable items as you explore the world and learn its secrets! Self-managing, Infinite Inventory Your inventory is infinite, manages itself, and retrieves your tools when you need them, so you can focus on adventuring, questing, and building. You'll never dig through your bag or return to your base to free up inventory space - giving you more time to thrive after crash landing! RPG-Style Character Progression Become more powerful through creating ever-more-amazing items! As you grow in power, you can venture to new regions of the world, meet strange characters, discover new stories, and encounter new and interesting enemies. Skill-Based Combat Learn the attacks of the enemies you encounter, and use your skill, agility, and wits to defeat them! You can even augment your fighting prowess with the power of the dozens of gadgets you can craft. Set your enemies on fire, stun them, slow down time, and more! Intuitive Base Building Building a base in Crashlands is so simple it feels like fingerpainting. You can create beautiful, sprawling bases in minutes! Tameable Creatures Every creature in Crashlands can become a trusty combat sidekick. Find an egg, incubate it, and hatch your very own adorable or hideous bundle of joy. You can even craft special items to grow and empower them! Huge World... with Huge Problems Crash land on a planet with four sentient races, three continents, an epic bid for the future of the planet, and you - trapped in the middle, trying to deliver your freakin' packages. Take your time to dive into the sidestories of the characters you meet or just rush headlong into making that special delivery. With hundreds upon hundreds of quests, there's a lot to do and discover on planet Woanope! Crossplatforminess Don't want the fun to stop? Crashlands is also available on mobile - the exact same game, with your cloud-synced progress - so you never have to stop!",
+        "id_in_db": "t3_1mwdw8j",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "1836730",
+        "steam_app_id": "391730",
         "genres": [
             "Action",
             "Adventure",
-            "Indie"
+            "Indie",
+            "RPG"
         ],
         "is_multiplayer": true,
-        "is_online": true,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257057744/movie_max_vp9.webm?t=1727186410",
+        "is_online": false,
+        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256659954/movie_max.webm?t=1453381111",
         "is_dlc_or_addon": false,
-        "persian_summary": "از تیمی که فولاد را قطع کرده است ، به یک FPS گسترده در دنیای باز که برای بازی انفرادی و 4 نفره تعاونی طراحی شده است ، شیرجه بزنید! شما به عنوان یک اکسپلورر با مهارت های جنگی استثنایی بازی می کنید که زمین های سیاره ای مرموز را سقوط می کند. این سیاره تحت سلطه یک نیروی مزدور بی رحمانه است که از فناوری باستانی برای تهیه سلاح های ویرانگر استفاده می کند. تلاش اصلی برای از بین بردن عملیات آنها یا کشف جهان با سرعت خود را دنبال کنید! یک دنیای باز یکپارچه را کاوش کنید که هر ویستا دوردست در دسترس است. با استفاده از قلاب ، هوور بورد و انواع قدرتهای قابل باز کردن ، دنیای کاملاً یکپارچه را طی کنید. نبردهای حماسی و کارفرمایان عظیم در تلاش اصلی برای مواجهه با کلوسی برجسته یا برخاستن از این دشمنان در طی کاوش های شما قرار می گیرند. نبرد با کلاسهای متنوع دشمن مانند پیرومانسانس که حملات منطقه را پرتاب می کنند ، ساپرهای گریزان که برج ها را کاشت می کنند و هلیکوپترها باران می بارد. تک نفره انعطاف پذیر و گیم پلی تعاونی از ابتدا با هیچ ..."
+        "persian_summary": "مجله تایم 10 بازی برتر سال 2016 \"معمولاً می توانم بگویم که یک بازی چیست و انجام می شود ، اما می توان فهمید که Crashlands چه چیزی نیست. این یک خنده دار ، حیله گر ، مبارز ، پرشور ، Makey ، Type ... چیز است. فکر می کنم آنها شروع به ساختن یک بازی جالب کردند و فقط نمی توانند متوقف شوند.\" تبدیل به Flux dabes ، یک کامیون کهکشانی که آخرین محموله آن توسط یک تهدید بیگانه چانه به نام Hewgodooko از بین می رود و شما را در سیاره ای بیگانه قرار می دهد. هنگامی که برای بازیابی بسته های خود عجله می کنید ، در یک نقشه ناعادلانه از سلطه جهانیان گنجانیده خواهید شد ، که برای غلبه بر همه عقل و هر دو گلوت شما نیاز دارد. دستور العمل های زندگی احساساتی محلی را بیاموزید ، دوستان جدیدی بسازید ، از اسرار باستانی و کارفرمایان کشنده پرده بردارید ، همه چیز را لکه دار کنید و خود را به خانه بسازید و از خانه خارج شوید ، زیرا یاد می گیرید پس از سقوط در سیاره Woanope ، شکوفا شوید. بازیکن 2 اکنون می تواند به عنوان ..."
     },
     {
         "title": "ethereal enigma visual novel",
@@ -275,30 +269,39 @@
         "persian_summary": "برای افزایش دید ، موضوعات مگا به صورت هفتگی ارسال می شوند. این کار پس از بحث کلی موضوعات مگا از طریق بروزرسانی FGF انجام می شود - https://redd.it/jkxyzw لطفاً از موضوعات زیر برای پست های خود استفاده کنید. :) Giveaways Mega Thread (شماره 2) Thread Mega Itchio (#10) آیا می خواهید هشدارهایی را برای این موضوعات تنظیم کنید؟ اطلاعات خوراک RSS را می توان در ویکی ما یافت! https://www.reddit.com/r/freegamefindings/wiki/rssfeed شامل اطلاعات مربوط به ربات Discord و General RSS Feed است. قطعاً به آن نگاه کنید! ارسال شده توسط /u /automoderator [پیوند] [نظرات]"
     },
     {
-        "title": "expedition 33 3925 3751 c5189 with code cheers",
+        "title": "expedition 33 349930 off with code epev2z22",
         "store": "other",
-        "url": "https://store.playsum.live/product/f2d66472-06f6-494a-92ad-c756608ade5f/clair-obscur-expedition-33",
-        "image_url": "https://external-preview.redd.it/nc4sVCCdp-vnXCQCrQVSBvuNouHKJML44yJxddhhZ-w.jpeg?width=640&crop=smart&auto=webp&s=11192ca2734e36c6e6c8d90ef00a67309e66e5dc",
-        "description": "submitted by /u/Lets_Playsum [link] [comments]",
-        "id_in_db": "t3_1muvoio",
+        "url": "https://www.newegg.com/kepler-interactive-clair-obscur-expedition-33-pre-order-pc/p/N82E16832425034?Item=N82E16832425034",
+        "image_url": "https://c1.neweggimages.com/ProductImage/32-425-034-01.jpg",
+        "description": "submitted by /u/melonbear [link] [comments]",
+        "id_in_db": "t3_1mw4od2",
         "subreddit": "GameDeals",
         "is_free": false,
-        "discount_text": "21% off",
+        "discount_text": "30% off",
         "is_dlc_or_addon": true,
-        "persian_summary": "ارسال شده توسط /u /lets_playsum [لینک] [نظرات]"
+        "persian_summary": "ارسال شده توسط /u /melonbear [پیوند] [نظرات]"
     },
     {
-        "title": "farewell edition 299 289 c413 with code cheers",
-        "store": "other",
-        "url": "https://store.playsum.live/product/98535a7a-5aa8-5e53-a971-8d1f03bf8360/spiritfarer-farewell-edition",
-        "image_url": "https://external-preview.redd.it/rDluVvu7PB9Ft68G1ao7J4J3Q0spfjoXA5n7W3ia22I.jpeg?width=320&crop=smart&auto=webp&s=8faa26d4144e8e269b464c97e3150731361021be",
-        "description": "submitted by /u/Lets_Playsum [link] [comments]",
-        "id_in_db": "t3_1mtxpcb",
+        "title": "fanatical ninja gaiden master collection",
+        "store": "fanatical",
+        "url": "https://www.fanatical.com/en/game/ninja-gaiden-master-collection-ninja-gaiden-2",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1580790/header.jpg?t=1751503462",
+        "description": "Note: This product is included in \"NINJA GAIDEN: Master Collection\", and \"NINJA GAIDEN: Master Collection Deluxe Edition\". It is not available for individual purchase. Note: Please visit the official website for more information on the featured content. [About NINJA GAIDEN: Master Collection] Enjoy 3 games from the NINJA GAIDEN series in this one title. Each title is still just as fun as you remember while providing the same high speed action of the original releases. Look forward to heated battles with fearsome opponents! In addition to Ryu Hayabusa, 4 other characters, Ayane, Rachel, Momiji, and Kasumi, are also playable. You can create a tag team with your favorite characters and freely swap out the playable character during battles. ※The heroines included in this title are the same as the original versions. In addition, the characters that are playable and scenes (modes) vary for each title. All of the previously released game modes and DLC costumes for each title are included in this one set. In addition to Ryu Hayabusa, each of the other characters also have many different costumes to choose from, allowing you to enjoy action packed battles in whichever outfit you prefer. ■Included Titles NINJA GAIDEN Σ NINJA GAIDEN Σ2 NINJA GAIDEN 3: Razor's Edge ※Online multiplayer is not available for the “TAG MISSIONS” in NINJA GAIDEN Σ2. ※The “Shadow of the world” “Clan battle” for NINJA GAIDEN 3 Razer's Edge is not included. Online multiplayer is not available for “ninja trials”. ※\"NINJA GAIDEN Σ2\" and \"NINJA GAIDEN 3: Razor's Edge\" are also available in Traditional Chinese. [About NINJA GAIDEN Σ] In addition to being able to pull off unmatched dazzling techniques with \"Ryu Hayabusa\", a young ninja who has inherited the ninja arts of the Hayabusa style, with beautiful stages in a westernized Japan embellished with spirit-world motifs, and more, the game is packed with features that are a must-play for any fan of action games. ■The epic story can easily be enjoyed with \"Hero Mode\" When you select the difficulty setting \"Hero Mode\", Hero Mode is triggered when your health becomes low. With Hero Mode, you will guard and evade automatically, and can unleash ninpo as much as you want. Even casual action gamers will be able to feel the heroic thrill of escaping a pinch to turn the tables on the enemy and advance the game. Needless to say, difficulty modes that will satisfy hard-core gamers are also included. [About NINJA GAIDEN Σ2] Become Ryu Hayabusa, the ninja who inherited the \"Dragon Sword\", a legendary blade, and once again experience high-speed ninja action in which you face battles all over the world. The game is also packed with additional features such as \"Hero Mode\", a mode in which the player will guard automatically when they are in a pinch. ■In \"NINJA RACE\", life or death depends on speed \"NINJA RACE\" is a mode in which you must race across the map within the time limit while fighting high-speed battles. In this mode, the number of enemies you defeat in succession is counted as your \"CHAIN\", and by stringing together a high chain, your attack power will increase dramatically. Also, you can pick up speed-up and time increasing items along the way, so attacking non-stop, defeating enemies as fast as possible, and gathering items will be essential to your strategy. ■Along with Hayabusa, 3 heroines dazzlingly dash about the battlefield Heroines from the \"NINJA GAIDEN\" series, \"Ayane\", \"Rachel\", and \"Momiji\" appear as playable characters. With \"TAG MISSIONS\", players can select 2 characters from among Hayabusa and the 3 heroines, allowing them to switch between 2 playable characters as they complete their mission. [About NINJA GAIDEN 3: Razor's Edge] The ultimate high-speed ninja action has returned! The game offers both extreme \"challenge\", along with an equally extreme \"sense of accomplishment\". Experience the series' most alluring high-speed action. ■In addition to Ryu Hayabusa, Ayane, Kasumi, and Momiji join the battle! In addition to main character \"Ryu Hayabusa\", the 3 female ninjas \"Ayane\", \"Kasumi\", and \"Momiji\" can be used as playable characters. And they aren't limited to just the \"Chapter Challenge\" story missions - the 3 characters can also be used in \"NINJA TRIALS\". Also, \"NINJA GAIDEN\" series heroine Ayane has a dedicated story. ■Thrilling battles where you must be constantly alert \"Tests of Valor\", a special phase for series fans who want to enjoy battles even further, have been included. In each chapter, there are hidden skulls that serve as gates to \"Test of Valor\" areas. By stepping foot onto these areas, battles will occur where players must face the fiercest and strongest enemies from the \"NINJA GAIDEN\" series. ■Upgrading characters adds more replay value! By collecting hidden \"Golden Scarabs\", using \"Karma\" collected in battles, and more, players can unlock new weapons and ninpo to upgrade their characters. Of course, upgrades you have applied can be carried over for 2nd and successive playthroughs. Among moves that can be unlocked, there are moves that are new to the series, such as \"Cicada Surge\", which allows you to dodge any enemy attack, \"Meditation\", which allows you to consume your Ki gauge to recover health, and more.",
+        "id_in_db": "t3_1mwdehy",
         "subreddit": "GameDeals",
         "is_free": false,
-        "discount_text": "90% off",
+        "discount_text": "58% off",
+        "steam_app_id": "1580790",
+        "genres": [
+            "Action",
+            "Adventure"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256838153/movie_max_vp9.webm?t=1683696429",
+        "age_rating": "This Game may contain content not appropriate for all ages, or may not be appropriate for viewing at work: Frequent Violence or Gore",
         "is_dlc_or_addon": true,
-        "persian_summary": "ارسال شده توسط /u /lets_playsum [لینک] [نظرات]"
+        "persian_summary": "توجه: این محصول در \"Ninja Gaiden: Master Collection\" و \"Ninja Gaiden: Master Collection Deluxe Edition\" گنجانده شده است. برای خرید فردی در دسترس نیست. توجه: لطفاً برای اطلاعات بیشتر در مورد محتوای برجسته به وب سایت رسمی مراجعه کنید. [درباره Ninja Gaiden: Master Collection] از 3 بازی از سری Ninja Gaiden در این عنوان لذت ببرید. هر عنوان هنوز هم به همان اندازه سرگرم کننده است که به یاد می آورید در حالی که همان عملکرد سرعت بالا نسخه های اصلی را ارائه می دهید. منتظر نبردهای گرم با مخالفان ترسناک باشید! علاوه بر Ryu Hayabusa ، 4 شخصیت دیگر ، Ayane ، Rachel ، Momiji و Kasumi نیز قابل پخش هستند. شما می توانید با شخصیت های مورد علاقه خود یک تیم برچسب ایجاد کنید و شخصیت قابل پخش را در حین نبرد آزاد کنید. ※ قهرمانان موجود در این عنوان همان نسخه های اصلی هستند. علاوه بر این ، شخصیت هایی که قابل پخش هستند و صحنه ها (حالت ها) برای هر عنوان متفاوت هستند. تمام حالت های بازی که قبلاً منتشر شده و لباس های DLC برای هر عنوان در ... گنجانده شده اند ..."
     },
     {
         "title": "free daily learning app word book film song fact artwork of the day etc",
@@ -312,19 +315,6 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "سلام r/apphookup! من فقط روز را به روز کردم: برنامه یادگیری روزانه من برای iOS که به شما کمک می کند هر روز 23 چیز جدید جذاب را کشف کنید. من آن را برای ذهن های کنجکاو که می خواهند روشی سریع ، سرگرم کننده و معنی دار برای یادگیری چیز جدید ایجاد کنم. از کلمات ، حقایق ، آهنگ ها ، تاریخ گرفته تا دستور العمل ها ، حیوانات خانگی ، آزمونها و موارد دیگر. برای جشن گرفتن ، من نسخه کامل حرفه ای را برای 24 ساعت آینده (به طور معمول 29.99 دلار) رایگان می کنم. چرا روز؟ 📚 23 رده روزانه - از Word of the Day ، در این روز در تاریخ ، و مسابقه روزانه برای رزرو ، فیلم ، دستور العمل ، آهنگ و حیوان خانگی شایان ستایش روز. leaving یادگیری به اندازه نیش - بکشید و در عرض چند دقیقه چیز جدیدی یاد بگیرید. the موارد مورد علاقه خود را برای بازنگری در هر زمان ذخیره کنید. 🐶 بهشت ​​حیوان خانگی - روزانه با سگ ها و گربه های جدید ملاقات کنید ، با حقایق سرگرم کننده اوه و ارسال خود را!. 🎨 رابط تمیز و بصری با ابزارک ها برای یادگیری سریع. 💡 هرگز یادگیری را متوقف نکنید - محتوای جدید هر روز. آنچه من به دنبال آن هستم: بازخورد در مورد قابلیت استفاده ، طراحی یا هر چیزی که می تواند نرم تر باشد. پیشنهادات روزانه جدید ..."
-    },
-    {
-        "title": "free fishing forecast planner",
-        "store": "iosappstore",
-        "url": "https://apps.apple.com/ua/app/fishix-fishing-log-app/id6639620351",
-        "image_url": "https://external-preview.redd.it/kwtHoGDsJLaClvSjqWTIQlycm8WoWwI1MFX4YsT6AgM.png?width=640&crop=smart&auto=webp&s=d359f421d4bb0a17f8758f22e4a0fa03a9aa2059",
-        "description": "submitted by /u/Sufficient_Trade895 [link] [comments]",
-        "id_in_db": "t3_1mfkj7k",
-        "subreddit": "AppHookup",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u /کافی_ trade895 [لینک] [نظرات]"
     },
     {
         "title": "free privacy first offline transcription app with live and file transcription features in multiple languages",
@@ -353,19 +343,6 @@
         "persian_summary": "ارسال شده توسط /u /singhvistaar [پیوند] [نظرات]"
     },
     {
-        "title": "frontiers of pandora xbox series x bjs membership required",
-        "store": "other",
-        "url": "https://www.bjs.com/product/avatar-frontiers-of-pandora-standard-edition-xbox-series-x/3000000000004770293/",
-        "image_url": "https://external-preview.redd.it/6ZbFwYNTmoyTirLLTQrDeXLCbO51Pq7KSrc_5Pu5ZjM.jpeg?width=320&crop=smart&auto=webp&s=011c81b9afd06d9ea25a240e5b51db68dcb31d4b",
-        "description": "submitted by /u/social_gamer [link] [comments]",
-        "id_in_db": "t3_1mu5wsy",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "85% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u /social_gamer [پیوند] [نظرات]"
-    },
-    {
         "title": "game club waka",
         "store": "indiegala",
         "url": "https://freebies.indiegala.com/game-club-waka-waka",
@@ -387,6 +364,19 @@
         "trailer": "http://video.akamai.steamstatic.com/store_trailers/256747092/movie_max.webm?t=1554406343",
         "is_dlc_or_addon": false,
         "persian_summary": "احتمالاً هر نوجوان می خواست باشگاه رایانه ای خود را داشته باشد - تمام روز بازی کنید ، دوستان جدیدی پیدا کنید ، در مورد دستاوردهای بازی لاف بزنید. و اکنون این رویا به واقعیت تبدیل شده است! در باشگاه بازی \"Waka Waka\" می توانید مانند صاحب باشگاه بازی خود احساس کنید! از شما خواسته می شود باشگاه خود را از یک جعبه ساده و تلویزیون های قدیمی به حالت رایانه های هنری توسعه دهید! مطمئن شوید که هیچ چیز شکسته نشده است ، زیرا اگر کنسول درخشان باشد ، به زودی می سوزد! ویژگی های بازی: 22 دستگاه بازی مختلف موسیقی شامل 28 بازی مختلف 8 بیتی Melodies Machinery Breakdowns Progress Memories Fond"
+    },
+    {
+        "title": "game devs of color support bundle 107 items for 10 the letter",
+        "store": "itch.io",
+        "url": "https://itch.io/b/3171/game-devs-of-color-support-bundle",
+        "image_url": "https://img.itch.zone/aW1nLzIyMzcyODQ4LmpwZw==/original/T8Wdwl.jpg",
+        "description": "submitted by /u/techiekent [link] [comments]",
+        "id_in_db": "t3_1mwg2vi",
+        "subreddit": "GameDeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u /techiekent [لینک] [نظرات]"
     },
     {
         "title": "gamebillet pga tour 2k25",
@@ -480,28 +470,6 @@
         "persian_summary": "ارسال شده توسط /u /ikbdkblog [پیوند] [نظرات]"
     },
     {
-        "title": "Hidden Folks",
-        "id_in_db": "hidden-folks@1755185906",
-        "store": "other",
-        "url": "https://itad.link/01988531-1e4f-7155-9cfd-e14d72d2bf7f/",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "435400",
-        "description": "Search for hidden folks in hand-drawn, interactive, miniature landscapes. Unfurl tent flaps, cut through bushes, slam doors, and poke some crocodiles! Rooooaaaarrrr!!!!! A strip of targets shows you what to look for. Click on a target for a hint, and find enough to unlock the next area. ------/ Game Features /------ - 32 hand-drawn areas - 300+ targets to find - 2000+ mouth-originated sound effects - 500+ unique interactions - 3 color modes: normal, sepia, and night mode - Steam Cloud integration - 8 Achievements - 8 Steam Trading Cards - 22 languages (translated by the community) ------/ Need help? /------ You can always email game designer Adriaan de Jongh: support@hiddenfolks.com",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/435400/header.jpg?t=1726589872",
-        "genres": [
-            "Adventure",
-            "Casual",
-            "Indie"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256731247/movie_max.webm?t=1540365287",
-        "is_dlc_or_addon": false,
-        "subreddit": "FreeGameFindings",
-        "persian_summary": "جستجوی افراد پنهان در مناظر کشیده ، تعاملی و مینیاتوری. فلپ های چادر ناخوشایند ، بریده شده در بوته ها ، درهای اسلامی و برخی از تمساح ها! rooooaaaarrrrrt !!!!! نوار اهداف به شما نشان می دهد که چه چیزی را جستجو کنید. برای یک اشاره روی یک هدف کلیک کنید و به اندازه کافی برای باز کردن قسمت بعدی پیدا کنید. ------/ ویژگی های بازی/ -------32 مناطق دستی دستی-300+ هدف برای یافتن-2000+ جلوه های صوتی با دهان و دندان-500+ تعامل منحصر به فرد-3 حالت رنگی: حالت عادی ، سپیا و شب-ادغام ابر بخار-8 دستاورد-8 کارت تجارت بخار-22 زبان (ترجمه شده توسط جامعه) -----/ نیاز به کمک دارید؟ /------ شما همیشه می توانید طراح بازی Adriaan de Jongh: support@hiddenfolks.com ایمیل کنید"
-    },
-    {
         "title": "ios fastzen 499 to free for 48h clean modern intermittent fasting tracker for those who want a focused distraction",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/fastzen-intermittent-fasting/id6744087602",
@@ -580,6 +548,19 @@
         "persian_summary": "سلام فقط به روز شده: Beastinterval - تایمر نهایی HIIT برای iOS! من این برنامه را به عنوان یک indie dev ساختم تا به هر کسی که تمرینات HIIT ، مدار یا emom را انجام می دهد ، متمرکز شود ، پیشرفت کند و با گذشت زمان انگیزه بماند. برای تجلیل از انتقال از مدل اشتراک به یک بار خرید ، من پیشنهاد تبلیغاتی را اجرا می کنم ، فقط نسخه حرفه ای را به صورت رایگان بگیرید! چرا BeastInterval؟ 🔥 18 برنامه آماده برای رفتن (سلام ، emom ، tabata و موارد دیگر) ⚙ تنظیم تایمر سفارشی (حداکثر 5:59 فعال/استراحت و 30 دور) نمودار عملکرد 7 روزه-تاریخچه کامل تمرین-رگه ها و دستاوردهای شما را در مسیر نگه داشتن ، بدون استفاده از رابط من به دنبال آنچه که من به دنبال آن هستم ، بدون هیچ گونه بازخورد در مورد برنامه بازخورد است. پیشنهادات برای ویژگی های جدید یا پیشرفت ها! افکار عمومی در مورد تجربه خود با استفاده از برنامه. قیمت منظم: FreeIAP - نسخه 4.99 $ Pro اکنون به مدت 2 روز رایگان است که من می خواهم بازخورد شما را دوست داشته باشم - هر پشتیبانی از این به معنای جهان به یک انفرادی DevThanks برای کمک به رشد indie dev ..."
     },
     {
+        "title": "itch cereal 50 off 050",
+        "store": "itch.io",
+        "url": "https://tgtstudio.itch.io/cerealupdated",
+        "image_url": "https://external-preview.redd.it/lNRO8EkeaKzzKIUg7nheabL-oBFrzUI5SsfBFFwa3WU.png?width=640&crop=smart&auto=webp&s=af7a6541ed5964e2ac1a1eb74211aca64157fa7e",
+        "description": "submitted by /u/WheelOk525 [link] [comments]",
+        "id_in_db": "t3_1mwt8i7",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "50% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u /wheelok525 [پیوند] [نظرات]"
+    },
+    {
         "title": "journey to alien worlds",
         "store": "other",
         "url": "https://givee.club/en/event/1083",
@@ -601,6 +582,53 @@
         "trailer": "http://video.akamai.steamstatic.com/store_trailers/256683744/movie_max.webm?t=1493348362",
         "is_dlc_or_addon": false,
         "persian_summary": "** اطلاعات بیشتری در مورد فضاپیمای کاسینی کسب کنید و شاهد مأموریت نهایی باشید ، که در آن کاسینی به کیوان فرو می رود و بخشی از خود سیاره می شود ، همه در واقعیت مجازی. ** با این تجربه واقعیت مجازی ، شما دیگر نیازی به یک فضای فله ای برای سفر به فضای بیرونی و زمین روی سیارات ، ماهواره ها یا دنباله دارها در منظومه شمسی ما ندارید. اکنون می توانید تجربه کنید که چگونه می توانید روی سطح این بدن بایستید ، مناظر شگفت انگیز را در آنجا مشاهده کنید و درک بهتری از تفاوت های این بدن های آسمانی و زمین داشته باشید. شما همچنین می توانید در کاوش در فضای بیرونی ، دستاوردهای بزرگ بشر را شاهد باشید و با لکنترها و کاوشگرهای مورد استفاده و طرح های آنها آشنا شوید. در حال حاضر می توانید دیدگاه های زیر را تجربه کنید: 1) ماه و ماژول قمری آپولو 2) زهره و ونورا 7 3) مریخ و کنجکاوی روور 4) کاوشگر تیتان و هویگن 5) دنباله دار 67P ، کاوشگر روزتا و Philae Lander 6) کیوان و ارکری کاسینی محتوای بیشتر در ..."
+    },
+    {
+        "title": "Kamaeru",
+        "id_in_db": "kamaeru@1755789292",
+        "store": "other",
+        "url": "https://itad.link/019391eb-9f02-725d-ba2e-ae0be78ef053/",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "1978150",
+        "description": "Kamaeru is a cozy frog collecting game about farming and preserving nature. You play as a kind soul helping an old friend restore the wetlands of your childhood by transforming them into a safe haven for friendly little frogs. With the help of the game’s cast of welcoming NPCs, you will photograph and breed frogs to increase your reputation, decorate your frog refuge, and plant native crops to help your amphibian abode thrive! Collect frogs 🐸 Feed, breed, collect, and raise all of the game’s 500+ frogs! 🐸 It’s up to you to figure out the secret to attracting new and adorable frogs. You can complete your collection by unlocking all the rare colors through a special breeding mini-game. When new ones join your refuge, use the in-game camera to take photos of them and collect them for your frogedex! Restore the wetlands 🌾 In order to succeed in your quest for frog preservation, you will need to restore the nearby wetlands to their former glory. This will allow you to continually support and cultivate the area through a process known as paludiculture! Dig ponds to let water roam the land again and plant native wetlands species to harvest precious crops. From there, you can transform your pickings into manufactured goods that can be sold to improve your froggy habitat further! Customize your frog refuge 🎨 New furniture will bring new frogs with it! As you personalize your habitat, new poses of frogs will be shown into specific kinds of furniture. Plus, it’ll attract attention to the area–and with it, new visitors! You can even repaint furniture to better fit your own unique style sensibilities.",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1978150/header.jpg?t=1745518335",
+        "genres": [
+            "Casual",
+            "Simulation"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257028619/movie_max_vp9.webm?t=1717877628",
+        "is_dlc_or_addon": false,
+        "subreddit": "FreeGameFindings",
+        "persian_summary": "Kamaeru یک قورباغه دنج است که در مورد کشاورزی و حفظ طبیعت جمع آوری می کند. شما به عنوان یک روح مهربان بازی می کنید و به یک دوست قدیمی کمک می کند تا با تبدیل آنها به یک پناهگاه امن برای قورباغه های کوچک دوستانه ، تالابهای کودکی خود را بازگرداند. با کمک بازیگران بازی از استقبال از NPC ها ، برای افزایش شهرت ، تزئین پناهگاه قورباغه خود و کاشت محصولات بومی خود ، از قورباغه های قورباغه خود عکس می گیرید و پرورش می دهید تا به زندگی دوزیستان کمک کنید! قورباغه ها را جمع آوری کنید 🐸 خوراک ، پرورش ، جمع آوری و جمع آوری همه قورباغه های 500+ بازی! 🐸 این وظیفه شماست که راز جذب قورباغه های جدید و شایان ستایش را بفهمید. شما می توانید مجموعه خود را با باز کردن تمام رنگ های نادر از طریق یک مینی بازی مخصوص پرورش تکمیل کنید. هنگامی که افراد جدید به پناهگاه شما می پیوندند ، از دوربین درون بازی استفاده کنید تا از آنها عکس بگیرید و آنها را برای FrogedEx خود جمع کنید! تالابها را بازیابی کنید 🌾 برای موفقیت در تلاش برای حفظ قورباغه ، باید تالابهای اطراف خود را به شکوه سابق خود بازگردانید. این به شما امکان می دهد به طور مداوم پشتیبانی کنید ..."
+    },
+    {
+        "title": "kamaeru ca2299 free cozy frog collecting game where you take pictures of frogs play mini",
+        "store": "epicgames",
+        "url": "https://store.epicgames.com/en-US/p/kamaeru-0c301e",
+        "image_url": "https://www.indiegamebundles.com/wp-content/uploads/2025/08/kamaeru.webp",
+        "description": "submitted by /u/PM_ME_FREEGAMES [link] [comments]",
+        "id_in_db": "t3_1mwe5gk",
+        "subreddit": "AppHookup",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u /pm_me_freegames [لینک] [نظرات]"
+    },
+    {
+        "title": "kamaeru strange horticulture 100 off free",
+        "store": "epicgames",
+        "url": "https://store.epicgames.com/en-US/free-games",
+        "image_url": "https://cdn.neowin.com/news/images/uploaded/2025/08/1755788018_kamaeru-40asc.webp",
+        "description": "submitted by /u/python_buddy [link] [comments]",
+        "id_in_db": "t3_1mwddb4",
+        "subreddit": "GameDeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u /python_buddy [لینک] [نظرات]"
     },
     {
         "title": "kaori after story visual novel",
@@ -638,19 +666,6 @@
         "trailer": "http://video.akamai.steamstatic.com/store_trailers/257086211/movie_max_vp9.webm?t=1735912586",
         "is_dlc_or_addon": false,
         "persian_summary": "فقط به دنیای Hyperborea خوش آمدید: مارمولک ها باید سقوط کنند! راس از حمله و تحقیر مارمولک ها خسته شده است. برای جلال اجدادشان ، راس به نبرد دیگری رفت تا یک بار برای همیشه در صدر تکامل و همچنین از بین بردن مارمولک های نامطبوع باشد! یک شرکت با حداکثر 8 نفر را جمع کنید و این مارمولک های دزدکی و خیانتکار را مجازات کنید! فقط بالا ، این مارمولک ها را مجازات کنید! احساس زمان و دقت شما بسیار مهم خواهد بود. مکانهایی طراحی شده اند تا شما را در حالت تعلیق نگه دارند و هر متر مسافرتی یک آزمایش سخت برای شما و برادران روس شما خواهد بود. ویژگی ها: Multiplayer: در برابر برادران Rus خود رقابت کنید. جهان برای حداکثر 8 بازیکن طراحی شده است! مکانیک جالب: شما می توانید به برادر خود راس فشار دهید تا او را آرام نگه دارد! همچنین ، هر بار که یک مارمولک را به یک پرتگاه فشار می دهید ، از نظر معنوی به یک نقطه وصل می شوید و می توانید در هر زمان به آنجا حرکت کنید! کنترل های لمسی: فقط روح و نظم شما به شما کمک می کند تا به پایان برسید - کنترل های کاملاً متعادل به شما امکان پیروزی می دهند ..."
-    },
-    {
-        "title": "loop hero dungeons of dreadrock 2 doraemon dorayaki shop story space marshals 1 2 lego bricktales spirit island to the moon finding paradise and more at discounted prices",
-        "store": "other",
-        "url": "https://www.reddit.com/r/AppHookup/comments/1mfttn5/ios_extra_game_deals_post_loop_hero_dungeons_of/",
-        "image_url": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000078675/6c90c9f1564ea9d3a722d4ad153224f0b2fdb694af344af0a8b0e3265a0b33a3",
-        "description": "Dinkytoon Interactive Stories $2.99–> Free Loop Hero Full Game IAP $6.99–> $2.99 (new historical low) Dungeons of Dreadrock 2 $7.99–> $2.99 (matching historical low) Doraemon Dorayaki Shop Story $14.99–> $9.99 (first sale) Space Marshals $3.99–> $0.99 (lowest price in 8 years) Space Marshals 2 $4.99–> $0.99 (matching historical low) | DLC not discounted LEGO Bricktales $4.99–> $0.99 (matching historical low) Spirit Island Full game $19.99–> $7.49 (matching historical low) | Horizons DLC $8.99–> $3.99, Branch & Claw DLC $9.99–> $3.99, Jagged Earth $24.99–> $19.99 (matching historical lows) To the Moon $4.99–> $1.99 (matching historical low) Finding Paradise $4.99–> $3.99 (matching historical low) The Lion's Song $4.99–> $1.99 ($1 above historical low) Superliminal $7.99–> $3.99 ($2 above historical low) Moncage $4.99–> $3.99 ($1 above historical low) Juicy Realm $2.99–> $1.99 (matching historical low) Sands of Salzaar $4.99–> $3.99 ($0.50 above historical low) | IAPs not discounted Otaku's Adventure $2.99–> $1.99 (matching historical low) School Hero : Arcade Brawl $2.99–> $0.99 (new historical low) Say No! More $5.99–> $0.99 (matching historical low) Pasha Planet: Reborn $3.99–> $2.99 ($2 above historical low) Mystery of Myths: Athens Full Game IAP $6.99–> $3.99 (matching historical low) submitted by /u/Singhvistaar [link] [comments]",
-        "id_in_db": "t3_1mfttn5",
-        "subreddit": "AppHookup",
-        "is_free": false,
-        "discount_text": "Discount",
-        "is_dlc_or_addon": false,
-        "persian_summary": "Dinkytoon Interactive Stories 2.99 $ -> قهرمان حلقه رایگان بازی کامل IAP 6.99 $ -> 2.99 $ (پایین تاریخی جدید) Dungeons of Dreadrock 2 $ 7.99 -> 2.99 $ (مطابقت با پایین تاریخی) داستان Doraemon Dorayaki $ 14.99-> $ 9.99 (اولین فروش) Marshals $ Marshals $ $. 4.99 $ -> 0.99 $ (تطبیق کم تاریخی) | DLC تخفیف LEGO Bricktales 4.99 $> 0.99 $ (تطبیق کم تاریخی) Spirit Island بازی کامل 19.99 دلار -> 7.49 دلار (تطبیق پایین تاریخی) | Horizons DLC 8.99 $ -> 3.99 $ ، شعبه و Claw DLC 9.99 $ -> 3.99 $ ، زمین جنجالی 24.99 $ -> 19.99 $ (پایین ترین سطح تاریخی) به ماه 4.99 $ -> 1.99 $ (پایین تر تاریخی) یافتن بهشت ​​499 $ $ $ $ $ $ $ $ $ 4.99 -> $ $) (1 دلار بالاتر از پایین تاریخی) Superliminal 7.99 $> 3.99 $ (2 دلار بالاتر از پایین تاریخی) Moncage 4.99 $ -> 3.99 $ (1 دلار بالاتر از پایین تاریخی) قلمرو آبدار 2.99 $> 1.99 $ (مطابقت با کم تاریخی) ماسه های سالزار 4.99-> $ 3.99 $ (50 $ UPPERSION LOW) IAPS تخفیف نمی یابد ..."
     },
     {
         "title": "mega man x dive offline",
@@ -770,6 +785,29 @@
         "persian_summary": "یک بازی کارت جمع آوری شده با کمدی که در آن استوانه های فیلم به زندگی می آیند-و استودیو را نیز اجرا می کنند. فیلمنامه CCG یک بازی با کارت دیجیتالی است که در یک جهان بسیار دلپذیر و پوچ قرار دارد که شخصیت های ژانرهای مورد علاقه شما فقط در فیلم ها بازی نمی کنند - آنها کسانی هستند که این عکس ها را می خوانند. به معنای واقعی کلمه این کارگردانان خارج از مرکز در هرج و مرج ترین فرآیند فیلم سازی که تاکنون به مقوا متعهد شده اند ... یا به خوبی ، مقوا دیجیتال را تولید ، مستقیم و حتی خرابکاری می کنند. عرشه هایی را با استفاده از شخصیت های ژانر ، پیچ و تاب های پوچ ، و فیلم های نمادین برای پیشی گرفتن از رقبای خود در یک بازی که به استراتژی ، زمان بندی و قدردانی سالم از چگونگی سینمای مسخره می تواند بسازید ، بسازید. 🎞 CCG با استراتژی بازی مبارزه با فکر ، خارج از کشور ، خارج از کشور ملاقات می کند. بر خلاف CCG های سنتی که به چرخش های آهسته و الگوهای قابل پیش بینی متکی هستند ، فیلمنامه از مبارزه با مکانیک بازی وام می گیرد. شما و حریف خود حرکت خود را به طور همزمان برنامه ریزی می کنید ، سپس نتیجه را تماشا می کنید که در حال تماشای یک کلاسیک هستید ..."
     },
     {
+        "title": "pcmobile other league of angels",
+        "store": "other",
+        "url": "https://www.mmobomb.com/giveaway/league-of-angels-pact-keys",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1477460/header.jpg?t=1687245429",
+        "description": "Immerse yourself in the epic world of League of Angels: Pact, the newest action-idle MMORPG in the renowned League of Angels series. Awaken mighty Angels, conquer foes, and defend justice in this thrilling adventure. Unleash your power and forge an unbreakable bond in the battle for glory! -Summon and empower your Angels There are a great many Angels at your disposal - summon forth the Angels and wield their divine power! Each Angel possesses mighty abilities with different skills and attributes. Upgrade, reinforce, reborn, power them up and hurl them into glory battles. Use the Angel Bond power wisely to build the strongest team on the battlefield and fight together in the name of justice and holiness! -Fight epic Boss for endless loot Cross-server PK, Road to Challenge, Twelve Holy Lands... On every opportunity, Bosses and Raids shower you with shiny loot: divine equipment with a high rate drop ratio. There are also different quests and tasks to complete on a daily and weekly basis. Clash in spectacular battles solo or alongside your comrades in a highly immersive combat experience! -Collect 100+ divine weapons & wings Unlock your Divine Weapons for great boosts in power! Collect and activate Dazzling miracle outfits and wings that can be switched with powerful attributes at will. -Use AFK to level up Say goodbye to manual leveling: Use AFK to level up. Anyone can play whenever they like, and anyone can make serious progress with this innovative gameplay. -Dominate on the PVP battlefields A manifold of PVP and PVE events: Test the power of your Angel warriors by challenging other players in the Arena from all around the world and reach the top of the ladder. Clear dozens of challenging dungeons and get rich rewards! -Exquisite character art and design As a tribute to the League of Angels IP, the game's exquisite character art and design perfectly reference the original. There's much more to learn about the Angels, discover the mysterious faces of all the Angels. Each skin comes with its unique bonus.",
+        "id_in_db": "t3_1mw4dbh",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "1477460",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Free To Play",
+            "RPG"
+        ],
+        "is_multiplayer": true,
+        "is_online": false,
+        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256949613/movie_max_vp9.webm?t=1686107334",
+        "is_dlc_or_addon": false,
+        "persian_summary": "خود را در دنیای حماسه لیگ فرشتگان: PACT ، جدیدترین اکشن-Idle Mmorpg در سریال مشهور لیگ فرشتگان غوطه ور کنید. فرشتگان توانا را بیدار کرده ، دشمنان را فتح کنید و در این ماجراجویی هیجان انگیز از عدالت دفاع کنید. قدرت خود را رها کنید و پیوند ناگسستنی را در نبرد برای جلال ایجاد کنید! -summon و توانمندسازی فرشتگان خود فرشتگان زیادی در اختیار شما وجود دارد - فرشتگان را احضار کرده و قدرت الهی خود را به دست می آورند! هر فرشته دارای توانایی های قدرتمند با مهارت ها و ویژگی های مختلف است. ارتقا ، تقویت ، متولد شده ، آنها را به قدرت برسانید و آنها را به نبردهای جلال برسانید. از Angel Bond Power با عاقلانه استفاده کنید تا قوی ترین تیم را در میدان نبرد بسازید و به نام عدالت و تقدس با هم بجنگید! -رئیس حماسه برای غارت بی پایان پ.ک ، جاده به چالش کشیدن ، دوازده سرزمین مقدس ... در هر فرصتی ، کارفرمایان و یورش ها شما را با غارت براق: تجهیزات الهی با نسبت افت سرعت. همچنین کارها و وظایف مختلفی برای تکمیل روزانه و هفتگی وجود دارد ...."
+    },
+    {
         "title": "pcxboxps other dying light",
         "store": "other",
         "url": "https://pilgrimoutpost.techlandgg.com/dashboard",
@@ -791,6 +829,19 @@
         "trailer": "http://video.akamai.steamstatic.com/store_trailers/256865885/movie_max_vp9.webm?t=1639992657",
         "is_dlc_or_addon": false,
         "persian_summary": "Project Zomboid یک جعبه ماسه ای آلوده به زامبی است. این یک سوال ساده می پرسد - چگونه خواهید مرد؟ در شهرهای مالدراگ و وست پوینت ، بازماندگان باید خانه ها را غارت کنند ، دفاعی بسازند و تمام تلاش خود را برای تأخیر در مرگ اجتناب ناپذیر روز به روز انجام دهند. هیچ کمکی در حال آمدن نیست - بقای مداوم آنها به حیله گری ، شانس و توانایی فرار از یک گروه ترکان بی امان متکی است. ویژگی های فعلی بازی بقاء Zombie Sandcox Hardcore با تمرکز بر بقای واقع بینانه. بقای چند نفره آنلاین با سرورهای اجرا کننده بازیکن مداوم. صدها زامبی با مکانیک Swarm و سیستم های عمیق بصری و شنوایی ، 4 پخش کننده محلی 4 پخش کننده محلی 4 پخش کننده خط کامل سیستم بینایی و روشنایی در زمان واقعی ، مکانیک صدا و دید. در سایه ها مخفی شوید ، ساکت باشید و چراغ ها را در شب خاموش کنید ، یا حداقل ورق ها را روی پنجره ها آویزان کنید. نقشه گسترده و در حال رشد (کاملاً مبتنی بر یک مکان واقعی در دنیای واقعی) برای شما می توانید قلعه خود را کشف کنید ، غارت کنید و تنظیم کنید. پروژه نقشه BlindCoder را بررسی کنید: وسایل نقلیه با ..."
+    },
+    {
+        "title": "pierre the maze detective amazon games are complimentary with prime gaming",
+        "store": "amazon",
+        "url": "https://gaming.amazon.com/home?filter=Game",
+        "image_url": "https://external-preview.redd.it/YhC5UGHUSWogViGih_qi-WVDC67C3VRMExrTNy9YaRM.jpeg?width=640&crop=smart&auto=webp&s=d6063cc6040deb77777cc87eefdfe544726844e0",
+        "description": "submitted by /u/emilianozeta [link] [comments]",
+        "id_in_db": "t3_1mwgs4g",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u /emilianozeta [لینک] [نظرات]"
     },
     {
         "title": "platform 112 operator ca2899 free manage emergency services in any city in the world take calls and dispatch rescue forces",
@@ -828,6 +879,19 @@
         "persian_summary": "نسخه PC شامل ویندوز و macOS https://store.epicgames.com/en-us/p/hidden-folks-239d16 https://store.epicgames.com/en-us/p/hidden-folks-ios-72dd34 https://store.epicgames.com/en-us/en-us/en-us/ مردمی در مناظر دستی ، تعاملی و مینیاتوری. فلپ های چادر ناخوشایند ، بریده شده در بوته ها ، درهای اسلامی و برخی از تمساح ها! rooooaaaarrrrrt !!!!! نوار اهداف به شما نشان می دهد که چه چیزی را جستجو کنید. برای یک اشاره روی یک هدف کلیک کنید و به اندازه کافی برای باز کردن قسمت بعدی پیدا کنید. ارسال شده توسط /u /pm_me_freegames [لینک] [نظرات]"
     },
     {
+        "title": "platform strange horticulture ca1699 free an occult puzzle game in which you play as the proprietor of a local plant store find and identify new plants pet your cat speak to a coven or join a cult",
+        "store": "other",
+        "url": "https://www.reddit.com/r/AppHookup/comments/1mwebu0/multiplatform_strange_horticulture_ca1699_free_an/",
+        "image_url": "https://cdn1.epicgames.com/spt-assets/15e8e3eba65a4763a815d6eae1d763b2/strange-horticulture-offer-2wghv.png",
+        "description": "https://store.epicgames.com/en-US/p/strange-horticulture-360e80 https://store.epicgames.com/p/strange-horticulture-android-8143c0 https://store.epicgames.com/p/strange-horticulture-ios-42250a An occult puzzle game in which you play as the proprietor of a local plant store. Find and identify new plants, pet your cat, speak to a coven, or join a cult. Use your collection of powerful plants to influence the story and unravel Undermere’s dark mysteries. submitted by /u/PM_ME_FREEGAMES [link] [comments]",
+        "id_in_db": "t3_1mwebu0",
+        "subreddit": "AppHookup",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "https://store.epicgames.com/en-us/p/strange-horticulture-360e80 https://store.epicgames.com/ptrange-horticulture-8143c0 https://store.epicgames.com/p/strange-hort-hort-horticulture-ios-42250a فروشگاه گیاهان محلی. گیاهان جدید را پیدا کرده و شناسایی کنید ، گربه خود را حیوان خانگی کنید ، با یک میثاق صحبت کنید ، یا به یک فرقه بپیوندید. از مجموعه گیاهان قدرتمند خود برای تأثیرگذاری بر داستان و اسرار تاریک Unvrawmere استفاده کنید. ارسال شده توسط /u /pm_me_freegames [لینک] [نظرات]"
+    },
+    {
         "title": "playstation store madruga works games dawn of man planetbase the mobius machine additional 10 off with ps",
         "store": "other",
         "url": "https://www.reddit.com/r/GameDeals/comments/1mvaomi/playstation_store_madruga_works_games_50_off_dawn/",
@@ -841,10 +905,23 @@
         "persian_summary": "نام من Tucho از Madruga Works است ، تمام بازی های ما 50 ٪ تخفیف در فروش PlayStation Indies: دستگاه Mobius https://store.playstation.com/encence/10006425/ Dawn of Man Https:/Store.playstation.com/en-us/product/product/up2638-ppsa238-ppsa238-ppsa238-ppsa238-ppsa238-ppsa238-ppsa238-ppsa238-ppsa238-ppsa238-ppsa238- https://store.playstation.com/en-us/product/up2638-cusa10337_00-madwplanetbaseus ارسال شده توسط/u/madrugaworksdev [پیوند] [نظرات]"
     },
     {
+        "title": "playsum discounty 1389 1439 c1871 with code cheers",
+        "store": "other",
+        "url": "https://store.playsum.live/product/bd9cfc24-f243-48cf-8cf8-1061d646b1cf/discounty",
+        "image_url": "https://external-preview.redd.it/INT2h2fb2wJ7jkW7C_AQpVPWHaJG6V6FIp4TGdE0HVA.jpeg?width=320&crop=smart&auto=webp&s=918f2bb6ac9fb5500001789eb8e249d1c24b3464",
+        "description": "submitted by /u/Lets_Playsum [link] [comments]",
+        "id_in_db": "t3_1mwtdu9",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "31% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u /lets_playsum [لینک] [نظرات]"
+    },
+    {
         "title": "playsum no mans sky 1956 1626 c2665 with code cheers",
         "store": "other",
         "url": "https://store.playsum.live/product/46e6fb04-81af-4ab2-a040-4951ffef5d99/no-man-s-sky",
-        "image_url": "https://cdn.prod.website-files.com/628bb6d08af8d8c695b6a918/63015fedc32fa7a4be09f85d_NMS%20article%20cover.png",
+        "image_url": "https://cdn.playsum.live/images/products/053cc6ed-1bc0-416d-a928-282e3deaa6de/packshot.jpeg",
         "description": "submitted by /u/Lets_Playsum [link] [comments]",
         "id_in_db": "t3_1mvt4iy",
         "subreddit": "GameDeals",
@@ -852,6 +929,19 @@
         "discount_text": "67% off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u /lets_playsum [لینک] [نظرات]"
+    },
+    {
+        "title": "pro wrestling manager",
+        "store": "iosappstore",
+        "url": "https://apps.apple.com/us/app/pro-wrestling-manager/id1669825317",
+        "id_in_db": "780fd19fa9b3f06cf5b841fb204e655f4f6fdc91dc1930460058743c14510eb3",
+        "subreddit": "AppHookup",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4f/ba/b9/4fbab9e0-d098-895e-c90f-a0a97edd1770/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "is_dlc_or_addon": false,
+        "persian_summary": "",
+        "description": ""
     },
     {
         "title": "ps other playstation plus premium",
@@ -911,54 +1001,28 @@
         "persian_summary": "این بازی یک بازی با Dungeon Crawling ، Puzzle ، Shooter ، Timing ، Finding Secret ، Battles Boss ، محیط جذاب ، پیدا کردن گنج ، سرگرم کننده سرگرم کننده است. شما به عنوان سطوح عبور نقره ای سایه ای بازی می کنید که گنج را پیدا می کنید ، از تله ها ، شلیک دشمنان ، یافتن اسرار و سطح مخفی ، ضرب و شتم کارفرمایان ، غلبه بر چالش ها ، حل پازل ها ، پرداخت اوگر و لذت بردن از سفر به انتها بازی می کنید. سایه بازی نقره ای دارای: 81 سطح کل --- با --- TUT --- کارفرمایان --- سطح اصلی --- سطوح مخفی --- و --- سطح پنهان کلیدها --- --- باز کردن گنج --- به --- پرداخت --- به --- به --- حرکت به سطح بعدی --- برای باز کردن سطح جدید 75 COOL و FUN FINDIS TOLIES TOBS TABLES TRAPES TOBLES TOBESS TOBES TOBESS TO-BATES BATTLES TO تا کار دشمنان 3 بازی پایان 20 دستاورد 100 آهنگ که به طور تصادفی پخش می شوند و سرگرم کننده زیادی هستند. من به عنوان تمام شده می فروشم ، اما به کار خود ادامه خواهم داد. همانطور که به جهان ماجراجویی می کنید ، به عنوان سایه نقره ای بازی می کنید ، یک جادوگر از انواع سعی در عبور از یک ..."
     },
     {
-        "title": "stove abandon ship",
-        "store": "stove",
-        "url": "https://store.onstove.com/en/games/1006",
-        "image_url": "https://external-preview.redd.it/mv2e6_XYVI4gjyI1lakMe4dyvGBNbZXbGNvBI94mOfE.png?width=640&crop=smart&auto=webp&s=162011ea617ccd2ea3971005833160d21df08d6e",
-        "description": "submitted by /u/Fhczvyd474374846 [link] [comments]",
-        "id_in_db": "t3_1mpvqjf",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u /fhczvyd474374846 [پیوند] [نظرات]"
+        "title": "sparked super crazy rhythm castle getsufumaden castlevania advance collection bonus",
+        "store": "indiegala",
+        "url": "https://www.indiegala.com/store/publisher-sale/konami",
+        "image_url": "https://external-preview.redd.it/QuUk8Vnx1wax7zKbMSujdKy32PUVivI0Uz_0hSHiu5M.jpeg?width=640&crop=smart&auto=webp&s=943079ba48f43b355c1af5fff66905fe02766abb",
+        "description": "submitted by /u/indieg [link] [comments]",
+        "id_in_db": "t3_1mww8zn",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "46% off",
+        "is_dlc_or_addon": true,
+        "persian_summary": "ارسال شده توسط /u /indieg [پیوند] [نظرات]"
     },
     {
-        "title": "Totally Reliable Delivery Service",
-        "id_in_db": "totally-reliable-delivery-service@1755186017",
+        "title": "Strange Horticulture",
+        "id_in_db": "strange-horticulture@1755789347",
         "store": "other",
-        "url": "https://itad.link/018d959f-2346-729e-a303-6676c75b81e5/",
+        "url": "https://itad.link/018d959e-089d-7171-a0de-531a77c26d2b/",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "1011670",
-        "description": "Buckle up your back brace and fire up the delivery truck, it's time to deliver! Join up to four friends to play in this ragdoll physics simulation about terrible package delivery couriers. Work together using odd machinery, useful gadgets, and the wonders of physics to reliably deliver packages to their destination. Delivery attempted, that's a Totally Reliable Delivery Service guarantee! Play with Friends Go at it alone to ensure the safety of your deliveries, or join your friends and put your teamwork to the test through our local and online multiplayer. Controlled Noodly Chaos Unpredictable ragdoll physics meets snappy platforming. Sprint, leap, dive, and grapple with ease, but collide with something and you'll be knocked out cold! Many Zones to Unlock The game world is huge! Earn money through making deliveries to unlock new zones with new delivery routes, vehicles, and cosmetics. Ever do a delivery onto a moving blimp? A World of Distractions Take a break from deliveries and play around! The world is chock full of toys, vehicles, and machines that can be used for work or play. Multiplayer Events Want to take a break from your delivery work and see who from amongst your friends can get the highest score? Come and try out our fun events: Hovercraft Derby : The last hovercraft standing wins. This is new technology so the fall damage might not be covered by your Totally Reliable work insurance. Windy Wings : Soar through the sky at the majestic Windy Butte and fly through the rings before the others! Laser Barrage : Aliens are shooting lasers from their spacecraft... let’s see who can last the longest without getting shot. Remember your safety helmet. Teddy Hunt : Work as a team and find all the hidden Teddy bears as fast as possible! Booster Club : I heard there was a game where you had to push a ball into a goal with a sports car. Now with fire extinguisher boosters! Ragtag Crew Customize your blue-collar worker and get your rear into gear, it's time to deliver. Now with a ton of new cosmetics to spice up your look!",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1011670/header.jpg?t=1752169365",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Casual",
-            "Indie",
-            "Racing",
-            "Simulation"
-        ],
-        "is_multiplayer": true,
-        "is_online": true,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256824548/movie_max_vp9.webm?t=1617292978",
-        "is_dlc_or_addon": false,
-        "subreddit": "FreeGameFindings",
-        "persian_summary": "بریس پشت خود را بکشید و کامیون تحویل را آتش بزنید ، وقت آن است که تحویل دهید! به چهار دوست خود بپیوندید تا در این شبیه سازی فیزیک راگدول در مورد پیک های تحویل بسته وحشتناک بازی کنید. با استفاده از ماشین آلات عجیب و غریب ، اسباب بازی های مفید و شگفتی های فیزیک برای ارائه قابل اعتماد بسته ها به مقصد خود ، با هم کار کنید. تلاش تحویل ، این یک ضمانت خدمات تحویل کاملاً قابل اعتماد است! با دوستان خود بازی کنید تا از امنیت تحویل های خود اطمینان حاصل کنید ، یا به دوستان خود بپیوندید و کار تیمی خود را از طریق چند نفره محلی و آنلاین ما قرار دهید. هرج و مرج کنترل شده کنترل شده فیزیک غیر قابل پیش بینی Ragdoll با سکوی Snappy ملاقات می کند. اسپرینت ، جهش ، شیرجه زدن ، و با سهولت دست و پنجه نرم کنید ، اما با چیزی برخورد کنید و شما را سرد می کنید! بسیاری از مناطق برای باز کردن قفل دنیای بازی بسیار زیاد است! از طریق تحویل تحویل برای باز کردن مناطق جدید با مسیرهای تحویل جدید ، وسایل نقلیه و لوازم آرایشی ، درآمد کسب کنید. آیا تا به حال تحویل روی یک محفظه متحرک انجام شده است؟ دنیای حواس پرتی ها از تحویل ها و بازی ..."
-    },
-    {
-        "title": "trump trade war",
-        "store": "other",
-        "url": "https://gleam.io/mZIFh/free-x2500-trump-trade-war-steam-keys",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3679350/f87edbcf2952c87c1e8ac8b9b884c6202b8f6ac0/header.jpg?t=1748273330",
-        "description": "STORY: Player controls President Trump in this 2.5 Platformer game. Game contains 12 maps. Trump mission is to finish levels and collect money bags every level. Other countries have added traps and turtle and bee enemies, so that President Trump need to use all his skills to get more tariff trade moneys. Levels contains different traps like firetraps, spikes, moving spikes, cannons etc. Levels contains also 2 different moving and deathly enemies bees and turtles. Trump can avoid enemies or shoot them with flames. There are also some moving and jump platform which Trump can use. Some levels player need find key to open doors to continue level and also falling to lava will kill player and after death player will respawn to checkpoint area. So can you make Usa great again and find all money bags end of every levels Control Input: Movement: W - A - S - D Jump: Space Double Jump: Space Dash: Shift Shoot Mouse Right Click FEATURES: 12 levels - End of level money bags which gives steam achievements - Different traps like: Cannons, Fire traps, spike traps, moving traps - Moving platforms - Keys which opens unlocked doors - Enemies: moving turtle and bee which kills player - Player can shoot - Coins to collect - Checkpoint system. Balloon is checkpoint area - Collect hearts to get more lifes Falling out of map to lava etc will kill player",
-        "id_in_db": "t3_1moetnq",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "3679350",
+        "steam_app_id": "1574580",
+        "description": "Find and identify new plants, pet your cat, speak to a coven, or join a cult. Use your growing collection to influence the story and unravel Undermere’s dark mysteries. Welcome to Undermere, a quaint town surrounded by hag-infested forests and rugged mountains. You are the Horticulturist, owner of local plant store Strange Horticulture. As a cast of colorful customers come by your shop, you are quickly thrust into an occult mystery stretching back hundreds of years. Explore the lands beyond your store to find new plants, but be careful! The dark woods and lakes are not always friendly to a simple herbalist. You might discover powers beyond your wildest dreams - or lose your mind completely. Use context clues to determine which places to visit, and which to avoid! Using your trusty encyclopedia and clues found on your explorations, you learn more about the strange plants you come across. By identifying each plant, you will be able to use their effects to influence the story -- from hypnotic hallucinogens to powerful poisons.",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574580/header.jpg?t=1741961232",
         "genres": [
             "Adventure",
             "Indie",
@@ -966,22 +1030,32 @@
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257127198/movie_max_vp9.webm?t=1745332461",
+        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256870452/movie_max_vp9.webm?t=1643040655",
         "is_dlc_or_addon": false,
-        "persian_summary": "داستان: بازیکن رئیس جمهور ترامپ را در این بازی 2.5 پلتفرم کنترل می کند. بازی شامل 12 نقشه است. مأموریت ترامپ این است که سطح را به پایان برساند و کیسه های پول را در هر سطح جمع کند. سایر کشورها تله ها و دشمنان لاک پشت و زنبور عسل را اضافه کرده اند ، به طوری که رئیس جمهور ترامپ برای بدست آوردن پول بیشتر تعرفه ، باید از تمام مهارت های خود استفاده کند. سطح شامل تله های مختلفی مانند آتش سوزی ، سنبله ، سنبله های متحرک ، توپ و غیره است. سطح همچنین شامل 2 زنبورهای مختلف متحرک و مرگبار زنبورها و لاک پشت ها است. ترامپ می تواند از دشمنان جلوگیری کند یا آنها را با شعله های آتش شلیک کند. همچنین برخی از سکوی متحرک و پرش وجود دارد که ترامپ می تواند از آن استفاده کند. برخی از بازیکنان برای ادامه سطح نیاز به کلید پیدا کردن درهای باز دارند و همچنین سقوط به گدازه باعث می شود بازیکن را بکشد و بعد از اینکه Death Player به منطقه بازرسی باز می گردد. بنابراین آیا می توانید ایالات متحده را دوباره عالی کنید و تمام کیسه های پول را در پایان هر سطح پیدا کنید کنترل ورودی: حرکت: W - A - S - D JUMP: Face Double Jump: SHIFT SHIFT MOUSE MOUSE ویژگی های کلیک راست: 12 سطح - پایان کیسه های پول که به بخار می دهد ..."
+        "subreddit": "FreeGameFindings",
+        "persian_summary": "گیاهان جدید را پیدا کرده و شناسایی کنید ، گربه خود را حیوان خانگی کنید ، با یک میثاق صحبت کنید ، یا به یک فرقه بپیوندید. از مجموعه رو به رشد خود برای تأثیرگذاری بر داستان و اسرار تاریک Undermere استفاده کنید. به Undermere ، یک شهر عجیب و غریب که توسط جنگل های آلوده به هاگ و کوه های ناهموار احاطه شده است ، خوش آمدید. شما باغبان ، صاحب فروشگاه محلی گیاه باغبانی عجیب و غریب هستید. همانطور که بازیگران مشتریان رنگارنگ توسط مغازه شما می آیند ، شما به سرعت به یک رمز و راز غیبی می پردازید که صدها سال به عقب کشیده می شود. برای یافتن گیاهان جدید ، زمین های فراتر از فروشگاه خود را کاوش کنید ، اما مراقب باشید! جنگل ها و دریاچه های تاریک همیشه با یک گیاه شناس ساده دوست نیستند. ممکن است قدرتهای فراتر از وحشی ترین رویاهای خود را کشف کنید - یا ذهن خود را کاملاً از دست دهید. از سرنخ های متن برای تعیین مکان های بازدید استفاده کنید و از کدام یک برای جلوگیری از آن استفاده کنید! با استفاده از دائر ycl المعارف قابل اعتماد و سرنخ های موجود در کاوش های خود ، در مورد گیاهان عجیب و غریب که با آنها روبرو می شوید ، بیشتر می دانید. با شناسایی هر گیاه ، شما قادر خواهید بود از جلوه های آنها برای تأثیرگذاری بر داستان استفاده کنید - از ..."
     },
     {
-        "title": "video to mp3 app premium lifetime 3999",
-        "store": "iosappstore",
-        "url": "https://apps.apple.com/us/app/mp3-converter-video-to-mp3-app/id6746092658?platform=iphone",
-        "image_url": "https://external-preview.redd.it/HRPNagAmX5YCIbKz5ASjm1xL7kWP3KsdqZjVpMJIDaM.png?width=640&crop=smart&auto=webp&s=d35d49d8fd0116e59d34f61b5c22fcbd97c61101",
-        "description": "For a limited time, get the Lifetime Plan for MP3 Converter at a massive discount. Mp3 Converter – Video Converter, Convert all your videos, audios into various formats. Whether you're converting video,music, voice recordings, or other audio content, this app delivers high-quality results in just a few taps. All-in-one solution combining file format converter, audio extractor and Video Player. Features: * Video Converter & Video transcoder - Convert videos between all popular formats: MP4, MOV, 3GP, 3G2, ASF, MKV, VOB, MPEG, WMV, FLV, AVI, OGV, WEBM, MPG.. - Video Encoders: H.264(AVC), H.265(HEVC), MPEG-2,MPEG-4, H.263+, AV1, WMV2, VP8, VP9,THEORA, XVID, DIVX and others. *Audio Converter - Extract audio from recorded videos, output format: MP3, M4A, OGG, WAV, FLAC, WMA, AIFF, CAF, ADX, AC3, AAC, M4R, M4A, OPUS. - Audio Encoders : AAC, MP3, MP2, AMR, Opus, SWF, WMAV2, WMAV1, Vorbis, SPEEX, DCA, EAC3, FLAC, PCM_S16LE, PCM_S16BE. *Video Player - Play any video or music file smoothly with built-in player. *File Management & Transfer - Batch import, Wi-Fi transfer, and file sharing between phone and computer. - Import recorded videos from your device gallery. Grab it now—don’t miss this deal! Free upgrade to the Lifetime Plan today! submitted by /u/kakaApp [link] [comments]",
-        "id_in_db": "t3_1mh90gn",
-        "subreddit": "AppHookup",
-        "is_free": true,
-        "discount_text": "100% Off",
+        "title": "the flayed man",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/3471670/The_Flayed_Man/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3471670/header.jpg?t=1749337493",
+        "description": "The Flayed Man is a short, chilling experience ~30 minutes long, perfect for playing before bed, especially if you’re in the mood for a nightmare. You are the Flayed Man. Awaking in a decayed, otherworldly house where your every waking moment is agony, you must uncover the sins of the past, pass judgement, and decide your fate in this unsettling, macabre adventure. A dark horror game with mature, disturbing themes. Multiple endings depending on your choices. An atmospheric and moody original soundtrack. Evocative and chilling pixel-art graphics. Traditional point and click gameplay with modern mechanics and user interface. Psychosexual demons that will give any budding psychologist food for thought.",
+        "id_in_db": "t3_1mwjkeb",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "35% off",
+        "steam_app_id": "3471670",
+        "genres": [
+            "Adventure",
+            "Indie",
+            "Free To Play"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257125957/movie_max_vp9.webm?t=1744902763",
         "is_dlc_or_addon": false,
-        "persian_summary": "برای مدت زمان محدود ، برنامه Lifetime را برای مبدل MP3 با تخفیف عظیم دریافت کنید. مبدل MP3 - مبدل ویدیویی ، تمام فیلم های خود ، Audios را به قالب های مختلف تبدیل کنید. این که آیا شما در حال تبدیل فیلم ، موسیقی ، ضبط صوتی یا سایر محتوای صوتی هستید ، این برنامه نتایج با کیفیت بالا را فقط در چند شیر آب ارائه می دهد. راه حل All-in-one با ترکیب مبدل فرمت فایل ، استخراج کننده صوتی و پخش کننده. ویژگی ها: * مبدل ویدیویی و ویدیو Transcoder - تبدیل فیلم ها بین همه فرمت های محبوب: MP4 ، MOV ، 3GP ، 3G2 ، ASF ، MKV ، VOB ، MPEG ، WMV ، WMV ، OGV ، WEBM ، MPG .. - رمزگذارهای ویدئویی: H.264 (AVC) ، H.265 (Hevc) AV1 ، WMV2 ، VP8 ، VP9 ، Theora ، XVID ، DIVX و دیگران. *مبدل صوتی - استخراج صوتی از فیلم های ضبط شده ، فرمت خروجی: MP3 ، M4A ، OGG ، WAV ، FLAC ، WMA ، AIFF ، CAF ، ADX ، AC3 ، AAC ، M4R ، M4A ، OPUS. - رمزگذارهای صوتی: AAC ، MP3 ، MP2 ، AMR ، OPUS ، SWF ، WMAV2 ، WMAV1 ، Vorbis ، Speex ، DCA ، EAC3 ، FLAC ، PCM_S16LE ، PCM_S16BE. *پخش کننده ویدیویی - هر فایل ویدیویی یا موسیقی را هموار با ..."
+        "persian_summary": "مرد فلزی یک تجربه کوتاه و سرد است که 30 دقیقه طول دارد ، برای بازی قبل از خواب مناسب است ، به خصوص اگر برای کابوس روحیه دارید. شما مرد فلزی هستید. بیدار شدن در یک خانه پوسیده و غیرقانونی که در آن هر لحظه بیداری شما عذاب است ، باید گناهان گذشته را کشف کنید ، قضاوت کنید و سرنوشت خود را در این ماجراجویی ناخوشایند و ناخوشایند تصمیم بگیرید. یک بازی ترسناک تاریک با مضامین بالغ و مزاحم. پایان های چندگانه بسته به انتخاب شما. موسیقی متن فیلم اصلی جوی و مودی. گرافیک پیکسل و جذاب و جذاب. نقطه سنتی و روی گیم پلی با مکانیک مدرن و رابط کاربری کلیک کنید. شیاطین روانی جنسی که به هرگونه غذای روانشناس جوانه زنی برای فکر می پردازند."
     },
     {
         "title": "virtual maid streamer ramie hot sento girls and love a maiden astrologer divines the future kirakira stars idol project reika ai kirakira stars ninnindays ninnindays 2",
@@ -995,6 +1069,43 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u /indieg [پیوند] [نظرات]"
+    },
+    {
+        "title": "voice to text app lifetime 5999",
+        "store": "iosappstore",
+        "url": "https://apps.apple.com/us/app/transcribe-voice-to-text-app/id6467717913",
+        "image_url": "https://external-preview.redd.it/XE7bE9ZJfUuuearghoPCFr4WwD8zbBwE_tjcrvcIQ4Q.png?width=640&crop=smart&auto=webp&s=75ece0c4e090d531d9ac7e9684118d4ce896fe55",
+        "description": "To celebrate the new version release, enjoy a 2-day special discount : Lifetime subscription slashed from $59.99 to just $4.99! The upgraded app now supports direct transcription from YouTube, X , and more. Unlock smarter productivity today! Key Features: * YouTube/X Video Transcription: Convert videos to text effortlessly. * Video to Text: Transform video content into accurate text transcripts. * Multi-Language Support: Transcribe and translate across English, Chinese, Japanese, and 130+ languages. * High-Quality Recording: Capture crystal-clear audio from meetings, lectures, or your phone. * Accurate Transcription: Convert recordings to text with exceptional precision. * Live Notes: Real-time transcription as you speak. * Flexible Exports: Save recordings and transcripts in SRT, TXT, or PDF formats. * Easy Sharing: Share transcripts and audio via WhatsApp, Messenger, and more for seamless collaboration. Experience Transcribe now – voice-to-text made simple and smart! submitted by /u/kakaApp [link] [comments]",
+        "id_in_db": "t3_1mw4yk8",
+        "subreddit": "AppHookup",
+        "is_free": false,
+        "discount_text": "Discount",
+        "is_dlc_or_addon": false,
+        "persian_summary": "برای جشن گرفتن نسخه جدید ، از تخفیف ویژه 2 روزه لذت ببرید: اشتراک Lifetime از 59.99 دلار به 4.99 دلار کاهش یافته است! برنامه به روز شده اکنون از رونویسی مستقیم از YouTube ، X و موارد دیگر پشتیبانی می کند. بازدهی هوشمندانه امروز را باز کنید! ویژگی های کلیدی: * رونویسی ویدیوی YouTube/X: فیلم ها را با زحمت تبدیل کنید. * فیلم به متن: محتوای ویدیویی را به متن متن دقیق تبدیل کنید. * پشتیبانی چند زبانه: رونویسی و ترجمه به زبان های انگلیسی ، چینی ، ژاپنی و 130+. * ضبط با کیفیت بالا: ضبط صدای کریستالی را از جلسات ، سخنرانی ها یا تلفن خود ضبط کنید. * رونویسی دقیق: ضبط ها را به متن با دقت استثنایی تبدیل کنید. * یادداشت های زنده: رونویسی در زمان واقعی هنگام صحبت کردن. * صادرات انعطاف پذیر: ضبط ها و رونوشت ها را در قالب های SRT ، TXT یا PDF ذخیره کنید. * اشتراک گذاری آسان: به اشتراک گذاشتن رونوشت و صدا از طریق WhatsApp ، مسنجر و موارد دیگر برای همکاری یکپارچه. تجربه رونویسی اکنون-صدا به متن ساخته شده ساده و هوشمند! ارسال شده توسط ..."
+    },
+    {
+        "title": "waka 100 off free",
+        "store": "indiegala",
+        "url": "https://freebies.indiegala.com/game-club-waka-waka",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2203070/04513cb6092582aec59ee1e791c4d65b281f3840/header.jpg?t=1752627973",
+        "description": "The classic dark fantasy strategy RPG Dragonheir: Silent Gods returns with its Reborn update! Experience the official Dungeons & Dragons collaboration event, back for a limited time, featuring the legendary hero Drizzt Do'Urden with his signature weapons. The Reborn update brings massive improvements after months offline: log in now to claim 650 FREE summons, enjoy 70% discount on pulls, and participate in the \"Summon More, Get More\" event to build your ultimate team. Discover completely revamped strategic gameplay and unprecedented exploration freedom in this thoroughly reworked adventure—join the rebirth now! ◉New Version Highlights◉ 〓Fight Alongside Legends, Attain New Glory〓 On August 1st, the legendary Western fantasy IP \"Dungeons & Dragons\" official collaboration continues! The legendary hero Drizzt makes a powerful return—you'll fight alongside him and unlock unique battle abilities with his exclusive Artifact. Uncover buried secrets in classic collaboration story quests. Don't miss this excitement—stay tuned! 〓Boundless Freedom in Exploration〓 The sandbox open world features diverse landscapes, from shadowy forests to scorching deserts, mysterious underground realms to vast archipelagos—each hiding surprises waiting to be discovered. Create your protagonist freely, with your attribute choices influencing story directions. Roll dice to trigger random events and interact with NPCs to unlock hidden quests, experiencing an adventure journey filled with unknowns and extraordinary encounters! 〓Epic Benefit Discounts〓 Join the \"Prophecy Summons\" and \"Account Appraisal\" events now to get massive amounts of free summons and abundant resource packs! The summoning system gets a complete overhaul in the Reborn version—single summons now only cost 100 Wyrmarrow, with 70% off summon privileges available immediately upon launch! You can also get additional Summon Dice and selectable Legendary heroes through the concurrent \"Summon More, Get More\" celebration event—building your desired lineup has never been easier. Command an army of champions! 〓Strategies Renewed and Upgraded〓 The brand-new Hero Talent system revolutionizes traditional progression! 300+ heroes each boasts 12 unique Talent effects, with no talent trees limiting your mixes and matches! Unlock exclusive battle abilities for your heroes and customize in-depth tactical styles! Make every battle your strategic masterpiece! 〓A Burden-Free Experience〓 Embracing the philosophy of returning to strategic gameplay, we've created the innovative \"Resonance Level\" system. Level up once, shared across your entire team! Gone are the days of individually leveling each character—now your entire roster benefits from shared progression, letting you focus on what truly matters: tactics and discovery!",
+        "id_in_db": "t3_1mwxe3j",
+        "subreddit": "GameDeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "2203070",
+        "genres": [
+            "Adventure",
+            "Massively Multiplayer",
+            "RPG",
+            "Strategy",
+            "Free To Play"
+        ],
+        "is_multiplayer": true,
+        "is_online": true,
+        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257168609/movie_max_vp9.webm?t=1752494394",
+        "is_dlc_or_addon": false,
+        "persian_summary": "استراتژی کلاسیک خیالی تاریک RPG Dragonheir: Silent Gods با بروزرسانی متولد شده خود باز می گردد! رویداد رسمی همکاری Dungeons & Dragons را تجربه کنید ، برای مدت زمان محدود ، با حضور قهرمان افسانه ای Drizzt Do'urden با سلاح های امضای خود. به روزرسانی Reborn پیشرفت های گسترده ای را پس از ماه های آفلاین به ارمغان می آورد: اکنون وارد شوید تا 650 احضار رایگان را انتخاب کنید ، از 70 ٪ تخفیف در کشش ها لذت ببرید و در رویداد \"Summon More\" دریافت کنید \"برای ساخت تیم نهایی خود. گیم پلی استراتژیک کاملاً بازسازی شده و آزادی اکتشافی بی سابقه را در این ماجراجویی کاملاً اصلاح شده کشف کنید - به تولد دوباره بپیوندید! ◉ new نسخه برجسته ◉ در کنار افسانه ها ، در اول اوت به شکوه و عظمت جدید برسید ، IP افسانه ای فانتزی غربی \"Dungeons & Dragons\" همکاری رسمی ادامه می یابد! قهرمان افسانه ای Drizzt بازگشت قدرتمندی را انجام می دهد - شما در کنار او می جنگید و توانایی های نبرد منحصر به فرد را با مصنوعات منحصر به فرد خود باز می کنید. پرده از اسرار دفن شده در جستجوی داستان های کلاسیک همکاری. نکن ..."
     },
     {
         "title": "way to hell",
@@ -1017,6 +1128,19 @@
         "trailer": "http://video.akamai.steamstatic.com/store_trailers/257122062/movie_max_vp9.webm?t=1744034442",
         "is_dlc_or_addon": false,
         "persian_summary": "داستان: بازیکن شخصیت Lonely Warrior را در این تیرانداز اول شخص با محیط های مختلف کنترل می کند. ماموریت بازیکن برای یافتن پنتاگرام در 6 سطح مختلف است. یافتن سطح پایان پنتاگرام و دستاوردهای بخار. چندین دشمن متفاوت و خطرناک مانند هیولا آهسته خزنده ، حشرات سریع پرواز و بیشترین هیولا خونین که قدرت زیادی دارند و آنها نیز بسیار سریع هستند. بازیکن می تواند سلاح های مختلفی مانند سلاح موشک ، مسلسل ، اسلحه ، پرتاب نارنجک و غیره را جمع آوری و استفاده کند. بازیکن بدون هیچ سلاح سطح را شروع می کند و مأموریت وی یافتن سلاح ها و اموات مختلف است تا بتواند دشمنان مرگبار را بکشد. بعد از Death Player مجدداً شروع کنید تا نقطه شروع کنید. 6 ویژگی های مختلف یک ظاهر طراحی شده: - 6 سطح با دستاوردهای بخار - سلاح های مختلف مانند: اسلحه ، پرتاب نارنجک ، سلاح لیزری ، پرتاب موشک و Riflegun - جمع آوری مهمات را جمع آوری کنید."
+    },
+    {
+        "title": "wildgate 1979usd1913eur1649gbp29aud34 off",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/3504780/Wildgate/",
+        "image_url": "https://external-preview.redd.it/WLYMity5FCRtk8mvSi57GMpV_rkHNRKZS66yBm6aEzI.jpeg?width=320&crop=smart&auto=webp&s=21095bae27a97a7ae7b28b3dfd970b24d288dd0d",
+        "description": "submitted by /u/JimmyRecard [link] [comments]",
+        "id_in_db": "t3_1mwhdse",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "34% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u /jimmyrecard [پیوند] [نظرات]"
     },
     {
         "title": "windows mac os road redemption ca2199 free earn money by completing races assassinations robberies and other challenges in your path",
@@ -1043,48 +1167,5 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": true,
         "persian_summary": "ارسال شده توسط /u /pm_me_freegames [لینک] [نظرات]"
-    },
-    {
-        "title": "zombie outbreak 1943",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/3927150/Zombie_Outbreak_1943/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927150/f1aabad9dd71582383699f3880653436d7a16aab/header.jpg?t=1755586848",
-        "description": "Undead growls are heard in the distance, and you start to realize that undead zombies are approaching your location. You equip your weapon and fortify the windows as quickly as you can, but time is running out quickly. Can you survive the zombie outbreak? ZOMBIE SURVIVAL MODE Time-Based Survival Mode sets your main objective to surviving for as long as possible. With every passing second, more zombie growls are heard and pretty soon they're all around you. Start with your pistol and explore your environment to find weapons that are better equipped to fight the zombie outbreak. Open doors around the environment to visit new locations and acquire new weapons as your find them. Take advantage of powerups and zombie traps to improve your chances of surviving. Earn achievements as you survive and rise up the Steam Leaderboards as you fight the zombies to set a new high score. GAME FEATURES Time-Based Zombie Survival Mode Full Controller Support for PlayStation and Xbox Controllers Steam Leaderboards Steam Achievements",
-        "id_in_db": "t3_1mubm09",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "25% off",
-        "steam_app_id": "3927150",
-        "genres": [
-            "Action",
-            "Indie"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257177419/movie_max_vp9.webm?t=1754450328",
-        "is_dlc_or_addon": false,
-        "persian_summary": "رشد های ارواح از راه دور شنیده می شود ، و شما متوجه می شوید که زامبی های ارواح به مکان شما نزدیک می شوند. شما سلاح خود را تجهیز می کنید و پنجره ها را هرچه سریعتر تقویت می کنید ، اما زمان به سرعت تمام می شود. آیا می توانید از شیوع زامبی زنده بمانید؟ حالت بقا مبتنی بر زمان بقاء زامبی هدف اصلی شما را برای زنده ماندن تا حد امکان تعیین می کند. با هر ثانیه ، رشد بیشتر زامبی ها شنیده می شود و خیلی زود همه آنها در اطراف شما هستند. با تپانچه خود شروع کنید و محیط خود را کاوش کنید تا سلاح هایی پیدا کنید که برای مبارزه با شیوع زامبی مجهز هستند. درهای اطراف محیط را برای بازدید از مکان های جدید و به دست آوردن سلاح های جدید به عنوان پیدا کردن آنها باز کنید. برای بهبود شانس زنده ماندن از PowerUp و تله های زامبی استفاده کنید. در حالی که با زامبی ها می جنگید و با زامبی ها می جنگید تا نمره بالایی جدید را بدست آورید ، دستاوردهایی را بدست آورید. ویژگی های بازی مبتنی بر زمان بقا حالت بقا پشتیبانی کامل کنترل کننده برای پلی استیشن و کنترلرهای Xbox Steam ..."
-    },
-    {
-        "title": "zynga poker",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/3635220/Zynga_Poker___Texas_Holdem/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3635220/3d423fda15785476fc34ef2770e31c24b07c6d76/header.jpg?t=1755203052",
-        "description": "THE WORLD’S LARGEST POKER GAME IS NOW AVAILABLE ON STEAM! Join the world's most popular free-to-download poker game and experience more tables, tournaments, and jackpots than ever before! FREE CHIPS: Start with a massive 13,000,000 FREE CHIP welcome bonus! Plus, earn daily rewards of up to 45,000,000 chips to keep your stack growing and the action rolling. TEXAS HOLD'EM YOUR WAY: Play classic free Texas Hold'em or chase high-stakes jackpots. Enjoy faster tournaments for quicker play. The choice is yours! PLAY ANYWHERE: Seamlessly play across all platforms. Take your poker game wherever you go! FAIR PLAY Zynga Poker’s random generator is officially certified and plays like a real table experience. Put on your poker face, take your online poker games anywhere, and know that you’re getting the true Poker experience. MASSIVE VARIETY OF GAMEPLAY: Choose from SIT-N-GO tournaments, Omaha, Burn ‘em, Pineapple, Short-Deck Hold’em, casual tables, 5-player or 9-player games, and fast or slow play options. There’s endless gameplay to find your perfect match. POT-LIMIT OMAHA POKER: Unlock a whole new card game! Explosive action with FOUR hole cards! Create bigger and better hands in this exciting poker variant. HIGHER STAKES, BIGGER PAYOUTS: Higher buy-ins lead to massive virtual poker chip prizes in every tournament. SOCIAL POKER EXPERIENCE: Challenge friends, meet new players, and join the strongest poker community online. Practice your poker face and become a poker star! MULTI-TABLE TOURNAMENTS (MTT) & TRILLIONAIRE MAKER: Compete against hundreds or thousands of players across multiple tables. The marquee Trillionaire Maker guarantees a first-place prize of TRILLIONS OF CHIPS! LEAGUES: Join millions of players worldwide in our online Poker Season competition. Win the most chips to rise to the top and become the Texas Poker champion! Zynga Poker is the ultimate destination for poker players, card fans, and tournament enthusiasts. Join our exciting poker community today!",
-        "id_in_db": "t3_1mp4tuv",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "3635220",
-        "genres": [
-            "Casual",
-            "Simulation",
-            "Strategy"
-        ],
-        "is_multiplayer": true,
-        "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257141822/movie_max_vp9.webm?t=1754424748",
-        "is_dlc_or_addon": false,
-        "persian_summary": "بزرگترین بازی پوکر جهان اکنون در Steam موجود است! به محبوب ترین بازی پوکر رایگان در جهان بپیوندید و جداول ، مسابقات و جکپات بیشتری را از گذشته تجربه کنید! تراشه های رایگان: با 13،000،000 عظیم پاداش استقبال از تراشه رایگان شروع کنید! بعلاوه ، جوایز روزانه حداکثر 45،000،000 تراشه کسب کنید تا پشته خود در حال رشد و نورد عمل باشد. Texas Hold'em Way: بازی کلاسیک رایگان تگزاس Hold'em یا تعقیب و گریز جکپات های پرشور. برای بازی سریعتر از مسابقات سریعتر لذت ببرید. انتخاب شماست! بازی در هر جایی: یکپارچه در تمام سیستم عامل ها بازی کنید. هر کجا که بروید بازی پوکر خود را بگیرید! نمایشگر تصادفی Play Zynga Poker به طور رسمی دارای مجوز است و مانند یک تجربه جدول واقعی بازی می کند. چهره پوکر خود را قرار دهید ، بازی های پوکر آنلاین خود را در هر کجا بگیرید و بدانید که تجربه واقعی پوکر را تجربه می کنید. تنوع گسترده ای از گیم پلی: از مسابقات Sit-N-Go ، Omaha ، Burn ‘Em ، Pineapple ، Hold Hold'em ، جداول گاه به گاه ، بازی های 5 نفره یا 9 نفره و سریع یا آهسته ... انتخاب کنید."
     }
 ]
