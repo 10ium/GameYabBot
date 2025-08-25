@@ -13,17 +13,24 @@
         "persian_summary": "آنچه من به دنبال آن هستم: هرگونه بازخورد در مورد قابلیت استفاده ، طراحی یا هر چیزی که کاملاً درست نیست. پیشنهادات برای ویژگی های جدید یا پیشرفت ها! افکار عمومی در مورد تجربه خود با استفاده از برنامه. در حال حاضر روی ابزارک ها کار می کنند تا به زودی در دسترس باشند. ارسال شده توسط /u /mefjueditor [پیوند] [نظرات]"
     },
     {
-        "title": "ace academy visual novel",
-        "store": "iosappstore",
-        "url": "https://apps.apple.com/us/app/ace-academy-visual-novel/id1513975259",
-        "id_in_db": "b66f60421ecdacd2cc2fdd9019daec0e18e64d7f7ac8a15b631ae5a9728ddf68",
-        "subreddit": "AppHookup",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/22/3a/0e/223a0e4f-8bc8-d17d-511b-102be05d84c3/AppIcon-0-0-1x_U007emarketing-0-0-0-6-85-220.png/512x512bb.jpg",
+        "title": "alan wake",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/108710/Alan_Wake/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108710/header.jpg?t=1726554283",
+        "description": "When the wife of the best-selling writer Alan Wake disappears on their vacation, his search turns up pages from a thriller he doesn’t even remember writing. A Dark Presence stalks the small town of Bright Falls, pushing Wake to the brink of sanity in his fight to unravel the mystery and save his love. Presented in the style of a TV series, Alan Wake features the trademark Remedy storytelling and pulse-pounding action sequences. As players dive deeper and deeper into the mystery, they’ll face overwhelming odds, plot twists, and cliffhangers. It’s only by mastering the Fight With Light combat mechanic that they can stay one step ahead of the darkness that spreads across Bright Falls. With the body of an action game and the mind of a psychological thriller, Alan Wake’s intense atmosphere, deep and multilayered story, and exceptionally tense combat sequences provide players with an entertaining and original gaming experience. Enhanced for the PC Includes Alan Wake Special Episodes “The Signal” and “The Writer” Experience Alan Wake’s Pacific Northwest in higher resolutions and higher fidelity than the Xbox360 version. Fully configurable mouse and keyboard support, or if you prefer to play with the Steam or Microsoft gamepad connected to your PC, you can do that too! Lots of customizable graphics settings and support for 4:3, 16:9 and 16:10 aspect ratios! Multithreaded engine that takes advantage of quad core CPUs. Additional features our fans have sought after such as field of view adjustment as well as “hide HUD”. Works with AMD Eyefinity 3D 3-screen mode.",
+        "id_in_db": "t3_1mzcym1",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "95% off",
+        "steam_app_id": "108710",
+        "genres": [
+            "Action",
+            "Adventure"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "",
-        "description": ""
+        "persian_summary": "هنگامی که همسر نویسنده پرفروش آلن ویک در تعطیلات خود ناپدید می شود ، جستجوی او صفحات از یک هیجان انگیز را به وجود می آورد که حتی به یاد نمی آورد که بنویسد. یک حضور تاریک شهر کوچک Falls Bright را غرق می کند و در مبارزه خود برای آشکار کردن رمز و راز و نجات عشق او ، به آستانه عقل و بیدار می شود. آلن ویک که به سبک یک سریال تلویزیونی ارائه شده است ، دارای سکانس های اکشن داستان پردازی و پالس است. هرچه بازیکنان عمیق تر و عمیق تر به رمز و راز فرو می روند ، با شانس های بسیار زیاد ، پیچ و تاب های توطئه و صخره ها روبرو می شوند. این تنها با تسلط بر مبارزه با مکانیک جنگی سبک است که می توانند یک قدم جلوتر از تاریکی که در آبشارهای روشن گسترش می یابد بمانند. با بدنه یک بازی اکشن و ذهن یک تریلر روانشناختی ، فضای شدید آلن ویک ، داستان عمیق و چند لایه و سکانس های جنگی فوق العاده پرتنش یک تجربه بازی سرگرم کننده و اصلی را به بازیکنان می دهد. پیشرفته برای رایانه شامل قسمتهای ویژه آلن ویک \"..."
     },
     {
         "title": "alphaputt",
@@ -99,6 +106,28 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u /saulmm [پیوند] [نظرات]"
+    },
+    {
+        "title": "arctico",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/325210/Arctico/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/325210/54d22528c2bda216345d9b234c008c34698d9532/header_alt_assets_6.jpg?t=1753984773",
+        "description": "A peaceful exploration and base building game about recovering your late mentor’s work. Base building Collect valuable resources, set up experiments, sell plant seeds, and expand your science outpost! Take care of your plants and experiments Producing lots of crops and data will allow you to upgrade your base and buy new tools! Customize your base and equipment Apply new paint jobs and upgrades to your structures and your sled! Exploring Discover the many locations around the island, find antique objects and letters. Co-op You can do all of this with up to 3 other friends (4 players co-op mode)!",
+        "id_in_db": "t3_1myychf",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "80% off",
+        "steam_app_id": "325210",
+        "genres": [
+            "Adventure",
+            "Casual",
+            "Indie"
+        ],
+        "is_multiplayer": true,
+        "is_online": true,
+        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257169219/movie_max_vp9.webm?t=1752607362",
+        "is_dlc_or_addon": false,
+        "persian_summary": "یک بازی اکتشافی مسالمت آمیز و ساختمان پایه در مورد بازیابی کار مربی فقید شما. ساختمان پایه منابع ارزشمندی را جمع آوری کنید ، آزمایش کنید ، دانه های گیاهی را بفروشید و پاسگاه علمی خود را گسترش دهید! از گیاهان و آزمایشات خود مراقبت کنید و تعداد زیادی محصول را تولید کنید و داده ها به شما امکان می دهد پایه خود را ارتقا دهید و ابزارهای جدیدی بخرید! پایه و تجهیزات خود را سفارشی کنید و کارهای جدید رنگ و به روزرسانی های خود را به سازه ها و سورتمه های خود اعمال کنید! با کاوش در بسیاری از مناطق اطراف جزیره ، اشیاء و حروف عتیقه پیدا کنید. تعاونی می توانید تمام این کارها را با حداکثر 3 دوست دیگر (4 بازیکن تعاونی) انجام دهید!"
     },
     {
         "title": "assassins creed mirage",
@@ -201,17 +230,26 @@
         "persian_summary": "ارسال شده توسط /u /conradosaud [پیوند] [نظرات]"
     },
     {
-        "title": "contact 18 neko hentai girl neko hentai girl",
-        "store": "other",
-        "url": "https://www.reddit.com/r/GameDeals/comments/1mwl5a9/steam_hentai_girls_lust_18_18320_off_hentai_girls/",
-        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1720560/capsule_616x353.jpg?t=1741789416",
-        "description": "Game Price Discount Hentai Girls: Lust [18+] $1.83 20% Hentai Girls: The Princesses $1.59 20% Hentai Girls: Contact [18+] $1.83 20% Neko Hentai Girl $0.92 20% Neko Hentai Girl: Beach Match-3 $0.92 20% Hentai Girls - Anime Puzzle 18+ $0.92 20% submitted by /u/iDotaUSA [link] [comments]",
-        "id_in_db": "t3_1mwl5a9",
+        "title": "conscript",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1286990/CONSCRIPT/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1286990/header.jpg?t=1755273449",
+        "description": "CONSCRIPT is a top-down survival horror game inspired by classics of the genre - set in 1916 during the Great War. CONSCRIPT will blend all the punishing mechanics of older horror games into a cohesive, tense, and unique experience. In CONSCRIPT, you play as a French soldier searching for his missing-in-action brother during the Battle of Verdun. Will you be able to search twisted trenches, navigate overrun forts, and cross no-mans-land to find him, and ensure a home goes unbroken? Experience classic and methodical survival horror gameplay in a unique historical setting: the Battle of Verdun. Highly re-playable with various difficulty settings, multiple endings, unlockable costumes and bonus weapons. Fend off enemy soldiers and combatants with a variety of WW1 melee weapons and firearms. Survive in an intense, harrowing atmosphere boosted by a unique pixel art aesthetic and oppressive sound design. Navigate intricate level design that promotes item management and route planning, whilst solving complex environmental puzzles. Explore distinct WW1 themed areas that intertwine and overlap.",
+        "id_in_db": "t3_1mz82du",
         "subreddit": "GameDeals",
         "is_free": false,
-        "discount_text": "20% off",
+        "discount_text": "60% off",
+        "steam_app_id": "1286990",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Indie"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257037058/movie_max_vp9.webm?t=1721788178",
         "is_dlc_or_addon": false,
-        "persian_summary": "تخفیف قیمت بازی دختران: شهوت [18+] 1.83 $ 20 ٪ HENTAI دختران: شاهزاده خانم ها 1.59 $ 20 ٪ Hentai دختران: تماس با [18+] 1.83 $ 20 ٪ Neko Hentai دختر 0.92 $ 0.92 20 ٪ Neko Hentai Girl: Beach Match -0.92 $ 20 ٪ Hentai Girls - Anime Puzzer 18+ $ 0.92 $ 0.92 $ 0.92 $ 0.92 $"
+        "persian_summary": "Conscript یک بازی ترسناک بقا از بالا به پایین است که با الهام از کلاسیک های ژانر - که در سال 1916 در طول جنگ بزرگ تنظیم شده است. سربازان تمام مکانیک های مجازات بازی های ترسناک قدیمی را به یک تجربه منسجم ، پرتنش و منحصر به فرد می آمیزند. در سربازان ، شما به عنوان یک سرباز فرانسوی که در جستجوی برادر مفقود شده خود در طول نبرد وردون است ، بازی می کنید. آیا شما قادر خواهید بود سنگرهای پیچ خورده را جستجو کنید ، از قلعه های غلبه و عبور از سرزمین عبور کنید تا او را پیدا کنید و اطمینان حاصل کنید که یک خانه بی وقفه است؟ گیم پلی ترسناک کلاسیک و روشمند بقا را در یک مکان تاریخی منحصر به فرد تجربه کنید: The Battle of Verdun. با تنظیمات مختلف دشواری ، پایان های مختلف ، لباس های قفل شده و سلاح های جایزه بسیار قابل پخش است. سربازان و مبارزان دشمن را با انواع سلاح های غوغا WW1 و سلاح گرم از بین ببرید. در یک فضای شدید و آزار دهنده زنده بمانید که توسط یک طراحی صوتی و ظریف و ظریف پیکسل منحصر به فرد تقویت شده است. حرکت در طراحی سطح پیچیده ای که باعث ارتقاء مدیریت مورد و برنامه ریزی مسیر می شود ، ..."
     },
     {
         "title": "cricket jaes really peculiar game",
@@ -237,19 +275,6 @@
         "persian_summary": "کریکت: بازی واقعاً عجیب و غریب Jae یک JRPG متحرک دستی با دست خنده دار و دلچسب از استودیوی Kumiho است. پس از باخت ویرانگر ، جائه برای رفع گذشته هر کاری انجام می داد. با دوستان تازه وارد خود در سفر به دروازه های Yimmelia ، سرزمین افسانه ای روی ماه که شایعه شده برای اعطای آرزوها است ، در آن تلاش خود را منفجر کنید. این JRPG ایده های کلاسیک ژانر را ترسیم می کند ، اما با پیچ و تاب های جدید گیم پلی متنوع. شما جنگل ها ، شهرها ، کنسرت های راک و موارد دیگر را با مسافرتی که همیشه سرگرم کننده و پویا است ، کشف خواهید کرد. هیچ برخورد تصادفی وجود ندارد ، در حالی که می توانید برای نتایج منحصر به فرد به اشیاء (و افراد!) بپردازید. نحوه تعامل با مردم بر رویدادهای بازی و مبارزه تأثیر می گذارد. Combat دارای بازدیدهای به موقع است ، با ترکیب های ویژه ای که با اعضای مهمانی شگفت انگیز همراه هستید. کنتور را بسازید ، حمله کنید و دفاع کنید ، در حالی که برای پاداش های بهتر ، ترکیب های عالی را رها می کنید! ویژگی های بازی جنگل های مسافرتی ، کاوش در شهرها ، خراب کردن یک کنسرت راک و تصادف یک کنوانسیون تصادفی ، همه در هنگام پرتاب JRPG ..."
     },
     {
-        "title": "crystalline visual novel",
-        "store": "iosappstore",
-        "url": "https://apps.apple.com/us/app/crystalline-visual-novel/id1460475403",
-        "id_in_db": "7022bd2daf3f2f0aec9cc20f9ce7843bcc558191a11a9997ff3bec40e8806d1c",
-        "subreddit": "AppHookup",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/1d/dd/59/1ddd59bc-b8f0-74f9-aa23-7fc65c0debfc/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-        "is_dlc_or_addon": false,
-        "persian_summary": "",
-        "description": ""
-    },
-    {
         "title": "doctor strange master of black magic costume",
         "store": "other",
         "url": "https://www.nvidia.com/en-eu/geforce/rewards/",
@@ -269,46 +294,30 @@
         "is_online": false,
         "trailer": "http://video.akamai.steamstatic.com/store_trailers/2031578/movie_max.webm?t=1447361076",
         "is_dlc_or_addon": false,
-        "persian_summary": "پرده از داستان حماسی قبل از فروشنده شماره 1 ، Agarest: نسل های جنگ به دنبال داغ روی پاشنه شماره 1 فروش حماسه SRPG \"Agarest: Generations of War\" ، Ghostlight مفتخر است که \"Agarest\" خود را اعلام کند: نسل های جنگ صفر \"به ارمغان می آورد که ترکیبی از جذابیت از استراتژی عمیق و Epic Multi-Greation! ... از خلاء ، خدایان تاریکی و نور آگارست ، کاملترین و الهی ترین جهان را ایجاد کردند. با گذشت نسل ها ، بهشت ​​با ناراحتی به ویروس های زمان افتاد. جنگ آسمان را تاریک کرد و Agarest به زودی به جهنم شکنجه گر تبدیل شد زیرا خدایان تقسیم و عظیم درگیری کردند و سرزمین زیبایی را هدر دادند ... پس از سالها با جنگ در بن بست ، سیغارت ، یک افسر جوان وفادار به ارتش های نور ، از کوههای زخمی شده در یک مأموریت خطرناک عبور می کند. در آنجا ، او با یک دختر عجیب ملاقات می کند و ناآگاهانه سرنوشت جهان را برای همیشه تغییر می دهد. در حالی که با بیش از 80 ساعت در یک قانع کننده و ..."
+        "persian_summary": "پرده از داستان حماسی قبل از فروشنده شماره 1 ، Agarest: نسل های جنگ به دنبال داغ روی پاشنه شماره 1 فروش حماسه SRPG \"Agarest: Generations of War\" ، Ghostlight مفتخر است که \"Agarest\" خود را اعلام کند: نسل های جنگ صفر \"به ارمغان می آورد که ترکیبی از جذابیت از استراتژی های عمیق و Epic Multi-Greationing Tosterlation! ... از خلاء ، خدایان تاریکی و نور آگارست ، کاملترین و الهی ترین جهان را ایجاد کردند. با گذشت نسل ها ، بهشت ​​با ناراحتی به ویروس های زمان افتاد. جنگ آسمان را تاریک کرد و Agarest به زودی به جهنم شکنجه گر تبدیل شد زیرا خدایان تقسیم و عظیم درگیری کردند و سرزمین زیبایی را هدر دادند ... پس از سالها با جنگ در بن بست ، سیغارت ، یک افسر جوان وفادار به ارتش های نور ، از کوههای زخمی شده در یک مأموریت خطرناک عبور می کند. در آنجا ، او با یک دختر عجیب ملاقات می کند و ناآگاهانه سرنوشت جهان را برای همیشه تغییر می دهد. در حالی که با بیش از 80 ساعت در یک قانع کننده و ..."
     },
     {
         "title": "epic games mobile strange horticulture",
         "store": "epicgames",
         "url": "https://www.reddit.com/r/FreeGameFindings/comments/1mwdw8j/epic_games_mobile_game_strange_horticulture/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/707710/header.jpg?t=1730215961",
-        "description": "Hear ye, hear ye, fellow Traveler! From the creators of Shakes & Fidget, join us in a new epic fantasy RPG adventure. Get ready to accept our new quest and embark on the wackiest dungeon crawler! The bards of the realm already sing their songs of a new fun game! And their ballads go like this: \"Welcome to Mobile Dungeon, a merry RPG show, Where dungeons are playgrounds and laughter does flow. In a world so absurd, where the champions are wacky, Embark on a journey that's utterly tacky. In dungeons bizarre, where the strange materializes, An epic crawl awaits, full of comical surprises. Goblins with whoopee cushions and disco-dancing trolls, Every step is a giggle, every challenge, pure gold. In arenas of madness, where the PvP is a delight, Craft strategies that boggle, in the absurdity of the fight. Real-time showdowns with champions so funny, Outwit your foes with humor, emerge as the bunny. Summon your team, a carnival absurdity, From pranking goblins to chickens of sincerity. Craft a crew with synergy both potent and mad, In the land of wizards, it's a team-building fad. Mobile Dungeon, where laughter takes flight, In a RPG world that's whimsically bright. A celebration of mirth, a fantastical cheer, Join us in the Dungeon, where the funny is near!\" GAME FEATURES: - HEROES & FOES - Collect tons of different units, good and evil characters, monsters and animals. Hunt or recruit them to shape your party and defeat any threat that stands in your way. - STRATEGIC BATTLES - Form your party and strategize unbeatable lineups to overcome your enemies in battle. From very nasty seagulls to bulky orcs, each formation will grant specific skills and unique buffs. - DISCOVER - Immerse yourself in a fantastical world where the legends are as diverse as they are ludicrous. From the legendary feats of a tea-sipping sorcerer to the epic tales of a hero who communicates solely in limericks, the whimsy never ends. Explore, laugh, and uncover the legends that define this one-of-a-kind RPG So let the fun run free, by this here royal decree!",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391730/header.jpg?t=1755874750",
+        "description": "TIME Magazine Top 10 Games of 2016 \"Usually I can say what a game IS and be done, but it's hard to figure out what Crashlands ISN'T. It's a funny, crafty, fighty, jumpy, makey, adventurey, type... thing. I think they started making a cool game and just couldn't stop. \" - Tycho, Penny Arcade Crash land and craft, battle, and quest your way through this story-driven Crafting ARPG overflowing with sass! Become Flux Dabes, a galactic trucker whose latest shipment gets derailed by a chin-strapped alien menace named Hewgodooko, leaving you stranded on an alien planet. As you hustle to retrieve your packages you’ll become enmeshed in a nefarious plot of world domination, which will require all of your wits and both of your glutes to overcome. Learn recipes from the local sentient life, make new friends, uncover ancient secrets and deadly bosses, tame everything and build yourself a home-away-from-home as you learn to thrive after crash landing on planet Woanope. Player 2 can now play as Juicebox! Juicebox's S.T.R.A.W.™ not only harvests resources but also brings additional firepower to the battlefield. But watch out, the enemies are gonna try to kick his robotic butt too now! But Juicebox has a few special moves up his mechanical sleeves... Happy Juiceboxing with your friend! Key Features Expansive Crafting System Unlock over 500 craftable items as you explore the world and learn its secrets! Self-managing, Infinite Inventory Your inventory is infinite, manages itself, and retrieves your tools when you need them, so you can focus on adventuring, questing, and building. You'll never dig through your bag or return to your base to free up inventory space - giving you more time to thrive after crash landing! RPG-Style Character Progression Become more powerful through creating ever-more-amazing items! As you grow in power, you can venture to new regions of the world, meet strange characters, discover new stories, and encounter new and interesting enemies. Skill-Based Combat Learn the attacks of the enemies you encounter, and use your skill, agility, and wits to defeat them! You can even augment your fighting prowess with the power of the dozens of gadgets you can craft. Set your enemies on fire, stun them, slow down time, and more! Intuitive Base Building Building a base in Crashlands is so simple it feels like fingerpainting. You can create beautiful, sprawling bases in minutes! Tameable Creatures Every creature in Crashlands can become a trusty combat sidekick. Find an egg, incubate it, and hatch your very own adorable or hideous bundle of joy. You can even craft special items to grow and empower them! Huge World... with Huge Problems Crash land on a planet with four sentient races, three continents, an epic bid for the future of the planet, and you - trapped in the middle, trying to deliver your freakin' packages. Take your time to dive into the sidestories of the characters you meet or just rush headlong into making that special delivery. With hundreds upon hundreds of quests, there's a lot to do and discover on planet Woanope! Crossplatforminess Don't want the fun to stop? Crashlands is also available on mobile - the exact same game, with your cloud-synced progress - so you never have to stop!",
         "id_in_db": "t3_1mwdw8j",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "707710",
+        "steam_app_id": "391730",
         "genres": [
+            "Action",
             "Adventure",
-            "Casual",
-            "Massively Multiplayer",
-            "RPG",
-            "Strategy",
-            "Free To Play",
-            "Early Access"
+            "Indie",
+            "RPG"
         ],
         "is_multiplayer": true,
         "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257035516/movie_max_vp9.webm?t=1723114983",
+        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257186870/movie_max_vp9.webm?t=1755874746",
         "is_dlc_or_addon": false,
-        "persian_summary": "بشنو ، بشنو ، مسافر همکار! از سازندگان Shakes & Fidget ، در یک ماجراجویی جدید Epic Fantasy RPG به ما بپیوندید. آماده شوید تا تلاش جدید ما را بپذیرید و به طلسم ترین خزنده سیاه چال بپردازید! Bards of the Realm در حال حاضر آهنگ های خود را از یک بازی سرگرم کننده جدید می خواند! و تصنیف های آنها به این شکل پیش می رود: \"به Dungeon Mobile ، یک نمایش RPG شاد ، که در آن سیاه چال ها زمین های بازی هستند و خنده ها هستند. ترول ، هر قدم ، هر چالشی ، در عرصه های جنون ، جایی که PvP یک استراتژی های لذت بخش است که در مورد پوچ در جنگ با قهرمانان بسیار خنده دار است."
-    },
-    {
-        "title": "ethereal enigma visual novel",
-        "store": "iosappstore",
-        "url": "https://apps.apple.com/us/app/ethereal-enigma-visual-novel/id1519306362",
-        "id_in_db": "20e060829af1a65dc412adb2ed966f1d3bc94f8e216f29d4ef8cede3bb707171",
-        "subreddit": "AppHookup",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/1c/1a/d4/1c1ad4f6-2fcd-4d26-3bd5-4324d03206f2/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-        "is_dlc_or_addon": false,
-        "persian_summary": "",
-        "description": ""
+        "persian_summary": "مجله تایم 10 بازی برتر سال 2016 \"معمولاً می توانم بگویم که یک بازی چیست و انجام می شود ، اما می توان فهمید که Crashlands چه چیزی نیست. این یک خنده دار ، حیله گر ، مبارز ، پرشور ، Makey ، Type ... چیز است. فکر می کنم آنها شروع به ساختن یک بازی جالب کردند و فقط نمی توانند متوقف شوند.\" تبدیل به Flux dabes ، یک کامیون کهکشانی که آخرین محموله آن توسط یک تهدید بیگانه چانه به نام Hewgodooko از بین می رود و شما را در سیاره ای بیگانه قرار می دهد. هنگامی که برای بازیابی بسته های خود عجله می کنید ، در یک نقشه ناعادلانه از سلطه جهانیان گنجانیده خواهید شد ، که برای غلبه بر همه عقل و هر دو گلوت شما نیاز دارد. دستور العمل های زندگی احساساتی محلی را بیاموزید ، دوستان جدیدی بسازید ، از اسرار باستانی و کارفرمایان کشنده پرده بردارید ، همه چیز را لکه دار کنید و خود را به خانه بسازید و از خانه خارج شوید ، زیرا یاد می گیرید پس از سقوط در سیاره Woanope ، شکوفا شوید. بازیکن 2 اکنون می تواند به عنوان ..."
     },
     {
         "title": "exiled giveaways and itchio mega threads",
@@ -324,28 +333,6 @@
         "persian_summary": "برای افزایش دید ، موضوعات مگا به صورت هفتگی ارسال می شوند. این کار پس از بحث کلی موضوعات مگا از طریق بروزرسانی FGF انجام می شود - https://redd.it/jkxyzw لطفاً از موضوعات زیر برای پست های خود استفاده کنید. :) Giveaways Mega Thread (شماره 2) Thread Mega Itchio (#10) آیا می خواهید هشدارهایی را برای این موضوعات تنظیم کنید؟ اطلاعات خوراک RSS را می توان در ویکی ما یافت! https://www.reddit.com/r/freegamefindings/wiki/rssfeed شامل اطلاعات مربوط به ربات Discord و General RSS Feed است. قطعاً به آن نگاه کنید! ارسال شده توسط /u /automoderator [پیوند] [نظرات]"
     },
     {
-        "title": "fanatical ninja gaiden master collection",
-        "store": "fanatical",
-        "url": "https://www.fanatical.com/en/game/ninja-gaiden-master-collection-ninja-gaiden-2",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1580790/header.jpg?t=1751503462",
-        "description": "Note: This product is included in \"NINJA GAIDEN: Master Collection\", and \"NINJA GAIDEN: Master Collection Deluxe Edition\". It is not available for individual purchase. Note: Please visit the official website for more information on the featured content. [About NINJA GAIDEN: Master Collection] Enjoy 3 games from the NINJA GAIDEN series in this one title. Each title is still just as fun as you remember while providing the same high speed action of the original releases. Look forward to heated battles with fearsome opponents! In addition to Ryu Hayabusa, 4 other characters, Ayane, Rachel, Momiji, and Kasumi, are also playable. You can create a tag team with your favorite characters and freely swap out the playable character during battles. ※The heroines included in this title are the same as the original versions. In addition, the characters that are playable and scenes (modes) vary for each title. All of the previously released game modes and DLC costumes for each title are included in this one set. In addition to Ryu Hayabusa, each of the other characters also have many different costumes to choose from, allowing you to enjoy action packed battles in whichever outfit you prefer. ■Included Titles NINJA GAIDEN Σ NINJA GAIDEN Σ2 NINJA GAIDEN 3: Razor's Edge ※Online multiplayer is not available for the “TAG MISSIONS” in NINJA GAIDEN Σ2. ※The “Shadow of the world” “Clan battle” for NINJA GAIDEN 3 Razer's Edge is not included. Online multiplayer is not available for “ninja trials”. ※\"NINJA GAIDEN Σ2\" and \"NINJA GAIDEN 3: Razor's Edge\" are also available in Traditional Chinese. [About NINJA GAIDEN Σ] In addition to being able to pull off unmatched dazzling techniques with \"Ryu Hayabusa\", a young ninja who has inherited the ninja arts of the Hayabusa style, with beautiful stages in a westernized Japan embellished with spirit-world motifs, and more, the game is packed with features that are a must-play for any fan of action games. ■The epic story can easily be enjoyed with \"Hero Mode\" When you select the difficulty setting \"Hero Mode\", Hero Mode is triggered when your health becomes low. With Hero Mode, you will guard and evade automatically, and can unleash ninpo as much as you want. Even casual action gamers will be able to feel the heroic thrill of escaping a pinch to turn the tables on the enemy and advance the game. Needless to say, difficulty modes that will satisfy hard-core gamers are also included. [About NINJA GAIDEN Σ2] Become Ryu Hayabusa, the ninja who inherited the \"Dragon Sword\", a legendary blade, and once again experience high-speed ninja action in which you face battles all over the world. The game is also packed with additional features such as \"Hero Mode\", a mode in which the player will guard automatically when they are in a pinch. ■In \"NINJA RACE\", life or death depends on speed \"NINJA RACE\" is a mode in which you must race across the map within the time limit while fighting high-speed battles. In this mode, the number of enemies you defeat in succession is counted as your \"CHAIN\", and by stringing together a high chain, your attack power will increase dramatically. Also, you can pick up speed-up and time increasing items along the way, so attacking non-stop, defeating enemies as fast as possible, and gathering items will be essential to your strategy. ■Along with Hayabusa, 3 heroines dazzlingly dash about the battlefield Heroines from the \"NINJA GAIDEN\" series, \"Ayane\", \"Rachel\", and \"Momiji\" appear as playable characters. With \"TAG MISSIONS\", players can select 2 characters from among Hayabusa and the 3 heroines, allowing them to switch between 2 playable characters as they complete their mission. [About NINJA GAIDEN 3: Razor's Edge] The ultimate high-speed ninja action has returned! The game offers both extreme \"challenge\", along with an equally extreme \"sense of accomplishment\". Experience the series' most alluring high-speed action. ■In addition to Ryu Hayabusa, Ayane, Kasumi, and Momiji join the battle! In addition to main character \"Ryu Hayabusa\", the 3 female ninjas \"Ayane\", \"Kasumi\", and \"Momiji\" can be used as playable characters. And they aren't limited to just the \"Chapter Challenge\" story missions - the 3 characters can also be used in \"NINJA TRIALS\". Also, \"NINJA GAIDEN\" series heroine Ayane has a dedicated story. ■Thrilling battles where you must be constantly alert \"Tests of Valor\", a special phase for series fans who want to enjoy battles even further, have been included. In each chapter, there are hidden skulls that serve as gates to \"Test of Valor\" areas. By stepping foot onto these areas, battles will occur where players must face the fiercest and strongest enemies from the \"NINJA GAIDEN\" series. ■Upgrading characters adds more replay value! By collecting hidden \"Golden Scarabs\", using \"Karma\" collected in battles, and more, players can unlock new weapons and ninpo to upgrade their characters. Of course, upgrades you have applied can be carried over for 2nd and successive playthroughs. Among moves that can be unlocked, there are moves that are new to the series, such as \"Cicada Surge\", which allows you to dodge any enemy attack, \"Meditation\", which allows you to consume your Ki gauge to recover health, and more.",
-        "id_in_db": "t3_1mwdehy",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "58% off",
-        "steam_app_id": "1580790",
-        "genres": [
-            "Action",
-            "Adventure"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256838153/movie_max_vp9.webm?t=1683696429",
-        "age_rating": "This Game may contain content not appropriate for all ages, or may not be appropriate for viewing at work: Frequent Violence or Gore",
-        "is_dlc_or_addon": true,
-        "persian_summary": "توجه: این محصول در \"Ninja Gaiden: Master Collection\" و \"Ninja Gaiden: Master Collection Deluxe Edition\" گنجانده شده است. برای خرید فردی در دسترس نیست. توجه: لطفاً برای اطلاعات بیشتر در مورد محتوای برجسته به وب سایت رسمی مراجعه کنید. [درباره Ninja Gaiden: Master Collection] از 3 بازی از سری Ninja Gaiden در این عنوان لذت ببرید. هر عنوان هنوز هم به همان اندازه سرگرم کننده است که به یاد می آورید در حالی که همان عملکرد سرعت بالا نسخه های اصلی را ارائه می دهید. منتظر نبردهای گرم با مخالفان ترسناک باشید! علاوه بر Ryu Hayabusa ، 4 شخصیت دیگر ، Ayane ، Rachel ، Momiji و Kasumi نیز قابل پخش هستند. شما می توانید با شخصیت های مورد علاقه خود یک تیم برچسب ایجاد کنید و شخصیت قابل پخش را در حین نبرد آزاد کنید. ※ قهرمانان موجود در این عنوان همان نسخه های اصلی هستند. علاوه بر این ، شخصیت هایی که قابل پخش هستند و صحنه ها (حالت ها) برای هر عنوان متفاوت هستند. تمام حالت های بازی که قبلاً منتشر شده و لباس های DLC برای هر عنوان در ... گنجانده شده اند ..."
-    },
-    {
         "title": "forza horizon 5 2999 2999 50 off forza horizon 5 3999 3999 50 off forza motorsport 3499 3499 50 off forza motorsport and forza horizon 5 premium editions bundle 8499 50 off",
         "store": "steam",
         "url": "https://store.steampowered.com/sale/forzafranchise",
@@ -357,6 +344,19 @@
         "discount_text": "50% off",
         "is_dlc_or_addon": true,
         "persian_summary": "ارسال شده توسط /u /dslmaniac [لینک] [نظرات]"
+    },
+    {
+        "title": "free 48 hours offer",
+        "store": "iosappstore",
+        "url": "https://apps.apple.com/us/app/heightly-baby-kid-growth/id1628054048",
+        "image_url": "https://external-preview.redd.it/pseZt_13Gm6SeW7fVLK7IIt7l_27UpOE_eLP49mn9J0.png?width=640&crop=smart&auto=webp&s=2b4b01471a09629fac0148cdf176a532685f77d1",
+        "description": "submitted by /u/Bitter-Degree-9832 [link] [comments]",
+        "id_in_db": "t3_1mzhl3i",
+        "subreddit": "AppHookup",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u /تلخ درجه -9832 [لینک] [نظرات]"
     },
     {
         "title": "free daily learning app word book film song fact artwork of the day etc",
@@ -443,19 +443,6 @@
         "trailer": "http://video.akamai.steamstatic.com/store_trailers/256747092/movie_max.webm?t=1554406343",
         "is_dlc_or_addon": false,
         "persian_summary": "احتمالاً هر نوجوان می خواست باشگاه رایانه ای خود را داشته باشد - تمام روز بازی کنید ، دوستان جدیدی پیدا کنید ، در مورد دستاوردهای بازی لاف بزنید. و اکنون این رویا به واقعیت تبدیل شده است! در باشگاه بازی \"Waka Waka\" می توانید مانند صاحب باشگاه بازی خود احساس کنید! از شما خواسته می شود باشگاه خود را از یک جعبه ساده و تلویزیون های قدیمی به حالت رایانه های هنری توسعه دهید! مطمئن شوید که هیچ چیز شکسته نشده است ، زیرا اگر کنسول درخشان باشد ، به زودی می سوزد! ویژگی های بازی: 22 دستگاه بازی مختلف موسیقی شامل 28 بازی مختلف 8 بیتی Melodies Machinery Breakdowns Progress Memories Fond"
-    },
-    {
-        "title": "game devs of color support bundle 107 items for 10 the letter",
-        "store": "itch.io",
-        "url": "https://itch.io/b/3171/game-devs-of-color-support-bundle",
-        "image_url": "https://img.itch.zone/aW1nLzIyMzcyODQ4LmpwZw==/original/T8Wdwl.jpg",
-        "description": "submitted by /u/techiekent [link] [comments]",
-        "id_in_db": "t3_1mwg2vi",
-        "subreddit": "GameDeals",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u /techiekent [لینک] [نظرات]"
     },
     {
         "title": "gear of glass",
@@ -592,17 +579,17 @@
         "persian_summary": "آنچه من به دنبال آن هستم: هرگونه بازخورد در مورد قابلیت استفاده ، طراحی یا هر چیزی که کاملاً درست نیست. پیشنهادات برای ویژگی های جدید یا پیشرفت ها! افکار عمومی در مورد تجربه خود با استفاده از برنامه. اخیراً با برخی از پیشنهادات کاربران Reddit به روز شده است. اکنون برنامه نباید روی متن طولانی تر خراب شود ، دکمه CLEAR را اضافه کرد تا فقط محتوای کل را از قسمت متن حذف کند. اما هنوز به دنبال بازخورد بیشتر هستید. اکنون به دنبال مدل های صوتی جدید برای زبانهای درخواستی هستید. برنامه به زودی روی iPads و MAC نیز کار خواهد کرد. ارسال شده توسط /u /mefjueditor [پیوند] [نظرات]"
     },
     {
-        "title": "ios499 to free for 48h beastinterval",
+        "title": "iospdfforge499 to free for 48hscan edit sign and extract text from pdfs with ocr pdfforge is your all",
         "store": "iosappstore",
-        "url": "https://apps.apple.com/us/app/beastinterval-interval-timer/id6744288215",
-        "image_url": "https://external-preview.redd.it/m9SrPg4ifORtEbJwPXAtz5dd3-iPNXhxL4J8TMty2LE.png?width=640&crop=smart&auto=webp&s=aefb791d61053e0814726d3bcc213b8d8e160a58",
-        "description": "Hello Just updated: BeastInterval – the ultimate HIIT timer for iOS! I built this app as an indie dev to help anyone doing HIIT, circuit, or EMOM workouts stay focused, track progress, and stay motivated over time. To celebrate the transition from Subscription model to One-Time Purchase, I'm running promo offer, just grab the pro version for FREE! Why BeastInterval?🔥 18 ready-to-go programs (HIIT, EMOM, Tabata & more)⚙️ Custom timer setup (up to 5:59 active/rest & 30 rounds)📈 7-day performance graphs📆 Full workout history🏆 Streaks & achievements to keep you on track🧘‍♂️ Clean, no-distraction interface What I’m Looking For: Any feedback on app usability, design, or anything that doesn’t feel quite right. Suggestions for new features or improvements! General thoughts on your experience using the app. Regular Price: FREEIAP - 4.99$ Pro version now its FREE for 2 DAYS I'd love your feedback — every bit of support means the world to a solo indie devThanks for helping an indie dev grow submitted by /u/MefjuEditor [link] [comments]",
-        "id_in_db": "t3_1mm7b72",
+        "url": "https://apps.apple.com/us/app/pdfforge-pdf-scanner-edit/id6744874734",
+        "image_url": "https://external-preview.redd.it/8Ln6jDc15lIZZjnpmDdTfQoSMRjND0fVKlw4GiEO1TI.png?width=640&crop=smart&auto=webp&s=e9b01f5bb287c93e1a7f982ee622fc82f9444936",
+        "description": "What I’m Looking For: Feedback on usability, design, or missing features Suggestions for improvements or pain points Thoughts on how it compares to other PDF apps Recently updated, I added localization for 10 languages, let me know how it looks like. I will be very thankful for any feedback! submitted by /u/MefjuEditor [link] [comments]",
+        "id_in_db": "t3_1mzeipo",
         "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
-        "persian_summary": "سلام فقط به روز شده: Beastinterval - تایمر نهایی HIIT برای iOS! من این برنامه را به عنوان یک indie dev ساختم تا به هر کسی که تمرینات HIIT ، مدار یا emom را انجام می دهد ، متمرکز شود ، پیشرفت کند و با گذشت زمان انگیزه بماند. برای تجلیل از انتقال از مدل اشتراک به یک بار خرید ، من پیشنهاد تبلیغاتی را اجرا می کنم ، فقط نسخه حرفه ای را به صورت رایگان بگیرید! چرا BeastInterval؟ 🔥 18 برنامه آماده برای رفتن (سلام ، emom ، tabata و موارد دیگر) ⚙ تنظیم تایمر سفارشی (حداکثر 5:59 فعال/استراحت و 30 دور) نمودار عملکرد 7 روزه-تاریخچه کامل تمرین-رگه ها و دستاوردهای شما را در مسیر نگه داشتن ، بدون استفاده از رابط من به دنبال آنچه که من به دنبال آن هستم ، بدون هیچ گونه بازخورد در مورد برنامه بازخورد است. پیشنهادات برای ویژگی های جدید یا پیشرفت ها! افکار عمومی در مورد تجربه خود با استفاده از برنامه. قیمت منظم: FreeIAP - نسخه 4.99 $ Pro اکنون به مدت 2 روز رایگان است که من می خواهم بازخورد شما را دوست داشته باشم - هر پشتیبانی از این به معنای جهان به یک انفرادی DevThanks برای کمک به رشد indie dev ..."
+        "persian_summary": "آنچه من به دنبال آن هستم: بازخورد در مورد قابلیت استفاده ، طراحی یا ویژگی های مفقود شده برای بهبود یا نقاط درد در مورد نحوه مقایسه آن با سایر برنامه های PDF که اخیراً به روز شده اند ، محلی سازی را برای 10 زبان اضافه کردم ، به من اطلاع دهید که چگونه به نظر می رسد. من برای هر بازخورد بسیار سپاسگزارم! ارسال شده توسط /u /mefjueditor [پیوند] [نظرات]"
     },
     {
         "title": "itch cereal 50 off 050",
@@ -654,19 +641,6 @@
         "persian_summary": "ارسال شده توسط /u /pm_me_freegames [لینک] [نظرات]"
     },
     {
-        "title": "kamaeru strange horticulture 100 off free",
-        "store": "epicgames",
-        "url": "https://store.epicgames.com/en-US/free-games",
-        "image_url": "https://i.ytimg.com/vi/UtsPMRx8vJo/sddefault.jpg",
-        "description": "submitted by /u/python_buddy [link] [comments]",
-        "id_in_db": "t3_1mwddb4",
-        "subreddit": "GameDeals",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u /python_buddy [لینک] [نظرات]"
-    },
-    {
         "title": "Kamaeru: A Frog Refuge",
         "id_in_db": "kamaeru-a-frog-refuge@1755789292",
         "store": "other",
@@ -686,19 +660,6 @@
         "is_dlc_or_addon": false,
         "subreddit": "FreeGameFindings",
         "persian_summary": "Kamaeru یک قورباغه دنج است که در مورد کشاورزی و حفظ طبیعت جمع آوری می کند. شما به عنوان یک روح مهربان بازی می کنید و به یک دوست قدیمی کمک می کند تا با تبدیل آنها به یک پناهگاه امن برای قورباغه های کوچک دوستانه ، تالابهای کودکی خود را بازگرداند. با کمک بازیگران بازی از استقبال از NPC ها ، برای افزایش شهرت ، تزئین پناهگاه قورباغه خود و کاشت محصولات بومی خود ، از قورباغه های قورباغه خود عکس می گیرید و پرورش می دهید تا به زندگی دوزیستان کمک کنید! قورباغه ها را جمع آوری کنید 🐸 خوراک ، پرورش ، جمع آوری و جمع آوری همه قورباغه های 500+ بازی! 🐸 این وظیفه شماست که راز جذب قورباغه های جدید و شایان ستایش را بفهمید. شما می توانید مجموعه خود را با باز کردن تمام رنگ های نادر از طریق یک مینی بازی مخصوص پرورش تکمیل کنید. هنگامی که افراد جدید به پناهگاه شما می پیوندند ، از دوربین درون بازی استفاده کنید تا از آنها عکس بگیرید و آنها را برای FrogedEx خود جمع کنید! تالابها را بازیابی کنید 🌾 برای موفقیت در تلاش برای حفظ قورباغه ، باید تالابهای اطراف خود را به شکوه سابق خود بازگردانید. این به شما امکان می دهد به طور مداوم پشتیبانی کنید ..."
-    },
-    {
-        "title": "kaori after story visual novel",
-        "store": "iosappstore",
-        "url": "https://apps.apple.com/us/app/kaori-after-story-visual-novel/id1454412797",
-        "id_in_db": "d58427b7b3a42d8c9028462dc7d276ab914a12387e24bb326f9695e7f0d39d70",
-        "subreddit": "AppHookup",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/32/39/4a/32394a8a-f5fb-19d6-bd38-2c500e1f1366/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-        "is_dlc_or_addon": false,
-        "persian_summary": "",
-        "description": ""
     },
     {
         "title": "lizards must fall",
@@ -736,6 +697,19 @@
         "is_dlc_or_addon": false,
         "persian_summary": "",
         "description": ""
+    },
+    {
+        "title": "monster hunter wilds dead rising deluxe remaster dragons dogma 2 resident evil 4 resident evil village exoprimal monster hunter rise devil may cry 5 vergil bonus",
+        "store": "indiegala",
+        "url": "https://www.indiegala.com/store/publisher-sale/capcom",
+        "image_url": "https://external-preview.redd.it/vk_1EBhsmPrQFT6PDd0MaNqfo0BkE2q4kJJQ48oRrMQ.jpeg?width=640&crop=smart&auto=webp&s=8dfef94aaad63ea5abead2801d60684ab4f3acf2",
+        "description": "submitted by /u/indieg [link] [comments]",
+        "id_in_db": "t3_1myr6vq",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "20% off",
+        "is_dlc_or_addon": true,
+        "persian_summary": "ارسال شده توسط /u /indieg [پیوند] [نظرات]"
     },
     {
         "title": "orbox c",
@@ -964,7 +938,7 @@
         "title": "platform strange horticulture ca1699 free an occult puzzle game in which you play as the proprietor of a local plant store find and identify new plants pet your cat speak to a coven or join a cult",
         "store": "other",
         "url": "https://www.reddit.com/r/AppHookup/comments/1mwebu0/multiplatform_strange_horticulture_ca1699_free_an/",
-        "image_url": "https://cdn1.epicgames.com/spt-assets/15e8e3eba65a4763a815d6eae1d763b2/strange-horticulture-9rj5g.jpg",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574580/header.jpg?t=1741961232",
         "description": "https://store.epicgames.com/en-US/p/strange-horticulture-360e80 https://store.epicgames.com/p/strange-horticulture-android-8143c0 https://store.epicgames.com/p/strange-horticulture-ios-42250a An occult puzzle game in which you play as the proprietor of a local plant store. Find and identify new plants, pet your cat, speak to a coven, or join a cult. Use your collection of powerful plants to influence the story and unravel Undermere’s dark mysteries. submitted by /u/PM_ME_FREEGAMES [link] [comments]",
         "id_in_db": "t3_1mwebu0",
         "subreddit": "AppHookup",
@@ -987,6 +961,19 @@
         "persian_summary": "ارسال شده توسط /u /lets_playsum [لینک] [نظرات]"
     },
     {
+        "title": "playsum the last campfire 128 109 c158 with code cheers",
+        "store": "other",
+        "url": "https://store.playsum.live/product/b6757a50-8926-487c-9ddd-4c3b35b5727d/the-last-campfire-steam",
+        "image_url": "https://external-preview.redd.it/L70rIVpKCwiq639rZ-BHbH8W2_Qiy77cAwUGMI075No.jpeg?width=320&crop=smart&auto=webp&s=c2762d8c3bfbd028f40d53fd23512206283be831",
+        "description": "submitted by /u/Lets_Playsum [link] [comments]",
+        "id_in_db": "t3_1myow8e",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "91% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u /lets_playsum [لینک] [نظرات]"
+    },
+    {
         "title": "pro wrestling manager",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/pro-wrestling-manager/id1669825317",
@@ -1003,7 +990,7 @@
         "title": "ps other playstation plus premium",
         "store": "playstation",
         "url": "https://store.playstation.com/?transactAction=redeemVoucher&cartAction=view",
-        "image_url": "https://i.redd.it/xvrjixx8anya1.jpg",
+        "image_url": "https://substackcdn.com/image/fetch/$s_!wszF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd96929f8-2050-4fcd-8e4d-c9ef3d5c406a_1280x720.jpeg",
         "description": "submitted by /u/MeguminShiro [link] [comments]",
         "id_in_db": "t3_1mr0yj5",
         "subreddit": "FreeGameFindings",
@@ -1083,26 +1070,25 @@
         "persian_summary": "گیاهان جدید را پیدا کرده و شناسایی کنید ، گربه خود را حیوان خانگی کنید ، با یک میثاق صحبت کنید ، یا به یک فرقه بپیوندید. از مجموعه رو به رشد خود برای تأثیرگذاری بر داستان و اسرار تاریک Undermere استفاده کنید. به Undermere ، یک شهر عجیب و غریب که توسط جنگل های آلوده به هاگ و کوه های ناهموار احاطه شده است ، خوش آمدید. شما باغبان ، صاحب فروشگاه محلی گیاه باغبانی عجیب و غریب هستید. همانطور که بازیگران مشتریان رنگارنگ توسط مغازه شما می آیند ، شما به سرعت به یک رمز و راز غیبی می پردازید که صدها سال به عقب کشیده می شود. برای یافتن گیاهان جدید ، زمین های فراتر از فروشگاه خود را کاوش کنید ، اما مراقب باشید! جنگل ها و دریاچه های تاریک همیشه با یک گیاه شناس ساده دوست نیستند. ممکن است قدرتهای فراتر از وحشی ترین رویاهای خود را کشف کنید - یا ذهن خود را کاملاً از دست دهید. از سرنخ های متن برای تعیین مکان های بازدید استفاده کنید و از کدام یک برای جلوگیری از آن استفاده کنید! با استفاده از دائر ycl المعارف قابل اعتماد و سرنخ های موجود در کاوش های خود ، در مورد گیاهان عجیب و غریب که با آنها روبرو می شوید ، بیشتر می دانید. با شناسایی هر گیاه ، شما قادر خواهید بود از جلوه های آنها برای تأثیرگذاری بر داستان استفاده کنید - از ..."
     },
     {
-        "title": "the flayed man",
+        "title": "the room 099 099 80 off",
         "store": "steam",
-        "url": "https://store.steampowered.com/app/3471670/The_Flayed_Man/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3471670/header.jpg?t=1749337493",
-        "description": "The Flayed Man is a short, chilling experience ~30 minutes long, perfect for playing before bed, especially if you’re in the mood for a nightmare. You are the Flayed Man. Awaking in a decayed, otherworldly house where your every waking moment is agony, you must uncover the sins of the past, pass judgement, and decide your fate in this unsettling, macabre adventure. A dark horror game with mature, disturbing themes. Multiple endings depending on your choices. An atmospheric and moody original soundtrack. Evocative and chilling pixel-art graphics. Traditional point and click gameplay with modern mechanics and user interface. Psychosexual demons that will give any budding psychologist food for thought.",
-        "id_in_db": "t3_1mwjkeb",
+        "url": "https://store.steampowered.com/app/288160/The_Room/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1898680/header.jpg?t=1702000573",
+        "description": "v4.90 Is Now Live! The Scaleforge have returned to help Humanity fight the Sandwing scourge! Meanwhile, darkness emerges from the heart of Kyber. A 26 card update including 2 New Heroes! A Shadow Priest, and a Human Wulven hero! OVERVIEW - 2 new heroes: She-Lah (Human Wulven) and Markus (Shadow Priest). - 8 new Human allies from the Scaleforge alignment. - 10 new Shadow allies from the Kyberian alignment. - 6 other new cards - 25 buffs across all sets - 4 card rejigs - Various bug fixes v4.80 Has Arrived! OVERVIEW - 14 new class cards added to the Rekindled Rebirth set. - 8 changes to Rekindled Rebirth cards, including 3 that are now unbanned. - 9 buffs to Call of the Crystals class cards. - 20 buffs to Dark Prophecies class cards. - 3 Campaign card balance changes. - 4 allies gained an alignment to boost Homunculus, Templar and Undead. - Various bug fixes NEW CARDS - 2 Warrior cards (rr064-rr065) - 2 Mage cards (rr074-rr075) - 2 Hunter cards (rr084-rr085) - 2 Priest cards (rr094-rr095) - 2 Rogue cards (rr104-rr105) - 2 Wulven cards (rr114-r115) - 2 Elemental cards (rr124-rr125) BUG FIXES Fixed a bug where Dragon's Tooth (ex146) becoming an ally with no abilities couldn't have its attack increased. Fixed a bug where Nanaya (ll060) doesn't buff allies created by Rise of the Banners (rr062). Fixed a bug where Felinian Dissenter (rr051) wasn't reducing weapon bow damage to it. Fixed a bug where Gyre and Gimble (rr102) gives card draw when a weapon enters play without being summoned. Fixed a bug where Tranceposer (rr121) can steal an opposing unique ally when you already control that ally. Fixed a bug where Nine Lives (rr131) can be activated with a full hand. Version 4.7 of Shadow Era is here! Shadow Era is the full scale, cross-platform collectible trading card game that you've been looking for, with the most generous free to play system out there! Start your campaign by choosing your Human Hero, and get a free starter deck. Battle with AI opponents or other players in realtime pvp to earn more cards. Your progress and cards will be saved on the server and can be accessed from any device! You must decide which strategy to use as you build your deck, in one of the most balanced card games out there! What's New in 4.7? A new saga begins in the world of Balor! With the forces of the wild becoming more increasingly dominated by the Shadow aligned Wulven faction, a desperate attempt is made to tilt the scales of nature back in favor of humanity. Mystics from Templar and Twilight persuasions collaborate on an intense ritual to infuse the souls of departed humans into the ferocious bodies of Balor's many jungle cats. Warnings from the Keeper of the Mystic Flames ignored, the ritual is successful - creating the first Feline Humanoid champions of Humanity on Balor! However, the energy releases cracked open the ancient egg-caverns of the Sandwings - a terrible tribe of dragons thought to be long-extinct. Will you defend humanity against its many foes, and fend off this scaly menace? Or will you take flight with the Sandwing Broodmother and punish Humanity for dabbling with powers they have no right to command? \"A fantastic representation of what freemium games should be.\" - Touch Arcade \"Shadow Era is a must-download for fans of CCGs.\" - TUAW \"Shadow Era is a deep CCG that's easy to pick up, but nearly impossible to put down.\" - Slide To Play (4/4) \"Shadow Era proves that digital TCG's can be just as fun as their real world counterparts.\" - Gamezebo FEATURES - Many new cards in the Lost Lands expansion, bringing the total to more than 800 cards - Amazing dark fantasy card art that is sure to wow you, even rivals the top trading card games! - View games in progress or replays to learn new strategies - Free to play Meltdown game mode with great weekly prizes - Cross-platform multiplayer pvp battles - Fantastic 3d graphics and special effects - Amazing custom soundtrack - Completely free to play! No \"pay to win\" here! CHANGES FROM PREVIOUS VERSION Ian Bolton (card coder), [12/31/2022 8:50 AM] --------- v4.60 December 31, 2022 OVERVIEW - Two new Legendary allies for the September and October challenge winners. - 28 balance changes: 19 buffs, 6 rejigs (intended to be buffs), 3 nerfs. - 25 bug fixes - The snowy Winter battlefield is back! NEW CARDS - Coran, Darkhand (cp056) - Thu'full, Bone Titan (cp057) CARD BUG FIXES - Drangis (sf090) is not giving Ambush to Gorlak (cp055) even though it is a Hunter ally. - What Big Teeth (se115) causes controller to lose 1HP when attacking and defending when Bludgeon (cp049) is out - Gorlak (cp055) looks a bit blurry when in your deck in the Deckbuilder. - Coran’s (cp056) ability is triggering on opponent’s turn. - Soul Reaper (se123) should be usable even if you have full health. - Call of the Wild (cp036) is counting a Wild ally ability activation as a Wild ally being summoned. - Howlfang (ex090) allows you to have two Wildfangs in play. - Kiruth: Thaddeus’ Vault (ll196) causes controller to lose 1SE when an ally is removed from their graveyard even if they didn’t activate it. - Molten Destroyer (se057) is incorrectly treating health reduction as damage. - Pack Outcast (cp001) is only getting +1 attack regardless of how many abilities it is targeted by in the same turn. - Killer Bee (cp040) is managing to attack on summon when Towering Brute (ll020) should be reducing its attack to 0. - Killer Bee (cp040) doesn’t kill itself when it should while Shard of Power (se128) is in play. - Killer Bee (cp040) died to Flame Spitter (ll016) ability despite The Kings Pride (se165) which should have given +1 health. - Lilyt (ll070) can allow you to bypass Unique and have two Aldon on your side of the board. - Deathbone (se041) did not deal 2 damage to hero when killed with Desperate Tactics (sf068). - Hall of Doors (ll200) is unable to shuffle an opposing player’s card under your control into its owner’s deck. - Hall of Doors (ll200) works on Disciple of Aldmor. - When Gorlak (cp055) would trigger off a killed friendly ally, he will actually heal it before it is killed and it survives. - Thief's Stiletto (ll179) has ambush so allies with defender should not be able to defend against it. - Change of Plans (ex054) is causing sync errors. - Two Ricochet Traps (sf083) controlled by one player but one owned by the other went off at the same time. - Contemplate (ll156) is causing sync errors. - Coran (cp056) is not losing his first passive ability when he should. - Dalton (cp044) activated ability with Zail's Hymn (sf099) causes 2 copies of Dalton to go into the deck. - Zantonite (ex094) passive ability is not triggering off Spitfire Hound (sf040) and some other cards. BALANCE CHANGES se028 Kurt Whitehelm Attack reduced to 2 (from 3). Health increased to 6 (from 4). From: Kurt takes 1 less damage from abilities, and has +2 attack when there are 2 or more other friendly allies in play. To: Ability damage to other friendly allies is reduced by 1. Kurt has +2 attack while you control at least 3 allies. se066 Warrior Training From: Attach to target friendly ally. That ally has protector (allies without protector can't be targeted). To: Attach to target friendly ally. That ally has protector (allies without protector can't be targeted) and +1 health. se086 Into the Forest From: Attach to target friendly ally until the start of your next turn. That ally has stealth. To: Attach to target friendly ally until the start of your next turn. That ally has stealth and ambush. se092 Inner Strength From: Attach to target friendly ally. That ally has +2 attack. To: Attach to target friendly ally. That ally has +2 attack and +1 health. se108 Lay Low Casting cost reduced to 2 (from 3). se112 Pack Wolf From: Pack Wolf has +1 attack for every other friendly Pack Wolf in play. To: Pack Wolf has +1 attack for every other friendly Wulven ally with cost 2 or less. se117 Full Moon From: Duration 1. Friendly allies have +2 attack. Combat damage to your hero is reduced by 1. Ability damage to your hero is reduced by 2. To: Duration 1. Friendly allies have +2 attack. All damage to your hero is reduced by 2. Ian Bolton (card coder), [12/31/2022 8:50 AM] se123 Soul Reaper From: Exile all ally cards in your graveyard from the game. Your hero heals 1 damage for each card exiled. To: The bottom 5 allies in your graveyard are exiled. Your hero heals 2 damage for each ally exiled this way. Soul Reaper is exiled. se130 Eternal Renewal From: Shuffle the cards in your graveyard into your deck. Remove Eternal Renewal from the game. To: Shuffle the cards in your graveyard into your deck. Eternal Renewal is exiled. se153 Urgent Business From: Heroes can't attack until the end of your next turn. To: Heroes can't attack until the end of your next turn. When Urgent Business is summoned, draw a card. se175 Mocking Armor Casting cost reduced to 5 (from 6). se177 Twice Enchanted Robe Durability increased to 4 (from 3). From: When Twice Enchanted Robe is summoned while any opposing player has resources greater than or equal to yours, it gains +1 durability. When your hero takes damage, draw a card. To: When your hero takes damage while your deck is not empty, draw a card. ex011 Champion of Irum No longer Unique. ex032 Battle Hardened Casting cost reduced to 1 (from 2). ex127 Toll Bridge Casting cost reduced to 2 (from 4). ex151 Karlstrad, Ruler of Gaderi Attack increased to 4 (from 3). Health increased to 8 (from 6). ex152 Scourge Colossus Health increased to 7 (from 6). sf103 Hit List Casting cost reduced to 1 (from 2). ll003 Unaxio Squire Attack reduced to 0 (from 1). Health reduced to 3 (from 4). From: 0: Until the end of your turn, target other ally has +1 attack. To: When Unaxio Squire is summoned while there is an opposing ally, he gains +1 health. 0: Until the end of your turn, target ally has +2 attack. ll019 Feasterling From: Sustain: 1HP. 0: Feasterling has +2 attack until the end of the turn, and your hero takes 1 damage. To: While Feasterling has no negative effects or enemy attachments, it has Sustain: 1HP. 0: Feasterling has +2 attack until the end of the turn, and your hero takes 1 damage. ll051 Chaos Engine From: Once per turn, when an item or support ability is targeted and destroyed on your turn, your hero gains +1 shadow energy and you draw a card. To: When an item or support ability is targeted and destroyed on your turn, your hero gains +1 shadow energy (max once per turn) and you draw a card. cp001 Pack Outcast From: Ambush. While Pack Outcast is the only ally you control, it has defender. When Pack Outcast is targeted by a non-attachment ability, it has +1 attack until the end of the turn. To: Ambush. While Pack Outcast is the only ally you control, it has defender. When Pack Outcast is targeted by an ability, it has +1 attack until the start of your next turn. cp025 Brigand Captain From: Other friendly Outlaw allies have +1 attack. To: When you summon an ally you don't own, it gains Outlaw alignment. Other friendly Outlaw allies have +1 attack. cp031 Southroad Mercenary Health reduced to 4 (from 5). From: When a resource enters or leaves play, Southroad Mercenary gains +1 base attack (max twice per turn). To: When a resource enters or leaves play, Southroad Mercenary gains +1 base attack and +1 health (max twice per turn). cp033 Northroad Thief From: When Northroad Thief enters play, he has stealth until the start of your next turn. 2: Target other friendly Outlaw ally is shuffled into its owner's deck: target enemy item is destroyed. To: When Northroad Thief enters play, she has stealth until the start of your next turn. 2: Target friendly Outlaw ally is shuffled into its owner's deck: draw 2 cards from target opponent's deck. cp038 Outlaws' Hideout From: When your deck is shuffled, draw a card (max twice per turn). 0: Target friendly Outlaw ally is shuffled into its owner's deck: 2 used resources are renewed. To: When your deck is shuffled while you control no non-Outlaw allies, draw a card (max twice per turn). 0: Target friendly Outlaw ally is shuffled into its owner's deck: 2 used resources are renewed. cp044 Dalton, Outlaw Mastermind From: Defender. Dalton costs 2 less resources to summon while you have shuffled your deck this turn. 2: Dalt Ian Bolton (card coder), [12/31/2022 8:50 AM] on is shuffled into his owner's deck: all friendly Outlaw allies gain +1 base attack. To: Defender. When Dalton is summoned while your deck has been shuffled this turn, 2 used resources are renewed. 2: Dalton is shuffled into his owner's deck: all friendly Outlaw allies gain +1 base attack. cp049 Barbarian's Bludgeon Restricted to Warrior, Rogue and Wulven. v4.50 October 17, 2022 OVERVIEW - This is the first release under new ownership and management. - 26 new cards have been added to complete the Campaign set. - All *known* card bugs have been fixed. - A small number of buffs have been made to existing cards. - The future is bright for Shadow Era! NEW CARDS - 7 Dual Class Allies - 6 Neutral Outlaw Allies - 1 Neutral Attachment for Outlaw - 1 Neutral Artifact for Outlaw - 3 Neutral Wild Allies - 1 Neutral Support Ability for Wild - 4 Neutral Items/Abilities - 1 Neutral Armor - 1 Neutral Weapon - 1 Neutral Location CARD BUG FIXES - Nishaven was damaging friendly allies with his ability. - Treetop Spider was being exhausted when it attacked with its ability. - Shard of Power allies were dying due to health reduction effects. - Agent Rex was treating a stolen item like it was destroyed. - Scrap Cannoneer could activate without an item to exile. BALANCE CHANGES Nishaven From: 5SE: All opposing allies take 2 electrical damage and if an ally was killed this way, repeat this effect up to once per turn. To: 5SE: All opposing allies take 3 electrical damage; if an ally was killed this way, all opposing allies take 2 electrical damage. Katrin the Shieldmaiden From: 1: Target friendly ally gains +2 health. This ability may not be used again while that ally is in play. To: 1: Target friendly ally gains +2 health. Marshland Sentinel Gained Homunculus alignment. Ogloth the Glutton Attack changed to 4 claw (from 3 fire). Treetop Spider From: Ambush. When Treetop Spider is summoned while any opposing player has resources equal or greater than yours, it attacks target opposing ally. To: Ambush. When Treetop Spider is summoned, it attacks target opposing ally if able.",
+        "id_in_db": "t3_1mzgmu4",
         "subreddit": "GameDeals",
         "is_free": false,
-        "discount_text": "35% off",
-        "steam_app_id": "3471670",
+        "discount_text": "80% off",
+        "steam_app_id": "1898680",
         "genres": [
-            "Adventure",
-            "Indie",
+            "Strategy",
             "Free To Play"
         ],
-        "is_multiplayer": false,
+        "is_multiplayer": true,
         "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257125957/movie_max_vp9.webm?t=1744902763",
+        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256876391/movie_max_vp9.webm?t=1646413322",
         "is_dlc_or_addon": false,
-        "persian_summary": "مرد فلزی یک تجربه کوتاه و سرد است که 30 دقیقه طول دارد ، برای بازی قبل از خواب مناسب است ، به خصوص اگر برای کابوس روحیه دارید. شما مرد فلزی هستید. بیدار شدن در یک خانه پوسیده و غیرقانونی که در آن هر لحظه بیداری شما عذاب است ، باید گناهان گذشته را کشف کنید ، قضاوت کنید و سرنوشت خود را در این ماجراجویی ناخوشایند و ناخوشایند تصمیم بگیرید. یک بازی ترسناک تاریک با مضامین بالغ و مزاحم. پایان های چندگانه بسته به انتخاب شما. موسیقی متن فیلم اصلی جوی و مودی. گرافیک پیکسل و جذاب و جذاب. نقطه سنتی و روی گیم پلی با مکانیک مدرن و رابط کاربری کلیک کنید. شیاطین روانی جنسی که به هرگونه غذای روانشناس جوانه زنی برای فکر می پردازند."
+        "persian_summary": "V4.90 اکنون زنده است! Scaleforge برای کمک به بشریت در مبارزه با Sandwing Scourge بازگشت! در همین حال ، تاریکی از قلب کیبر پدیدار می شود. به روزرسانی 26 کارت شامل 2 قهرمان جدید! یک کشیش سایه ، و یک قهرمان انسانی وولون! بررسی اجمالی - 2 قهرمان جدید: شی -لاه (وولون انسانی) و مارکوس (کشیش سایه). - 8 متحد جدید انسانی از تراز مقیاس. - 10 متحدین سایه جدید از تراز کیبریان. - 6 کارت جدید دیگر - 25 بوف در همه مجموعه ها - 4 کارت بازپرداخت - رفع اشکال مختلف v4.80 وارد شده است! نمای کلی - 14 کارت کلاس جدید به مجموعه Recindred Rebirth اضافه شده است. - 8 تغییر در کارتهای دوباره تولد دوباره ، از جمله 3 مورد که اکنون بی بند و باری هستند. - 9 بوس برای تماس با کارتهای کلاس کریستال. - 20 کارتهای کلاس پیشگویی های تاریک. - 3 تغییر تعادل کارت کمپین. - 4 متفقین برای تقویت Homunculus ، Templar و Undead تراز شدند. - اشکال مختلف کارت های جدید را برطرف می کند - 2 کارت جنگجو (RR064 -RR065) - 2 کارت Mage (RR074 -RR075) - 2 کارت شکارچی (RR084 -RR085) - 2 کارت کشیش ..."
     },
     {
         "title": "traffic simulator r3999",
@@ -1188,19 +1174,6 @@
         "trailer": "http://video.akamai.steamstatic.com/store_trailers/257122062/movie_max_vp9.webm?t=1744034442",
         "is_dlc_or_addon": false,
         "persian_summary": "داستان: بازیکن شخصیت Lonely Warrior را در این تیرانداز اول شخص با محیط های مختلف کنترل می کند. ماموریت بازیکن برای یافتن پنتاگرام در 6 سطح مختلف است. یافتن سطح پایان پنتاگرام و دستاوردهای بخار. چندین دشمن متفاوت و خطرناک مانند هیولا آهسته خزنده ، حشرات سریع پرواز و بیشترین هیولا خونین که قدرت زیادی دارند و آنها نیز بسیار سریع هستند. بازیکن می تواند سلاح های مختلفی مانند سلاح موشک ، مسلسل ، اسلحه ، پرتاب نارنجک و غیره را جمع آوری و استفاده کند. بازیکن بدون هیچ سلاح سطح را شروع می کند و مأموریت وی یافتن سلاح ها و اموات مختلف است تا بتواند دشمنان مرگبار را بکشد. بعد از Death Player مجدداً شروع کنید تا نقطه شروع کنید. 6 ویژگی های مختلف یک ظاهر طراحی شده: - 6 سطح با دستاوردهای بخار - سلاح های مختلف مانند: اسلحه ، پرتاب نارنجک ، سلاح لیزری ، پرتاب موشک و Riflegun - جمع آوری مهمات را جمع آوری کنید."
-    },
-    {
-        "title": "wildgate 1979usd1913eur1649gbp29aud34 off",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/3504780/Wildgate/",
-        "image_url": "https://external-preview.redd.it/WLYMity5FCRtk8mvSi57GMpV_rkHNRKZS66yBm6aEzI.jpeg?width=320&crop=smart&auto=webp&s=21095bae27a97a7ae7b28b3dfd970b24d288dd0d",
-        "description": "submitted by /u/JimmyRecard [link] [comments]",
-        "id_in_db": "t3_1mwhdse",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "34% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u /jimmyrecard [پیوند] [نظرات]"
     },
     {
         "title": "windows mac os totally reliable delivery service ca1699 free a ragdoll physics simulation about terrible package delivery couriers",
