@@ -16,7 +16,7 @@
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256891340/movie_max_vp9.webm?t=1655040975",
+        "trailer": "https://video.akamai.steamstatic.com/store_trailers/256891340/movie_max_vp9.webm?t=1655040975",
         "is_dlc_or_addon": false,
         "persian_summary": "به دختران زیبا کمک کنید تا خود را در خاطرات خود غوطه ور کنند و لحظات شگفت انگیز زندگی خود را به خاطر بسپارند. این بازی یک بازی پازل کلاسیک با چندین سطح دشواری و هنرهای زیبا است. تمام شخصیت های موجود در این بازی بیش از 18 سال سن دارند. لذت ببرید ؛-) - بازی پازل - آثار هنری - موسیقی خوب - صفحه کلید دستاوردها H: سطح کامل"
     },
@@ -47,6 +47,19 @@
         "persian_summary": "دوست دارم از حمایت و بازخورد خود تشکر کنم. ارسال شده توسط /u /mokhselim [لینک] [نظرات]"
     },
     {
+        "title": "allyouplay playstation autumn sale",
+        "store": "other",
+        "url": "https://www.allyouplay.com/stellar-blade-2",
+        "image_url": "https://i.ytimg.com/vi/onbzZ41s5ZU/sddefault.jpg",
+        "description": "submitted by /u/AllYouPlay [link] [comments]",
+        "id_in_db": "t3_1nr1rrc",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "27% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u /allyouplay [پیوند] [نظرات]"
+    },
+    {
         "title": "apocalyptic world ruled by a ruthless dictator lead a motorcycle gang on an epic journey across the country in a brutal driving combat road rage adventure",
         "store": "epicgames",
         "url": "https://www.reddit.com/r/AppHookup/comments/1nkc9vx/iosandroid_epic_games_store_road_redemption_full/",
@@ -66,22 +79,9 @@
         ],
         "is_multiplayer": true,
         "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256697367/movie_max.webm?t=1507277980",
+        "trailer": "https://video.akamai.steamstatic.com/store_trailers/256697367/movie_max.webm?t=1507277980",
         "is_dlc_or_addon": false,
         "persian_summary": "با اعلام بازی بعدی ما: Kingmakers ما از معرفی شما با Kingmakers ، بازی انفرادی یا تعاونی اکشن/استراتژی Sandbox با نبردهای شبیه سازی شده در زمان واقعی در یک دوره قرون وسطایی جنگ زده و یک قهرمان مدرن ، هیجان زده ایم. خود را برای ساخت ، رهبری ، مبارزه و تغییر مسیر تاریخ آماده کنید! Road Redemption Road Redemption یک بازی مسابقه اکشن است که در آن شما باند موتور سیکلت خود را در یک سفر حماسی در سراسر کشور در یک ماجراجویی وحشیانه رانندگی هدایت می کنید و الهام بخش سنگینی از سریال هایی مانند Road Rash و Motorstorm است. با تکمیل مسابقات ، ترورها ، سرقت ها و سایر چالش ها در مسیر خود درآمد کسب کنید. در هنگام جمع آوری غارت ، شخصیت ، دوچرخه و سلاح های خود را ارتقا می بخشید. یک زندگی برای زندگی در رانندگی با موتور سیکلت با سرعت 100 مایل در ساعت در حالی که سعی در ضربه زدن به کسی با لوله دارد خطرناک است و مرگ می تواند به سرعت انجام شود. خوشبختانه ، هر بار که می میرید ، تمام تجربه ای که جمع آوری کرده اید می تواند برای به روزرسانی شخصیت ، دوچرخه و سلاح های شما استفاده شود. در صفحه چند نفره Splitscreen ، ..."
-    },
-    {
-        "title": "apps brain app daily brain training 799",
-        "store": "googleplay",
-        "url": "https://play.google.com/store/apps/details?id=app.chrismayerapps.brainapp",
-        "image_url": "https://external-preview.redd.it/QVpB2DaW0lE7s9NWFinUf78Q1J60aTV6zBMXu7HL_Rs.png?width=320&crop=smart&auto=webp&s=17c4434b490f37ae6708dc11598ae6dcfca961fa",
-        "description": "submitted by /u/Lohigno [link] [comments]",
-        "id_in_db": "t3_1nn05k6",
-        "subreddit": "googleplaydeals",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u /lohigno [پیوند] [نظرات]"
     },
     {
         "title": "apps xproguard photo vault 4199",
@@ -114,7 +114,7 @@
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257205335/movie_max_vp9.webm?t=1758707713",
+        "trailer": "https://video.akamai.steamstatic.com/store_trailers/257205335/movie_max_vp9.webm?t=1758707713",
         "is_dlc_or_addon": false,
         "persian_summary": "داستان: سفر را در این بازی RPG شخص ثالث قرون وسطایی شروع کنید و قهرمان باشید و در 7 سطح مختلف 7 رئیس مختلف را شکست دهید. سطح شروع بازیکن با شمشیر و سپر و مأموریت اول پیدا کردن رئیس است که جایی در سطح است. بازیکن برای از بین بردن گیت یا حصار که بین بازیکن Warrior و Skull است ، به Kill Boss نیاز دارد. بنابراین پس از اتمام این سطح ، رئیس را بزنید و جمجمه را جمع کنید و بازیکن دستاوردهای بخار را بدست آورد. کارفرمایان مختلفی مانند Green Monster ، Cool Guy ، Witch Black ، Woman Witch و غیره وجود دارد. برخی از کارفرمایان ضعیف تر از دیگران هستند. بنابراین اینجا باشید و هر کارفرمایان را در این ویژگی های بازی RPG فانتزی 3 شخص: 7 سطح 7 کارفرمایان مختلف ضرب و شتم کنید. هر کارفرمایان مختلف رئیس را بکشید و جمجمه پنهان را جمع کنید"
     },
@@ -158,26 +158,17 @@
         "description": ""
     },
     {
-        "title": "desperados iii season pass bundle",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/610370/Desperados_III/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2399420/f510badbf573eecdf529ae735a49331f4b9919be/header.jpg?t=1758618267",
-        "description": "THE OFFICIAL GAME OF THE FIA WORLD ENDURANCE CHAMPIONSHIP Le Mans Ultimate is the official game of the FIA World Endurance Championship and 24 Hours of Le Mans. Play-out the exciting new era for sportscar racing in unparalleled detail. Le Mans Ultimate offers an immersive game for both seasoned sim racers and those new to the sport and genre, growing and evolving with the real-life FIA WEC series. INCREDIBLE CARS FROM SPORTSCAR RACING Drive the officially licensed manufacturer Hypercars from the incredible 2023 centenary season in the included base game content. Recreate tantalising on track battles between Toyota, Ferrari, Porsche, Cadillac, Peugeot, Glickenhaus and Vanwall. Alongside the Hypercars comes a competitive array of classes. Lock horns in wheel-to-wheel LMP2 competition as well as the ultra-close, thunderous GTE cars. Drive for supremacy for famous brands such as Aston Martin, Corvette, Ferrari and Porsche. Additionally, 3 LMGT3 cars from the 2024 and 2025 season (Mercedes AMG Evo, Ford Mustang and McLaren 720 Evo) have been added to the base game along with the incredible Adrian Newey designed Aston Martin Valkyrie AMR LMH with it’s ear-splitting V12. 17 cars are available in the base game with over 200 different livery variations. LASER-SCANNED LEGENDARY CIRCUITS Enjoy the pulsating challenge of racing around some of the most revered circuits in the world including the seven destinations on the 2023 FIA WEC calendar in the base game: Autodromo Nazionale Monza, Circuit de Spa-Francorchamps, Sebring International Raceway, Bahrain International Circuit, Algarve International Circuit (Portimão), Fuji Speedway and the legendary – Circuit de la Sarthe in Le Mans – the playground for the ultimate racing experience. NOW AVAILABLE: 2024 SEASON CONTENT Get the latest content from the 2024 FIA WEC season - available as individual packs or as a bundle. These packs add 7 additional LMGT3 cars, 3 Hypercars and 4 incredible circuits - Imola, Interlagos, COTA (Circuit of the Americas), Qatar (Lusail International Circuit) INDUSTRY-LEADING PHYSICS MODEL Le Mans Ultimate uses the industry leading physics and handling simulation DNA from pMotor 2.5 as used and further improved from rFactor2 – enabling the game to take on more advanced simulation techniques, such as hybrid units, whilst also become more accessible and user friendly to the community – removing barriers to entry while also maintaining the key core elements of sim racing. Tyre dynamics are first-in-class, utilising an advanced “brush” model that accurately portrays slip angles and models advanced features such as vehicle “flat spots” that you can really feel. For wheel users, the 400Hz physics engine is directly translated into force feedback, delivering a highly detailed and predictable feeling to your steering wheel with presets available directly collaborated on with a number of prominent equipment manufacturers. The game also features improved in-game controller support as well as a selectable and customisable difficulty level – to allow the player to determine their own skill level with help for first timers allowing adjustable assists. DYNAMIC RACING EXPERIENCE Realistic day and night cycles are a key element of this simulation with incredible lighting effects as you race into dusk, through night and again into dawn down the Mulsanne at over 200mph. Le Mans Ultimate uses an advancement in Real Road 2.0 track evolution simulation found uniquely in Studio 397 titles. Like a real race session, the track will begin as a green, relatively gripless circuit at the start of a weekend and rubber in as more cars pass over the racing line – with cars moving the dust, dirt and marbles off-line. Work has been undertaken in several areas, including the dynamic weather effects too, such as rainfall and debris on windscreens and more realistic flow of water and formation of puddles on the circuit. The cars will also change throughout the race, and the build-up of dirt and debris will cover the car – giving it the authentic weathered, endurance look. MULTIPLAYER - COMPETE IN SKILL BASED EVENTS OR MANAGE YOUR OWN SERVER For those looking for the edge of the seat, wheel-to-wheel competition against real-life drivers, the Online function, powered by RaceControl, will be home to that pulsating challenge. Racers are able to take part in ranked Daily, Weekly and Special Events that provide the opportunity to build the player’s Driver and Safety rankings. As the player unlocks higher ranked races and exclusive events when the game develops and grows alongside the real-life FIA World Endurance Championship. Also available is player-controlled server hosting so users and leagues can configure their own experience, when they want it. For the latest information on all online multiplayer, head to RaceControl.GG ULTIMATE RACE WEEKEND Single Player fans can enjoy the Race Weekend feature which provides the perfect proving ground for racing against formidable AI opponents which customisable difficulty. In this game mode a user can define your race experience - adjusting the time of day, session duration and weather conditions to your liking. From there, you can refine your car set-up and race wheel-to-wheel taking part in Practice, Qualifying and the main Race. Players can also save their Race Weekend at pitstops, allowing you to complete your endurance races when it is convenient to you. PLAY TOGETHER: AROUND YOUR SCHEDULE [CO-OP MODE] An innovative co-operative mode has been added to the game, allowing you to race with your friends against the AI opponents at a time convenient to you. This “play by mail” style game mode, powered by RaceControl, allows you to invite your friends to complete a race, at a difficulty level of each individual user’s choosing whilst also racing for supremacy on the leaderboards as each action on track awards you points.",
-        "id_in_db": "t3_1npgtha",
+        "title": "city of the wolves 2550 2098 2670 56",
+        "store": "other",
+        "url": "https://www.reddit.com/r/GameDeals/comments/1nqtgil/dlgamer_fatal_fury_city_of_the_wolves_2550_2098/",
+        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2492040/capsule_616x353.jpg?t=1754273294",
+        "description": "Get FATAL FURY: City of the Wolves at 56-58% Off. Limited time only! EU - 58% Off . EN - 56% Off . US - 56% Off . submitted by /u/dlgamerstaff [link] [comments]",
+        "id_in_db": "t3_1nqtgil",
         "subreddit": "GameDeals",
         "is_free": false,
-        "discount_text": "90% off",
-        "steam_app_id": "2399420",
-        "genres": [
-            "Racing",
-            "Simulation",
-            "Sports"
-        ],
-        "is_multiplayer": true,
-        "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257172287/movie_max_vp9.webm?t=1753883554",
-        "is_dlc_or_addon": true,
-        "persian_summary": "بازی رسمی مسابقات جهانی استقامتی FIA Le Mans Ultimate بازی رسمی مسابقات قهرمانی استقامتی جهان FIA و 24 ساعت Le Mans است. بازی دوران جدید هیجان انگیز برای مسابقات ورزشی با جزئیات بی نظیر. Le Mans Ultimate یک بازی همهجانبه را برای هر دو مسابقه SIM SIM و New the Sport و ژانر ارائه می دهد و با سریال FIA WEC در حال رشد و تحول در حال رشد و تحول است. اتومبیل های باورنکردنی از Sportscar Racing Drive سازنده دارای مجوز رسمی HyperCars از فصل باورنکردنی 2023 صدمین سال در محتوای بازی پایه قرار دارد. در نبردهای پیست بین تویوتا ، فراری ، پورشه ، کادیلاک ، پژو ، گلیکنهاوس و ونوال مجدداً تفریحی را ایجاد کنید. در کنار Hypercars مجموعه ای از کلاس های رقابتی به وجود می آید. شاخهای قفل را در رقابت LMP2 چرخ به چرخ و همچنین اتومبیل های GTE فوق العاده نزدیک و رعد و برق. برای برتری برای مارک های مشهور مانند استون مارتین ، کوروت ، فراری و پورشه رانندگی کنید. علاوه بر این ، 3 اتومبیل LMGT3 از فصل 2024 و 2025 (مرسدس ..."
+        "discount_text": "58% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "Fatal Fury: City of the Wolves با 56-58 ٪ تخفیف. فقط زمان محدود! اتحادیه اروپا - 58 ٪ تخفیف. EN - 56 ٪ تخفیف. ایالات متحده - 56 ٪ تخفیف. ارسال شده توسط /u /dlgamerstaff [لینک] [نظرات]"
     },
     {
         "title": "digital edition",
@@ -209,21 +200,35 @@
         "title": "epic games mobile eastern exorcist",
         "store": "epicgames",
         "url": "https://www.reddit.com/r/FreeGameFindings/comments/1nq978s/epic_games_mobile_game_eastern_exorcist/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758250/header.jpg?t=1754425740",
-        "description": "Taste of Power is a real-time strategy game set in alternate medieval times, where you fight for one of 3 factions – Europe, China, or the Middle East. In our version of history, nations clash for global dominance. The continent is an epic battlefield, so you’ll have to build cities, recruit troops, study new technologies and wipe out your opponents. Your nation needs a proper commander! New Medieval warfare Tactics are essential in Taste of Power. The numbers of your enemies' troops don't mean much if you meet them with a proper artillery battery. Engineering power has no limits here, as you can build mobile defenses to protect strategic positions. Build underground tunnels to move your forces across the battle lines faster and surprise your opponent! Each nation has a unique set of units. Taste of Power offers a drastically different style of play for each faction. European troops European knights can form different defensive formations, like Phalanx or spear walls. Having troubles in battle? Summon the Crusaders and crush your enemies! Having issues with your army's discipline and morale? Command your monks to encourage your army with the Word of God. You can also use gunpowder and make a difference that way. It's up to you what call to make! Middle Eastern warriors Great warriors, Timurids, can use elephants to help their cause. Command one to crash those around, or get help from chariots with incendiary oils to burn your enemies down. Their engineers are masters of the earth digging techniques – a stealth attack through an underground tunnel will surely be lethal. Yet again, shot-calling is essential and key in the game. Chinese heroes Unlike the Europeans and Timurids, the Chinese have other ways of using gunpowder. Use smokescreens to protect your army from arrows, throw poison grenades and burst low-tech missiles – make the battlefield a living hell for your enemies! After that, you can call for your cavalrymen to end their suffering. You can also set traps for the enemy and medical tents for yourself. The economy of the game is similar to strategy masterpieces. You use workers to collect resources and create different goods. The building phase is simplified, so you could focus on the grand strategy. Learning technologies is important – don’t forget to keep track of your infrastructure! Furthermore, you may be trading with incoming caravans, or simply loot them for goods. The decision is up to you! Taste of Power is a game that challenges your strategy skills. Will you be able to make the right decisions in a limited time-frame? Prove yourself by defeating the brutal AI and feel the Taste of Power!",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3985740/f6f31f400a5f8f93a9f87a908ceef58268559ead/header.jpg?t=1758286693",
+        "description": "Embark on a legendary journey where 100+ goddesses from different races await your command! Goddess of Fate: Waifus RPG redefines anime card games with: 🎙️ Renowned Voice Acting: Featuring top Japanese voice actors such as 井ノ上奈々 and 優木かな. 📖 Abundant Storylines: Epic main story, invitation stories for every girl, and trial stories to unlock. ⚔️ Dynamic Combat: Engage in 6v6 tactical battles with abundant skill combos and flashy special effects. 🎮 Why 5M+ Players Love It ✨ Character Collection Live2D Goddesses: Every card features dynamic Live2D illustrations, with interactive touch reaction skins available for special goddesses. Voice Library: Unlock unique voice lines for each character through a dating-sim-style affinity system. ⚔️ Strategic Depth Tactical Positioning Challenge: The 2×3 grid system demands precise placement — front or back, left or right — every position impacts a unit’s role, performance, and survivability in battle. Diverse Lineup Synergies: Mix and match characters to unlock exclusive team effects. Different squad combinations activate unique bonuses that can turn the tide of battle. 💎 Player-First Economy Transparent Gacha: High SSR rates with guaranteed banners. Easy Collection: In-game events offer a high chance to obtain free base characters — a real boon for collectors. Zero Paywalls: All story content and PvP rewards are fully accessible to free-to-play players. 📊 By the Numbers 92% 7-day retention rate (vs industry avg. 62%) 25% female player base – highest in strategic card game genre 🌐 Global Features Cross-Platform: Seamless sync between mobile and PC (supports up to 140 FPS on desktop). Cultural Localization: Western-friendly UI and design. Developer’s Letter Dear Adventurers, Welcome to the enchanting world of Goddess of Fate: Waifus RPG! I’m the lead developer of this passion project, and on behalf of our entire team, I’m thrilled to share the story behind this game, our creative vision, and the heartfelt dedication we’ve poured into crafting a universe where 100+ goddesses await your command. This isn’t just a game for us—it’s a love letter to anime fans, strategy enthusiasts, and collectors who dream of forging bonds with vibrant characters in a dynamic, immersive world. Our goal was to create an experience that blends tactical depth, emotional storytelling, and breathtaking artistry, all while fostering a player-first community. Let’s dive into the journey of Goddess of Fate and why we believe it’s a game that will captivate your heart and mind. The Genesis: A Dream of Gods and Bonds The idea for Goddess of Fate was born from our team’s shared love for anime, mythology, and strategic gaming. We were inspired by the rich tapestry of global mythologies, where gods and goddesses embody the essence of human emotions, aspirations, and conflicts. magic,hellcard,manor,yakuza,marvel,mage,wallpaper,lego,bleach,victoria,shogun,blue,archive, diablo,infinity,atelier,repo,pretty,derby,sims,kingdom,grounded,ground,tale,tales,nba,ea, human,siege,peak,dcs,cod,destiny,ready,mecha,stellar,blade,wuthering,waves,chaos,child, avatar,rust,2024,f1,Microsoft,summer,winter,snowbreak,octopath,traveler,final,fantasy, persona,dragon,Nikki,eternal,terraria,banana,wuchang,exilium,frontline,reverse,1999,xcom, baldur,lords,jurassic,cities,kings,clair,crusader,black,fallout,bloons,worlds,king,disney,stellaris, fgo,. From the fiery determination of a war goddess to the serene wisdom of a celestial deity, we wanted to bring these archetypes to life as unique, relatable characters—waifus with depth, personality, and stories that resonate. Our vision was clear: create a game that celebrates the diversity of these goddesses while offering players a chance to form meaningful connections with them through gameplay and narrative. Anime has always been a medium that transcends borders, blending stunning visuals with compelling storytelling. We wanted Goddess of Fate to capture that magic, combining the charm of anime-style characters with the strategic depth of card-based RPGs. But we didn’t stop there. We sought to push boundaries by integrating dynamic Live2D visuals, a robust affinity system, and a tactical combat framework that rewards creativity and planning. Our mission was to craft an experience that feels alive, where every goddess is more than a card—she’s a companion on your legendary journey. Crafting the Goddesses: Art, Voice, and Soul At the heart of Goddess of Fate are its 100+ goddesses, each a unique blend of mythology and anime flair. From the outset, we knew that the characters would be the soul of the game. Our art team worked tirelessly to bring these goddesses to life using Live2D technology, which allows for fluid, dynamic animations that make every character feel vibrant and responsive. Whether it’s the flutter of a goddess’s hair in the wind or the subtle shift in her expression during a heartfelt moment, these details create a sense of intimacy and immersion. For special goddesses, we introduced interactive touch reaction skins, allowing players to engage with their favorite characters in a playful, personalized way. Sound design was equally critical. We partnered with renowned Japanese voice actors, including talents like 井ノ上奈々 and 優木かな, to give each goddess a distinct voice that reflects her personality. From the commanding tone of a warrior goddess to the soft, teasing lilt of a mischievous spirit, every line was recorded to enhance the emotional depth of the characters. The voice library, unlocked through our dating-sim-style affinity system, lets players discover new dialogue as they build relationships with their goddesses. This system isn’t just a feature—it’s a way to make every interaction feel personal, as if these characters are truly growing alongside you. A World of Stories: Epic and Intimate The narrative of Goddess of Fate is designed to be both grand and personal. The main storyline follows your journey as a summoner tasked with uniting the goddesses to restore balance to a fractured world. This epic tale is filled with twists, betrayals, and moments of triumph, drawing inspiration from classic anime tropes and mythological sagas. But what sets our story apart is its depth and variety. Beyond the main plot, each goddess has her own “invitation story,” a personal narrative that delves into her origins, dreams, and struggles. These stories are unlocked through gameplay and affinity progression, offering players a chance to connect with their favorite characters on a deeper level. Additionally, we introduced “trial stories” that challenge players to uncover hidden lore and earn exclusive rewards. These bite-sized narratives add layers to the game’s universe, revealing the interconnected fates of the goddesses and the world they inhabit. Whether it’s a tale of a celestial goddess’s sacrifice or a mischievous fox spirit’s redemption, these stories are crafted to evoke emotion and spark curiosity. Our writers worked closely with cultural consultants to ensure that the mythological inspirations—spanning Eastern and Western traditions—are respectful and authentic, while still infused with the playful energy of anime storytelling. Tactical Combat: Strategy Meets Spectacle Combat in Goddess of Fate is where strategy and spectacle collide. Our 6v6 tactical battle system is built around a 2×3 grid, where positioning is as critical as team composition. Placing a goddess in the front row might maximize her offensive potential but expose her to greater risk, while a back-row placement could enhance her support abilities but limit her impact. This system demands careful planning, as every decision—from unit placement to skill selection—can turn the tide of battle. To deepen the strategic experience, we designed a robust synergy system that rewards creative team-building. Mixing and matching goddesses from different races—such as celestial, demonic, or elemental—unlocks exclusive team effects that enhance performance. For example, pairing a fire goddess with a wind spirit might trigger a “Blazing Tempest” synergy, boosting attack speed and critical damage. These synergies encourage experimentation, ensuring that no two players’ squads feel the same. Add to this our dynamic skill combos and flashy special effects, and every battle becomes a visual and tactical feast. Player-First Philosophy: Accessibility and Fairness One of our core principles is ensuring that Goddess of Fate is welcoming to all players, regardless of whether they choose to spend money. We’ve designed a player-first economy that prioritizes accessibility and fairness. Our gacha system is transparent, with high SSR rates and guaranteed banners to give players a fair shot at their favorite goddesses. In-game events offer ample opportunities to earn free base characters, making it easy for collectors to build their dream roster without breaking the bank. Most importantly, there are no paywalls—every piece of story content and PvP reward is fully accessible to free-to-play players. This approach has resonated with our community, as evidenced by our 92% 7-day retention rate, far surpassing the industry average of 62%. We’re also proud to have a 25% female player base, the highest in the strategic card game genre, reflecting our commitment to creating a game that appeals to a diverse audience.These numbers aren’t just stats—they’re a testament to the trust and enthusiasm our players have shown us, and we’re dedicated to maintaining that trust through ongoing updates and fair practices. A Global Experience: Cross-Platform and Localization We designed Goddess of Fate to be a truly global game. With seamless cross-platform support, players can sync their progress between mobile and PC, enjoying buttery-smooth gameplay at up to 140 FPS on desktop. This flexibility ensures that whether you’re on the go or at home, your journey with the goddesses is always within reach. Our localization team worked diligently to create a Western-friendly UI and design, ensuring that cultural nuances are preserved while making the game accessible to players worldwide. From intuitive menus to clear tutorials, we’ve strived to make Goddess of Fate a welcoming experience for both seasoned anime fans and newcomers. Our Commitment: Building a Community with You Creating Goddess of Fate has been a labor of love, but we know that a game’s true potential is realized through its community. We’re committed to listening to your feedback, whether it’s about balancing combat, adding new goddesses, or refining story content. Our roadmap includes regular updates with fresh characters, events, and story arcs, ensuring that the game evolves alongside our players. We’ve already seen the incredible creativity of our community, from fan art of the goddesses to strategic guides shared on social platforms like X. Your passion inspires us, and we can’t wait to see how you shape this world. We also want to foster an inclusive community where players of all backgrounds feel valued. Whether you’re a collector chasing every goddess, a tactician dominating PvP, or a story enthusiast diving into the lore, Goddess of Fate is your game. Join our official community channels to share your strategies, favorite moments, or even suggestions for new goddesses—we’re all ears! Looking Ahead: A Legendary Journey Continues As we look to the future, we’re excited to expand the world of Goddess of Fate. New goddesses, cross-over events, and deeper storylines are already in the works, alongside quality-of-life improvements based on player feedback. We’re exploring ways to enhance the affinity system, perhaps by adding new interaction mechanics or exclusive rewards for maxed-out relationships. We’re also considering seasonal PvP leagues and global tournaments to give competitive players a chance to shine. Final Words: Your Adventure Awaits Goddess of Fate: Waifus RPG is more than a game—it’s a celebration of anime, mythology, and the bonds that unite us. With 100+ goddesses, dynamic Live2D visuals, tactical combat, and a player-first economy, we’ve crafted a world where every player can find their place. Whether you’re drawn to the strategic depth, the emotional stories, or the sheer joy of collecting waifus, we hope Goddess of Fate becomes a journey you cherish. Thank you for joining us on this legendary adventure. Let’s summon the goddesses, forge unbreakable bonds, and write a saga that echoes across the ages!",
         "id_in_db": "t3_1nq978s",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "758250",
+        "steam_app_id": "3985740",
         "genres": [
-            "Strategy"
+            "RPG",
+            "Strategy",
+            "Free To Play"
         ],
         "is_multiplayer": true,
-        "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256763926/movie_max.webm?t=1570437064",
+        "is_online": true,
         "is_dlc_or_addon": false,
-        "persian_summary": "Taste of Power یک بازی استراتژی در زمان واقعی است که در زمان های متناوب قرون وسطایی تنظیم شده است ، جایی که شما برای یکی از 3 جناح-اروپا ، چین یا خاورمیانه می جنگید. در نسخه تاریخ ما ، ملل برای تسلط جهانی برخورد می کنند. این قاره یک میدان نبرد حماسی است ، بنابراین شما باید شهرها را بسازید ، سربازان را استخدام کنید ، فناوری های جدید را مطالعه کنید و مخالفان خود را از بین ببرید. ملت شما به یک فرمانده مناسب احتیاج دارد! تاکتیک های جدید جنگ قرون وسطایی در طعم قدرت ضروری است. اگر آنها را با باتری توپخانه مناسب ملاقات کنید ، تعداد سربازان دشمنان شما معنی چندانی ندارد. قدرت مهندسی در اینجا هیچ محدودیتی ندارد ، زیرا می توانید برای محافظت از موقعیت های استراتژیک ، دفاعی موبایل ایجاد کنید. تونل های زیرزمینی بسازید تا نیروهای خود را در خطوط نبرد سریعتر حرکت دهید و حریف خود را شگفت زده کنید! هر ملت مجموعه ای از واحدهای منحصر به فرد دارد. Taste of Power یک سبک بازی بسیار متفاوت برای هر جناح ارائه می دهد. شوالیه های اروپایی اروپایی می توانند سازندهای دفاعی مختلفی مانند دیوارهای فالانکس یا نیزه را تشکیل دهند. داشتن مشکلات ..."
+        "persian_summary": "در یک سفر افسانه ای که 100+ الهه از نژادهای مختلف در انتظار دستور شما هستند ، شروع کنید! Goddess of Fate: Waifus RPG بازی های کارت انیمه را با: 🎙 بازیگری مشهور صدا: با بازیگران برتر صداپیشه ژاپنی مانند 井ノ上奈々 و 優木かな 優木かな. story داستان های فراوان: داستان اصلی حماسه ، داستان های دعوت برای هر دختر و داستانهای آزمایشی برای باز کردن قفل. ⚔ مبارزات پویا: در نبردهای تاکتیکی 6v6 با ترکیب مهارت های فراوان و جلوه های ویژه چشمک زن شرکت کنید. 🎮 چرا 5 متر+ بازیکنان آن را دوست دارند ✨ مجموعه شخصیت های Live2D الهه ها: هر کارت دارای تصاویر پویا Live2D است ، با پوست واکنش لمسی تعاملی که برای الهه های ویژه در دسترس است. کتابخانه صوتی: خطوط صوتی منحصر به فرد را برای هر شخصیت از طریق یک سیستم وابستگی به سبک دوستیابی باز کنید. ⚔ چالش موقعیت یابی تاکتیکی عمق استراتژیک: سیستم شبکه 2 × 3 نیاز به قرارگیری دقیق - جلو یا عقب ، چپ یا راست - هر موقعیتی بر نقش ، عملکرد و زنده ماندن یک واحد در نبرد تأثیر می گذارد. Synergies متنوع: مخلوط و مطابقت ..."
+    },
+    {
+        "title": "etailmarket darksburg 84 off 321 adr1ft 85 off 294 sunlight 62 off 152",
+        "store": "other",
+        "url": "https://www.reddit.com/r/GameDeals/comments/1nqwq0b/etailmarket_darksburg_84_off_321_adr1ft_85_off/",
+        "image_url": "https://external-preview.redd.it/etailmarket-borderlands-4-10-off-62-99-v0-Fox9QaKpasOGsYSgoMto36DxmYq0Jl-YgfC_MruTinU.jpeg?auto=webp&s=3e617f8fe0f6929b603fdb2b33f321f046b65958",
+        "description": "Title EU Price Discount Assetto Corsa Competizione €10.00 75% Darksburg €3.21 84% Adr1ft €2.94 85% Sunlight €1.52 62% Wartales €11.75 66% Don't forget to use 'etailextr5' discount code. submitted by /u/etailmarket [link] [comments]",
+        "id_in_db": "t3_1nqwq0b",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "84% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "عنوان اتحادیه اروپا تخفیف ASSETTO CORSA CRAFTIZIONE 10.00 75 ٪ DARKSBURG 3.21 84 ٪ ADR1ft € 2.94 85 ٪ نور خورشید 1.52 62 ٪ WARTALES 11.75 € 66 ٪ فراموش نکنید که از کد تخفیف 'ETAILEXTR5' استفاده کنید. ارسال شده توسط /u /etailmarket [پیوند] [نظرات]"
     },
     {
         "title": "etailmarket silent hill f",
@@ -242,7 +247,7 @@
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257204092/movie_max_vp9.webm?t=1758558339",
+        "trailer": "https://video.akamai.steamstatic.com/store_trailers/257204092/movie_max_vp9.webm?t=1758558339",
         "age_rating": "This game contains depictions of gender discrimination, child abuse, bullying, drug-induced hallucinations, torture, and graphic violence.\r\n\r\nThis game is set in Japan in the 1960s and contains depictions based on the customs and culture of that time. These depictions do not reflect the opinions or values of the developers or any individuals involved.\r\n\r\nIf you feel uncomfortable at any point while playing, please take a break from playing or speak to someone you trust.",
         "is_dlc_or_addon": false,
         "persian_summary": "در دهه 1960 ژاپن ، شهر منزوی Ebisugaoka Shimizu Hinako توسط یک مه ناگهانی مصرف می شود و خانه خود را به یک کابوس آزار دهنده تبدیل می کند. در حالی که شهر ساکت می شود و مه غلیظ می شود ، Hinako باید در مسیرهای پیچ خورده Ebisugaoka حرکت کند ، معماهای پیچیده را حل کند و برای زنده ماندن با هیولاهای گروتسک روبرو شود. خود را به دنیای Hinako که توسط نویسنده مشهور Ryukishi07 تصور می شود ، با موسیقی جذاب ، از جمله قطعات Akira Yamaoka ، و تصاویر زیبا در یک داستان شک و تردید ، پشیمانی و انتخاب های غیرقابل اجتناب غوطه ور کنید. آیا هیناکو زیبایی پنهان شده در ترور را در آغوش خواهد گرفت یا به جنون پیش رو تسلیم می شود؟ یک فصل جدید در سریال Silent Hill را کشف کنید ، و وحشت روانشناختی را با یک محیط غافلگیرکننده ژاپنی آمیخته است. داستانی خودگردان در سریال Silent Hill این بازی داستانی خودگردان در سریال Silent Hill است. در دهه 1960 ژاپن ، Silent Hill F طرف جدیدی از وحشت روانشناختی را ارائه می دهد. داستانی که در دهه 1960 ژاپن تنظیم بازی ، یک کوچک ..."
@@ -278,7 +283,7 @@
         ],
         "is_multiplayer": true,
         "is_online": true,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257015646/movie_max_vp9.webm?t=1719519011",
+        "trailer": "https://video.akamai.steamstatic.com/store_trailers/257015646/movie_max_vp9.webm?t=1719519011",
         "is_dlc_or_addon": false,
         "persian_summary": "بشکه های قرمز شما را دعوت می کنند تا این بار با دوستان خود وحشت ذهن خود را تجربه کنید. این که آیا شما به تنهایی یا در تیم ها به آزمایشات می روید ، اگر به اندازه کافی زنده بمانید و درمان را کامل کنید ، Murkoff با خوشحالی به شما اجازه می دهد که ترک کنید ... اما آیا شما یکسان خواهید بود؟ خلاصه داستان در دوران جنگ سرد ، خوک های هندی انسانی به طور غیر ارادی توسط افراد خوب در شرکت Murkoff استخدام می شوند تا روشهای پیشرفته شستشوی مغزی و کنترل ذهن را آزمایش کنند. در دنیای بی اعتمادی ، ترس و خشونت ، اخلاق شما به چالش کشیده می شود ، استقامت شما آزمایش می شود و عقل شما خرد می شود. همه به نام پیشرفت ، علم و سود. Survive: Solo یا Coop شما همه زندانیان Murkoff هستید که در داخل تسهیلات آنها به دام افتاده اند. شما می توانید آزمایشات را به خودتان انجام دهید یا می توانید آنها را در تیم 2 ، 3 یا 4 بازیکن مقابله کنید. کوپ هرگز در مورد اهداف اجباری مجبور نمی شود اما کار با هم می تواند بسیار سودمند باشد. تعداد بازیکنان مهمانی شما هر چه باشد ، در مورد زنده ماندن و بیرون آمدن است ...."
     },
@@ -387,17 +392,27 @@
         "persian_summary": "ارسال شده توسط /u /lighteningonein [پیوند] [نظرات]"
     },
     {
-        "title": "ghostrunner 2 ca5399 free hardcore fpp slasher in a post",
-        "store": "epicgames",
-        "url": "https://store.epicgames.com/en-US/p/ghostrunner-2",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2144740/header.jpg?t=1741369902",
-        "description": "submitted by /u/PM_ME_FREEGAMES [link] [comments]",
-        "id_in_db": "t3_1nec5ks",
-        "subreddit": "AppHookup",
+        "title": "googunners",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/3913380/Googunners/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3913380/b665a93b39453e4e8eaa4b5b4b30a067af854273/header.jpg?t=1758870876",
+        "description": "Googunners! is an arcade turret defence game about shootin' asteroids, gettin' upgrades and beatin' your high score! With the right combination of luck, skill and lack of self preservation, you can fight against time, rocks and entropy itself as you slowly ( or quickly ) succumb to the innevitable...",
+        "id_in_db": "t3_1nr107j",
+        "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
+        "steam_app_id": "3913380",
+        "genres": [
+            "Action",
+            "Casual",
+            "Indie",
+            "Free To Play"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "trailer": "https://video.akamai.steamstatic.com/store_trailers/257194113/movie_max_vp9.webm?t=1757729526",
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u /pm_me_freegames [لینک] [نظرات]"
+        "persian_summary": "Googunners! یک بازی دفاعی Turret Arcade در مورد Arichin 'Asteroids ، Gettin' ارتقاء و ضرب و شتم 'امتیاز عالی شماست! با ترکیبی مناسب از شانس ، مهارت و عدم حفظ خود ، می توانید در برابر زمان ، سنگ و آنتروپی بجنگید زیرا به آرامی (یا به سرعت) تسلیم می شوید ..."
     },
     {
         "title": "greenmangaming tokyo gameshow sale",
@@ -429,7 +444,7 @@
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256681652/movie_max.webm?t=1490733888",
+        "trailer": "https://video.akamai.steamstatic.com/store_trailers/256681652/movie_max.webm?t=1490733888",
         "is_dlc_or_addon": false,
         "persian_summary": "Planescape اصلی: Torment در سال 1999 برای تحسین انتقادی گسترده منتشر شد. این شرکت به دلیل داستان غیر متعارف ، شخصیت ها و موسیقی متن فیلم شگفت انگیز ، RPG سال را از چندین رسانه کسب کرد. از آن زمان ، میلیون ها Planescape: طرفداران عذاب از کاوش در شهر عجیب و خطرناک سیگیل و هواپیماهای اطراف از طریق چشمان بی نام لذت بردند. برخلاف هر چیز دیگری در فانتزی ، یک داستان فوق العاده غنی و یک محیط منحصر به فرد را کشف کنید. موجودات عجیب و غریب و بیگانه را شکست دهید ، در گفتگوی غنی شرکت کنید و در این کلاسیک RPG کلاسیک 50+ ساعته ، تنظیمات تاریک و خطرناک Planescape را کشف کنید. این Planescape است: عذاب مانند شما که قبلاً ندیده اید. داستان \"چه چیزی می تواند ماهیت یک مرد را تغییر دهد؟\" شما بی نام هستید ، یک چهره هولکین که در زخم ها و خال کوبی های جمع آوری شده در طول زندگی بی شماری جمع آوری شده است - هیچکدام از آنها را می توانید به خاطر بسپارید ، اما اکنون به شما بازگردانده می شوند. شما توسط Morte ، جمجمه شناور و نگهبان اسرار ، بیدار شده اید تا بتوانید یک ماجراجویی را شروع کنید ..."
     },
@@ -529,7 +544,7 @@
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257184519/movie_max_vp9.webm?t=1755555094",
+        "trailer": "https://video.akamai.steamstatic.com/store_trailers/257184519/movie_max_vp9.webm?t=1755555094",
         "is_dlc_or_addon": false,
         "persian_summary": "داستان: مدتها پیش ، پادشاهی رونق گرفت ، که توسط جنگل های وسیع ، کوه های برجسته و دریاهای آرام احاطه شده بود. این قلعه با افتخار در شهر ایستاد و خانواده ها در آرامش زندگی می کردند ... تا یک شب سرنوشت ساز ، هنگامی که خود مرگ از روی دروازه ها روی یک اسب سیاه سوار شد. این سکوت در خیابان ها حرکت کرد و همه چیز در پی آن به خراب شدن افتاد. آتش ، طاعون و عذاب دنبال شد. اجساد خیابان ها را پر می کردند ، گریه ها به سکوت محو می شدند و یک نفرین وحشتناک در دست گرفت. از آن روز ، هر خانواده وزن پیمان شکسته را تحمل کرده اند. هر ده سال یک بار ، یک نفر منتخب به امید شکستن طلسم باید با تاریکی روبرو شود. یک شورای مخفی یک شوالیه جدید را انتخاب می کند و یک مرد جادویی شش طرفه را با هم جمع می کند ، هر یک از چهره ها سرنوشت یک دنیای خرد شده را هدایت می کنند. اکنون ، انتخاب شده به سمت ده سیاه چال ممنوعه ، جایی که سایه هایی که به دیوارها چسبیده اند ... و در اعماق درون ، هیولا در انتظار شوالیه تاس است. بازی: Decadungeons ™ یک شخص اول ، Dungeon Crawler (DRPG) مبتنی بر نوبت است که کاملاً با ..."
     },
@@ -549,7 +564,7 @@
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257014378/movie_max_vp9.webm?t=1712758803",
+        "trailer": "https://video.akamai.steamstatic.com/store_trailers/257014378/movie_max_vp9.webm?t=1712758803",
         "is_dlc_or_addon": false,
         "subreddit": "FreeGameFindings",
         "persian_summary": "\"برادر ژورل و مهمترین بازی گلکسی\" یک ماجراجویی نکته و کلیک در مورد یک پسر هشت ساله است که با خانواده عجیب و غریب خود در سایه یورل ، برادر خوش تیپ و محبوب خود زندگی می کند. بر اساس انیمیشن برزیلی برنده جایزه \"برادر ژورل\" ، در این بازی می توانید در یک داستان تعاملی پر از کمدی ، رمز و راز و پیچ و تاب ها ، به چکمه های زرد هیچ کس غیر از برادر جورل بروید! این مانند پخش یک قسمت کاملاً جدید از یک کارتون است! هنگامی که یک بازی ویدیویی مرموز از آسمان سقوط می کند ، جوانترین خانواده برای انجام آن هر کاری انجام می دهند ، حتی اگر او را به حداکثر انتهای کهکشان برساند! برادر ژورل را کنترل کنید زیرا او با سفینه فضایی بیگانه ، دلقک های اقتدارگرا ، بوروکراسی ، تست رانندگی و اسموتی های آووکادو در این بازی ماجراجویی \"وحشیانه\" و کلیک با سه قسمت پر از طنز و اکشن روبرو است! لحظات سرگرم کننده را تجربه کنید که گویی در حال بازی کارتونی هستید! با بیش از 30 کاراکتر با چندین ... صحبت کنید ..."
@@ -558,7 +573,7 @@
         "title": "jorels brother and the most important game of the galaxy ca1699 free point",
         "store": "epicgames",
         "url": "https://store.epicgames.com/en-US/p/jorels-brother-and-the-most-important-game-of-the-galaxy-47435f",
-        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1398910/header.jpg?t=1712758819",
+        "image_url": "https://cdn1.epicgames.com/spt-assets/6d5a003f768f4957b4ed48b373f86b32/jorels-brother-and-the-most-important-game-of-the-galaxy-liq5n.png?resize=1&w=480&h=270&quality=medium",
         "description": "submitted by /u/PM_ME_FREEGAMES [link] [comments]",
         "id_in_db": "t3_1nq9pk5",
         "subreddit": "AppHookup",
@@ -623,7 +638,7 @@
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256836016/movie_max_vp9.webm?t=1621958368",
+        "trailer": "https://video.akamai.steamstatic.com/store_trailers/256836016/movie_max_vp9.webm?t=1621958368",
         "age_rating": "17+",
         "is_dlc_or_addon": true,
         "persian_summary": "یک نفر همه چیز بین بشریت و بزرگترین تهدیدی است که تاکنون با آن روبرو شده است. Legend of Commander Shepard را در سه گانه بسیار تحسین شده Mass Effect با نسخه Legendary Mass Effect remave کنید. شامل محتوای پایه تک نفره و بیش از 40 DLC از Mass Effect ، Mass Effect 2 و Mass Effect 3 ، از جمله سلاح های تبلیغاتی ، زره ها و بسته ها-برای 4K Ultra HD-از بین رفته و بهینه سازی شده است. یک جهان شگفت آور غنی و مفصل را تجربه کنید که در آن تصمیمات شما عواقب عمیقی بر عمل و نتیجه داشته باشد. اکشن دلگرم کننده حماسه سینمایی را با قصه گویی تعاملی درگیر کنید ، جایی که تصمیم می گیرید که چگونه داستان منحصر به فرد شما آشکار می شود. سه بازی ، یک پرتاب: از طریق محتوای پایه تک نفره و بیش از 40 DLC از هر سه بازی ، از جمله سلاح های تبلیغاتی ، زره و بسته بازی کنید. Remastered برای نسل جدید: سه گانه را در 4K Ultra HD با عملکرد ، تصاویر و گرافیک پیشرفته ، همه در HDR تجربه کنید. پیشرفت های بصری در هر 3 ..."
@@ -645,9 +660,22 @@
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256895543/movie_max_vp9.webm?t=1658575073",
+        "trailer": "https://video.akamai.steamstatic.com/store_trailers/256895543/movie_max_vp9.webm?t=1658575073",
         "is_dlc_or_addon": false,
         "persian_summary": "آقای Brocco & Co یک بازی کلاسیک 2D Platform است که در دنیای فانتزی تنظیم شده است که در آن غذای آشغال در تلاش است تا به دست بگیرد! برای نجات شهر یکی از دو شخصیت (آقای کلم بروکلی یا مارچوبه) را انتخاب کنید! آقای Brocco & Co فقط یک بازی نیست. این یادآوری است که غذای آشغال اغلب می تواند بسیار خطرناک باشد! دفعه بعد که والدین شما باعث می شوند کلم بروکلی و مارچوبه بخورید ، به خاطر داشته باشید: آنها شما را برای نبرد با غذای آشغال آماده می کنند! Mr.Barocco & Co یک سیستم عامل جذاب است که موضوع مهم نبرد با غذای آشغال را مطرح می کند. گیم پلی دلپذیر ، مبارزات هیجان انگیز رئیس و بارهای احساسات مثبت در انتظار شما است."
+    },
+    {
+        "title": "orcs must die deathtrap orcs must die 3 cold as eyes expansion tipping the scales dlc orcs must die 2 family ties booster pack fire and water booster pack orcs must die 81 of",
+        "store": "indiegala",
+        "url": "https://www.indiegala.com/store/franchise-sale/orc",
+        "image_url": "https://external-preview.redd.it/RIminikNIShwkGlzdi7EkwL1U-y2aM3anUoA3XeGCzY.jpeg?width=640&crop=smart&auto=webp&s=6bf7b31f55b615ed300a2b1f8a7e6a6872cdc90b",
+        "description": "submitted by /u/indieg [link] [comments]",
+        "id_in_db": "t3_1nqt74a",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "43% off",
+        "is_dlc_or_addon": true,
+        "persian_summary": "ارسال شده توسط /u /indieg [پیوند] [نظرات]"
     },
     {
         "title": "original soundtrack",
@@ -666,15 +694,38 @@
         ],
         "is_multiplayer": true,
         "is_online": true,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257115498/movie_max_vp9.webm?t=1742494491",
+        "trailer": "https://video.akamai.steamstatic.com/store_trailers/257115498/movie_max_vp9.webm?t=1742494491",
         "is_dlc_or_addon": true,
         "persian_summary": "Sea of ​​Thieves تجربه ضروری دزدان دریایی را ارائه می دهد ، از قایقرانی و جنگیدن گرفته تا کاوش و غارت - هر آنچه برای زندگی دزدان دریایی نیاز دارید و به خودی خود به یک افسانه تبدیل می شوید. بدون هیچ نقش مشخصی ، شما آزادی کاملی برای نزدیک شدن به جهان و سایر بازیکنان دارید ، با این حال شما انتخاب می کنید. این که آیا شما به عنوان یک گروه و یا انفرادی قایقرانی در حال سفر هستید ، مجبور خواهید بود در این ماجراجویی جهانی مشترک با خدمه دیگر روبرو شوید - اما آیا آنها دوست یا دشمن خواهند بود و چگونه پاسخ خواهید داد؟ یک دنیای گسترده وسیع ، دنیای گسترده ای را که پر از جزایر بدون آب و پادشاهی های زیر آب است ، کاوش می کند. تلاش برای شکار غارت گمشده ، ایجاد شهرت با شرکت های بازرگانی و دشمنان نبرد از Phantoms و خزنده های اقیانوس گرفته تا Megalodons و Mighty Kraken. دست خود را در ماهیگیری امتحان کنید ، نقشه هایی را به گنج دفن شده خود بسازید یا از میان صدها هدف دیگر اختیاری و سلاح های جانبی انتخاب کنید! بازی ای که همیشه با هر فصل در حال رشد است ، هر سه ماه یکبار در کنار بازی معمولی ..."
+    },
+    {
+        "title": "other arena breakout",
+        "store": "other",
+        "url": "https://na.alienwarearena.com/ucf/show/2172967/boards/contest-and-giveaways-global/Giveaway/arena-breakout-infinite-300k-koen-in-game-currency-key-giveaway",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1382320/header.jpg?t=1679801987",
+        "description": "The breakout title from Summitsphere, Antonball Deluxe is a retro, high-octane smorgasbord of ballbusting arcade action! Starring a little red man named Anton - Boiler City’s top exterminator - Antonball Deluxe quite literally turns the breakout genre on its head, blending traditional brick-breaking gameplay with tight, intense platforming. No slouch on content, Antonball Deluxe truly lives up to its name in including three separate games: ANTONBALL is an enhanced low-definition remake of Summitsphere’s legendary game jam title! After a long night on the town, Anton , Boiler City's resident exterminator and overconsumer of fizzy libation, is struggling to find his way back home from Brulo's Casino. Using his trusty Antonball, Anton decides to take the most direct path home after an unfortunate trip into the sewers: breaking straight through every single wall between the sewers and the city he calls home in 30 stages of brick-smashing fun! PUNCHBALL is the tale of Anton's building-mate Annie , and her indefatigable need to be the absolute best. When Annie discovers the Punchball Tourney being held at Brulo's Casino, with the grand prize being a lifetime supply of Ballble Tea, she sets out to win first place! You'll need to help her defeat all of the trickster beasts that have volunteered to take part in Brulo's wild game. Use the Punchball to slam enemies, then kick 'em off the stage! Do you have what it takes to be the Punchball Champion? VS. ANTONBALL is Antonball but competitive! Each team has their own brick wall and aims to break the other team's wall first. Defeat the other team by destroying their wall! Play 1v1, 2v2, or even 2v1 (if you're into that)! Many power-ups are in play, with some twists and turns depending on which arena you're having your ball-based blitz in! You can even pick some up and throw them! Brick-breakin', ball-bustin' gameplay with a platformin' twist! Includes THREE games: Antonball, Punchball, and VS. Antonball! 69 levels of stimulating mole-mashin' action! 21 different characters to unlock and play as! Share your balls with friends or foes online and offline with up to four players! (Gamepad required for local multiplayer) Online leaderboards for Antonball and Punchball! A ballin', 100% original retro soundtrack! 18 baller Steam Achievements to show off to your friends!",
+        "id_in_db": "t3_1nr6xov",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "1382320",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Casual",
+            "Indie"
+        ],
+        "is_multiplayer": true,
+        "is_online": true,
+        "trailer": "https://video.akamai.steamstatic.com/store_trailers/256818510/movie_max_vp9.webm?t=1669570297",
+        "is_dlc_or_addon": false,
+        "persian_summary": "عنوان برکتی از Summitsphere ، Antonball Deluxe یک Smorgasbord یکپارچهسازی با سیستمعامل و اکتان بالا از عملکرد بازی های Ballbusting است! آنتونبال لوکس با بازی با یک مرد کوچک قرمز به نام آنتون - Boiler City's Top Exterminator - Antonball Deluxe به معنای واقعی کلمه ژانر برک آوت را روی سر خود می چرخاند و گیم پلی سنتی آجر را با بستر محکم و شدید آمیخته می کند. بدون اینکه محتوا باشد ، آنتونبال لوکس واقعاً در سه بازی جداگانه به نام خود زندگی می کند: Antonball یک بازسازی با کیفیت پایین از عنوان بازی افسانه ای Summitsphere است! پس از یک شب طولانی در شهر ، آنتون ، ساکن Boiler City و بیش از حد تحت الشعاع آزادی ، در تلاش است تا راه بازگشت خود را از کازینو برولو پیدا کند. آنتون با استفاده از آنتونبال قابل اعتماد خود ، تصمیم می گیرد که مستقیماً مسیر را به خانه برساند پس از یک سفر ناگوار به فاضلاب: شکستن مستقیم از طریق هر دیوار بین فاضلاب ها و شهری که او در 30 مرحله از سرگرمی آجری به خانه می خواند! Punchball داستان ساختمان آنتون است ..."
     },
     {
         "title": "other blade soul heroes",
         "store": "other",
         "url": "https://na.alienwarearena.com/ucf/show/2172839/boards/contest-and-giveaways-global/Giveaway/blade-soul-heroes-launch-special-key-giveaway",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3616890/60a5e0d12b59e64a40ea6633c50799ebdf9f4674/header.jpg?t=1758840709",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3616890/60a5e0d12b59e64a40ea6633c50799ebdf9f4674/header.jpg?t=1758933411",
         "description": "The Story Journey with Yusol as she strives to rebuild her clan and enact justice against those who destroyed it. Follow her as she pursues the evil Yi Chun and unravels the mysteries of the Heaven's Fall Cult. Along the way, she’ll encounter an expansive cast of heroes, each with their own skills and story, who will join her resurgent clan and unite in the fight to defeat Yi Chun and Heaven’s Fall. Dual Combat System Seamlessly switch between turn-based strategy and real-time action. In turn-based mode, all five team members take the battle field to unite for victory. For real-time action, one designated lead hero fights the various enemies supported by four skill-linked allies Character Collection Build & grow your 5-hero team to begin your journey. With over 40 heroes to unlock, each with their unique skills & stories, a variety of legendary characters awaits you to join your clan. Visual Style Immerse yourself in this anime-inspired world with majestic vistas, eerie forests, ancient deserts, and mythical dungeons of the Earthen Realm. Each hero models a distinctive look and feel evocative of the elements. Deep Tactical Combat To defeat your foes, master your fighting abilities with a wide array of combinations and skills. With each battle, tailor your team strategically in order to achieve victory across different opponents and environments.",
         "id_in_db": "t3_1npr3xq",
         "subreddit": "FreeGameFindings",
@@ -690,7 +741,7 @@
         ],
         "is_multiplayer": true,
         "is_online": true,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257205024/movie_max_vp9.webm?t=1758718193",
+        "trailer": "https://video.akamai.steamstatic.com/store_trailers/257205024/movie_max_vp9.webm?t=1758718193",
         "is_dlc_or_addon": false,
         "persian_summary": "داستان با یوسف سفر می کند زیرا او در تلاش است تا قبیله خود را بازسازی کند و عدالت را علیه کسانی که آن را نابود کرده اند ، تصویب کند. او را دنبال کنید زیرا او شیطانی یی را دنبال می کند و اسرار فرقه سقوط بهشت ​​را باز می کند. در طول راه ، او با بازیگران گسترده ای از قهرمانان روبرو خواهد شد ، هر کدام مهارت و داستان خاص خود را دارند ، که به قبیله ای رستاخیز خود می پیوندند و در مبارزه برای شکست یی چون و سقوط بهشت ​​متحد می شوند. سیستم رزمی دوگانه یکپارچه بین استراتژی نوبت و عمل در زمان واقعی جابجا می شود. به نوبه خود حالت مبتنی بر ، هر پنج عضو تیم میدان نبرد را برای متحد کردن پیروزی می گیرند. برای اقدام واقعی در زمان واقعی ، یک قهرمان اصلی تعیین شده با دشمنان مختلفی که توسط چهار شخصیت متفقین مرتبط با مهارت پشتیبانی می شود ، می جنگد و تیم 5 قهرمان خود را برای شروع سفر خود می سازید. با بیش از 40 قهرمان برای باز کردن قفل ، هر کدام مهارت ها و داستان های منحصر به فرد خود ، انواع شخصیت های افسانه ای در انتظار شما هستند تا به قبیله خود بپیوندید. سبک بصری خود را در این دنیای الهام گرفته از انیمه با ویستای با شکوه ، جنگل های بی نظیر ، ..."
     },
@@ -714,7 +765,7 @@
         ],
         "is_multiplayer": true,
         "is_online": true,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257203933/movie_max_vp9.webm?t=1758548834",
+        "trailer": "https://video.akamai.steamstatic.com/store_trailers/257203933/movie_max_vp9.webm?t=1758548834",
         "is_dlc_or_addon": false,
         "persian_summary": "جنگ دریایی هرگز به این خوبی نگاه نکرده است! World of Warships را به صورت رایگان بارگیری کنید و درگیر نبردهای هیجان انگیز بین ناوگان عظیم در بسیاری از نقشه های غول پیکر شوید. هر مانور ، سالو و فشار می تواند به معنای تفاوت بین حداکثر پیروزی و شکست کامل باشد! از یاماتو توانا گرفته تا U-190 گریزان ، دریای تقریباً بی حد و حصر از بازی های پلی استیشن را در کشتی های تاریخی ، ناوشکن ها ، کرویسرها ، زیردریایی ها و هواپیماهای هواپیمایی کشف کنید-هر یک از آنها با وفاداری به صورت سه بعدی بازسازی شده اند. اگر زندگی یک گرگ تنها برای شما مناسب نیست ، دوستان خود را به یک بخش دعوت کنید و مهارت های تعاونی خود را در آزمون قرار دهید! اگر به دنبال یک چالش واقعی هستید ، به یک قبیله بپیوندید ، به صدر لیگ قبیله صعود کنید و تلاش کنید تا بهترین سرور خود باشید! یک دوره را در 12 درخت فناوری ملی ترسیم کنید و با نصب اصلاحات ، باز کردن مهارت برای فرماندهان خود ، و تقویت ظاهر ناوگان خود با استتار و لوازم آرایشی بیشتر ، رویکرد شخصی خود را در برابر جنگ دریایی تنظیم کنید."
     },
@@ -750,7 +801,7 @@
         ],
         "is_multiplayer": true,
         "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256700605/movie_max.webm?t=1511516107",
+        "trailer": "https://video.akamai.steamstatic.com/store_trailers/256700605/movie_max.webm?t=1511516107",
         "is_dlc_or_addon": false,
         "persian_summary": "برای عصر جنگ عظیم قرون وسطایی ، جایی که شما بر فراز سوزاندن رقبای خود راهپیمایی خواهید کرد ، در یک تلاش همه جانبه برای فتح است! قلعه خود را تقویت کنید ، ارتش را جعل کنید و وارد MMO نهایی سلطه جهانی شوید! اما با رشد تمدن شما ، شما با قدرت های بلندپروازانه برخورد خواهید کرد و فقط یک پادشاه می تواند تاج و تخت را ادعا کند! آیا این قدرت را دارید که زمین را در زیر پرچم خود متحد کنید؟ یا آیا شما شاهد فروپاشی پادشاهی خود قبل از خود هستید؟ • ارتش ها را اعزام کنید ، ساختمانها بسازید ، با بربرها برخورد کنید ، سرزمین ها را فتح کنید و هر روز تعادل قدرت را تغییر دهید. • هر اینچ از قلمرو شما با گرافیک های شگفت آور مفصل زنده می شود • انتخاب کنید که یک شوگان ، یک پادشاه ارتفاعات ، یک تزار شمالی یا سلطان بیابانی باشد. • هر ارتش یک مزیت ویژه دارد که بر یک بازیگر منحصر به فرد تأکید می کند ، خواه ترجیح می دهید به سرعت پادشاهی خود را بسازید ، با شارژ شوالیه اعتصاب کنید یا به شدت از تمدن خود در برابر تهاجم دفاع کنید. • برای رشد هر روز تأثیر جهانی خود ، درگیری و فتح کنید. • باز کردن قدرت های ویژه و ..."
     },
@@ -766,6 +817,28 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u /yogurtsapien [لینک] [نظرات]"
+    },
+    {
+        "title": "pcmobile other lords mobile",
+        "store": "other",
+        "url": "https://www.dungeonloot.com/lords-mobile-keys",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/47410/6d7774b144e9c56e52aa33634e0a68b15758b7e6/header.jpg?t=1758726478",
+        "description": "Cast as a feudal lord or lady, players begin with a single village and keep. They must design and defend their castle before turning their eye to the rest of the country, Europe and the world! Whatever path they choose players will find strength in numbers as they band together, uniting with local Factions and player-led Houses. Key Features 🏰BUILD Your Stronghold - Crush the invading hordes with impenetrable castle defenses. Then launch a counterattack! ⚔️BESIEGE Rival Lords - Attack sworn enemies without warning, cripple their economy or engage in political mind games. 🏹RESEARCH New Technology - Are you a farmer, trader, diplomat or warlord? Explore a vast tech tree to specialize and expand. ⚜️LEAD Your House - Join a faction, attack its enemies, return triumphant and rule over entire countries with your bannermen! 🌍PLAY Anywhere - Wage war with thousands of other Lords playing the full game together on PC and mobile. Besiege the castle that’s never been taken, overthrow ruthless tyrants, bankroll your faction’s war efforts, pillage your neighbor’s resources, peacefully raise cattle or do it all! Factions, elections, liege lords and their vassals come together to form a feudal community of real players with whom to discuss strategies and build allegiances. While an impregnable castle should be at the heart of any kingdom, you can also specialize with a vast research tree. Starting as a humble peasant each promotion provides valuable research points to spend on trading, diplomacy, warfare, farming or religion. Beware as your power grows so does your responsibility. Your vassals will look to you for leadership and you may find yourself fighting for the crown itself!",
+        "id_in_db": "t3_1nr9ihh",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "47410",
+        "genres": [
+            "Massively Multiplayer",
+            "Strategy",
+            "Free To Play"
+        ],
+        "is_multiplayer": true,
+        "is_online": true,
+        "trailer": "https://video.akamai.steamstatic.com/store_trailers/2037685/movie_max.webm?t=1683908493",
+        "is_dlc_or_addon": false,
+        "persian_summary": "بازیکنان به عنوان یک پروردگار یا بانوی فئودالی ، با یک روستای مجرد شروع می کنند و نگه می دارند. آنها باید قبل از اینکه چشم خود را به بقیه کشور ، اروپا و جهان برسانند ، از قلعه خود طراحی و دفاع کنند! هر مسیری که بازیکنان را انتخاب می کنند ، در حالی که با هم جمع می شوند ، قدرت پیدا می کنند و با جناح های محلی و خانه های تحت هدایت بازیکن متحد می شوند. ویژگی های کلیدی - دژ خود را ایجاد کنید - انبوهی از حمله های قلعه ای را با دفاع از قلعه غیرقابل نفوذ خرد کنید. سپس یک ضدحمله را راه اندازی کنید! ⚔Besiege Rival Lords - حمله به دشمنان قسم خورده بدون هشدار ، اقتصاد آنها را فلج کنید یا در بازی های ذهن سیاسی شرکت کنید. technology فناوری جدید - آیا شما کشاورز ، معامله گر ، دیپلمات یا جنگ سالاری هستید؟ برای تخصص و گسترش ، یک درخت فناوری گسترده را کاوش کنید. خانه خود را انتخاب کنید - به یک جناح بپیوندید ، به دشمنان خود حمله کنید ، پیروز شوید و بر کل کشورها با Bannermen خود حکومت کنید! - در هر مکانی بازی کنید - جنگ با هزاران لرد دیگر بازی کامل را با هم در رایانه شخصی و موبایل انجام دهید. قلعه ای را که هرگز گرفته نشده است محاصره کنید ، بی رحمانه را سرنگون کنید ..."
     },
     {
         "title": "peak",
@@ -785,7 +858,7 @@
         ],
         "is_multiplayer": true,
         "is_online": true,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257181658/movie_max_vp9.webm?t=1754931583",
+        "trailer": "https://video.akamai.steamstatic.com/store_trailers/257181658/movie_max_vp9.webm?t=1754931583",
         "is_dlc_or_addon": false,
         "persian_summary": "Peak یک بازی کوهنوردی تعاونی است که در آن کوچکترین اشتباه می تواند عذاب شما را هجی کند. یا به عنوان یک گروه از پیشاهنگان طبیعت گمشده ، تنها امید شما برای نجات از یک جزیره مرموز ، مقیاس کوه در مرکز آن است. آیا آنچه را برای رسیدن به اوج لازم دارید دارید؟ با هم کار می کنید به یک دست نیاز دارید؟ برای داشتن امید به مقیاس کوه ، که هر روز تغییر می کند ، باید به دوستان خود اعتماد کنید. به یکدیگر کمک کنید تا در طاقچه ها قرار بگیرند ، یا طناب ها و سنبله های صعود را قرار دهند تا راه را برای کسانی که بعد از آن آسان تر می شوند ، آسانتر کنند. صعود از کوه هیچ زندانی نمی کند! از طریق 4 بیوم در راه رسیدن به اوج صعود کنید ، هر کدام موانع تهدید کننده زندگی خود را دارند. برای زنده ماندن ، باید غذای مشکوک را بکشید و صدمات خود را با دقت مدیریت کنید - هر شکست ، استقامت شما را محدود می کند و صعود را سخت تر می کند. Survive Adming برای بدترین حالت: انواع اقلام مفید بقای مفید را کشف کنید ، از نوشیدنی های انرژی زا تا سنبله های کوهنوردی گرفته تا ضد طناب اسرارآمیز. شما امیدی به رسیدن به اوج ندارید مگر اینکه ..."
     },
@@ -807,7 +880,7 @@
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256808141/movie_max_vp9.webm?t=1604564856",
+        "trailer": "https://video.akamai.steamstatic.com/store_trailers/256808141/movie_max_vp9.webm?t=1604564856",
         "is_dlc_or_addon": false,
         "persian_summary": "به موقع پرش کنید و در این نسخه جدید پیشرفته ، ماجراجویی دوم کیهانی گنوم را دوباره زنده کنید! Samorost 2 یک داستان سورئال از یک گنوم فضایی را روایت می کند که سگ او به تازگی توسط بیگانگان بدبخت ربوده شده است. در یک سفر کوتاه برای نجات توله سگ ، برخورد با غریبه های کنجکاو و استراحت به موسیقی تسکین دهنده توسط Tomáš \"Floex\" Dvořák. نسخه جدید و بهبود یافته به ارمغان می آورد: - گرافیک پیشرفته با پشتیبانی تمام صفحه - یک دسته از ترفندهای طراحی بازی - سیستم ذخیره سازی بازسازی شده (بدون کدهای سطح بیشتر!) - ویژگی جدید زوم - دستاوردها"
     },
@@ -828,7 +901,7 @@
         "title": "project winter ca1199 free betray your friends in this 8",
         "store": "epicgames",
         "url": "https://store.epicgames.com/en-US/p/project-winter-3b9e84",
-        "image_url": "https://cdn1.epicgames.com/spt-assets/8b114e51c13344978e0b8693dea6bb74/project-winter-phsnu.png",
+        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/774861/0640a18d533df088d5b116c71ee503415fb683d1/capsule_616x353.jpg?t=1758889233",
         "description": "submitted by /u/PM_ME_FREEGAMES [link] [comments]",
         "id_in_db": "t3_1nkb58v",
         "subreddit": "AppHookup",
@@ -841,7 +914,7 @@
         "title": "psa gamesplanet is now giving clid the snail global codes for those who got region locked codes",
         "store": "other",
         "url": "https://us.gamesplanet.com/account",
-        "image_url": "https://gpstatic.com/acache/67/18/1/us/t620x300.jpg",
+        "image_url": "https://preview.redd.it/steam-game-clid-the-snail-v0-kna2i3d5ezmf1.png?width=1920&auto=webp&s=c156f765bdde7b7746523a8156305ca376f52f4b",
         "description": "A few weeks ago (September 3rd) Lenovo Legion gave away Clid The Snail keys, but they were region locked. However, today they sent and email giving the global key, which can also be checked by going into your Gamesplanet library. submitted by /u/SurpriseGloomy2073 [link] [comments]",
         "id_in_db": "t3_1nokw6d",
         "subreddit": "FreeGameFindings",
@@ -867,7 +940,7 @@
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257045782/movie_max_vp9.webm?t=1723543906",
+        "trailer": "https://video.akamai.steamstatic.com/store_trailers/257045782/movie_max_vp9.webm?t=1723543906",
         "is_dlc_or_addon": false,
         "subreddit": "FreeGameFindings",
         "persian_summary": "Exorcist Exorcist یک عمل چرخشی جانبی 2D است که RPG در یک دنیای ساختگی شرقی با آلودگی هیولاهای شرور شرور تنظیم شده است. برای مبارزه با راه خود از طریق دنیای وحشیانه ، به عنوان یک اگزورسیست ماهر در برابر شر هرج و مرج بازی کنید و درگیری های پیش بینی نشده موجودات پیچیده را تجربه کنید. جهت هنر همه سبک نقاشی جوهر چینی دست کشیده شده ، با صحنه های جوی بسیاری. سیستم جنگی از شمشیر خود برای اجرای شیاطین و هیولا با مکانیک جنگی تاکتیکی در طراحی عمل قاب به قاب دست استفاده کنید. داستان داستانی یک سفر پیچیده را با شادی و اندوه به عنوان یک اگزوریست تجربه می کند. برش های برش به شکل اپرا چینی نشان داده شده است."
@@ -899,46 +972,6 @@
         "persian_summary": "ارسال شده توسط /u /eonvu [پیوند] [نظرات]"
     },
     {
-        "title": "stove return",
-        "store": "stove",
-        "url": "https://store.onstove.com/en/games/100605",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2642760/8fb66f52c8c7e2282f4972c7f2b5419cbbdc4e62/header.jpg?t=1758816122",
-        "description": "MISION The Calamity devastated this small village, stripping it of laughter, voices, and life. You play as a character determined to repair the damage, clean up the homes, and rekindle their hearths — creating comfort so the villagers are no longer afraid to return. GAMEPLAY The village has 5 houses. Each one needs to be restored — sometimes with a hammer, sometimes with a broom or a screwdriver. Some repairs also require drawing special \"gestures\". RESIDENTS Once the house is cleaned and the fire is burning in the stove, you have to wait a little. The residents are about to return. You will have the opportunity to listen to their stories. EXPLORATION AND NARRATIVE Back to Hearth is a game about more than just cleaning houses — it’s about uncovering the lives once lived within them. Each home holds memories, belongings, amulets, and other details that gradually reveal the villagers’ stories. Some of these items are added to your Collections after interaction, which you can view anytime in the main menu. FEATURES short game - 1 hour of playtime melancholic fall atmosphere setting of an Eastern European village, specifically a Ukrainian village casual meditative gameplay opportunity to eat apples, grapes, and raspberries opportunity to chase after chickens personal and household items that allow you to learn more about the residents collections (search in the main menu) graphic stylization, like in games of the 2000s",
-        "id_in_db": "t3_1nkzowy",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "2642760",
-        "genres": [
-            "Casual"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/257206229/movie_max_vp9.webm?t=1758811512",
-        "is_dlc_or_addon": false,
-        "persian_summary": "MISION مصیبت این دهکده کوچک را ویران کرد و آن را از خنده ، صداها و زندگی سوق داد. شما به عنوان شخصیتی که مصمم است برای ترمیم آسیب ها ، تمیز کردن خانه ها و بازگرداندن قلب های آنها بازی می کنید - ایجاد راحتی می کنید تا روستائیان دیگر از بازگشت آنها نترسند. گیم پلی این روستا 5 خانه دارد. هرکدام نیاز به ترمیم دارند - گاهی اوقات با چکش ، گاهی اوقات با جارو یا پیچ گوشتی. برخی از تعمیرات همچنین نیاز به ترسیم \"حرکات\" ویژه دارند. ساکنان پس از تمیز کردن خانه و آتش سوزی در اجاق گاز ، باید کمی صبر کنید. ساکنان در حال بازگشت هستند. شما فرصتی برای گوش دادن به داستانهای آنها خواهید داشت. اکتشاف و روایت بازگشت به Hearth یک بازی چیزی بیش از تمیز کردن خانه ها است - این در مورد کشف زندگی هایی است که زمانی در درون آنها زندگی می کردند. هر خانه خاطرات ، وسایل ، آمپول ها و سایر جزئیات را در اختیار دارد که به تدریج داستانهای روستائیان را نشان می دهد. برخی از این موارد پس از تعامل به مجموعه های شما اضافه می شوند ، که می توانید مشاهده کنید ..."
-    },
-    {
-        "title": "stove samurai shodown ii",
-        "store": "stove",
-        "url": "https://store.onstove.com/en/games/4335",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/999660/header.jpg?t=1732498008",
-        "description": "The ULTIMATE collection is here! It all began in ’93, and now, the weapon-based fighting game series that swept the world is ready to be taken home in a new stellar collection! Six NEOGEO titles as well as one mysterious, unreleased game are featured! Each game features Online Battle Modes as well as a Museum Mode and Music Player. This collection is a must-have for all SAMURAI SHODOWN fans across the globe! ■ Seven SAMURAI SHODOWN titles in total! SAMURAI SHODOWN was originally released on the NEOGEO in 1993, followed by its sequel SAMURAI SHODOWN II in 1994. The series became a trilogy in 1995 with SAMURAI SHODOWN III, followed soon after SAMURAI SHODOWN IV AMAKUSA’S REVENGE released in 1996. Seven years later the series returned with 2003’s SAMURAI SHODOWN V, and SAMURAI SHODOWN V SPECIAL released the following year on the NEOGEO... The new SAMURAI SHODOWN NEOGEO COLLECTION also includes a title never before released to the public. SAMURAI SHODOWN V PERFECT is a mysterious final version of SAMURAI SHODOWN V SPECIAL. Players can select between either Japanese or English MVS arcade versions for each title in the collection. Other features include scanlines for that retro flair, save functions, and an Arcade Mode that can be set to FREE MODE, meaning no more game overs! ■ Each title comes with online versus battle modes! Get paired up with warriors of a similar level with Ranked Match, or just blow off some steam with Casual Match. Invite your friends (or foes) for a beat-down in Challenge Friend. Now you can take on SAMURAI SHODOWN fans across the world with the push of a button. Online Versus Battle Modes are only available for English ver. SAMURAI SHODOWN titles. ■ A Museum Mode brimming with content! The Museum Mode is packed with over 2,000 precious development documents and images; it is everything a SamSho fan could want! There are even hours worth of candid videotaped interviews with the developers, as they discuss what happened during development back in the day. Prepare to dive straight into the world of SAMURAI SHODOWN with this collection! ■ Over 200 tracks in the Sound Player! Relive the excitement of the SAMURAI SHODOWN series by listening to all of the individual titles’ soundtracks. In the Music Player found inside the Museum, there are over 200 tracks to choose from, spanning all six titles.",
-        "id_in_db": "t3_1nl6cn0",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "999660",
-        "genres": [
-            "Action"
-        ],
-        "is_multiplayer": true,
-        "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256787309/movie_max_vp9.webm?t=1732498001",
-        "is_dlc_or_addon": false,
-        "persian_summary": "مجموعه نهایی اینجاست! این همه در سال 93 آغاز شد ، و اکنون ، سریال بازی های جنگی مبتنی بر سلاح که جهان را فرا گرفته است ، آماده است تا در یک مجموعه ستاره ای جدید به خانه برده شود! شش عنوان Neogeo و همچنین یک بازی مرموز و منتشر نشده نمایش داده می شود! هر بازی دارای حالت های نبرد آنلاین و همچنین حالت موزه و پخش کننده موسیقی است. این مجموعه برای همه طرفداران Samurai Shodown در سراسر جهان ضروری است! ■ هفت عنوان Samurai Shodown در کل! سامورایی Shodown در ابتدا در سال 1993 در Neogeo منتشر شد و پس از آن دنباله خود Samurai Shodown II در سال 1994. این سریال در سال 1995 با سامورایی Shodown III به یک سه گانه تبدیل شد ، به زودی پس از انتقام سامورایی Shodown IV Amakusa منتشر شد. هفت سال بعد این سریال را با عنوان Trondown Thind Thins Trate Samurai neodown v ، و Samurai Samurai Sheodown V ، و Samurai Samurai Sheodown Samurai V ، مجموعه جدید Samurai Shodown Neogeo همچنین شامل عنوانی است که قبلاً هرگز برای عموم منتشر نشده است. سامورایی Shodown V Perfect یک فینال مرموز است ..."
-    },
-    {
         "title": "the deed",
         "store": "steam",
         "url": "https://store.steampowered.com/app/420740/The_Deed/",
@@ -955,22 +988,9 @@
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256658391/movie_max.webm?t=1447898663",
+        "trailer": "https://video.akamai.steamstatic.com/store_trailers/256658391/movie_max.webm?t=1447898663",
         "is_dlc_or_addon": false,
         "persian_summary": "یک پیچ و تاب کاملاً تاریک در تنظیمات سنتی رمز و راز قتل ، عمل یک بازی ماجراجویی/RPG در مورد دور شدن با قتل است. آران بروس ، وارث راست خانه دانشیل ، پس از اینكه متوجه شد كه پدر سوءاستفاده وی تصمیم گرفته است او را از خواست خود به نفع خواهر جوان سادیستی و محروم خود جدا كند ، به خانه خانواده خود باز می گردد. با توجه به عصبانیت و حرص و آز ، آران تصمیم گرفته است تا خواهرش را از معادله دور کند تا ارث خود را بازگرداند. آیا او می تواند با چنین عمل ناخوشایندی از بین برود؟ با خانواده ملاقات کنید: خانه Dunshiel را کاوش کنید و با خانواده پیچ خورده و ناکارآمد Arran و خادمان آنها روبرو شوید. هرچند مراقب باشید - هر آنچه می گویید یا می توانید تأثیر آن را در نتیجه عمل داشته باشید! سلاح را انتخاب کنید: طناب ، شمعدانی یا سم موش خوب قدیمی؟ بسیاری از وسایل خانگی وجود دارد که می تواند در معرض استفاده تاریک و ناشایست قرار گیرد. با دقت از ده سلاح قتل احتمالی انتخاب کنید ، با توجه به اینکه چه کسی ممکن است به عنوان یک نتیجه از شما مظنون شود ..."
-    },
-    {
-        "title": "the deed 100 offfree",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/420740/The_Deed/",
-        "image_url": "https://external-preview.redd.it/pJppAHgMUuenuAqJPq9w2-pPZZodLFNmvoxuP9L6UT4.jpeg?width=320&crop=smart&auto=webp&s=e29404fcd4ab3e5187fd4f11a0bc7f4071765d04",
-        "description": "submitted by /u/UnseenData [link] [comments]",
-        "id_in_db": "t3_1nphob2",
-        "subreddit": "GameDeals",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u /Unseendata [لینک] [نظرات]"
     },
     {
         "title": "the master chief collection 999 999 75 off",
@@ -1016,43 +1036,9 @@
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256732945/movie_max.webm?t=1540218220",
+        "trailer": "https://video.akamai.steamstatic.com/store_trailers/256732945/movie_max.webm?t=1540218220",
         "is_dlc_or_addon": false,
         "persian_summary": "Cybarian The Tme Traveling Warrior یک بازی اکشن بازی با الهام از کلاس است و ترکیبی از استورهای بازی مدرن و یکپارچهسازی با سیستمعامل است. این بازی یکپارچه سازی از سیستم عامل های قدیمی 2D مدرسه و پیمایش جانبی است. دارای هنر پیکسل سبک یکپارچهسازی با سیستمعامل زیبا و به طرز ماهرانه ای است. نبردهای رئیس حماسی! توانایی های خود را گسترش دهید! مبارزه انفجاری و جذاب! بستر های نرم افزاری کلاسیک."
-    },
-    {
-        "title": "wander stars sketchbook",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/3636070/Wander_Stars_Sketchbook/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3864090/aeb8331b6f508c90ad3eb482ab1767dcba7bf40a/header.jpg?t=1758459882",
-        "description": "\"I have wanted a game like this for a long time but nobody was making it, and that really annoyed me\" - Drummo Haul valuable cargo between sprawling star systems. Bounty Hunt outlaws for a fistful of credits. Mine planets for the raw materials that fuel the economy. Upgrade over 50 ships I want to add another 50 ships and support craft. The galaxy is a cold, dark place, but it's full of opportunity. Add Protospace to your wishlist. PROTOSPACE is a 2D sci-fi sandbox that puts you at the helm of a starship with one goal: survive and profit. From the top-down tactical view of your lo-fi starmap terminal to your shipyard with a view of your current ship and upgrades, you'll navigate a massive, procedurally generated region of space. Every dot on the star chart is a destination, and every destination is a choice. Hand painted ship art with over 50 ship types, land on alien worlds and use smaller craft when on-world to increase your chances of completing missions. Bounty Hunting Hunt down the galaxy's most wanted- Accept a warrant, gather intel to track your target across star systems, and use your ship's firepower to claim your reward. Current ships. (like in the hanger screenshots) Starter & Early Game: Stardust (Starter Ship) Rusty Bucket (Light Freighter/Miner) Wanderer (Long-Range) Scout Drone (Fast Recon) Prospector Mk I (Dedicated Light Miner) Freighters & Industrial: Hauler Mk I (Medium Freighter) Merchantman (Large Freighter) Bulk Freighter (Massive Miner/Freighter) Quasar Freighter (Dedicated Heavy Freighter) Goliath (Armored Freighter/Miner) Deep Core Miner (Advanced Miner) Leviathan (Ultimate Heavy Freighter) Tortuga (Slow, Armored Transport) Exploration & Survey: Surveyor (Long-Range Explorer) Pathfinder (Advanced Explorer) Odyssey (Deep Space Explorer) Combat & Multi-Role: Corsair (Balanced Fighter) Void Runner (Fast Hit-and-Run) Interceptor (Agile Bounty Hunter Ship) Star Hopper (Fast Courier) Kestrel (Nimble Long-Range Fighter) Scarab (Armed Trader) Hammerhead (Reinforced Combat Ship) Gunship (Heavy Weapons Platform) Aegis Cruiser (Heavy Defensive Cruiser) Phantom (Stealth/Infiltration) Reaper (Top-Tier Jammer/Combat) Star Nomad (Versatile Long-Haul) Nova (Experimental High-End Vessel) Salamander (Rugged Mining Vessel) I am a solo gamedev but I have many years of experience working for some of the big companies. I have worked for Microsoft, Grinding Gear Games, THQ, Marvel. This project has been my obsession, most of it was designed in my sketchbooks late at night or at my local cafe with terrible coffee. This is not some vaporwear title, I test it daily and am mostly just fixing bugged missions at this point, I was having trouble with multi moon planets but fixed it yesterday. Add Protospace to your wishlist.",
-        "id_in_db": "t3_1nl8381",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "3864090",
-        "genres": [
-            "Indie",
-            "RPG",
-            "Simulation"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "\"من مدتهاست که یک بازی مثل این را می خواستم اما هیچ کس آن را درست نمی کرد ، و این واقعاً من را اذیت کرد\" - Drummo Haul Bargo با ارزش بین سیستم های ستاره ای پرشور. Bounty Hunt Outlaws برای مشتی از اعتبار. سیارات مین برای مواد اولیه که باعث ایجاد اقتصاد می شوند. بیش از 50 کشتی را ارتقا دهید من می خواهم 50 کشتی دیگر اضافه کنم و کاردستی پشتیبانی کنم. کهکشان مکانی سرد و تاریک است ، اما پر از فرصت است. پیش بینی را به لیست دلخواه خود اضافه کنید. Protospace یک جعبه ماسه ای علمی تخیلی 2D است که شما را در راس یک ستاره با یک هدف قرار می دهد: زنده ماندن و سود. از دید تاکتیکی از بالا به پایین ترمینال starmap lo-fi به کشتی سازی خود با نمای کشتی فعلی و به روزرسانی های خود ، در یک منطقه عظیم و با رویه ای از فضا حرکت خواهید کرد. هر نقطه در نمودار ستاره یک مقصد است و هر مقصد یک انتخاب است. هنر کشتی نقاشی شده با بیش از 50 نوع کشتی ، زمین در جهان های بیگانه و از کاردستی های کوچکتر در هنگام جهان استفاده کنید تا شانس تکمیل مأموریت ها را افزایش دهید. شکار فضل پایین ..."
-    },
-    {
-        "title": "whiskey mafia leos family 100 off free",
-        "store": "indiegala",
-        "url": "https://freebies.indiegala.com/whiskeymafia-leos-family",
-        "image_url": "https://external-preview.redd.it/TriHwJ6HnHHGxj82rZBbNA8Ox_3uSbesVgHVw9rpZ8Y.png?width=320&crop=smart&auto=webp&s=15ac182a05a79fadfeb6ca792774235aec7080c7",
-        "description": "submitted by /u/aniruddhdodiya [link] [comments]",
-        "id_in_db": "t3_1npq2rc",
-        "subreddit": "GameDeals",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u /aniruddhdodiya [لینک] [نظرات]"
     },
     {
         "title": "whiskeymafia leos family",
@@ -1074,22 +1060,9 @@
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256790615/movie_max_vp9.webm?t=1593192971",
+        "trailer": "https://video.akamai.steamstatic.com/store_trailers/256790615/movie_max_vp9.webm?t=1593192971",
         "is_dlc_or_addon": false,
         "persian_summary": "1920 سال. نیویورک. شهر امیدها و رویاهای شکسته ، دوستان و خائنان. آیا یک مرد فروتن کریستوفر ، فرزند یک کارگر بندر ، می تواند رویای آمریکایی خود را به واقعیت تبدیل کند؟ دوستان ، ما خبرهای خوبی داریم! کارتهای کلکسیونی در بازی ظاهر شدند! داستان با شکوه گانگستر با الهام از بهترین درام های مافیا ، ما یک \"فیلم\" شگفت انگیز با شخصیت های قانع کننده و روحیه واقعی مافیایی ایجاد کردیم. در این بازی پیوندهای بی شماری به شخصیت ها و رویدادهای واقعی پیدا خواهید کرد. این فقط یک بازی نیست ، بلکه یک داستان کامل است! بازی ویسکی. mafia. خانواده لئو شما می توانید نقش یک گانگستر واقعی را بر عهده بگیرید. شما تجارت کلاهبرداری زیادی را از سرقت اتومبیل گرفته تا سرقت از Warehouse Spirits انجام خواهید داد. در بازی شما هم با دوستان واقعی و هم با خائنان شرور ملاقات خواهید کرد. به مکانهای تفصیلی دیگری در پیکسلارت شیرجه بزنید. فضای دلپذیر دهه 1920. موسیقی متن اصلی. ویژگی ها: بیش از 10 مکان بازی دستاوردهای مختلف مینی بازی"
-    },
-    {
-        "title": "xenopurge 974 22 off",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/2983410/Xenopurge/",
-        "image_url": "https://external-preview.redd.it/CS9iLe7vR0rWL49ntcwOuGD7hOWt3bGZNZ_kH6J4jP0.jpeg?width=320&crop=smart&auto=webp&s=9a11d5b107a7df58424c311255e8030f5ea08249",
-        "description": "submitted by /u/traptics [link] [comments]",
-        "id_in_db": "t3_1nphyrk",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "22% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u /traptics [پیوند] [نظرات]"
     },
     {
         "title": "yogscast games fall sale",
@@ -1109,7 +1082,7 @@
         ],
         "is_multiplayer": true,
         "is_online": false,
-        "trailer": "http://video.akamai.steamstatic.com/store_trailers/256715477/movie_max.webm?t=1524857012",
+        "trailer": "https://video.akamai.steamstatic.com/store_trailers/256715477/movie_max.webm?t=1524857012",
         "is_dlc_or_addon": false,
         "persian_summary": "در دنیای Rune Midgard ، زمان نزاع بین خدایان ، انسان ها و شیاطین بود ... نبرد خسته از قتل های جنگ طولانی ، جناح ها وارد یک آتش بس اضطراب شدند. آتش بس به یک آرامش شکننده تبدیل شد که هزار سال به طول انجامید. همانطور که خاطره آن جنگ بزرگ به افسانه محو شد ، انسانها شروع به بازگشت به فساد ، خودخواهی و استکبار کردند که زمانی در بالا قیام کرده بودند. شکستن این زمان آرامش ، زوزه عجیب و غریب ناگهانی است که از طریق مرزهای تقسیم خدایان ، انسان ها و شیاطین پاره می شود. هنگامی که موجودات مسالمت آمیز شروع به حمله به روستاها کردند و زمین لرزه های خشونت آمیز قاره ها را از هم جدا کردند. شرکت های شوم به شمال درگیر آزمایش های ژنتیکی پیچ خورده و کشف اخیر یک پورتال بعدی پان ابعاد ماجراهای شگفت انگیز جدید را باز کرده است. با تهدید Ragnarok برای نابودی Rune Midgard ، ماجراجویان برای قدم گذاشتن و نبرد با نیروهای هرج و مرج مورد نیاز هستند. در کاوش در جهان به دوستان خود بپیوندید و خود را بسازید ..."
     }
