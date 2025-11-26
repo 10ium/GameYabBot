@@ -16,7 +16,7 @@
         "title": "a hospital simulator early access launch discount 495 38 off",
         "store": "other",
         "url": "https://www.reddit.com/r/GameDeals/comments/1p5hp3t/steam_cure_a_hospital_simulator_early_access/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2786550/7b05fabf30a5dda11e3302242a5a2ba57d6f88b1/header.jpg?t=1763676226",
+        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2786550/57ccf43c0695e23419ae61104d6f116f657b62d7/capsule_616x353.jpg?t=1763676226",
         "description": "Disclosure: Friend of the devs (and a veteran r/GameDeals lurker) CURE is a true early-access release for a game being built with the community (expect bugs, expect fun, expect a responsive dev team). It's a 1st-person co-op simulation game where you and your friends (or random strangers) have to manage an ER room, but with a twist where untreated dying patients can rise as the undead. To make things even crazier, streamers can connect the game through the Twitch API and play with their live stream audience through chat commands. This deep introductory discount is because the studio wants a critical mass of feedback for the game roadmap to launch. The game will be priced higher after the Early Access period, and this steep launch discount is unlikely to return anytime soon (or so I've been told). Link to CURE Steam Page submitted by /u/goswym [link] [comments]",
         "id_in_db": "t3_1p5hp3t",
         "subreddit": "GameDeals",
@@ -29,7 +29,7 @@
         "title": "aaero",
         "store": "fanatical",
         "url": "https://www.fanatical.com/game/aaero",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499890/header.jpg?t=1750427545",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499890/aedeb89e064955fe69000ea01ff3aea3d0cfa305/header_alt_assets_0.jpg?t=1764085258",
         "description": "Trace ribbons of light to release the energy in the music as you speed through stylised alien worlds. Battle strange enemies and fight epic boss battles all driven by an incredible licensed soundtrack. Independent micro-studio ‘Mad Fellows’ brings you a unique and innovative game featuring music from Noisia, Flux Pavilion, Katy B, The Prototypes, Neosignal and many more. N.B. A controller with dual analogue sticks is required to play Aaero. (e.g. Xbox 360/One, PlayStation DualShock etc.)",
         "id_in_db": "t3_1p5em1m",
         "subreddit": "FreeGameFindings",
@@ -42,7 +42,6 @@
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "https://video.akamai.steamstatic.com/store_trailers/256683569/movie_max.webm?t=1493905374",
         "is_dlc_or_addon": false,
         "persian_summary": "نوارهای نور را ردیابی کنید تا انرژی را در موسیقی آزاد کنید، همانطور که در جهان های بیگانه تلطیف شده سرعت می گیرید. با دشمنان عجیب و غریب بجنگید و با باس های حماسی مبارزه کنید که همگی توسط یک موسیقی متن مجوز باورنکردنی هدایت می شوند. میکرو استودیو مستقل «Mad Fellows» یک بازی منحصر به فرد و نوآورانه با موسیقی از Noisia، Flux Pavilion، Katy B، The Prototypes، Neosignal و بسیاری دیگر را برای شما به ارمغان می آورد. N.B. برای پخش Aaero به یک کنترلر با چوب آنالوگ دوگانه نیاز است. (به عنوان مثال Xbox 360/One، PlayStation DualShock و غیره)"
     },
@@ -76,9 +75,21 @@
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "https://video.akamai.steamstatic.com/store_trailers/257035407/movie_max_vp9.webm?t=1719956430",
         "is_dlc_or_addon": false,
         "persian_summary": "Some Houses Hide a Nightmare That Never Sleeps... Alessia's Dollhouse یک بازی ترسناک روانشناختی اول شخص است که نفس شما را بند می آورد. در تاریکی شب، در جاده‌ای متروک، نقش دارن، یک پیتزای معمولی را در خانه عروسکی خزنده‌ای مملو از رازهای شوم بازی می‌کنید. اما این بار، آدرس تحویل شما را به گردابی از وحشت غیرقابل تصور می کشاند. DollHouse آلسیا برداشتی جدید از ژانر قدیمی است: یک جو هیپنوتیزم کننده: راهروهای تاریک، زمزمه های وهم انگیز، و تنشی که هر لحظه آماده به راه افتادن است. در چنگال یاس: نفس عروسک های وحشتناک را روی گردن خود احساس کنید! راه گریزی نیست. تو تنها و بی دفاعی تنها سلاح شما ذهن شماست... و ممکن است مدت زیادی دوام نیاورد. سه عروسک وحشتناک با ویژگی های متمایز در انتظار شما هستند: اولین عروسک نگاهی سرد دارد که وقتی به چشمانش نگاه می کنید روح شما را منجمد می کند. عروسک دوم بی‌صدا از پشت سر شما را می‌گیرد، شبیه شبحی از گذشته‌تان، در کمین..."
+    },
+    {
+        "title": "allyouplay astragon black friday sale",
+        "store": "other",
+        "url": "https://www.allyouplay.com/discover/deals",
+        "image_url": "https://pbs.twimg.com/media/G6NO65aXoAAPoHH.jpg",
+        "description": "submitted by /u/AllYouPlay [link] [comments]",
+        "id_in_db": "t3_1p69wvh",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "22% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/AllYouPlay [لینک] [نظر]"
     },
     {
         "title": "apps found an android app that takes a photo when someone tries to open your apps spycatcher free",
@@ -151,7 +162,6 @@
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "https://video.akamai.steamstatic.com/store_trailers/257204076/movie_max_vp9.webm?t=1758557121",
         "is_dlc_or_addon": false,
         "persian_summary": "کارت من بهتر از کارت شماست! یک برچسب شایان ستایش و در عین حال چالش برانگیز است که عرشه ساز سرکش می چسبد. کارت های خود را با یک کاتالوگ رنگارنگ از برچسب ها که جلوه های آنها را ترکیب می کند ایجاد کنید. استیکرهای بیشتر و بیشتری را جمع آوری کنید، هم افزایی ها را کشف کنید و سبک بازی خود را با عرشه ای پر از خلاقیت های خود بیابید تا رقبای خود را در دوئل های کارتی عجیب و غریب شکست دهید. گیم‌پلی نوبتی، رویدادهای لذت‌بخش و کاردستی با کارت‌های آزاد، تجربه‌ای مفید را در عین ارائه یک چالش به ارمغان می‌آورد. ویژگی ها: بیش از 200 برچسب فوق العاده عالی و شایان ستایش برای چسباندن روی کارت های شما! در برابر ده حریف منحصر به فرد، از بهترین دوستان گرفته تا شاهزاده خانم های زمین بازی و علاقه مندان به اشکال بازی کنید! از بین 10 عرشه شروع، انتخاب کنید که با چه نوع کارت و سبک بازی می خواهید دویدن خود را شروع کنید! 3 رئیس چالش برانگیز برای آزمایش واقعی مهارت های عرشه سازی شما در پایان هر هفته بیش از 40 اسباب بازی برای جمع آوری و همکاری با کارت های خود! بیش از 15 نوع مختلف از رویدادهای سرگرم کننده برای بازدید، مانند حفاری برای گنجینه های برچسب فراموش شده..."
     },
@@ -199,7 +209,6 @@
         ],
         "is_multiplayer": true,
         "is_online": false,
-        "trailer": "https://video.akamai.steamstatic.com/store_trailers/256800506/movie_max_vp9.webm?t=1634556984",
         "is_dlc_or_addon": false,
         "persian_summary": "به عصر ششم جیلینور سفر کنید و دنیایی فانتزی عمیق با افسانه و افسانه را کشف کنید. مردم جیلینور ممکن است در حال شکوفایی باشند، اما خدایان بزرگ هنوز نقشه می کشند. ابرها تاریک می شوند و جنگ در حال رخ دادن است. 19 سال در حال ساخت یک دنیای آنلاین فانتزی را تجربه کنید. این به شما بستگی دارد. آیا با دوستانتان دنیا را کاوش خواهید کرد یا به عنوان یک ماجراجوی تنها به دنبال شهرت و ثروت خود خواهید بود؟ چه درگیر ماموریت های جسورانه باشید، چه بی سر و صدا به مزرعه خود رسیدگی کنید، همه آن را در برابر یک رئیس سطح بالا به خطر بیندازید یا یک شب را در سیرک سپری کنید، RuneScape بازی عالی در صفحه دوم است. همانطور که می خواهید بازی کنید - انتخاب با شماست. چه نوع قهرمانی خواهید بود؟ با جهانی که 19 سال باورنکردنی در حال رشد بوده است، RuneScape همچنان به هیجان بازیکنان با ماجراجویی‌هایی که شبیه هیچ‌کدام از دیگران نیست، ادامه می‌دهد. با 270 میلیون نصب و قابلیت پخش متقابل روی رایانه شخصی و موبایل، به صدها میلیون نفری بپیوندید که دنیای خارق العاده و عرفانی Gielinor را کاوش کرده اند. دوست – و شاید گاهی دشمن – با یک..."
     },
@@ -207,7 +216,7 @@
         "title": "etailmarket no mans sky 70 off 1761 hogwarts legacy 85 off 1050 assetto corsa competizione 75 off 1000 outer wilds 56 off 1019",
         "store": "other",
         "url": "https://www.reddit.com/r/GameDeals/comments/1p5gjta/etailmarket_no_mans_sky_70_off_1761_hogwarts/",
-        "image_url": "https://etail.market/image/cache/catalog/hogwarts-legacy_screenshot_lft2p_cover-750x422.webp",
+        "image_url": "https://etail.market/image/cache/catalog/post_images/hogwarts-legacy-haber/hogwarts-legacy-co-op-1200x750.webp",
         "description": "Title EU Price Discount No Man's Sky €17.61 70% Hogwarts Legacy Deluxe Edition €10.50 85% Call of Cthulhu €2.42 88% Punch Club €1.65 83% A Plague Tale: Requiem €16.10 68% Mortal Kombat 11 Ultimate €7.01 88% Outer Wilds €10.19 56% Assetto Corsa Competizione €10.00 75% Dragon's Dogma 2 €23.20 64% Don't forget to use 'etailextr5' discount code. submitted by /u/etailmarket [link] [comments]",
         "id_in_db": "t3_1p5gjta",
         "subreddit": "GameDeals",
@@ -220,7 +229,7 @@
         "title": "exiled giveaways and itchio mega threads",
         "store": "other",
         "url": "https://www.reddit.com/r/FreeGameFindings/comments/1p5o60u/exiled_giveaways_and_itchio_mega_threads/",
-        "image_url": "https://external-preview.redd.it/steam-software-figmin-xr-v0-GXQajwAYe5FAcRMuvkb8S5sgYCfGGVH1uiWR7LoTzS8.jpeg?auto=webp&s=f93abdf69f3f9059bb7643c4bd7a6c81bb62a787",
+        "image_url": "https://preview.redd.it/exiled-giveaways-mega-thread-v0-3qh1sm8i322g1.png?format=png&auto=webp&s=fc63e67fb1ef0bcebb89b18e896a6cae64d844f9",
         "description": "To increase visibility, the mega threads are posted on a weekly basis. This is being done following the overall discussion of Mega Threads via FGF Update - https://redd.it/jkxyzw Please use the below threads for your posts. :) Exiled Giveaways Mega Thread (#2) Itchio Mega Thread (#10) Want to setup alerts to these threads? RSS Feed information can be found in our wiki! https://www.reddit.com/r/FreeGameFindings/wiki/rssfeed Included is information about our discord bot and general RSS feed stuff. Definitely give it a look! submitted by /u/AutoModerator [link] [comments]",
         "id_in_db": "t3_1p5o60u",
         "subreddit": "FreeGameFindings",
@@ -228,6 +237,19 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "برای افزایش دید، مگا رشته ها به صورت هفتگی ارسال می شوند. این به دنبال بحث کلی مگا موضوعات از طریق به‌روزرسانی FGF انجام می‌شود - https://redd.it/jkxyzw لطفاً از موضوعات زیر برای پست‌های خود استفاده کنید. :) Exiled Giveaways Mega Thread (#2) Itchio Mega Thread (#10) آیا می خواهید هشدارهایی را برای این رشته ها تنظیم کنید؟ اطلاعات فید RSS را می توان در ویکی ما یافت! https://www.reddit.com/r/FreeGameFindings/wiki/rssfeed شامل اطلاعاتی درباره ربات اختلاف ما و موارد کلی فید RSS است. حتما بهش نگاه کن! ارسال شده توسط /u/AutoModerator [لینک] [نظر]"
+    },
+    {
+        "title": "expedition 33 3144 3036 2696 c4241 a4575 r12689 with code cheers",
+        "store": "other",
+        "url": "https://store.playsum.live/product/f2d66472-06f6-494a-92ad-c756608ade5f/clair-obscur-expedition-33",
+        "image_url": "https://external-preview.redd.it/nc4sVCCdp-vnXCQCrQVSBvuNouHKJML44yJxddhhZ-w.jpeg?width=640&crop=smart&auto=webp&s=11192ca2734e36c6e6c8d90ef00a67309e66e5dc",
+        "description": "submitted by /u/Lets_Playsum [link] [comments]",
+        "id_in_db": "t3_1p6jmvd",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "37% off",
+        "is_dlc_or_addon": true,
+        "persian_summary": "ارسال شده توسط /u/Lets_Playsum [لینک] [نظر]"
     },
     {
         "title": "fanatical aaero 100 off",
@@ -248,7 +270,6 @@
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "https://video.akamai.steamstatic.com/store_trailers/257109846/movie_max_vp9.webm?t=1741112161",
         "is_dlc_or_addon": false,
         "persian_summary": "موزه دو نقطه شامل: طراحی، مدیریت و توسعه موزه‌های باورنکردنی 5 مکان منحصربه‌فرد موزه اصلی در دو پوینت کانتی: - ماقبل تاریخ - Memento Mile - آکواریوم - Passwater Cove - Supernatural - Wailon Lodge - Science - Bungle Wasteland - Space - Pebberley Heights 3 موزه‌های پاپ آپ با وظایف و چالش‌های خود را بسیار SEUM بسازید! 6 نوع نمایشگاه اصلی و بیش از 30 گروه فرعی از نمایشگاه شما در میان 5 نقشه اکسپدیشن مختلف با 100+ نقطه مورد علاقه منحصر به فرد، بیش از 200 نمایشگاه منحصر به فرد، ماجراجویی خواهید کرد تا کتاب برچسب خود را بیش از 350 آیتم تزئینی کشف و پر کنید تا موزه خود را به طور منحصر به فردی به شما 18 نوع مهمان برای ملاقات و ارائه خدمات تبدیل کنید. از جمله آن بچه های مداخله گر همه موزه های دو پوینت کانتی را باز کنید و مدیریت کنید! به عنوان متصدیان نوپا، وظیفه دارید موزه‌های خودتان را طراحی و اصلاح کنید تا بهترین تجربه مهمان را ایجاد کنید. هماهنگ کردن کارشناسان در سفرهای دوردست برای کشف نمایشگاه های جدید، ایجاد Buzz برای جلب انبوهی از..."
     },
@@ -256,7 +277,7 @@
         "title": "fgf giveaway",
         "store": "other",
         "url": "https://www.reddit.com/r/FreeGameFindings/comments/1p1mhzq/fgf_giveaway_orbyss/",
-        "image_url": "https://preview.redd.it/fgf-contest-powered-by-community-funds-v0-xi54utlza1tc1.png?width=2009&auto=webp&s=02aef6f696604b581ae84dca70d14f95d26a7a8c",
+        "image_url": "https://preview.redd.it/fgf-giveaway-stormedge-v0-l8yfnso9tlod1.png?width=1092&auto=webp&s=52076accb26a1dd02b55e1305a8605810d5c2de2",
         "description": "This is a direct from dev/pub giveaway for FGF. Similar to those we have done before. Huge thanks to Misty Whale/Studio for supplying the keys for this event! The developer Misty Whale recently launched Orbyss onto Steam! A solo project that took at least ten years of work to complete! A fun puzzle game with some neat mechanics to switch around, change places and solve it all. Kind of a \"solo co-op\" game. I ended up trying it out recently and really dug it, so a chance to work together on something for it is fantastic! In this logic based puzzle game, switch between Orbs to solve puzzles and light up your world. Play co-op with yourself, freeze time, fly drones, play with sound… and overcome the evil shadow interfering with your quest. As a means of promoting the title and trying to get more reviews/wishlists/eyes on it, we are running a fun little event! Things like reviews of purchased games and wishlists of games on Steam are extremely important, so we hope that you'll do so if you're interested. If you're a fan of puzzle games, you'll love this! I am happy to announce the FGF Giveaway of 50 Steam keys for Orbyss! To enter We will use the comments and Gleam. It'll be 25 Steam Keys via Gleam and 25 Steam keys through the comments. Gleam entries: https://gleam.io/VgHH7/fgf-orbyss-giveaway-13 https://gleam.io/el3lS/fgf-orbyss-giveaway-23 https://gleam.io/sBdN2/fgf-orbyss-giveaway-33 Comment entries: For comment entries, simply make any top-level comment. Only make a single top-level one. Comment replies are fine, but they wont count as an entry. As a little bonus piece, I'll section out five of the 25 keys for comments where users include a screenshot showing they wishlisted the game. NOTE: Winners will be selected at random. This offer will be live until the 26th . That or the next day or something, I will email the Gleam winners (check your junk/spam too) , and Reddit chat the comment winners. Some links relating to Orbyss! Orbyss on Steam - https://store.steampowered.com/app/1385340/Orbyss/ Misty Studio on Twitter - https://twitter.com/MistyStudio Misty Whale on YouTube - https://www.youtube.com/channel/UCgHvN9saF3FAxf0PTE_IHMg Developer's Website - https://www.mistywhale.com/ Full disclosure, I was not provided any personal key for this event. For more details about when I have and have not been supplied an item for these FGF Giveaways, see here - https://docs.google.com/spreadsheets/d/1RFeaSIpqFvvSzfOowecLz_rbbFo-YKa25PYAqF6Y6ko/ submitted by /u/StOoPiD_U [link] [comments]",
         "id_in_db": "t3_1p1mhzq",
         "subreddit": "FreeGameFindings",
@@ -307,7 +328,6 @@
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "https://video.akamai.steamstatic.com/store_trailers/256913957/movie_max_vp9.webm?t=1691845573",
         "is_dlc_or_addon": false,
         "persian_summary": "\"قاتل خزدار\" یک تجربه تیراندازی مهیج و پر اکشن را ارائه می دهد که بازیکنان را در نبردی بی امان در برابر انبوهی از موجودات خزدار بدخواه غرق می کند. در این بازی تپنده قلب، شما نقش یک قهرمان قدرتمند را بر عهده می گیرید که وظیفه دارد با موج به موج این دشمنان شیطان صفت مبارزه کند. ویژگی های بازی Intense Arena Battles: شرکت در نبردهای تپنده قلب در برابر امواج بی امان موجودات پشمالو شیطانی، آزمایش رفلکس ها و مهارت های رزمی خود در محیط های عرصه پویا. پیشرفت سکه محور: دشمنان را به صورت استراتژیک شکست دهید تا سکه هایی را جمع آوری کنید که به عنوان ارز برای ارتقاء زرادخانه سلاح های شما عمل می کنند و به شما این امکان را می دهند که قدرت شلیک خود را مطابق با سبک بازی دلخواه خود تنظیم کنید. تنوع سلاح: از میان مجموعه ای متنوع از سلاح های قدرتمند و منحصر به فرد را انتخاب کنید که هر کدام دارای توانایی ها و نقاط قوت خود هستند و امکانات تاکتیکی بی پایانی را برای مقابله با انواع مختلف دشمن فراهم می کنند. چالش حالت بی پایان: محدودیت های خود را در حالت بی پایان، جایی که امواج موجودات پشمالو..."
     },
@@ -330,9 +350,21 @@
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "https://video.akamai.steamstatic.com/store_trailers/256819913/movie_max_vp9.webm?t=1611765405",
         "is_dlc_or_addon": false,
         "persian_summary": "مرور کلی Gladiator Manager یک بازی شبیه‌سازی نبرد مبتنی بر متن تاکتیکی و مدیریت ورزشی است. این بازیکن نقش مدیر تیمی از گلادیاتورها را بر عهده می گیرد و تلاش می کند یک لیگ و یک جام را به دست آورد. بخش مدیریتی بازی شباهت هایی به بازی هایی مانند Football Manager و Out of the Park دارد و شامل استخدام مبارزان جدید با قضاوت در مورد پتانسیل و مهارت های آنها، آموزش آنها و سپس انتخاب ترکیب مناسب برای به دست آوردن مزایای تاکتیکی نسبت به تیم های مقابل است. مبارزان می توانند کهنه سرباز، شهروند، جنایتکار یا برده باشند که هرکدام مکانیسم ها و ویژگی های بازی منحصر به فرد خود را دارند و در شش کلاس قرار می گیرند: گلادیاتور، سرکش، بربر، مدافع، رتاریوس و رهبر. هر کلاس می تواند با انتخاب امتیاز از درختان دیگر هیبرید شود. ویژگی های کلیدی نبرد مبتنی بر نوبت همزمان مزیت کلاس و تصمیمات RPS زره و مکانیک خون 6 کلاس جنگنده مختلف 4 داستان اصلی مختلف بیش از 100 امتیاز شامل بیش از 30 حرکت ویژه توسعه قاتلان کلاس متخصص ..."
+    },
+    {
+        "title": "games minesweeper pro 149",
+        "store": "googleplay",
+        "url": "https://play.google.com/store/apps/details?id=mindware.minegamespro",
+        "image_url": "https://external-preview.redd.it/zKx1onEw-y7R_fZXES67l1qg3ij_D1s1ro4zyPK1oQQ.png?width=320&crop=smart&auto=webp&s=2b69a6710d7a71179cc2f37e501c3684d25d4787",
+        "description": "submitted by /u/pudah_et [link] [comments]",
+        "id_in_db": "t3_1p6osor",
+        "subreddit": "googleplaydeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/pudah_et [پیوند] [نظر]"
     },
     {
         "title": "Godzilla Voxel Wars",
@@ -351,7 +383,6 @@
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "https://video.akamai.steamstatic.com/store_trailers/256987076/movie_max_vp9.webm?t=1701855384",
         "is_dlc_or_addon": false,
         "subreddit": "FreeGameFindings",
         "persian_summary": "خلاصه: از TOHO Games، زیرمجموعه شرکت سازنده سری فیلم‌های Godzilla، و استودیوی بازی‌سازی رو به رشد Nukenin LLC (برنده جایزه Google Indie Games Festival 2021 TOHO Games) یک بازی پازل استراتژی جدید ارائه می‌شود! با دفع هجوم تهدید قارچ Fungoid، جهان را نجات دهید، هیولاهای Toho را کنترل کنید! برای کشف حقیقت پشت این قارچ های هیولا در مراحل پیشرفت کنید! نکات کلیدی این بازی: ▼ قارچ‌ها را شکست دهید! هیولاهای توهو را کنترل کنید و با قارچوئیدها مبارزه کنید زیرا آنها یک تهاجم جهانی را آغاز می کنند! از طریق مکانیک های نوبتی با دشمنان مبارزه کنید! هر چه تعداد نوبت های کمتری برای پاک کردن یک مرحله داشته باشید، امتیاز بیشتری کسب خواهید کرد! ▼ استراتژی بهینه را برای هر مرحله بیابید! هر یک از شش جهان شامل مراحل متعددی است که شما می توانید آن را انجام دهید. در هر مرحله، باید با هیولاهای مختلف دست و پنجه نرم کنید و در تلاش برای پیروزی، رویکردهای مختلفی را امتحان کنید. مراحل را تکرار کنید و به دنبال کسب امتیاز بیشتر باشید! ▼ چالش های اضافی! این دنیا دو روی دارد:..."
@@ -374,7 +405,6 @@
         ],
         "is_multiplayer": true,
         "is_online": false,
-        "trailer": "https://video.akamai.steamstatic.com/store_trailers/257070010/movie_max_vp9.webm?t=1730392409",
         "is_dlc_or_addon": false,
         "persian_summary": "Goo Goo Grapplers یک مهمانی آشفته 1v1 کاناپه است که استراتژی سبک MOBA را با ضرب و جرح با نیروی کودک ترکیب می کند. یک کنترلر بردارید و رو در رو به دوست خود ضربه بزنید! کودک خود را همانطور که می خواهید در فروشگاه پویا تقویت کنید! در هر مسابقه راه های جدیدی برای ساختن از طریق ارتقاء توانایی ها و غیرفعال های قدرتمند کشف کنید! آیا می خواهید با دست چسبنده حریف خود را در سراسر عرصه بکوبید؟ برو دنبالش آیا می خواهید بلوک های ساختمانی را رها کنید تا آنها را از بین ببرید؟ چرا که نه! چه در حال راه اندازی Bouncy Balls یا فراخوانی ماشین های انفجاری RC باشید، هر مسابقه فرصت جدیدی برای گول زدن یکدیگر است. عزیزم وارد میدان جنگی شوید که در آن هر اسباب بازی استراتژی جدیدی ارائه می دهد. آیا قبل از اینکه حریف خود را بسازد، جنگجوی نهایی را می سازید؟ مکانیک MOBA - خطوط را به سمت پایین فشار دهید، اهداف نقشه را به دست آورید، حریف خود را به کودک خود بیافزایید - توانایی ها و غیرفعال ها را در صدها ساخت منحصر به فرد ترکیب کنید. Local Multiplayer - تقسیم صفحه نمایش هوشمند برای نبردهای شدید نزدیک چند نفره..."
     },
@@ -421,7 +451,6 @@
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "https://video.akamai.steamstatic.com/store_trailers/256919698/movie_max_vp9.webm?t=1670470033",
         "age_rating": "13",
         "is_dlc_or_addon": false,
         "persian_summary": "شما آخرین امید خدایان هستید. به عنوان Fenyx در تلاش برای نجات خدایان یونانی از یک نفرین تاریک بازی کنید. با جانوران اساطیری روبرو شوید، بر قدرت‌های افسانه‌ای خدایان تسلط پیدا کنید و تایفون، مرگبارترین تیتان در اساطیر یونان را در یک مبارزه حماسی برای اعصار شکست دهید. با دشمنان اسطوره‌ای مقابله کنید با جانوران افسانه‌ای مانند Cyclops، Medusa یا Minotaur روبرو شوید و در نبردهای هوایی و تنومند سریع با آنها مقابله کنید و توانایی‌ها و سلاح‌های خدادادی خود را ترکیب کنید. از قدرت خدایان استفاده کنید خدایان المپ هدایایی به شما داده اند. از آنها برای مبارزه با هیولاهای افسانه ای، حل پازل های باستانی و کشف دنیای باز گسترده استفاده کنید."
@@ -482,7 +511,6 @@
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "https://video.akamai.steamstatic.com/store_trailers/257076714/movie_max_vp9.webm?t=1733122896",
         "is_dlc_or_addon": false,
         "persian_summary": "بازی چمن زنی: اره منبت کاری اره مویی بازی اره منبت کاری اره مویی پازل با پازل و تصاویر از بازی های قدیمی چمن زنی است. این یک بازی منطقی است که در آن هدف بازی مرتب کردن مجدد کاشی‌ها برای به دست آوردن تصویر نهایی است. بازی پازل شامل 8 تصویر است و آیا می توانید یک ماشین چمن زنی نابغه باشید و همه پازل های اره منبت کاری اره مویی را حل کنید اره منبت کاری اره مویی با اندازه های مختلف، پس قهرمان باشید و تمام اره منبت کاری ها را حل کنید و دستاوردهای بخار را جمع آوری کنید ویژگی های کلیدی بازی: - 8 اره منبت کاری اره مویی در حال حاضر - دستاوردهای بخار - تصاویر با اندازه های مختلف دکمه ها: - بازی اره منبت کاری اره مویی با سایزهای مختلف - بازی اره مویی برای حرکت دادن مجدد"
     },
@@ -516,7 +544,6 @@
         ],
         "is_multiplayer": true,
         "is_online": true,
-        "trailer": "https://video.akamai.steamstatic.com/store_trailers/257222135/movie_max.webm?t=1761318069",
         "is_dlc_or_addon": false,
         "persian_summary": "Lightphobe یک بازی PVP مبتنی بر تیم نامتقارن است که اکشن مخفیانه را با گیم پلی تیراندازی سریع ترکیب می کند. از بین دفاع از زمین به عنوان یک جوخه سربازان مسلح یکی را انتخاب کنید، یا به گروه تاریک موجودات اسکلتی اثیری که به نام Lightphobes شناخته می شوند، بپیوندید! برداشتن آن آسان اما تسلط بر آن سخت است، سربازان در منظر اول شخص درست مانند FPS معمولی شما بازی می کنند. سربازان باید از هدف فعال در برابر تجاوز به Lightphobes دفاع کنند و همچنین مراقب باشند که در این فرآیند کشته نشوند. در حالی که لایت فوب ها (ربات ها) کنترل شده با هوش مصنوعی ممکن است به راحتی قابل پیش بینی و دفاع در برابر آنها باشند، با اضافه شدن بازیکنان انسانی به ترکیب، همه چیز تغییر می کند. با هم تیمی های خود هماهنگ کنید تا با هم زنده بمانید! بازی به عنوان Lightphobe به مهارت و صبر بالایی نیاز دارد. محدود بودن به حملات غوغا، کشتن دشمنان را دشوار می‌کند، اما افزایش دشواری نیز باعث می‌شود که وقتی با موفقیت از بین می‌روید، رضایت‌بخش می‌شود. لایت فوب ها با قدرت مانور پیشرفته خود می توانند از پرش های دیواری استفاده کنند..."
     },
@@ -545,29 +572,6 @@
         "discount_text": "40% off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/Or1sArt [پیوند] [نظر]"
-    },
-    {
-        "title": "mortal glory 2",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/2216660/Mortal_Glory_2/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2216660/header.jpg?t=1763625644",
-        "description": "Roll an explosive barrel at your enemy, throw them into a pit or take out two enemies by knocking them into each other. With a wide variety of tools available to you, your creativity will determine how you deal with the competition. Unique arenas, randomized environments and occasional special rules ensure that each fight offers new tactical opportunities. A wide variety of fantasy races are seeking glory, each with their own unique racial strengths. Whatever your tactics are, finding the best recruits is essential! There is a vast collection of unique relics, character perks and more to discover. Finding clever combos and deadly synergies will unlock new strategies and occasionally turn your gladiators into unfairly strong demons. Various difficulty settings will accommodate your preferred playstyle and there are increasingly harder challenges to master. But beware... The AI is brutally talented at the highest levels. With every step comes a new challenge or perhaps... an opportunity? It is up to you to guide where your team should travel next... and suffer the consequences. Each playthrough is different! With various tactics to try and additional increasingly harder challenges to master, the arena will keep welcoming you back again and again. Thanks to conveniently paced combat, Mortal Glory 2 is also great to play if you only have a moment to spare.",
-        "id_in_db": "t3_1p4sxs1",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "50% off",
-        "steam_app_id": "2216660",
-        "genres": [
-            "Indie",
-            "RPG",
-            "Simulation",
-            "Strategy"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "trailer": "https://video.akamai.steamstatic.com/store_trailers/256970138/movie_max_vp9.webm?t=1708614577",
-        "is_dlc_or_addon": false,
-        "persian_summary": "یک بشکه انفجاری را به سمت دشمن خود بغلتانید، آنها را به داخل گودال بیندازید یا دو دشمن را با ضربه زدن به یکدیگر از بین ببرید. با طیف گسترده ای از ابزارها که در دسترس شماست، خلاقیت شما نحوه برخورد شما با رقابت را تعیین می کند. عرصه های منحصر به فرد، محیط های تصادفی و قوانین خاص گاه به گاه تضمین می کند که هر مبارزه فرصت های تاکتیکی جدیدی را ارائه می دهد. طیف گسترده ای از نژادهای فانتزی به دنبال شکوه هستند که هر کدام دارای قدرت های نژادی منحصر به فرد خود هستند. تاکتیک شما هر چه که باشد، یافتن بهترین نیروهای استخدام ضروری است! مجموعه وسیعی از آثار منحصر به فرد، امتیازات شخصیت و موارد دیگر برای کشف وجود دارد. یافتن ترکیب های هوشمندانه و هم افزایی های مرگبار، استراتژی های جدیدی را باز می کند و گهگاهی گلادیاتورهای شما را به شیاطین ناعادلانه قوی تبدیل می کند. تنظیمات سختی مختلف با سبک بازی دلخواه شما سازگار است و چالش‌های سخت‌تری برای تسلط بر آن وجود دارد. اما مراقب باشید... هوش مصنوعی به طرز وحشیانه ای در بالاترین سطوح استعداد دارد. با هر قدم یک چالش جدید یا شاید ... یک ..."
     },
     {
         "title": "mortal kombat 11 dlc 1185 usd 84 off",
@@ -609,29 +613,6 @@
         "persian_summary": "من و رفیقم یک استودیوی توسعه‌دهنده مستقل کوچک را اداره می‌کنیم، و از این که بیشتر برنامه‌های اسکنر پی‌دی‌اف چقدر سنگین، پف کرده و گران‌قیمت هستند خسته شده بودیم. بنابراین ما برنامه اسکن و ویرایش PDF خود را ساختیم - سبک، ساده و (امیدواریم) استفاده از آن آزار دهنده نباشد. بدون تبلیغات، بدون دیوار پرداخت. ویژگی‌های اصلی در زیر فهرست شده‌اند: 100% آفلاین - پردازش روی دستگاه، بدون حساب، بدون ردیابی حریم خصوصی و امنیت - افزودن/حذف رمز عبور، باز کردن فایل‌های PDF محافظت‌شده، صاف کردن فرم‌ها/یادداشت‌های حساس اسکن حرفه‌ای - تشخیص خودکار لبه، تنظیم گوشه زنده، کیفیت اسکن چند صفحه دسته‌ای - B/W، فیلترهای خاکستری، روشنایی خودکار؛ پیش‌نمایش فوری و مرتب‌سازی مجدد صفحه قبل از ذخیره OCR که کنترل می‌کنید - AI OCR سریع، بیش از 12 زبان، حفظ طرح‌بندی، فایل‌های PDF قابل جستجو یا صادرات متن تمیز ویرایش متن شناسایی‌شده OCR - تنظیم هر قسمت از متن شناسایی‌شده ابزارهای صفحه - ادغام، تقسیم، مرتب‌سازی مجدد، چرخش، تکرار، حذف در چند ثانیه فرم‌ها و امضاها، فرم‌ها و امضاهای قابل پر کردن مجدد برای پر کردن دیجیتالی حاشیه نویسی - متن، نکات برجسته، نظرات؛..."
     },
     {
-        "title": "orcs will never be slaves",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/3188460",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188460/d59d331df0091880c4575804535607b2f9f2fa7b/header.jpg?t=1763771717",
-        "description": "A Real Man Lasts 15 Minutes!!! Survive the endless horde of skeletons and defeat the final BOSS! Exhilarating Musou Combat Lots of different weapons to choose from. Varied Challenges Each battle takes place on a different random map, and each map features unique special monsters. Lots of ways to enhance and build up Enhancement Options count 100+. Each Musou attack has its own unique branching enhancement options!",
-        "id_in_db": "t3_1p4a1lt",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "20% off",
-        "steam_app_id": "3188460",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Indie",
-            "RPG"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "trailer": "https://video.akamai.steamstatic.com/store_trailers/257075177/movie_max_vp9.webm?t=1751341328",
-        "is_dlc_or_addon": false,
-        "persian_summary": "یک مرد واقعی 15 دقیقه طول می کشد!!! از گروه بی پایان اسکلت ها زنده بمانید و BOSS نهایی را شکست دهید! مبارزه هیجان انگیز Musou تعداد زیادی سلاح مختلف برای انتخاب. چالش های متنوع هر نبرد روی نقشه تصادفی متفاوتی اتفاق می افتد و هر نقشه دارای هیولاهای خاص منحصر به فردی است. راه‌های زیادی برای افزایش و ایجاد گزینه‌های بهبود بیش از 100 عدد است. هر حمله Musou گزینه های منحصر به فرد خود را برای افزایش انشعاب دارد!"
-    },
-    {
         "title": "other borderlands 4 echo",
         "store": "other",
         "url": "https://www.reddit.com/r/FreeGameFindings/comments/1p2okb6/pcother_borderlands_4_echo4_drone_skin/",
@@ -648,7 +629,6 @@
         ],
         "is_multiplayer": true,
         "is_online": true,
-        "trailer": "https://video.akamai.steamstatic.com/store_trailers/257220073/movie_max.webm?t=1761137981",
         "is_dlc_or_addon": false,
         "persian_summary": "No Man's Sky با الهام از ماجراجویی و تخیلی که ما از داستان های علمی-تخیلی کلاسیک دوست داریم، کهکشانی را برای کاوش در اختیار شما قرار می دهد، که مملو از سیارات منحصر به فرد و شکل های حیات، و خطر و عمل دائمی است. در No Man's Sky، هر ستاره نور خورشیدی دوردست است که هر کدام توسط سیاراتی مملو از حیات می چرخند و شما می توانید به هر یک از آنها که انتخاب می کنید بروید. از اعماق فضا به سطوح سیاره ای بدون صفحه نمایش بارگیری و بدون محدودیت پرواز کنید. در این جهان بی‌نهایت که به صورت رویه‌ای ایجاد شده است، مکان‌ها و موجوداتی را خواهید دید که هیچ بازیکن دیگری قبلاً ندیده‌اند - و شاید دیگر هرگز نخواهند دید. اکنون از جمله... با تمام به‌روزرسانی‌های اصلی از زمان راه‌اندازی بازی کنید: Foundation، Pathfinder، Atlas Rises، NEXT، The Abyss، Visions، به‌روزرسانی 2.0 BEYOND، Synthesis، Living Ship، Exo Mech، Desolation و به‌روزرسانی 3.0، ORIGINS، نسل بعدی، Companions، Expeditions، Frontanceila، Prispoints. (4.0)، فراکتال، رهگیر، پژواک، امگا، مداری، جهان ها قسمت اول (5.0)،..."
     },
@@ -656,24 +636,23 @@
         "title": "other guild wars 2",
         "store": "other",
         "url": "https://www.nvidia.com/en-us/account/redeem/main/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236390/13cc34351236cea7e7021700ed7b11ea7dfd5c27/header.jpg?t=1762859368",
-        "description": "War Thunder is the most comprehensive free-to-play, cross-platform, MMO military game dedicated to aviation, armoured vehicles, from the early 20th century to the most advanced modern combat units. Join now and take part in major battles on land, in the air, and at sea, fighting with millions of players from all over the world in an ever-evolving environment. In War Thunder, aircraft, attack helicopters, ground forces and naval ships collaborate in realistic competitive battles. You can choose from over 2,500 vehicles and an extensive variety of combat situations many of which are exclusive. You can find yourself blasting your pursuers from a bomber turret, defending your teammates on the ground from an air raid with anti-aircraft guns, shooting down enemy planes with a firestorm from multiple rocket launchers, or trying to sink an enemy warship with a torpedo from a fast attack boat. Features include: Seamless cross-platform gameplay between Windows PC, Linux, Mac, PlayStation®4, PlayStation®5, Xbox One with Xbox Series X|S – everyone on the same server. Over 2,500 highly detailed aircraft, helicopters, tanks, warships and other combat vehicles crafted carefully from historical documents and surviving sources. 100 maps representing the main historical battle theaters. Intense PvP experiences in full-scale combat missions at various difficulty settings for all play styles and degrees of experience. Rich PvE content including dynamic historical campaigns and solo missions. Regular content updates including new vehicles, maps, missions and nations. Astonishing graphics, authentic sound effects and beautiful music creating an atmosphere to fully immerse yourself in. Create custom content for War Thunder and share it on War Thunder Live, with the prospect of earning real money through the Revenue Share Partner System!",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1284210/header.jpg?t=1761669967",
+        "description": "Guild Wars 2's open world is all about discovery and exploration. Check your content guide for suggestions when you set out on your adventures, consult your compass to find interesting landmarks…or just pick your favorite direction to travel in and let adventure find you. Tyria is full of characters with their own stories and goals, and you'll be rewarded for helping them out—or thwarting their plans—by completing renown hearts and dynamic events. Read our new player guide for more tips! When you meet other players in the open world, you don't need to join their party to lend a helping hand, investigate a secret jumping puzzle, or team up against a deadly world boss. Don't grind; play the way you want to play! Whether you're reviving defeated players, rescuing soldiers from a Risen onslaught, or gathering herbs, you'll earn experience points. Arm your character with an arsenal of new weapons as you play. Every profession wields them differently, and each type has its own playstyle, which you can refine and customize by unlocking and equipping hundreds of skills and traits. If you want to jump straight into structured PvP, go for it—every player competes at the same level, with access to the max-level gear and build options you need to make your mark. If you love fashion, express yourself with the perfect character design! When you equip new weapons and armor, you'll unlock their skins in your wardrobe. Make them truly yours with thousands of possible combinations and a massive selection of collectible dyes. Upgrade your free account with a Guild Wars 2 expansion and get access to log-in rewards, additional character and bag slots, expanded chat features, and more. Visit the Black Lion Trading Company in the game and use your Steam Wallet to upgrade. Expansions and Living World seasons feature unique rewards and new Masteries to expand your character's abilities. Unlock and upgrade your glider in Guild Wars 2: Heart of Thorns, befriend a stable of mounts with powerful movement skills in Guild Wars 2: Path of Fire, and learn to fish and pilot a skiff in Guild Wars 2: End of Dragons. Each expansion grants access to nine elite specializations that unlock new weapon choices, skills, and abilities for your profession. You'll also be able to select the revenant profession at character creation and channel legendary heroes and villains from Tyria's history. Living World seasons continue the Guild Wars 2 story between expansions and must be purchased separately through your Story Journal or in Gem Store bundles. Play Living World episodes to unlock new explorable zones, rewards, and Masteries. *Living World episodes become playable at level 80. Players may need to relaunch the game for the upgrade to take effect. **Please note that existing Guild Wars 2 player accounts cannot be accessed via Steam",
         "id_in_db": "t3_1p2xx25",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "236390",
+        "steam_app_id": "1284210",
         "genres": [
-            "Action",
+            "Adventure",
             "Massively Multiplayer",
-            "Simulation",
+            "RPG",
             "Free To Play"
         ],
         "is_multiplayer": true,
         "is_online": true,
-        "trailer": "https://video.akamai.steamstatic.com/store_trailers/257229423/movie_max.webm?t=1762856557",
         "is_dlc_or_addon": false,
-        "persian_summary": "War Thunder جامع‌ترین بازی نظامی رایگان، چند پلتفرمی و MMO است که به حمل و نقل هوایی، وسایل نقلیه زرهی، از اوایل قرن بیستم تا پیشرفته‌ترین واحدهای رزمی مدرن اختصاص یافته است. اکنون بپیوندید و در نبردهای بزرگ در زمین، هوا و دریا شرکت کنید و با میلیون ها بازیکن از سراسر جهان در محیطی همیشه در حال تکامل مبارزه کنید. در War Thunder، هواپیماها، هلیکوپترهای تهاجمی، نیروهای زمینی و کشتی های دریایی در نبردهای رقابتی واقع گرایانه با یکدیگر همکاری می کنند. شما می توانید از بین بیش از 2500 وسیله نقلیه و طیف گسترده ای از موقعیت های جنگی انتخاب کنید که بسیاری از آنها منحصر به فرد هستند. می‌توانید متوجه شوید که تعقیب‌کنندگان خود را از یک برجک بمب‌افکن منفجر می‌کنید، از هم تیمی‌های خود در زمین در برابر یک حمله هوایی با اسلحه‌های ضدهوایی دفاع می‌کنید، هواپیماهای دشمن را با طوفان آتش از پرتابگرهای موشکی متعدد ساقط می‌کنید، یا سعی می‌کنید یک کشتی جنگی دشمن را با یک اژدر از یک قایق حمله سریع غرق کنید. ویژگی ها عبارتند از: گیم پلی بدون درز کراس پلتفرم بین رایانه شخصی ویندوز، لینوکس، مک، پلی استیشن 4، ..."
+        "persian_summary": "دنیای باز Guild Wars 2 همه چیز در مورد کشف و اکتشاف است. راهنمای محتوای خود را برای پیشنهادات زمانی که به ماجراجویی های خود می پردازید، بررسی کنید، برای یافتن نقاط دیدنی جالب با قطب نما مشورت کنید... یا فقط مسیر مورد علاقه خود را برای سفر انتخاب کنید و اجازه دهید ماجراجویی شما را پیدا کند. Tyria پر از شخصیت‌هایی است که داستان‌ها و اهداف خاص خود را دارند، و شما برای کمک به آنها - یا خنثی کردن برنامه‌هایشان - با تکمیل قلب‌های مشهور و رویدادهای پویا پاداش دریافت خواهید کرد. راهنمای پخش کننده جدید ما را برای نکات بیشتر بخوانید! هنگامی که با بازیکنان دیگری در جهان باز ملاقات می کنید، نیازی به پیوستن به حزب آنها برای کمک کردن، بررسی یک پازل پرش مخفی یا تیم کردن در برابر یک رئیس مرگبار جهان ندارید. آسیاب نکنید؛ همانطور که می خواهید بازی کنید! چه در حال احیای بازیکنان شکست‌خورده باشید، چه در حال نجات سربازان از حمله Risen یا جمع‌آوری گیاهان باشید، امتیاز تجربه کسب خواهید کرد. در حین بازی، شخصیت خود را با زرادخانه ای از سلاح های جدید مسلح کنید. هر حرفه ای آنها را به طور متفاوتی استفاده می کند و هر نوع سبک بازی خاص خود را دارد."
     },
     {
         "title": "pcconsole other dead by daylight",
@@ -691,10 +670,9 @@
         ],
         "is_multiplayer": true,
         "is_online": true,
-        "trailer": "https://video.akamai.steamstatic.com/store_trailers/257204955/movie_max_vp9.webm?t=1758654085",
         "age_rating": "17",
         "is_dlc_or_addon": false,
-        "persian_summary": "مرگ یک فرار نیست. چهار بازمانده مصمم که برای همیشه در قلمرو شرارت الدریچ به دام افتاده اند، جایی که حتی مرگ نیز راه فراری نیست، در یک بازی شرورانه از اعصاب و عقل، با یک قاتل تشنه به خون روبرو می شوند. یک طرف را انتخاب کنید و با بهترین بازی چند نفره نامتقارن، وارد دنیای تنش و وحشت شوید. بازماندگان به صورت سوم شخص بازی می کنند و از مزیت آگاهی موقعیتی بهتری برخوردارند. The Killer به صورت اول شخص بازی می کند و بیشتر روی طعمه خود متمرکز است. هدف بازماندگان در هر رویارویی این است که بدون گرفتار شدن توسط قاتل از زمین کشتار فرار کنند - چیزی که راحت‌تر از آنچه هست به نظر می‌رسد، به خصوص وقتی که هر بار که بازی می‌کنید، محیط تغییر می‌کند. ویژگی های کلیدی • با هم زنده بمانید یا نه - بازماندگان می توانند با دیگران همکاری کنند یا خودخواه باشند. شانس شما برای بقا بسته به اینکه با هم به عنوان یک تیم کار کنید یا اینکه به تنهایی به آن کار می کنید متفاوت خواهد بود. آیا شما قادر خواهید بود از قاتل پیشی بگیرید و از کشتار آنها فرار کنید؟ • من کجا هستم؟ - هر سطح از نظر رویه ای ..."
+        "persian_summary": "مرگ یک فرار نیست. چهار بازمانده مصمم که برای همیشه در قلمرو شرارت الدریچ به دام افتاده اند، جایی که حتی مرگ نیز راه فراری نیست، در یک بازی شرورانه از اعصاب و عقل، با یک قاتل تشنه به خون روبرو می شوند. یک طرف را انتخاب کنید و با بهترین بازی چند نفره نامتقارن، وارد دنیای تنش و وحشت شوید. بازماندگان به صورت سوم شخص بازی می کنند و از مزیت آگاهی موقعیتی بهتری برخوردارند. The Killer به صورت اول شخص بازی می کند و بیشتر روی طعمه خود متمرکز است. هدف بازماندگان در هر رویارویی این است که بدون گرفتار شدن توسط قاتل از زمین کشتار فرار کنند - چیزی که راحت‌تر از آنچه هست به نظر می‌رسد، به خصوص وقتی که هر بار که بازی می‌کنید، محیط تغییر می‌کند. ویژگی های کلیدی • با هم زنده بمانید... یا نه - بازماندگان می توانند با دیگران همکاری کنند یا خودخواه باشند. شانس شما برای بقا بسته به اینکه با هم به عنوان یک تیم کار کنید یا اینکه به تنهایی به آن کار می کنید متفاوت خواهد بود. آیا شما قادر خواهید بود از قاتل پیشی بگیرید و از کشتار آنها فرار کنید؟ • من کجا هستم؟ - هر سطح از نظر رویه ای ..."
     },
     {
         "title": "pcconsole other predecessor",
@@ -726,7 +704,6 @@
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "https://video.akamai.steamstatic.com/store_trailers/257180866/movie_max_vp9.webm?t=1754763745",
         "is_dlc_or_addon": false,
         "persian_summary": "Desktop Garage Kit: Go Desktop Garage Kit: Go یک برنامه دسکتاپ و بازی فوق العاده زیبا و دوست داشتنی است. این شیدر رندر کارتونی شبیه به Genshin Impact به عنوان ادای احترام به miHoYo استفاده می‌کند و ما یک سال و نیم را صرف تحقیق و تکمیل آن کرده‌ایم. این نرم افزار موانع بین ابعاد دو بعدی و سه بعدی را می شکند و کاراکترهای دسکتاپ را ظریف تر و واقعی تر می کند. و دارای ماژول‌های اکشن تعاملی غنی و به‌روزرسانی شخصیت‌های عظیم جدید، زنده و زیبا است. موتور فیزیک کاملاً جدید حرکت واقعی تری را ارائه می دهد، از بازیگری زیبا، کوچولو، زیبا و شفا پشتیبانی می کند و کنش ها و تعاملات بیشتری دارد. همیشه می توان آن را بالای همه پنجره های دیگر نگه داشت، همیشه همراه شما باشد و منتظر باز شدن شما باشد. ویژگی ها ▪ جادوی این شخصیت های سه بعدی را تجربه کنید که با موسیقی شما می رقصند و حالت ها و سبک های پویا و جذاب را به نمایش می گذارند. خود را در تلفیقی یکپارچه از موسیقی و انیمیشن غرق کنید. ▪ استفاده از یک سه بعدی ساده و در عین حال موثر..."
     },
@@ -744,23 +721,10 @@
         "persian_summary": "سلام، اینها را اینجا پیدا کردم: https://www.pcgamesn.com/girls-frontline-2/codes شما مجبور نیستید از سایت بازدید کنید، من کدها را اینجا کپی کردم و آنچه را که برای شما به ارمغان می آورد لیست کردم: LTQJBPM9H5 - 100x Collapse Piece, 2,000 Sardis Gold, 2,000 Analysis, Blueprint Report, Combat0 MGWUU4JL6F - 100x Collapse Piece, 2,000 Sardis Gold, 2,000 Combat Reports, 2,000 Analysis Blueprint GFL2HBD - 200x Collapse Pieces, 6,000 Sardis Gold, 6,000 Blueprinted Reported I, Combat Report0, آنها در لحظه نوشتن این مطلب کار می کنند، سایت می گوید در 23 نوامبر منقضی می شود، نمی گوید کدام منطقه زمانی، اما فرض کنید کمتر از 24 ساعت برای اینها باقی مانده است. متشکرم. ارسال شده توسط /u/slavmaf [لینک] [نظر]"
     },
     {
-        "title": "pcxboxps other naraka",
-        "store": "other",
-        "url": "https://na.alienwarearena.com/ucf/show/2173383/boards/contest-and-giveaways-global/Giveaway/naraka-bladepoint-spectral-silk-game-pack-key-giveaway",
-        "image_url": "https://external-preview.redd.it/2Z50LczXpN2wRaxo6r3smat8J56F7ZDKmxcXc15HtxE.jpeg?width=320&crop=smart&auto=webp&s=d329ebb76f00a0e69a40a9375fa645a1e5626172",
-        "description": "submitted by /u/MeguminShiro [link] [comments]",
-        "id_in_db": "t3_1p0i8n6",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/MeguminShiro [لینک] [نظر]"
-    },
-    {
         "title": "platform scourgebringerca1949 free a fast",
         "store": "other",
         "url": "https://www.reddit.com/r/AppHookup/comments/1ow5df6/multiplatform_scourgebringerca1949_free_a/",
-        "image_url": "https://cdn1.epicgames.com/offer/c03a3687567a4cf3910ea5ec7279664e/d536fc52-f970-4df6-85ee-8460d24f513e-2560x1440-53ed06898f05cb70a58dcff472a21a25_2560x1440-53ed06898f05cb70a58dcff472a21a25",
+        "image_url": "https://static0.thegamerimages.com/wordpress/wp-content/uploads/2022/12/best-platformer-covers-arts-feature-image.jpg?w=1200&h=628&fit=crop",
         "description": "https://store.epicgames.com/en-US/p/scourgebringer https://store.epicgames.com/en-US/p/scourgebringer-android-624437 https://store.epicgames.com/en-US/p/scourgebringer-ios-65a7d4 ScourgeBringer is a fast-paced free-moving rogue-lite platformer. Help Kyhra to explore the unknown and slash her way through ancient machines guarding the seal of her past, and maybe the redemption of humanity. submitted by /u/PM_ME_FREEGAMES [link] [comments]",
         "id_in_db": "t3_1ow5df6",
         "subreddit": "AppHookup",
@@ -768,19 +732,6 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "https://store.epicgames.com/en-US/p/scourgebringer https://store.epicgames.com/en-US/p/scourgebringer-android-624437 https://store.epicgames.com/en-US/p/scourgebringer-ios-65a7paringeli Scomov free پلتفرمر به Kyhra کمک کنید تا ناشناخته ها را کشف کند و راه خود را از طریق ماشین های باستانی که از مهر گذشته او محافظت می کنند و شاید رستگاری بشریت را برش دهد. ارسال شده توسط /u/PM_ME_FREEGAMES [پیوند] [نظر]"
-    },
-    {
-        "title": "playsum lego party 2478 2245 1915 c3224 a3460 r7038 with code cheers",
-        "store": "other",
-        "url": "https://store.playsum.live/product/b3f0a270-e3ff-4ff5-99df-a37b6c6648f5/lego-party",
-        "image_url": "https://external-preview.redd.it/playsum-lego-party-22-off-31-38-27-48-c-40-89-with-code-v0-fMhdDrUgSTxzBCv5CwEKSlTuiBs6OrtxSwHG3nvEf-0.jpeg?auto=webp&s=821c57203992500f889749623475d449937d19ac",
-        "description": "submitted by /u/Lets_Playsum [link] [comments]",
-        "id_in_db": "t3_1p4rml8",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "38% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/Lets_Playsum [لینک] [نظر]"
     },
     {
         "title": "playsum news tower 1639 1574 1398 c2273 a2532 with code cheers",
@@ -794,27 +745,6 @@
         "discount_text": "34% off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/Lets_Playsum [لینک] [نظر]"
-    },
-    {
-        "title": "project motor racing project motor racing",
-        "store": "indiegala",
-        "url": "https://www.indiegala.com/store/game/project-motor-racing/299970",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/299970/9f70176ac521d6a7472882a4bcf67fa9251c3e63/header.jpg?t=1763649375",
-        "description": "Project Motor Racing ignites all the passion, beauty, and intensity of professional motorsport. The Best, Nothing Less Race across eras in 70 meticulously recreated cars across 13 iconic classes & 28 global layouts. Cars: From today’s radical LMDh Hypercars to history’s most iconic legends, each vehicle is a licensed masterpiece Circuits: Scanned for ultimate precision and authenticity Racing For All From sim racers to first-time racers, Project Motor Racing delivers: Single Player Career Online Racing Modes In-Game Events Packed 4-Class Race Experience Simulation Refined First Principle Physics: New physics engine delivers unmatched handling realism and high-fidelity FFB Benchmark-Setting Physics Engine built on mod-friendly GIANTS Engine 10 Factory Driver Program: Every car’s handling painstakingly tested and approved by brand partners and hundreds of the world's top racing pros to assure authentic levels of handling precision Immersive Sound Design: Motorsport’s ferocity captured like never before Feel Every Second “Living” cockpits with visible G-forces, heat-haze, etc. True2Track Dynamic Weather Conditions Adaptive Racing & Drying Line 24-hour day/night cycle Project Motor Racing: Year 1 Bundle Get the Group 5 Revival Pack, 3 Content Packs + the Year 1 Expansion Pack",
-        "id_in_db": "t3_1p4fq90",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "10% off",
-        "steam_app_id": "299970",
-        "genres": [
-            "Racing",
-            "Simulation"
-        ],
-        "is_multiplayer": true,
-        "is_online": true,
-        "trailer": "https://video.akamai.steamstatic.com/store_trailers/257189768/movie_max_vp9.webm?t=1760000851",
-        "is_dlc_or_addon": false,
-        "persian_summary": "Project Motor Racing تمام شور، زیبایی و شدت موتوراسپرت حرفه ای را شعله ور می کند. مسابقه بهترین، هیچ چیز کمتر در دوره‌های مختلف در 70 ماشین با دقت بازسازی شده در 13 کلاس نمادین و 28 طرح‌بندی جهانی. ماشین‌ها: از هایپرکارهای LMDh امروزی تا نمادین‌ترین اسطوره‌های تاریخ، هر وسیله نقلیه یک شاهکار مجاز است. شبیه سازی را تجربه کنید اصل اول فیزیک اصلاح شده: موتور فیزیک جدید واقع گرایی هندلینگ بی بدیل و موتور فیزیک تنظیم معیار FFB با وفاداری بالا را ارائه می دهد که بر اساس برنامه رانندگان کارخانه GIANTS Engine 10 سازگار با مدها ساخته شده است: هندلینگ هر خودرو به سختی مورد آزمایش قرار گرفته و توسط شرکای حرفه ای جهان به عنوان صدها شرکای حرفه ای و حرفه ای مورد تایید قرار گرفته است. طراحی صدای همهجانبه دقیق: وحشیگری موتوراسپرت به تصویر کشیده شد..."
     },
     {
         "title": "psa epic games zero hour is claimable in all regions now",
@@ -872,7 +802,6 @@
         ],
         "is_multiplayer": true,
         "is_online": true,
-        "trailer": "https://video.akamai.steamstatic.com/store_trailers/257057610/movie_max_vp9.webm?t=1727095141",
         "is_dlc_or_addon": false,
         "persian_summary": "با 64 بازیکن متحد شوید تا در این FPS پسا آخرالزمانی با انبوهی از زامبی ها مبارزه کنید یا به گروه گروه در برابر زنده ها بپیوندید! هم تیمی های خود را روشن کنید و آنها را از هم جدا کنید. اسلحه ها، امتیازات، گزینه های لباس و موارد دیگر را ارتقا دهید و قفل کنید! loadout مورد علاقه خود را مجهز کنید و به مبارزه بپیوندید! امتیازات آنطور که می خواهید بازی کنید! Perks به شما این امکان را می دهد که بازی را همانطور که دوست دارید انجام دهید. با بیش از 50 امتیاز می توانید به صورت تهاجمی، دفاعی و یا به شکارچیان خود کمک کنید. برای شخصیت زامبی خود نیز امتیازاتی را انتخاب کنید، قسمت های بیشتری از بدن را پرتاب کنید، آسیب کمتری دریافت کنید، اعضای بدن منفجر شوند و راه هایی برای کمک به هم تیمی های زامبی خود! سفارشی سازی شکارچی خود را طوری که می خواهید سفارشی کنید! از طریق بازی کردن، قفل لباس های جدیدی را باز می کنید که می توانید آنها را تجهیز کرده و به نمایش بگذارید. شخصیت زامبی شما از همان لباس های مجهز در حالت ویران استفاده می کند! قابلیت پخش مجدد هر دور از Ravenous Horde به دلیل نقشه‌های منحصربه‌فرد متفاوت است که هر کدام با دقت ساخته شده‌اند تا تجربه‌ای عالی را ارائه دهند. نقشه ها از پیش تنظیم های مختلف آب و هوا دارند، بنابراین به نظر می رسند و..."
     },
@@ -890,23 +819,29 @@
         "persian_summary": "ارسال شده توسط /u/Agile_End [لینک] [نظر]"
     },
     {
-        "title": "software figmin xr",
+        "title": "season 4 first steps pack",
         "store": "steam",
-        "url": "https://store.steampowered.com/app/1890220/Figmin_XR/",
-        "image_url": "https://external-preview.redd.it/GXQajwAYe5FAcRMuvkb8S5sgYCfGGVH1uiWR7LoTzS8.jpeg?width=320&crop=smart&auto=webp&s=39e0c795cd1d80c44e2eaa82b39b1d71f8f9a30d",
-        "description": "Scheduled to switch from F2P to paid on November 24, 2025 Announcement: https://store.steampowered.com/news/app/1890220/view/599669316683563999 submitted by /u/Responsible-River653 [link] [comments]",
-        "id_in_db": "t3_1p16ot1",
+        "url": "https://store.steampowered.com/app/4115630/DK_ONLINE__SEASON4_FIRST_STEPS_PACK/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466860/header.jpg?t=1762295217",
+        "description": "Celebrating its first year of delighting millions of global players, the award-winning and best-selling strategy franchise continues with Age of Empires IV: Anniversary Edition, putting you at the center of even more epic historical battles that shaped the world. Featuring both familiar and innovative new ways to expand your empire in vast landscapes with stunning 4K visual fidelity, Age of Empires IV: Anniversary Edition brings an evolved real-time strategy game to the next level in this celebratory new version that includes a host of free new content such as brand-new civilizations, new maps, additional in-game updates and languages, and new masteries, challenges, taunts and cheats – all at an amazing value that packs in more history than ever before! Two New Civilizations, 8 New Maps - Lead the mighty Malians of West Africa as one of the richest trading nations of all-time as you focus on strong economic prowess in mining and investing in gold. Or assemble one of the longest lasting empires in history with the Ottoman civilization and its well-trained military force, which features the largest gunpowder siege weapons available – the Great Bombards – mighty cannons that can fell any opponents who stand in your way. Customize Your Game with Mods (Beta) - Chart your own course with powerful creator tools in the latest beta release of Mod Editor. Sculpt your own skirmish and multiplayer maps, craft unique mission scenarios, forge data driven tuning packs and envision new modes of play for Age of Empires IV. Return to History – The past is prologue as you are immersed in a rich historical setting of 10 diverse civilizations across the world from the English to the Chinese to the Delhi Sultanate in your quest for victory. Build cities, manage resources, and lead your troops to battle on land and at sea in 4 distinct campaigns with 35 missions that span across 500 years of history from the Dark Ages up to the Renaissance. An Age for All Players – Age of Empires IV is an inviting experience for new players with a tutorial system that teaches the essence of real-time strategy and a Campaign Story Mode designed for first time players to help achieve easy setup and success, yet is challenging enough for veteran players with new game mechanics, evolved strategies, and combat techniques. Challenge the World – Jump online to compete, cooperate or spectate with up to 7 of your friends in PVP and PVE multiplayer modes that include ranked seasons and much more! Choose Your Path to Greatness with Historical Figures – Live the adventures of Joan of Arc in her quest to defeat the English, or command mighty Mongol troops as Genghis Khan in his conquest across Asia. The choice is yours – and every decision you make will determine the outcome of history.",
+        "id_in_db": "t3_1p6987g",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "برای تغییر از F2P به پولی در 24 نوامبر 2025 برنامه ریزی شده است."
+        "steam_app_id": "1466860",
+        "genres": [
+            "Strategy"
+        ],
+        "is_multiplayer": true,
+        "is_online": true,
+        "is_dlc_or_addon": true,
+        "persian_summary": "با جشن گرفتن اولین سال شادی میلیون‌ها بازیکن جهانی، این مجموعه استراتژی برنده جایزه و پرفروش با Age of Empires IV: Anniversary Edition ادامه می‌یابد و شما را در مرکز نبردهای تاریخی حماسی بیشتری قرار می‌دهد که جهان را شکل داده است. Age of Empires IV: Anniversary Edition با راه‌های جدید آشنا و نوآورانه برای گسترش امپراتوری شما در مناظر وسیع با وفاداری بصری خیره‌کننده 4K، یک بازی استراتژیک تکامل‌یافته را در این نسخه جدید جشن به سطح بعدی می‌آورد که شامل مجموعه‌ای از محتوای جدید رایگان مانند تمدن‌های کاملاً جدید، چالش‌های جدید، چالش‌های جدید، نقشه‌های جدید، نقشه‌های جدید، به‌روزرسانی‌های جدید، نقشه‌های جدید، نقشه‌های جدید، نقشه‌های جدید و مهارت‌های جدید است. و تقلب - همه با ارزش شگفت انگیزی که بیش از هر زمان دیگری در تاریخ بسته می شود! دو تمدن جدید، 8 نقشه جدید - با تمرکز بر قدرت اقتصادی قوی در استخراج معادن و سرمایه‌گذاری در طلا، مالیایی‌های قدرتمند غرب آفریقا را به عنوان یکی از ثروتمندترین کشورهای تجاری تمام دوران رهبری کنید. یا یکی از طولانی ترین..."
     },
     {
         "title": "songs of silenceca3499 free turn",
         "store": "epicgames",
         "url": "https://store.epicgames.com/en-US/p/songs-of-silence-778d86",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195410/1fa4441518f625c2c40fd63b7777cb4725e61884/capsule_616x353_alt_assets_5.jpg?t=1763986179",
+        "image_url": "https://cdn1.epicgames.com/spt-assets/717e784a701e49bba02e27f7774e966a/songs-of-silence-1s6so.png",
         "description": "submitted by /u/PM_ME_FREEGAMES [link] [comments]",
         "id_in_db": "t3_1ow5fpe",
         "subreddit": "AppHookup",
@@ -929,6 +864,53 @@
         "persian_summary": "ارسال شده توسط /u/Jerry2863 [پیوند] [نظر]"
     },
     {
+        "title": "super drag race 2",
+        "store": "other",
+        "url": "https://gleam.io/pV49X/free-x2500-super-drag-race-2-steam-keys",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4186730/73aa03a86a2310e42e21b49b171d6a0c94319c45/header.jpg?t=1763522745",
+        "description": "Story: Sequel to Super drag race game with different this drag race game your mission is to drive against AI opponents, by racing you earn money and with money you can tune your car like buying better transmission, tires, NOS system and Engines. drive quarter mile races (402metres) against AI opponents and earn money. Player can select car from start of game. There is 5 different sport cars an. All cars can select in start and player can make car very fast by winning and racing. There are 3 different tracks: Winter, City and Racetrack. In start player car is rated for 1 star car so very slow but earning money and upgrading car it can be even 5 star super fast car. In drag races player need manually change gears up and down and use nos nitro system. In garage player can also paint car body parts or some parts like hood etc. So make your car fastest in world in this short drag race game sequel Features: - Steam achievements by playing races and idling at garage - 3 different drag races area - Garage where can modify, tune and paint your cars - 5 different cars to select - Earn money at races and upgrade car better Paint your car Controls: Left Shift: Use NOS nitro system Space bar= Gear Up L = Lights Q = Gear Down Right mouse button = Free look",
+        "id_in_db": "t3_1p6l9jb",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "4186730",
+        "genres": [
+            "Casual",
+            "Indie",
+            "Racing"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "is_dlc_or_addon": false,
+        "persian_summary": "داستان: دنباله بازی Super Drag Race با این بازی مسابقه درگ متفاوت ماموریت شما این است که در برابر حریفان هوش مصنوعی رانندگی کنید، با مسابقه دادن درآمد کسب می کنید و با پول می توانید ماشین خود را مانند خرید گیربکس، لاستیک، سیستم NOS و موتورهای بهتر تنظیم کنید. مسابقه های یک چهارم مایل (402 متر) را در برابر حریفان هوش مصنوعی برانید و درآمد کسب کنید. بازیکن می تواند ماشین را از شروع بازی انتخاب کند. 5 ماشین اسپرت مختلف وجود دارد. همه ماشین ها می توانند در شروع انتخاب کنند و بازیکن می تواند با برنده شدن و مسابقه دادن ماشین بسیار سریع بسازد. 3 مسیر مختلف وجود دارد: زمستان، شهر و پیست مسابقه. در استارت پلیر ماشین برای ماشین 1 ستاره رتبه بندی شده است، بنابراین بسیار کند است، اما کسب درآمد و ارتقای ماشین می تواند حتی یک ماشین فوق سریع 5 ستاره باشد. در مسابقات درگ، بازیکن باید به صورت دستی دنده ها را بالا و پایین کند و از سیستم nos nitro استفاده کند. در گاراژ، پخش کننده همچنین می تواند قسمت های بدنه ماشین یا برخی از قطعات مانند کاپوت و غیره را رنگ آمیزی کند. بنابراین در این دنباله بازی کوتاه درگ مسابقه، ماشین خود را سریع ترین در جهان بسازید."
+    },
+    {
+        "title": "the gunk wavetale togges white shadows cursed to golf and swordship 810usd 94 off complete the set to save on games you dont own",
+        "store": "steam",
+        "url": "https://store.steampowered.com/bundle/64094/Thunderful_Black_Friday_Bundle/",
+        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1087760/capsule_616x353.jpg?t=1759331134",
+        "description": "submitted by /u/zombcakes [link] [comments]",
+        "id_in_db": "t3_1p6m3dk",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "94% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/zombcakes [لینک] [نظر]"
+    },
+    {
+        "title": "the riven realms 1500 50 off",
+        "store": "gog",
+        "url": "https://www.gog.com/en/game/vagrus_the_riven_realms",
+        "image_url": "https://external-preview.redd.it/RTZhY6IEhsF3LzJgPQ2ERC_EtXyuuI-SwHL5v0hhPoM.jpeg?width=640&crop=smart&auto=webp&s=98a79e58e1a83cd1905f6b99ce7a53d52569cd9e",
+        "description": "submitted by /u/Zahraya02 [link] [comments]",
+        "id_in_db": "t3_1p6dz7b",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "50% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/Zahraya02 [لینک] [نظر]"
+    },
+    {
         "title": "thiefs shelter",
         "store": "steam",
         "url": "https://store.steampowered.com/app/1430930/Thiefs_Shelter/",
@@ -945,31 +927,8 @@
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "https://video.akamai.steamstatic.com/store_trailers/257219296/movie_max.webm?t=1760720179",
         "is_dlc_or_addon": false,
         "persian_summary": "پناهگاه دزد یک ماجراجویی روانشناختی است که در آن جهان آینه ذهنی در حال فروپاشی است. هیچ چیز ثابت نمی ماند و حتی به افکار خودت هم نمی توان اعتماد کرد. پناهگاه دزد آسیب‌های مدفون، جاه‌طلبی‌های پیچیده و نیروهای غیرانسانی را از زیر خاک بیرون می‌کشد. تحقیقات شما با مبارزات شخصی کارآگاه جیمز، مانند زوال عقل مصنوعی همراه با اثرات آن، در هم تنیده است. شما با وضعیت روانی رو به وخامت جیمز مبارزه خواهید کرد، توهمات را تجربه خواهید کرد و با خاطرات سرکوب شده او روبرو خواهید شد. عمارت هایبرن را کاوش کنید که با پیشرفت شما تحریف می‌شود، سرنخ‌ها را جستجو کنید و از ابزارهای تحقیقی برای فاش کردن اسرار پنهان در دید استفاده کنید. هر چه عمیق تر حفاری کنید، کمتر می دانید چه چیزی واقعی است. آیا یک حضور فراطبیعی در داخل عمارت وجود دارد - یا همه چیز در ذهن شماست؟ بیرمنگام، انگلستان فساد در نیروی پلیس انگلیس، همراه با فعالیت گسترده باندهای خیابانی، دائماً کل ملت را مختل می کند. دستور سرخ که زمانی به عنوان یک ضد جنایت معروف بود..."
-    },
-    {
-        "title": "tom clancys ghost recon breakpoint 599",
-        "store": "steam",
-        "url": "https://store.steampowered.com/developer/ubisoft/sale/ubisoftsuperhero2025",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231380/header.jpg?t=1736258902",
-        "description": "Explore a treacherous archipelago Explore Auroa, home of the Silicon Valley giant Skell Technology, by air, land, and sea. Immerse yourself in a mysterious island where architecturally advanced buildings intermingle with wild, untamed nature. From snowy peaks to the deepest swamps, all manner of terrain awaits. Take down a deadly foe from your past The Wolves are a lethal ex–US military unit gone rogue, ready to use the most effective killing machines to take you down. What's more, they used to be you – they draw on the same training and experience. The Wolves have seized Auroa, taking control of the most important resources of the island: the drones. Their leader is your ex-brother-in-arms, Colonel Cole D. Walker, and you will have to take him down. Customize your Ghost Create your own character and choose from thousands of customization combinations to create the perfect Ghost. Loot materials from the world, craft and upgrade your weapons, and customize your gear to adapt your Ghost to fit your playstyle. Tom Clancy's Ghost Recon Breakpoint is all about choice. Team up with friends Team up with your friends and experience shared progression from the main campaign to PvP. Explore rich end-game content including four-player raids. However you decide to play, in Tom Clancy's Ghost Recon Breakpoint, you will always keep the same character: the same customizations, the same skills, and the same weapons.",
-        "id_in_db": "t3_1p417a3",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "Discount",
-        "steam_app_id": "2231380",
-        "genres": [
-            "Action",
-            "Adventure"
-        ],
-        "is_multiplayer": true,
-        "is_online": true,
-        "trailer": "https://video.akamai.steamstatic.com/store_trailers/256925162/movie_max_vp9.webm?t=1674229596",
-        "age_rating": "17",
-        "is_dlc_or_addon": false,
-        "persian_summary": "یک مجمع الجزایر خائن را کاوش کنید. Auroa، خانه فناوری Skell غول پیکر دره سیلیکون را از طریق هوا، زمین و دریا کاوش کنید. در جزیره ای اسرارآمیز غوطه ور شوید که در آن ساختمان های پیشرفته از نظر معماری با طبیعت وحشی و رام نشده در می آمیزند. از قله های برفی گرفته تا عمیق ترین باتلاق ها، همه نوع زمین در انتظار شماست. یک دشمن مرگبار از گذشته خود را از بین ببرید. گرگ ها یک واحد نظامی سابق کشنده آمریکایی هستند که از بین رفته اند و آماده اند تا از موثرترین ماشین های کشتار برای نابود کردن شما استفاده کنند. علاوه بر این، آنها قبلاً شما بودند - آنها از همان آموزش و تجربه استفاده می کنند. گرگ ها Auroa را تصرف کرده اند و کنترل مهم ترین منابع جزیره: پهپادها را به دست گرفته اند. رهبر آنها برادر سابق شما، سرهنگ کول دی. واکر است، و شما باید او را پایین بیاورید. روح خود را سفارشی کنید شخصیت خود را بسازید و از بین هزاران ترکیب سفارشی سازی برای ایجاد شبح عالی انتخاب کنید. مواد را از جهان غارت کنید، سلاح های خود را بسازید و ارتقا دهید، و وسایل خود را برای تطبیق با روح خود سفارشی کنید..."
     },
     {
         "title": "torn fantasy world of warhammer featuring intense battles teamwork and thrilling adventures",
@@ -989,7 +948,6 @@
         ],
         "is_multiplayer": true,
         "is_online": true,
-        "trailer": "https://video.akamai.steamstatic.com/store_trailers/256910929/movie_max_vp9.webm?t=1665749737",
         "is_dlc_or_addon": false,
         "persian_summary": "با The Last Oricru - Final Cut وارد دنیایی فراتر از تصورات خود شوید. The Last Oricru - Final Cut یک نقش‌پی‌جی مبتنی بر اکشن که داستان‌سرایی تعاملی را به سطحی بالاتر می‌برد، یک دنیای فانتزی دارد که عناصر علمی تخیلی و قرون وسطایی را در هم می‌آمیزد تا تجربه‌ای هیجان‌انگیز را ارائه دهد که شبیه هیچ‌کس دیگری نیست. در این ماجراجویی حماسی برای بازی تک یا کوآپ، سرنوشت خود را به چنگ آورید و در این دنیای جدید در آستانه جنگ فاجعه بار قرار بگیرید. با بیدار شدن در Warenia، سیاره ای بیگانه در آستانه جنگ، گیمرها نقش قهرمان ما، نقره ای را بر عهده می گیرند و سرنوشت چندین نژاد متضاد را در دستان شما می گذارند، زیرا انتخاب هایی که انجام می دهید، روایت و نتیجه این داستان حماسی فتنه و ماجراجویی را شکل می دهد. تا حدی از اعماق سرد کیهان جدا شده و از طریق یک سد محافظ مرموز، اسرار این محیط عجیب را کشف کنید، وارد نبردهای شدید شوید و برای کشف حقیقت این سیاره بیگانه با رئیس‌های تشنه به خون مبارزه کنید. غوطه ور کردن گیمرها در یک \"ملاقات علمی تخیلی\" منحصر به فرد..."
     },
@@ -1037,7 +995,6 @@
         ],
         "is_multiplayer": true,
         "is_online": true,
-        "trailer": "https://video.akamai.steamstatic.com/store_trailers/257077527/movie_max_vp9.webm?t=1732834199",
         "is_dlc_or_addon": false,
         "persian_summary": "Warhammer: Vermintide 2 یک بازی اکشن 4 نفره است که در دنیای Warhammer Fantasy Battles جریان دارد. دنباله‌ای بر Vermintide که مورد تحسین منتقدان قرار گرفت، Vermintide 2 جدیدترین قسمت از یک فرنچایز است که بیشتر به خاطر مبارزات تنومند و خونین اول شخص شناخته شده است. پنج قهرمان ما بازگشته‌اند تا تهدیدی بزرگ‌تر از قبل را تهدید کنند - نیروهای ترکیبی یک ارتش ویرانگر آشوب و گروه ترکان و گروه اسکاون. تنها چیزی که بین شکست کامل و پیروزی قرار دارد، شما و متحدانتان هستید. اگر سقوط کنید - امپراتوری نیز همینطور خواهد بود. با انبوهی از دشمنان بی‌پایان همراه با حداکثر ۳ دوست در این تجربه اکشن کو-آپ احشایی بجنگید، از بین ۵ شخصیت مختلف، هر کدام با ۳ شغل منشعب، برای تسلط بر مهارت‌های خود و بالا رفتن از نردبان‌های دشواری، از استخدام، کهنه سرباز، قهرمان تا افسانه، سبک منحصر به فرد بازی خود را با 150 استعداد مختلف سفارشی کنید. سرزمین های ویران شده از جنگ جهانی در حال مرگ با طیف گسترده ای از سطوح خیره کننده..."
     },
@@ -1057,9 +1014,8 @@
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "https://video.akamai.steamstatic.com/store_trailers/257118719/movie_max_vp9.webm?t=1742988417",
         "is_dlc_or_addon": false,
-        "persian_summary": "تیم مانند بسیاری از کودکان قربانی آزار جنسی بود. بیست سال بعد، در حین بازی Orco Park، یک بازی ویدیویی مربوط به دوران کودکی‌اش، خاطرات او همراه با سیل سوال‌ها دوباره زنده می‌شوند: چگونه ممکن است این اتفاق بیفتد؟ چه کسی می دانست؟ چگونه او را شکل داده است؟ اصلاً «عادی» به چه معناست؟ نوشته پیر کوربینه (Haven, Road 96: Prologue, Bury Me, My Love)، چهارشنبه ها به دنبال افزایش آگاهی در مورد سوء استفاده جنسی از کودکان از طریق داستانی شگفت انگیز است. موزاییکی از داستان‌ها و شخصیت‌ها چهارشنبه‌ها داستانی تکه‌تکه‌شده را از دیدگاه‌های چندگانه روایت می‌کند. در Orco Park وسایل سواری و تزیینات بسازید تا خاطرات تیم را به ترتیبی که می‌خواهید باز کنید. به جای بستگان تیم قدم بگذارید و سعی کنید خاطرات درهم تنیده گذشته او را جمع آوری کنید. رونمایی از داستانی تکان دهنده و صمیمانه که به آزار جنسی درون خانواده ای بدون هیچ تابویی اما با دلی بسیار می پردازد. دو سبک هنری رنگارنگ به قیمت یک چهارشنبه، دو سبک هنری متمایز و در عین حال مکمل را با هم ترکیب می کند. تیم..."
+        "persian_summary": "تیم مانند بسیاری از کودکان قربانی آزار جنسی بود. بیست سال بعد، در حین بازی Orco Park، یک بازی ویدیویی مربوط به دوران کودکی‌اش، خاطرات او همراه با سیل سوال‌ها دوباره زنده می‌شوند: چگونه ممکن است این اتفاق بیفتد؟ چه کسی می دانست؟ چگونه او را شکل داده است؟ اصلاً «عادی» به چه معناست؟ نوشته پیر کوربینه (Haven, Road 96: Prologue, Bury Me, My Love)، چهارشنبه ها به دنبال افزایش آگاهی در مورد سوء استفاده جنسی از کودکان از طریق داستانی شگفت انگیز است. موزاییکی از داستان‌ها و شخصیت‌ها چهارشنبه‌ها داستانی تکه‌تکه‌شده را از دیدگاه‌های چندگانه روایت می‌کند. در Orco Park وسایل سواری و تزیینات بسازید تا خاطرات تیم را به ترتیبی که می‌خواهید باز کنید. به جای بستگان تیم قدم بگذارید و سعی کنید خاطرات درهم تنیده گذشته او را جمع آوری کنید. رونمایی از داستانی تکان دهنده و صمیمانه که با آزار جنسی درونخانوادگی بدون هیچ تابویی اما با دلی فراوان سروکار دارد. دو سبک هنری رنگارنگ به قیمت یک چهارشنبه، دو سبک هنری متمایز و در عین حال مکمل را با هم ترکیب می کند. تیم..."
     },
     {
         "title": "windows macos godzilla voxel warsca1699 free godzilla turn",
@@ -1103,7 +1059,6 @@
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "https://video.akamai.steamstatic.com/store_trailers/257101702/movie_max_vp9.webm?t=1744366639",
         "is_dlc_or_addon": false,
         "persian_summary": "بدون طلوع یک رمان ترسناک بصری تاریک، روان‌شناختی و فلسفی است که هنر شبه اسکی بسیار زیبایی را به نمایش می‌گذارد. او از افکار مداوم و بی قرار خود در یک کابین دورافتاده پناه می برد. در سکوت و انزوای عمیق هیچ حواس پرتی وجود ندارد، اما صدای وهم انگیز باد سردی که در میان درختان می پیچد او را بیدار نگه می دارد. در سکوت تاریک شب، سکوت شروع به شکل فیزیکی کرده است. بدون طلوع، بازیکن را به طرز ماهرانه ای در درون نگری غوطه ور می کند و عناصر روانشناختی و فلسفی را در هم می آمیزد تا روایتی خلق کند که مرز بین واقعیت و تخیل را محو کند. ویژگی ها سبک هنری و صدا با دقت و عشق بسیار دست ساز و طراحی شده اند. پالت رنگ، بافت و فریم قابل تغییر است. در یک روایت جذاب که مرز بین واقعیت و تخیل را محو می‌کند، غوطه‌ور شوید. برای یک درون نگری ظریف فلسفی و روانی آماده شوید. دست ساز فنلاند. ویژگی‌های انجمن بدون طلوع می‌تواند فن را بارگیری و خواندن..."
     },
@@ -1124,7 +1079,6 @@
         ],
         "is_multiplayer": false,
         "is_online": false,
-        "trailer": "https://video.akamai.steamstatic.com/store_trailers/256929968/movie_max_vp9.webm?t=1676060000",
         "is_dlc_or_addon": false,
         "subreddit": "FreeGameFindings",
         "persian_summary": "Zoeti یک روگلیت نوبتی است که دارای دسته ای از کارت های بازی است که برای ایجاد ترکیبات کارت و فعال کردن مهارت ها در گرمای نبرد استفاده می شود. زرادخانه مهارت های خود را از طریق نبردها، ارتقاهای قابل کشف یا کمک مردم محلی تقویت کنید که بازی های شما را برای غلبه بر شری که سرزمین شما را آزار می دهد تقویت می کند. سرزمینی زمانی صلح آمیز، که اکنون توسط هیولاها تسخیر شده است. شما، یک قهرمان Star-Soul، جزو معدود افراد برگزیده ای هستید که می توانید سرزمین شرارت را با خاک یکسان کنید. در Zoeti، شما به دسته ای از کارت های بازی مجهز شده اید که با آن ترکیب های کارتی (جفت، فول هاوس، رویال فلاش و غیره) را بازی می کنید تا مهارت هایی را فعال کنید که در برابر دشمنان حمله یا دفاع می کنند. زرادخانه مهارت ها و ارتقاء خود را از طریق نبردها و کشف بیشتر تقویت کنید. خون یک خدای مرده به هیولاهایی تبدیل می‌شود که در حومه شهر پرسه می‌زنند و مردم مومن شهر و زندگی ساده‌ای که دارند را تهدید می‌کنند. آیا شما، یک قهرمان Star-Soul، از آنها در برابر ویرانی شیطان محافظت خواهید کرد؟ شما باید دفاع دشمن را بشکنید، قدرت و اراده خود را تقویت کنید، در تمام این مدت..."
