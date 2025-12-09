@@ -59,7 +59,7 @@
         "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": "100% Off",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bb/e4/a0/bbe4a05e-309c-4933-1f9a-22f2514d20aa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/72/3a/6f723a5b-b336-71d2-998c-77dbe55187c7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
         "is_dlc_or_addon": false,
         "persian_summary": "",
         "description": ""
@@ -76,6 +76,19 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/pudah_et [پیوند] [نظر]"
+    },
+    {
+        "title": "apps dark screen filter 099",
+        "store": "googleplay",
+        "url": "https://play.google.com/store/apps/details?id=com.bhanu.darkscreenfilterpro",
+        "image_url": "https://external-preview.redd.it/AVqj12i-AcBa2JDr7jLQftRWVwugWaF3X7uq-t-Zoy8.png?width=320&crop=smart&auto=webp&s=a3584247467c4d70a6829278370d9c3d8fa4d2d5",
+        "description": "submitted by /u/Lohigno [link] [comments]",
+        "id_in_db": "t3_1phcw1w",
+        "subreddit": "googleplaydeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/Lohigno [پیوند] [نظر]"
     },
     {
         "title": "apps nt calculator",
@@ -117,26 +130,47 @@
         "description": ""
     },
     {
-        "title": "children of morta",
+        "title": "beat cop",
         "store": "other",
-        "url": "https://gaming.lenovo.com/children-of-morta-key-drops",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/330020/header.jpg?t=1733749085",
-        "description": "IT RUNS IN THE FAMILY Children of Morta is an action RPG with a rogue-lite approach to character development, where you don’t play a single character - but a whole, extraordinary family of heroes. Hack’n’slash through hordes of enemies in procedurally generated dungeons, caves and lands and lead the family of Bergsons, with all their flaws and virtues, against the forthcoming Corruption. FEATURES: ONLINE CO-OP is live now in the game giving you the possibility to play with a long-distanced friend! Available both in Story and Family Trials modes, the Online Co-op gives you a chance to team up and battle Corruption side by side. Local Co-op is also available! GAMEPLAY Gameplay-wise it's a unique mix of action-adventure RPG, rogue-lite and hack and slash game. By leveling up, you develop not only individual characters but also the entire family. There is no permadeath and you can change family members between the dungeon runs. STORY The story takes place in a distant land but copes with themes and emotions common to all of us: love and hope, longing and uncertainty, ultimately loss... and sacrifice we are willing to make to save the ones we care the most for. Ultimately, it's about a family of heroes standing against the encroaching darkness. DUNGEON CRAWLING All the dungeons in the game are procedurally generated, which means their layout is different with each adventure. There can be from two to four levels of each dungeon, with a unique boss fight at the end. You can always get back to the previous dungeons to get extra XP or finish all the side quests. CHARACTERS & SKILLS Ranged attacks, magic spells, blocks, stuns, healing, evasions and passive skills - it's all there for you to discover, unlock and upgrade. You can choose from seven different family members, each one having unique skill sets. The father, John - a protective warrior with a sword and shield. The elder daughter Linda - a precise archer. Kevin, a quiet fighter equipped with deadly daggers. Lucy - a lively and bold fire mage. Mark - a mindful martial arts fighter. Joey - who smashes his enemies with a sledgehammer. And the latest addition to the family - Apan, a mighty healer and a firm defender in one. ART STYLE A combination of hand-painted pixel art and frame-by-frame animations partnered with modern lighting techniques come to life to create the beautifully dangerous world of Children of Morta! DEVELOPMENT ROADMAP COMPLETED The ancient Development Roadmap has come to an end. As a result the game has gained additional content including new characters, new items, new mechanics and more! The final point - Fellowship Sanctuary - has been reached, giving you a free update with Online Co-op for two players. The Online Co-op is available in all game modes (Story and Family Trials) and like the local co-op, it offers numerous playstyles, since every Children of Morta warrior has a unique fight style.",
-        "id_in_db": "t3_1p7dd4f",
+        "url": "https://www.amdgaming.com/promotions/beat-cop-game-key-giveaway",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/461950/header.jpg?t=1701878616",
+        "description": "New York, more like a beast than a city. Explore it’s darkest corners and uncover its secrets as Jack Kelly, a former detective who has been framed for a murder. Degraded and forgotten by old pals, it’s your last chance to find the truth behind this whole terrible mess. The thing is, your new boss treats you like shit, your wife is a money sucking spawn from hell and the local mafia wants your head on a plate. I guess you could say that things are complicated down here, in the middle of Brooklyn. Oh, and don't forget about writing tickets, reprimanding pedestrians & such. You're a beat cop after all. NONLINEAR STORY WITH MULTIPLE ENDINGS Someone framed you and no one gives a rat’s ass about this but you. Turn every stone in this city and find out who did that. The further you investigate the more missing puzzles you’ll find, but be careful. Some things should never be brought to daylight. THE ESSENCE OF '80 COP SHOWS Have you ever dreamed of being one of the heroes of cop movies? Of course you did, like we all. Now you have a chance! Be sexier than Sonny Crocket and tougher than Dirty Harry. And if witty comebacks won’t work, you can always do some old school ass kicking. It’s ’80s after all! THE HUMOR THAT YOUR MOM WOULDN'T APPROVE Be sarcastic. Be gloomy. Be whatever you want. There are thousands of things in this world you can laugh at, and even more you shouldn’t, but who cares. It’s a jungle out there baby, and sometimes you just need something to release the stress.",
+        "id_in_db": "t3_1phgqe6",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "330020",
+        "steam_app_id": "461950",
+        "genres": [
+            "Adventure",
+            "Indie",
+            "Simulation"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "is_dlc_or_addon": false,
+        "persian_summary": "نیویورک، بیشتر شبیه یک جانور است تا یک شهر. تاریک ترین گوشه های آن را کاوش کنید و رازهای آن را در نقش جک کلی، یک کارآگاه سابق که برای قتلی متهم شده است، کشف کنید. تحقیر شده و فراموش شده توسط دوستان قدیمی، این آخرین فرصت شما برای یافتن حقیقت در پشت کل این آشفتگی وحشتناک است. مسئله این است که رئیس جدید شما با شما مثل گند رفتار می کند، همسر شما یک تخم جهنم است که پول می مکد و مافیای محلی می خواهند که سر شما در ظرف باشد. حدس می زنم می توانید بگویید که اینجا، وسط بروکلین، همه چیز پیچیده است. اوه، و نوشتن بلیط، توبیخ عابران پیاده و مواردی از این دست را فراموش نکنید. بالاخره تو یک پلیس ضربتی هستی داستان غیرخطی با پایان های چندگانه شخصی شما را قاب کرده است و هیچ کس به جز شما در این مورد حرفی به خرج نمی دهد. تمام سنگ های این شهر را بچرخانید و ببینید چه کسی این کار را کرده است. هرچه بیشتر تحقیق کنید، معماهای گمشده بیشتری پیدا خواهید کرد، اما مراقب باشید. بعضی چیزها را هرگز نباید به روز کرد. ماهیت نمایش های پلیسی سال 80 آیا تا به حال آرزو کرده اید که یکی از قهرمانان فیلم های پلیسی باشید؟ از..."
+    },
+    {
+        "title": "big drunk satanic massacre",
+        "store": "other",
+        "url": "https://givee.club/en/event/1179",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/669950/header.jpg?t=1744107061",
+        "description": "Big Drunk Satanic Massacre is basically a shooter with strong RPG elements - not that rocket propelled gun, though. The game itself takes place in Hell where the main hero, Lou, is to find booze and rescue the hottest Mistress from the clutches of a fat clown. The game consists of four levels / chapters representing different areas of Hell, such as the hellish Big Wack fast food café, Skeleton Slums and the Red Light District. The idea behind those levels is to kill specific bosses. Each boss represents a unique multistage fight and it is pretty challenging. The player has to choose between six weapons and one magical ability. The main feature of the game is that Lou is healed by booze. The more he drinks, the more his blood alcohol level increases, which is sort of good for him. As a result there may be either negative or positive effects. Ever wondered what it's like to be Satan's son? Nothing special... Unleashed lust, chronic alcoholism and reckless shooting - the usual routine Save Hell! Wait... What? Yup, that's right - Hell! It's not the place it used to be - Hell's been possessed. Possessed by the most vile dark hideous evil the world has known - people. They've turned your precious homeland into a madhouse, and only you can stop them! What's in it for you? Spectacular locations, battles with epic bosses and a nice mixture of pain and nonsense. Choose the right side of evil and rescue your \"princess\" - the most badass dare-deviless Hell has ever seen.",
+        "id_in_db": "t3_1phjvz6",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "669950",
         "genres": [
             "Action",
             "Adventure",
             "Indie",
             "RPG"
         ],
-        "is_multiplayer": true,
-        "is_online": true,
+        "is_multiplayer": false,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "IT RUNS IN THE FAMILY Children of Morta یک بازی RPG اکشن با رویکردی سرکش برای توسعه شخصیت است، که در آن شما یک شخصیت واحد را بازی نمی کنید - بلکه یک خانواده کامل و فوق العاده از قهرمانان را بازی می کنید. Hack’n’n’s در میان انبوهی از دشمنان در سیاه چال ها، غارها و زمین هایی که به طور رویه ای ایجاد شده اند، می زند و خانواده برگسون ها را با تمام معایب و خوبی هایشان در برابر فساد پیش رو رهبری می کند. ویژگی ها: ONLINE CO-OP اکنون در بازی به صورت زنده است و به شما امکان بازی با یک دوست از راه دور را می دهد! Co-op آنلاین که در هر دو حالت Story و Family Trials موجود است، این فرصت را به شما می دهد که در کنار هم با فساد مبارزه کنید. Co-op محلی نیز در دسترس است! GAMEPLAY از نظر گیم پلی، ترکیبی منحصر به فرد از RPG اکشن ماجراجویی، بازی Rogue-lite و هک اند اسلش است. با ارتقاء سطح، نه تنها شخصیت های فردی بلکه کل خانواده را نیز توسعه می دهید. هیچ permadeath وجود ندارد و می توانید اعضای خانواده را در بین دوهای سیاه چال تغییر دهید. داستان داستان در سرزمینی دور اتفاق می افتد اما با..."
+        "persian_summary": "Big Drunk Satanic Massacre اساسا یک تیرانداز با عناصر RPG قوی است - البته نه آن تفنگ راکتی. خود بازی در جهنم اتفاق می افتد، جایی که قهرمان اصلی، لو، می خواهد مشروب الکلی پیدا کند و داغ ترین معشوقه را از چنگ یک دلقک چاق نجات دهد. این بازی از چهار سطح / فصل تشکیل شده است که مناطق مختلف جهنم را نشان می دهد، مانند کافه فست فود جهنمی Big Wack، Skeleton Slums و Red Light District. ایده پشت این سطوح، کشتن رئیس‌های خاص است. هر رئیس نشان دهنده یک مبارزه چند مرحله ای منحصر به فرد است و بسیار چالش برانگیز است. بازیکن باید بین شش سلاح و یک توانایی جادویی یکی را انتخاب کند. ویژگی اصلی بازی این است که لو با مشروب الکلی شفا می یابد. هر چه بیشتر مشروب بنوشد، سطح الکل خونش بیشتر می شود که برایش خوب است. در نتیجه ممکن است اثرات منفی یا مثبت داشته باشد. آیا تا به حال فکر کرده اید که پسر شیطان بودن چگونه است؟ هیچ چیز خاصی ... شهوت آزاد شده، الکلیسم مزمن و تیراندازی بی پروا - روال معمول ..."
     },
     {
         "title": "clair obscur",
@@ -167,7 +201,7 @@
         "subreddit": "AppHookup",
         "is_free": false,
         "discount_text": "Discount",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2a/10/0c/2a100c53-5853-11ee-3973-66207aec9976/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/af/32/e3af323d-dd47-9709-6df1-5bd248422ee7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
         "is_dlc_or_addon": false,
         "persian_summary": "",
         "description": ""
@@ -208,7 +242,7 @@
         "title": "deluxe 123 108 086 c135 a157 r263 with code cheers",
         "store": "other",
         "url": "https://store.playsum.live/product/61a54d7d-4d07-4c99-b3ec-6083cd310cb0/roller-coaster-tycoon-deluxe",
-        "image_url": "https://external-preview.redd.it/bEUcqEtJ04t-Y_ZN1OMIZ9MHIr8j3nHzn_QLqNUox4A.jpeg?width=216&crop=smart&auto=webp&s=5d89b201242f42602db888b8922f0dacff6410cc",
+        "image_url": null,
         "description": "submitted by /u/Lets_Playsum [link] [comments]",
         "id_in_db": "t3_1pfyyip",
         "subreddit": "GameDeals",
@@ -290,26 +324,6 @@
         "persian_summary": "ارسال شده توسط /u/MeguminShiro [لینک] [نظر]"
     },
     {
-        "title": "drawn down",
-        "store": "itch.io",
-        "url": "https://studiohazy.itch.io/drawn-down",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067400/header.jpg?t=1738569998",
-        "description": "It's 2036 and technology continues to spiral out of control. London's criminals find new ways to stay ahead of the police, but with the imminent introduction of the Damocles Armoured Fighting Robot to the police, what new scheme will they come up with next? Nathan Jordan is a composite artist who works as a consultant for the police, his quiet life is about to be shattered when his missing brother suddenly reappears in his life. Unfortunately his brother is being held hostage. Compelled by guilt from his past, Nathan will stop at nothing to get his brother back. With the police, a global crime organisation called The Syndicate, and the mysterious art thief known as The Wolf all in Nathan's path, the situation is looking grim. Features Classic 2D point and click adventure with logical puzzles Engaging story and rich sci-fi world Memorable characters fully voiced Original soundtrack by Jonathan Rock Glorious pixel art, but a modern adventure Composite art mini-game Developer commentary",
-        "id_in_db": "t3_1p8spm8",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "1067400",
-        "genres": [
-            "Adventure",
-            "Indie"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "سال 2036 است و فناوری همچنان از کنترل خارج می شود. جنایتکاران لندن راه‌های جدیدی برای جلوتر از پلیس پیدا می‌کنند، اما با معرفی قریب‌الوقوع ربات جنگی زرهی داموکلس به پلیس، چه طرح جدیدی در آینده خواهند داشت؟ ناتان جردن یک هنرمند کامپوزیت است که به عنوان مشاور برای پلیس کار می کند، زندگی آرام او در حال از هم پاشیدن است که برادر گمشده اش ناگهان دوباره در زندگی اش ظاهر می شود. متاسفانه برادرش گروگان است. ناتان که به خاطر احساس گناه از گذشته خود مجبور شده است، برای بازگرداندن برادرش دست از سر هیچ کاری بر نمی دارد. با وجود پلیس، یک سازمان جنایی جهانی به نام سندیکا، و دزد مرموز آثار هنری معروف به گرگ همه در مسیر ناتان، وضعیت بد به نظر می رسد. دارای ماجراجویی کلاسیک 2 بعدی و کلیک با پازل های منطقی داستان جذاب و دنیای علمی تخیلی غنی شخصیت های به یاد ماندنی با صداگذاری کامل موسیقی متن اصلی توسط Jonathan Rock Glorious pixel art، اما یک ماجراجویی مدرن مینی بازی هنر ترکیبی تفسیر توسعه دهنده"
-    },
-    {
         "title": "dungeon defense",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/dungeon-defense-the-gate/id1195035357",
@@ -339,7 +353,7 @@
         "title": "effulgence rpg soundtrack",
         "store": "steam",
         "url": "https://store.steampowered.com/app/4208800/Effulgence_RPG_Soundtrack/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3302080/5e290c5775e648356c080555c504e05734853a5d/header.jpg?t=1764737630",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3302080/5e290c5775e648356c080555c504e05734853a5d/header.jpg?t=1765230503",
         "description": "Early Access Note: Effulgence RPG is a sci-fi party RPG in a unique ASCII 3D style. This first Early Access build is a short, polished slice of the full game – roughly 1–1.5 hours for a first run, depending on how much you explore. You'll see the full visual identity, the ASCII globe, party combat and the core \"break enemies into particles and print gear\" loop in action, but with a limited set of locations and enemy types . Over Early Access I'll expand it toward a 3–5 hour campaign with more locations, encounters and tactical options. If you prefer a fully finished 1.0 experience, please add the game to your wishlist and check back at full release. If you'd like to play a compact, weird ASCII RPG already and help shape it, jump in now – your feedback will directly help shape the game. 🎧 Early Access bonus: everyone who picks up Effulgence RPG during Early Access gets the original soundtrack by Sergey Eybog as a free DLC. If the OST becomes paid later, early owners keep it forever. ░▒▓▒░ What the gaming press says about Effulgence RPG ░▒▓▒░ PC Gamer : \"Sure, the ASCII art is cool, but I'm pretty into what the game seems to be doing with its RPG mechanics, too.\" The Escapist : \"Effulgence RPG is an ASCII-based party RPG that has visuals that remind me of both Dwarf Fortress and Geometry Wars at the same time, except it's an RPG.\" Alpha Beta Gamer : \"Effulgence is an incredibly cool looking ASCII-styled 2D RPG adventure where players explore a mysterious alien world rendered entirely through text symbols.\" GamingOnLinux : \"It looks like nothing else I've seen before, it really is quite impressively made.\" ░▒▓▒░ Game overview ░▒▓▒░ Effulgence RPG is a party-based, turn-based RPG where enemies are more than obstacles - they're raw material . Defeat creatures to break them into particles, then feed those particles into a matter printer to create weapons, gadgets and mechanisms. All of this plays out in a world built from shimmering text symbols arranged in 3D space. ★ Explore a stylized ASCII 3D globe of locations. ★ Fight as a small squad in turn-based, party-focused combat . ★ Break enemies into particles and print gear mid-run . ★ Watch the world shift as text symbols reconfigure into new shapes and animations. ░▒▓▒░ Content scope ░▒▓▒░ At Early Access launch: ★ A compact, replayable slice showing the full gameplay loop. ★ Roughly 1–1.5 hours for a first complete run. ★ A focused set of combat locations and exploration spots. ★ Core systems implemented: party combat, particle crafting, matter printer, saves, basic settings and controller support. Toward 1.0: ★ More locations and mini-quests on the ASCII globe. ★ Additional enemy types and \"mechanisms\" (special encounters and bosses). ★ New tactical cartridges and more ways to build your party. ★ Expanded narrative interludes and quality-of-life improvements. ★ Overall target: a 3–5 hour campaign with room for experimentation and replay. ░▒▓▒░ What Effulgence RPG is (and isn't) ░▒▓▒░ Effulgence RPG is: ★ A short, visually intense party RPG built entirely from text symbols. ★ Focused on ASCII 3D visuals, atmosphere, and darkly comic dialogues . ★ Turn-based combat that is readable and punchy , not a hardcore 100-hour min-max grinder. ★ An art project about light and symbols as much as a game. Effulgence RPG isn't: ★ A huge open world or endless roguelite with hundreds of hours of content. ★ A hyper-complex tactical simulator with dozens of overlapping systems. ★ Completely content-complete at launch - this Early Access build is a vertical slice that will grow over time. ░▒▓▒░ Game features: ░▒▓▒░ ★ The only way to gather crafting resources is by defeating creatures and breaking them down into individual particles. ★ Using these particles, you can print weapons, gear, and mechanisms on a special matter printer – even in the middle of combat. ★ A stylized ASCII 3D globe of locations to travel between: combat zones, events, upgrade spots and shops. ★ \"Tactical cartridges\" that twist fights in your favor: area bursts, shields, special effects and more. ★ Designed to be short, focused and replayable - experiment with different party builds and printed gear. ★ Runs great with a controller and has been tested on Steam Deck via Proton, with ASCII readability tuned for a handheld screen. ░▒▓▒░ Plot ░▒▓▒░ It's easy to transmit a video signal when you're just the distance of a satellite away. Go beyond the solar system and it may take hours to send a regular image to Earth. But when the signal comes from a galaxy a million light-years away, only fragmented symbols make it to us. Sometimes, they can be decoded and assembled into an animation made from text characters. Effulgence RPG imagines what happens when that signal is interactive - when you can walk inside the shimmering sea of symbols, and the creatures made of text don't intend to stay static. ░▒▓▒░ Inspiration ░▒▓▒░ Characters that can be typed on a keyboard are a powerful means of expression. ASCII art uses characters as strokes, crafted like those of an artist's pen. Each stroke carries both form and meaning: a letter, a number, a symbol. The quality of modern printing, monitors, and phone screens is astonishing. Does ASCII art have a place in the era of True Color and ultra-high pixel densities? Absolutely. Charcoal has been used since cave paintings, yet charcoal drawing remains relevant to this day. Paintings with rich palettes haven't replaced black-and-white graphics. When an artist picks up a pencil, it becomes a tool for creation. When an ASCII artist pulls a keyboard closer, ASCII art is born. But what if we add a third dimension to these characters? And do so without breaking the feel of the text mode. Effulgence RPG is more than just a game - it's an artistic exploration of light and symbols in motion.",
         "id_in_db": "t3_1pe1512",
         "subreddit": "FreeGameFindings",
@@ -358,39 +372,24 @@
         "persian_summary": "نکته دسترسی اولیه: Effulgence RPG یک بازی RPG علمی تخیلی در سبک سه بعدی ASCII است. این اولین ساخت دسترسی زودهنگام، یک برش کوتاه و صیقلی از بازی کامل است – تقریباً 1 تا 1.5 ساعت برای اولین اجرا، بسته به میزان کاوش شما. شما هویت بصری کامل، کره ASCII، مبارزات مهمانی و حلقه اصلی \"شکستن دشمنان به ذرات و ابزار چاپ\" را در عمل خواهید دید، اما با مجموعه ای محدود از مکان ها و انواع دشمن. با دسترسی زودهنگام، آن را به سمت یک کمپین 3 تا 5 ساعته با مکان‌ها، برخوردها و گزینه‌های تاکتیکی بیشتر گسترش خواهم داد. اگر یک تجربه کامل 1.0 را ترجیح می دهید، لطفاً بازی را به لیست علاقه مندی های خود اضافه کنید و در نسخه کامل دوباره بررسی کنید. اگر می‌خواهید از قبل یک ASCII RPG فشرده و عجیب بازی کنید و به شکل‌دهی آن کمک کنید، همین حالا وارد شوید – بازخورد شما مستقیماً به شکل‌دهی بازی کمک می‌کند. 🎧 جایزه دسترسی زودهنگام: هرکسی که در حین دسترسی زودهنگام Effulgence RPG را انتخاب کند، موسیقی متن اصلی توسط Sergey Eybog را به عنوان یک DLC رایگان دریافت می کند. اگر OST دیرتر پرداخت شود، صاحبان اولیه آن را برای همیشه نگه می دارند..."
     },
     {
-        "title": "elijah and the out of this world adventure",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/1583690/Elijah_and_the_Out_of_this_World_Adventure/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583690/2248cbba7f53d696b419e3669ecf52824e633592/header.jpg?t=1762992176",
-        "description": "Night falls in Cleveland, Ohio as Elijah finishes his shift stocking produce and gets ready to go practice for his next gig with his band. On his way home, he gets attacked by some type of alien creature and blacks out. When he wakes up, the city has changed. The military has come in and blocked off the roads, and the official statement is that there has been some sort of chemical spill. Anyone who tries to leave the city is summarily executed. The people then begin to change… mutating into all sorts of hideous, flesh-eating creatures that attack anyone nearby. As Elijah tries to meet up with his brother, he finds out that he's already been killed by the mutants. With the monsters closing in and an alien conspiracy unfolding, Elijah decides to head out on the streets of Cleveland to uncover the mysteries that lie ahead and take back the city from the infected hordes. Fully playable on Steam Deck An assortment of guns, knives and other weapons to dispatch hordes of mutant baddies Open-world gameplay and cities filled with interactive Clevelanders Real-time, action-RPG combat Explore all the great sites of northeast Ohio",
-        "id_in_db": "t3_1pfbjf3",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "50% off",
-        "steam_app_id": "1583690",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Indie",
-            "RPG"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "شب در کلیولند، اوهایو فرا می‌رسد، در حالی که الیجا محصولات شیفت خود را به پایان می‌رساند و آماده می‌شود تا برای کنسرت بعدی خود با گروهش تمرین کند. در راه خانه، او مورد حمله برخی از موجودات بیگانه قرار می گیرد و سیاهی می شود. وقتی از خواب بیدار می شود، شهر تغییر کرده است. ارتش وارد شده و جاده ها را مسدود کرده است و بیانیه رسمی این است که نوعی نشت مواد شیمیایی وجود داشته است. هر کسی که بخواهد شهر را ترک کند به طور خلاصه اعدام می شود. سپس مردم شروع به تغییر می‌کنند... تبدیل شدن به انواع موجودات زشت و گوشت‌خواری که به هر کسی در نزدیکی حمله می‌کنند. در حالی که الیجا سعی می کند با برادرش ملاقات کند، متوجه می شود که قبلاً توسط جهش یافته ها کشته شده است. با نزدیک شدن هیولاها و آشکار شدن یک توطئه بیگانه، الیجا تصمیم می گیرد به خیابان های کلیولند برود تا اسرار پیش رو را کشف کند و شهر را از انبوهی آلوده پس بگیرد. کاملا قابل پخش در Steam Deck مجموعه ای از اسلحه ها، چاقوها و سایر سلاح ها برای اعزام انبوهی از بدهای جهش یافته..."
-    },
-    {
         "title": "epic games store universe for sale is currently available to claim for free on the epic game store for pc mobile",
         "store": "epicgames",
         "url": "https://www.reddit.com/r/AppHookup/comments/1p87f8a/windowsiosandroid_epic_games_store_universe_for/",
-        "image_url": null,
-        "description": "Link for Windows users: https://store.epicgames.com/en-US/p/universe-for-sale-05c53e Link for iOS users: https://store.epicgames.com/p/universe-for-sale-ios-475e80 Link for Android users: https://store.epicgames.com/p/universe-for-sale-android-43d88e Universe for Sale is a sci-fi point and click adventure. Follow the adventures of a cultist, whose past is written on his face and bones, visiting a space colony nestled in the clouds on Jupiter. The game involves exploring this otherworldly colony, from its oddity shops to its teahouses to the less glamorous parts of town. Everywhere you go, you’ll meet odd inhabitants and gradually uncover the mystery at the heart of this cozy game. Within this mysterious community, a young woman crafts universes in the same way you or I might brew a cup of tea. She has a little shop tucked away in the ramshackle bazaar. What universe will you buy there? Universe for Sale is available to claim (and yours to keep) till 4th December. Download instructions for mobile users and more info: https://store.epicgames.com/en-US/mobile (this store is separate from the Apple AppStore or Google Playstore and will have to be downloaded first). Mobile store is available for Android users worldwide and iOS users in the European Union only . iOS users outside the European Union can’t download these games but may claim these games in their Epic account (for future use) if they wish to do so from the same links as above. submitted by /u/Singhvistaar [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3540720/3610049a8fefc518345c318e5e2040c3625ce69f/header.jpg?t=1762870366",
+        "description": "A free-to-play collectible card game set in a sprawling cosmic universe. Inspired by a popular comedic sci-fi setting, it delivers fast-paced, dynamic battles—with absolutely no pay-to-win mechanics! Key Features Four Core Heroes Each hero is tied to a specific race and boasts a unique glowing core color. Build your deck around your chosen hero to unlock powerful synergies and outmaneuver your opponent. 25-Card Decks Your arsenal includes creatures and skill cards . Experiment with various combinations to find the strategy that suits you best. Short, Exciting Matches Each game lasts around 5 to 7 minutes, perfect for quick sessions or extended play. Jump in anytime! Epic Cosmic Battles Currently featuring a single arena— a showdown in the vastness of space , complete with twinkling stars in the background. We plan to expand with more arenas and visual effects soon. Unique Class Effects Certain class-based cards come with powerful, sometimes unexpected abilities that can turn the tide of battle in an instant. Gameplay Turn-Based 1v1 Battles Challenge real players in tense, strategic duels. Your wits and card combos will be the key to victory. Helpful Tutorial New to CCGs? Our in-game tutorial will walk you through the basics, show you how different cards work, and get you battle-ready. Deep Tactical Options Every card has the potential to change your fate. Craft a winning strategy and seize the critical moment to outplay your rival. Progression & Monetization Completely Free-to-Play Enjoy the game at no cost—no paywalls, no hidden catches. Earn in-game currency simply by playing matches, completing missions, and taking part in special events. Card Packs for In-Game Currency Get new card packs without ever spending real money. If you prefer, you can purchase individual cards, but the main way to collect is by earning currency through gameplay. Battle Pass & Events A Battle Pass , regular events , and daily match rewards keep the experience fresh. Even if you only pop in for a few minutes a day, you’ll see steady progress. Platforms & Technical Details Available on Multiple Platforms Play on PC or mobile devices—your account and progress sync seamlessly across all platforms. Frequent Updates We’re committed to improving balance, adding new cards, introducing fresh mechanics, and hosting in-game events. There’s always something new on the horizon! Community & What’s Next Tournaments & Competitive Events Look out for upcoming tournaments and ranked seasons. Prove your skills and claim your rightful place at the top! Contests & Creative Engagement Share your fan art, discuss strategies, and join community contests. We love seeing what our players create. Why Play Dopdop Online? Unique Cosmic Theme : A fun blend of comedic sci-fi and strategic card battles. F2P-Friendly : Generous rewards and zero pay-to-win elements. Easy to Learn, Challenging to Master : Quick to pick up, yet deep enough for dedicated players. Play Whenever, Wherever : Short matches, cross-platform support, and a lively online community. Ready to Battle? Jump into Dopdop Online and take on players from around the globe! Build the ultimate cosmic deck, dominate the galaxy, and explore a universe of interstellar adventures.",
         "id_in_db": "t3_1p87f8a",
         "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": "100% Off",
+        "steam_app_id": "3540720",
+        "genres": [
+            "Strategy",
+            "Free To Play"
+        ],
+        "is_multiplayer": true,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "پیوند برای کاربران ویندوز: https://store.epicgames.com/en-US/p/universe-for-sale-05c53e لینک برای کاربران iOS: https://store.epicgames.com/p/universe-for-sale-ios-475e80 لینک برای کاربران اندروید: https://store.epicgames.com/p/universe-and-for-4 نقطه علمی تخیلی و ماجراجویی کلیک کنید. ماجراهای یک فرقه پرست را دنبال کنید که گذشته اش روی صورت و استخوان هایش نوشته شده است و از یک کلنی فضایی در میان ابرهای مشتری بازدید می کند. این بازی شامل کاوش در این مستعمره ماورایی است، از مغازه‌های عجیب و غریب آن گرفته تا چایخانه‌های آن و قسمت‌های کمتر جذاب شهر. هر جا که بروید، ساکنان عجیب و غریبی را ملاقات خواهید کرد و به تدریج راز موجود در قلب این بازی دنج را کشف خواهید کرد. در این جامعه اسرارآمیز، یک زن جوان جهان ها را به همان روشی که من یا شما ممکن است یک فنجان چای دم کنید، می سازد. او یک مغازه کوچک در بازار آشفته دارد. چه جهانی را در آنجا خواهید خرید؟ Universe for Sale تا 4 دسامبر برای مطالبه (و شما برای نگهداری) در دسترس است. راهنمای دانلود ..."
+        "persian_summary": "یک بازی ورق کلکسیونی رایگان که در یک جهان کیهانی گسترده اتفاق می‌افتد. با الهام از یک محیط علمی-تخیلی کمدی محبوب، نبردهای سریع و پویا را ارائه می‌کند - بدون هیچ مکانیک پرداخت به برد! ویژگی های کلیدی چهار قهرمان اصلی هر قهرمان به یک نژاد خاص گره خورده است و دارای یک رنگ هسته درخشان منحصر به فرد است. عرشه خود را حول قهرمان انتخابی خود بسازید تا هم افزایی قدرتمند را باز کنید و بر حریف خود مانور دهید. عرشه های 25 کارتی زرادخانه شما شامل موجودات و کارت های مهارت است. با ترکیب های مختلف آزمایش کنید تا استراتژی مناسب شما را بیابید. مسابقات کوتاه و هیجان انگیز هر بازی حدود 5 تا 7 دقیقه طول می کشد، که برای جلسات سریع یا بازی طولانی بسیار عالی است. پرش در هر زمان! نبردهای حماسی کیهانی در حال حاضر دارای یک میدان واحد است - یک مسابقه در وسعت فضا، با ستاره های چشمک زن در پس زمینه. ما قصد داریم به زودی با عرصه ها و جلوه های بصری بیشتری گسترش دهیم. جلوه های کلاس منحصر به فرد برخی از کارت های مبتنی بر کلاس دارای توانایی های قدرتمند و گاهی غیرمنتظره ای هستند که می توانند جریان را تغییر دهند..."
     },
     {
         "title": "era of miracles",
@@ -428,10 +427,10 @@
     {
         "title": "exiled giveaways and itchio mega threads",
         "store": "other",
-        "url": "https://www.reddit.com/r/FreeGameFindings/comments/1pbjszj/exiled_giveaways_and_itchio_mega_threads/",
+        "url": "https://www.reddit.com/r/FreeGameFindings/comments/1phjcmz/exiled_giveaways_and_itchio_mega_threads/",
         "image_url": null,
         "description": "To increase visibility, the mega threads are posted on a weekly basis. This is being done following the overall discussion of Mega Threads via FGF Update - https://redd.it/jkxyzw Please use the below threads for your posts. :) Exiled Giveaways Mega Thread (#2) Itchio Mega Thread (#10) Want to setup alerts to these threads? RSS Feed information can be found in our wiki! https://www.reddit.com/r/FreeGameFindings/wiki/rssfeed Included is information about our discord bot and general RSS feed stuff. Definitely give it a look! submitted by /u/AutoModerator [link] [comments]",
-        "id_in_db": "t3_1pbjszj",
+        "id_in_db": "t3_1phjcmz",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
@@ -569,25 +568,6 @@
         "persian_summary": "ارسال شده توسط /u/Lohigno [پیوند] [نظر]"
     },
     {
-        "title": "hotel greenwood",
-        "store": "indiegala",
-        "url": "https://freebies.indiegala.com/hotel-greenwood",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2089110/header.jpg?t=1763941754",
-        "description": "The Plot: After the death of Ashley Anderson, who worked as a service worker at the Greenwood hotel, unexplainable events occur. On the night of October 6 in 2012, when Ashley went to clean room 352, she was attacked by the customers in the room. Despite all the interventions, the young girl dies. After this unbelievable murder, the attackers admit that they used Ashley for their ritual in the room. Exactly one year after the incident, the customers who stayed at room 352, T.H. and his family are found dead in their room. Investigators couldn't find any clues as to how the family was killed. When the authorities cannot clarify this mysterious incident, they decide to shut the hotel down. But even though the hotel is closed, it is said that every year on October 6, the lights turns on and strange noises are heard from inside. To investigate the situation, authorities decide that young detective Aaron Parker is the prime candidate for the job. So are these claims true? Are the sounds coming from the hotel real? As a Detective, it won't be easy for you to solve the paranormal events in this cursed hotel. Environment: The game is set in a hotel in a wooded area far from the city in Greenwood, England. you will be alone in the cold and magnificent corridors of the hotel, but don't worry, you will have a teammate watching and guiding you. Who knows, maybe there are others watching you? Supernatural Beings: The spirit of the woman who lost her life after a ritual that took place at the hotel, and the demons who have partnered with her, can appear in front of you at any time at the hotel. Make sure to keep an eye on doors, general items, and even mannequins. Developer's comment about the game: We recommend that people who are afraid of the dark, have a heart condition, and are afraid of being alone should not play alone. Disclaimer: This is a work of fiction. Names, characters, places and events are purely the product of imagination or are used fictionally. Any resemblance to real events, places, living or dead people is purely coincidental. IMPORTANT WARNING! : Updates may corrupt old save files, please start the new game for the best experience. WARNING : This game may trigger seizures to people with photosensitive epilepsy. Player discretion is advised. Note : The game focuses on exploration and slowly increases tension to create a deeper and more meaningful experience. It is supplemented by light, loud and sudden sounds. Take into account that it makes you feel a lot of fear and is a difficult game. Hotel Greenwood is a first person psychological horror game.",
-        "id_in_db": "t3_1p7ryc3",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "2089110",
-        "genres": [
-            "Indie"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "خلاصه داستان: پس از مرگ اشلی اندرسون که به عنوان کارگر خدماتی در هتل گرین وود کار می کرد، اتفاقات غیرقابل توضیحی رخ می دهد. در شب 6 اکتبر 2012، هنگامی که اشلی به اتاق تمیز 352 رفت، توسط مشتریان حاضر در اتاق مورد حمله قرار گرفت. با وجود تمام مداخلات، دختر جوان می میرد. پس از این قتل باورنکردنی، مهاجمان اعتراف می کنند که از اشلی برای مراسم خود در اتاق استفاده کرده اند. دقیقا یک سال پس از حادثه، مشتریانی که در اتاق 352 اقامت داشتند، ت.ح. و خانواده اش مرده در اتاقشان پیدا می شوند. بازرسان نتوانستند سرنخی در مورد چگونگی کشته شدن خانواده بیابند. وقتی مقامات نمی توانند این حادثه مرموز را روشن کنند، تصمیم می گیرند هتل را تعطیل کنند. اما با وجود تعطیل بودن هتل، می گویند هر سال در 15 مهر چراغ ها روشن می شود و صداهای عجیبی از داخل به گوش می رسد. برای بررسی وضعیت، مقامات تصمیم می گیرند که کارآگاه جوان، آرون پارکر، کاندیدای اصلی این کار است. پس آیا این ادعاها درست است؟ آیا صداها ..."
-    },
-    {
         "title": "ios macos technicalc calculator 8",
         "store": "iosappstore",
         "url": "https://apps.apple.com/gb/app/technicalc-calculator/id1504965415",
@@ -627,26 +607,6 @@
         "persian_summary": "WodTimer ساخته شده، رایگان برای 48 ساعت آینده. این یک تایمر است که در واقع ساده و آسان برای استفاده است و به طور یکپارچه با اپل واچ کار می کند. لطفا برای ما یک بررسی بگذارید! ویژگی‌های اصلی: صفحه نمایش ساعت چرخشی - تغییرات متحرکی که در سراسر باشگاه قابل مشاهده است، استقلال واقعی اپل واچ - با تلفن خود شروع کنید، بدون نیاز به تلفن در نزدیکی خود روی مچ دست خود ادامه دهید مجموعه کامل تایمر - حالت‌های AMRAP، EMOM، تاباتا، و برای زمان همه در یک برنامه بازخورد لمسی - احساس هر تغییر روی مچ دست خود را در حین تمرین - سیستم Timer سریع در پس‌زمینه کار می‌کند - سیستم Timer در پس‌زمینه کار می‌کند تایمرهای پرکاربرد شما برای دسترسی فوری هشدارهای قابل تنظیم - نشانه های صوتی و بوق های شمارش معکوس (3 تا 30 ثانیه، یا به طور کامل رد شوید) پیشنهاد جمعه سیاه: آن را برای 48 ساعت آینده برای مادام العمر رایگان کنید. بدون اشتراک، بدون تبلیغات، بدون جلب. فقط همه چیز را دانلود و باز کنید. ایده آل برای ورزشکاران در باشگاه، ورزشکاران کراس فیت، تمرینات HIIT، تمرینات خانگی، یا هر کسی که یک تایمر قابل اعتماد می خواهد..."
     },
     {
-        "title": "makeshift pack",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/2184791/HITMAN_3__Makeshift_Pack/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1712100/74eeb71eb00f1ac0900bc295b1b8dd53b3d9db00/header.jpg?t=1765141653",
-        "description": "The legendary Carmageddon engine roars back to life, as a spin-off for a new era of vehicular combat. THE LONG NIGHT The year is 2050, and the world you know is a post‑apocalyptic wasteland. Hordes of nightmare creatures, the Wasted, lay siege to humanity. Every night, the streets are overrun, forcing everyone to barricade themselves in their skyscraper-homes for survival. There is just one chance to escape all this: the Carmageddon. These deadly races promise power, prestige, and valuable prizes to the participants. Most importantly, the champion wins the right to attempt the perilous journey that leads to the spaceport beyond the mountains. The only one left, the only chance to flee this dying world. You enter the Carmageddon as one of countless racers, equipped with little more than a rust bucket, scavenged fuel, and a makeshift weapon. You'll face off against rival gangs like the Autoscum and other rogues in a fight for survival. Each destruction race is an opportunity to win parts and upgrades, a step towards the ultimate escape. As the night descends, the Wasted take the streets, and you with them. DRIVE TO SURVIVE The original Carmageddon spirit of vehicular mayhem has been refined and redesigned. We looked at the past and the present to create a visceral, fast and accessible form of combat racing. • 15 upgradeable vehicles – FWD, RWD & AWD, each with unique weight and suspension • Metal‑on‑metal car combat – crash, shove, boost and side‑bash rivals • 13 weapon classes – from shotguns to railguns, all fully upgradable • 80+ perks – craft outrageous synergies for destruction racing supremacy • Dynamic weather & day‑night cycle – rain slicks the tarmac, fog shrouds ambushes • Elite & Boss events – colossal war‑rigs, corrupted Enforcers, and endless zombie hordes • Extensive visual damage model - windshields, hood, doors, bumpers and trunk lid will bend, crumple, hang and detach. THE ROGUELITE CAMPAIGN Every Campaign run offers a unique journey through a randomly generated graph. Win Events and smash opponents to gain Credits. Maneuvers such as killing Wasteds, drifts, jumps, and flicks also grant rewards. Strategically plan your route so you can reach Shops. In these safe havens you can repair your car, swap weapons, or install one of the 80+ unlockable perks. Adapt to the dynamically increasing difficulty and conquer elite events and bosses. With branching paths, varied objectives, and ever-changing time-of-day and weather conditions, no two runs are the same. But the Carmageddon ain’t over when your vehicle is wrecked. Another driver will step up, and the challenge will resume anew, in a typical roguelite loop. Earn Beatcoins to unlock permanent bonuses and new content between runs in the Black Market. Find synergies between these elements to create the ultimate killing machine: the Carmageddon never ends OPPONENTS The Carmageddon hosts a diverse assembly of marauders, rejects, and lowlifes. Some prefer to rush in front of the pack. Others will chase you and try to bash you out of the way. Some will wait for the chance to unload their weapons into your car. Some are more skilled or better prepared than others. You may recognize some familiar names in the crowd. Corrupt police forces known as the Enforcers impose their brutal rules on those spared from mutation. The Enforcers will force you off the road to strip your car for spare parts and ammo, if you let them. Each area of the city is controlled by a particularly fierce opponent, commonly known as “the Boss”. These are the biggest, baddest, fastest, more armed vehicles that you can find. The rules of the Carmageddon demand that you beat each Boss before advancing to the next stage. Every race is a brutal test of skill, demanding you master driving, melee, and ranged attacks against a diverse and unpredictable roster of foes. To do so, you must work on your car, find upgrades and weapons that combine well together, and consistently perform behind the wheel. THE WASTED The Third World War and a series of devastating natural disasters left Earth in ruins. Amidst the chaos, a food supplement called MiVis was introduced to address food shortages, and became a ubiquitous part of daily life. However, long-term consumption of MiVis led to a horrific cellular mutation, transforming people into Wasted - monstrous, empty husks consumed by the supplement's side effects. Now, they have become a mass of unsentient, super-aggressive beings that threaten survivors as soon as the sun starts to set. A lone Wasted is no match for your chariot of fury. Things start to heat up when more Wasteds show up. Boost into the hordes of humanoid husks swarming the track, parting the waves of Wasted like a Moses on wheels! But be careful not to get stuck in the high tide: too many Wasteds will surround your car and smash it to bits with the remains of their raw hands. And then there are Special Wasteds… horrible supermutations of the Wasted, morphed into something even less human. They may explode, shoot you from a distance, lunge at your car, or produce even nastier surprises. They pose a real danger and tend to show up late at night. And then, there’s the ultimate abomination. A creature whispered about, rarely seen; the monster that guards the only mountain pass towards salvation, and your final challenge. 🚀 Wishlist now and join the best drivers in our Discord pit‑crew!",
-        "id_in_db": "t3_1p7eo5g",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "1712100",
-        "genres": [
-            "Action",
-            "Racing"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": true,
-        "persian_summary": "موتور افسانه‌ای کارماگدون به عنوان یک اسپین آف برای دوره جدیدی از نبردهای خودرویی به زندگی بازمی‌گردد. شب دراز سال 2050 است، و دنیایی که شما می شناسید یک سرزمین بایر پسا آخرالزمانی است. انبوهی از موجودات کابوس وار، هدر رفته ها، بشریت را محاصره کرده اند. هر شب، خیابان‌ها زیر و رو می‌شوند و همه را مجبور می‌کنند برای بقا در خانه‌های آسمان‌خراش‌شان سنگر بگیرند. فقط یک فرصت برای فرار از همه اینها وجود دارد: کارماگدون. این مسابقات مرگبار نوید قدرت، اعتبار و جوایز ارزشمند را به شرکت کنندگان می دهد. مهمتر از همه، قهرمان حق تلاش برای سفر خطرناکی را که به فرودگاه فضایی فراتر از کوه ها منتهی می شود، به دست می آورد. تنها چیزی که باقی مانده، تنها فرصتی برای فرار از این دنیای در حال مرگ. شما به عنوان یکی از بی‌شماری مسابقه‌دهنده وارد کارماگدون می‌شوید که به چیزی بیش از یک سطل زنگ‌زده، سوخت پاک‌شده و یک سلاح موقت مجهز است. شما در مبارزه برای بقا با باندهای رقیب مانند Autoscum و دیگر سرکشان روبرو خواهید شد. هر مسابقه تخریب فرصتی برای پیروزی است..."
-    },
-    {
         "title": "maze burrow",
         "store": "itch.io",
         "url": "https://kimimaru.itch.io/maze-burrow",
@@ -666,6 +626,27 @@
         "persian_summary": "Maze Burrow یک بازی پازل الهام گرفته از سوکوبان است که شامل هل دادن و کشیدن بلوک ها است. با حل پازل ها برای فعال کردن پورتال در هر سطح و مبارزه با خال ها، به اکیدنا کمک کنید تا از لانه های پیچ و خم مانند خود فرار کند! گیم پلی بی انتها بلوک ها را به کاشی های منطبق فشار دهید و بکشید تا پورتال سطح را در بیش از 60 سطح از خوبی های پازل کلاسیک فعال کنید. از عقل خود برای بهینه سازی راه حل ها استفاده کنید و کمترین امتیاز و زمان ممکن را هدف بگیرید. عبور از لانه خال ها حفره مفصلی حفر کرده اند که شامل موانع زیادی است که اکیدنا باید بر آنها غلبه کند. از سوئیچ ها و پیچ ها برای مقابله با دیوارهای غیرقابل عبور استفاده کنید. از میان یخ و گل عبور کنید، که نحوه حرکت اکیدنا را تغییر می‌دهد. با بلوک های زوجی کار کنید که پشت سر هم حرکت می کنند. این موانع با پیشروی اکیدنا در سرتاسر لانه رایج‌تر هستند و اغلب با هم ترکیب می‌شوند تا پازل‌های پیچیده‌تری ایجاد کنند. باس فایت هرازگاهی، اکیدنا با خال ها درگیر می شود و این فرصت را پیدا می کند که به آنها نشان دهد رئیس کیست!..."
     },
     {
+        "title": "milf city",
+        "store": "other",
+        "url": "https://givee.club/en/event/1179",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706820/header.jpg?t=1727857236",
+        "description": "Milf City is a modern city where many races, cultures and lives of ordinary people are intertwined. And today you will be able to get to know more closely the life of 5 beautiful girls, residents of this city, who are radically different in their lifestyles and characters. Here you will forget about the problems of everyday life and plunge into the exciting world of Milf City! Features: ➡ 5 girls who will amaze you with their diversity and charisma! ➡ Once you start the game, you will not be able to stop, you will want more and more ... ➡ Mahjong-solitaire, in which you can show your flexibility of mind and receive the desired rewards ... ➡ Every girl has her own Mahjong-solitaire puzzle. ➡ Each girl has her own gallery, with her own unique pictures. About the characters: ➡ The owner of the beer bar is a sexy American woman who knows everything about brewing real beer and is not averse to having a couple of glasses with you while having a pleasant conversation. Believe me, you won't even blink an eye as she hops you, and then everything depends on you;) ➡ A milf from a traditional Japanese house. The wife of a wealthy businessman who misses a man's embrace, because her husband, as always, is not up to her. Very modest, she greedily absorbs compliments, like the earth on a hot day. ➡ Owner of a grocery supermarket. She loves to work with her hands and take care of plants. He often pays with his employees not with money ... ➡ A real female vamp. Expensive dresses, jewelry, boyfriends - it's all about her. She is very gambling, so she likes to borrow. He finds his victims in the casino, and then the work of hands and no fraud! ➡ Extreme milf, lives in a bungalow, near the sea. She loves freedom, adrenaline and the fresh breeze of adventure. She is indomitable in sex, so you have to try to create a good impression. If you want to skip mahjong game, press \"X\" when mahjong game is active",
+        "id_in_db": "t3_1phindb",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "1706820",
+        "genres": [
+            "Adventure",
+            "Casual",
+            "Indie"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "is_dlc_or_addon": false,
+        "persian_summary": "میلف سیتی شهری مدرن است که در آن بسیاری از نژادها، فرهنگ ها و زندگی مردم عادی در هم تنیده شده است. و امروز شما می توانید از نزدیک با زندگی 5 دختر زیبا، ساکنان این شهر، که در سبک زندگی و شخصیت خود کاملاً متفاوت هستند آشنا شوید. در اینجا مشکلات زندگی روزمره را فراموش خواهید کرد و در دنیای هیجان انگیز شهر میلف فرو خواهید رفت! ویژگی ها: ➡ 5 دختر که شما را با تنوع و کاریزمای خود شگفت زده خواهند کرد! ➡ هنگامی که بازی را شروع می کنید، نمی توانید متوقف شوید، بیشتر و بیشتر می خواهید ... ➡ فال ماهجونگ-یک نفره، که در آن می توانید انعطاف ذهن خود را نشان دهید و پاداش های مورد نظر را دریافت کنید ... ➡ هر دختری پازل فال ماهجونگ-یک نفره خود را دارد. ➡ هر دختر گالری خود را دارد، با تصاویر منحصر به فرد خود. درباره شخصیت ها: ➡ صاحب بار آبجو یک زن سکسی آمریکایی است که همه چیز را در مورد دم کردن آبجو واقعی می داند و از اینکه در حین گفتگوی دلپذیر با شما چند لیوان بخورد مخالف نیست. باور کن نخواهی..."
+    },
+    {
         "title": "minemogul 1257 1274 1087",
         "store": "steam",
         "url": "https://store.steampowered.com/app/3846120/MineMogul/",
@@ -677,19 +658,6 @@
         "discount_text": "15% off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/GoldenBOY8282 [لینک] [نظر]"
-    },
-    {
-        "title": "minisforum mkb i83 keyboards",
-        "store": "other",
-        "url": "https://www.reddit.com/r/FreeGameFindings/comments/1p7cawa/fgf_giveaway_minisforum_mkb_i83_keyboards/",
-        "image_url": null,
-        "description": "MAIN EDIT: The giveaway has ended! Congratulations to the winners and big thanks to Minisforum for doing this. Hope the winners love their boards! Gleam winners have been emailed (check junk mail) and Reddit commenters have been Reddit chatted. Be sure to reply as I will re-roll for new winners if I don't hear back after 3 days pass. EUROPE, CANADA & USA ONLY You can enter for/through a friend with a Europe/US/Canada address though. To go alongside this giveaway and to give a direct personal review of their products, I was supplied an N5 Pro AI NAS , which is crazy. It's an insanely overkill and incredibly well-crafted product that can truly be the ultimate NAS solution. Falls in-line with the Minisforum products of being compact and beautiful machines. Pricey though. Almost too powerful as a NAS really. It'll be fun figuring out a bunch of good use cases for it beyond just being a local storage solution. Here is my video unboxing and reviewing the N5 Pro AI NAS - https://youtu.be/1CVtR2jidGg It's a solid machine that ends up making for an extremely overkill NAS in my opinion, but it still is undeniably really great. You could go cheaper if you're looking for a pure NAS, but this offers great build quality and plenty of power if you have the use for it. Great system! This is a direct from dev/pub/store giveaway for FGF. Similar to those we have done before. Big thanks go out to Minisforum supplying this promotion on FGF! Computers are wonderful things, aren't they? So many different shapes and sizes for you to get the ideal system setup for your interests. These machines don't need to always be gigantic towers that dwarf the rest of your room. Maybe you want something more compact for easier transport? You probably want in on the Mini PC thing then. If you've been aware of Mini PCs in recent memory, then the name Minisforum might ring some bells. These guys make some fantastic products that don't take up insane amounts of space. Whether you're on the look out for Mini PC systems , workstations and/or other goodies, then Minisforums can be your place! Fantastic design with a great selection. They're currently running Black Friday promotion where plenty of items are on some solid discounts! Deals on numerous barebones kits, notable discounts on fully built machines, even a hundred bucks off the crazy NAS they sent me to try out (review above). Not a lot of time left, so be sure to get in on it ASAP if you're interested. To promote Minisforum products, the Black Friday sale and the N5 Pro AI NAS, I am happy to announce that they have offered us 5 of their MKB i83 Keyboards for a nice promotional giveaway. Not the first thing I'd expect to see shared by Minisforum, but it looks to be a fantastic entry into scene with its hot-swappability, tri-mode connectivity and sleek style. Really nice looking keyboard. To showcase cool stuff from Minisforum, (as mentioned above) I was provided the N5 Pro AI NAS. See the video here for a lovely little look at this crazy NAS product - https://youtu.be/1CVtR2jidGg To enter this giveaway we will be using Gleam and the comments. 3 Keyboards with Gleam. Then the other 2 through the comments. Feel free to enter with any and all methods/links. Gleam entries: https://gleam.io/ZqGfQ/fgf-x-minisforum-mkb-i83-keyboard Comment entries: Simply make any top-level comment (although only one top-level comment please) and you're good! Be aware of the following though. NOTE: If you win this giveaway I will be contacting through email for Gleam winners, and Reddit Chat for comment winners. You will need to supply your shipping information at that stage and the address supplied will need to be in the included regions (listed above). I'll wait at most 3 days after the end date for a response, so please be sure to set a reminder to check this thread, your email (check your junk/spam too) , and Reddit chat for my message if you have won. If I don't hear back, I will need to reroll/find new winners quickly from the FGF community somewhere for the unclaimed prize(s). Winners will be selected at random. This offer will be live until December 3rd . The next day or so, I will reach out to the winners through the methods mentioned earlier. You'll be asked for shipping details. Prizes are only available to be sent to the supported regions mentioned above. You can enter from anywhere in the world and have it sent to a friend/family member in the supported region(s). Good luck everyone! Some links to Minisforum: Black Friday Event on the Minisforum Website - https://s.minisforum.com/4i6kIL8 Nov 14th - Nov 28th Minisforum on YouTube - https://www.youtube.com/@minisforum/featured Minisforum on Insta - https://www.instagram.com/minisforumtech/ Minisforum on Twitter - https://twitter.com/Hi_MINISFORUM Minisforum on TikTok - https://www.tiktok.com/@minisforum.official My N5 Pro AI NAS Unboxing/Review - https://youtu.be/1CVtR2jidGg Full disclosure, I was supplied the N5 Pro AI NAS during the planning of this giveaway to include alongside it. It did not decide if we did this promotion or not, but I wanted to mention it anyway. For more details about when I have and have not been supplied an item for these FGF Giveaways, see here - https://docs.google.com/spreadsheets/d/1RFeaSIpqFvvSzfOowecLz_rbbFo-YKa25PYAqF6Y6ko/ submitted by /u/StOoPiD_U [link] [comments]",
-        "id_in_db": "t3_1p7cawa",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ویرایش اصلی: جایزه به پایان رسید! تبریک به برندگان و تشکر فراوان از Minisforum برای انجام این کار. امیدواریم که برندگان تابلوهای خود را دوست داشته باشند! برندگان Gleam ایمیل شده اند (ایمیل ناخواسته را بررسی کنید) و نظر دهندگان Reddit با Reddit چت شده اند. حتماً پاسخ دهید زیرا اگر بعد از گذشت 3 روز جوابی دریافت نکردم، برای برنده‌های جدید دوباره ارسال می‌کنم. فقط اروپا، کانادا و ایالات متحده آمریکا می‌توانید برای/از طریق دوستی با آدرس اروپا/ایالات متحده/کانادا وارد شوید. برای همراهی با این جایزه و بررسی شخصی مستقیم محصولات آنها، یک N5 Pro AI NAS به من داده شد که دیوانه کننده است. این یک محصول فوق العاده زیاد و فوق العاده خوش ساخت است که واقعاً می تواند راه حل نهایی NAS باشد. مطابق با محصولات Minisforum ماشین های جمع و جور و زیبا می باشد. گرچه گرونه تقریباً به عنوان یک NAS واقعاً بسیار قدرتمند است. کشف یک سری موارد استفاده خوب برای آن فراتر از اینکه صرفاً یک راه حل ذخیره سازی محلی باشد، سرگرم کننده خواهد بود. در اینجا ویدیوی من جعبه گشایی و بررسی N5 Pro AI NAS است -..."
     },
     {
         "title": "nikana nikana dax skin dax portrait daybreak color palette awlspan syandana ghost kuaka floof",
@@ -726,27 +694,6 @@
         "is_online": false,
         "is_dlc_or_addon": false,
         "persian_summary": "ویژگی‌های کلیدی: ترسناک محل کار مرتبط، زمانی که یک همکار که از مرز عبور می‌کند، مدام آزمایش می‌کند که چقدر خم می‌شوید، تغییر بسته‌بندی معمولی به تنش تبدیل می‌شود. Anti-Dating Sim // انتخاب ها مهم هستند هر بله، نه، یا سکوت ناخوشایند روابط و تعادل قدرت را تغییر می دهد. پایان های چندگانه رویکرد شما چندین نتیجه ممکن را باز می کند، از یک خداحافظی سخت گرفته تا یک پایان دلخراش. ترس جوی، بدون پرش ارزان ترس ناشی از سکوت، نگاه‌های خصمانه و احساس گوشه‌گیری است. بر اساس رویدادهای واقعی بله، این اتفاق واقعاً برای من رخ داده است و زندگی در آن برای من بسیار ناخوشایند بود. بازی های کوتاه اما ناراحت کننده یک ساعته آزمایش با مرزها و پایان های مختلف را آسان می کند."
-    },
-    {
-        "title": "nuclear throne",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/242680/Nuclear_Throne/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242680/header.jpg?t=1764957456",
-        "description": "Nuclear Throne is a post-apocalyptic roguelike-like top-down shooter. Not 'the final hope of humanity' post-apocalyptic, but 'humanity is extinct and mutants and monsters now roam the world' post-apocalyptic. Fight your way through the wastelands with powerful weaponry, collecting radiation to mutate some new limbs and abilities. All these things and more you could do if only you were good at this game. Can you reach the Nuclear Throne?",
-        "id_in_db": "t3_1pf3khs",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "50% off",
-        "steam_app_id": "242680",
-        "genres": [
-            "Action",
-            "Indie",
-            "RPG"
-        ],
-        "is_multiplayer": true,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "Nuclear Throne یک تیرانداز از بالا به پایین شبیه به سرکش پسا آخرالزمانی است. نه \"امید نهایی بشریت\" پس از آخرالزمان، بلکه \"بشریت منقرض شده است و جهش یافته ها و هیولاها اکنون در جهان پرسه می زنند\" پساآخرالزمانی. با تسلیحات قدرتمند، با جمع آوری تشعشعات برای جهش برخی از اندام ها و توانایی های جدید، راه خود را در زمین های بایر مبارزه کنید. اگر در این بازی خوب بودید، می توانستید همه این کارها و بیشتر را انجام دهید. آیا می توانید به تخت هسته ای برسید؟"
     },
     {
         "title": "offline idle rpg 149 049",
@@ -797,6 +744,19 @@
         "persian_summary": "مهمانی خود را جمع کنید و در داستانی از مشارکت و خیانت، فداکاری و بقا و فریب قدرت مطلق به قلمروهای فراموش شده بازگردید. توانایی‌های اسرارآمیز در درون شما بیدار می‌شوند که از یک انگل ذهنی که در مغز شما کاشته شده است. مقاومت کنید و تاریکی را بر علیه خود برگردانید. یا فساد را در آغوش بگیرید و به شر نهایی تبدیل شوید. از سوی سازندگان Divinity: Original Sin 2 یک RPG نسل بعدی ارائه می شود که در دنیای Dungeons & Dragons اتفاق می افتد. از بین 12 کلاس و 11 مسابقه از D&D Player's Handbook انتخاب کنید و هویت خود را بسازید، یا به عنوان یک قهرمان Origin با پس زمینه ای دست ساز بازی کنید. یا به عنوان Dark Urge، یک قهرمان Origin کاملاً قابل تنظیم با مکانیک و داستان منحصر به فرد خود، با فساد درونی خود درگیر شوید. هر کسی که انتخاب کردید، ماجراجویی کنید، غارت کنید، بجنگید و عاشقانه در سراسر قلمروهای فراموش شده و فراتر از آن باشید. مهمانی خود را جمع کنید ماجراجویی آنلاین را به عنوان یک مهمانی حداکثر چهار نفره بگیرید. ربوده شده، آلوده، گم شده است. شما در حال تبدیل شدن به یک هیولا هستید، اما به عنوان..."
     },
     {
+        "title": "playsum insurgency 338 281 257 c393 a484 with code cheers",
+        "store": "other",
+        "url": "https://store.playsum.live/product/90f09a52-b41d-513f-be68-037f9bb491c0/insurgency",
+        "image_url": "https://external-preview.redd.it/YJaomLOw8jx4kLM7Y9y0ECSZnhe7-PmpZcSJwmCWLv8.jpeg?width=320&crop=smart&auto=webp&s=61335c269fe5ebef263ba2b2c115ba3b46f0cf05",
+        "description": "submitted by /u/Lets_Playsum [link] [comments]",
+        "id_in_db": "t3_1phtqmy",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "77% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/Lets_Playsum [لینک] [نظر]"
+    },
+    {
         "title": "poeti499 freebaby photo journal with day counter",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/family-album-poeti/id6749818455",
@@ -808,19 +768,6 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "Poeti را برای بچه خودم، رایگان برای هفته آینده (تا 10 دسامبر) ساختم. من نمی‌خواستم عکس‌های کودک را در اینستاگرام پست کنم، اما همچنان می‌خواستم راهی زیبا برای نگاه کردن به آنها داشته باشم. بنابراین من این را ساختم - یک مجله عکس خصوصی که فقط در دستگاه شما باقی می ماند. لطفا اگر آن را دوست دارید یک بررسی بگذارید! ویژگی‌های اصلی: شمارنده خودکار روزانه - هر عکس با سن کودک شما مهر می‌خورد (D+1، D+30، D+100...) جدول زمانی قابل کشیدن - به جای تماشای کودک دیگران در دوربین Reels، انگشت خود را روی عکس‌ها/فیلم‌های کودک خود بکشید - مُهر زمانی به‌طور خودکار اضافه می‌شود، نیازی به ویرایش نیست - ما با یک ضربه وارد کردن یک دکمه دوربین با یک بار مشاهده کل دوربین به‌صورت رول، کل تایم را وارد می‌کنیم. برای کشف مجدد خاطرات قدیمی 100٪ فضای ذخیره سازی محلی - بدون ابر، بدون حساب، بدون ویژگی های اجتماعی. فقط تو و خاطراتت برای حیوانات خانگی نیز کار می کند - برخی از کاربران سگ ها و گربه های خود را دنبال می کنند. رایگان تا 10 دسامبر. بدون اشتراک، بدون تبلیغات، بدون جلب. ارسال شده توسط /u/reck1ess_dev [پیوند] [نظر]"
-    },
-    {
-        "title": "psa gunslugs gog big adventure",
-        "store": "amazon",
-        "url": "https://luna.amazon.com/claims/home?filter=Game&g=s",
-        "image_url": "https://external-preview.redd.it/_fBjABdCsDDIR7bJn-cgpkXoTMJ2MnAEY3PCdXPaAoY.png?width=640&crop=smart&auto=webp&s=bef23da95c6aa8211ed8845602ada6c6644977cf",
-        "description": "submitted by /u/Working_Test [link] [comments]",
-        "id_in_db": "t3_1p7hayk",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/Working_Test [لینک] [نظر]"
     },
     {
         "title": "psa steam community items wargaming 2025 advertising app",
@@ -836,6 +783,19 @@
         "persian_summary": "ارسال شده توسط /u/CatnisEverdeen [پیوند] [نظر]"
     },
     {
+        "title": "psa switch no gravity games switchmas 2025 website now live",
+        "store": "other",
+        "url": "https://nogravitygames.com/switchmas2025/",
+        "image_url": null,
+        "description": "Switchmas has returned, looks like 10 free games this year over 8 drops (3 games on last day). Detailed instructions & FAQ are on the website, you need to signup for the newsletter BEFORE the first game drops on Dec 12, I don't know if participating in previous years negates signup but I wouldn't chance it (i.e. don't blame me if you choose not to signup & miss out). Games drop everyday Dec 12th through Dec 19th and you need to collect everyday in order to get them all for free, if you miss a drop you can't get anymore without buying the games you missed: \"You’ll need to be careful though. If you forget to redeem any of the corresponding free titles, you won’t be eligible for the rest. The next titles in the lineup will become available free for users who have the previous ones added to their accounts! (If you miss a game, don’t worry. Just buy the missing games which will go on sale day after the owner discount to complete the chain and this will grant you a possibility to gather the rest of them for free!)\" US Only: \"This offer is only valid for Nintendo accounts assigned to the Americas region\" ~ Last years Switchmas post: Switchmas2024 submitted by /u/MalusNox [link] [comments]",
+        "id_in_db": "t3_1phkbk4",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "Switchmas بازگشته است، به نظر می رسد امسال 10 بازی رایگان بیش از 8 قطره (3 بازی در روز گذشته). دستورالعمل‌های دقیق و پرسش‌های متداول در وب‌سایت موجود است، شما باید قبل از انتشار اولین بازی در 12 دسامبر برای خبرنامه ثبت‌نام کنید، نمی‌دانم شرکت در سال‌های گذشته ثبت نام را نفی می‌کند یا خیر، اما شانسی برای آن ندارم (یعنی اگر تصمیم به ثبت نام نکردید و از دست دادید، من را سرزنش نکنید). بازی‌ها هر روز از 12 تا 19 دسامبر حذف می‌شوند و باید هر روز جمع‌آوری کنید تا همه آن‌ها را به‌صورت رایگان دریافت کنید، اگر قطره‌ای را از دست بدهید، دیگر نمی‌توانید بدون خرید بازی‌هایی که از دست داده‌اید به دست آورید: \"با این حال باید مراقب باشید. اگر فراموش کردید که هر یک از عناوین رایگان مربوطه را پس‌خرید کنید، واجد شرایط برای لیست بعدی کاربرانی نخواهید بود که عنوان قبلی را به عنوان رایگان اضافه می‌کنند. حساب‌ها (اگر بازی را از دست دادید، نگران نباشید. فقط بازی‌های گمشده را بخرید که یک روز پس از تخفیف مالک برای تکمیل زنجیره به فروش می‌رسد و این امکان را به شما می‌دهد که ..."
+    },
+    {
         "title": "qr code pdf image to text 1199 299 75 off black friday deal",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/textsniper/id1528890965?mt=12",
@@ -847,6 +807,19 @@
         "discount_text": "75% off",
         "is_dlc_or_addon": false,
         "persian_summary": "سلام به همه 👋 من توسعه دهنده برنامه TextSniper هستم، یک ابزار OCR برای macOS که به شما امکان می دهد متن را از هر نقطه روی صفحه خود استخراج کنید برای هفته جمعه سیاه، من از 75٪ تخفیف برای مجوز مادام العمر استفاده می کنم: 👉 2.99 دلار به جای 11.99 دلار ⏳ معتبر 27 نوامبر [operk → Dec]"
+    },
+    {
+        "title": "robocop rogue city 399 usd 90 off",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1681430/RoboCop_Rogue_City/",
+        "image_url": "https://external-preview.redd.it/fCpVbLuMoKOUAxCUlImstvQ8YF7doCC-ekjuUW6_2QE.jpeg?width=320&crop=smart&auto=webp&s=b930769a6619ac00a79a9f99891f7adf382a8ff4",
+        "description": "submitted by /u/jmaccini [link] [comments]",
+        "id_in_db": "t3_1phpizh",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "90% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/jmaccini [لینک] [نظر]"
     },
     {
         "title": "rose and cross",
@@ -870,6 +843,27 @@
         "persian_summary": "«رز و صلیب» یک فیلم ترسناک روانشناختی کوتاه در ژانر «شبیه ساز راه رفتن» است. میانگین زمان برای تکمیل بازی: 30 دقیقه در حومه یک شهر کوچک مزرعه متروکه ای قرار دارد که اطراف آن را مزارع بی پایان ذرت احاطه کرده است. مردم شهر افسانه‌های وحشتناکی را نقل می‌کنند که زمانی در این مزرعه فرقه‌ای زندگی می‌کردند که مراسم تاریکی را انجام می‌دادند و این مزارع ذرت با خون و ترس کاشته شده بودند. شخصیت اصلی که وسواس زیادی به مطالعه فرقه‌ها و جنبش‌های غیبی دارد، طبق شایعات به مزرعه متروکه‌ای می‌رود که امیدوار است آنچه را که بسیار دوست دارد بیابد... توجه: توجه: برخی از افراد ممکن است هنگام قرار گرفتن در معرض فلاش‌های نور و تصاویر چشمک زن دچار تشنج شوند، حتی اگر هرگز مبتلا به صرع تشخیص داده نشده باشند. بازی شامل صحنه های خشونت و قتل است که ممکن است بر روان تأثیر منفی بگذارد. برخی از عناصر ممکن است برای همه گروه های سنی مناسب نباشند. توصیه می شود مخاطبان بازی را به طور معقولی محدود کنید. همه تصادفات تصادفی هستند و هیچ ارتباطی با ..."
     },
     {
+        "title": "saylor anime puzzle boys girls",
+        "store": "other",
+        "url": "https://gleam.io/GbCUd/free-x2500-saylor-anime-puzzle-boys-girls-steam-keys",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4223690/f57b91cc934e732a768b80bd916085f2e648b3b1/header.jpg?t=1764781352",
+        "description": "Saylor Anime Puzzle Boys & Girls is simplistic anime jigsaw game which contains anime girls and boys. This is a logical game in which the goal of the game is to rearrange the tiles to get the final picture. Game contains 8 different anime images. Images contains different themes like eating images, romance images and every image character has clothes on and game have 4 different difficult options. When select more pieces option more harder it is to rearrange tiles - 4 difficult settings 8 images Collect steam achievements by playing game Beautiful anime girls 100 achievements",
+        "id_in_db": "t3_1phr7vl",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "4223690",
+        "genres": [
+            "Adventure",
+            "Casual",
+            "Indie"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "is_dlc_or_addon": false,
+        "persian_summary": "Saylor Anime Puzzle Boys & Girls یک بازی انیمه اره منبت کاری اره مویی ساده است که شامل انیمه دختران و پسران است. این یک بازی منطقی است که در آن هدف بازی مرتب کردن مجدد کاشی‌ها برای به دست آوردن تصویر نهایی است. بازی شامل 8 تصویر انیمه مختلف است. تصاویر شامل موضوعات مختلفی مانند خوردن تصاویر، تصاویر عاشقانه است و هر شخصیت تصویری لباس دارد و بازی دارای 4 گزینه دشوار مختلف است. هنگامی که قطعات بیشتری را انتخاب کنید، تنظیم مجدد کاشی‌ها سخت‌تر می‌شود - 4 تنظیمات دشوار 8 تصویر جمع‌آوری دستاوردهای بخار با بازی انیمه دختران زیبا 100 دستاورد"
+    },
+    {
         "title": "screen translator 4495 annual free for 48 hours translate any app screen instantly with one tap",
         "store": "iosappstore",
         "url": "https://apps.apple.com/redeem?ctx=offercodes&id=6751373070&code=TRANSMATEBFCM",
@@ -881,6 +875,19 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "هی همه! 👋 من قبلاً هیچ تبلیغی برای برنامه‌ام انجام نداده‌ام، اما از آنجایی که BFCM و فصل تعطیلات است، می‌خواهم یک سال اشتراک رایگان ارائه دهم! 😎 این برنامه \"TransMate - Screen Translator\" نام دارد. 👉 کاری که برنامه انجام می دهد: این برنامه فوراً صفحه هر برنامه را تنها با یک ضربه ترجمه می کند، بنابراین دیگر نیازی به گرفتن اسکرین شات دستی و آپلود هر تصویر برای دریافت ترجمه در هر زمان ندارید. همچنین، پس از آن نیازی به پاک کردن گالری خود نخواهید داشت زیرا برنامه اسکرین شات های شما را ذخیره نمی کند. همه چیز با یک ضربه، با ترجمه دقیق از متن انجام می شود. هیچ یک از داده های شما ذخیره نمی شود. این تبلیغ یک سال دسترسی حرفه ای رایگان به تمام ویژگی های برنامه را بدون تبلیغات ارائه می دهد (سریع باشید، فقط با کدهای محدود!) این یک برنامه کاربردی واقعا مفید است که در وقت شما صرفه جویی می کند. من در ابتدا آن را برای خودم ساختم زیرا هنگام سفر و استفاده از برنامه های زبان های دیگر به چیزی شبیه به این نیاز داشتم. 🔗 لینک اپ استور: APP LINK - https://apps.apple.com/app/transmate-screen-translator/id6751373070 لطفاً برنامه را بررسی کنید..."
+    },
+    {
+        "title": "season pass 2 the treasure of the midnight isles through the ashes inevitable excess enhanced edition commander pack season pass",
+        "store": "indiegala",
+        "url": "https://www.indiegala.com/store/franchise-sale/pathfinder",
+        "image_url": "https://external-preview.redd.it/GwLllX-qAkR0cqlYuX77JCPwXCRa0SvdBAFeq7uzHaw.jpeg?width=640&crop=smart&auto=webp&s=83a93c9ae04383eabb97c55dd52061757869c4b0",
+        "description": "submitted by /u/indieg [link] [comments]",
+        "id_in_db": "t3_1phagl0",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "80% off",
+        "is_dlc_or_addon": true,
+        "persian_summary": "ارسال شده توسط /u/indieg [لینک] [نظر]"
     },
     {
         "title": "still wakes the deep",
@@ -959,30 +966,26 @@
         "persian_summary": "بزرگترین و چهارمین بازی اضافه شده به این فرنچایز داستانی پارتی بازی، نه پنج، بلکه پنج و نیم بازی جمعیت کش را دارد! Fibbage 3 (2-8 بازیکن) عاقبت سرگرم کننده خالی. انواع سؤالات کاملاً جدید و حالت بازی Fibbage: Enough About You (3-8 بازیکن) را بازی کنید. حقایق عجیب و غریب در مورد دوستان خود را حدس بزنید. زنده ماندن در اینترنت (3-8 بازیکن) بازی فریم مبتنی بر وب. نظرات \"آنلاین\" دوستان خود را به روش های خنده دار بچرخانید. هیولا به دنبال هیولا (3-7 بازیکن) بازی شبح وار تاریخ. به هیولاهای همکار با قدرت های ویژه پیام دهید و قرار ملاقات بگذارید. براکتیرینگ (3-16 بازیکن) بازی مسابقه مناظره آشفته. روی استدلال های احمقانه شرط بندی هوشمندانه بگذارید. Civic Doodle (3-8 بازیکن) بازی هنری تکی. برای بهبود نقاشی های دیواری شهر رقابت کنید. با تلفن، تبلت یا رایانه خود بازی کنید. بدون نیاز به کنترلر اضافی! به علاوه ویژگی های حتی بیشتر فقط برای پخش کننده ها! توجه: Jackbox Party Pack 4 فقط به زبان انگلیسی است. توجه: این بازی به صورت چند نفره محلی است، اما می‌توانید از طریق پخش جریانی با بازیکنان از راه دور لذت ببرید. چگونه ..."
     },
     {
-        "title": "the telltale series 448 448 358 c621 a675 with code cheers",
+        "title": "tt isle of man",
         "store": "other",
-        "url": "https://store.playsum.live/product/d95ddd27-1f31-5c33-9a12-f5d827780930/batman-the-telltale-series",
-        "image_url": "https://external-preview.redd.it/nHTPwv1rt5hDxvQJtbmf2QdToAUdRRAApxbxEid1Nnw.jpeg?width=320&crop=smart&auto=webp&s=eb55ad8000296d4ab4ee44f68736f9d43869abe7",
-        "description": "submitted by /u/Lets_Playsum [link] [comments]",
-        "id_in_db": "t3_1pf5uch",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "70% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/Lets_Playsum [لینک] [نظر]"
-    },
-    {
-        "title": "track symptoms appointments and health notes privately on",
-        "store": "iosappstore",
-        "url": "https://apps.apple.com/app/id6752721621",
-        "image_url": "https://external-preview.redd.it/9W-jLqyw0zzqd0hXyiBg5Gj6R3ti7KmAMAaX1juRK3U.jpeg?width=640&crop=smart&auto=webp&s=154fc6de005dce0ca6a6bfd885fe921ffb598c97",
-        "description": "Hey everyone, I’m the solo dev behind Viatza — a privacy-focused health app that helps you keep track of symptoms, appointments, documents, and other health records in a simple, structured way. I’ve shared Viatza’s progress recently and the feedback has been incredibly motivating. So I wanted to give something back: Viatza is free for the next 48 hours (normally $2.99). No accounts, no ads, no tracking — everything stays on your device only. Why I built Viatza I always wanted a calm place to organise my health notes: symptoms over time, medical files, appointment details, and the small things you forget when you finally see your doctor. Viatza aims to make that easy — clear structure, fast navigation, full privacy. What Viatza can do today • Track symptoms with intensity, notes, and intervals • Store files privately (images, PDFs, documents) • Keep doctor appointments and specialist details in one place • Everything is saved locally in a clean folder + markdown structure • No accounts, no ads, no external servers If you try Viatza and think “It’d be even better if it just did X…”, let me know — I’m building this solo and your feedback genuinely shapes the app. submitted by /u/rogymd [link] [comments]",
-        "id_in_db": "t3_1pfu7h8",
-        "subreddit": "AppHookup",
+        "url": "https://steamdb.info/sub/248945/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/626610/header.jpg?t=1725352905",
+        "description": "For bikers, there are two types of speed races: the Isle of Man TT and the rest. No other race is as gruelling for the motorbikes and demanding for the riders. Take up the challenge of the Snaefell Mountain course: all 37.73 miles faithfully reproduced with the champions and their bikes. 110 years of history have made TT a motor racing legend. Memorise each section of the course, round each bend to perfection, keep your concentration throughout the 6 laps, get the best time and write your name alongside the greatest champions. • THE SNAEFELL MOUNTAIN COURSE FAITHFULLY REPRODUCED: 37.73 miles of roads and 264 bends for a race that is longer and more difficult than all GP circuits together. • THE OFFICIAL RIDERS AND THEIR ULTRA-POWERFUL MOTORBIKES: 25 riders and 38 motorbikes hurtling along mountain roads at over 180 mph. • REALISTIC RIDING APPROVED BY TT RIDERS: lifelike motorbike behaviour to experience the real sensations of riding, just like on the actual course. • ONLINE COMPETITION FOR UP TO 8 PLAYERS.",
+        "id_in_db": "t3_1phdg1q",
+        "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
+        "steam_app_id": "626610",
+        "genres": [
+            "Action",
+            "Racing",
+            "Simulation",
+            "Sports"
+        ],
+        "is_multiplayer": true,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "سلام به همه، من توسعه دهنده انفرادی پشت Viatza هستم - یک برنامه سلامت متمرکز بر حریم خصوصی که به شما کمک می کند علائم، قرار ملاقات ها، اسناد و سایر سوابق سلامتی را به روشی ساده و ساختاریافته پیگیری کنید. من اخیراً پیشرفت Viatza را به اشتراک گذاشته ام و بازخوردها فوق العاده انگیزه دهنده بوده است. بنابراین می‌خواستم چیزی را پس بدهم: Viatza برای 48 ساعت آینده رایگان است (معمولاً 2.99 دلار). بدون حساب، بدون تبلیغات، بدون ردیابی - همه چیز فقط در دستگاه شما باقی می ماند. چرا Viatza را ساختم من همیشه می‌خواستم مکانی آرام برای سازماندهی یادداشت‌های سلامتی‌ام داشته باشم: علائم در طول زمان، پرونده‌های پزشکی، جزئیات قرار ملاقات، و چیزهای کوچکی که وقتی در نهایت به پزشک خود مراجعه می‌کنید فراموش می‌کنید. Viatza قصد دارد این کار را آسان کند - ساختار واضح، ناوبری سریع، حفظ حریم خصوصی کامل. کارهایی که Viatza امروز می‌تواند انجام دهد • علائم را با شدت، یادداشت‌ها و فواصل ردیابی کنید • فایل‌ها (تصاویر، فایل‌های PDF، اسناد) را به صورت خصوصی ذخیره کنید • قرار ملاقات‌های پزشک و جزئیات متخصص را در یک مکان نگه دارید • همه چیز به صورت محلی در یک پوشه تمیز + ساختار علامت‌گذاری ذخیره می‌شود • خیر..."
+        "persian_summary": "برای دوچرخه سواران، دو نوع مسابقه سرعت وجود دارد: جزیره من TT و بقیه. هیچ مسابقه دیگری برای موتورسیکلت ها طاقت فرسا و برای سوارکاران سخت نیست. چالش دوره کوهستان اسنافل را قبول کنید: تمام 37.73 مایل به طور صادقانه با قهرمانان و دوچرخه‌هایشان بازتولید شده است. 110 سال تاریخ، TT را به یک اسطوره اتومبیلرانی تبدیل کرده است. هر بخش از دوره را به خاطر بسپارید، هر خم را کامل بچرخانید، تمرکز خود را در طول 6 دور حفظ کنید، بهترین زمان را کسب کنید و نام خود را در کنار بزرگترین قهرمانان بنویسید. • دوره کوهستانی SNAEFELL با وفاداری تولید شده: 37.73 مایل جاده و 264 پیچ برای مسابقه ای که طولانی تر و دشوارتر از همه مدارهای GP با هم است. • سواران رسمی و موتورسیکلت های فوق العاده قدرتمند آنها: 25 سوار و 38 موتور سیکلت در امتداد جاده های کوهستانی با سرعت بیش از 180 مایل در ساعت حرکت می کنند. • سواری واقعی که توسط TT RIDERS تایید شده است: رفتار واقعی موتورسیکلت برای تجربه احساسات واقعی سواری، درست مانند مسیر واقعی. • آنلاین ..."
     },
     {
         "title": "typing survival",
@@ -1005,27 +1008,6 @@
         "is_online": false,
         "is_dlc_or_addon": false,
         "persian_summary": "تایپ با بقای گروهی در این بازی سرکش که سرعت، دقت و استراتژی شما را به چالش می‌کشد، ملاقات می‌کند. وارد عرصه مینیمالیستی شوید و با استفاده از مهارت های تایپ و صفحه کلید قابل اعتماد خود بر میدان جنگ تسلط پیدا کنید. تست تایپ معمولی شما نیست کلمه بالای دشمن را تایپ کنید تا آنها را تمام کنید. تمرکز و سرعت خود را به چالش بکشید زیرا امواج بزرگتر و کلمات شرورانه سعی می کنند سرعت شما را کاهش دهند و شما را بیرون ببرند. این سخنان حیله گر چند ترفند نیز در آستین دارند. هواپیماهای بدون سرنشین قطعی به سادگی به شما نزدیک تر می شوند، اما دشمنان سرسخت مانند Swarmers گلوله های کوچک خود را به سمت شما شلیک می کنند، در حالی که تیراندازان برای شلیک جهنم به سمت شما حرکت می کنند. کیت بیرون; انگشت های سریع و خشمگین هرگز کافی نخواهند بود! زرادخانه خود را با سلاح ها و غارت های غیرقابل قفل ارتقا دهید که می تواند به شما کمک کند تا از هر موج کلمات سریع کار کنید. هر ساخت به طور منحصر به فرد متعلق به شماست. اسیلاتور و نگهبان خود را تنظیم کنید تا در حین برداشتن رگبارها از قلمرو بزرگی مراقبت کند، یا سلاح اصلی خود را برای تکامل به حداقل برسانید..."
-    },
-    {
-        "title": "universe for sale",
-        "store": "epicgames",
-        "url": "https://store.epicgames.com/en-US/p/universe-for-sale-05c53e",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627840/header.jpg?t=1751348016",
-        "description": "A space station nestled in the clouds of Jupiter. A bizarre bazaar where a young, worried woman crafts entire universes in the palm of her hand. A mysterious cultist who's stripped the flesh from his bones in order to reach enlightenment. Here, there's a universe for sale. You buying? In a bizarre bazaar, there's a worried woman crafting entire universes in the palm of her hand. Universe for Sale is a hand-drawn adventure game set in the dense clouds of Jupiter, where sapient orangutans work as dockhands and mysterious cultists strip the flesh from their bones in order to reach enlightenment. Explore all the nooks and crannies of a ramshackle colony on Jupiter. Rickety tea houses, strange oddity shops, and overworked mechanics garages abound in the picturesque and infamous shantytown that's cropped up around the abandoned mine. Every new face, whether human, simian, skeletal or robotic, has a unique story to tell as they do their best to survive the acid rain pouring down. The nameless master, intrigued by stories of Lila's ability to create universes, finds her on a rainy night to discuss the unique power that she has. For something so awe-inspiring, she explains it like she'd explain how to brew coffee. But it isn't just the master who wants to know more about Lila, who threatens to unravel the mystery at the heart of Universe for Sale. So, choose a cup, find some ingredients and Lila will craft a universe down to your particular specifications. Only question is: You buying?",
-        "id_in_db": "t3_1p85s75",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "1627840",
-        "genres": [
-            "Adventure",
-            "Casual",
-            "Indie"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "یک ایستگاه فضایی در میان ابرهای مشتری. بازاری عجیب و غریب که در آن زنی جوان و نگران تمام جهان‌ها را در کف دست خود می‌سازد. یک فرقه مرموز که برای رسیدن به روشنایی، گوشت را از استخوان هایش جدا کرده است. اینجا، یک جهان برای فروش وجود دارد. شما در حال خرید هستید؟ در یک بازار عجیب و غریب، زنی نگران وجود دارد که در کف دستش تمام جهان‌ها را می‌سازد. Universe for Sale یک بازی ماجراجویی با دست است که در ابرهای متراکم مشتری اتفاق می‌افتد، جایی که اورانگوتان‌های خردمند به‌عنوان بارانداز کار می‌کنند و فرقه‌های مرموز گوشت را از استخوان‌های خود جدا می‌کنند تا به روشنگری برسند. تمام گوشه و کنار یک مستعمره درهم و برهم در مشتری را کاوش کنید. چای‌خانه‌های رکیک، مغازه‌های عجیب و غریب، و گاراژهای مکانیکی پرمشقت در حلبی‌نشینی زیبا و بدنام که در اطراف معدن متروکه بریده شده است، فراوانند. هر چهره جدید، چه انسان، چه شبیه انسان، چه اسکلتی یا رباتیک، داستانی منحصر به فرد برای گفتن دارد زیرا تمام تلاش خود را برای زنده ماندن از باران اسیدی می‌بارد. ..."
     },
     {
         "title": "windows macos jackbox party pack 4ca2799 free a popular party game that supports multiple devices for joining players",
@@ -1054,10 +1036,23 @@
         "persian_summary": "https://store.epicgames.com/en-US/p/the-darkside-detective-02fd5a https://store.epicgames.com/en-US/p/the-darkside-detective-ios-f97bd7 https://store.epicgames.com/en-US/p/the-darkside-detective-02fd5a حس ششم خود را داشته باشید و به بخش Darkside بپیوندید تا در مورد موارد عجیب و غریب، کاملا خطرناک و کمی گیج کننده دریاچه های دوقلو تحقیق کنند. ارسال شده توسط /u/PM_ME_FREEGAMES [پیوند] [نظر]"
     },
     {
+        "title": "wolves of tukayyid 1750 1675 1799 eu uk us",
+        "store": "other",
+        "url": "https://www.allyouplay.com/discover/deals",
+        "image_url": null,
+        "description": "submitted by /u/AllYouPlay [link] [comments]",
+        "id_in_db": "t3_1phbhrk",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "50% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/AllYouPlay [لینک] [نظر]"
+    },
+    {
         "title": "world of warships holiday gift",
         "store": "steam",
         "url": "https://store.steampowered.com/app/4134400/World_of_Warships__Holiday_Gift/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527810/ddf1572f055251bbee254c437f89f4061d8d8372/header.jpg?t=1758902250",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527810/ddf1572f055251bbee254c437f89f4061d8d8372/header.jpg?t=1765182066",
         "description": "Join in All the Reindeer Games—And Save Christmas! Dash into the enchanting world of Rudolph the Red-Nosed Reindeer and embark on a holly jolly quest to save Christmas in this magical adventure inspired by the beloved 1964 animated classic! Journey through Rudolph’s winter wonderlands, including Christmastown, the Island of Misfit Toys, and more as you help Rudolph and his friends overcome challenges in their quest to save Christmas from an unexpected but certain holiday disaster. Experience joyful exploration, exciting holiday challenges, and cooperative gameplay in a fun and festive experience the whole family is sure to enjoy! Key Game Features: A BELOVED HOLIDAY CLASSIC – NOW INTERACTIVE: Immerse yourself in the timeless magic of Rudolph the Red-Nosed Reindeer like never before! Step into a vibrant, interactive winter wonderland filled with festive charm, playful exploration, and engaging challenges that bring the beloved holiday tale to life in a whole new way. MAGICAL WINTER WONDERLANDS: Journey through four enchanting holiday realms straight from the beloved classic, each bursting with holiday cheer, whimsical surprises, and heartwarming adventures! • Christmastown – Join the Reindeer Games, learn to fly, and help Santa’s elves prepare for the big night! • Island of Misfit Toys – Team up with quirky, lovable toys to give them a chance to shine and find their forever homes! • Mountain Caves – Brave icy tunnels, dodge falling icicles, and outsmart the fearsome Abominable Snow Monster! • Santa’s Castle – Work alongside Santa and the elves to gather last-minute gifts, power up the sleigh, and light the way for a Christmas miracle! PLAY AS ICONIC CHARACTERS: Step into the hooves of Rudolph and Clarice and the boots of Hermey and Yukon Cornelius – each with their own unique charm and abilities, making every moment of the adventure a holly jolly delight! JOYFUL CO-OP FUN: Grab a friend, play in local co-op as you shout out with glee as you experience this cheerful holiday adventure together. FAMILY-FRIENDLY & FULL OF HOLIDAY SPIRIT: With fun challenges, interactive storytelling, and a soundtrack with iconic Christmas favorites, this game is perfect for festive players of all ages. Get ready for the ultimate Christmas quest—guide Rudolph, spread holiday cheer, and light up the season with festive fun for the whole family!",
         "id_in_db": "t3_1p9493y",
         "subreddit": "FreeGameFindings",
