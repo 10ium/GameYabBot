@@ -59,10 +59,23 @@
         "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": "100% Off",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/72/3a/6f723a5b-b336-71d2-998c-77dbe55187c7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bb/e4/a0/bbe4a05e-309c-4933-1f9a-22f2514d20aa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
         "is_dlc_or_addon": false,
         "persian_summary": "",
         "description": ""
+    },
+    {
+        "title": "allyouplay nioh 3",
+        "store": "other",
+        "url": "https://www.allyouplay.com/pc/nioh-3",
+        "image_url": null,
+        "description": "submitted by /u/AllYouPlay [link] [comments]",
+        "id_in_db": "t3_1pi6bhn",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "12% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/AllYouPlay [لینک] [نظر]"
     },
     {
         "title": "apps accumulator pdf mini 749",
@@ -173,27 +186,6 @@
         "persian_summary": "Big Drunk Satanic Massacre اساسا یک تیرانداز با عناصر RPG قوی است - البته نه آن تفنگ راکتی. خود بازی در جهنم اتفاق می افتد، جایی که قهرمان اصلی، لو، می خواهد مشروب الکلی پیدا کند و داغ ترین معشوقه را از چنگ یک دلقک چاق نجات دهد. این بازی از چهار سطح / فصل تشکیل شده است که مناطق مختلف جهنم را نشان می دهد، مانند کافه فست فود جهنمی Big Wack، Skeleton Slums و Red Light District. ایده پشت این سطوح، کشتن رئیس‌های خاص است. هر رئیس نشان دهنده یک مبارزه چند مرحله ای منحصر به فرد است و بسیار چالش برانگیز است. بازیکن باید بین شش سلاح و یک توانایی جادویی یکی را انتخاب کند. ویژگی اصلی بازی این است که لو با مشروب الکلی شفا می یابد. هر چه بیشتر مشروب بنوشد، سطح الکل خونش بیشتر می شود که برایش خوب است. در نتیجه ممکن است اثرات منفی یا مثبت داشته باشد. آیا تا به حال فکر کرده اید که پسر شیطان بودن چگونه است؟ هیچ چیز خاصی ... شهوت آزاد شده، الکلیسم مزمن و تیراندازی بی پروا - روال معمول ..."
     },
     {
-        "title": "clair obscur",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/1903340/Clair_Obscur_Expedition_33/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1903340/be3305b02d4db0dffa3458537118423bf2792d7e/header.jpg?t=1762765069",
-        "description": "Once a year, the Paintress wakes and paints upon her monolith. Paints her cursed number. And everyone past that age turns to smoke and fades away. Year by year, that number ticks down and more of us are erased. Tomorrow she’ll wake and paint “33.” And tomorrow we depart on our final mission - Destroy the Paintress, so she can never paint death again. We are Expedition 33. Clair Obscur: Expedition 33 is a ground-breaking turn-based RPG with unique real-time mechanics, making battles more immersive and addictive than ever. Explore a fantasy world inspired by Belle Époque France in which you battle devastating enemies. In this evolution of JRPGs, real-time actions enhance the heart of turn-based combat. Craft unique builds for your Expeditioners that fit your playstyle via gear, stats, skills, and character synergies. Open an active dimension in combat - dodge, parry, and counter in real time, chain combos by mastering attack rhythms, and target enemy weak points using a free aim system. With only one year left to live, join Gustave, Maelle, and their fellow Expeditioners as they embark upon a desperate quest to break the Paintress’ cycle of death. Follow the trail of previous expeditions and discover their fate. Get to know the members of Expedition 33 as they learn to work together against impossible odds. Explore an enchanting realm populated by surreal adversaries. Wander through breathtaking landscapes, from the Island of Visages to the Forgotten Battlefield, discovering secrets and hidden quests along the way. Find allies of fortune in creatures of legend. Recruit special companions to access new travel methods and discover secret areas in the World Map. Experience the debut game from Sandfall Interactive, fully realized in Unreal Engine 5 with stunning graphics and a heartbreaking soundtrack.",
-        "id_in_db": "t3_1pg1ae0",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "20% off",
-        "steam_app_id": "1903340",
-        "genres": [
-            "Action",
-            "RPG"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "age_rating": "The game features depictions of violence, blood and suicide, and imagery that some players may find disturbing. The game contains revealing outfits and light/stylistic partial nudity.",
-        "is_dlc_or_addon": false,
-        "persian_summary": "یک بار در سال، نقاش از خواب بیدار می شود و روی یکپارچه خود نقاشی می کند. شماره نفرین شده اش را نقاشی می کند. و هر کس که از آن سن گذشته است به دود تبدیل می شود و محو می شود. سال به سال این عدد کاهش می یابد و تعداد بیشتری از ما پاک می شویم. فردا بیدار می شود و \"33\" را نقاشی می کند. و فردا ما به ماموریت نهایی خود می رویم - نقاش را نابود کنید، تا دیگر هرگز نتواند مرگ را نقاشی کند. ما اکسپدیشن 33 هستیم. Clair Obscur: Expedition 33 یک بازی RPG نوبتی پیشگام با مکانیک های بی نظیر در زمان واقعی است که نبردها را فراگیرتر و اعتیادآورتر از همیشه می کند. دنیای فانتزی الهام گرفته از Belle Époque فرانسه را کاوش کنید که در آن با دشمنان ویرانگر مبارزه می کنید. در این تکامل JRPG ها، اقدامات بلادرنگ قلب نبردهای نوبتی را تقویت می کند. از طریق ابزار، آمار، مهارت‌ها و هم افزایی شخصیت‌ها، ساخت‌های منحصربه‌فردی را برای اکسپدیشنرهای خود بسازید که متناسب با سبک بازی شما باشد. یک بعد فعال در نبرد باز کنید - جاخالی دادن، پاری و مقابله در زمان واقعی، ترکیب های زنجیره ای با تسلط بر ریتم های حمله، و با استفاده از یک سیستم هدف آزاد نقاط ضعف دشمن را هدف قرار دهید."
-    },
-    {
         "title": "coffee",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/coffee-roaster/id1475660279",
@@ -237,32 +229,6 @@
         "is_online": false,
         "is_dlc_or_addon": false,
         "persian_summary": "20 سالگی Forza Motorsport را با به‌روزرسانی بیستمین سالگرد جشن بگیرید! در مسیر افسانه‌ای فوجیمی کایدو استاد 144 پیچ شدید و مهارت‌های خود را در 16.5 کیلومتر (10.24 مایل) از جاده‌های کوهستانی ژاپنی مارپیچ نشان دهید. در مسابقات Open Track Day و Drift Meetups در کنار دوستان و سایر بازیکنان خود با اتومبیل های مورد علاقه خود مسابقه دهید و درایفت کنید، یا با ساخت ماشین های جدید آزمایش کنید. ماشین‌های روکش نمادین بازی‌های Forza Motorsport گذشته - هر کدام با صدای جدید به‌روزرسانی شده - را دوباره ببینید و لباس‌های یادبود راننده را در تور بیستمین سالگرد باز کنید. پشت فرمان خودروهای جدید و بسیار مورد تقاضای موتوراسپرت شوید* از جمله آکورا NSX نوع S 2022، نیسان Z NISMO 2024، 2005 #1 Sierra Enterprises Lancer Evolution Time Attack، Toyota #25 Horsepower Techs Formula1995، Starlet Time1995، 1984 سوپرا MkIV. برای جشن‌های بیستمین سالگرد به ما بپیوندید و پس از هر مسابقه هیجان‌انگیز با یک لیست پخش موسیقی تازه، با آهنگ‌های جدید و مجموعه‌ای از آهنگ‌های نمادین، استراحت کنید..."
-    },
-    {
-        "title": "deluxe 123 108 086 c135 a157 r263 with code cheers",
-        "store": "other",
-        "url": "https://store.playsum.live/product/61a54d7d-4d07-4c99-b3ec-6083cd310cb0/roller-coaster-tycoon-deluxe",
-        "image_url": null,
-        "description": "submitted by /u/Lets_Playsum [link] [comments]",
-        "id_in_db": "t3_1pfyyip",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "79% off",
-        "is_dlc_or_addon": true,
-        "persian_summary": "ارسال شده توسط /u/Lets_Playsum [لینک] [نظر]"
-    },
-    {
-        "title": "deluxegoldultimate 2699 3299 3899",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/2842040/Star_Wars_Outlaws/",
-        "image_url": "https://external-preview.redd.it/JzGFxcOba4Ot0ojFhIZSYzYZnDsvNv6W4v6-P9tfVgY.jpeg?width=320&crop=smart&auto=webp&s=9cbaf42e71190c3a482a9479e41887636a84a798",
-        "description": "submitted by /u/ooohexplode [link] [comments]",
-        "id_in_db": "t3_1pgdg8s",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "70% off",
-        "is_dlc_or_addon": true,
-        "persian_summary": "ارسال شده توسط /u/ooohexplode [پیوند] [نظر]"
     },
     {
         "title": "die young",
@@ -344,7 +310,7 @@
         "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": "100% Off",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/96/00/ea9600da-bf74-62a8-d099-90d887f5e943/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/06/d0/e106d02d-8c28-c8a4-a019-13ec5d23989a/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
         "is_dlc_or_addon": false,
         "persian_summary": "",
         "description": ""
@@ -372,26 +338,6 @@
         "persian_summary": "نکته دسترسی اولیه: Effulgence RPG یک بازی RPG علمی تخیلی در سبک سه بعدی ASCII است. این اولین ساخت دسترسی زودهنگام، یک برش کوتاه و صیقلی از بازی کامل است – تقریباً 1 تا 1.5 ساعت برای اولین اجرا، بسته به میزان کاوش شما. شما هویت بصری کامل، کره ASCII، مبارزات مهمانی و حلقه اصلی \"شکستن دشمنان به ذرات و ابزار چاپ\" را در عمل خواهید دید، اما با مجموعه ای محدود از مکان ها و انواع دشمن. با دسترسی زودهنگام، آن را به سمت یک کمپین 3 تا 5 ساعته با مکان‌ها، برخوردها و گزینه‌های تاکتیکی بیشتر گسترش خواهم داد. اگر یک تجربه کامل 1.0 را ترجیح می دهید، لطفاً بازی را به لیست علاقه مندی های خود اضافه کنید و در نسخه کامل دوباره بررسی کنید. اگر می‌خواهید از قبل یک ASCII RPG فشرده و عجیب بازی کنید و به شکل‌دهی آن کمک کنید، همین حالا وارد شوید – بازخورد شما مستقیماً به شکل‌دهی بازی کمک می‌کند. 🎧 جایزه دسترسی زودهنگام: هرکسی که در حین دسترسی زودهنگام Effulgence RPG را انتخاب کند، موسیقی متن اصلی توسط Sergey Eybog را به عنوان یک DLC رایگان دریافت می کند. اگر OST دیرتر پرداخت شود، صاحبان اولیه آن را برای همیشه نگه می دارند..."
     },
     {
-        "title": "epic games store universe for sale is currently available to claim for free on the epic game store for pc mobile",
-        "store": "epicgames",
-        "url": "https://www.reddit.com/r/AppHookup/comments/1p87f8a/windowsiosandroid_epic_games_store_universe_for/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3540720/3610049a8fefc518345c318e5e2040c3625ce69f/header.jpg?t=1762870366",
-        "description": "A free-to-play collectible card game set in a sprawling cosmic universe. Inspired by a popular comedic sci-fi setting, it delivers fast-paced, dynamic battles—with absolutely no pay-to-win mechanics! Key Features Four Core Heroes Each hero is tied to a specific race and boasts a unique glowing core color. Build your deck around your chosen hero to unlock powerful synergies and outmaneuver your opponent. 25-Card Decks Your arsenal includes creatures and skill cards . Experiment with various combinations to find the strategy that suits you best. Short, Exciting Matches Each game lasts around 5 to 7 minutes, perfect for quick sessions or extended play. Jump in anytime! Epic Cosmic Battles Currently featuring a single arena— a showdown in the vastness of space , complete with twinkling stars in the background. We plan to expand with more arenas and visual effects soon. Unique Class Effects Certain class-based cards come with powerful, sometimes unexpected abilities that can turn the tide of battle in an instant. Gameplay Turn-Based 1v1 Battles Challenge real players in tense, strategic duels. Your wits and card combos will be the key to victory. Helpful Tutorial New to CCGs? Our in-game tutorial will walk you through the basics, show you how different cards work, and get you battle-ready. Deep Tactical Options Every card has the potential to change your fate. Craft a winning strategy and seize the critical moment to outplay your rival. Progression & Monetization Completely Free-to-Play Enjoy the game at no cost—no paywalls, no hidden catches. Earn in-game currency simply by playing matches, completing missions, and taking part in special events. Card Packs for In-Game Currency Get new card packs without ever spending real money. If you prefer, you can purchase individual cards, but the main way to collect is by earning currency through gameplay. Battle Pass & Events A Battle Pass , regular events , and daily match rewards keep the experience fresh. Even if you only pop in for a few minutes a day, you’ll see steady progress. Platforms & Technical Details Available on Multiple Platforms Play on PC or mobile devices—your account and progress sync seamlessly across all platforms. Frequent Updates We’re committed to improving balance, adding new cards, introducing fresh mechanics, and hosting in-game events. There’s always something new on the horizon! Community & What’s Next Tournaments & Competitive Events Look out for upcoming tournaments and ranked seasons. Prove your skills and claim your rightful place at the top! Contests & Creative Engagement Share your fan art, discuss strategies, and join community contests. We love seeing what our players create. Why Play Dopdop Online? Unique Cosmic Theme : A fun blend of comedic sci-fi and strategic card battles. F2P-Friendly : Generous rewards and zero pay-to-win elements. Easy to Learn, Challenging to Master : Quick to pick up, yet deep enough for dedicated players. Play Whenever, Wherever : Short matches, cross-platform support, and a lively online community. Ready to Battle? Jump into Dopdop Online and take on players from around the globe! Build the ultimate cosmic deck, dominate the galaxy, and explore a universe of interstellar adventures.",
-        "id_in_db": "t3_1p87f8a",
-        "subreddit": "AppHookup",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "3540720",
-        "genres": [
-            "Strategy",
-            "Free To Play"
-        ],
-        "is_multiplayer": true,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "یک بازی ورق کلکسیونی رایگان که در یک جهان کیهانی گسترده اتفاق می‌افتد. با الهام از یک محیط علمی-تخیلی کمدی محبوب، نبردهای سریع و پویا را ارائه می‌کند - بدون هیچ مکانیک پرداخت به برد! ویژگی های کلیدی چهار قهرمان اصلی هر قهرمان به یک نژاد خاص گره خورده است و دارای یک رنگ هسته درخشان منحصر به فرد است. عرشه خود را حول قهرمان انتخابی خود بسازید تا هم افزایی قدرتمند را باز کنید و بر حریف خود مانور دهید. عرشه های 25 کارتی زرادخانه شما شامل موجودات و کارت های مهارت است. با ترکیب های مختلف آزمایش کنید تا استراتژی مناسب شما را بیابید. مسابقات کوتاه و هیجان انگیز هر بازی حدود 5 تا 7 دقیقه طول می کشد، که برای جلسات سریع یا بازی طولانی بسیار عالی است. پرش در هر زمان! نبردهای حماسی کیهانی در حال حاضر دارای یک میدان واحد است - یک مسابقه در وسعت فضا، با ستاره های چشمک زن در پس زمینه. ما قصد داریم به زودی با عرصه ها و جلوه های بصری بیشتری گسترش دهیم. جلوه های کلاس منحصر به فرد برخی از کارت های مبتنی بر کلاس دارای توانایی های قدرتمند و گاهی غیرمنتظره ای هستند که می توانند جریان را تغییر دهند..."
-    },
-    {
         "title": "era of miracles",
         "store": "indiegala",
         "url": "https://freebies.indiegala.com/era-of-miracles",
@@ -410,6 +356,19 @@
         "is_online": false,
         "is_dlc_or_addon": false,
         "persian_summary": "عصر معجزات – بازی نقش آفرینی. شما مسافری هستید که در جستجوی ماجراجویی رفته اید. چه انتظاری می توانید داشته باشید؟ آیا می تواند جنگ داخلی بین اورک ها باشد؟ اگر بخواهید جین خود را پیدا کنید چه؟ یا ماجراهای هیجان انگیز دیگر؟ ویژگی کلیدی: • تاریخچه غیرخطی. کوئست هایی که می توانند به روش های مختلف تکمیل شوند. • دنیای پویا. در اقدامات شما NPC پاسخ خواهد داد. تغییر دینامیک روز و شب. در شب مغازه ها کار نخواهند کرد و NPC در خیابان ها سرگردان خواهد بود. • دنیای بازی که در آن زندگی می کنند: مردم، اورک ها، الف ها، کوتوله ها و نژادهای دیگر. • گیم پلی هیجان انگیز در مکان های مختلف: با زندگی گروه های دیگر آشنا شوید، از اهرام، جنگل ها و مکان های اسرارآمیز دیگر دیدن کنید. • آزادی کامل. شما می توانید به هر سمتی حرکت کنید و آنچه را که می خواهید انجام دهید"
+    },
+    {
+        "title": "etailmarket dead cells 55 off 1088",
+        "store": "other",
+        "url": "https://etail.market/dead-cells-3",
+        "image_url": "https://external-preview.redd.it/OvjDjcWJS4OpGjDD1-KuRaEhbGuSPq7eoGKhoaUoJL4.png?width=640&crop=smart&auto=webp&s=07ec049e96a244030e76b482daa9078352c48c78",
+        "description": "submitted by /u/etailmarket [link] [comments]",
+        "id_in_db": "t3_1pia69a",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "55% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/etailmarket [لینک] [نظر]"
     },
     {
         "title": "etailmarket xcom 2 96 off 201",
@@ -516,6 +475,27 @@
         "persian_summary": "ارسال شده توسط /u/Demus_App [لینک] [نظر]"
     },
     {
+        "title": "galactic glitch",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1536620/Galactic_Glitch/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1536620/f620ea6c794aa1abcb7127e79ccfe20d095eba3f/header.jpg?t=1765014294",
+        "description": "Galactic Glitch is an Twin-Stick Roguelike Shooter with physics based combat . Use your grav gun and exploit physics, grabbing and slingshotting rocks and mines off the walls of the arena. Grab enemy rockets and fling them back in their faces, or even grab and launch enemies into each other! 2D Space-Roguelite - Experience exhilarating twin-stick shooter gameplay combined with the endless replayability of a rogue-lite and the heart-pounding challenge of permadeath Physics-based Combat - Wield a powerful gravity gun to manipulate the battlefield, hurl massive asteroids, and turn your enemies' own missiles against them Multi-Part Enemies - Strategically dismantle foes piece by piece, exploiting their weak spots while avoiding their heavily armored defenses Dynamic Exploration - Venture into a mysterious, glitched world of star systems, uncovering hidden secrets and valuable items as you chart your unique path Abilities and Items - Customize your approach with diverse upgrade paths in each run. Unlock new Powers and experiment with creative combinations to craft your ultimate build",
+        "id_in_db": "t3_1pidzoq",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "65% off",
+        "steam_app_id": "1536620",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Simulation"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "is_dlc_or_addon": false,
+        "persian_summary": "Galactic Glitch یک تیرانداز Roguelike Twin-Stick با نبردهای مبتنی بر فیزیک است. از تفنگ گراو خود استفاده کنید و از فیزیک بهره برداری کنید، صخره ها و مین ها را از دیوارهای میدان مسابقه بگیرید و تیرکمانک کنید. موشک های دشمن را بگیرید و آنها را به صورت آنها برگردانید، یا حتی دشمنان را به سمت یکدیگر بگیرید و پرتاب کنید! 2D Space-Roguelite - تجربه بازی هیجان انگیز تیراندازی دو چوبی همراه با قابلیت پخش مجدد بی پایان بازی Rogue-lite و چالش تپنده قلب نبرد مبتنی بر فیزیک permadeath - یک تفنگ گرانشی قدرتمند را برای دستکاری میدان نبرد، پرتاب کردن سیارک های عظیم، و موشک های چندگانه علیه آنها به کار بگیرید. دشمنان را تکه تکه از بین ببرید، از نقاط ضعف آنها استفاده کنید و در عین حال از دفاع های زرهی سنگین آنها اجتناب کنید. اکتشاف پویا - وارد دنیایی مرموز و پرمخاطب از سیستم های ستاره ای شوید، اسرار پنهان و آیتم های ارزشمند را در حین ترسیم مسیر منحصر به فرد خود کشف کنید."
+    },
+    {
         "title": "games colorzzle 099 free",
         "store": "googleplay",
         "url": "https://play.google.com/store/apps/details?id=com.DarongStudio.Colorzzle",
@@ -607,23 +587,17 @@
         "persian_summary": "WodTimer ساخته شده، رایگان برای 48 ساعت آینده. این یک تایمر است که در واقع ساده و آسان برای استفاده است و به طور یکپارچه با اپل واچ کار می کند. لطفا برای ما یک بررسی بگذارید! ویژگی‌های اصلی: صفحه نمایش ساعت چرخشی - تغییرات متحرکی که در سراسر باشگاه قابل مشاهده است، استقلال واقعی اپل واچ - با تلفن خود شروع کنید، بدون نیاز به تلفن در نزدیکی خود روی مچ دست خود ادامه دهید مجموعه کامل تایمر - حالت‌های AMRAP، EMOM، تاباتا، و برای زمان همه در یک برنامه بازخورد لمسی - احساس هر تغییر روی مچ دست خود را در حین تمرین - سیستم Timer سریع در پس‌زمینه کار می‌کند - سیستم Timer در پس‌زمینه کار می‌کند تایمرهای پرکاربرد شما برای دسترسی فوری هشدارهای قابل تنظیم - نشانه های صوتی و بوق های شمارش معکوس (3 تا 30 ثانیه، یا به طور کامل رد شوید) پیشنهاد جمعه سیاه: آن را برای 48 ساعت آینده برای مادام العمر رایگان کنید. بدون اشتراک، بدون تبلیغات، بدون جلب. فقط همه چیز را دانلود و باز کنید. ایده آل برای ورزشکاران در باشگاه، ورزشکاران کراس فیت، تمرینات HIIT، تمرینات خانگی، یا هر کسی که یک تایمر قابل اعتماد می خواهد..."
     },
     {
-        "title": "maze burrow",
-        "store": "itch.io",
-        "url": "https://kimimaru.itch.io/maze-burrow",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1244190/header.jpg?t=1754055369",
-        "description": "Maze Burrow is a Sokoban-inspired puzzle game that involves pushing and pulling blocks. Help the echidna escape its maze-like burrow by solving puzzles to activate the portal in each level and fight back against the moles! Timeless Gameplay Push and pull blocks into matching tiles to activate the level portal in over 60 levels of classic puzzle goodness. Use your wits to optimize solutions and aim for the lowest scores and time possible. Traverse the Burrow The moles have dug an elaborate burrow that contains many obstacles the echidna must overcome. Utilize switches and warps to tackle unpassable walls. Traverse through ice and mud, which change how the echidna can move blocks. Work with paired blocks, which move in tandem. These obstacles are more common as the echidna progresses throughout the burrow, and they often combine to create increasingly complex puzzles. Boss Fights Every now and then, the echidna will have a run-in with the moles and get a chance to show them who's boss! These unique levels add a hint of action to the puzzle-solving done throughout the burrow. Free/Libre Maze Burrow is free/libre software, and each purchase comes with the complete source code, allowing for unlimited modding potential. It's every modder's dream!",
-        "id_in_db": "t3_1p8sptb",
-        "subreddit": "FreeGameFindings",
+        "title": "iosdaily planner echoday3999 free lifetimesmart daily planner with apple intelligence",
+        "store": "iosappstore",
+        "url": "https://apps.apple.com/us/app/daily-planner-ai-echoday/id6751630276",
+        "image_url": "https://external-preview.redd.it/UFzWdwFkEIVwszQGiTgGFwVZWYLLF7Cu06ZImCSzneQ.jpeg?width=640&crop=smart&auto=webp&s=b4ba5a09a3da1e1eb0abc9c682b53a5c5c1efdb4",
+        "description": "Built EchoDay, free for the next 48 hours. This is a daily planner that's actually secure and keeps your info completely private on your device. Using local AI, your data never leaves your phone. Main features: Natural conversations - Just ask \"Do I have time for lunch?\" and get instant answers Complete privacy - Everything stays on your phone, nothing goes to the cloud Apple Calendar integration - All your events and reminders in one beautiful app Smart insights - Know your priorities, conflicts, and free time at a glance Works across Apple devices - iPhone, iPad, and Mac with seamless iCloud sync Quick planning - See your day clearly with intelligent summaries Learns your style - Gets smarter over time while keeping everything private Christmas Deal: Making it completely FREE for lifetime for the next 48 hours. No subscriptions, no ads, no catches. Just download and unlock everything. Perfect for busy professionals, students, anyone juggling multiple calendars, or anyone who wants a planner that actually understands them. submitted by /u/alexndb [link] [comments]",
+        "id_in_db": "t3_1pikxhs",
+        "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "1244190",
-        "genres": [
-            "Indie"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "Maze Burrow یک بازی پازل الهام گرفته از سوکوبان است که شامل هل دادن و کشیدن بلوک ها است. با حل پازل ها برای فعال کردن پورتال در هر سطح و مبارزه با خال ها، به اکیدنا کمک کنید تا از لانه های پیچ و خم مانند خود فرار کند! گیم پلی بی انتها بلوک ها را به کاشی های منطبق فشار دهید و بکشید تا پورتال سطح را در بیش از 60 سطح از خوبی های پازل کلاسیک فعال کنید. از عقل خود برای بهینه سازی راه حل ها استفاده کنید و کمترین امتیاز و زمان ممکن را هدف بگیرید. عبور از لانه خال ها حفره مفصلی حفر کرده اند که شامل موانع زیادی است که اکیدنا باید بر آنها غلبه کند. از سوئیچ ها و پیچ ها برای مقابله با دیوارهای غیرقابل عبور استفاده کنید. از میان یخ و گل عبور کنید، که نحوه حرکت اکیدنا را تغییر می‌دهد. با بلوک های زوجی کار کنید که پشت سر هم حرکت می کنند. این موانع با پیشروی اکیدنا در سرتاسر لانه رایج‌تر هستند و اغلب با هم ترکیب می‌شوند تا پازل‌های پیچیده‌تری ایجاد کنند. باس فایت هرازگاهی، اکیدنا با خال ها درگیر می شود و این فرصت را پیدا می کند که به آنها نشان دهد رئیس کیست!..."
+        "persian_summary": "EchoDay ساخته شده، رایگان برای 48 ساعت آینده. این یک برنامه ریز روزانه است که در واقع ایمن است و اطلاعات شما را کاملاً خصوصی در دستگاه شما نگه می دارد. با استفاده از هوش مصنوعی محلی، داده های شما هرگز از تلفن شما خارج نمی شود. ویژگی های اصلی: مکالمات طبیعی - فقط بپرسید \"آیا برای ناهار وقت دارم؟\" و دریافت پاسخ های فوری حریم خصوصی کامل - همه چیز در تلفن شما باقی می ماند، هیچ چیز به ابر نمی رود ادغام تقویم Apple - همه رویدادها و یادآوری های شما در یک برنامه زیبا بینش های هوشمند - اولویت ها، تضادها و اوقات فراغت خود را در یک نگاه بشناسید در همه دستگاه های Apple کار می کند - iPhone، iPad و Mac با همگام سازی یکپارچه iCloud - برنامه ریزی سریع را به طور کامل یاد بگیرید - خلاصه روز خود را به وضوح یاد بگیرید. قرارداد کریسمس خصوصی همه چیز: برای 48 ساعت آینده آن را برای مادام العمر کاملا رایگان کنید. بدون اشتراک، بدون تبلیغات، بدون جلب. فقط همه چیز را دانلود و باز کنید. ایده آل برای حرفه ای های پرمشغله، دانش آموزان، هرکسی که با چندین تقویم دستکاری می کند یا هرکسی که می خواهد..."
     },
     {
         "title": "milf city",
@@ -647,19 +621,6 @@
         "persian_summary": "میلف سیتی شهری مدرن است که در آن بسیاری از نژادها، فرهنگ ها و زندگی مردم عادی در هم تنیده شده است. و امروز شما می توانید از نزدیک با زندگی 5 دختر زیبا، ساکنان این شهر، که در سبک زندگی و شخصیت خود کاملاً متفاوت هستند آشنا شوید. در اینجا مشکلات زندگی روزمره را فراموش خواهید کرد و در دنیای هیجان انگیز شهر میلف فرو خواهید رفت! ویژگی ها: ➡ 5 دختر که شما را با تنوع و کاریزمای خود شگفت زده خواهند کرد! ➡ هنگامی که بازی را شروع می کنید، نمی توانید متوقف شوید، بیشتر و بیشتر می خواهید ... ➡ فال ماهجونگ-یک نفره، که در آن می توانید انعطاف ذهن خود را نشان دهید و پاداش های مورد نظر را دریافت کنید ... ➡ هر دختری پازل فال ماهجونگ-یک نفره خود را دارد. ➡ هر دختر گالری خود را دارد، با تصاویر منحصر به فرد خود. درباره شخصیت ها: ➡ صاحب بار آبجو یک زن سکسی آمریکایی است که همه چیز را در مورد دم کردن آبجو واقعی می داند و از اینکه در حین گفتگوی دلپذیر با شما چند لیوان بخورد مخالف نیست. باور کن نخواهی..."
     },
     {
-        "title": "minemogul 1257 1274 1087",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/3846120/MineMogul/",
-        "image_url": "https://external-preview.redd.it/trssNGoSrhW3wdlrKHw3IMAM2qgMnDp-6DqHE0jHmg4.jpeg?width=320&crop=smart&auto=webp&s=a7cb327060f7bb645067c3b795394f7ade3c488c",
-        "description": "submitted by /u/GoldenBOY8282 [link] [comments]",
-        "id_in_db": "t3_1pfpn1y",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "15% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/GoldenBOY8282 [لینک] [نظر]"
-    },
-    {
         "title": "nikana nikana dax skin dax portrait daybreak color palette awlspan syandana ghost kuaka floof",
         "store": "other",
         "url": "https://www.reddit.com/r/FreeGameFindings/comments/1pggwb7/pcconsolemobile_other_warframe_nikana_nikana_dax/",
@@ -671,29 +632,6 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "https://preview.redd.it/spuo8n6lwr5g1.png?width=1280&format=png&auto=webp&s=a2ff4e43172cae807d7822037757e4b9fe419d72 https://www.warmoONDE.com/WFpro https://www.warframe.com/promocode/OLDPEACE-QQKXJ ارسال شده توسط /u/MeguminShiro [لینک] [نظرات]"
-    },
-    {
-        "title": "no means nothing",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/3706160/Bober_Bros_No_Means_Nothing/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3706160/26cd62857c0ad2c5317cb249c664298344901d09/header.jpg?t=1764952487",
-        "description": "KEY FEATURES: Relatable Workplace Horror An ordinary packaging shift turns tense when a boundary-crossing co-worker keeps testing how far you’ll bend. Anti-Dating Sim // Choices Matter Every yes, NO , or awkward silence shifts the relationships and power balance. Multiple Endings Your approach unlocks several possible outcomes, from a strained farewell to a chilling finale. Atmospheric Horror, No Cheap Jumpscares Fear comes from silence, hostile stares, and the feeling of being cornered. Based on True Events Yeah, this shit really happened to me, and living through it was awkward as hell. Short but Unsettling One-hour playthroughs make it easy to experiment with different boundaries and endings.",
-        "id_in_db": "t3_1pgcg2l",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "20% off",
-        "steam_app_id": "3706160",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Casual",
-            "Indie",
-            "Simulation"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "ویژگی‌های کلیدی: ترسناک محل کار مرتبط، زمانی که یک همکار که از مرز عبور می‌کند، مدام آزمایش می‌کند که چقدر خم می‌شوید، تغییر بسته‌بندی معمولی به تنش تبدیل می‌شود. Anti-Dating Sim // انتخاب ها مهم هستند هر بله، نه، یا سکوت ناخوشایند روابط و تعادل قدرت را تغییر می دهد. پایان های چندگانه رویکرد شما چندین نتیجه ممکن را باز می کند، از یک خداحافظی سخت گرفته تا یک پایان دلخراش. ترس جوی، بدون پرش ارزان ترس ناشی از سکوت، نگاه‌های خصمانه و احساس گوشه‌گیری است. بر اساس رویدادهای واقعی بله، این اتفاق واقعاً برای من رخ داده است و زندگی در آن برای من بسیار ناخوشایند بود. بازی های کوتاه اما ناراحت کننده یک ساعته آزمایش با مرزها و پایان های مختلف را آسان می کند."
     },
     {
         "title": "offline idle rpg 149 049",
@@ -796,19 +734,6 @@
         "persian_summary": "Switchmas بازگشته است، به نظر می رسد امسال 10 بازی رایگان بیش از 8 قطره (3 بازی در روز گذشته). دستورالعمل‌های دقیق و پرسش‌های متداول در وب‌سایت موجود است، شما باید قبل از انتشار اولین بازی در 12 دسامبر برای خبرنامه ثبت‌نام کنید، نمی‌دانم شرکت در سال‌های گذشته ثبت نام را نفی می‌کند یا خیر، اما شانسی برای آن ندارم (یعنی اگر تصمیم به ثبت نام نکردید و از دست دادید، من را سرزنش نکنید). بازی‌ها هر روز از 12 تا 19 دسامبر حذف می‌شوند و باید هر روز جمع‌آوری کنید تا همه آن‌ها را به‌صورت رایگان دریافت کنید، اگر قطره‌ای را از دست بدهید، دیگر نمی‌توانید بدون خرید بازی‌هایی که از دست داده‌اید به دست آورید: \"با این حال باید مراقب باشید. اگر فراموش کردید که هر یک از عناوین رایگان مربوطه را پس‌خرید کنید، واجد شرایط برای لیست بعدی کاربرانی نخواهید بود که عنوان قبلی را به عنوان رایگان اضافه می‌کنند. حساب‌ها (اگر بازی را از دست دادید، نگران نباشید. فقط بازی‌های گمشده را بخرید که یک روز پس از تخفیف مالک برای تکمیل زنجیره به فروش می‌رسد و این امکان را به شما می‌دهد که ..."
     },
     {
-        "title": "qr code pdf image to text 1199 299 75 off black friday deal",
-        "store": "iosappstore",
-        "url": "https://apps.apple.com/us/app/textsniper/id1528890965?mt=12",
-        "image_url": "https://external-preview.redd.it/jlRMmJLPNDOU1ANdB5jEwElGjBfNbK3YV_lqpEUdAZg.jpeg?width=640&crop=smart&auto=webp&s=645d495208afe03fbdcffad7b439f86bcda678d8",
-        "description": "Hey everyone 👋 I'm the developer of TextSniper app, an OCR utility for macOS that lets you extract text from anywhere on your screen For Black Friday week I'm running a 75% discount on the lifetime license: 👉 $2.99 instead of $11.99 ⏳ Valid Nov 27 → Dec 3 submitted by /u/twoperkg [link] [comments]",
-        "id_in_db": "t3_1p83u1r",
-        "subreddit": "AppHookup",
-        "is_free": false,
-        "discount_text": "75% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "سلام به همه 👋 من توسعه دهنده برنامه TextSniper هستم، یک ابزار OCR برای macOS که به شما امکان می دهد متن را از هر نقطه روی صفحه خود استخراج کنید برای هفته جمعه سیاه، من از 75٪ تخفیف برای مجوز مادام العمر استفاده می کنم: 👉 2.99 دلار به جای 11.99 دلار ⏳ معتبر 27 نوامبر [operk → Dec]"
-    },
-    {
         "title": "robocop rogue city 399 usd 90 off",
         "store": "steam",
         "url": "https://store.steampowered.com/app/1681430/RoboCop_Rogue_City/",
@@ -867,7 +792,7 @@
         "title": "screen translator 4495 annual free for 48 hours translate any app screen instantly with one tap",
         "store": "iosappstore",
         "url": "https://apps.apple.com/redeem?ctx=offercodes&id=6751373070&code=TRANSMATEBFCM",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/80/50/0b805061-6bca-ab8a-af55-8e957e22a786/logo_translate_color-0-1x_U007epad-0-0-0-1-0-0-0-85-220-0.png/512x512bb.jpg",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d1/2d/b0/d12db019-054c-a8f2-37c9-03b83dafea50/logo_translate_color-0-1x_U007epad-0-0-0-1-0-0-0-85-220-0.png/512x512bb.jpg",
         "description": "Hey everyone! 👋 I've never done a promo for my app before, but since it's BFCM and the holiday season, I would like to offer a 1 year FREE subscription! 😎 The app is called ' TransMate - Screen Translator ' 👉 What The App Does: It instantly translates any app screen with just one tap, so you no longer need to manually screenshot and upload each image to get a translation everytime. Also, you won’t need to clear your gallery afterwards because the app does not save your screenshots. Everything is done with one tap, with accurate context-aware translation. None of your data is stored. This promo offers 1 year free pro access to all the app features with no ads (be quick, limited codes only!) It’s a really useful utility app that saves you time. I initially made it for myself because I needed something like this while travelling and using apps in other languages. 🔗 App Store link: APP LINK - https://apps.apple.com/app/transmate-screen-translator/id6751373070 Feel free to check the app out, and if you have any feedback or suggestions please drop it below! UPDATE: The promo offer has all been claimed. Thank you everyone for the support! ❤️ submitted by /u/fibbby [link] [comments]",
         "id_in_db": "t3_1p9wi8r",
         "subreddit": "AppHookup",
@@ -888,27 +813,6 @@
         "discount_text": "80% off",
         "is_dlc_or_addon": true,
         "persian_summary": "ارسال شده توسط /u/indieg [لینک] [نظر]"
-    },
-    {
-        "title": "still wakes the deep",
-        "store": "indiegala",
-        "url": "https://www.indiegala.com/store/game/still-wakes-the-deep/1622910",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1622910/4922a49a07bf4f8eb23c33571e723d69de5dc5fb/header.jpg?t=1764862517",
-        "description": "Winner of three BAFTA Games Awards: Best New IP; Performer in a Leading Role; Performer in a Supporting Role STILL WAKES THE DEEP is a return to the first-person narrative horror genre for The Chinese Room, creator of critically acclaimed games such as Amnesia: A Machine for Pigs , Everybody’s Gone to the Rapture , and Dear Esther . You are an offshore oil rig worker, fighting for his life through a vicious storm, perilous surroundings, and the dark, freezing North Sea waters. All lines of communication have been severed. All exits are gone. All that remains is to face the unknowable horror that’s come aboard. Search for your crew and help them survive if you can. Run, climb, and swim through the flooding corridors and storm-lashed outer decks. Face a terrifying, unrelenting foe. And pray that, one day, you get to see your family again. The Chinese Room – with its reputation for world-class world-building, audio, writing, and acting – delivers a symphony of action, trepidation, tender emotions, and awe. LIVE THE HORROR An immersive disaster story aboard a stunningly realised North Sea oil rig, starring an authentic cast of Scottish actors. Experience the beauty and ferocity of the sea as it rips apart one of humanity’s strongest structures and its steadfast crew. ESCAPE THE RIG No weapons. No powers. Just your wits and determination. Struggle for survival on an unstable oil rig, where one wrong step could be your last. FACE YOUR FEARS Something has turned your home into a nightmare, where the familiar becomes threatening, and where a noise in the dark fills you with dread. Resist the urge to turn back. Confront the unknown. GAME FEATURES Explore an authentic oil rig in 1970’s Scotland that evolves throughout the story World-class visuals, audio, and writing from award-winning studio The Chinese Room Star-studded cast of voice-actors: Alec Newman (BAFTA winning role), Karen Dunbar (BAFTA winning role), Michael Abubakar (BAFTA nominated role) Neve McIntosh (Golden Joystick Award nominated role), and more Haunting soundtrack by BAFTA winning composer Jason Graves Updated with new features including Chapter Select, Yellow Markers toggle, and Silver Screen cinematic filter Optional Story Mode available for players who wish to reduce the threat",
-        "id_in_db": "t3_1pfuht2",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "85% off",
-        "steam_app_id": "1622910",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Indie"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "برنده سه جایزه بازی بفتا: بهترین IP جدید. مجری در نقش اصلی؛ بازیگر نقش مکمل هنوز هم عمیقاً بیدار می شود، بازگشتی به ژانر ترسناک روایی اول شخص برای اتاق چینی است، خالق بازی های تحسین شده ای مانند Amnesia: A Machine for Pigs، Everybody’s Gone to the Rapture و Dear Esther. شما یک کارگر دکل نفتی دریایی هستید که برای زندگی خود از طریق طوفان بد، محیط خطرناک و آب های تاریک و یخ زده دریای شمال می جنگید. تمام خطوط ارتباطی قطع شده است. همه خروجی ها از بین رفته است. تنها چیزی که باقی می ماند این است که با وحشت ناشناخته ای روبرو شوید. خدمه خود را جستجو کنید و در صورت امکان به آنها کمک کنید زنده بمانند. بدوید، بالا بروید و در راهروهای سیل‌آلود و عرشه‌های بیرونی طوفان‌زده شنا کنید. با یک دشمن وحشتناک و بی امان روبرو شوید. و دعا کن که روزی دوباره خانواده ات را ببینی. اتاق چینی - با شهرتش برای ساختن جهانی، صدا، نویسندگی و بازیگری در سطح جهانی - سمفونی اکشن، دلهره، لطافت را ارائه می دهد."
     },
     {
         "title": "stove primal slideee deluxe mad frogg",
@@ -966,6 +870,19 @@
         "persian_summary": "بزرگترین و چهارمین بازی اضافه شده به این فرنچایز داستانی پارتی بازی، نه پنج، بلکه پنج و نیم بازی جمعیت کش را دارد! Fibbage 3 (2-8 بازیکن) عاقبت سرگرم کننده خالی. انواع سؤالات کاملاً جدید و حالت بازی Fibbage: Enough About You (3-8 بازیکن) را بازی کنید. حقایق عجیب و غریب در مورد دوستان خود را حدس بزنید. زنده ماندن در اینترنت (3-8 بازیکن) بازی فریم مبتنی بر وب. نظرات \"آنلاین\" دوستان خود را به روش های خنده دار بچرخانید. هیولا به دنبال هیولا (3-7 بازیکن) بازی شبح وار تاریخ. به هیولاهای همکار با قدرت های ویژه پیام دهید و قرار ملاقات بگذارید. براکتیرینگ (3-16 بازیکن) بازی مسابقه مناظره آشفته. روی استدلال های احمقانه شرط بندی هوشمندانه بگذارید. Civic Doodle (3-8 بازیکن) بازی هنری تکی. برای بهبود نقاشی های دیواری شهر رقابت کنید. با تلفن، تبلت یا رایانه خود بازی کنید. بدون نیاز به کنترلر اضافی! به علاوه ویژگی های حتی بیشتر فقط برای پخش کننده ها! توجه: Jackbox Party Pack 4 فقط به زبان انگلیسی است. توجه: این بازی به صورت چند نفره محلی است، اما می‌توانید از طریق پخش جریانی با بازیکنان از راه دور لذت ببرید. چگونه ..."
     },
     {
+        "title": "the telltale series 448 448 358 c619 a674 with code cheers",
+        "store": "other",
+        "url": "https://store.playsum.live/product/4bfc88a3-95ed-5aeb-8411-8951ba55f012/batman-the-enemy-within-the-telltale-series",
+        "image_url": "https://external-preview.redd.it/FiJ8g3o8_V-ADrbAU4-tk9u_K7P6GATPpa35_dP2sd8.jpeg?width=320&crop=smart&auto=webp&s=780ef8ffa7045dee68d8b06b99e9816dc1c0afbd",
+        "description": "submitted by /u/Lets_Playsum [link] [comments]",
+        "id_in_db": "t3_1piqj62",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "70% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/Lets_Playsum [لینک] [نظر]"
+    },
+    {
         "title": "tt isle of man",
         "store": "other",
         "url": "https://steamdb.info/sub/248945/",
@@ -985,29 +902,20 @@
         "is_multiplayer": true,
         "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "برای دوچرخه سواران، دو نوع مسابقه سرعت وجود دارد: جزیره من TT و بقیه. هیچ مسابقه دیگری برای موتورسیکلت ها طاقت فرسا و برای سوارکاران سخت نیست. چالش دوره کوهستان اسنافل را قبول کنید: تمام 37.73 مایل به طور صادقانه با قهرمانان و دوچرخه‌هایشان بازتولید شده است. 110 سال تاریخ، TT را به یک اسطوره اتومبیلرانی تبدیل کرده است. هر بخش از دوره را به خاطر بسپارید، هر خم را کامل بچرخانید، تمرکز خود را در طول 6 دور حفظ کنید، بهترین زمان را کسب کنید و نام خود را در کنار بزرگترین قهرمانان بنویسید. • دوره کوهستانی SNAEFELL با وفاداری تولید شده: 37.73 مایل جاده و 264 پیچ برای مسابقه ای که طولانی تر و دشوارتر از همه مدارهای GP با هم است. • سواران رسمی و موتورسیکلت های فوق العاده قدرتمند آنها: 25 سوار و 38 موتور سیکلت در امتداد جاده های کوهستانی با سرعت بیش از 180 مایل در ساعت حرکت می کنند. • سواری واقعی که توسط TT RIDERS تایید شده است: رفتار واقعی موتورسیکلت برای تجربه احساسات واقعی سواری، درست مانند مسیر واقعی. • آنلاین ..."
+        "persian_summary": "برای دوچرخه سواران، دو نوع مسابقه سرعت وجود دارد: جزیره من TT و بقیه. هیچ مسابقه دیگری برای موتورسیکلت ها طاقت فرسا و برای سوارکاران سخت نیست. چالش دوره کوهستان اسنافل را قبول کنید: تمام 37.73 مایل به طور صادقانه با قهرمانان و دوچرخه‌هایشان بازتولید شده است. 110 سال تاریخ، TT را به یک اسطوره اتومبیلرانی تبدیل کرده است. هر بخش از دوره را به خاطر بسپارید، هر خم را کامل بچرخانید، تمرکز خود را در طول 6 دور حفظ کنید، بهترین زمان را کسب کنید و نام خود را در کنار بزرگترین قهرمانان بنویسید. • دوره کوهستانی SNAEFELL با وفاداری تولید شده: 37.73 مایل جاده و 264 پیچ برای مسابقه ای که طولانی تر و دشوارتر از همه مدارهای GP با هم است. • سواران رسمی و موتورسیکلت های فوق العاده قدرتمند آنها: 25 سوار و 38 موتور سیکلت در امتداد جاده های کوهستانی با سرعت بیش از 180 مایل در ساعت حرکت می کنند. • سواری واقعی که توسط TT RIDERS تایید شده است: رفتار واقعی موتورسیکلت برای تجربه احساسات واقعی سواری، درست مانند مسیر واقعی. • آنلاین..."
     },
     {
-        "title": "typing survival",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/2400160/Glyphica_Typing_Survival/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2400160/1f3624604792536edc75d7bfcae4e1ad041017c2/header.jpg?t=1764320635",
-        "description": "Typing meets horde survival in this fast-paced roguelite that challenges your speed, accuracy, and strategy. Step into a minimalist arena and dominate the battlefield using your typing skills and your trusty keyboard. Not Your Ordinary Typing Test Type the word above an enemy to finish them off. Challenge your focus and speed as bigger waves and wicked words try to slow you down and take you out. These wily words also have a few tricks up their sleeves. Deterministic drones will simply edge closer towards you, but egregious enemies like Swarmers will fire their little bullets at you, while Shooters charge up to unleash hell on you. Kit Out; Don’t Keysmash Furiously fast fingers will never be enough! Upgrade your arsenal with unlockable weapons and loot that can help you make quick work of each wave of words. Each build is uniquely yours. Set up your Oscillator and Sentry to take care of a large swathe of territory while you pick off the stragglers, or minmax your main weapon to evolve into an alphabet assassinator? The choice is yours! (Hot)Swap your Strategies in Formidable Boss Fights There are multiple trials for you to overcome, and a boss guarding the end of each trial. Defeating the trials unlock challenging Omens that make your enemies even more formidable. Can you out-type and outwit our orthographic overlords? Control Freaks Rejoice! Hate keyboards with a passion? Or are you just better with a controller? We have you covered with controller mode that works for any controller you might have, or even on the go with your Steam Deck! Escalating Beats to Defeat Enemies to Get into your flow state and provide your best typing performance under pressure, accompanied by pulsating techno beats to carry you to victory. Key Features Ever-evolving Builds: Carve your own upgrade path through hundreds of combinations. Augmentation System: Unlock perma-upgrades and evolve your build across sessions. Typing Speedster: The higher your WPM, the more you destroy. Varied Arsenal: Experiment with an expansive collection of weapons, spoils, and upgrades. Quick and Accessible: Engage in 10-20 minute runs tailored for quick sessions. Couch mode: Words turns into quicktime sequences on controller.",
-        "id_in_db": "t3_1pg1739",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "25% off",
-        "steam_app_id": "2400160",
-        "genres": [
-            "Action",
-            "Indie",
-            "Strategy",
-            "Early Access"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
+        "title": "vault 21 jumpsuit joshua treestarfield",
+        "store": "other",
+        "url": "https://freebundle.bethesda.net/",
+        "image_url": null,
+        "description": "submitted by /u/MeguminShiro [link] [comments]",
+        "id_in_db": "t3_1pippxf",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
         "is_dlc_or_addon": false,
-        "persian_summary": "تایپ با بقای گروهی در این بازی سرکش که سرعت، دقت و استراتژی شما را به چالش می‌کشد، ملاقات می‌کند. وارد عرصه مینیمالیستی شوید و با استفاده از مهارت های تایپ و صفحه کلید قابل اعتماد خود بر میدان جنگ تسلط پیدا کنید. تست تایپ معمولی شما نیست کلمه بالای دشمن را تایپ کنید تا آنها را تمام کنید. تمرکز و سرعت خود را به چالش بکشید زیرا امواج بزرگتر و کلمات شرورانه سعی می کنند سرعت شما را کاهش دهند و شما را بیرون ببرند. این سخنان حیله گر چند ترفند نیز در آستین دارند. هواپیماهای بدون سرنشین قطعی به سادگی به شما نزدیک تر می شوند، اما دشمنان سرسخت مانند Swarmers گلوله های کوچک خود را به سمت شما شلیک می کنند، در حالی که تیراندازان برای شلیک جهنم به سمت شما حرکت می کنند. کیت بیرون; انگشت های سریع و خشمگین هرگز کافی نخواهند بود! زرادخانه خود را با سلاح ها و غارت های غیرقابل قفل ارتقا دهید که می تواند به شما کمک کند تا از هر موج کلمات سریع کار کنید. هر ساخت به طور منحصر به فرد متعلق به شماست. اسیلاتور و نگهبان خود را تنظیم کنید تا در حین برداشتن رگبارها از قلمرو بزرگی مراقبت کند، یا سلاح اصلی خود را برای تکامل به حداقل برسانید..."
+        "persian_summary": "ارسال شده توسط /u/MeguminShiro [لینک] [نظر]"
     },
     {
         "title": "windows macos jackbox party pack 4ca2799 free a popular party game that supports multiple devices for joining players",
@@ -1052,20 +960,25 @@
         "title": "world of warships holiday gift",
         "store": "steam",
         "url": "https://store.steampowered.com/app/4134400/World_of_Warships__Holiday_Gift/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527810/ddf1572f055251bbee254c437f89f4061d8d8372/header.jpg?t=1765182066",
-        "description": "Join in All the Reindeer Games—And Save Christmas! Dash into the enchanting world of Rudolph the Red-Nosed Reindeer and embark on a holly jolly quest to save Christmas in this magical adventure inspired by the beloved 1964 animated classic! Journey through Rudolph’s winter wonderlands, including Christmastown, the Island of Misfit Toys, and more as you help Rudolph and his friends overcome challenges in their quest to save Christmas from an unexpected but certain holiday disaster. Experience joyful exploration, exciting holiday challenges, and cooperative gameplay in a fun and festive experience the whole family is sure to enjoy! Key Game Features: A BELOVED HOLIDAY CLASSIC – NOW INTERACTIVE: Immerse yourself in the timeless magic of Rudolph the Red-Nosed Reindeer like never before! Step into a vibrant, interactive winter wonderland filled with festive charm, playful exploration, and engaging challenges that bring the beloved holiday tale to life in a whole new way. MAGICAL WINTER WONDERLANDS: Journey through four enchanting holiday realms straight from the beloved classic, each bursting with holiday cheer, whimsical surprises, and heartwarming adventures! • Christmastown – Join the Reindeer Games, learn to fly, and help Santa’s elves prepare for the big night! • Island of Misfit Toys – Team up with quirky, lovable toys to give them a chance to shine and find their forever homes! • Mountain Caves – Brave icy tunnels, dodge falling icicles, and outsmart the fearsome Abominable Snow Monster! • Santa’s Castle – Work alongside Santa and the elves to gather last-minute gifts, power up the sleigh, and light the way for a Christmas miracle! PLAY AS ICONIC CHARACTERS: Step into the hooves of Rudolph and Clarice and the boots of Hermey and Yukon Cornelius – each with their own unique charm and abilities, making every moment of the adventure a holly jolly delight! JOYFUL CO-OP FUN: Grab a friend, play in local co-op as you shout out with glee as you experience this cheerful holiday adventure together. FAMILY-FRIENDLY & FULL OF HOLIDAY SPIRIT: With fun challenges, interactive storytelling, and a soundtrack with iconic Christmas favorites, this game is perfect for festive players of all ages. Get ready for the ultimate Christmas quest—guide Rudolph, spread holiday cheer, and light up the season with festive fun for the whole family!",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2495100/33b3efa148506359eb8d6e973f59a38cb95cc794/header.jpg?t=1758643923",
+        "description": "Explore a Massive World with 80+ Hours of Heartfelt Quests Discover eight unique regions, from the ocean's depths to an island in the clouds! Run, float, swim, and dive around the world to uncover hidden treasures and mysteries, all while listening to over 50 tracks of original music. Engage with stories both epic and cozy, from braving volcanoes filled with treacherous lava to throwing birthday parties for all your new friends, all while piecing together the ultimate secret behind Friendship Island. Befriend Iconic Characters and Create Their Perfect Gifts Whether it’s cheerful Hello Kitty, mischievous Kuromi, or sweet Cinnamoroll, there are over 40 iconic Hello Kitty and Friends characters to meet, befriend, and adventure alongside. How do you improve friendship? Cooking and crafting galore! Create beautiful recipes at cooking stations or craft the items you find into the perfect gifts for all your new friends! Each character has a unique role on the island and their own likes, activities, and interests. Once you’ve bolstered your friendship, invite your favorite characters to adventure alongside you and gain their special power-ups and abilities! Renovate cabins and decorate them to attract new visitors to the island, like Hello Kitty’s twin sister Mimmy. These new visitors can unlock special quests and even entire new storylines! Be Who You Like and Live In Style Create your perfect avatar. Choose from six species with different face options, inclusive body types, and unique colors and patterns—all based on the Hello Kitty & Friends world. Collect, discover, and customize hundreds of clothing options to find your favorite look! Buy and tailor furniture to create your dream home aesthetic, with over 30 furniture sets to mix and match and countless ways to change color, pattern, and style. Discover a Dynamic, Living World Teeming with Events There’s always something new to do on the Island with year-round events. Whether you’re celebrating the joys of summertime, ringing in a holiday, or throwing a party for a character’s special birthday, there are always new festivals (and rewards!) around the corner. Keep your eye on the weather, too! Weather events like Starfall, Rainstorms, and Steamy days will encourage new critters to appear, chests to spawn, rewards to collect, and other surprises. Enjoy Hidden Puzzles, Relaxing Gardening, and Adorable Critter Collecting Hidden puzzle ruins are scattered all over the island—test your skills to unlock bonus rewards and solve the island’s mysteries. Watch your island spring to life with flowers of all shapes and sizes! Cultivate your gardens to breed rare and exotic varieties, colors, and patterns to impress your friends (and because gardening is fun). The island is teeming with life—kick back and fish in the clear waters or hunt for rare critters with your net. Donate them to the Nature Preserve to give them a safe place to live and grow your collection. Play Together—It’s Even Better! Dive into a multiplayer game with real-world friends. Team up to explore, get bonuses, and solve challenges together. Complete social quests to level up your friendship, unlock unique emotes, and gain special bonuses like trading rare items and clothing.",
         "id_in_db": "t3_1p9493y",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "3527810",
+        "steam_app_id": "2495100",
         "genres": [
-            "Adventure"
+            "Action",
+            "Adventure",
+            "Casual",
+            "Indie",
+            "RPG",
+            "Simulation"
         ],
         "is_multiplayer": true,
-        "is_online": false,
+        "is_online": true,
         "is_dlc_or_addon": false,
-        "persian_summary": "به همه بازی‌های گوزن شمالی بپیوندید و کریسمس را نجات دهید! وارد دنیای مسحورکننده رودلف گوزن شمالی دماغ قرمز شوید و در این ماجراجویی جادویی با الهام از انیمیشن کلاسیک محبوب سال 1964، برای نجات کریسمس تلاش کنید! در سرزمین‌های عجایب زمستانی رودولف، از جمله کریسمس تاون، جزیره اسباب‌بازی‌های نامناسب، و موارد دیگر سفر کنید تا به رودلف و دوستانش کمک کنید تا بر چالش‌ها غلبه کنند تا کریسمس را از یک فاجعه غیرمنتظره اما قطعی تعطیلات نجات دهند. کاوش شاد، چالش‌های تعطیلات هیجان‌انگیز، و گیم‌پلی مشارکتی را در یک تجربه سرگرم‌کننده و جشن که مطمئناً تمام خانواده لذت خواهند برد، تجربه کنید! ویژگی های کلیدی بازی: کلاسیک تعطیلات دوست داشتنی - اکنون تعاملی: خود را در جادوی بی انتها رودولف گوزن شمالی دماغه قرمز غوطه ور کنید که هرگز قبلاً نبوده است! وارد یک سرزمین عجایب زمستانی پر جنب و جوش و تعاملی شوید که مملو از جذابیت های جشن، کاوش های بازیگوش و چالش های جذاب است که داستان تعطیلات محبوب را به شیوه ای کاملاً جدید زنده می کند. زمستان جادویی..."
+        "persian_summary": "کاوش یک دنیای عظیم با بیش از 80 ساعت تلاش های قلبی، هشت منطقه منحصر به فرد را کشف کنید، از اعماق اقیانوس گرفته تا جزیره ای در ابرها! بدوید، شناور شوید، شنا کنید، و در سراسر جهان شیرجه بزنید تا گنجینه ها و اسرار پنهان را کشف کنید، همه اینها در حالی که به بیش از 50 آهنگ موسیقی اصلی گوش می دهید. با داستان‌های حماسی و دنج، از آتشفشان‌های شجاع پر از گدازه‌های خائن گرفته تا برگزاری جشن‌های تولد برای همه دوستان جدیدتان، درگیر شوید، همه اینها در حالی که راز نهایی جزیره دوستی را کنار هم می‌چینید. با شخصیت‌های نمادین دوست شوید و هدایای عالی آن‌ها را خلق کنید، فرقی نمی‌کند Hello Kitty شاد، کورومی شیطون یا Cinnamoroll شیرین باشد، بیش از 40 شخصیت نمادین Hello Kitty و Friends برای ملاقات، دوستی و ماجراجویی در کنار آنها وجود دارد. چگونه دوستی را بهبود می دهید؟ آشپزی و صنایع دستی فراوان! دستور العمل های زیبایی را در ایستگاه های آشپزی ایجاد کنید یا اقلامی را که پیدا می کنید به عنوان هدایای عالی برای همه دوستان جدید خود بسازید! هر شخصیت یک نقش منحصر به فرد در جزیره و امثال خود دارد،..."
     },
     {
         "title": "world of warships ybari pack",
