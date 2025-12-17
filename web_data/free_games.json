@@ -33,7 +33,7 @@
         "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": "100% Off",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/f6/a8/9df6a8ec-5a3f-099c-9eb5-b7d159ad23d4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7c/8d/e8/7c8de85c-8390-79f4-2f49-d47bb6c8867d/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
         "is_dlc_or_addon": false,
         "persian_summary": "",
         "description": ""
@@ -74,19 +74,6 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": true,
         "persian_summary": "ارسال شده توسط /u/Odd-Peace [پیوند] [نظر]"
-    },
-    {
-        "title": "apps party up",
-        "store": "googleplay",
-        "url": "https://play.google.com/store/apps/details?id=com.sensanetwork.partyup",
-        "image_url": "https://external-preview.redd.it/CeHEWGqRrXZEiuFTM9NTTKnR43OgvDt-cRPyXI6s_3U.png?width=320&crop=smart&auto=webp&s=958e6636d9e3e03820038f5f6028fe334ed59df5",
-        "description": "submitted by /u/AdGeneral3418 [link] [comments]",
-        "id_in_db": "t3_1pkorl7",
-        "subreddit": "googleplaydeals",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/AdGeneral3418 [پیوند] [نظر]"
     },
     {
         "title": "backyard soccer 98",
@@ -190,7 +177,7 @@
         "discount_text": "100% Off",
         "steam_app_id": "582660",
         "description": "Go Beyond Limits : WORLD CLASS MMORPG Black Desert is a game that tests the limitations of MMORPG by implementing remastered graphics and audio. Enjoy exciting combat and siege, exploration, trading, fishing, training, alchemy, cooking, gathering, hunting, and more in the vast open world. Black Desert - A true MMORPG The Start of Your Dream Adventure OPEN WORLD An expansive, breathtaking open world MMORPG made with Pearl Abyss' proprietary game engine. CUSTOMIZING Become Your True Self Experience insane levels of customization. From height, torso, face, and skin texture, to micro-level details, your imagination is the limit! Create your own unique characters, just like you've always desired, in Black Desert. COMBAT Non-Target & Fast-Paced Combat Experience an innovative combat system unlike any other MMORPG. The need for quick reactions and precise control will keep you enthralled throughout your entire experience. Exciting commands/combos will always keep you on your toes. NODE & SIEGE WAR Large-Scale PvP Wars Guilds, prepare for battle! Victory is near! Join formidable guilds as they fight head-to-head on the battlefield. Be victorious, become lords, and seize control of taxes, resources, and more! GRAPHICS Remastered Cutting-Edge Graphics Enter a world with spectacular sceneries, realistic environments, and sophisticated details created with state-of-the-art graphics and prepare for unforgettable adventures. LIFE SKILLS Multitudes of In-Game Activities Combat not your style? Relax and enjoy a variety of pleasant life skill activities! With a variety of choices including farming, trading, fishing, sailing, cooking, horse training, alchemy, and more, the professions are endless. Try your hand at any or all of them!",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582660/4f0ea9284b5fae9464dadc528bb572c629666313/header_alt_assets_27.jpg?t=1765846086",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582660/4f0ea9284b5fae9464dadc528bb572c629666313/header_alt_assets_27.jpg?t=1765935954",
         "genres": [
             "Action",
             "Adventure",
@@ -203,6 +190,30 @@
         "is_dlc_or_addon": false,
         "subreddit": "FreeGameFindings",
         "persian_summary": "Go Beyond Limits: WORLD CLASS MMORPG Black Desert یک بازی است که محدودیت های MMORPG را با پیاده سازی گرافیک و صدا بازسازی شده آزمایش می کند. از نبرد و محاصره هیجان انگیز، اکتشاف، تجارت، ماهیگیری، آموزش، کیمیاگری، آشپزی، جمع آوری، شکار و موارد دیگر در دنیای باز وسیع لذت ببرید. صحرای سیاه - یک MMORPG واقعی شروع ماجراجویی رویای شما OPEN WORLD یک MMORPG جهان باز گسترده و نفس گیر که با موتور بازی اختصاصی Pearl Abyss ساخته شده است. سفارشی سازی به تجربه واقعی خود تبدیل شوید سطوح دیوانه کننده سفارشی سازی. از قد، تنه، صورت و بافت پوست گرفته تا جزئیات در سطح میکرو، تخیل شما حد و مرز است! شخصیت‌های منحصربه‌فرد خود را درست همانطور که همیشه می‌خواستید، در صحرای سیاه بسازید. مبارزات غیر هدفمند و سریع مبارزه با یک سیستم جنگی نوآورانه را بر خلاف هر MMORPG دیگری تجربه کنید. نیاز به واکنش‌های سریع و کنترل دقیق، شما را در کل تجربه‌تان مجذوب خود می‌کند. دستورات/ترکیب های هیجان انگیز همیشه شما را سرپا نگه می دارد. گره و..."
+    },
+    {
+        "title": "brutal orchestra",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1734320/Brutal_Orchestra/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1734320/header.jpg?t=1708110077",
+        "description": "Hieronymus Bosch's Brutal Orchestra is a Turn-Based Roguelike Strategy Game with resource management and deck-building elements. Employ the help of damaged and daring fools, equip ancient and insidious items and make deals with the devil on your path to revenge. Revenge: You died. Someone killed you. You are now in Purgatory and you will never escape. Make a deal with the \"demon\" Bosch and set off into this brutal and bastardous world, finding ​all manner of demented and degenerate friends and foes on your quest to get petty revenge. Pigment: Purgatory bleeds pigment. It is a strange substance that Bosch has granted you the ability to control. Channeling pigment allows one to perform powerful and absurd abilities. Pigment comes in many colours, each derived from a different source, some even of your own flesh. Fools: This may be a place of the dead but even here there are still poor fools eking out a pathetic existence. Some would make for valuable party members or at least entertaining conversation. Most, however, are dim wits or damaged beyond all reason. Treasure!: Find over 100+ powerful artifacts that dramatically shape how you play Brutal Orchestra, often plucked directly from the artworks of Hieronymus Bosch. Hell: Purgatory is not a gentle place, it is a writhing dump of all that has died in many worlds. Endless deserts of pale sand are stalked by parasitic fish. Storm-cloaked mountain tops hide ungodly things above and below. The Garden waits for you at the end of time. Hieronymus Bosch's Brutal Orchestra was developed by Talia bob Mair and Nicolás Delgado. With Sound Design by Pato Flores and Chris Dang and Composed by Publio Delgado.",
+        "id_in_db": "t3_1pob981",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "50% off",
+        "steam_app_id": "1734320",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Casual",
+            "Indie",
+            "RPG",
+            "Strategy"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارکستر Brutal Hieronymus Bosch یک بازی استراتژی Roguelike مبتنی بر نوبت با مدیریت منابع و عناصر عرشه است. از کمک احمق های آسیب دیده و جسور استفاده کنید، وسایل باستانی و موذی را تجهیز کنید و در مسیر انتقام خود با شیطان معامله کنید. انتقام: تو مردی. کسی تو را کشت شما اکنون در برزخ هستید و هرگز فرار نخواهید کرد. با «دیو» بوش معامله کنید و وارد این دنیای بی‌رحمانه و حرام‌زاده شوید و در تلاش برای گرفتن انتقام کوچک، دوستان و دشمنان دیوانه و منحط را پیدا کنید. رنگدانه: برزخ رنگدانه را خون می کند. این ماده عجیبی است که بوش به شما توانایی کنترل آن را داده است. رنگدانه کانالی به فرد امکان می دهد توانایی های قدرتمند و پوچ را انجام دهد. رنگدانه در رنگ های بسیاری وجود دارد که هر کدام از منبع متفاوتی گرفته شده است، حتی برخی از آنها از گوشت خود شما. احمق ها: این ممکن است محل مردگان باشد، اما حتی در اینجا هنوز هم احمق های فقیر وجود دارند که زندگی رقت انگیزی را دنبال می کنند. برخی می توانند اعضای ارزشمند حزب یا حداقل ..."
     },
     {
         "title": "candy storm legacy games are complimentary with amazon prime",
@@ -254,28 +265,6 @@
         "persian_summary": "Dead District یک سندباکس بقا در جهان باز است که هر تصمیمی در آن اهمیت دارد. شما در جزیره ای متخاصم پر از تهدیدها شروع می کنید: حیوانات وحشی، تله های مرگبار، بازماندگان آلوده و ناامید. هدف شما ساده است - زنده بمانید. سرپناه خود را بسازید، سلاح ها و ابزارها را بسازید، غذا بکارید، و جزیره را به تنهایی یا همراه با دوستان کاوش کنید. چهار شخصیت منحصربه‌فرد در دسترس هستند که هر کدام آماده رویارویی با مبارزه برای بقا هستند. برای به اشتراک گذاشتن منابع و دفاع از پایگاه خود یا آزمایش مهارت های خود به صورت چند نفره با هم متحد شوید. وسایل نقلیه رانندگی کنید، شکار کنید، ماموریت ها را کامل کنید و مسیر خود را در دنیایی شکل دهید که هرگز اشتباهات را نمی بخشد. ویژگی ها: - بقای تک نفره و چند نفره - ساخت و ساز پایه و کاردستی - آب و هوای پویا و چرخه روز/شب - سیستم ماموریت و جستجو - کشاورزی، شکار و جمع آوری منابع - رانندگی و مبارزه - چهار شخصیت قابل بازی - جهان باز گسترده و پر از خطر"
     },
     {
-        "title": "die young",
-        "store": "indiegala",
-        "url": "https://freebies.indiegala.com/die-young",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/433170/header.jpg?t=1609754218",
-        "description": "Die Young is an open world, dynamic action adventure presented in first-person perspective. You awaken, on a picturesque 12 sq km island in the Mediterranean, buried alive and left for dead. Starving and dehydrated, your struggle to stay alive has just begun. Jump, climb, take advantage of your athletic and parkour skills to overcome the dangers and wildness of nature! Stay Alive. This is not a \"classic\" survival game. If you aim to spend many days and nights looking for resources or build a shelter or a fortress, this will not be possible here. Your main goal is to stay alive. Your only purpose is to escape. As soon as possible. Stay hydrated in the hot Mediterranean summer, looking for a way to leave. Explore. Find out what happened to your friends. Explore the island and find out more about its enigmatic dwellers, ancient ruins, dark mines and caves. Uncover the awful truth behind the quiet, bucolic life of the island. Equip and Fight. Stripped of everything of value down to the shoes on your feet, you have to make a run for it. You have no chance of escaping relying on your wits alone. Search for items and combat equipment that can help you survive the nightmare. Escape. The astonishing beauty of the natural landscape hides deadly threats and foes. Fighting your way out is hopeless. Run, jump, climb, and leave those who want you dead behind. Nerve-racking and brimming with suspense from the moment you press start, Die Young is an immersive thriller that will take you on an unforgettable dash for freedom and survival.",
-        "id_in_db": "t3_1pf4nnv",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "433170",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Indie",
-            "Simulation"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "Die Young یک دنیای باز و ماجراجویی اکشن پویا است که در دید اول شخص ارائه شده است. بیدار می شوید، در جزیره ای زیبا به مساحت 12 کیلومتر مربع در دریای مدیترانه، زنده به گور شده و مرده رها شده اید. گرسنگی و کم آبی، مبارزه شما برای زنده ماندن تازه شروع شده است. بپرید، صعود کنید، از مهارت های ورزشی و پارکور خود برای غلبه بر خطرات و طبیعت وحشی استفاده کنید! زنده بمان. این یک بازی بقا \"کلاسیک\" نیست. اگر قصد دارید روزها و شب های زیادی را به دنبال منابع بگذرانید یا پناهگاه یا قلعه بسازید، در اینجا امکان پذیر نخواهد بود. هدف اصلی شما زنده ماندن است. تنها هدف شما فرار است. در اسرع وقت. در تابستان گرم مدیترانه هیدراته بمانید و به دنبال راهی برای ترک آن باشید. کاوش کنید. ببینید چه اتفاقی برای دوستانتان افتاده است. جزیره را کاوش کنید و درباره ساکنان مرموز، خرابه های باستانی، معادن تاریک و غارها بیشتر بدانید. حقیقت وحشتناک زندگی آرام و بی‌نظیر جزیره را کشف کنید. تجهیز و مبارزه کنید. از هر چیزی که با ارزش است تا ..."
-    },
-    {
         "title": "dungeon defense",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/dungeon-defense-the-gate/id1195035357",
@@ -296,7 +285,7 @@
         "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": "100% Off",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/f8/d5/0bf8d50a-0767-ebc9-f4ea-87b2c3525c3c/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/f7/b8/cef7b876-3a9a-f4b0-eb47-56289546e3a7/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
         "is_dlc_or_addon": false,
         "persian_summary": "",
         "description": ""
@@ -329,30 +318,27 @@
         "title": "epic games store dead cells is currently available to claim for free on the epic game store for mobile",
         "store": "epicgames",
         "url": "https://www.reddit.com/r/AppHookup/comments/1pk5606/iosandroid_epic_games_store_dead_cells_is/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/527950/header.jpg?t=1487586852",
-        "description": "Divergence: Year Zero sets the stage for what would become the \"Divergence\" universe in a modern-survival adaptation and prequel to Divergence: Online . As the emergence of the first non-sapien humans to inhabit the Earth in over 200,000 years (Homo-Solitus) coincides with the catastrophic rupture of the Californian San Andreas fault, a lethal virus designed in the clean-rooms of Silicon-Valley biotech firms specifically to wipe-out the Solitus humans is released to the environment dealing a one-two punch to western American civilization. As the burning wreckage of California sinks into the Pacific Ocean and the Cascadia Subduction Zone devours large portions of the states of Oregon and Washington, The U.S Government, working with both Canada and Mexico frantically struggle to contain the spread of disease. A disease born of a virus designed to wipeout Solitus humans, but released before it could be perfected and constrained purely to the Solitus genetic code, now running rampant and infecting all humans who come in contact with it with incurable psychosis, hyper-aggression and even cannibalism. You play as a survivor to the initial catastrophe now cutoff from the rest of America behind \"The Western Wall\" erected to prevent the spread of the virus. No word comes in, no one gets out. A total communications blackout prevents cell-phones, internet or even television and radio from reaching survivors beyond the wall. Only a handful of cities avoided total collapse after the great earthquakes and the subsequent rise in sealevel consumed most of what was once the North-American states of California, Oregon and Washington. Without the advent of civilization to protect him from his fate, man now once again lives at odds with the wild, although packs of hungry roaming animals are no longer the most deadly thing you may encounter. If you survive the wolves, the bears, the elements, starvation or thirst, you just may live long enough to find yourself robbed or murdered by bandits or bandit-groups, or even worse, accosted by hordes of infected humans seeking to devour your flesh. It's at least 30% worse than waiting in line for an iPhone is the picture we're painting here. Welcome to hell. Divergence: Year Zero is built on the same advanced technology that won it's predecessor Divergence: Online the rank of #1 out of Over 1,700 Games on Steam Greenlight during its cycle and benefits from six-months of additional improvements since then. Its key features being; 1.A True-MMORPG where all players coexist on the same server - No sharding or otherwise [/i]instancing[/b] of the playerbase. Any two people in the world who player Divergence: Year Zero play on the same server, guaranteed. 2. Simply Unbeatable Crafting. Divergence means \"you determine every single stat of every single item that you craft by scouring the world for the absolute best raw materials and resources\". Unless intentionally done so, it's impossible that any two items crafted in Divergence can be the same. Be the servers best weaponsmith who makes the best guns, the architect who builds the largest buildings for yourself or your group, or any of our other professions. 2. Skill-Based advancement. Chose as few or as many professions as you like and split your available skill points between them. 3. Combative and non-combative progression. Divergence rewards both weapons-related careers such as marksman as well as non-combat-derived professions such as scout, ranger, or doctor. Make your living healing other survivors, creating medicines, chopping down trees to create wooden fortifications or even training wild horses for use as trusty and reliable mounts. 4. Massive Housing and Construction. In Divergence, any player can work to create not just one, but multiple homesteads and in virtually any location in the entire game world for themselves or their group(s). Craft stronger walls based on the materials you used and create a huge fort, or even (with subscription) construct anything you wish out of Ferrocrete Voxels , Divergence's epic voxel-building and streaming proprietary system. 5. Advanced personal and civic power-management. Create power grids to bring light to the darkness around your home and keep the shitheads out while you're away. 6. Automated Resource Harvesting. Craft and deploy automated harvesting rigs to pull crude oil out of the ground for you, store it in barrels in your compound and defend it from Lord Humongous and his army of Road Warriors seeking to turn it into gasoline to power vehicles. 7. Design your characters appearance down to the smallest feature. This is how character customization should be in 2016 guys; We aren't going to make you wait two years just to be able to make a female character then act like it's some-kind of fecking accomplishment. Seriously. 8. Both world-loot and crafted versions of the same weapons and items. Love that AK you found inside the burned-out building but loathe the accuracy? Become an expert weaponsmith and build your own version of the same weapon from schematics with potentially even better features! 9. Craft your own respawn and fast-travel facilities for yourself or your group, helping you get around the world quicker, helping friends get to you quicker, and helping you get back on your feet quicker when some jagoff blows your face off. 10. A policy of total interaction with us, your developers. We have a facebook group page. You describe your bug or bugs on there. We read it and fix the bugs. That's how it's always worked with Divergence: Online , that's how it works with Divergence: Year Zero. 11. Finally live out your fantasies of a career in \"Road-Warrior\"ing! Not only does control over fossil fuels dominate the economy and the landscape, but almost any item you can craft can be bolted directly onto your chosen vehicle for armor or just to look badass! Be careful though, welding objects to a vehicle will increase it's top-heaviness! 12. Tons of wild creatures roaming the wild, some aggressive, some fearful. Hunt them, harvest them, or run for your god damn life! 13. Vehicle customization! Salvage a tractor from an abandoned barn and strap barbed-wire to it's frame, or nail wooden spikes to the roof to keep the baddies off. Virtually any items crafted or looted can be bolted onto any and all of your property, house, camp, base, or vehicle! All these features and many more, but oh did I mention: \"Virtually Unhackable\" Built on the same technology that makes Divergence: Online virtually unhackable, Divergence: Year Zero benefits from the same extensive engineering developed through years of R&D to create a scumbag-free experience for our players. Want to play another hastily-thrown-together Zombie Survival game and get head-shot from two-miles away with a shotgun? There are a lot of those out there for you, but if you want to play a game that instead says, \"You can't do that. That's absolutely ridiculous, GTFO!\", you play Divergence.",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311290/header.jpg?t=1725002687",
+        "description": "SpellForce 3 - The perfect blend between RTS and RPG! It is the year 518. The rebellion of the renegade mages, known as the Mage Wars, has been quashed by the Crown. However, it was a Pyrrhic victory: Whole regions have fallen into anarchy, refugees roam the lands in search of shelter, and a mysterious, deadly plague called the “Bloodburn” has arisen and is spreading rapidly. In times like these people cling to any sign of hope they can find. The Purity of Light, led by a charismatic man called Rondar Lacaine, claims that mages are the source of all misfortune – and that only the second coming of Aonir, the father of all gods, will return Eo to its former splendor. The story takes place before the acclaimed SpellForce: The Order of Dawn. Features: Innovative Mix : Unique gameplay blending RTS and RPG naturally together Create & Customize : Create your own hero and choose between distinct skill trees Build to Fight : Raise your own army and fight epic mass battles Epic Storyline : Immerse yourself in a rich world - Unravel the secrets behind the current situation in Nortander. Explore Eo, a fully-realized world filled with interesting characters and heart-wrenching stories. Make new friends - assemble your party from a diverse cast of companions that not only complement your skills in interesting ways but also have an impact on the narrative. Manage their skills and equipment to ensure victory on the battlefield. Choose your side : Strengthen and command one of three factions – Elves, Orcs and Humans. Prepare your troops and fight the mother of all battles. Play strategically, taking advantage of terrain, troop formations, visibility, scouting, etc. Experience an epic tale : Enjoy a fully-voiced 30+ hour campaign on your own or with friends in the campaign coop mode. Face opponents of all skills in the online battles. Multiplayer : Strong multiplayer component with various modes - Compete against each other in the PvP and Domination mode or play cooperative either together on one faction or classic where everybody plays a faction. Reforced Edition Features: Enhanced campaign experience Improved RTS mechanics and reworked RTS faction (Humans, Orcs and Elves) designs, introduced in the expansions Fallen God & Soul Harvest Updated Skilltrees with new spell mechanics introduced in the expansions Improved Questflow Improved loot distribution for a smoother progression Reworked crafting RTS AI Balance overhaul Complete rework of the hub for minimizing downtimes Complete purge of campaign/quest logic issues Improved Coop Mode Visually and functionally enhanced User Interface used in the expansions Full Gamepad Support for controls and UI A new skirmish map “Bitter Canyon” set in a mountainous environment Journey Mode: An additional game mode similar to the original SpellForce’s “Free Game Mode”, providing more than 20 hours of unique content and a lot of replay value. Can be played in Coop! Journey Skirmish: Play PvP skirmish matches against other players with your journey heroes Arena Mode: An additional endless game mode where you start with a fresh character, fight against waves of monsters, and buy loot and spells from merchants to compete with other players in the leaderboards which can also be played in Coop Improved Mod Support and mod support for the new Journey and Arena modes. Create your own Journey or arena maps and share them with the community.",
         "id_in_db": "t3_1pk5606",
         "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "527950",
+        "steam_app_id": "311290",
         "genres": [
-            "Action",
-            "Indie",
-            "Massively Multiplayer",
             "RPG",
-            "Early Access"
+            "Strategy"
         ],
         "is_multiplayer": true,
-        "is_online": false,
+        "is_online": true,
         "is_dlc_or_addon": false,
-        "persian_summary": "Divergence: Year Zero زمینه را برای چیزی که به دنیای \"Divergence\" در یک اقتباس مدرن و پیش درآمد برای Divergence: Online تبدیل می شود، تنظیم می کند. از آنجایی که ظهور اولین انسان های غیر ساپین که در بیش از 200000 سال روی زمین ساکن شدند (Homo-Solitus) مصادف با گسیختگی فاجعه بار گسل سن آندریاس کالیفرنیا است، ویروس کشنده ای که در اتاق های تمیز دره سیلیکون طراحی شده است، به طور خاص برای پاک کردن محیط زیست انسانی منتشر شده است. به تمدن آمریکای غربی در حالی که بقایای سوزان کالیفرنیا در اقیانوس آرام فرو می‌رود و منطقه فرورانش کاسکادیا بخش‌های بزرگی از ایالت‌های اورگان و واشنگتن را می بلعد، دولت ایالات متحده که با کانادا و مکزیک همکاری می‌کند دیوانه‌وار برای مهار گسترش بیماری تلاش می‌کند. بیماری ناشی از ویروسی که برای از بین بردن انسان‌های Solitus طراحی شده بود، اما قبل از اینکه کامل شود و صرفاً به کد ژنتیکی Solitus محدود شود، منتشر شد، اکنون در حال گسترش است و..."
+        "persian_summary": "SpellForce 3 - ترکیبی عالی بین RTS و RPG! این سال 518 است. شورش جادوگران مرتد، معروف به جنگ های مغ، توسط تاج سرکوب شده است. با این حال، این یک پیروزی پیری بود: تمام مناطق در هرج و مرج فرو رفته اند، پناهندگان در جستجوی سرپناه در سرزمین ها پرسه می زنند، و طاعون مرموز و کشنده ای به نام «Bloodburn» به وجود آمده و به سرعت در حال گسترش است. در مواقعی مانند این افراد به هر نشانه امیدی که می توانند پیدا کنند می چسبند. Purity of Light به رهبری مردی کاریزماتیک به نام Rondar Lacaine، ادعا می‌کند که جادوگران منشأ همه بدبختی‌ها هستند - و تنها آمدن دوم آئونیر، پدر همه خدایان، Eo را به شکوه سابقش باز می‌گرداند. داستان قبل از بازی تحسین شده SpellForce: The Order of Dawn اتفاق می افتد. ویژگی ها: ترکیب نوآورانه: گیم پلی منحصر به فرد ترکیب RTS و RPG به طور طبیعی با هم ایجاد و سفارشی سازی: قهرمان خود را بسازید و بین درختان مهارت متمایز را انتخاب کنید ساخت برای مبارزه: ارتش خود را بالا ببرید و با نبردهای حماسی دسته جمعی مبارزه کنید داستان حماسی:..."
     },
     {
         "title": "ergonomic chair pro gift cards",
         "store": "other",
         "url": "https://www.reddit.com/r/FreeGameFindings/comments/1pnc197/fgf_giveaway_branch_furniture_ergonomic_chair_pro/",
-        "image_url": "https://www.branchfurniture.com/cdn/shop/products/galaxyhero.jpg?v=1762295347",
+        "image_url": "https://cdn.thewirecutter.com/wp-content/media/2025/06/gaming-chairs-LTT-ace-pro-scaled.jpg",
         "description": "CANADA & USA ONLY You can enter for/through a friend with a US/Canada address though. This is a direct from dev/pub/store giveaway for FGF. Similar to those we have done before. Big thanks go out to Branch Furniture (and /u/AustinBranch too) for doing this promotion on FGF! If you're like me, you spend a lot of time at your desk. Work, video gaming, and plenty more. Many of us spend loads of time at our desks and chairs. With that being the case, you should probably be sat on and resting at something pretty comfortable. In comes Branch Furniture! Branch Furniture began in 2018 in New York City. Since then, they've created some premium products to cater to many office needs. They've even furnished big brands like Google, tumblr, Casper, Netflix and many more! This year, they were picked as the \"favourite office chair for most people\" with their Ergonomic Chair Pro by Wired's Julian Chokkattu. This was due to the quality of the chair, but also the competitive price. Whether it's office chairs/couches , desks and tables , or a variety of bigger and smaller items, Branch has you covered for business and home office needs! Lately they've been aiming to grow their own subreddit, /r/BranchFurniture , which has housed numerous fun posts, as well as some giveaways of their own. Keep an eye on the subreddit for more giveaways in the future as well maybe... To promote the brand, the subreddit, and their great looking products, I am happy to announce an FGF Giveaway from Branch for 1 Ergonomic Chair Pro (available in a variety of colours/materials) and 4 $250 USD Gift Cards to use on either the US or Canada store website! The chair looks wonderful and will make for a great addition to your office (home or business of course)! The gift cards can be used to get some smaller items for free, take a big chunk out of a larger purchase, and even purchase an office chair with some discounts/open box items. To enter this giveaway we will be using Gleam and the comments. The Ergonomic Chair Pro and 1 $250 USD Gift Card with Gleam. Then the other 3 $250 USD Gift Cards through the comments. Feel free to enter with any and all methods/links. Gleam entries: Ergonomic Chair Pro - https://gleam.io/lUtNC/fgf-x-branch-furniture-ergonomic-chair-pro $250 USD Gift Card - https://gleam.io/1WLFu/fgf-x-branch-furniture-250-usd-branch-furiniture-gift-card Comment entries: Simply make any top-level comment (although only one top-level comment please) and you're good! Reminder, a top-level comment is simply a comment on the post and not a reply to another comment. Be aware of the following though. NOTE: If you win this giveaway I will be contacting through email for Gleam winners, and Reddit Chat for comment winners. The chair winner will need to confirm their location at that stage and then supply their supported region address to Branch. I'll wait at most 3 days after I reach out for a response, so please be sure to set a reminder to check this thread, your email (check your junk/spam too) , and Reddit chat for my message if you have won. If I don't hear back, I will need to re-roll/find a new winner quickly from the FGF community somewhere (like Discord) for the unclaimed prize. Slightly different than usual, winners will need to confirm and reply to me with their emails, which will be passed along to Branch who will contact them directly for shipping info (chair) and codes (gift card winners). Winners will be selected at random. This offer will be live until December 22nd . The next day or so, I will reach out to the winners through the methods mentioned earlier. Prizes are only available to be sent to the supported regions mentioned above. You can enter from anywhere in the world and have it sent to a friend/family member in the supported region(s). Good luck everyone! Some links to Branch Furniture: The Branch Furniture USA Website - https://www.branchfurniture.com/ The Branch Furniture Canada Website - https://www.branchfurniture.ca/ Branch Furniture on Reddit - /r/BranchFurniture Branch on Insta - https://www.instagram.com/branchfurniture Branch on Twitter - https://x.com/officebybranch Branch on LinkedIn - https://www.linkedin.com/company/branchfurniture/ Full disclosure, I was not supplied with any product for or during this giveaway. For more details about when I have and have not been supplied an item for these FGF Giveaways, see here - https://docs.google.com/spreadsheets/d/1RFeaSIpqFvvSzfOowecLz_rbbFo-YKa25PYAqF6Y6ko/ submitted by /u/StOoPiD_U [link] [comments]",
         "id_in_db": "t3_1pnc197",
         "subreddit": "FreeGameFindings",
@@ -375,23 +361,10 @@
         "persian_summary": "ارسال شده توسط /u/etailmarket [لینک] [نظر]"
     },
     {
-        "title": "etailmarket storage hunter simulator 25 off 1831",
-        "store": "other",
-        "url": "https://etail.market/storage-hunter-simulator-279",
-        "image_url": "https://external-preview.redd.it/CdTcdRmGJg5qFqC5NNVe_GroFbJAYMgF10T8UAgsL_0.jpeg?width=640&crop=smart&auto=webp&s=6dda96716418e81650df992bbf8815cc6facda3b",
-        "description": "submitted by /u/etailmarket [link] [comments]",
-        "id_in_db": "t3_1pmb8yn",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "25% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/etailmarket [لینک] [نظر]"
-    },
-    {
         "title": "exiled giveaways and itchio mega threads",
         "store": "other",
         "url": "https://www.reddit.com/r/FreeGameFindings/comments/1pne7sh/exiled_giveaways_and_itchio_mega_threads/",
-        "image_url": "https://preview.redd.it/exiled-giveaways-mega-thread-v0-7tsku7bkc9zf1.png?auto=webp&s=8c3646dfa8e8e0ab3da642c47fb8c870e83a3a07",
+        "image_url": "https://preview.redd.it/exiled-giveaways-mega-thread-v0-fxby1tssbl7g1.png?auto=webp&s=2570f0ad9b960a1ddbf655ee5790845495b0b610",
         "description": "To increase visibility, the mega threads are posted on a weekly basis. This is being done following the overall discussion of Mega Threads via FGF Update - https://redd.it/jkxyzw Please use the below threads for your posts. :) Exiled Giveaways Mega Thread (#2) Itchio Mega Thread (#10) Want to setup alerts to these threads? RSS Feed information can be found in our wiki! https://www.reddit.com/r/FreeGameFindings/wiki/rssfeed Included is information about our discord bot and general RSS feed stuff. Definitely give it a look! submitted by /u/AutoModerator [link] [comments]",
         "id_in_db": "t3_1pne7sh",
         "subreddit": "FreeGameFindings",
@@ -438,6 +411,19 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/Victorbaro [لینک] [نظر]"
+    },
+    {
+        "title": "free if downloaded within a week",
+        "store": "googleplay",
+        "url": "https://www.reddit.com/r/googleplaydeals/comments/1pon8ic/apps_geography_app_free_if_downloaded_within_a/",
+        "image_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=10164131933473103",
+        "description": "An app for people to learn the world map! It is currently free for download for a week. Play Store: https://play.google.com/store/apps/details?id=com.CanvasOfWarmthEnterprise.SailboatGeography submitted by /u/canvasofwarmth [link] [comments]",
+        "id_in_db": "t3_1pon8ic",
+        "subreddit": "googleplaydeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "برنامه ای برای مردم برای یادگیری نقشه جهان! در حال حاضر به مدت یک هفته برای دانلود رایگان است. فروشگاه Play: https://play.google.com/store/apps/details?id=com.CanvasOfWarmthEnterprise.SailboatGeography ارسال شده توسط /u/canvasofwarmth [لینک] [نظرات]"
     },
     {
         "title": "free lifetime smart flashcards with tiktok style swiping",
@@ -511,12 +497,12 @@
         "persian_summary": "ارسال شده توسط /u/Lohigno [پیوند] [نظر]"
     },
     {
-        "title": "games slime craft rts game 149",
+        "title": "games slime craft rts 149",
         "store": "googleplay",
-        "url": "https://www.reddit.com/r/googleplaydeals/comments/1pnnpm5/games_slime_craft_rts_game_149_free/",
-        "image_url": "https://img.tapimg.net/market/images/e8834d491a5493e728aba281f4c324cb.png?imageView2/2/w/720/h/720/q/80/format/jpg/interlace/1/ignore-error/1&t=1",
+        "url": "https://play.google.com/store/apps/details?id=com.SlimeCraft.SlimeCraft",
+        "image_url": "https://external-preview.redd.it/Smy42uCC95ZzaMN4BJYmAcbArIKRMjK99a7h55BIUII.png?width=320&crop=smart&auto=webp&s=aab98a1a306eb19c32f025e250aa1e732d37d446",
         "description": "https://play.google.com/store/apps/details?id=com.SlimeCraft.SlimeCraft submitted by /u/pinpanel2 [link] [comments]",
-        "id_in_db": "t3_1pnnpm5",
+        "id_in_db": "t3_1pnwnya",
         "subreddit": "googleplaydeals",
         "is_free": true,
         "discount_text": "100% Off",
@@ -524,30 +510,17 @@
         "persian_summary": "https://play.google.com/store/apps/details?id=com.SlimeCraft.SlimeCraft ارسال شده توسط /u/pinpanel2 [لینک] [نظرات]"
     },
     {
-        "title": "gamestop call of duty",
-        "store": "other",
-        "url": "https://www.gamestop.com/search/?pmid=C01720",
-        "image_url": "https://i.ebayimg.com/images/g/d1wAAeSwwS9oJJKS/s-l400.jpg",
-        "description": "submitted by /u/llamanatee [link] [comments]",
-        "id_in_db": "t3_1pm5wyb",
-        "subreddit": "GameDeals",
+        "title": "games underworld office 399",
+        "store": "googleplay",
+        "url": "https://play.google.com/store/apps/details?id=com.buffstudio.uwoffice",
+        "image_url": "https://external-preview.redd.it/bmukd3UZ3llVmy0KkaQgVn2BgzVAvHfZGWSbMuoZWz4.png?width=320&crop=smart&auto=webp&s=922428e4b4ca2e7541d1ab605133ecb1bf4d7dca",
+        "description": "submitted by /u/ac_del [link] [comments]",
+        "id_in_db": "t3_1pocpya",
+        "subreddit": "googleplaydeals",
         "is_free": false,
-        "discount_text": "50% off",
+        "discount_text": "Discount",
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/llamanatee [پیوند] [نظر]"
-    },
-    {
-        "title": "gamestop mario luigi brothership 2500",
-        "store": "other",
-        "url": "https://www.gamestop.com/video-games/nintendo-switch/products/mario-and-luigi-brothership---nintendo-switch/20013771.html",
-        "image_url": "https://media.gamestop.com/i/gamestop/20013771_SCR01/Mario-and-Luigi-Brothership---Nintendo-Switch?w=1256&h=664&fmt=auto",
-        "description": "submitted by /u/Youtwo12 [link] [comments]",
-        "id_in_db": "t3_1pmo0nt",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "58% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/Youtwo12 [لینک] [نظر]"
+        "persian_summary": "ارسال شده توسط /u/ac_del [لینک] [نظر]"
     },
     {
         "title": "gmg silent hill f 3359",
@@ -582,6 +555,27 @@
         "is_dlc_or_addon": false,
         "subreddit": "FreeGameFindings",
         "persian_summary": "میراث هاگوارتز یک بازی RPG اکشن جهان باز است که برای اولین بار در کتاب های هری پاتر معرفی شد. با کاوش و کشف جانوران جادویی، شخصی سازی شخصیت و معجون های صنایع دستی، مهارت در ریخته گری طلسم، ارتقای استعدادها و تبدیل شدن به جادوگری که می خواهید باشید، سفری را در مکان های آشنا و جدید آغاز کنید. هاگوارتز را در دهه 1800 تجربه کنید. شخصیت شما دانش آموزی است که کلید یک راز باستانی را در دست دارد که تهدید می کند دنیای جادوگران را از هم بپاشد. متحد بسازید، با جادوگران تاریک مبارزه کنید و در نهایت سرنوشت دنیای جادوگران را تعیین کنید. میراث شما همان چیزی است که از آن می سازید. نانوشته را زندگی کن شامل Haunted Hogsmeade Shop Quest است که به یک سیاهچال اضافی، ست لوازم آرایشی مغازه دار، و فروشگاه هاگزمید درون بازی دسترسی پیدا می کند. ویژگی‌های جدید عبارتند از: -حالت عکس -بازنشانی استعدادها اقلام آرایشی جدید اکنون در دسترس همه بازیکنان است: عینک‌هایی که زنده بودند، لباس و کت زندانی آزکابان، کوه هیپوگریف اونیکس، دستور معجون فلیکس فلیسیس، جاروهای جادوگر تاریک (2)"
+    },
+    {
+        "title": "ignatius",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1457710/Ignatius/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1457710/header.jpg?t=1758649642",
+        "description": "The game with its visual form and plot refers to the old silent movies. It takes us to the surreal, black-and-white world where we play as a character named Ignatius. Main character is a boy a bit bored with his current monotonous life. One moonlit night something unexpected happened, something that turn his orderly life upside down. He encountered a mysterious theater director named Vigo, who moves him to oneiric film reality. The player’s task is to find his way in this strange world and escape from it. We traverse interesting locations. discovering this mysterious universe and trying to unravel its mystery. On our way stands various obstacles, logical puzzles and specific oponents.",
+        "id_in_db": "t3_1pnw727",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "85% off",
+        "steam_app_id": "1457710",
+        "genres": [
+            "Adventure",
+            "Casual",
+            "Indie"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "is_dlc_or_addon": false,
+        "persian_summary": "بازی با شکل بصری و طرح داستانی خود به فیلم های صامت قدیمی اشاره دارد. ما را به دنیای سورئال و سیاه و سفید می برد که در آن به عنوان شخصیتی به نام ایگناتیوس بازی می کنیم. شخصیت اصلی پسری است که کمی از زندگی یکنواخت فعلی خود خسته شده است. یک شب مهتابی اتفاقی غیرمنتظره افتاد، چیزی که زندگی منظم او را زیر و رو کرد. او با کارگردانی مرموز تئاتر به نام ویگو روبرو شد که او را به واقعیت فیلم یک نفره سوق داد. وظیفه بازیکن این است که راه خود را در این دنیای عجیب بیابد و از آن فرار کند. از مکان های جالب عبور می کنیم. کشف این جهان مرموز و تلاش برای کشف رمز و راز آن. در راه ما موانع مختلف، پازل های منطقی و مخالفان خاص وجود دارد."
     },
     {
         "title": "ios macos technicalc calculator 8",
@@ -685,17 +679,27 @@
         "persian_summary": "میلف سیتی شهری مدرن است که در آن بسیاری از نژادها، فرهنگ ها و زندگی مردم عادی در هم تنیده شده است. و امروز شما می توانید از نزدیک با زندگی 5 دختر زیبا، ساکنان این شهر، که در سبک زندگی و شخصیت خود کاملاً متفاوت هستند آشنا شوید. در اینجا مشکلات زندگی روزمره را فراموش خواهید کرد و در دنیای هیجان انگیز شهر میلف فرو خواهید رفت! ویژگی ها: ➡ 5 دختر که شما را با تنوع و کاریزمای خود شگفت زده خواهند کرد! ➡ هنگامی که بازی را شروع می کنید، نمی توانید متوقف شوید، بیشتر و بیشتر می خواهید ... ➡ فال ماهجونگ-یک نفره، که در آن می توانید انعطاف ذهن خود را نشان دهید و پاداش های مورد نظر را دریافت کنید ... ➡ هر دختری پازل فال ماهجونگ-یک نفره خود را دارد. ➡ هر دختر گالری خود را دارد، با تصاویر منحصر به فرد خود. درباره شخصیت ها: ➡ صاحب بار آبجو یک زن سکسی آمریکایی است که همه چیز را در مورد دم کردن آبجو واقعی می داند و از اینکه در حین گفتگوی دلپذیر با شما چند لیوان بخورد مخالف نیست. باور کن نخواهی..."
     },
     {
-        "title": "nikana nikana dax skin dax portrait daybreak color palette awlspan syandana ghost kuaka floof",
-        "store": "other",
-        "url": "https://www.reddit.com/r/FreeGameFindings/comments/1pggwb7/pcconsolemobile_other_warframe_nikana_nikana_dax/",
-        "image_url": "https://b.thumbs.redditmedia.com/ejl_aI8cqhNWVY2rxQ5rvJnWHRFsNHQEt5xMagZVc_w.jpg",
-        "description": "https://preview.redd.it/spuo8n6lwr5g1.png?width=1280&format=png&auto=webp&s=a2ff4e43172cae807d7822037757e4b9fe419d72 https://www.warframe.com/promocode/WF-IRONMOUSE https://www.warframe.com/promocode/OLDPEACE-QQKXJ submitted by /u/MeguminShiro [link] [comments]",
-        "id_in_db": "t3_1pggwb7",
-        "subreddit": "FreeGameFindings",
+        "title": "new lands 100 off",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1134700/Wild_Terra_2_New_Lands/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2694490/cf9f17c1f9eaa59a6a87f2faf3c03ac5a750b9da/header.jpg?t=1765823280",
+        "description": "Path of Exile 2 is a next generation Action RPG from Grinding Gear Games, featuring co-op for up to six players. Path of Exile 2 takes place in the land of Wraeclast, a dark continent populated by unique cultures, ancient secrets, and monstrous dangers. A sinister threat, long thought destroyed, has begun creeping back on the edge of civilisation, driving people mad and sickening the land with Corruption. Path of Exile 2 features a brand new campaign with six acts, 100 distinct environments, 600 monsters and 100 bosses. Key Features Twelve Character Classes Path of Exile 2 features twelve character classes, two for every combination of Strength, Dexterity and Intelligence. While each of the class variants focuses on a different playstyle, they're just a starting point. You can combine skills from many classes together to create your ideal character build. Each of the twelve character classes has its own three Ascendancy specialisations, resulting in a total of 36 Ascendancy Classes to pick between. New Skill Gem System Path of Exile 2 features 240 Skill Gems that grant devastating active skills and 200 Support Gems that modify their behaviour. Combine these together to create your perfect build. This is the next generation of Path of Exile's famous skill system. Support Gems are now socketed directly into Skill Gems, removing many of the frustrations present in the old system while maintaining all the previous depth. It's now possible to six-link every skill your character uses. Dual-specialise your Passive Skill Tree Path of Exile's iconic Passive Skill Tree has made a return, with 1,500 skills that allow you to completely customise your gameplay experience. It now features Dual Specialisation, the ability to allocate some passive skill points to two different sets of skills. They engage whenever the appropriate weapon or skill type is used. For example, you can have some points allocated to both daggers and traps, or ice and lightning, and as you swap between attacks, the appropriate skill points will apply. This lets you specialise in multiple areas without opportunity cost. Uncover All-new Items Path of Exile 2 features 700 equipment base types and every single one has its own unique item you can find. You can augment your arsenal with new weapons such as Spears, Crossbows and Flails, as well as supplementary items like Focuses, Traps and redesigned Sceptres. Encounter Unique Bosses In Path of Exile 2, every area of the Campaign contains a boss encounter. There's over a hundred bosses to fight as you make your way through the Acts and they all have unique mechanics to learn. Explore a New Endgame Completing the campaign is just the beginning. The endgame in Path of Exile 2 includes countless areas in different biomes, powerful crafting, challenging bosses, unique encounters and much more. Unlock new paths and explore further into the world. As you progress through the endgame, you will gain access to special passive trees that can boost the rewards of your maps and change the way the various endgame mechanics work. These trees will make your maps more rewarding but also more difficult. Path of Exile 2 introduces sequels to several leagues from Path of Exile. While their mechanics are familiar, the monsters, bosses, rewards and progression are all new. Fair-To-Play. Never Pay-To-Win. Path of Exile 2 is a separate game to the original Path of Exile. We will continue to offer expansions for both games going forward. They will never be \"pay to win\". Purchases are shared between the two games.",
+        "id_in_db": "t3_1po8sib",
+        "subreddit": "GameDeals",
         "is_free": true,
         "discount_text": "100% Off",
+        "steam_app_id": "2694490",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Massively Multiplayer",
+            "RPG",
+            "Early Access"
+        ],
+        "is_multiplayer": true,
+        "is_online": true,
         "is_dlc_or_addon": false,
-        "persian_summary": "https://preview.redd.it/spuo8n6lwr5g1.png?width=1280&format=png&auto=webp&s=a2ff4e43172cae807d7822037757e4b9fe419d72 https://www.warmoONDE.com/WFpro https://www.warframe.com/promocode/OLDPEACE-QQKXJ ارسال شده توسط /u/MeguminShiro [لینک] [نظرات]"
+        "persian_summary": "Path of Exile 2 یک نسل بعدی اکشن RPG از بازی Grinding Gear Games است که حداکثر شش بازیکن را در آن بازی می‌کند. Path of Exile 2 در سرزمین Wraeclast اتفاق می افتد، قاره ای تاریک که پر از فرهنگ های منحصر به فرد، اسرار باستانی و خطرات هیولایی است. یک تهدید شوم، که مدت ها تصور می شد نابود شده بود، شروع به خزیدن در لبه تمدن کرده است، مردم را دیوانه می کند و زمین را با فساد بیمار می کند. Path of Exile 2 دارای یک کمپین کاملاً جدید با شش عمل، 100 محیط متمایز، 600 هیولا و 100 رئیس است. ویژگی‌های کلیدی Twelve Character Classes Path of Exile 2 دارای دوازده کلاس شخصیت است که دو کلاس برای هر ترکیبی از قدرت، مهارت و هوش. در حالی که هر یک از انواع کلاس ها بر سبک بازی متفاوتی تمرکز می کنند، آنها فقط یک نقطه شروع هستند. شما می توانید مهارت های بسیاری از کلاس ها را با هم ترکیب کنید تا شخصیت ایده آل خود را بسازید. هر یک از دوازده کلاس شخصیت، سه تخصص خاص خود را دارد که در نتیجه در مجموع 36 کلاس برتری به ..."
     },
     {
         "title": "One Gun Guy",
@@ -738,6 +742,19 @@
         "persian_summary": "آماده شوید و وارد Rogue Company شوید، اکشن تیراندازی تاکتیکی سوم شخص که سرنوشت جهان را در دستان شما قرار می دهد. تیم دشمن را در حالت‌های بازی مبتنی بر هدف و اکشن که دارای مکان‌های عجیب و غریب، تفنگ بازی هیجان‌انگیز، و انفجارها است، شکست دهید... انفجارهای زیادی. تیم خود را جمع کنید و اکنون رایگان بازی کنید! به ماموریت های پرمخاطره در نقاط داغ در سراسر جهان پرواز کنید. در حالت های اکشن بازی 4v4 و 6v6 شرکت کنید. نقطه را در King of the Hill کنترل کنید، برای زنده ماندن در Strikeout مبارزه کنید، یا در Demolition بمب بکارید و خنثی کنید. به دنبال رقابت بیشتر هستید؟ برای نشان دادن مهارت های خود به صف رتبه بندی بپیوندید. یا در حالت چرخشی با زمان محدود استراحت کنید. به عنوان یکی از بسیاری از نمایندگان شرکت Rogue که هر کدام مجموعه ای از مهارت ها، سلاح ها و ابزارهای منحصر به فرد خود را دارند وارد شوید! با Switchblade’s Chaos Launcher ناپالم انفجاری شلیک کنید، از پهپاد Saint’s revie برای نجات هم تیمی های خود استفاده کنید یا با هک Gl1tch تیم دشمن را آفلاین کنید. کدام سبک سرکش و بازی را انتخاب می کنید؟ در سرتاسر هر..."
     },
     {
+        "title": "operation galuga castlevania dominus collection super bomberman r2",
+        "store": "indiegala",
+        "url": "https://www.indiegala.com/store/publisher-sale/konami-us",
+        "image_url": "https://external-preview.redd.it/ZwvYUVrwa3xLb5D3-vdleo1d0jBsOErLXhIXfR300MU.jpeg?width=640&crop=smart&auto=webp&s=302482e47bc976ee3ebcd7d850ea9582c92f9599",
+        "description": "submitted by /u/indieg [link] [comments]",
+        "id_in_db": "t3_1pnxyx5",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "51% off",
+        "is_dlc_or_addon": true,
+        "persian_summary": "ارسال شده توسط /u/indieg [لینک] [نظر]"
+    },
+    {
         "title": "palingenesis",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/palingenesis/id6467540178",
@@ -751,37 +768,15 @@
         "description": ""
     },
     {
-        "title": "pirate sagas",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/3620470/Pirate_Sagas__The_Golden_Age/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3620470/22d673f33c8cfab95ae30c3b2865777772ac8289/header.jpg?t=1765747441",
-        "description": "Journey to the 17th century Caribbean and take the wheel of a ship as Captain George Somers, James Riskinner or Joseph Bannister, three historical figures during the \"Golden Age of Piracy\". Each story is based at a different time, in a different settlement, from which you'll perform missions to upgrade your crew and ships and complete their historical accomplishments. Each mission pits you against enemy vessels, ports and strongholds in pursuit of gold and plunder. Command up to four ships and engage in ship-vs-ship battles and crew-to-crew turn based combat when boarding ships! George Somers faces the challenges of preparing a new ship for an arduous journey to finally deliver supplies and settlers to Jamestown, ten months after a hurricane left him marooned in Bermuda. James Riskinner seeks to amass a fortune in Spanish gold and goods, taken by force, or you'll die trying. Joseph Bannister committed treachery against Britain and then sailed with a group of Dutch privateers to raid the Spanish port of Campeche",
-        "id_in_db": "t3_1pm0of6",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "30% off",
-        "steam_app_id": "3620470",
-        "genres": [
-            "Adventure",
-            "Indie",
-            "Strategy",
-            "Early Access"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "به کارائیب قرن هفدهم سفر کنید و در نقش کاپیتان جورج سامرز، جیمز ریسکینر یا جوزف بانیستر، سه شخصیت تاریخی در دوران \"عصر طلایی دزدی دریایی\"، فرمان کشتی را بگیرید. هر داستان در زمان متفاوتی است، در محله ای متفاوت، که از آنجا ماموریت هایی را برای ارتقاء خدمه و کشتی های خود و تکمیل دستاوردهای تاریخی آنها انجام خواهید داد. هر ماموریت شما را در مقابل کشتی ها، بنادر و سنگرهای دشمن در تعقیب طلا و غارت قرار می دهد. تا چهار کشتی را فرماندهی کنید و هنگام سوار شدن به کشتی در نبردهای کشتی علیه کشتی و نبردهای نوبتی خدمه به خدمه شرکت کنید! جورج سامرز با چالش های آماده سازی یک کشتی جدید برای یک سفر دشوار روبرو می شود تا در نهایت تدارکات و مهاجران را به جیمزتاون تحویل دهد، ده ماه پس از طوفان که او را در برمودا پنهان کرد. جیمز ریسکینر به دنبال جمع آوری ثروت در طلا و کالاهای اسپانیایی است که به زور گرفته شده است، وگرنه در تلاش خواهید مرد. جوزف بانیستر مرتکب خیانت به بریتانیا شد و سپس با گروهی از خصوصی هلندی برای حمله به..."
-    },
-    {
-        "title": "playsum core keeper 969 878 c1285 a1296 with code cheers",
+        "title": "playsum caravan sandwitch 1023 892 780 c1269 a1556 with code cheers",
         "store": "other",
-        "url": "https://store.playsum.live/product/f4401156-94c9-4e21-904d-95fb19e50e0e/core-keeper",
-        "image_url": "https://external-preview.redd.it/7Bn4m1OEpg7Wu4NdiNgnYHac2xd2lYBqvYj0uU014aA.png?width=320&crop=smart&auto=webp&s=6ba1ceed7deb4cc61c75849c89fac75edd22cc6e",
+        "url": "https://store.playsum.live/product/6adf777e-3c1a-561a-812d-215846f35185/caravan-sand-witch",
+        "image_url": "https://external-preview.redd.it/9kf8rCwymLCQWICf-ynG8s8F5FWPpuu5redccX1aJz8.jpeg?width=320&crop=smart&auto=webp&s=508558dfde1bc0396b65da6ea2f623181ed51f41",
         "description": "submitted by /u/Lets_Playsum [link] [comments]",
-        "id_in_db": "t3_1pmnj3q",
+        "id_in_db": "t3_1poka92",
         "subreddit": "GameDeals",
         "is_free": false,
-        "discount_text": "52% off",
+        "discount_text": "59% off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/Lets_Playsum [لینک] [نظر]"
     },
@@ -845,6 +840,26 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "https://preview.redd.it/ducx3iotcm6g1.png?width=2476&format=png&auto=webp&s=ea4218dcec4275e7147aea5d6376ff9e7934106e 📢025تعطیلات فروش رایگان 🎮﻿﻿ CLAIM ALL BaseGame + DLC ／ DLC ／ DLC (Without 🧧 Star Trek Online - Epic Starter Pack Bundle 🔁) 🧧 Asphalt Legends - Decal Pack ｜⌛⛔NGNV/RUBY/Bas ／ DLC 🧧 Discord Nitro ｜⌛⛔｜IR/KP/RU/SY/TR/UA Reward 🧧 Disney Speedstorm - بسته تک رنگ - Racer Jack Skellington ｜⌛⛔｜BY/CN/CU/IR/SD/KPVa/BY/CN/CU/IR/SD/KPeGa/BY/CN/CU/IR/SS/KPeGa/ + DLC ／ DLC 🧧 Fall Guys - Fashionably Frosty BaseGame + DLC ／ DLC 🧧 Firestone - Idle Clicker Online RPG - Christmas Giveaway BaseGame + DLC ／ DLC 🧧 Fortnite - Hollypaw Wrap ／RUA DLC 🧧 Idle Champions of the Forgotten Realms - Cozy Dark Urge Party Pack ｜⌛⛔｜KR BaseGame + DLC ／ DLC 🧧 Infinity Nikki - Epic Extras Bundle ｜⌛⛔｜CN/VN +DLCGater Legends Starter Pack ｜⌛⛔｜KR BaseGame + DLC ／ DLC 🧧 Rocket League® - TriTrim Crimson & Forest Green Wheels..."
+    },
+    {
+        "title": "psa steam replay 2025 badge",
+        "store": "steam",
+        "url": "https://store.steampowered.com/replay/my/2025",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/485610/0becb5b8e325d08101422223602d6e68abafa9e5/header.jpg?t=1765926027",
+        "description": "Features Multiplayer 11 Game modes 21 Stadiums Dedicated servers Antilag system Realistic physics Ball editor Customization Bots Tutorial Replays Statistics Soccer Game Soccer Online: Ball 3D is the first soccer game in a new genre. Control one player on the virtual field. Kick the ball high, low, hard, lightly, curve, lob, jump, dribble, sprint (dash) and perform tricks. Discover a multi-player football simulator played by over 1 million players. Gameplay Ball 3D is an immersive computer game where you have 100% control. The physics is powered by a professional physics engine, which ensures realistic ball behavior. Because this is a physics-driven game, you need to use the geometry of the in-game objects to control them. Third person camera view makes the gameplay very unique in the electronic gaming world. At last a game that lets you perform pixel perfect moves. Open yourself to an atmospheric, magic reality, gain access to a new world where your unreal fantasy of becoming a soccer player will come true. Not many aaa titles offer what you will find in this hidden gem, it may be your best choice. This competitive team-based game is a true marvel for real-life soccer fans, offering endless fun. Soccer Online Playing single-player vs bots is so fun, but this is a modern esport game. Play online in the cross-platform multiplayer and play with other humans over the internet (or local network). Exciting and addictive Co-Op/PvP is the strongest element of this indie game. More than soccer Ball 3D has other sports for you to enjoy on-line: Basketball, Handball, Ice Hockey, Racing, Battle Royale and more. In Battle Royale survival is the key. Carefully overwatch the entire battlefield and avoid your opponents at all cost. It is not a shooter, there is no crosshair, the only weapon you have is you). You win this combat only when all your rivals are \"dead\". Use your reflex to win this epic war. The racing mode is like a kart racer, but with discs. During the race you drive using your mouse and keyboard as a controller. In Hockey mode you play with a puck. Ball 3D is a multi-sport simulation game available on laptop/desktop PC (Windows), Mac/Macbook (MacOS) and Steam Deck (Linux). Absolutely unique soccer sim game for casual, hardcore and pro players, where your realtime reaction skills matter. It mixes arcade gameplay with strategy. Fast-paced, easy to play, hard to master e-sport game with creative mechanics. Great to play in 2025 and even in 2026. It may be a light, relaxing and cozy experience. Unlike many RPG games where you level up your character, here your quest is to improve yourself. Whether you prefer golf, tennis, pool, baseball, cricket, volleyball or any other olympic sport, you will still like Ball 3D. Teams Building your own team is half of the success. Choose a name/tag (FC The Best, AS Best Players, EAS-Vampires, Foot Monsters (FM), Greatest Among Many (GAM), FRE or any other) then invite your friends to join the party and become a real team coach/manager. Be ready to compete in global leagues, cups and tournaments. Wouldn't it be nice to join the elite and win the Ball 3D World Cup Grand Final? Reach the peak and become a God, a living legend, the undisputed best Ball 3D player on the planet earth (the GOAT). Meet new friends, write your story and fulfill your American dream! If you lose, challenge your opponents to a rematch. Invite 1, 2 or 5 friends, 6, 7, 10. Not enough? How about 25, 26 or even more. Cooperation is the secret formula. Your team is hollow without it. Try to play positional attacks or it may defend the goal like a tank, lock the penalty area, turn it into a fortress and try counter attacks. Parking a bus in the goal is a sensible tactic too. Picking the best tactic for your team is like solving a puzzle, use your head and logic. Stealing tactics from your opponents is not theft. It is your role to decide if you want to play with one striker or with two, with three defenders or with four. You may try accurate short passes to gain space or full power flat strikes. Try all possible ideas and alternatives or your team will fall. Welcome new players! Simple tutorial will teach you how to play. It will help you massively to improve during the humble beginnings of your career. It is like a sandbox that lets you practice your moves and tricks. Multiplayer The game offers very advanced and optimized network code, including client side prediction anti-lag system and great dedicated servers in various regions that offer low ping. It is one of the most dynamic highest-rated coop soccer games. If you like multiplayer or mmo games you will love it. Ball 3D is mainly not a singleplayer offline PvE game, but you may decide that it is too early to play with real people and prefer to try your 1st game solo vs bots (AI). Man of the match The name of the best player will be featured and shown on the board as the man (woman) of the match. Put your name there and become popular! It tastes really wonderful to reach the apex and become the hero of the match. Replays Replays (demos) will help you craft your soccer skills into an art. Watch the matches from various cameras, including: TV, Action, Top Down, Auto and several others or from the 3rd person perspective. Remember to record replays and save your \"wow\" goals for later. Soccer variations Try modes like: Darts, Ping Pong and others. Ball 3D is a super fun, rich and deep co-operative game not similar to any other. Different environments Play on the grass, darker grass, dried grass, sand (desert), snow, concrete or rust-colored gravel. Play during the sunny summer, cold snowy winter, rainy autumn or green spring. Do you prefer the daylight or the dark night? Clean hot sky, clouds, wind or maybe a rain? Play on stadiums like: Classic, Real, Small, Big, Good, Mega, Huge, a street city stadium called Urban and many others. Ball 3D is a colorful, peaceful, family friendly, non-violent (no violence, no blood) game about soccer with a bit of the old school retro vibe. It can be played by players of all age, kids and adults, boys and girls. No matter what your sex is. Whether you are 18, 24 or 50 years old, boomer or young. Other features The game also offers Steam Trading Cards and Achievements among many other features. Buy and sell in-game items for a very cheap price on the Steam Market (cheapest deals are for less than 0.99 dollars). Get free items (loot inside the boxes) for playing the game and then put them on sale or go to the market and look for some best-sellers for yourself. Visit the shop, where you can find paid items and some attractive discounted bundles that offer great value (halloween, christmas, valentine and others). Tweak the graphics and other settings to get far more fps. The game will work on all computers including bad low spec / low end hardware (potato pc). After you score a goal, you can turn yourself into a rocket, alien, spider, ufo, car, zombie, hat guy vs knights, and many other scary but cartoony monsters, plants and wild animals you may know from horror and sci-fi movies or cartoons. How cool and funny is that? Use stylized visual shot effects like: shadow, ghost, black trail, white shuriken, fire ball, dying star, red devil from hell, rainbow cubes, ancient artifact and countless others. Show emotions to by using special emotion items, the list is long: cute cat, pumpkin smile, wolf, crazy kiss, laugh, cry, XD, lol, bat. Use badges: dog, portal, loops, dwarf, dragon, underground, warrior, hand, heat map, spooky. Join our community. It's not difficult. Start playing soccer right away and begin a new adventure. Support Ball 3D was created by Unusualsoft. You can contact us by email, on the forum, social media or discord. Feel free to ask questions or make suggestions. We will be very happy to reply to you! Updates The game has been already updated over 250 times. Many fun things will be added in the upcoming releases.",
+        "id_in_db": "t3_1poacqd",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "485610",
+        "genres": [
+            "Simulation",
+            "Sports"
+        ],
+        "is_multiplayer": true,
+        "is_online": true,
+        "is_dlc_or_addon": false,
+        "persian_summary": "ویژگی های چند نفره 11 حالت بازی 21 استادیوم سرورهای اختصاصی سیستم Antilag فیزیک واقعی ویرایشگر توپ سفارشی سازی ربات ها آموزش بازپخش آمار بازی فوتبال فوتبال آنلاین: Ball 3D اولین بازی فوتبال در سبک جدید است. یک بازیکن را در زمین مجازی کنترل کنید. توپ را بالا، پایین، محکم، سبک ضربه بزنید، منحنی کنید، لوب کنید، بپرید، دریبل کنید، دوی سرعت (خط تیره) بزنید و ترفند انجام دهید. یک شبیه ساز فوتبال چند نفره را کشف کنید که توسط بیش از 1 میلیون بازیکن بازی می شود. Gameplay Ball 3D یک بازی رایانه ای همهجانبه است که در آن شما 100% کنترل دارید. فیزیک توسط یک موتور فیزیک حرفه ای طراحی شده است که رفتار واقعی توپ را تضمین می کند. از آنجایی که این یک بازی فیزیک محور است، باید از هندسه اشیاء درون بازی برای کنترل آنها استفاده کنید. نمای دوربین سوم شخص، گیم پلی بازی را در دنیای بازی های الکترونیکی بسیار منحصر به فرد می کند. در نهایت یک بازی که به شما امکان می دهد حرکات پیکسلی عالی را انجام دهید. خودتان را به روی یک واقعیت جوی و جادویی باز کنید، به دنیای جدیدی دسترسی پیدا کنید که در آن فانتزی غیرواقعی شما برای تبدیل شدن به یک فوتبال..."
     },
     {
         "title": "psa switch no gravity games switchmas 2025 website now live",
@@ -933,39 +948,51 @@
         "persian_summary": "ارسال شده توسط /u/Fit-Cardiologist-124 [لینک] [نظر]"
     },
     {
-        "title": "the breakers 75 off 499 dragon ball xenoverse 2 70 off 599 dragon ball z kakarot 25 off 1499 bandai namco publisher sale",
-        "store": "steam",
-        "url": "https://store.steampowered.com/sale/BandaiNamcoPublisherSale2025?l=english",
-        "image_url": "https://external-preview.redd.it/R5qQ6Qx2Bi4ROJILpFMxf55NuOxjP8LZezS1D0ULdMQ.jpeg?width=640&crop=smart&auto=webp&s=e977d87d80745254256401d33c769626df1d2a33",
-        "description": "submitted by /u/DBZWarrior05 [link] [comments]",
-        "id_in_db": "t3_1pmo6n0",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "75% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/DBZWarrior05 [پیوند] [نظر]"
-    },
-    {
-        "title": "tt isle of man",
-        "store": "other",
-        "url": "https://steamdb.info/sub/248945/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/626610/header.jpg?t=1725352905",
-        "description": "For bikers, there are two types of speed races: the Isle of Man TT and the rest. No other race is as gruelling for the motorbikes and demanding for the riders. Take up the challenge of the Snaefell Mountain course: all 37.73 miles faithfully reproduced with the champions and their bikes. 110 years of history have made TT a motor racing legend. Memorise each section of the course, round each bend to perfection, keep your concentration throughout the 6 laps, get the best time and write your name alongside the greatest champions. • THE SNAEFELL MOUNTAIN COURSE FAITHFULLY REPRODUCED: 37.73 miles of roads and 264 bends for a race that is longer and more difficult than all GP circuits together. • THE OFFICIAL RIDERS AND THEIR ULTRA-POWERFUL MOTORBIKES: 25 riders and 38 motorbikes hurtling along mountain roads at over 180 mph. • REALISTIC RIDING APPROVED BY TT RIDERS: lifelike motorbike behaviour to experience the real sensations of riding, just like on the actual course. • ONLINE COMPETITION FOR UP TO 8 PLAYERS.",
-        "id_in_db": "t3_1phdg1q",
+        "title": "stove art of fighting 2",
+        "store": "stove",
+        "url": "https://store.onstove.com/en/games/4337",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/39210/header.jpg?t=1760606311",
+        "description": "For newcomers to FINAL FANTASY XIV Online, this edition includes three award-winning titles - FINAL FANTASY XIV: A Realm Reborn the base game, and the first and second expansions: FINAL FANTASY XIV: Heavensward and FINAL FANTASY XIV: Stormblood. This edition also includes a 30-day free play period* Join over 30 million adventurers worldwide and take part in an epic and ever-changing FINAL FANTASY. Experience all the hallmarks of the best-selling franchise - an unforgettable story, exhilarating battles, and a myriad of diverse and captivating environments to explore. Party up with friends or play solo! Experience all the main story dungeons on your own by calling upon NPC allies to fight by your side. Your journey takes you ever higher in FINAL FANTASY XIV: Heavensward: • Take your first steps in the reclusive nation of Ishgard, locked in a seemingly never-ending struggle with dragons. • Three additional jobs: channel celestial magicks to heal your allies as the mystical Astrologian. Attack from afar using firearms and mechanical weaponry as the daring Machinist. Wield a mighty greatsword and the power of darkness as the valiant Dark Knight. Rekindle the fires of hope in FINAL FANTASY XIV: Stormblood: • Journey to the East and rise up against the might of the Garlean Empire. • Two additional jobs: master the balance of martial and arcane arts as the rapier-wielding Red Mage. Draw your katana and let steel sing as the noble Samurai. IMPORTANT: • *The 30-day free play period included with purchase can only be applied once to each platform on a single service account. • Square Enix Accounts registered to the FINAL FANTASY XIV Online - Starter Edition will not be eligible for the FINAL FANTASY XIV Online - Free Trial. Certain features currently contained in the FINAL FANTASY XIV Online - Starter Edition, and additional content, may become available in the FINAL FANTASY XIV Online - Free Trial in the future. • All editions of the game require user registration. All editions of the game other than the Free Trial require an active paid subscription to play. FINAL FANTASY XIV Online game packages available on Steam may only be registered and added on a Square Enix account that has the base game “FINAL FANTASY XIV Online - Starter Edition\" (or formerly known as \"FINAL FANTASY XIV: A Realm Reborn”) purchased on Steam. • To view your 20 digit registration codes after purchase, simply right-click on “FINAL FANTASY XIV Online” in your Steam “Library” and select “View CD key” on the Steam client. The codes will always be accessible from this location should you ever need to reference them again. • The registration codes can be redeemed immediately on the Mog Station. If this is your first time installing and registering \"FINAL FANTASY XIV Online\", you may redeem your registration codes during the initial installation process. • Age restrictions and other terms and conditions apply. Please refer to the User Agreement and Square Enix Account Terms of Use for the terms and conditions of registration and service. Please visit the FINAL FANTASY XIV Online website for additional information.",
+        "id_in_db": "t3_1po5pn2",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "626610",
+        "steam_app_id": "39210",
         "genres": [
-            "Action",
-            "Racing",
-            "Simulation",
-            "Sports"
+            "Massively Multiplayer",
+            "RPG"
         ],
         "is_multiplayer": true,
-        "is_online": false,
+        "is_online": true,
+        "age_rating": "13",
         "is_dlc_or_addon": false,
-        "persian_summary": "برای دوچرخه سواران، دو نوع مسابقه سرعت وجود دارد: جزیره من TT و بقیه. هیچ مسابقه دیگری برای موتورسیکلت ها طاقت فرسا و برای سوارکاران سخت نیست. چالش دوره کوهستان اسنافل را قبول کنید: تمام 37.73 مایل به طور صادقانه با قهرمانان و دوچرخه‌هایشان بازتولید شده است. 110 سال تاریخ، TT را به یک اسطوره اتومبیلرانی تبدیل کرده است. هر بخش از دوره را به خاطر بسپارید، هر خم را کامل بچرخانید، تمرکز خود را در طول 6 دور حفظ کنید، بهترین زمان را کسب کنید و نام خود را در کنار بزرگترین قهرمانان بنویسید. • دوره کوهستانی SNAEFELL با وفاداری تولید شده: 37.73 مایل جاده و 264 پیچ برای مسابقه ای که طولانی تر و دشوارتر از همه مدارهای GP با هم است. • سواران رسمی و موتورسیکلت های فوق العاده قدرتمند آنها: 25 سوار و 38 موتور سیکلت در امتداد جاده های کوهستانی با سرعت بیش از 180 مایل در ساعت حرکت می کنند. • سواری واقعی که توسط TT RIDERS تایید شده است: رفتار واقعی موتورسیکلت برای تجربه احساسات واقعی سواری، درست مانند مسیر واقعی. • آنلاین..."
+        "persian_summary": "برای تازه واردان به FINAL FANTASY XIV Online، این نسخه شامل سه عنوان برنده جایزه است - بازی پایه FINAL FANTASY XIV: A Realm Reborn، و الحاقات اول و دوم: FINAL FANTASY XIV: Heavensward و FINAL FANTASY XIV: Stormblood. این نسخه همچنین شامل یک دوره بازی رایگان 30 روزه است* به بیش از 30 میلیون ماجراجو در سراسر جهان بپیوندید و در یک FINAL FANTASY حماسی و همیشه در حال تغییر شرکت کنید. تمام ویژگی های فرنچایز پرفروش را تجربه کنید - یک داستان فراموش نشدنی، نبردهای هیجان انگیز، و تعداد بی شماری از محیط های متنوع و جذاب برای کاوش. با دوستان مهمانی کنید یا انفرادی بازی کنید! با فراخوانی از متحدان NPC برای مبارزه در کنار شما، تمام سیاه چال های داستان اصلی را به تنهایی تجربه کنید. سفرتان شما را در FINAL FANTASY XIV: Heavensward هر چه بالاتر می برد: • اولین قدم های خود را در کشور منزوی Ishgard بردارید، که در یک مبارزه به ظاهر بی پایان با اژدهاها قفل شده است. • سه کار اضافی: جادوهای آسمانی را برای شفای متحدان خود به عنوان اخترشناس عرفانی هدایت کنید."
+    },
+    {
+        "title": "stove rush rush red shoes jump bullet delivery space spot collection",
+        "store": "other",
+        "url": "https://www.reddit.com/r/FreeGameFindings/comments/1pnvtbt/stove_game_rush_rush_red_shoes_jump_bullet/",
+        "image_url": "https://d2x8kymwjom7h7.cloudfront.net/live/application_no/119001/images/indie-studio-v3/stove169_en.webp",
+        "description": "https://store.onstove.com/en/games/101151 🔁 ⏰ Until 2026 Jan 04 14:59 UTC https://store.onstove.com/en/games/100200 https://store.onstove.com/en/games/101940 🔁 ⏰ Until 2026 Jan 04 15:59 UTC submitted by /u/MeguminShiro [link] [comments]",
+        "id_in_db": "t3_1pnvtbt",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": true,
+        "persian_summary": "https://store.onstove.com/en/games/101151 🔁 ⏰ تا سال 2026، 04 ژانویه 14:59 UTC https://store.onstove.com/en/games/100200 https://store.onstove.com/fa/games/101940 ژانویه 26 ⏰ 15:59 UTC ارسال شده توسط /u/MeguminShiro [پیوند] [نظرات]"
+    },
+    {
+        "title": "the session 67915 off",
+        "store": "other",
+        "url": "https://www.reddit.com/r/GameDeals/comments/1pobcud/steam_the_session_67915_off/",
+        "image_url": "https://m.media-amazon.com/images/S/pv-target-images/219e89e199ca5f377f82ab49e5ee039eab11e4e6d1c3b5027438cef2a16c1701.jpg",
+        "description": "Hi everyone! I'm a developer of \"The Session\". A visual novel experience you don’t want to miss. Jump in and enjoy the story! https://store.steampowered.com/app/4133970/The_Session/ submitted by /u/l00knc [link] [comments]",
+        "id_in_db": "t3_1pobcud",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "15% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "سلام به همه! من توسعه دهنده \"جلسه\" هستم. یک تجربه رمان بصری که نمی خواهید از دست بدهید. وارد شوید و از داستان لذت ببرید! https://store.steampowered.com/app/4133970/The_Session/ ارسال شده توسط /u/l00knc [لینک] [نظرات]"
     },
     {
         "title": "vault 21 jumpsuit joshua treestarfield",
@@ -979,6 +1006,28 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/MeguminShiro [لینک] [نظر]"
+    },
+    {
+        "title": "Wild Terra 2: New Lands",
+        "id_in_db": "wild-terra-2-new-lands@1765908925",
+        "store": "other",
+        "url": "https://itad.link/019b285f-b28a-709f-9a7d-839276dd9e42/",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "1134700",
+        "description": "Play your role in the life-filled medieval world controlled by players. MMORPG full of details that create a unique immersion and the spirit of adventure! Huge selection of crafts. Attention to details Become the best builder, blacksmith, fisherman, healer, alchemist, baker, sailor, tanner, trader, farmer, jeweler and anything else. But getting the Master's Mark requires perseverance and knowledge. In Wild Terra, you cannot create equipment in one click. Pets Catch, tame and grow rare species of animals. As they level up, pets receive random bonuses. It will take luck or hard work to put together the perfect combination. Raids and Solo play Join groups, create guilds, or play solo. Hunt huge bosses and explore dark dungeons! Build, evolve and travel to PvP and PvE zones. Or you can challenge and go to mysterious continents with a variety of biomes, inhabitants and conditions, for example, to an Plague Island. Leveling and combat system Whatever you use, the skill level of that increases. The game has many non-combat and battle skills, a variety of melee and ranged weapons, each with its own active and passive abilities. There are no pre-selected classes in Wild Terra. What you have in your hands determines your role in combat. And thanks to the non-target combat system, your skill is as important as your equipment. Only your choice You decide whether to risk your loot or stay in safe zones. Also, in any dungeon, you can choose the difficulty from Easy to Nightmare. The rewards justify the risk, but the decision is yours!",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1134700/07763518d7a4ca5cd3ca53a670f955b90efeb333/header_alt_assets_5.jpg?t=1765908364",
+        "genres": [
+            "Action",
+            "Indie",
+            "Massively Multiplayer",
+            "RPG"
+        ],
+        "is_multiplayer": true,
+        "is_online": true,
+        "is_dlc_or_addon": false,
+        "subreddit": "FreeGameFindings",
+        "persian_summary": "نقش خود را در دنیای پر از زندگی قرون وسطایی که توسط بازیکنان کنترل می شود بازی کنید. MMORPG پر از جزئیات که غوطه وری منحصر به فرد و روح ماجراجویی را ایجاد می کند! انتخاب عظیمی از صنایع دستی. توجه به جزئیات بهترین سازنده، آهنگر، ماهیگیر، شفا دهنده، کیمیاگر، نانوا، ملوان، دباغ، تاجر، کشاورز، جواهرساز و هر چیز دیگری شوید. اما گرفتن نشان استاد مستلزم پشتکار و دانش است. در Wild Terra، شما نمی توانید تجهیزات را با یک کلیک ایجاد کنید. حیوانات خانگی گونه های کمیاب حیوانات را صید، اهلی و پرورش می دهند. با بالا رفتن سطح، حیوانات خانگی پاداش های تصادفی دریافت می کنند. برای کنار هم قرار دادن یک ترکیب عالی، شانس یا کار سخت می خواهد. بازی Raids و Solo به گروه ها بپیوندید، اصناف ایجاد کنید، یا انفرادی بازی کنید. رئیس های بزرگ را شکار کنید و سیاه چال های تاریک را کشف کنید! ساخت، تکامل و سفر به مناطق PvP و PvE. یا می توانید به قاره های اسرارآمیز با انواع بیوم ها، ساکنان و شرایط به چالش بکشید و به عنوان مثال به جزیره طاعون بروید. سیستم تسطیح و مبارزه هر چه که استفاده می کنید، سطح مهارت آن ..."
     },
     {
         "title": "windows macos jackbox party pack 4ca2799 free a popular party game that supports multiple devices for joining players",
@@ -1034,19 +1083,22 @@
         "title": "x 3rd anniversary",
         "store": "steam",
         "url": "https://store.steampowered.com/app/4207960/STALCRAFT_X__3rd_Anniversary/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2440510/header.jpg?t=1747073895",
-        "description": "Celebrate 20 Years of Forza Motorsport with the 20th Anniversary Update! Master 144 extreme turns on the legendary Fujimi Kaido track and prove your skills across 16.5 kilometers (10.24 miles) of serpentine Japanese mountain roads. Race and drift your favorite cars, or experiment with new car builds, alongside your friends and other players in Open Track Day and Drift Meetups. Revisit the iconic cover cars from past Forza Motorsport games – each with newly updated audio – and unlock commemorative driver suits in the 20th Anniversary Tour. Get behind the wheel of highly requested new-to-Motorsport cars* including the 2022 Acura NSX Type S, 2024 Nissan Z NISMO, 2005 #1 Sierra Enterprises Lancer Evolution Time Attack, 1984 Toyota #25 Horsepower Techs Starlet Time Attack, and 1995 Formula Drift #34 Toyota Supra MkIV. Join us for the 20th Anniversary celebrations and relax after every thrilling race with a refreshed music playlist, featuring new compositions and a selection of iconic tunes from Forza Motorsport 3-6. Immerse yourself in an expanding world of competition in Forza Motorsport. Race the latest cars and tracks and hone your skills in epic solo tours and online events. Updates are regularly released with new features, gameplay and enhancements. Race over 500 real-world cars including modern race cars and more than 100 cars new to Forza Motorsport. Make every lap count across 30 living tracks with multiple layouts to master and returning fan-favorite locations Fujimi Kaido, Nürburgring Nordschleife and Sunset Peninsula, each featuring live on-track scoring, fully dynamic time-of-day with weather and unique driving conditions that ensure no two laps ever look or play the same. Experience a cutting-edge simulation with incredible photorealistic visuals that deliver real-time ray tracing on-track, new damage and dirt accumulation systems, and massively upgraded physics featuring powerful assists and a 48x improvement in tire fidelity. Out-build the competition by earning over 800 performance upgrades and race our most advanced AI opponents yet in a fun and rewarding single-player campaign, the Builders Cup Career Mode. Install modifications to your favorite cars at any time –new car progression options give you control in how you build and tune cars. Compete for the podium in Featured Multiplayer events with a race weekend inspired structure or create the racing you and your friends desire in Free Play. Online racing is safer, more fun and more competitive with AI-powered Forza Race Regulations, tire and fuel strategy, and new driver and safety ratings. Forza Motorsport takes advantage of cutting-edge PC hardware and technologies, including Ray Traced Global Illumination for enhanced visual fidelity and realism. Maximize your performance with NVIDIA DLSS 2 and AMD FSR 2.2. Experience resolutions up to 4K and beyond with HDR calibration, unlocked framerates in single-player, cross-play and cross-save with Xbox Series X|S players, shader precaching and more. Customize your PC gameplay with adjustable FOV, ultrawide resolutions on-track and dial in your preferred graphics settings using benchmark mode. Plug in your favorite devices with DirectInput API featuring layout remapping, force-feedback on wheels and Xbox controller rumble. **Models redeemable in the Challenge Hub or Showroom using credits earned through play. 2024 Nissan Z NISMO available until 6/25/2025.",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1611600/header.jpg?t=1763021605",
+        "description": "Are you ready to take command? Deploy into an authentic, expansive, and meticulously researched Cold War real-time strategy game with WARNO . As the spiritual successor to the acclaimed Wargame series, WARNO is the ultimate next-gen World War III battle simulator. Two years have passed since Gorbachev’s overthrow in a coup by hardline communists, and now, in the dark summer days of 1989, the Cold War finally turns hot. The armies of NATO and Warsaw Pact have deployed in a divided and tense Germany. Conflict is imminent. The only thing left is to wait for the inevitable Warning Order that will begin it all. War is coming home, commanders… WARNO - Warning Order - lets you command your customized battlegroup and lead hundreds of Cold War-era units to victory on dynamic, tactical battlefields. Choose between the arsenals of NATO or the Warsaw Pact, and fight across a multitude of solo and online modes against challenging AI or human opponents in massive 10v10 battles. Show your mettle as a strategic commander in the turn-based Army General campaigns depicting a devastating, techno-thrilling World War III in Western Europe. Take Command of Your Battlegroup The Cold War-era armed forces of six nations - aligned to NATO or Warsaw Pact - can be led into a hyper-detailed World War III: U.S., West Germany, United Kingdom, and France square off against the Soviet Union and East Germany. From conscripts and main battle tanks to mobile SAM systems, self-propelled artillery, scout helicopters, strike aircraft, and fast interceptors, each WARNO nation has its unique arsenal of vehicles, planes, and soldiers. More than 1000 different military units are featured, such as the mighty M1A1 Abrams , the British MCV-80 Warrior , French Gazelle scout helicopters, German Leopard tanks, Spetsnaz special forces, SU-25 Frogfoot , the East German KPz T-55AM2 or Mil Mi-24 Hind helicopter gunships. In the Armory, each unit can be inspected and compared in detail. An array of famous military formations and brigades, each with their unique identity, act as the parent division of your personal battlegroup. Use the units available, choose your economy of forces, and customize your troops in WARNO’s enhanced battlegroup building system. A New Dimension to War Experience 5 massive turn-based strategic Army General campaigns centered on the NATO’s CENTAG and Warsaw Pact’s Central Group of Forces area of responsibility in 1989, placing you right in the heart of the war near the infamous Fulda Gap. The Army General campaigns let you command hundreds of units and military formations, down to the platoon level, including the U.S. 11th Armored Cavalry Regiment and 3rd Armored Division, West German 5. Panzerdivision, Soviet 79th Guards Tank Division and 27th Guards Motor Rifle Division, and the East German 7. Panzerdivision. 8 scripted Operations will allow you to undertake daring tactical combat missions that tell captivating stories of an all-too-real conflict. Immerse Yourself Witness an ever-evolving battlefield that never looked more beautiful, from the detailed environments to the brutal destruction unleashed. The latest incarnation of Eugen’s proprietary engine simulates modern land and air combat in Western Europe to the fullest extent. The maps are rich with tactical options and objectives, from hills, small villages, dense forests, meandering rivers, bridges, and industrial zones to be captured. Be wary of ambushes or outflanking maneuvers as you continuously advance the dynamic frontline that contributes to a side’s victory or defeat. Lead your chosen battlegroup into battle as an expert commander, taking advantage of all the available tactical tools. Combat in WARNO is an all-encompassing contest of smarts, tactics, and mastery of your units. Combat Evolved Take to war across a wide variety of game modes, including stand-alone Skirmish missions playable in solo, cooperative, or multiplayer. Battle against an enhanced and challenging AI or pit your tactical prowess against other human players, in intense ranked 1v1, 2v2 to 4v4 team matches to all-encompassing 10v10 battles. Take advantage of a host of quality-of-life enhancements catering to new players and veterans of Eugen Systems’ previous titles. This includes issuing commands during pre-combat deployment, Rules of Engagements, AI-assisted Smart Orders, and much more.",
         "id_in_db": "t3_1pj70de",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "2440510",
+        "steam_app_id": "1611600",
         "genres": [
-            "Racing"
+            "Action",
+            "Indie",
+            "Simulation",
+            "Strategy"
         ],
         "is_multiplayer": true,
-        "is_online": false,
+        "is_online": true,
         "is_dlc_or_addon": false,
-        "persian_summary": "20 سالگی Forza Motorsport را با به‌روزرسانی بیستمین سالگرد جشن بگیرید! در مسیر افسانه‌ای فوجیمی کایدو استاد 144 پیچ شدید و مهارت‌های خود را در 16.5 کیلومتر (10.24 مایل) از جاده‌های کوهستانی ژاپنی مارپیچ نشان دهید. در مسابقات Open Track Day و Drift Meetups در کنار دوستان و سایر بازیکنان خود با اتومبیل های مورد علاقه خود مسابقه دهید و درایفت کنید، یا با ساخت ماشین های جدید آزمایش کنید. ماشین‌های روکش نمادین بازی‌های Forza Motorsport گذشته - هر کدام با صدای جدید به‌روزرسانی شده - را دوباره ببینید و لباس‌های یادبود راننده را در تور بیستمین سالگرد باز کنید. پشت فرمان خودروهای جدید و بسیار مورد تقاضای موتوراسپرت شوید* از جمله آکورا NSX نوع S 2022، نیسان Z NISMO 2024، 2005 #1 Sierra Enterprises Lancer Evolution Time Attack، Toyota #25 Horsepower Techs Formula1995، Starlet Time1995، 1984 سوپرا MkIV. برای جشن‌های بیستمین سالگرد به ما بپیوندید و پس از هر مسابقه هیجان‌انگیز با یک لیست پخش موسیقی تازه، با آهنگ‌های جدید و مجموعه‌ای از آهنگ‌های نمادین، استراحت کنید..."
+        "persian_summary": "آیا برای گرفتن فرمان آماده اید؟ با WARNO در یک بازی استراتژیک واقعی، گسترده و دقیق تحقیق شده در زمان واقعی جنگ سرد مستقر شوید. WARNO به عنوان جانشین معنوی سری تحسین‌شده Wargame، شبیه‌ساز نبرد نسل بعدی جنگ جهانی سوم است. دو سال از سرنگونی گورباچف ​​در یک کودتا توسط کمونیست های تندرو می گذرد و اکنون، در روزهای تاریک تابستان 1989، سرانجام جنگ سرد داغ شده است. ارتش های ناتو و پیمان ورشو در یک آلمان تقسیم شده و پرتنش مستقر شده اند. درگیری قریب الوقوع است. تنها چیزی که باقی می ماند این است که منتظر دستور هشدار اجتناب ناپذیر باشید که همه چیز را آغاز می کند. جنگ به خانه می آید، فرماندهان... WARNO - دستور هشدار - به شما امکان می دهد به گروه نبرد سفارشی شده خود فرمان دهید و صدها واحد از دوران جنگ سرد را به پیروزی در میدان های نبرد پویا و تاکتیکی هدایت کنید. از میان زرادخانه‌های ناتو یا پیمان ورشو یکی را انتخاب کنید و در بسیاری از حالت‌های انفرادی و آنلاین با هوش مصنوعی یا حریفان انسانی چالش برانگیز در نبردهای عظیم 10 در 10 مبارزه کنید. استعداد خود را به عنوان ..."
     }
 ]
