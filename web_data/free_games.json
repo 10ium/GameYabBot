@@ -1,5 +1,25 @@
 [
     {
+        "title": "100 orange juice 100 offfree",
+        "id_in_db": "100-orange-juice@1766087166",
+        "store": "other",
+        "url": "https://itad.link/019b32ff-89b4-72dc-9521-d4c5e3012e8c/",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "282800",
+        "description": "100% Orange Juice is a digital multiplayer board game populated by developer Orange Juice's all-star cast. Characters from Flying Red Barrel, QP Shooting, Suguri and Sora come together with all-new characters to duke it out... with dice. This is a world where dogs, people and machines fly through the air. In that world, a small patch of darkness was born. Infinitesimal at first, it gradually began to envelop everything.. A youth named Kai, led by the mysterious life form known as Marie Poppo, begins a journey that will span worlds. The black, bottomless darkness of desire slowly eats away at both Kai and the world itself... Let Marie Poppo lead you into a mysterious world to play. Grab your deck of cards and let the games begin! Features: Dice, cards, stars, battles and pudding 4 Single-player campaigns Playable by up to 4 players online Countless battle combinations Utilize each character's unique combat attributes More than 50 different cards to collect Character abilities in the form of Hyper Cards New Steam Features: Full HD support Redesigned multiplayer experience using Steam's lobby system Spectator mode Avatar customization New character skins to unlock VAC enabled Custom language support",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282800/74b8f808c2ea623f9aee9ed20c6d76c7e536e137/header.jpg?t=1766094360",
+        "genres": [
+            "Indie",
+            "Strategy"
+        ],
+        "is_multiplayer": true,
+        "is_online": true,
+        "is_dlc_or_addon": false,
+        "subreddit": "GameDeals",
+        "persian_summary": "100% Orange Juice یک بازی رومیزی چند نفره دیجیتالی است که توسط بازیگران همه ستاره سازنده Orange Juice پر شده است. شخصیت‌هایی از Flying Red Barrel، QP Shooting، Suguri و Sora با شخصیت‌های کاملاً جدید گرد هم می‌آیند تا آن را با تاس از بین ببرند. این دنیایی است که در آن سگ ها، مردم و ماشین ها در هوا پرواز می کنند. در آن دنیا تکه کوچکی از تاریکی متولد شد. بی نهایت کوچک در ابتدا، به تدریج شروع به احاطه کردن همه چیز کرد. جوانی به نام کای، به رهبری شکل زندگی مرموز به نام ماری پوپو، سفری را آغاز می کند که جهان ها را در بر می گیرد. تاریکی سیاه و بی انتها میل به آرامی هم کای و هم خود جهان را می خورد... بگذارید ماری پوپو شما را به دنیایی مرموز هدایت کند تا بازی کنید. دسته کارت خود را بردارید و اجازه دهید بازی ها شروع شوند! ویژگی ها: تاس، کارت، ستاره، نبرد و پودینگ 4 کمپین تک نفره قابل بازی تا 4 بازیکن آنلاین ترکیبات جنگی بی شماری از ویژگی های رزمی منحصر به فرد هر شخصیت استفاده کنید بیش از 50 کارت مختلف برای جمع آوری توانایی های شخصیت در ..."
+    },
+    {
         "title": "29c 97 off 1 year subscription learn and practise the piano without learning to read sheet music",
         "store": "other",
         "url": "https://jacobdoescode.com/piano-tabs",
@@ -11,32 +31,6 @@
         "discount_text": "97% off",
         "is_dlc_or_addon": false,
         "persian_summary": "Piano Tabs راهی برای یادگیری نواختن پیانو بدون دردسر نت‌های موسیقی است 🎼 کتابخانه بیش از 800 قطعه کلاسیک از بیش از 90 آهنگساز، با واردات آسان MIDI برای موارد بیشتر 🎹 قطعات را همانطور که روی صفحه کلید ظاهر می‌شوند، با پیمایش روان و پخش تعاملی پخش می‌کند. حاشیه نویسی با دست آزاد (فقط برای iPad) 🎚️ سفارشی کردن پخش: تنظیم کلید/تمپو، مدیریت آهنگ‌ها، و اضافه کردن پرکاشن یا مترونوم می‌توانید برنامه را با استفاده از لینک App Store دانلود کنید https://apps.apple.com/us/app/piano-tabs-midi-player/id1506390976: فقط یک زمان پرداخت Tabspur-DI برای واردات Piano وجود دارد. (شما کاتالوگ خود را مدیریت می کنید) اشتراکی برای دسترسی به کاتالوگ بیش از 800 قطعه، و شامل وارد کردن MIDI در زمانی که اشتراک فعال است، فقط برای امروز، قیمت اولیه اشتراک سالانه 29c (از 8.99 دلار) است. 29c کمترین قیمتی است که اپل به توسعه دهندگان اجازه شارژ می دهد، بنابراین به معنای واقعی کلمه غیرممکن است..."
-    },
-    {
-        "title": "29c app for measuring in cm and inches",
-        "store": "other",
-        "url": "https://jacobdoescode.com/calipers",
-        "image_url": "https://play-lh.googleusercontent.com/CE7pW_fWlRTFVTx0D8hkl4dhKdEtmNWOcvblJe6sbkmvaV8XK3oZ8KKxVf-22UDTvY4=w526-h296-rw",
-        "description": "Calipers is an app I've been working on to make use of the iPhone screen to measure physical distances. 📏 Measures small and large objects using on-screen rulers and a 5-meter virtual tape Measure centimeters and inches right on your phone screen. For larger measurements, just slide your phone across a surface. This works great for places where the built-in camera-based tape measure, for whatever reason, may not work. 🔬 Provides precise screen-based measurements down to 0.1 mm or 1/64\" You can measure anything that fits on your phone screen down to the tenth of a millimeter . Just place an object on your phone screen, adjust the two markers until they just touch the edges of the object, and Calipers will give you a precise length. 🧭 Includes a built-in spirit level for checking surfaces and hanging photo frames A little bit easier to use the built-in spirit level, Calipers removes visual clutter and provides better visual cues for what to adjust to make something perfectly level . For today only, Calipers has received a massive discount to only 29c - the lowest price possible (other than free, of course!) Happy to answer any questions you might have! 😄 submitted by /u/jacobp100 [link] [comments]",
-        "id_in_db": "t3_1p91csh",
-        "subreddit": "AppHookup",
-        "is_free": false,
-        "discount_text": "80% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "Calipers برنامه ای است که من روی آن کار کرده ام تا از صفحه نمایش آیفون برای اندازه گیری فواصل فیزیکی استفاده کنم. 📏 اندازه گیری اشیاء کوچک و بزرگ با استفاده از خط کش های روی صفحه و یک نوار مجازی 5 متری، سانتی متر و اینچ را درست روی صفحه گوشی خود اندازه گیری کنید. برای اندازه‌گیری‌های بزرگ‌تر، فقط گوشی خود را روی یک سطح بلغزانید. این برای مکان هایی که اندازه گیری نوار مبتنی بر دوربین داخلی، به هر دلیلی، ممکن است کار نکند، عالی عمل می کند. 🔬 اندازه‌گیری‌های دقیق مبتنی بر صفحه نمایش تا 0.1 میلی‌متر یا 1/64 اینچ را ارائه می‌کند. می‌توانید هر چیزی را که روی صفحه‌نمایش تلفنتان قرار می‌گیرد تا یک دهم میلی‌متر اندازه‌گیری کنید. فقط یک شی را روی صفحه گوشی خود قرار دهید، دو نشانگر را تنظیم کنید تا فقط لبه‌های جسم را لمس کنند، و کالیپرها طول دقیقی را به شما می‌دهند. استفاده از تراز داخلی کمی آسان‌تر است، کالیپرها به هم ریختگی بصری را حذف می‌کند و نشانه‌های بصری بهتری برای تنظیم کردن چیزی فراهم می‌کند تا چیزی کاملاً تراز شود."
-    },
-    {
-        "title": "a word game",
-        "store": "iosappstore",
-        "url": "https://apps.apple.com/us/app/loser-a-word-game/id1605672195",
-        "id_in_db": "33d23d686edfc458f95e5b6ce6855d4328fc468868cb30880a26ba5d4936d564",
-        "subreddit": "AppHookup",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7c/8d/e8/7c8de85c-8390-79f4-2f49-d47bb6c8867d/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
-        "is_dlc_or_addon": false,
-        "persian_summary": "",
-        "description": ""
     },
     {
         "title": "alterchase",
@@ -63,84 +57,55 @@
         "persian_summary": "درباره Alterchase مسابقه راه خود را به پایان! Alterchase یک بازی پارکور سریع با مکانیک های ضروری پارکور مانند دویدن روی دیوار، پرش دیوار، سر خوردن و پرش دوبل است! Alterchase همچنین شامل یک کمپین است و تپانچه های لیزری را فراموش نکنید! دسترسی زودهنگام شامل 4 سطح کمپین موسیقی متن است. -فاکسنووا"
     },
     {
-        "title": "anniversary edition 699",
+        "title": "amazon us monster hunter wilds for playstation 5",
+        "store": "amazon",
+        "url": "https://www.amazon.com/dp/B0DHX2V7TX",
+        "image_url": "https://m.media-amazon.com/images/I/01UwfHrld%2BL._TSa%7Csize%3A1910%2C1000%7Cformat%3A%28A%2Cf%2Cb%2Cd%2Cpi%2Cpl%2Co%29%7Cb-src%3A61Cd2rJZgRL.png%7Cb-pos%3A0%2C0%2C1910%2C1000%7Cpi-src%3A81R23PTBdeL.jpg%7Cpi-pos%3A1000%2C100%2C840%2C840.json",
+        "description": "submitted by /u/f3n_lie [link] [comments]",
+        "id_in_db": "t3_1ppyvs1",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "64% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/f3n_lie [لینک] [نظر]"
+    },
+    {
+        "title": "apps blend photos",
         "store": "googleplay",
-        "url": "https://play.google.com/store/apps/details?id=com.rockstargames.bully",
-        "image_url": "https://external-preview.redd.it/o4_XmM39QfNdy7X91hwDpkJ86fBIwT6K0k_G-kCDR9Y.png?width=320&crop=smart&auto=webp&s=69b9c8c68d693035824ea604f2093d908ef24b25",
-        "description": "submitted by /u/Odd-Peace [link] [comments]",
-        "id_in_db": "t3_1pnazl0",
+        "url": "https://play.google.com/store/apps/details?id=com.tapuniverse.blendphotos",
+        "image_url": "https://external-preview.redd.it/4y2El8DRwUs8Aviyfu-5L7LIKP5tCdLEaJGg4U_ha5s.jpeg?width=320&crop=smart&auto=webp&s=092bfc4104a06ad38266f72c7d8988a66ec7f994",
+        "description": "submitted by /u/ac_del [link] [comments]",
+        "id_in_db": "t3_1ppzi8u",
         "subreddit": "googleplaydeals",
         "is_free": true,
         "discount_text": "100% Off",
-        "is_dlc_or_addon": true,
-        "persian_summary": "ارسال شده توسط /u/Odd-Peace [پیوند] [نظر]"
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/ac_del [لینک] [نظر]"
     },
     {
-        "title": "backyard soccer 98",
-        "store": "iosappstore",
-        "url": "https://apps.apple.com/us/app/backyard-soccer-98/id6740349672",
-        "id_in_db": "cf9039e5b6dce8dc9c2b02c7bbcb1ee8641a22d311e5c73d178366a20ef18cf5",
-        "subreddit": "AppHookup",
+        "title": "apps reminder pro 349",
+        "store": "googleplay",
+        "url": "https://play.google.com/store/apps/details?id=alarm.clock.calendar.reminder.pro",
+        "image_url": "https://external-preview.redd.it/z3QFjRID0c6FcNUj8qPXAQWIiyqPk_14o9axnDrMvZw.png?width=320&crop=smart&auto=webp&s=8c499127263d07ff7427609c03fa6f51ee219358",
+        "description": "submitted by /u/pudah_et [link] [comments]",
+        "id_in_db": "t3_1pq8apn",
+        "subreddit": "googleplaydeals",
         "is_free": true,
         "discount_text": "100% Off",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/bf/fe/e8bffefc-bff1-fa9a-cbc0-b4484034a777/AppIcon-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
         "is_dlc_or_addon": false,
-        "persian_summary": "",
-        "description": ""
+        "persian_summary": "ارسال شده توسط /u/pudah_et [پیوند] [نظر]"
     },
     {
-        "title": "beat cop",
-        "store": "other",
-        "url": "https://gaming.lenovo.com/beat-cop-key-drops",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/461950/header.jpg?t=1701878616",
-        "description": "New York, more like a beast than a city. Explore it’s darkest corners and uncover its secrets as Jack Kelly, a former detective who has been framed for a murder. Degraded and forgotten by old pals, it’s your last chance to find the truth behind this whole terrible mess. The thing is, your new boss treats you like shit, your wife is a money sucking spawn from hell and the local mafia wants your head on a plate. I guess you could say that things are complicated down here, in the middle of Brooklyn. Oh, and don't forget about writing tickets, reprimanding pedestrians & such. You're a beat cop after all. NONLINEAR STORY WITH MULTIPLE ENDINGS Someone framed you and no one gives a rat’s ass about this but you. Turn every stone in this city and find out who did that. The further you investigate the more missing puzzles you’ll find, but be careful. Some things should never be brought to daylight. THE ESSENCE OF '80 COP SHOWS Have you ever dreamed of being one of the heroes of cop movies? Of course you did, like we all. Now you have a chance! Be sexier than Sonny Crocket and tougher than Dirty Harry. And if witty comebacks won’t work, you can always do some old school ass kicking. It’s ’80s after all! THE HUMOR THAT YOUR MOM WOULDN'T APPROVE Be sarcastic. Be gloomy. Be whatever you want. There are thousands of things in this world you can laugh at, and even more you shouldn’t, but who cares. It’s a jungle out there baby, and sometimes you just need something to release the stress.",
-        "id_in_db": "t3_1pj7yfz",
+        "title": "black desert",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/582660/Black_Desert/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582660/4f0ea9284b5fae9464dadc528bb572c629666313/header_alt_assets_27.jpg?t=1765935954",
+        "description": "Go Beyond Limits : WORLD CLASS MMORPG Black Desert is a game that tests the limitations of MMORPG by implementing remastered graphics and audio. Enjoy exciting combat and siege, exploration, trading, fishing, training, alchemy, cooking, gathering, hunting, and more in the vast open world. Black Desert - A true MMORPG The Start of Your Dream Adventure OPEN WORLD An expansive, breathtaking open world MMORPG made with Pearl Abyss' proprietary game engine. CUSTOMIZING Become Your True Self Experience insane levels of customization. From height, torso, face, and skin texture, to micro-level details, your imagination is the limit! Create your own unique characters, just like you've always desired, in Black Desert. COMBAT Non-Target & Fast-Paced Combat Experience an innovative combat system unlike any other MMORPG. The need for quick reactions and precise control will keep you enthralled throughout your entire experience. Exciting commands/combos will always keep you on your toes. NODE & SIEGE WAR Large-Scale PvP Wars Guilds, prepare for battle! Victory is near! Join formidable guilds as they fight head-to-head on the battlefield. Be victorious, become lords, and seize control of taxes, resources, and more! GRAPHICS Remastered Cutting-Edge Graphics Enter a world with spectacular sceneries, realistic environments, and sophisticated details created with state-of-the-art graphics and prepare for unforgettable adventures. LIFE SKILLS Multitudes of In-Game Activities Combat not your style? Relax and enjoy a variety of pleasant life skill activities! With a variety of choices including farming, trading, fishing, sailing, cooking, horse training, alchemy, and more, the professions are endless. Try your hand at any or all of them!",
+        "id_in_db": "t3_1pk49bz",
         "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "461950",
-        "genres": [
-            "Adventure",
-            "Indie",
-            "Simulation"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "نیویورک، بیشتر شبیه یک جانور است تا یک شهر. تاریک ترین گوشه های آن را کاوش کنید و رازهای آن را در نقش جک کلی، یک کارآگاه سابق که برای قتلی متهم شده است، کشف کنید. تحقیر شده و فراموش شده توسط دوستان قدیمی، این آخرین فرصت شما برای یافتن حقیقت در پشت کل این آشفتگی وحشتناک است. مسئله این است که رئیس جدید شما با شما مثل گند رفتار می کند، همسر شما یک تخم جهنم است که پول می مکد و مافیای محلی می خواهند که سر شما در ظرف باشد. حدس می زنم می توانید بگویید که اینجا، وسط بروکلین، همه چیز پیچیده است. اوه، و نوشتن بلیط، توبیخ عابران پیاده و مواردی از این دست را فراموش نکنید. بالاخره تو یک پلیس ضربتی هستی داستان غیرخطی با پایان های چندگانه شخصی شما را قاب کرده است و هیچ کس به جز شما در این مورد حرفی به خرج نمی دهد. تمام سنگ های این شهر را بچرخانید و ببینید چه کسی این کار را کرده است. هرچه بیشتر تحقیق کنید، معماهای گمشده بیشتری پیدا خواهید کرد، اما مراقب باشید. بعضی چیزها را هرگز نباید به روز کرد. ماهیت نمایش های پلیسی سال 80 آیا تا به حال آرزو کرده اید که یکی از قهرمانان فیلم های پلیسی باشید؟ از..."
-    },
-    {
-        "title": "big drunk satanic massacre",
-        "store": "other",
-        "url": "https://givee.club/en/event/1179",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/669950/header.jpg?t=1744107061",
-        "description": "Big Drunk Satanic Massacre is basically a shooter with strong RPG elements - not that rocket propelled gun, though. The game itself takes place in Hell where the main hero, Lou, is to find booze and rescue the hottest Mistress from the clutches of a fat clown. The game consists of four levels / chapters representing different areas of Hell, such as the hellish Big Wack fast food café, Skeleton Slums and the Red Light District. The idea behind those levels is to kill specific bosses. Each boss represents a unique multistage fight and it is pretty challenging. The player has to choose between six weapons and one magical ability. The main feature of the game is that Lou is healed by booze. The more he drinks, the more his blood alcohol level increases, which is sort of good for him. As a result there may be either negative or positive effects. Ever wondered what it's like to be Satan's son? Nothing special... Unleashed lust, chronic alcoholism and reckless shooting - the usual routine Save Hell! Wait... What? Yup, that's right - Hell! It's not the place it used to be - Hell's been possessed. Possessed by the most vile dark hideous evil the world has known - people. They've turned your precious homeland into a madhouse, and only you can stop them! What's in it for you? Spectacular locations, battles with epic bosses and a nice mixture of pain and nonsense. Choose the right side of evil and rescue your \"princess\" - the most badass dare-deviless Hell has ever seen.",
-        "id_in_db": "t3_1phjvz6",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "669950",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Indie",
-            "RPG"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "Big Drunk Satanic Massacre اساسا یک تیرانداز با عناصر RPG قوی است - البته نه آن تفنگ راکتی. خود بازی در جهنم اتفاق می افتد، جایی که قهرمان اصلی، لو، می خواهد مشروب الکلی پیدا کند و داغ ترین معشوقه را از چنگ یک دلقک چاق نجات دهد. این بازی از چهار سطح / فصل تشکیل شده است که مناطق مختلف جهنم را نشان می دهد، مانند کافه فست فود جهنمی Big Wack، Skeleton Slums و Red Light District. ایده پشت این سطوح، کشتن رئیس‌های خاص است. هر رئیس نشان دهنده یک مبارزه چند مرحله ای منحصر به فرد است و بسیار چالش برانگیز است. بازیکن باید بین شش سلاح و یک توانایی جادویی یکی را انتخاب کند. ویژگی اصلی بازی این است که لو با مشروب الکلی شفا می یابد. هر چه بیشتر مشروب بنوشد، سطح الکل خونش بیشتر می شود که برایش خوب است. در نتیجه ممکن است اثرات منفی یا مثبت داشته باشد. آیا تا به حال فکر کرده اید که پسر شیطان بودن چگونه است؟ هیچ چیز خاصی ... شهوت آزاد شده، الکلیسم مزمن و تیراندازی بی پروا - روال معمول ..."
-    },
-    {
-        "title": "Black Desert",
-        "id_in_db": "black-desert@1765477016",
-        "store": "other",
-        "url": "https://itad.link/019b0ea0-3f9f-72f4-821f-0179d11f4ea2/",
         "is_free": true,
         "discount_text": "100% Off",
         "steam_app_id": "582660",
-        "description": "Go Beyond Limits : WORLD CLASS MMORPG Black Desert is a game that tests the limitations of MMORPG by implementing remastered graphics and audio. Enjoy exciting combat and siege, exploration, trading, fishing, training, alchemy, cooking, gathering, hunting, and more in the vast open world. Black Desert - A true MMORPG The Start of Your Dream Adventure OPEN WORLD An expansive, breathtaking open world MMORPG made with Pearl Abyss' proprietary game engine. CUSTOMIZING Become Your True Self Experience insane levels of customization. From height, torso, face, and skin texture, to micro-level details, your imagination is the limit! Create your own unique characters, just like you've always desired, in Black Desert. COMBAT Non-Target & Fast-Paced Combat Experience an innovative combat system unlike any other MMORPG. The need for quick reactions and precise control will keep you enthralled throughout your entire experience. Exciting commands/combos will always keep you on your toes. NODE & SIEGE WAR Large-Scale PvP Wars Guilds, prepare for battle! Victory is near! Join formidable guilds as they fight head-to-head on the battlefield. Be victorious, become lords, and seize control of taxes, resources, and more! GRAPHICS Remastered Cutting-Edge Graphics Enter a world with spectacular sceneries, realistic environments, and sophisticated details created with state-of-the-art graphics and prepare for unforgettable adventures. LIFE SKILLS Multitudes of In-Game Activities Combat not your style? Relax and enjoy a variety of pleasant life skill activities! With a variety of choices including farming, trading, fishing, sailing, cooking, horse training, alchemy, and more, the professions are endless. Try your hand at any or all of them!",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582660/4f0ea9284b5fae9464dadc528bb572c629666313/header_alt_assets_27.jpg?t=1765935954",
         "genres": [
             "Action",
             "Adventure",
@@ -151,32 +116,7 @@
         "is_multiplayer": true,
         "is_online": true,
         "is_dlc_or_addon": false,
-        "subreddit": "FreeGameFindings",
         "persian_summary": "Go Beyond Limits: WORLD CLASS MMORPG Black Desert یک بازی است که محدودیت های MMORPG را با پیاده سازی گرافیک و صدا بازسازی شده آزمایش می کند. از نبرد و محاصره هیجان انگیز، اکتشاف، تجارت، ماهیگیری، آموزش، کیمیاگری، آشپزی، جمع آوری، شکار و موارد دیگر در دنیای باز وسیع لذت ببرید. صحرای سیاه - یک MMORPG واقعی شروع ماجراجویی رویای شما OPEN WORLD یک MMORPG جهان باز گسترده و نفس گیر که با موتور بازی اختصاصی Pearl Abyss ساخته شده است. سفارشی سازی به تجربه واقعی خود تبدیل شوید سطوح دیوانه کننده سفارشی سازی. از قد، تنه، صورت و بافت پوست گرفته تا جزئیات در سطح میکرو، تخیل شما حد و مرز است! شخصیت‌های منحصربه‌فرد خود را درست همانطور که همیشه می‌خواستید، در صحرای سیاه بسازید. مبارزات غیر هدفمند و سریع مبارزه با یک سیستم جنگی نوآورانه را بر خلاف هر MMORPG دیگری تجربه کنید. نیاز به واکنش‌های سریع و کنترل دقیق، شما را در کل تجربه‌تان مجذوب خود می‌کند. دستورات/ترکیب های هیجان انگیز همیشه شما را سرپا نگه می دارد. گره و..."
-    },
-    {
-        "title": "brutal orchestra",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/1734320/Brutal_Orchestra/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1734320/header.jpg?t=1708110077",
-        "description": "Hieronymus Bosch's Brutal Orchestra is a Turn-Based Roguelike Strategy Game with resource management and deck-building elements. Employ the help of damaged and daring fools, equip ancient and insidious items and make deals with the devil on your path to revenge. Revenge: You died. Someone killed you. You are now in Purgatory and you will never escape. Make a deal with the \"demon\" Bosch and set off into this brutal and bastardous world, finding ​all manner of demented and degenerate friends and foes on your quest to get petty revenge. Pigment: Purgatory bleeds pigment. It is a strange substance that Bosch has granted you the ability to control. Channeling pigment allows one to perform powerful and absurd abilities. Pigment comes in many colours, each derived from a different source, some even of your own flesh. Fools: This may be a place of the dead but even here there are still poor fools eking out a pathetic existence. Some would make for valuable party members or at least entertaining conversation. Most, however, are dim wits or damaged beyond all reason. Treasure!: Find over 100+ powerful artifacts that dramatically shape how you play Brutal Orchestra, often plucked directly from the artworks of Hieronymus Bosch. Hell: Purgatory is not a gentle place, it is a writhing dump of all that has died in many worlds. Endless deserts of pale sand are stalked by parasitic fish. Storm-cloaked mountain tops hide ungodly things above and below. The Garden waits for you at the end of time. Hieronymus Bosch's Brutal Orchestra was developed by Talia bob Mair and Nicolás Delgado. With Sound Design by Pato Flores and Chris Dang and Composed by Publio Delgado.",
-        "id_in_db": "t3_1pob981",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "50% off",
-        "steam_app_id": "1734320",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Casual",
-            "Indie",
-            "RPG",
-            "Strategy"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارکستر Brutal Hieronymus Bosch یک بازی استراتژی Roguelike مبتنی بر نوبت با مدیریت منابع و عناصر عرشه است. از کمک احمق های آسیب دیده و جسور استفاده کنید، وسایل باستانی و موذی را تجهیز کنید و در مسیر انتقام خود با شیطان معامله کنید. انتقام: تو مردی. کسی تو را کشت شما اکنون در برزخ هستید و هرگز فرار نخواهید کرد. با «دیو» بوش معامله کنید و وارد این دنیای بی‌رحمانه و حرام‌زاده شوید و در تلاش برای گرفتن انتقام کوچک، دوستان و دشمنان دیوانه و منحط را پیدا کنید. رنگدانه: برزخ رنگدانه را خون می کند. این ماده عجیبی است که بوش به شما توانایی کنترل آن را داده است. رنگدانه کانالی به فرد امکان می دهد توانایی های قدرتمند و پوچ را انجام دهد. رنگدانه در رنگ های بسیاری وجود دارد که هر کدام از منبع متفاوتی گرفته شده است، حتی برخی از آنها از گوشت خود شما. احمق ها: این ممکن است محل مردگان باشد، اما حتی در اینجا هنوز هم احمق های فقیر وجود دارند که زندگی رقت انگیزی را دنبال می کنند. برخی می توانند اعضای ارزشمند حزب یا حداقل ..."
     },
     {
         "title": "candy storm legacy games are complimentary with amazon prime",
@@ -190,19 +130,6 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/LighteningOneIN [پیوند] [نظر]"
-    },
-    {
-        "title": "coffee",
-        "store": "iosappstore",
-        "url": "https://apps.apple.com/us/app/coffee-roaster/id1475660279",
-        "id_in_db": "5d2d42ed0b24cfe7462076199170dc7155cfe81f42d6d57e6723a60043b6a82c",
-        "subreddit": "AppHookup",
-        "is_free": false,
-        "discount_text": "Discount",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/da/a9/47/daa9479f-b323-63cd-2ace-a3b2535903b7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-        "is_dlc_or_addon": false,
-        "persian_summary": "",
-        "description": ""
     },
     {
         "title": "dead district",
@@ -241,41 +168,45 @@
         "description": ""
     },
     {
-        "title": "dungeon tracer",
-        "store": "iosappstore",
-        "url": "https://apps.apple.com/us/app/dungeon-tracer/id6502634839",
-        "id_in_db": "f0bc38ae81d3998185252a9812c149d22a2dd0dc7f93ad760d1dca0ac927741e",
-        "subreddit": "AppHookup",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/2e/5f/a22e5f65-89e1-e444-628a-3c377b11ca22/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+        "title": "ea star wars battlefront ii",
+        "store": "eastore",
+        "url": "https://www.ea.com/games/starwars/star-wars-battlefront-2",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1237950/header.jpg?t=1749220869",
+        "description": "Be the hero in the ultimate Star Wars ™ battle fantasy with Star Wars ™ Battlefront™ II: Celebration Edition! Get Star Wars Battlefront II and the complete collection of customization content acquirable through in-game purchase from launch up to — and including — items inspired by Star Wars ™: THE RISE OF SKYWALKER ™*. The Celebration Edition contains: Base game — Including all past and future free game updates as they release. More than 25 Hero Appearances — Including 6 Legendary Appearances, plus 1 Appearance each for Rey, Finn, and Kylo Ren inspired by Star Wars: THE RISE OF SKYWALKER . More than 125 Trooper and Reinforcement Appearances More than 100 Hero and Trooper Emotes and Voice Lines More than 70 Hero and Trooper Victory Poses Customization content released after December 20, 2019 is not included in the Celebration Edition. Embark on an endless Star Wars™ journey from the best-selling Star Wars™ video game franchise of all time. Experience rich multiplayer battlegrounds across all three eras - prequel, classic and new trilogy - or rise as a new hero and discover an emotionally gripping single-player story spanning thirty years. Customize and upgrade your heroes, starfighters or troopers - each with unique abilities to exploit in battle. Ride tauntauns or take control of tanks and speeders. Use the Force to prove your worth against iconic characters like Kylo Ren, Darth Maul or Han Solo, as you play a part in a gaming experience inspired by forty years of timeless Star Wars™ films. A new hero, a story untold Jump into the boots of an elite special forces soldier, equally lethal on the ground and in space. Explore a new Star Wars™ campaign that spans the 30 years between Star Wars™: Return of the Jedi™ and Star Wars™: The Force Awakens™. The ultimate Star Wars™ battleground Discover a Star Wars™ multiplayer universe unmatched in variety and breadth, where up to 40 players fight as iconic heroes and authentic-to-era troopers. Pilot a massive array of vehicles on land and in the air as battle rages through the galaxy. Galactic-scale space combat Space combat has been re-designed from the ground up with distinct handling, weapons and customization options. Join your squadron as you dodge danger in asteroid fields, blast through an Imperial Dock Yard and more. Take down massive capital ships as you pilot legendary starfighters in high stakes dogfights with up to 24 players. Train offline Practice makes perfect. Enjoy solo offline play where you can earn rewards and customize troopers and heroes. Then bring your upgrades into the online multiplayer battleground. Master your hero Create your own unique hero with customizable character progression. Equip ability modifiers to adapt and modify your character's core powers to add lethal effects, helpful status boosts or tactical assistance to counter any opponent on the battlefront. [/list]",
+        "id_in_db": "t3_1pq5s7l",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "85% off",
+        "steam_app_id": "1237950",
+        "genres": [
+            "Action",
+            "Adventure"
+        ],
+        "is_multiplayer": true,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "",
-        "description": ""
+        "persian_summary": "با بازی Star Wars™ Battlefront™ II: Celebration Edition قهرمان فانتزی نهایی جنگ ستارگان باشید! Star Wars Battlefront II و مجموعه کاملی از محتوای سفارشی‌سازی را دریافت کنید که از طریق خرید درون‌بازی از زمان راه‌اندازی تا – و از جمله – موارد الهام‌گرفته از Star Wars™: THE RISE OF SKYWALKER™* قابل دستیابی است. نسخه Celebration شامل موارد زیر است: بازی پایه - شامل تمام به روز رسانی های رایگان بازی های گذشته و آینده در زمان انتشار. بیش از 25 حضور قهرمان - شامل 6 حضور افسانه ای، به اضافه 1 ظاهر برای ری، فین و کیلو رن که از جنگ ستارگان الهام گرفته شده است: ظهور اسکای واکر. بیش از 125 ظاهر سرباز و تقویت کننده بیش از 100 شکلک و خط صوتی قهرمان و سرباز بیش از 70 ژست قهرمان و سرباز محتوای سفارشی سازی منتشر شده پس از 20 دسامبر 2019 در نسخه جشن گنجانده نشده است. سفری بی پایان در Star Wars™ از پرفروش ترین فرنچایز بازی های ویدیویی Star Wars™ در تمام دوران را آغاز کنید. میدان های نبرد چند نفره غنی را تجربه کنید..."
     },
     {
-        "title": "epic games mobile dead cells",
+        "title": "epic games mobile shotgun king",
         "store": "epicgames",
-        "url": "https://www.reddit.com/r/FreeGameFindings/comments/1pk1xym/epic_games_mobile_game_dead_cells/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/304050/8aef81520b394d978a55c7d43c0445237a4cd1a3/header.jpg?t=1751456733",
-        "description": "Grab your friends, hone your blades, and set off for an epic procedurally generated adventure in Trove, the ultimate action MMO! Battle the forces of Shadow in realms filled with incredible dungeons and items created by your fellow players. Whether hunting treasure in far-off lands or building realms of your own, it’s never been this good to be square! Cubular Classes Play as a Knight, Gunslinger, Ice Sage, Dracolyte, Pirate-with-a-parrot, or any (or all!) of the other Classes in Trove while mastering abilities from deadly ninja techniques to deliciously deadly ice cream crushes. Upgrade your gear to tackle epic challenges and strut your stuff with killer looks. Infinite Realms Every playthrough is unique! Explore through fully destructible procedurally generated realms on the backs of fire-breathing dragons and purrfectly whiskered Meownts. Jump into action tailored to any level as you conquer untamed wilds from the Treasure Isles to Candoria, home of the sweet-toothed Candy Barbarians. Delve into Dungeons Assemble a group of hardy cube-kind and crawl your way through huge dungeons unique to each realm. Brave deadly minions, bosses, and traps to “liberate” powerful armor and weapons, or dip into smaller Lairs for single servings of danger perfect for solo fun. Get Rich with Loot Rake in a shimmering hoard of treasure and collectible items from the deepest and darkest places in Trove. Load up on special gear, costumes, decorations, recipes, crafting ingredients, flying carpets, sea-faring ships, and dragons of mighty renown. Build Your Home… Cornerstones are personal homes you can build block by block, but they’re also mobile bases! Drop your Cornerstone at specially-marked plots in any world you’re visiting, and voilà: your hand-crafted home-away-from-home will appear, giving you a place to kick back, relax, and craft to your heart’s content. Build a World… What’s better than crafting alone? Building entire new Club Worlds with friends. Feel like making enormous geodesic domes in the desert? Magnificent castles in the sky? Do it – and land yourself in our list of the cubic masterpieces in Trove! Build Anything in the Game! Dragons? Check. Bacon swords? Yup. Rainbow-grade 3D glasses of insufferable doom? Just the tip of the iceberg! Collect a HUGE range gear made by your fellow players and make and submit your own items – including Dungeons, Lairs, Class Costumes, and more. Plus Music Blocks, Meownts, Fishing, Farming, Pets, Sailing (with Boats!), Flying (with Wings!), Mag Trains, Dance-Pads, Heroes, Villains, Allies (who might be Villains), Flasks, Bombs, Piñata Parties, and the Crafting of any and all Things. Did we mention it’s free to play?! Like Trove? Try RIFT to delve into more multidimensional realities!",
-        "id_in_db": "t3_1pk1xym",
+        "url": "https://www.reddit.com/r/FreeGameFindings/comments/1ppusfx/epic_games_mobile_game_shotgun_king_the_final/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3985740/f6f31f400a5f8f93a9f87a908ceef58268559ead/header.jpg?t=1765889255",
+        "description": "Embark on a legendary journey where 100+ goddesses from different races await your command! Welcome to a world where strategy, collection, and creativity define your journey. 🎙️ Renowned Voice Acting Top Japanese voice actors, including Nana Inoue and Kana Yuki, bring every goddess to life. Enjoy personalized voice lines and dynamic Live2D animations for a truly immersive experience. 📖 Deep Storylines Follow the epic main story and uncover each goddess’s personal journey. Unlock invitation and trial stories to explore their pasts and the lore of this world. ⚔️ Master Tactical Battles Engage in 6v6 battles on a strategic 2×3 grid: • Position your goddesses carefully to protect allies and defeat enemies. • Combine skills and abilities to unleash powerful team bonuses. • Execute spectacular special moves with stunning visual effects. 💎 Player-First Economy Transparent gacha system with high SSR rates. Regular events let you earn powerful characters for free, alongside generous rewards. All story content and PvP modes are fully accessible without spending — victory comes from smart strategy, not heavy spending. 🌐 Play Anywhere Full cross-platform support lets you sync progress between PC and mobile seamlessly, so you can continue your adventure anywhere. ✨ Community & Global Reach Join over 5 million players worldwide and experience strategic 6v6 battles with dynamic goddesses. Our community is diverse and welcoming, with players from every corner of the world. Developer’s Letter Dear Commanders, Welcome to Goddess of Fate , a project born from our team’s love for strategic RPGs and heartfelt storytelling. From the very beginning, our goal has been simple: to create a world where tactical depth meets emotional connection. Every goddess you encounter was crafted with care—designed, animated, and voiced to feel truly alive. We’re honored to have partnered with talented Japanese voice actors such as Nana Inoue and Kana Yuki , whose performances breathe soul into each character, sometimes fierce, sometimes gentle, but always full of heart. Combat in Goddess of Fate rewards smart strategy over raw power. Victory isn’t about having the rarest cards; it’s about how you use them—mastering formations, exploiting synergies, and seizing the right moment to strike. Most importantly, we wanted to create a game that respects your time . All main content, including the full story, is fully playable without spending a single cent. Optional purchases exist only for those who wish to enhance their experience, never to gate progress. Your success depends on your strategy, creativity, and perseverance, not on spending. We’re deeply grateful to have you with us on this journey. We can’t wait to see the teams you build, the tactics you master, and the stories you’ll share along the way. Thank you for playing, and welcome to the world of Goddess of Fate . The Goddess of Fate Team ✨ The idea for Goddess of Fate was born from our team’s shared love for anime, mythology, and strategic gaming. We were inspired by the rich tapestry of global mythologies, where gods and goddesses embody the essence of human emotions, aspirations, and conflicts. magic,hellcard,manor,yakuza,marvel,mage,wallpaper,lego,redsec,hogwarts,refate,victoria,shogun,blue,archive, diablo,atelier,repo,pretty,derby,sims,kingdom,moe,cute,fantasy,kawaii,gacha,cosplay,otaku,manga,tale,tales,nba,ea, human,siege,RV,peak,dcs,gof,cod,battlefield,tes,tfd,fortnite,fc26,mecha,stellar,blade,wuthering,waves,chaos,child, avatar,rust,2024,f1,Microsoft,summer,strategy,casual,synergy,astral,2k26,digimon,winter,snowbreak,genshin,honkai, marvel,turn-based,warhammer,team,building,final,fantasy, persona,dragon,palworld,black,myth,ninja4,marvel,rivals,wukong,escape,megabonk,mhw,Nikki,rdr,hoi,ets,dbd,diablo,banana,red,dead,4,2,football,manager,26,delta,riders,force,efootball,wuchang,exilium,frontline,reverse,apex,2077,gta, baldur,lords,jurassic,cities,kings,clair,crusader,black,fallout,pubg,dota,cs,cs2,hades,naraka,bloons,world,king,disney,stellaris,ecchi,duckov,dayz,911,crysis,forza,lol,lottery,europa,fungeon,arc,raiders,bf,bf6,hentai,fgo,lolita,loli,bilibili,. From the fiery determination of a war goddess to the serene wisdom of a celestial deity, we wanted to bring these archetypes to life as unique, relatable characters—waifus with depth, personality, and stories that resonate. Our vision was clear: create a game that celebrates the diversity of these goddesses while offering players a chance to form meaningful connections with them through gameplay and narrative. Anime has always been a medium that transcends borders, blending stunning visuals with compelling storytelling. We wanted Goddess of Fate to capture that magic, combining the charm of anime-style characters with the strategic depth of card-based RPGs. But we didn’t stop there. We sought to push boundaries by integrating dynamic Live2D visuals, a robust affinity system, and a tactical combat framework that rewards creativity and planning. Our mission was to craft an experience that feels alive, where every goddess is more than a card—she’s a companion on your legendary journey. Crafting the Goddesses: Art, Voice, and Soul At the heart of Goddess of Fate are its 100+ goddesses, each a unique blend of mythology and anime flair. From the outset, we knew that the characters would be the soul of the game. Our art team worked tirelessly to bring these goddesses to life using Live2D technology, which allows for fluid, dynamic animations that make every character feel vibrant and responsive. Whether it’s the flutter of a goddess’s hair in the wind or the subtle shift in her expression during a heartfelt moment, these details create a sense of intimacy and immersion. For special goddesses, we introduced interactive touch reaction skins, allowing players to engage with their favorite characters in a playful, personalized way. Sound design was equally critical. We partnered with renowned Japanese voice actors, including talents like 井ノ上奈々 and 優木かな, to give each goddess a distinct voice that reflects her personality. From the commanding tone of a warrior goddess to the soft, teasing lilt of a mischievous spirit, every line was recorded to enhance the emotional depth of the characters. The voice library, unlocked through our dating-sim-style affinity system, lets players discover new dialogue as they build relationships with their goddesses. This system isn’t just a feature—it’s a way to make every interaction feel personal, as if these characters are truly growing alongside you. A World of Stories: Epic and Intimate The narrative of Goddess of Fate is designed to be both grand and personal. The main storyline follows your journey as a summoner tasked with uniting the goddesses to restore balance to a fractured world. This epic tale is filled with twists, betrayals, and moments of triumph, drawing inspiration from classic anime tropes and mythological sagas. But what sets our story apart is its depth and variety. Beyond the main plot, each goddess has her own “invitation story,” a personal narrative that delves into her origins, dreams, and struggles. These stories are unlocked through gameplay and affinity progression, offering players a chance to connect with their favorite characters on a deeper level. Additionally, we introduced “trial stories” that challenge players to uncover hidden lore and earn exclusive rewards. These bite-sized narratives add layers to the game’s universe, revealing the interconnected fates of the goddesses and the world they inhabit. Whether it’s a tale of a celestial goddess’s sacrifice or a mischievous fox spirit’s redemption, these stories are crafted to evoke emotion and spark curiosity. Our writers worked closely with cultural consultants to ensure that the mythological inspirations—spanning Eastern and Western traditions—are respectful and authentic, while still infused with the playful energy of anime storytelling. Tactical Combat: Strategy Meets Spectacle Combat in Goddess of Fate is where strategy and spectacle collide. Our 6v6 tactical battle system is built around a 2×3 grid, where positioning is as critical as team composition. Placing a goddess in the front row might maximize her offensive potential but expose her to greater risk, while a back-row placement could enhance her support abilities but limit her impact. This system demands careful planning, as every decision—from unit placement to skill selection—can turn the tide of battle. To deepen the strategic experience, we designed a robust synergy system that rewards creative team-building. Mixing and matching goddesses from different races—such as celestial, demonic, or elemental—unlocks exclusive team effects that enhance performance. For example, pairing a fire goddess with a wind spirit might trigger a “Blazing Tempest” synergy, boosting attack speed and critical damage. These synergies encourage experimentation, ensuring that no two players’ squads feel the same. Add to this our dynamic skill combos and flashy special effects, and every battle becomes a visual and tactical feast. Player-First Philosophy: Accessibility and Fairness One of our core principles is ensuring that Goddess of Fate is welcoming to all players, regardless of whether they choose to spend money. We’ve designed a player-first economy that prioritizes accessibility and fairness. Our gacha system is transparent, with high SSR rates and guaranteed banners to give players a fair shot at their favorite goddesses. In-game events offer ample opportunities to earn free base characters, making it easy for collectors to build their dream roster without breaking the bank. Most importantly, there are no paywalls—every piece of story content and PvP reward is fully accessible to free-to-play players. This approach has resonated with our community, as evidenced by our 92% 7-day retention rate, far surpassing the industry average of 62%. We’re also proud to have a 25% female player base, the highest in the strategic card game genre, reflecting our commitment to creating a game that appeals to a diverse audience.These numbers aren’t just stats—they’re a testament to the trust and enthusiasm our players have shown us, and we’re dedicated to maintaining that trust through ongoing updates and fair practices. A Global Experience: Cross-Platform and Localization We designed Goddess of Fate to be a truly global game. With seamless cross-platform support, players can sync their progress between mobile and PC, enjoying buttery-smooth gameplay at up to 140 FPS on desktop. This flexibility ensures that whether you’re on the go or at home, your journey with the goddesses is always within reach. Our localization team worked diligently to create a Western-friendly UI and design, ensuring that cultural nuances are preserved while making the game accessible to players worldwide. From intuitive menus to clear tutorials, we’ve strived to make Goddess of Fate a welcoming experience for both seasoned anime fans and newcomers. Our Commitment: Building a Community with You Creating Goddess of Fate has been a labor of love, but we know that a game’s true potential is realized through its community. We’re committed to listening to your feedback, whether it’s about balancing combat, adding new goddesses, or refining story content. Our roadmap includes regular updates with fresh characters, events, and story arcs, ensuring that the game evolves alongside our players. We’ve already seen the incredible creativity of our community, from fan art of the goddesses to strategic guides shared on social platforms like X. Your passion inspires us, and we can’t wait to see how you shape this world. We also want to foster an inclusive community where players of all backgrounds feel valued. Whether you’re a collector chasing every goddess, a tactician dominating PvP, or a story enthusiast diving into the lore, Goddess of Fate is your game. Join our official community channels to share your strategies, favorite moments, or even suggestions for new goddesses—we’re all ears! Looking Ahead: A Legendary Journey Continues As we look to the future, we’re excited to expand the world of Goddess of Fate. New goddesses, cross-over events, and deeper storylines are already in the works, alongside quality-of-life improvements based on player feedback. We’re exploring ways to enhance the affinity system, perhaps by adding new interaction mechanics or exclusive rewards for maxed-out relationships. We’re also considering seasonal PvP leagues and global tournaments to give competitive players a chance to shine. Final Words: Your Adventure Awaits Goddess of Fate: Waifus RPG is more than a game—it’s a celebration of anime, mythology, and the bonds that unite us. With 100+ goddesses, dynamic Live2D visuals, tactical combat, and a player-first economy, we’ve crafted a world where every player can find their place. Whether you’re drawn to the strategic depth, the emotional stories, or the sheer joy of collecting waifus, we hope Goddess of Fate becomes a journey you cherish. Thank you for joining us on this legendary adventure. Let’s summon the goddesses, forge unbreakable bonds, and write a saga that echoes across the ages!",
+        "id_in_db": "t3_1ppusfx",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "304050",
+        "steam_app_id": "3985740",
         "genres": [
-            "Action",
-            "Adventure",
-            "Casual",
-            "Massively Multiplayer",
             "RPG",
+            "Strategy",
             "Free To Play"
         ],
         "is_multiplayer": true,
         "is_online": true,
         "is_dlc_or_addon": false,
-        "persian_summary": "دوستان خود را بگیرید، تیغه های خود را با سنگ تیز کنید و برای یک ماجراجویی حماسی در تروو، اکشن نهایی MMO، حرکت کنید! با نیروهای Shadow در قلمروهایی مملو از سیاه چال ها و آیتم های باورنکردنی که توسط بازیکنان دیگر ساخته شده اند، مبارزه کنید. چه به شکار گنج در سرزمین های دور دست بپردازید و چه برای خودتان قلمرو بسازید، هرگز به این خوبی نبوده است! کلاس های Cubular به عنوان یک شوالیه، اسلحه گر، مریم یخی، دراکولیت، دزد دریایی با طوطی، یا هر (یا همه!) دیگر کلاس های تروو بازی کنید و در عین حال بر توانایی ها از تکنیک های کشنده نینجا تا بستنی های مرگبار خوشمزه مسلط شوید. تجهیزات خود را ارتقا دهید تا با چالش‌های حماسی مقابله کنید و با ظاهری قاتل به وسایل خود بپردازید. قلمروهای بی نهایت هر بازی منحصر به فرد است! در قلمروهای کاملاً تخریب‌پذیری که به‌صورت رویه‌ای ایجاد شده‌اند، در پشت اژدهای آتش‌نفس و میونت‌های کاملاً سبیلی کاوش کنید. با فتح وحش‌های رام نشده از جزایر گنج تا کاندوریا، خانه آب نبات‌های شیرین، وارد عمل متناسب با هر سطحی شوید..."
+        "persian_summary": "سفری افسانه ای را آغاز کنید که در آن بیش از 100 الهه از نژادهای مختلف در انتظار فرمان شما هستند! به دنیایی خوش آمدید که استراتژی، مجموعه و خلاقیت سفر شما را مشخص می کند. 🎙️ صداپیشگی مشهور صداپیشه های برتر ژاپنی، از جمله نانا اینوئه و کانا یوکی، هر الهه را زنده می کنند. از خطوط صوتی شخصی‌سازی‌شده و انیمیشن‌های پویا Live2D برای تجربه‌ای واقعاً فراگیر لذت ببرید. 📖 داستان های عمیق داستان اصلی حماسی را دنبال کنید و سفر شخصی هر الهه را کشف کنید. قفل دعوت و داستان های آزمایشی را باز کنید تا گذشته آنها و افسانه های این دنیا را کشف کنید. ⚔️ نبردهای تاکتیکی استاد در نبردهای 6 در 6 در یک شبکه استراتژیک 2×3 شرکت کنید: • الهه های خود را با دقت در موقعیت قرار دهید تا از متحدان محافظت کنید و دشمنان را شکست دهید. • ترکیب مهارت ها و توانایی ها برای آزاد کردن پاداش های تیم قدرتمند. • حرکات ویژه دیدنی را با جلوه های بصری خیره کننده اجرا کنید. 💎 سیستم گاچای شفاف Player-First Economy با نرخ SSR بالا. رویدادهای منظم به شما امکان می دهد شخصیت های قدرتمند را به صورت رایگان و در کنار جوایز سخاوتمندانه به دست آورید."
     },
     {
         "title": "epic games store dead cells is currently available to claim for free on the epic game store for mobile",
@@ -398,19 +329,6 @@
         "persian_summary": "سلام به همه، من توسعه دهنده انفرادی Hippocam هستم - یک برنامه ساده و متمرکز بر حریم خصوصی برای ثبت خاطرات، یادداشت ها، عکس ها، اسناد و هر چیزی که می خواهید بعداً به خاطر بسپارید. من اخیراً به‌روزرسانی‌های برنامه‌هایم را به اشتراک می‌گذارم، و بازخوردها فوق‌العاده دلگرم‌کننده بوده است. بنابراین به عنوان یک تشکر کوچک، Hippocam برای 48 ساعت آینده (معمولاً 1.99 دلار) رایگان است. بدون حساب، بدون تبلیغات، بدون ردیابی - همه چیز فقط در دستگاه شما باقی می ماند. چرا Hippocam ساختم اکثر برنامه‌های یادداشت یا عکس یا خیلی سنگین، اجتماعی یا خیلی «آنلاین» هستند. من مکانی آرام برای ذخیره افکار شخصی، عکس‌های فوری، رسیدها، ایده‌ها، یادآوری‌ها - هر چیزی معنی‌دار - بدون الگوریتم یا جمع‌آوری داده‌ها می‌خواستم. HippoCam به گونه ای طراحی شده است که یک فضای شخصی باشد که به صورت آفلاین کار می کند، فوراً باز می شود و زندگی شما را بدون پیچیدگی سازماندهی می کند. کارهایی که HippoCam می‌تواند انجام دهد • با برچسب‌ها، عکس‌ها، اسناد و برچسب‌ها خاطرات را ذخیره می‌کند • عکسبرداری سریع به طوری که هرگز فکر خود را از دست ندهید • کتابخانه عکس‌های خود را با عکس‌های موقت شلوغ نکنید • متن کامل..."
     },
     {
-        "title": "games puzzle for kids",
-        "store": "googleplay",
-        "url": "https://play.google.com/store/apps/details?id=com.ibuzz.apk.puzzle4kids82",
-        "image_url": "https://external-preview.redd.it/U-6-rp11o-ZWYkDy2gYwhYEfNY6N0buDakbPIEl_x80.png?width=320&crop=smart&auto=webp&s=d4a78ef32ad0a2d5786faaec11e9900731fa7373",
-        "description": "submitted by /u/Lohigno [link] [comments]",
-        "id_in_db": "t3_1plljdf",
-        "subreddit": "googleplaydeals",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/Lohigno [پیوند] [نظر]"
-    },
-    {
         "title": "games slime craft rts 149",
         "store": "googleplay",
         "url": "https://play.google.com/store/apps/details?id=com.SlimeCraft.SlimeCraft",
@@ -437,15 +355,16 @@
         "persian_summary": "ارسال شده توسط /u/ac_del [لینک] [نظر]"
     },
     {
-        "title": "Hogwarts Legacy",
-        "id_in_db": "hogwarts-legacy@1765809859",
-        "store": "other",
-        "url": "https://itad.link/018d959c-f86e-7393-896d-a27747ac7e91/",
+        "title": "hogwarts legacy",
+        "store": "epicgames",
+        "url": "https://store.epicgames.com/p/hogwarts-legacy",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/a3cdc6f40d97df8ac993679c2dd1edeb5222421e/header.jpg?t=1765473525",
+        "description": "Hogwarts Legacy is an open-world action RPG set in the world first introduced in the Harry Potter books. Embark on a journey through familiar and new locations as you explore and discover magical beasts, customize your character and craft potions, master spell casting, upgrade talents and become the wizard you want to be. Experience Hogwarts in the 1800s. Your character is a student who holds the key to an ancient secret that threatens to tear the wizarding world apart. Make allies, battle Dark wizards, and ultimately decide the fate of the wizarding world. Your legacy is what you make of it. Live the Unwritten. Includes Haunted Hogsmeade Shop Quest which grants access to an additional dungeon, Shopkeeper’s Cosmetic Set, and in-game Hogsmeade shop. New Features Include: -Photo Mode -Talent Resets New cosmetic items now available to all players: The Glasses That Lived, Azkaban Prisoner Uniform and Coat, Onyx Hippogriff Mount, Felix Felicis Potion Recipe, Dark Wizard Brooms (2)",
+        "id_in_db": "t3_1pkg64y",
+        "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
         "steam_app_id": "990080",
-        "description": "Hogwarts Legacy is an open-world action RPG set in the world first introduced in the Harry Potter books. Embark on a journey through familiar and new locations as you explore and discover magical beasts, customize your character and craft potions, master spell casting, upgrade talents and become the wizard you want to be. Experience Hogwarts in the 1800s. Your character is a student who holds the key to an ancient secret that threatens to tear the wizarding world apart. Make allies, battle Dark wizards, and ultimately decide the fate of the wizarding world. Your legacy is what you make of it. Live the Unwritten. Includes Haunted Hogsmeade Shop Quest which grants access to an additional dungeon, Shopkeeper’s Cosmetic Set, and in-game Hogsmeade shop. New Features Include: -Photo Mode -Talent Resets New cosmetic items now available to all players: The Glasses That Lived, Azkaban Prisoner Uniform and Coat, Onyx Hippogriff Mount, Felix Felicis Potion Recipe, Dark Wizard Brooms (2)",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/a3cdc6f40d97df8ac993679c2dd1edeb5222421e/header.jpg?t=1765473525",
         "genres": [
             "Action",
             "Adventure",
@@ -454,14 +373,35 @@
         "is_multiplayer": false,
         "is_online": false,
         "is_dlc_or_addon": false,
-        "subreddit": "FreeGameFindings",
         "persian_summary": "میراث هاگوارتز یک بازی RPG اکشن جهان باز است که برای اولین بار در کتاب های هری پاتر معرفی شد. با کاوش و کشف جانوران جادویی، شخصی سازی شخصیت و معجون های صنایع دستی، مهارت در ریخته گری طلسم، ارتقای استعدادها و تبدیل شدن به جادوگری که می خواهید باشید، سفری را در مکان های آشنا و جدید آغاز کنید. هاگوارتز را در دهه 1800 تجربه کنید. شخصیت شما دانش آموزی است که کلید یک راز باستانی را در دست دارد که تهدید می کند دنیای جادوگران را از هم بپاشد. متحد بسازید، با جادوگران تاریک مبارزه کنید و در نهایت سرنوشت دنیای جادوگران را تعیین کنید. میراث شما همان چیزی است که از آن می سازید. نانوشته را زندگی کن شامل Haunted Hogsmeade Shop Quest است که به یک سیاهچال اضافی، ست لوازم آرایشی مغازه دار، و فروشگاه هاگزمید درون بازی دسترسی پیدا می کند. ویژگی‌های جدید عبارتند از: -حالت عکس -بازنشانی استعدادها اقلام آرایشی جدید اکنون در دسترس همه بازیکنان است: عینک‌هایی که زنده بودند، لباس و کت زندانی آزکابان، کوه هیپوگریف اونیکس، دستور معجون فلیکس فلیسیس، جاروهای جادوگر تاریک (2)"
+    },
+    {
+        "title": "hordes of hel 100 off free",
+        "store": "epicgames",
+        "url": "https://store.epicgames.com/en-US/free-games",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/65800/header.jpg?t=1756228804",
+        "description": "Dungeon Defenders is a Tower Defense Action-RPG where you must save the land of Etheria from an Ancient Evil! Create a hero from one of four distinct classes to fight back wave after wave of enemies by summoning defenses and directly participating in the action-packed combat! Customize and level your character, forge equipment, gather loot, collect pets and more! Take your hero through multiple difficulty modes and challenge/survival missions to earn more experience & even better treasure. Join your friends with 4-player online and local (splitscreen) co-op to plan your strategies together or compete in PvP Deathmatch. Key Features 4-player Online and Local Co-Op - Team-up with up to 3 friends to defend cooperatively, with character classes that support each other’s strengths and weaknesses. Dynamically combine local (splitscreen) and online players and leave/join any time, so that the game’s always full. Tower-Defense Meets Action-RPG - Choose your class, customize your character & equipment, strategically assemble your defenses, and participate directly in action-packed battle to preserve your castle against the invading horde! 4 Distinct Character Classes - Each character class has a different skill tree, set of towers, and even basic attacks! You can choose if you want to play stealthy, turn invisible, and plant traps behind enemy lines with the Huntress or go all out, block off choke points, and brutally beat your foes into submission with the Squire! Loot and Level-Up - Grab the mounds of money and items that your defeated foes drop and trade them or store them for later use in your Item Box! Getting kills and completing waves earns you experience points, which can be used to upgrade your characters, skills, equipment, and towers on a per-statistic basis. Do you want to enhance Hit Points, Attack Rate, Damage, etc? The choice is yours... Store your massive overflow of money in the 'Mana Bank' and then spend it to improve your equipment or trade with other players. Proudly show off your best equipment in your own 'Adventurer’s Tavern', without fear of item theft! Tons of Enemies and Huge Boss Fights - Over 100 simultaneous enemies will attempt to tear through your defenses and gigantic Boss Monsters will appear to rain down havoc upon everyone. Only by employing the most effective defensive strategies, teamwork, and strong characters will you defeat such devilish foes! Many enemy types run the gamut from big dumb Orcs swinging huge axes, to lithe Dark Elves that strike from the shadows, to crazy kamikaze goblins! Can you defeat the epic boss battles and collect the special loot while still defending your crystals? Mission & Game Play Variety - Each level has a different visual setting, layout, enemy types, traps, and distinct surprises. To collect all the loot and reach the highest levels you must take your character through 4 difficulty modes, survival missions, challenge maps, and more! Some maps force you to have mobile defenses, guarding a crystal which warps around the map. Others have YOU attacking enemy encampments! Collect and Trade Pets Online - A variety of pets exist to assist you in the land of Etheria, each with distinct behaviors. These pets can be leveled-up and customized to match your unique play-style. They can even be traded online with other players! Secure Trading System - Afraid another player won't live up to their word? Use our secure trading system to trade your precious weapons, armor, and pets with other players online! Watch your name and fame spread online, as people seek out the best pet raisers or item forgers! A Mountain of Stats - Every shot you take, kill you make, and defense you build is logged and recorded for posterity. Pore over the voluminous charts and graphs at the end of each session to analyze your team’s performance, quickly review your best statistics for each level, and compare your data online with other players to see who is the greatest hero of all. Furthermore, your Achievements are visible for all to see within your very own Adventurer’s Tavern, and the highest scores for each of your heroes are ranked on the worldwide leaderboards! Dungeon Defenders Development Kit - Dungeon Defenders includes a free development kit where you can create and edit new Dungeon Defenders missions and more utilizing all of the existing Dungeon Defenders assets. Download and share these user created levels via Steam Workshop for an endless Dungeon Defenders experience!",
+        "id_in_db": "t3_1ppueho",
+        "subreddit": "GameDeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "65800",
+        "genres": [
+            "Action",
+            "Indie",
+            "RPG",
+            "Strategy"
+        ],
+        "is_multiplayer": true,
+        "is_online": true,
+        "is_dlc_or_addon": false,
+        "persian_summary": "Dungeon Defenders یک بازی Action-RPG دفاع از برج است که در آن باید سرزمین اتریا را از شر باستانی نجات دهید! یک قهرمان از یکی از چهار کلاس مجزا بسازید تا با احضار دفاع ها و شرکت مستقیم در نبرد پر اکشن، موجی پس از موج دشمنان را بجنگید! شخصیت خود را سفارشی و سطح کنید، تجهیزات را جعل کنید، غارت جمع کنید، حیوانات خانگی را جمع آوری کنید و موارد دیگر! قهرمان خود را از طریق حالت‌های دشواری متعدد و ماموریت‌های چالش/بقا ببرید تا تجربه بیشتر و حتی گنج بهتری به دست آورید. با 4 نفره آنلاین و محلی (splitscreen) co-op به دوستان خود بپیوندید تا استراتژی های خود را با هم برنامه ریزی کنید یا در PvP Deathmatch رقابت کنید. ویژگی های کلیدی 4 نفره آنلاین و محلی Co-Op - تشکیل تیم با حداکثر 3 دوست برای دفاع مشترک، با کلاس های شخصیت که از نقاط قوت و ضعف یکدیگر پشتیبانی می کنند. بازیکنان محلی (Splitscreen) و آنلاین را به صورت پویا ترکیب کنید و هر زمان که بخواهید ترک کنید/به آن بپیوندید تا بازی همیشه پر باشد. Tower-Defense Meets Action-RPG - کلاس خود را انتخاب کنید، شخصیت خود را سفارشی کنید و..."
     },
     {
         "title": "humble dice and destiny encore disco elysium pillars of eternity roadwarden",
         "store": "humblestore",
         "url": "https://www.humblebundle.com/games/dice-and-destiny-encore",
-        "image_url": "https://img.gg.deals/8a/a5/d8d5b69679f29f99843c60456ea98f58271a_1920xt1080_Q100.png",
+        "image_url": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/The-first-tier-of-the-Dice-and-Destiny-rebundle-contains-these-3-games.jpg",
         "description": "submitted by /u/OneFunnyFart [link] [comments]",
         "id_in_db": "t3_1pp259l",
         "subreddit": "GameDeals",
@@ -469,27 +409,6 @@
         "discount_text": "33% off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/OneFunnyFart [پیوند] [نظر]"
-    },
-    {
-        "title": "ignatius",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/1457710/Ignatius/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1457710/header.jpg?t=1758649642",
-        "description": "The game with its visual form and plot refers to the old silent movies. It takes us to the surreal, black-and-white world where we play as a character named Ignatius. Main character is a boy a bit bored with his current monotonous life. One moonlit night something unexpected happened, something that turn his orderly life upside down. He encountered a mysterious theater director named Vigo, who moves him to oneiric film reality. The player’s task is to find his way in this strange world and escape from it. We traverse interesting locations. discovering this mysterious universe and trying to unravel its mystery. On our way stands various obstacles, logical puzzles and specific oponents.",
-        "id_in_db": "t3_1pnw727",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "85% off",
-        "steam_app_id": "1457710",
-        "genres": [
-            "Adventure",
-            "Casual",
-            "Indie"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "بازی با شکل بصری و طرح داستانی خود به فیلم های صامت قدیمی اشاره دارد. ما را به دنیای سورئال و سیاه و سفید می برد که در آن به عنوان شخصیتی به نام ایگناتیوس بازی می کنیم. شخصیت اصلی پسری است که کمی از زندگی یکنواخت فعلی خود خسته شده است. یک شب مهتابی اتفاقی غیرمنتظره افتاد، چیزی که زندگی منظم او را زیر و رو کرد. او با کارگردانی مرموز تئاتر به نام ویگو روبرو شد که او را به واقعیت فیلم یک نفره سوق داد. وظیفه بازیکن این است که راه خود را در این دنیای عجیب بیابد و از آن فرار کند. از مکان های جالب عبور می کنیم. کشف این جهان مرموز و تلاش برای کشف رمز و راز آن. در راه ما موانع مختلف، پازل های منطقی و مخالفان خاص وجود دارد."
     },
     {
         "title": "ios macos technicalc calculator 8",
@@ -518,6 +437,27 @@
         "persian_summary": "EchoDay ساخته شده، رایگان برای 48 ساعت آینده. این یک برنامه ریز روزانه است که در واقع ایمن است و اطلاعات شما را کاملاً خصوصی در دستگاه شما نگه می دارد. با استفاده از هوش مصنوعی محلی، داده های شما هرگز از تلفن شما خارج نمی شود. ویژگی های اصلی: مکالمات طبیعی - فقط بپرسید \"آیا برای ناهار وقت دارم؟\" و دریافت پاسخ های فوری حریم خصوصی کامل - همه چیز در تلفن شما باقی می ماند، هیچ چیز به ابر نمی رود ادغام تقویم Apple - همه رویدادها و یادآوری های شما در یک برنامه زیبا بینش های هوشمند - اولویت ها، تضادها و اوقات فراغت خود را در یک نگاه بشناسید در همه دستگاه های Apple کار می کند - iPhone، iPad و Mac با همگام سازی یکپارچه iCloud - برنامه ریزی سریع را به طور کامل یاد بگیرید - خلاصه روز خود را به وضوح یاد بگیرید. قرارداد کریسمس خصوصی همه چیز: برای 48 ساعت آینده آن را برای مادام العمر کاملا رایگان کنید. بدون اشتراک، بدون تبلیغات، بدون جلب. فقط همه چیز را دانلود و باز کنید. ایده آل برای حرفه ای های پرمشغله، دانش آموزان، هرکسی که با چندین تقویم دستکاری می کند یا هرکسی که می خواهد..."
     },
     {
+        "title": "jotunnslayer",
+        "store": "epicgames",
+        "url": "https://store.epicgames.com/p/jotunnslayer-hordes-of-hel-3579b3",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2820820/aec793cf08d32c4966bc21cc72bd3b36ff5b20a6/header_alt_assets_4.jpg?t=1765983939",
+        "description": "Jotunnslayer: Hordes of Hel is a gripping roguelike, horde-survivor game with top-notch graphics. Choose one of the damned heroes and attempt to pass the Gods' test by fighting your way through waves of mythical adversaries. If you succeed in all the trials, you will become the chosen Jotunnslayer. Engage in adrenaline-fueled battles, fighting off endless waves of enemies as you strive to survive. Complete various objectives, defeat the final boss, and earn the ultimate prizes. Take on challenging missions during each run to test your skills and enrich your journey through the mythic realms. These quests may involve completing specific objectives or overcoming additional obstacles as you battle relentless enemies on your way to the final challenge. Improve your abilities with meta-progression systems that offer unlockable perks, in-game skills, or upgrades. As you progress further, you'll gain access to new abilities, weapons, and bonuses that allow you to customize your playstyle and improve your chances of survival. Select from a roster of diverse characters, each equipped with unique skills, abilities, and weapons. Mix and match combinations to refine your builds and overcome the many challenges posed by the Hordes of Hel. Face a variety of increasingly challenging Boss enemies as you progress through the game. Outmaneuver and defeat these formidable foes using the environment, your skills, and abilities to gain the advantage and achieve victory.",
+        "id_in_db": "t3_1ppuej4",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "2820820",
+        "genres": [
+            "Action",
+            "Indie",
+            "RPG"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "is_dlc_or_addon": false,
+        "persian_summary": "Jotunnslayer: Hordes of Hel یک بازی سرکش و انبوه بازمانده جذاب با گرافیک درجه یک است. یکی از قهرمانان لعنتی را انتخاب کنید و سعی کنید با مبارزه با امواج دشمنان افسانه ای، آزمون خدایان را پشت سر بگذارید. اگر در تمام آزمایشات موفق شوید، به عنوان Jotunnslayer انتخاب خواهید شد. در نبردهای آدرنالین شرکت کنید، در حالی که برای زنده ماندن تلاش می کنید با امواج بی پایان دشمنان مبارزه کنید. اهداف مختلف را کامل کنید، رئیس نهایی را شکست دهید و جوایز نهایی را به دست آورید. ماموریت های چالش برانگیز را در طول هر اجرا انجام دهید تا مهارت های خود را بیازمایید و سفر خود را در قلمروهای اسطوره ای غنی کنید. این ماموریت ها ممکن است شامل تکمیل اهداف خاص یا غلبه بر موانع اضافی در هنگام مبارزه با دشمنان بی امان در راه رسیدن به چالش نهایی باشد. توانایی‌های خود را با سیستم‌های فراپیشرفتی که امتیازات بازگشایی، مهارت‌های درون بازی یا ارتقاء را ارائه می‌دهند، بهبود دهید. با پیشرفت بیشتر، به توانایی‌ها، سلاح‌ها و پاداش‌های جدیدی دسترسی خواهید داشت که به شما امکان می‌دهد سبک بازی خود را سفارشی کنید و..."
+    },
+    {
         "title": "just ignore them",
         "store": "steam",
         "url": "https://store.steampowered.com/app/561770/Just_Ignore_Them/",
@@ -538,10 +478,22 @@
         "persian_summary": "به صفحه فروشگاه Steam Just Ignore Them خوش آمدید. قبل از فکر کردن به خرید فقط آنها را نادیده بگیرید، لطفاً نسخه ی نمایشی رایگان ما را امتحان کنید و بقیه این بخش را بخوانید. Just Ignore Them یک ترسناک ماجراجویی نقطه و کلیک است که عمدتا داستان محور است. این شامل یک خط داستانی قابل تغییر است که بازیکن می تواند با انتخاب های مهم آن را کنترل کند. با این حال، طرح اصلی تغییر نمی کند (این به دلیل یک دنباله احتمالی است). بازی تقریباً چند ساعت طول می کشد (برای بازیکنان بار اول)، اما این به برخی از انتخاب هایی که در طول بازی انجام می دهید نیز بستگی دارد. این وظیفه شماست که رمز و راز هیولاهای مهاجم را کشف کنید. یک شب می تواند برای یک کودک یک عمر درد، رنج و وحشت باشد... داستان پسر بچه ای در 8 سالگی شروع می شود که توسط هیولاهایی که در خانه اش زندگی می کنند عذاب می کشد. او با مادرش زندگی می کند که در خانه کار می کند تا بتواند از او مراقبت کند. شما نگاهی اجمالی به آینده خواهید داشت که می تواند با انتخاب های شما تغییر کند و پایان بازی را تغییر دهد. داستان این است که ..."
     },
     {
+        "title": "Jötunnslayer: Hordes of Hel",
+        "id_in_db": "jotunnslayer-hordes-of-hel@1766077252",
+        "store": "other",
+        "url": "https://itad.link/01944bc7-5d5d-7170-afa3-5ca75179768c/",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "image_url": "https://cdn1.epicgames.com/spt-assets/18f679a82b234692874031d40a3aaea1/jotunnslayer-hordes-of-hel-1f80q.jpg",
+        "is_dlc_or_addon": false,
+        "persian_summary": "",
+        "description": ""
+    },
+    {
         "title": "kaiserpunk 1949",
         "store": "steam",
         "url": "https://store.steampowered.com/app/2012190/KAISERPUNK/",
-        "image_url": "https://external-preview.redd.it/VgnB8Hfi7MFfnuVIOnEqAGwDpJcFe5aDaxhZXeE2bNw.jpeg?width=320&crop=smart&auto=webp&s=eee259efbe3842460083f54a74c173bb923be21b",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2012190/f6fcbc0dfe6aa509eb6175a4821a994a2838bc2f/capsule_616x353.jpg?t=1760959524",
         "description": "submitted by /u/Sneudinger [link] [comments]",
         "id_in_db": "t3_1pp92pa",
         "subreddit": "GameDeals",
@@ -549,27 +501,6 @@
         "discount_text": "35% off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/Sneudinger [پیوند] [نظر]"
-    },
-    {
-        "title": "mainframe defenders",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/1184810/Mainframe_Defenders/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1184810/header.jpg?t=1764411277",
-        "description": "MAINFRAME DEFENDERS Tactical retrofuturistic strategy game. A computer virus has infiltrated the \"Stargazer\" research complex. Most of the robotic units are controlled by the virus. Lead a squad of 4 prototypes on a mission to defend complex mainframe. You'll have to repel assaults, destroy unit fabricators, download valuable data, clear infected nodes, and do more on your way to the deepest parts of the complex. Work with item limitations and drawbacks to build powerful combinations. Destroy your enemies with diverse tactics: overheat them, melt with corrosion, absorb damage, and return fire. But don't rely on a single strategy too much - enemies might have a way to counter it. But above everything else: defend the Mainframe! * RETRO STYLE: Graphics, inspired by 80s terminal PC with hybrid synthwave soundtrack. * DIVERSE TACTICS: Cook enemy robots to death, bury them under your bullets, eliminate with a single powerful shot, or render your opponents useless with debuffs - this game is designed with a lot of viable strategies in mind. * BUILD YOUR SQUAD: Similar to how in card games you have to build your deck, in Mainframe Defenders you have to combine different items with unique abilities, to create an unstoppable squad. Work with item drawbacks or double down on them, creating flawed, yet powerful build! * UNIQUE ENEMIES: Enemy squad won't sit idle, though. Each unit has its own role in the squad and designed to counter certain strategies. Pick your targets wisely, or you will lose. * PROCEDURAL LEVELS: Hand-made rooms are combined with procedural generation to create random levels. Missions have differing objectives, combined with unique mission conditions. Will you accept the challenge or avoid the unknown and risk falling behind? * PROGRESSION SYSTEM: Victory or defeat, the game is not over yet! Unlock new units, each with a unique set of upgrades and load-outs. Unlock new items to bolster your new strategies. Join our Discord to stay informed about updates for Mainframe Defenders . There you can share feedback and suggestions, as well as chat with our team about the next project_",
-        "id_in_db": "t3_1pnjbf6",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "90% off",
-        "steam_app_id": "1184810",
-        "genres": [
-            "Indie",
-            "RPG",
-            "Strategy"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "MAINFRAME DEFENDERS بازی استراتژی آینده نگر تاکتیکی. یک ویروس کامپیوتری به مجتمع تحقیقاتی «استارگازر» نفوذ کرده است. اکثر واحدهای رباتیک توسط ویروس کنترل می شوند. تیمی متشکل از 4 نمونه اولیه را در ماموریتی برای دفاع از مین‌فریم پیچیده رهبری کنید. شما باید حملات را دفع کنید، سازندگان واحد را نابود کنید، داده‌های ارزشمند را دانلود کنید، گره‌های آلوده را پاک کنید و کارهای بیشتری را در مسیر خود به عمیق‌ترین قسمت‌های مجموعه انجام دهید. با محدودیت ها و معایب آیتم ها کار کنید تا ترکیب های قدرتمندی بسازید. دشمنان خود را با تاکتیک های متنوع نابود کنید: آنها را بیش از حد گرم کنید، با خوردگی ذوب شوید، آسیب را جذب کنید و به آتش پاسخ دهید. اما زیاد به یک استراتژی تکیه نکنید - ممکن است دشمنان راهی برای مقابله با آن داشته باشند. اما بالاتر از هر چیز دیگری: از Mainframe دفاع کنید! * سبک یکپارچهسازی با سیستمعامل: گرافیک، الهام گرفته از کامپیوتر ترمینال دهه 80 با موسیقی متن ترکیبی سینتویو. * تاکتیک های متنوع: ربات های دشمن را تا حد مرگ بپزید، آنها را زیر گلوله های خود دفن کنید، با یک شلیک قدرتمند از بین ببرید، یا حریفان خود را با دباف ها بی فایده کنید - این بازی ..."
     },
     {
         "title": "mega man x dive offline",
@@ -585,10 +516,23 @@
         "description": ""
     },
     {
+        "title": "meta quest powerbeatsvr 1299 43 off steamvr powerbeatsvr 1199 43 off",
+        "store": "other",
+        "url": "https://www.reddit.com/r/GameDeals/comments/1pq1vi2/meta_quest_powerbeatsvr_1299_43_off_steamvr/",
+        "image_url": "https://www.powerbeatsvr.com/wp-content/uploads/2021/12/Cover-Landscape-Logo-with-tagline.jpg",
+        "description": "Hi there! Nick here, one of the developers of PowerBeatsVR. Our VR fitness app is currently up to 43% off on the Meta Quest and Steam. Meta Quest: https://www.meta.com/experiences/4336749139724039 Steam: https://store.steampowered.com/app/810500 If you have any questions, feel free to ask! submitted by /u/Cypherlie [link] [comments]",
+        "id_in_db": "t3_1pq1vi2",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "43% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "سلام! نیک اینجا، یکی از توسعه دهندگان PowerBeatsVR. برنامه تناسب اندام واقعیت مجازی ما در حال حاضر تا 43 درصد تخفیف روی Meta Quest و Steam دارد. متا کوئست: https://www.meta.com/experiences/4336749139724039 استیم: https://store.steampowered.com/app/810500 اگر سوالی دارید، در صورت تمایل بپرسید! ارسال شده توسط /u/Cypherlie [پیوند] [نظر]"
+    },
+    {
         "title": "moonlighter",
         "store": "other",
         "url": "https://gaming.lenovo.com/moonlighter-key-drops",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/606150/e11127267e26a77c3d39bfa23d48eea78d2ac799/header_alt_assets_7.jpg?t=1765551155",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/606150/b6b0789b397ed98c8c5871dd2f99945a8fea0332/header.jpg?t=1765551155",
         "description": "During a long-passed archaeological excavation, a set of Gates were discovered. People quickly realized that these ancient passages lead to different realms and dimensions – providing brave and reckless adventurers with treasures beyond measure. Rynoka, a small commercial village, was founded near the excavation site providing refuge and a place for adventurers to sell their hard-earned riches. Moonlighter is an Action RPG with rogue-lite elements following the everyday routines of Will, an adventurous shopkeeper that dreams of becoming a hero. SHOPKEEPING While conducting your business in Rynoka village, you can put items on sale, set their price carefully, manage gold reserves, recruit assistants and upgrade the shop . Be careful though – some shady individuals may want to steal your precious wares! FIGHT WITH STYLE Defeat various enemies and bosses, and revel in challenging and deep combat mechanics. Masterful control of your weapons, critical timing, careful positioning, and an understanding of your enemies and environment are crucial to your survival. How you battle your enemies is up to you. MEET VILLAGERS Get to know your neighbors as you restore the prosperity of this small commercial hamlet. Help establish new businesses and watch them grow in the idyllic community of Rynoka. CRAFT AND ENCHANT Understanding the crafting and enchanting system is essential for your progression. Interact with the villagers to craft new armor and weapons, and enchant existing equipment. This creates a great deal of flexibility and spices up the way equipment is used. GET THE LOOT Access strange worlds through otherworldly gates and collect valuable items from exotic civilizations: resources, weapons, armors and peculiar artifacts. Hoarding everything won't be possible - use the unique inventory system wisely to take the most profitable loot with you. BEFRIEND COMPANIONS Gates lead to different worlds. Each run is unique and forces you to make smart and calculated decisions. You never know what you will encounter next – that’s why you must be prepared for everything.",
         "id_in_db": "t3_1pp1se8",
         "subreddit": "FreeGameFindings",
@@ -606,38 +550,16 @@
         "persian_summary": "طی یک کاوش طولانی مدت باستان شناسی، مجموعه ای از دروازه ها کشف شد. مردم به سرعت متوجه شدند که این معابر باستانی به قلمروها و ابعاد مختلف منتهی می شود - گنجینه هایی را برای ماجراجویان شجاع و بی پروا فراهم می کند. Rynoka، یک دهکده تجاری کوچک، در نزدیکی محل حفاری ایجاد شد که پناهگاه و مکانی برای ماجراجویان برای فروش ثروت های به دست آمده خود است. Moonlighter یک بازی RPG اکشن با عناصر سرکش است که کارهای روزمره ویل، یک مغازه دار ماجراجو را دنبال می کند که آرزوی قهرمان شدن را دارد. خرید در حین انجام تجارت خود در روستای Rynoka، می توانید اقلام را در معرض فروش قرار دهید، قیمت آنها را با دقت تعیین کنید، ذخایر طلا را مدیریت کنید، دستیاران استخدام کنید و مغازه را ارتقا دهید. هر چند مراقب باشید - برخی از افراد سایه ممکن است بخواهند کالاهای گرانبهای شما را بدزدند! با سبک مبارزه کنید دشمنان و باس های مختلف را شکست دهید و از مکانیک های مبارزه چالش برانگیز و عمیق لذت ببرید. کنترل ماهرانه سلاح های خود، زمان بندی حیاتی، موقعیت یابی دقیق و..."
     },
     {
-        "title": "new lands 100 off",
+        "title": "one gun guy",
         "store": "steam",
-        "url": "https://store.steampowered.com/app/1134700/Wild_Terra_2_New_Lands/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2694490/cf9f17c1f9eaa59a6a87f2faf3c03ac5a750b9da/header.jpg?t=1765823280",
-        "description": "Path of Exile 2 is a next generation Action RPG from Grinding Gear Games, featuring co-op for up to six players. Path of Exile 2 takes place in the land of Wraeclast, a dark continent populated by unique cultures, ancient secrets, and monstrous dangers. A sinister threat, long thought destroyed, has begun creeping back on the edge of civilisation, driving people mad and sickening the land with Corruption. Path of Exile 2 features a brand new campaign with six acts, 100 distinct environments, 600 monsters and 100 bosses. Key Features Twelve Character Classes Path of Exile 2 features twelve character classes, two for every combination of Strength, Dexterity and Intelligence. While each of the class variants focuses on a different playstyle, they're just a starting point. You can combine skills from many classes together to create your ideal character build. Each of the twelve character classes has its own three Ascendancy specialisations, resulting in a total of 36 Ascendancy Classes to pick between. New Skill Gem System Path of Exile 2 features 240 Skill Gems that grant devastating active skills and 200 Support Gems that modify their behaviour. Combine these together to create your perfect build. This is the next generation of Path of Exile's famous skill system. Support Gems are now socketed directly into Skill Gems, removing many of the frustrations present in the old system while maintaining all the previous depth. It's now possible to six-link every skill your character uses. Dual-specialise your Passive Skill Tree Path of Exile's iconic Passive Skill Tree has made a return, with 1,500 skills that allow you to completely customise your gameplay experience. It now features Dual Specialisation, the ability to allocate some passive skill points to two different sets of skills. They engage whenever the appropriate weapon or skill type is used. For example, you can have some points allocated to both daggers and traps, or ice and lightning, and as you swap between attacks, the appropriate skill points will apply. This lets you specialise in multiple areas without opportunity cost. Uncover All-new Items Path of Exile 2 features 700 equipment base types and every single one has its own unique item you can find. You can augment your arsenal with new weapons such as Spears, Crossbows and Flails, as well as supplementary items like Focuses, Traps and redesigned Sceptres. Encounter Unique Bosses In Path of Exile 2, every area of the Campaign contains a boss encounter. There's over a hundred bosses to fight as you make your way through the Acts and they all have unique mechanics to learn. Explore a New Endgame Completing the campaign is just the beginning. The endgame in Path of Exile 2 includes countless areas in different biomes, powerful crafting, challenging bosses, unique encounters and much more. Unlock new paths and explore further into the world. As you progress through the endgame, you will gain access to special passive trees that can boost the rewards of your maps and change the way the various endgame mechanics work. These trees will make your maps more rewarding but also more difficult. Path of Exile 2 introduces sequels to several leagues from Path of Exile. While their mechanics are familiar, the monsters, bosses, rewards and progression are all new. Fair-To-Play. Never Pay-To-Win. Path of Exile 2 is a separate game to the original Path of Exile. We will continue to offer expansions for both games going forward. They will never be \"pay to win\". Purchases are shared between the two games.",
-        "id_in_db": "t3_1po8sib",
-        "subreddit": "GameDeals",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "2694490",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Massively Multiplayer",
-            "RPG",
-            "Early Access"
-        ],
-        "is_multiplayer": true,
-        "is_online": true,
-        "is_dlc_or_addon": false,
-        "persian_summary": "Path of Exile 2 یک نسل بعدی اکشن RPG از بازی Grinding Gear Games است که حداکثر شش بازیکن را در آن بازی می‌کند. Path of Exile 2 در سرزمین Wraeclast اتفاق می افتد، قاره ای تاریک که پر از فرهنگ های منحصر به فرد، اسرار باستانی و خطرات هیولایی است. یک تهدید شوم، که مدت ها تصور می شد نابود شده بود، شروع به خزیدن در لبه تمدن کرده است، مردم را دیوانه می کند و زمین را با فساد بیمار می کند. Path of Exile 2 دارای یک کمپین کاملاً جدید با شش عمل، 100 محیط متمایز، 600 هیولا و 100 رئیس است. ویژگی‌های کلیدی Twelve Character Classes Path of Exile 2 دارای دوازده کلاس شخصیت است که دو کلاس برای هر ترکیبی از قدرت، مهارت و هوش. در حالی که هر یک از انواع کلاس ها بر سبک بازی متفاوتی تمرکز می کنند، آنها فقط یک نقطه شروع هستند. شما می توانید مهارت های بسیاری از کلاس ها را با هم ترکیب کنید تا شخصیت ایده آل خود را بسازید. هر یک از دوازده کلاس شخصیت، سه تخصص خاص خود را دارد که در نتیجه در مجموع 36 کلاس برتری به ..."
-    },
-    {
-        "title": "One Gun Guy",
-        "id_in_db": "one-gun-guy@1765822946",
-        "store": "other",
-        "url": "https://itad.link/019b233a-7c04-71f9-b1cf-e101efbbe50e/",
+        "url": "https://store.steampowered.com/app/1200580/One_Gun_Guy/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1200580/header.jpg?t=1765221829",
+        "description": "One Gun Guy is a straight forward no nonsense action platformer, one giant level littered with player upgrades , hazards to tackle, enemies to destroy and a boss to kill. After conquering the base difficulty take on this precision platformer's Hard Mode in your underwear!",
+        "id_in_db": "t3_1pne7rg",
+        "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
         "steam_app_id": "1200580",
-        "description": "One Gun Guy is a straight forward no nonsense action platformer, one giant level littered with player upgrades , hazards to tackle, enemies to destroy and a boss to kill. After conquering the base difficulty take on this precision platformer's Hard Mode in your underwear!",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1200580/header.jpg?t=1765221829",
         "genres": [
             "Action",
             "Indie"
@@ -645,41 +567,7 @@
         "is_multiplayer": false,
         "is_online": false,
         "is_dlc_or_addon": false,
-        "subreddit": "FreeGameFindings",
         "persian_summary": "One Gun Guy یک پلتفرم اکشن مستقیم و بدون مزخرف است، یک سطح غول پیکر مملو از ارتقاء بازیکن، خطرات برای مقابله، دشمنان برای نابود کردن و یک رئیس برای کشتن است. پس از غلبه بر سختی پایه، حالت سخت این پلتفرمر دقیق را در لباس زیر خود بگیرید!"
-    },
-    {
-        "title": "one gun guy free100 off",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/1200580/One_Gun_Guy/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/872200/header.jpg?t=1702321005",
-        "description": "Gear up and drop in to Rogue Company, the third-person tactical action shooter that puts the fate of the world in your hands. Defeat the enemy team in objective and action based game modes featuring exotic locales, thrilling gun-play, and explosions…lots of explosions. Assemble your team and play FREE now! Skydive into high-stakes missions in hot spots around the globe. Take part in action-packed 4v4 and 6v6 game modes; control the point in King of the Hill, fight to survive in Strikeout, or plant and defuse bombs in Demolition. Looking to be more competitive? Join the Ranked queue to show off your skills. Or relax in a rotating Limited-Time Mode. Drop in as one of the many agents of Rogue Company, each with their own unique set of skills, weapons, and gadgets! Fire explosive napalm with Switchblade’s Chaos Launcher, use Saint’s revive drone to save your teammates, or take the enemy team offline with a hack from Gl1tch. Which Rogue and play style will you choose? Throughout each match, you’ll earn cash to spend in the in-game store. Choose how you approach each round -- will you buy a katana to get up-and-personal with your foes, or the Tyr sniper rifle to take them down from afar? You can also unlock high-tech gadgets, ranging from Dima’s favorite explosives to a disorienting tear gas. Rogue Company is 100% Free to Play. All Rogues can be unlocked free and come with additional free rewards that you can collect just by playing the game. Even better: Rogue Company supports full cross-play and cross-progression, meaning you can play with your friends regardless of platform, and bring your unlocks wherever you game. Are you ready to save the day, look good, and get paid? Download Rogue Company and play for FREE today!",
-        "id_in_db": "t3_1pnev1y",
-        "subreddit": "GameDeals",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "872200",
-        "genres": [
-            "Action",
-            "Free To Play"
-        ],
-        "is_multiplayer": true,
-        "is_online": true,
-        "is_dlc_or_addon": false,
-        "persian_summary": "آماده شوید و وارد Rogue Company شوید، اکشن تیراندازی تاکتیکی سوم شخص که سرنوشت جهان را در دستان شما قرار می دهد. تیم دشمن را در حالت‌های بازی مبتنی بر هدف و اکشن که دارای مکان‌های عجیب و غریب، تفنگ بازی هیجان‌انگیز، و انفجارها است، شکست دهید... انفجارهای زیادی. تیم خود را جمع کنید و اکنون رایگان بازی کنید! به ماموریت های پرمخاطره در نقاط داغ در سراسر جهان پرواز کنید. در حالت های اکشن بازی 4v4 و 6v6 شرکت کنید. نقطه را در King of the Hill کنترل کنید، برای زنده ماندن در Strikeout مبارزه کنید، یا در Demolition بمب بکارید و خنثی کنید. به دنبال رقابت بیشتر هستید؟ برای نشان دادن مهارت های خود به صف رتبه بندی بپیوندید. یا در حالت چرخشی با زمان محدود استراحت کنید. به عنوان یکی از بسیاری از نمایندگان شرکت Rogue که هر کدام مجموعه ای از مهارت ها، سلاح ها و ابزارهای منحصر به فرد خود را دارند وارد شوید! با Switchblade’s Chaos Launcher ناپالم انفجاری شلیک کنید، از پهپاد Saint’s revie برای نجات هم تیمی های خود استفاده کنید یا با هک Gl1tch تیم دشمن را آفلاین کنید. کدام سبک سرکش و بازی را انتخاب می کنید؟ در سرتاسر هر..."
-    },
-    {
-        "title": "operation galuga castlevania dominus collection super bomberman r2",
-        "store": "indiegala",
-        "url": "https://www.indiegala.com/store/publisher-sale/konami-us",
-        "image_url": "https://external-preview.redd.it/ZwvYUVrwa3xLb5D3-vdleo1d0jBsOErLXhIXfR300MU.jpeg?width=640&crop=smart&auto=webp&s=302482e47bc976ee3ebcd7d850ea9582c92f9599",
-        "description": "submitted by /u/indieg [link] [comments]",
-        "id_in_db": "t3_1pnxyx5",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "51% off",
-        "is_dlc_or_addon": true,
-        "persian_summary": "ارسال شده توسط /u/indieg [لینک] [نظر]"
     },
     {
         "title": "palingenesis",
@@ -695,6 +583,32 @@
         "description": ""
     },
     {
+        "title": "path of the teal lotus gog gunslugs 2 gog ashworld gog forgotten realms",
+        "store": "amazon",
+        "url": "https://luna.amazon.com/claims/home?filter=Game&g=s",
+        "image_url": "https://external-preview.redd.it/_fBjABdCsDDIR7bJn-cgpkXoTMJ2MnAEY3PCdXPaAoY.png?width=640&crop=smart&auto=webp&s=bef23da95c6aa8211ed8845602ada6c6644977cf",
+        "description": "submitted by /u/LighteningOneIN [link] [comments]",
+        "id_in_db": "t3_1ppxi1l",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/LighteningOneIN [پیوند] [نظر]"
+    },
+    {
+        "title": "pcconsole other naraka",
+        "store": "other",
+        "url": "https://na.alienwarearena.com/ucf/show/2173384/boards/contest-and-giveaways-global/Giveaway/naraka-bladepoint-fest-key-giveaway",
+        "image_url": "https://external-preview.redd.it/GGS-fFCJ2daHxFOBCwBG99-LJW3lASULBj7809GfXcc.jpeg?width=320&crop=smart&auto=webp&s=1e8dbde858f58012e8e5556278f6faf170e94cad",
+        "description": "submitted by /u/MeguminShiro [link] [comments]",
+        "id_in_db": "t3_1ppwq40",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/MeguminShiro [لینک] [نظر]"
+    },
+    {
         "title": "pcconsolemobile other warframe",
         "store": "other",
         "url": "https://na.alienwarearena.com/ucf/show/2173450/boards/contest-and-giveaways-global/Giveaway/warframe-exclusive-game-pack-key-giveaway",
@@ -708,17 +622,24 @@
         "persian_summary": "ارسال شده توسط /u/MeguminShiro [لینک] [نظر]"
     },
     {
-        "title": "playsum caravan sandwitch 1023 892 780 c1269 a1556 with code cheers",
+        "title": "pcps5xbox other battlefield 6",
         "store": "other",
-        "url": "https://store.playsum.live/product/6adf777e-3c1a-561a-812d-215846f35185/caravan-sand-witch",
-        "image_url": "https://external-preview.redd.it/9kf8rCwymLCQWICf-ynG8s8F5FWPpuu5redccX1aJz8.jpeg?width=320&crop=smart&auto=webp&s=508558dfde1bc0396b65da6ea2f623181ed51f41",
-        "description": "submitted by /u/Lets_Playsum [link] [comments]",
-        "id_in_db": "t3_1poka92",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "59% off",
+        "url": "https://gleam.io/U0up1/razer-x-battlefield-6-system-override-soldier-skin",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/45750/header.jpg?t=1636428326",
+        "description": "The larger than life action of Lost Planet 2 , comes to PC! Lost Planet 2 is the sequel to Lost Planet™: Extreme Condition, the landmark third-person shooter which debuted on Xbox 360 and went on to sell over 2.3 million units worldwide after its release. Lost Planet 2 offers deeper insight into the world of E.D.N III and the uncertain fate of future mankind. Already acclaimed for its visual accomplishments from the console versions, Lost Planet 2 will define the 3D experience on the PC. Stunning environments will immerse the player in NVIDIA Vision Surround technology, and the rebalanced gameplay and streamlined control mechanics make Lost Planet 2 PC the ultimate Lost Planet experience. A decade has passed since the events of the first game, and the face of E.D.N. III has changed dramatically. Terraforming efforts have been successful and the ice has begun to melt, giving way to lush tropical jungles and harsh unforgiving deserts. Mankind has engaged in a civil war to take control of the precious Thermal Energy that powers weapons and vehicles on E.D.N. III and resulted in a separation into various factions. Players will control heroes from each faction across 6 interconnected episodes, viewing the war from the perspective of each, creating a truly unique interactive experience. With this concept, players will have the opportunity to engage in the story in a much more dynamic way as plot threads evolve from different players’ perspectives. The intense and action-packed campaign mode comes with the ability to form teams of up to 4 players online. Beyond the deep single-player and co-op modes, Lost Planet 2 is loaded with extensive multiplayer modes allowing up to 16 players to compete online, each with their own customizable avatar. No action game would be complete without an arsenal of weaponry, and Lost Planet 2 has a huge variety of hardware for players to unleash on unsuspecting enemies. Machine guns, shotguns, rocket launchers, lasers, sniper rifles, grenades and a host of other weapons are scattered across the game. The grappling hooks that made the gameplay in Lost Planet a true 3-D experience are back, allowing gamers to gain tactical advantage by moving to elevated locations quickly. Lost Planet 2’s biggest weapons come on two legs: the heavily armed and armored robotic Vital Suits return in greater numbers and variety than the first game. There are VS that transform into other vehicles, hold up to three players and some that even take multiple players to operate. Key Features: Co-op action: Team up to battle the giant Akrid in explosive 4 player online co-operative play. Teamwork is the player’s key to victory as the team is dependent on each other to succeed and survive. Massive scale of enemies: Players skill on the battlefield and ability to work as a team will be tested like never before against the giant Akrid. Players will utilize teamwork tactics, new weapons and a variety of vital suits (VS) to fight these larger-than-life bosses. Beautiful massive environments: Capcom’s advanced graphics engine, MT Framework 2.0, and DirectX 11 support will bring the game to life with the next step in 3D fidelity and performance. See Lost Planet 2’s world through new eyes, with support for hardware tessellation and compute shader. Deep level of character customization: Players will have hundreds of different ways to customize their look, nom de guerre, emotes, and weapons to truly help them define their character on the battlefield. A wide array of customizable abilities range from taking less damage, to running faster to operating data posts quicker Rewards System: Players will receive rewards for assisting teammates and contributing to the team’s success Multiplayer: Compete in 16-player multiplayer matches with nine different maps and 5 different game modes including Data Post Battle, Akrid Egg Battle, Fugitive, Elimination and Team Elimination. Additional maps will be available as downloadable content after the game’s release. Exciting new VS features: Based on fan feedback, the team has implemented an unbelievable variety of Vital Suits and new ways to combat VS’s. The new VS system will have a powerful impact on the way the player takes to the war zone in Lost Planet 2.",
+        "id_in_db": "t3_1pq5745",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "45750",
+        "genres": [
+            "Action",
+            "Adventure"
+        ],
+        "is_multiplayer": true,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/Lets_Playsum [لینک] [نظر]"
+        "persian_summary": "اکشن بزرگتر از زندگی Lost Planet 2 برای رایانه شخصی می آید! Lost Planet 2 دنباله Lost Planet™: Extreme Condition است، تیراندازی سوم شخص برجسته که برای اولین بار در Xbox 360 عرضه شد و پس از انتشار بیش از 2.3 میلیون واحد در سراسر جهان فروخت. Lost Planet 2 بینش عمیق تری از دنیای E.D.N III و سرنوشت نامشخص بشر آینده ارائه می دهد. Lost Planet 2 که قبلاً برای دستاوردهای بصری خود در نسخه های کنسول تحسین شده است، تجربه سه بعدی را در رایانه شخصی تعریف می کند. محیط‌های خیره‌کننده بازیکن را در فناوری NVIDIA Vision Surround غوطه‌ور می‌کند و گیم‌پلی متعادل‌شده و مکانیک‌های کنترل ساده‌شده، Lost Planet 2 PC را به تجربه نهایی Lost Planet تبدیل می‌کند. یک دهه از اتفاقات بازی اول می گذرد و چهره E.D.N. III به طور چشمگیری تغییر کرده است. تلاش‌های زمین‌سازی موفقیت‌آمیز بوده و یخ‌ها شروع به ذوب شدن کرده‌اند و جای خود را به جنگل‌های سرسبز استوایی و بیابان‌های خشن نابخشودنی داده‌اند. بشر برای به دست گرفتن کنترل درگیر جنگ داخلی شده است..."
     },
     {
         "title": "playsum death howl 1498 1269 1114 c2075 a2064 with code cheers",
@@ -730,19 +651,6 @@
         "subreddit": "GameDeals",
         "is_free": false,
         "discount_text": "25% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/Lets_Playsum [لینک] [نظر]"
-    },
-    {
-        "title": "playsum lens island 1324 1188 c1754 a1751 with code cheers",
-        "store": "other",
-        "url": "https://store.playsum.live/product/cd904c87-7ee5-4c6a-be6f-1fd1e4e8c751/len-s-island",
-        "image_url": "https://external-preview.redd.it/B46eOQTgKqZ2y2FyvLmbUNIDZH7vAqA71L20jCKZGGk.jpeg?width=320&crop=smart&auto=webp&s=228eda3f7fb18d3135690e015ee96c5e03247eb1",
-        "description": "submitted by /u/Lets_Playsum [link] [comments]",
-        "id_in_db": "t3_1pnhoas",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "47% off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/Lets_Playsum [لینک] [نظر]"
     },
@@ -760,47 +668,12 @@
         "persian_summary": "Poeti را برای بچه خودم، رایگان برای هفته آینده (تا 10 دسامبر) ساختم. من نمی‌خواستم عکس‌های کودک را در اینستاگرام پست کنم، اما همچنان می‌خواستم راهی زیبا برای نگاه کردن به آنها داشته باشم. بنابراین من این را ساختم - یک مجله عکس خصوصی که فقط در دستگاه شما باقی می ماند. لطفا اگر آن را دوست دارید یک بررسی بگذارید! ویژگی‌های اصلی: شمارنده خودکار روزانه - هر عکس با سن کودک شما مهر می‌خورد (D+1، D+30، D+100...) جدول زمانی قابل کشیدن - به جای تماشای کودک دیگران در دوربین Reels، انگشت خود را روی عکس‌ها/فیلم‌های کودک خود بکشید - مُهر زمانی به‌طور خودکار اضافه می‌شود، نیازی به ویرایش نیست - ما با یک ضربه وارد کردن یک دکمه دوربین با یک بار مشاهده کل دوربین به‌صورت رول، کل تایم را وارد می‌کنیم. برای کشف مجدد خاطرات قدیمی 100٪ فضای ذخیره سازی محلی - بدون ابر، بدون حساب، بدون ویژگی های اجتماعی. فقط تو و خاطراتت برای حیوانات خانگی نیز کار می کند - برخی از کاربران سگ ها و گربه های خود را دنبال می کنند. رایگان تا 10 دسامبر. بدون اشتراک، بدون تبلیغات، بدون جلب. ارسال شده توسط /u/reck1ess_dev [پیوند] [نظر]"
     },
     {
-        "title": "ps other playstation wrap",
-        "store": "other",
-        "url": "https://www.reddit.com/r/FreeGameFindings/comments/1pj370l/ps_other_playstation_wrapup_2025_avatar/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3516100/header.jpg?t=1765731904",
-        "description": "Tenebyss is a dark fantasy roguelike inspired by the iconic Dark Souls series, Elden Ring with a little touch of the PS1 era charm . It’s a solo project currently being developed by Max Emelyanov . At its core, Tenebyss is a co-op souls-like extraction game focused on replayability, rich storytelling, looting, crafting, trading, and much more. Unlike most extraction games, Tenebyss features a friend only & competitive plays separately —which helps you to train with friends in private servers and then compete in open lobby worlds and against other players! - Flow Of Combat - Tenebyss delivers fast-paced movement and combat, wrapped in a world full of mystery and danger. Whether you're exploring eerie environments, battling strange creatures, or looting powerful gear, every action keeps you on your toes. Traversal and combat go hand-in-hand—defeat enemies to gather loot that can be sold, crafted into new items, or equipped to enhance your build. The game encourages you to experiment and discover what playstyle works best for you. Combat is flexible and built around your preferred playstyle. The game currently offers a variety of distinct weapon types to choose from( More will be added as the development continues ): Dual Swords – swift and relentless Greatsword – heavy, punishing strikes Greathammer – devastating, high-impact blows Scythe – agile, sweeping attacks with reach Magic Staff – ranged elemental power and spells Each weapon brings its own feel, strengths, and strategy—letting you carve your path through the abyss, your way. - Inventory System - Easy to use inventory system to carry all items, found loot and crafting items! (The UI is yet to be updated) - Dungeons To Explore - In Tenebyss , you will have a huge number of dungeons to loot, explore, find secret areas and fight enemies and bosses. All of them are sorted by levels, get prepared before you head out to the next level dungeon! You will need to take care of your: Skill Sets Enhance your inventory items Trade your current items for a better ones Armor Or maybe even sell them to open various chests throughout the dungeon!",
-        "id_in_db": "t3_1pj370l",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "3516100",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Indie",
-            "RPG"
-        ],
-        "is_multiplayer": true,
-        "is_online": true,
-        "is_dlc_or_addon": false,
-        "persian_summary": "Tenebyss یک فیلم سرکش فانتزی تاریک است که از سری نمادین Dark Souls، Elden Ring با کمی جذابیت دوران PS1 الهام گرفته شده است. این یک پروژه انفرادی است که در حال حاضر توسط مکس املیانوف در حال توسعه است. در هسته خود، Tenebyss یک بازی استخراج روح مانند co-op است که بر قابلیت پخش مجدد، داستان سرایی غنی، غارت، کاردستی، تجارت و موارد دیگر تمرکز دارد. برخلاف اکثر بازی‌های استخراج، Tenebyss فقط یک دوست و بازی‌های رقابتی را به طور جداگانه دارد - که به شما کمک می‌کند با دوستان خود در سرورهای خصوصی تمرین کنید و سپس در جهان‌های لابی باز و در مقابل بازیکنان دیگر رقابت کنید! - Flow Of Combat - Tenebyss حرکت و نبردی سریع ارائه می دهد که در دنیایی پر از رمز و راز و خطر پیچیده شده است. چه در حال کاوش در محیط‌های وهم‌آور باشید، چه در حال نبرد با موجودات عجیب و غریب یا غارت تجهیزات قدرتمند باشید، هر اقدامی شما را سرپا نگه می‌دارد. پیمایش و نبرد دست به دست هم می دهند—دشمنان را شکست دهید تا غنایمی را جمع آوری کنید که می توان آن ها را فروخت، در آیتم های جدید ساخت یا برای تقویت ساخت خود تجهیز کرد. این بازی شما را تشویق به آزمایش و..."
-    },
-    {
-        "title": "psa epic games holiday sale 2025 freebies",
-        "store": "epicgames",
-        "url": "https://www.reddit.com/r/FreeGameFindings/comments/1pk3w6u/psa_epic_games_holiday_sale_2025_freebies/",
-        "image_url": "https://b.thumbs.redditmedia.com/NFDGEEB1fmayFZMUf54LRPD2W_fzD43ZuizAYFJITDg.jpg",
-        "description": "https://preview.redd.it/ducx3iotcm6g1.png?width=2476&format=png&auto=webp&s=ea4218dcec4275e7147aea5d6376ff9e7934106e 📢 Holiday Sale 2025 Freebie Item Instant Checkout 🎮﻿﻿ CLAIM ALL BaseGame + DLC ／ DLC ／ DLC (Without 🧧 Star Trek Online - Epic Starter Pack Bundle 🔁) 🧧 Asphalt Legends - Decal Pack ｜⌛⛔｜BY/CN/RU/VE/VN/ZW BaseGame + DLC ／ DLC 🧧 Discord Nitro ｜⌛⛔｜IR/KP/RU/SY/TR/UA Reward 🧧 Disney Speedstorm - Monochromatic Pack - Racer Jack Skellington ｜⌛⛔｜BY/CN/CU/IR/KP/RU/SD/SS/SY/VE/VN/ZW BaseGame + DLC ／ DLC 🧧 Fall Guys - Fashionably Frosty BaseGame + DLC ／ DLC 🧧 Firestone – Idle Clicker Online RPG - Christmas Giveaway BaseGame + DLC ／ DLC 🧧 Fortnite - Hollypaw Wrap ｜⌛⛔｜RU BaseGame + DLC ／ DLC 🧧 Idle Champions of the Forgotten Realms - Cozy Dark Urge Party Pack ｜⌛⛔｜KR BaseGame + DLC ／ DLC 🧧 Infinity Nikki - Epic Extras Bundle ｜⌛⛔｜CN/VN BaseGame + DLC ／ DLC 🧧 Neverwinter - Legends Starter Pack ｜⌛⛔｜KR BaseGame + DLC ／ DLC 🧧 Rocket League® - TriTrim Crimson & Forest Green Wheels ｜⌛⛔｜CN/HK/MO/RU/KR/TW BaseGame + DLC ／ DLC 🧧 SMITE 2 Gingersnap Bundle ｜⌛⛔｜AU/BR/RU/KR BaseGame + DLC ／ DLC 🧧 Star Trek Online - Epic Starter Pack Bundle 🔁｜⌛⛔｜KR BaseGame + DLC ／ DLC 🧧 World of Warships — Mikasa Pack ｜⌛⛔｜BY/RU BaseGame + DLC ／ DLC submitted by /u/MeguminShiro [link] [comments]",
-        "id_in_db": "t3_1pk3w6u",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "https://preview.redd.it/ducx3iotcm6g1.png?width=2476&format=png&auto=webp&s=ea4218dcec4275e7147aea5d6376ff9e7934106e 📢025تعطیلات فروش رایگان 🎮﻿﻿ CLAIM ALL BaseGame + DLC ／ DLC ／ DLC (Without 🧧 Star Trek Online - Epic Starter Pack Bundle 🔁) 🧧 Asphalt Legends - Decal Pack ｜⌛⛔NGNV/RUBY/Bas ／ DLC 🧧 Discord Nitro ｜⌛⛔｜IR/KP/RU/SY/TR/UA Reward 🧧 Disney Speedstorm - بسته تک رنگ - Racer Jack Skellington ｜⌛⛔｜BY/CN/CU/IR/SD/KPVa/BY/CN/CU/IR/SD/KPeGa/BY/CN/CU/IR/SS/KPeGa/ + DLC ／ DLC 🧧 Fall Guys - Fashionably Frosty BaseGame + DLC ／ DLC 🧧 Firestone - Idle Clicker Online RPG - Christmas Giveaway BaseGame + DLC ／ DLC 🧧 Fortnite - Hollypaw Wrap ／RUA DLC 🧧 Idle Champions of the Forgotten Realms - Cozy Dark Urge Party Pack ｜⌛⛔｜KR BaseGame + DLC ／ DLC 🧧 Infinity Nikki - Epic Extras Bundle ｜⌛⛔｜CN/VN +DLCGater Legends Starter Pack ｜⌛⛔｜KR BaseGame + DLC ／ DLC 🧧 Rocket League® - TriTrim Crimson & Forest Green Wheels..."
-    },
-    {
         "title": "psa steam replay 2025 badge",
         "store": "steam",
-        "url": "https://store.steampowered.com/replay/my/2025",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/485610/0becb5b8e325d08101422223602d6e68abafa9e5/header.jpg?t=1765926027",
+        "url": "https://store.steampowered.com/explore?dq=widget",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/485610/0becb5b8e325d08101422223602d6e68abafa9e5/header.jpg?t=1766096250",
         "description": "Features Multiplayer 11 Game modes 21 Stadiums Dedicated servers Antilag system Realistic physics Ball editor Customization Bots Tutorial Replays Statistics Soccer Game Soccer Online: Ball 3D is the first soccer game in a new genre. Control one player on the virtual field. Kick the ball high, low, hard, lightly, curve, lob, jump, dribble, sprint (dash) and perform tricks. Discover a multi-player football simulator played by over 1 million players. Gameplay Ball 3D is an immersive computer game where you have 100% control. The physics is powered by a professional physics engine, which ensures realistic ball behavior. Because this is a physics-driven game, you need to use the geometry of the in-game objects to control them. Third person camera view makes the gameplay very unique in the electronic gaming world. At last a game that lets you perform pixel perfect moves. Open yourself to an atmospheric, magic reality, gain access to a new world where your unreal fantasy of becoming a soccer player will come true. Not many aaa titles offer what you will find in this hidden gem, it may be your best choice. This competitive team-based game is a true marvel for real-life soccer fans, offering endless fun. Soccer Online Playing single-player vs bots is so fun, but this is a modern esport game. Play online in the cross-platform multiplayer and play with other humans over the internet (or local network). Exciting and addictive Co-Op/PvP is the strongest element of this indie game. More than soccer Ball 3D has other sports for you to enjoy on-line: Basketball, Handball, Ice Hockey, Racing, Battle Royale and more. In Battle Royale survival is the key. Carefully overwatch the entire battlefield and avoid your opponents at all cost. It is not a shooter, there is no crosshair, the only weapon you have is you). You win this combat only when all your rivals are \"dead\". Use your reflex to win this epic war. The racing mode is like a kart racer, but with discs. During the race you drive using your mouse and keyboard as a controller. In Hockey mode you play with a puck. Ball 3D is a multi-sport simulation game available on laptop/desktop PC (Windows), Mac/Macbook (MacOS) and Steam Deck (Linux). Absolutely unique soccer sim game for casual, hardcore and pro players, where your realtime reaction skills matter. It mixes arcade gameplay with strategy. Fast-paced, easy to play, hard to master e-sport game with creative mechanics. Great to play in 2025 and even in 2026. It may be a light, relaxing and cozy experience. Unlike many RPG games where you level up your character, here your quest is to improve yourself. Whether you prefer golf, tennis, pool, baseball, cricket, volleyball or any other olympic sport, you will still like Ball 3D. Teams Building your own team is half of the success. Choose a name/tag (FC The Best, AS Best Players, EAS-Vampires, Foot Monsters (FM), Greatest Among Many (GAM), FRE or any other) then invite your friends to join the party and become a real team coach/manager. Be ready to compete in global leagues, cups and tournaments. Wouldn't it be nice to join the elite and win the Ball 3D World Cup Grand Final? Reach the peak and become a God, a living legend, the undisputed best Ball 3D player on the planet earth (the GOAT). Meet new friends, write your story and fulfill your American dream! If you lose, challenge your opponents to a rematch. Invite 1, 2 or 5 friends, 6, 7, 10. Not enough? How about 25, 26 or even more. Cooperation is the secret formula. Your team is hollow without it. Try to play positional attacks or it may defend the goal like a tank, lock the penalty area, turn it into a fortress and try counter attacks. Parking a bus in the goal is a sensible tactic too. Picking the best tactic for your team is like solving a puzzle, use your head and logic. Stealing tactics from your opponents is not theft. It is your role to decide if you want to play with one striker or with two, with three defenders or with four. You may try accurate short passes to gain space or full power flat strikes. Try all possible ideas and alternatives or your team will fall. Welcome new players! Simple tutorial will teach you how to play. It will help you massively to improve during the humble beginnings of your career. It is like a sandbox that lets you practice your moves and tricks. Multiplayer The game offers very advanced and optimized network code, including client side prediction anti-lag system and great dedicated servers in various regions that offer low ping. It is one of the most dynamic highest-rated coop soccer games. If you like multiplayer or mmo games you will love it. Ball 3D is mainly not a singleplayer offline PvE game, but you may decide that it is too early to play with real people and prefer to try your 1st game solo vs bots (AI). Man of the match The name of the best player will be featured and shown on the board as the man (woman) of the match. Put your name there and become popular! It tastes really wonderful to reach the apex and become the hero of the match. Replays Replays (demos) will help you craft your soccer skills into an art. Watch the matches from various cameras, including: TV, Action, Top Down, Auto and several others or from the 3rd person perspective. Remember to record replays and save your \"wow\" goals for later. Soccer variations Try modes like: Darts, Ping Pong and others. Ball 3D is a super fun, rich and deep co-operative game not similar to any other. Different environments Play on the grass, darker grass, dried grass, sand (desert), snow, concrete or rust-colored gravel. Play during the sunny summer, cold snowy winter, rainy autumn or green spring. Do you prefer the daylight or the dark night? Clean hot sky, clouds, wind or maybe a rain? Play on stadiums like: Classic, Real, Small, Big, Good, Mega, Huge, a street city stadium called Urban and many others. Ball 3D is a colorful, peaceful, family friendly, non-violent (no violence, no blood) game about soccer with a bit of the old school retro vibe. It can be played by players of all age, kids and adults, boys and girls. No matter what your sex is. Whether you are 18, 24 or 50 years old, boomer or young. Other features The game also offers Steam Trading Cards and Achievements among many other features. Buy and sell in-game items for a very cheap price on the Steam Market (cheapest deals are for less than 0.99 dollars). Get free items (loot inside the boxes) for playing the game and then put them on sale or go to the market and look for some best-sellers for yourself. Visit the shop, where you can find paid items and some attractive discounted bundles that offer great value (halloween, christmas, valentine and others). Tweak the graphics and other settings to get far more fps. The game will work on all computers including bad low spec / low end hardware (potato pc). After you score a goal, you can turn yourself into a rocket, alien, spider, ufo, car, zombie, hat guy vs knights, and many other scary but cartoony monsters, plants and wild animals you may know from horror and sci-fi movies or cartoons. How cool and funny is that? Use stylized visual shot effects like: shadow, ghost, black trail, white shuriken, fire ball, dying star, red devil from hell, rainbow cubes, ancient artifact and countless others. Show emotions to by using special emotion items, the list is long: cute cat, pumpkin smile, wolf, crazy kiss, laugh, cry, XD, lol, bat. Use badges: dog, portal, loops, dwarf, dragon, underground, warrior, hand, heat map, spooky. Join our community. It's not difficult. Start playing soccer right away and begin a new adventure. Support Ball 3D was created by Unusualsoft. You can contact us by email, on the forum, social media or discord. Feel free to ask questions or make suggestions. We will be very happy to reply to you! Updates The game has been already updated over 250 times. Many fun things will be added in the upcoming releases.",
-        "id_in_db": "t3_1poacqd",
+        "id_in_db": "t3_1ppxhhj",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
@@ -815,17 +688,23 @@
         "persian_summary": "ویژگی های چند نفره 11 حالت بازی 21 استادیوم سرورهای اختصاصی سیستم Antilag فیزیک واقعی ویرایشگر توپ سفارشی سازی ربات ها آموزش بازپخش آمار بازی فوتبال فوتبال آنلاین: Ball 3D اولین بازی فوتبال در سبک جدید است. یک بازیکن را در زمین مجازی کنترل کنید. توپ را بالا، پایین، محکم، سبک ضربه بزنید، منحنی کنید، لوب کنید، بپرید، دریبل کنید، دوی سرعت (خط تیره) بزنید و ترفند انجام دهید. یک شبیه ساز فوتبال چند نفره را کشف کنید که توسط بیش از 1 میلیون بازیکن بازی می شود. Gameplay Ball 3D یک بازی رایانه ای همهجانبه است که در آن شما 100% کنترل دارید. فیزیک توسط یک موتور فیزیک حرفه ای طراحی شده است که رفتار واقعی توپ را تضمین می کند. از آنجایی که این یک بازی فیزیک محور است، باید از هندسه اشیاء درون بازی برای کنترل آنها استفاده کنید. نمای دوربین سوم شخص، گیم پلی بازی را در دنیای بازی های الکترونیکی بسیار منحصر به فرد می کند. در نهایت یک بازی که به شما امکان می دهد حرکات پیکسلی عالی را انجام دهید. خودتان را به روی یک واقعیت جوی و جادویی باز کنید، به دنیای جدیدی دسترسی پیدا کنید که در آن فانتزی غیرواقعی شما برای تبدیل شدن به یک فوتبال..."
     },
     {
-        "title": "psa switch no gravity games switchmas 2025 website now live",
+        "title": "Rat Quest",
+        "id_in_db": "rat-quest@1766087491",
         "store": "other",
-        "url": "https://nogravitygames.com/switchmas2025/",
-        "image_url": "https://external-preview.redd.it/psa-switch-no-gravity-games-switchmas-2025-website-now-live-v0-_-gOYfvee6Vj09H5RGakOGs2HtGakBCMF7etLZizWkI.jpeg?auto=webp&s=be0d0ff27cd21e9ffac9f186a498a276273970a6",
-        "description": "Switchmas has returned, looks like 10 free games this year over 8 drops (3 games on last day). Detailed instructions & FAQ are on the website, you need to signup for the newsletter BEFORE the first game drops on Dec 12, I don't know if participating in previous years negates signup but I wouldn't chance it (i.e. don't blame me if you choose not to signup & miss out). Games drop everyday Dec 12th through Dec 19th and you need to collect everyday in order to get them all for free, if you miss a drop you can't get anymore without buying the games you missed: \"You’ll need to be careful though. If you forget to redeem any of the corresponding free titles, you won’t be eligible for the rest. The next titles in the lineup will become available free for users who have the previous ones added to their accounts! (If you miss a game, don’t worry. Just buy the missing games which will go on sale day after the owner discount to complete the chain and this will grant you a possibility to gather the rest of them for free!)\" US Only: \"This offer is only valid for Nintendo accounts assigned to the Americas region\" ~ Last years Switchmas post: Switchmas2024 submitted by /u/MalusNox [link] [comments]",
-        "id_in_db": "t3_1phkbk4",
-        "subreddit": "FreeGameFindings",
+        "url": "https://itad.link/019b3301-e892-72df-a0a9-5e182c9d2298/",
         "is_free": true,
         "discount_text": "100% Off",
+        "steam_app_id": "2952470",
+        "description": "About this game: Rat Quest is a game about a rat platforming up the level to get his sweet sweet cheese. Difficult platforming: The platforming in this game is very difficult! Every jump matters, if you fall, its right back to the bottom. Not as it seems: everytHing is finE, no reason to worry in the sLightest. very Pleasant game.",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2952470/efd77acebd190f5588262c9b1cbe8c38dbdec638/header.jpg?t=1763754651",
+        "genres": [
+            "Action"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "Switchmas بازگشته است، به نظر می رسد امسال 10 بازی رایگان بیش از 8 قطره (3 بازی در روز گذشته). دستورالعمل‌های دقیق و پرسش‌های متداول در وب‌سایت موجود است، شما باید قبل از انتشار اولین بازی در 12 دسامبر برای خبرنامه ثبت‌نام کنید، نمی‌دانم شرکت در سال‌های گذشته ثبت نام را نفی می‌کند یا خیر، اما شانسی برای آن ندارم (یعنی اگر تصمیم به ثبت نام نکردید و از دست دادید، من را سرزنش نکنید). بازی‌ها هر روز از 12 تا 19 دسامبر حذف می‌شوند و باید هر روز جمع‌آوری کنید تا همه آن‌ها را به‌صورت رایگان دریافت کنید، اگر قطره‌ای را از دست بدهید، دیگر نمی‌توانید بدون خرید بازی‌هایی که از دست داده‌اید به دست آورید: \"با این حال باید مراقب باشید. اگر فراموش کردید که هر یک از عناوین رایگان مربوطه را پس‌خرید کنید، واجد شرایط برای لیست بعدی کاربرانی نخواهید بود که عنوان قبلی را به عنوان رایگان اضافه می‌کنند. حساب‌ها (اگر بازی را از دست دادید، نگران نباشید. فقط بازی‌های گمشده را بخرید که یک روز پس از تخفیف مالک برای تکمیل زنجیره به فروش می‌رسد و این امکان را به شما می‌دهد که ..."
+        "subreddit": "FreeGameFindings",
+        "persian_summary": "درباره این بازی: Rat Quest یک بازی در مورد یک موش است که برای بدست آوردن پنیر شیرین شیرین خود به سطح بالا می رود. پلتفرمینگ دشوار: پلتفرمینگ در این بازی بسیار دشوار است! هر پرشی مهم است، اگر زمین بخورید، درست به پایین برمی گردد. نه آنطور که به نظر می رسد: همه چیز خوب است، هیچ دلیلی برای نگرانی وجود ندارد. بازی بسیار لذت بخش"
     },
     {
         "title": "remote control tv pro 299",
@@ -841,40 +720,6 @@
         "persian_summary": "ارسال شده توسط /u/Lohigno [پیوند] [نظر]"
     },
     {
-        "title": "royal edition 3950 6599 3667 voyagers of nera 179 1669 1650 eu uk us",
-        "store": "other",
-        "url": "https://www.allyouplay.com/discover/deals",
-        "image_url": "https://www.wingamestore.com/images_boxshots/master/voyagers-of-nera-1758031304.jpg",
-        "description": "submitted by /u/AllYouPlay [link] [comments]",
-        "id_in_db": "t3_1poq5l6",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "67% off",
-        "is_dlc_or_addon": true,
-        "persian_summary": "ارسال شده توسط /u/AllYouPlay [لینک] [نظر]"
-    },
-    {
-        "title": "saylor anime puzzle boys girls",
-        "store": "other",
-        "url": "https://gleam.io/GbCUd/free-x2500-saylor-anime-puzzle-boys-girls-steam-keys",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868520/header.jpg?t=1732667308",
-        "description": "From the minds of iconoclast writer/director SUDA51 (Goichi Suda) and legendary directors Hiroyuki Kobayashi and Shinji Mikami, killer7 returns for the first time in over 13 years! From the renowned studio Grasshopper Manufacture, Ltd. comes a cult classic adventure game that cemented the studio's international fame and recognition. (Photosensitive seizure warning: Game may potentially trigger seizures for people with photosensitive epilepsy. Viewer discretion is advised.) Dive into a dark world of underground assassins in a tale of revenge as Harman Smith, a man who manifests 7 deadly personalities into the real world, known as the killer7. Take control of this distinct murderers' row as they hunt down the sinister Kun Lan, to stop his plan of world dominance, and end his organization of deadly suicide bombers known as \"Heaven Smile.\" Multiple Personalities - Take control of Harman's distinct 7 personalities, each with their own appearance, personality, weapon of choice and special ability. A Sinister Foe - Face off against the \"Heaven Smile\" organization in a unique combination of first and third-person shooting mechanics. Killer Moves - Utilize the full host of killer7's special abilities to reveal secrets and solve puzzles. Your Pick - Switch between personalities at will to best tackle every encounter. A Dark Path Awaits - Follow a deeply engaging storyline brought to you by one of the highly acclaimed creators of all time, SUDA51. A New Look - Optimized for PC, now experience the cult classic like it never has before! A Killer Style - A timeless visual style that wowed audiences from its first reveal, perfectly ported to modern machines. killer7 chronicles the connection between two men whose intertwined path develop into a compelling tale of revenge and altering personas, propelling players into the consciousness of one man, Harman Smith and his seven different personalities. Your goal: stop Heaven Smile, a group responsible for a wave of indiscriminate violence that is plaguing the world. Unique characters, complex story, and dark imagery presented with striking cel-shaded graphics are all the essential ingredients for this classic title. CHARACTER PROFILE Harman Smith The central character in this story. He is an elderly man of 65, physically dependent on his live-in nursing assistant. However, when aroused he shows his true colors as the \"God Killer.\" His massive armor piercing rifle is one of his professional trademarks. - Weapon: Armor piercing rifle Garcian Smith The leader of 7 different personalities and also a loyal servant of Haman. He's low-key and nothing's ever humorous to him. He uses his special telegnosis ability to search and destroy the Heaven Smiles that use optical camouflage. - Weapon: Handgun with Silencer Dan Smith The most aggressive personality with the biggest attitude out of the 7. He's dressed cool with a suit and tie. No one will mistake him for a business man, at least not with his big revolver he carries all the time. There is hatred in his eyes. Some even say that if you stare into his eyes, you can see the devil. - Weapon: Custom Magnum Mask de Smith A mysterious former professional wrestler, he managed to build quite a following with this unique blend of Lucha Libre and British Lancashire style wrestling. There are rumors of his rampaging maskless through the ranks of the No Holds Barred circuit as well. Just when he had been invited to New York to appear at the main event, he vanished without a trace. His specialty move is known as the Smith Special (usually referred to in wrestling circles as the \"burning hammer.\") His double grenade launchers pack a powerful punch and can fire normal, Electric, and Gravity grenades. Animals naturally flock to the young and kind-hearted Babyface. - Weapon: Double Grenade Launchers Coyote Smith Like a venomous serpent, he's a cold-blooded personality. A Latino thug who knows his ways in the streets. Coyote is synonymous with the \"art of lock-picking.\" He's a man who knows how to get things. It's this extraordinary skill that qualifies him as a member of the Smithe Alliance. Also worth mentioning is his ability to take lives brutally. - Weapon: Custom Revolver Kevin Smith This albino man uses a knife as his weapon of choice. He can disappear into thin air by taking off his shades. He favors solitude over harmony. They say he's not a man of many words. But in actuality, no one has ever heard him speak. Some rumor that his voice can summon gods. - Weapon: Knives/Throwing Knives Kaede Smith The only girl in the killer entourage. She summons hear deadly spirits by blasting out a shower of blood from her wrist. Because she lives a life so close to death, her ability to survive life-or-death situations is beyond that of any living man. Her specialty is long-range shooting. She's able to use a 2-step zoom when firing her weapon. On a personal level she's very passive and tends to keep her distance from others. - Weapon: Automatic Pistol with Scope Con Smith The blind boy Con has exceptional hearing that allows him to visualize sounds. He also has an awesome rapid-fire ability. Another nice attribute is his super running speed that if he wanted could outrun almost any enemy. When he's asleep, he's just an average child. Nobody would suspect him of being an elite assassin. - Weapon: Double Automatics ENEMY PROFILE Kun Lan A parasitic avatar from Haman Smith's past. With the power of the gods, he brought forth the \"Heaven Smile.\" His plan is to bring down the Federation of States. Heaven Smile Violent beings who exist through the hand of Kun Lan. Their sole mode of attacking is to get near their targets and blow themselves up. In urban camouflage, they are very difficult to spot with the naked eye.",
-        "id_in_db": "t3_1phr7vl",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "868520",
-        "genres": [
-            "Action",
-            "Adventure"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "age_rating": "Intense Violence, Blood and Gore, Sexual Themes, Strong Language",
-        "is_dlc_or_addon": false,
-        "persian_summary": "از ذهن نویسنده/کارگردان نماد شکن SUDA51 (گویچی سودا) و کارگردانان افسانه ای هیرویوکی کوبایاشی و شینجی میکامی، killer7 برای اولین بار در 13 سال گذشته بازمی گردد! از استودیوی مشهور Grasshopper Manufacture، Ltd. یک بازی ماجراجویی کلاسیک کالت ارائه می شود که شهرت و شهرت بین المللی استودیو را تثبیت کرد. (هشدار تشنج حساس به نور: بازی ممکن است به طور بالقوه باعث تشنج برای افراد مبتلا به صرع حساس به نور شود. بیننده توصیه می شود.) در داستانی از انتقام به عنوان هارمن اسمیت، مردی که 7 شخصیت مرگبار را در دنیای واقعی به نمایش می گذارد، به دنیای تاریکی از قاتلان زیرزمینی شیرجه بزنید. کنترل این صف قاتلان متمایز را در دست بگیرید که آنها کان لان شوم را شکار می کنند، تا نقشه تسلط او بر جهان را متوقف کنند و به سازمان بمب گذاران انتحاری مرگبار او به نام \"لبخند بهشت\" پایان دهند. شخصیت های چندگانه - کنترل 7 شخصیت متمایز هارمن را در دست بگیرید که هر کدام ظاهر، شخصیت، سلاح انتخابی و خاص خود را دارند..."
-    },
-    {
         "title": "screen translator 4495 annual free for 48 hours translate any app screen instantly with one tap",
         "store": "iosappstore",
         "url": "https://apps.apple.com/redeem?ctx=offercodes&id=6751373070&code=TRANSMATEBFCM",
@@ -888,23 +733,10 @@
         "persian_summary": "هی همه! 👋 من قبلاً هیچ تبلیغی برای برنامه‌ام انجام نداده‌ام، اما از آنجایی که BFCM و فصل تعطیلات است، می‌خواهم یک سال اشتراک رایگان ارائه دهم! 😎 این برنامه \"TransMate - Screen Translator\" نام دارد. 👉 کاری که برنامه انجام می دهد: این برنامه فوراً صفحه هر برنامه را تنها با یک ضربه ترجمه می کند، بنابراین دیگر نیازی به گرفتن اسکرین شات دستی و آپلود هر تصویر برای دریافت ترجمه در هر زمان ندارید. همچنین، پس از آن نیازی به پاک کردن گالری خود نخواهید داشت زیرا برنامه اسکرین شات های شما را ذخیره نمی کند. همه چیز با یک ضربه، با ترجمه دقیق از متن انجام می شود. هیچ یک از داده های شما ذخیره نمی شود. این تبلیغ یک سال دسترسی حرفه ای رایگان به تمام ویژگی های برنامه را بدون تبلیغات ارائه می دهد (سریع باشید، فقط با کدهای محدود!) این یک برنامه کاربردی واقعا مفید است که در وقت شما صرفه جویی می کند. من در ابتدا آن را برای خودم ساختم زیرا هنگام سفر و استفاده از برنامه های زبان های دیگر به چیزی شبیه به این نیاز داشتم. 🔗 لینک اپ استور: APP LINK - https://apps.apple.com/app/transmate-screen-translator/id6751373070 لطفاً برنامه را بررسی کنید..."
     },
     {
-        "title": "snake eater tactical edition for playstation 5",
-        "store": "amazon",
-        "url": "https://www.amazon.com/dp/B0D4RJGFDT",
-        "image_url": "https://www.jnlgame.com/cdn/shop/files/81prlTWCe8L.jpg?v=1756309614&width=5760",
-        "description": "submitted by /u/f3n_lie [link] [comments]",
-        "id_in_db": "t3_1pno7wy",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "64% off",
-        "is_dlc_or_addon": true,
-        "persian_summary": "ارسال شده توسط /u/f3n_lie [لینک] [نظر]"
-    },
-    {
         "title": "steamxboxps5 other tomb raider legacy of atlantis",
         "store": "other",
         "url": "https://id.amazongames.com/en-us/signin",
-        "image_url": "https://preview.redd.it/steam-xbox-ps5-other-tomb-raider-legacy-of-atlantis-lara-v0-4k6xmm6vug7g1.png?auto=webp&s=10922782ceefa90920b4fd02617cac4370431688",
+        "image_url": "https://preview.redd.it/steam-xbox-ps5-other-tomb-raider-legacy-of-atlantis-lara-v0-4k6xmm6vug7g1.png?width=1024&format=png&auto=webp&s=735bc880548986083b5c34a5c5d005f4259d0310",
         "description": "submitted by /u/Fit-Cardiologist-124 [link] [comments]",
         "id_in_db": "t3_1pnoqeb",
         "subreddit": "FreeGameFindings",
@@ -938,7 +770,7 @@
         "title": "stove rush rush red shoes jump bullet delivery space spot collection",
         "store": "other",
         "url": "https://www.reddit.com/r/FreeGameFindings/comments/1pnvtbt/stove_game_rush_rush_red_shoes_jump_bullet/",
-        "image_url": "https://pbs.twimg.com/card_img/2000828340685426690/TnTGUyDM?format=jpg&name=orig",
+        "image_url": "https://d2x8kymwjom7h7.cloudfront.net/live/application_no/119001/images/indie-studio-v3/TitleBox(757x426)_1743923574102.webp",
         "description": "https://store.onstove.com/en/games/101151 🔁 ⏰ Until 2026 Jan 04 14:59 UTC https://store.onstove.com/en/games/100200 https://store.onstove.com/en/games/101940 🔁 ⏰ Until 2026 Jan 04 15:59 UTC submitted by /u/MeguminShiro [link] [comments]",
         "id_in_db": "t3_1pnvtbt",
         "subreddit": "FreeGameFindings",
@@ -948,41 +780,85 @@
         "persian_summary": "https://store.onstove.com/en/games/101151 🔁 ⏰ تا سال 2026، 04 ژانویه 14:59 UTC https://store.onstove.com/en/games/100200 https://store.onstove.com/fa/games/101940 ژانویه 26 ⏰ 15:59 UTC ارسال شده توسط /u/MeguminShiro [پیوند] [نظرات]"
     },
     {
-        "title": "the session 67915 off",
-        "store": "other",
-        "url": "https://www.reddit.com/r/GameDeals/comments/1pobcud/steam_the_session_67915_off/",
-        "image_url": "https://m.media-amazon.com/images/S/pv-target-images/219e89e199ca5f377f82ab49e5ee039eab11e4e6d1c3b5027438cef2a16c1701.jpg",
-        "description": "Hi everyone! I'm a developer of \"The Session\". A visual novel experience you don’t want to miss. Jump in and enjoy the story! https://store.steampowered.com/app/4133970/The_Session/ submitted by /u/l00knc [link] [comments]",
-        "id_in_db": "t3_1pobcud",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "15% off",
+        "title": "survivor game set in the dark realms of norse mythology 1 of epic stores year",
+        "store": "epicgames",
+        "url": "https://store.epicgames.com/en-US/p/jotunnslayer-hordes-of-hel-3579b3",
+        "image_url": "https://media.gamestop.com/i/gamestop/20023745-680826cd_ALT01?$pdp$?w=1256&h=664&fmt=auto",
+        "description": "submitted by /u/Singhvistaar [link] [comments]",
+        "id_in_db": "t3_1ppyvpe",
+        "subreddit": "AppHookup",
+        "is_free": true,
+        "discount_text": "100% Off",
         "is_dlc_or_addon": false,
-        "persian_summary": "سلام به همه! من توسعه دهنده \"جلسه\" هستم. یک تجربه رمان بصری که نمی خواهید از دست بدهید. وارد شوید و از داستان لذت ببرید! https://store.steampowered.com/app/4133970/The_Session/ ارسال شده توسط /u/l00knc [لینک] [نظرات]"
+        "persian_summary": "ارسال شده توسط /u/Singhvistaar [پیوند] [نظر]"
     },
     {
-        "title": "vault 21 jumpsuit joshua treestarfield",
+        "title": "the final checkmate is currently available to claim for free on the epic game store for mobile",
+        "store": "epicgames",
+        "url": "https://www.reddit.com/r/AppHookup/comments/1ppypyw/iosandroid_epic_games_store_shotgun_king_the/",
+        "image_url": "https://pbs.twimg.com/media/G8dvwYAa8AAUVE3.jpg",
+        "description": "Link for iOS users: https://store.epicgames.com/p/shotgun-king-ios-386641 Link for Android users: https://store.epicgames.com/p/shotgun-king-android-74f556 Chess, but all your army has gone over to the white side, leaving you with nothing but your royal shotgun and your wounded pride. Carried by your dark folly, you decide it's time to teach those white pieces to fear the Shotgun King. Every turn, you may either move your king or shoot at enemy pieces, after what you'll need to move again to reload your shotgun. Avoid checkmate and kill the enemy king to complete the floor. After each floor, you may choose between two random combinations of one upgrade for you and one upgrade for the other side. Choose wisely and keep on winning floors and you just may get your kingdom back. Shotgun King: The Final Checkmate is available to claim (and yours to keep) till 25th December. Download instructions for mobile users and more info: https://store.epicgames.com/en-US/mobile (this store is separate from the Apple AppStore or Google Playstore and will have to be downloaded first). Mobile store is available for Android users worldwide and iOS users in the European Union only . iOS users outside the European Union can’t download these games but may claim these games in their Epic account (for future use) if they wish to do so from the same links as above. submitted by /u/Singhvistaar [link] [comments]",
+        "id_in_db": "t3_1ppypyw",
+        "subreddit": "AppHookup",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "پیوند برای کاربران iOS: https://store.epicgames.com/p/shotgun-king-ios-386641 پیوند برای کاربران اندروید: https://store.epicgames.com/p/shotgun-king-android-74f556 شطرنج، اما تمام ارتش شما به سمت سفید رفته است و چیزی جز تفنگ شکاری سلطنتی زخمی خود باقی نگذاشته است. با حماقت تاریک خود، تصمیم می گیرید که وقت آن رسیده است که به آن قطعات سفید یاد دهید که از شاه تفنگ ساچمه ای بترسند. در هر نوبت، می‌توانید پادشاه خود را حرکت دهید یا به سمت قطعات دشمن شلیک کنید، پس از آن که باید دوباره حرکت کنید تا تفنگ ساچمه‌ای خود را بارگیری کنید. از مات بپرهیزید و پادشاه دشمن را بکشید تا زمین کامل شود. بعد از هر طبقه، می‌توانید بین دو ترکیب تصادفی یک ارتقا برای خود و یک ارتقا برای طرف دیگر انتخاب کنید. عاقلانه انتخاب کنید و در طبقات برنده ادامه دهید و ممکن است پادشاهی خود را پس بگیرید. Shotgun King: The Final Checkmate تا 25 دسامبر در دسترس است (و شما باید نگه دارید). دستورالعمل دانلود برای کاربران موبایل و اطلاعات بیشتر: https://store.epicgames.com/en-US/mobile (این فروشگاه..."
+    },
+    {
+        "title": "Toy Tinker Simulator",
+        "id_in_db": "toy-tinker-simulator@1766090417",
         "store": "other",
-        "url": "https://freebundle.bethesda.net/",
-        "image_url": "https://preview.redd.it/pc-other-fallout-76-vault-21-jumpsuit-joshua-tree-starfield-v0-j3d7nrz56a6g1.png?auto=webp&s=7c066d9bcbcc543aedf47f0e854979981f0f4a77",
-        "description": "submitted by /u/MeguminShiro [link] [comments]",
-        "id_in_db": "t3_1pippxf",
+        "url": "https://itad.link/019b32ae-821d-739a-a625-2635f322ca3e/",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "1510580",
+        "description": "Repair toys Disassemble/assemble toy parts and go through the repair processes like cleaning, painting, sandblasting, coating, sanding, sewing, filling/stuffing etc Repair as many toys as possible to earn more money and experience Take before/after photos to see the progress Design your office and workshop Buy furniture, carpets, paintings, plants, flowers, etc and design your office Buy new tools and equipment to increase your portfolio Start your toy-museums Buy and repair unique toys Buy new buildings and design your toy-museums Play with master-toys Level up and become master Play with master-toys after successful deliveries",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1510580/header.jpg?t=1766051622",
+        "genres": [
+            "Indie",
+            "Simulation"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "is_dlc_or_addon": false,
+        "subreddit": "FreeGameFindings",
+        "persian_summary": "تعمیر اسباب بازی قطعات اسباب بازی را جدا/مجموعه کنید و مراحل تعمیر مانند تمیز کردن، رنگ آمیزی، سندبلاست، پوشش، سنباده زدن، دوخت، پر کردن/پر کردن و غیره را انجام دهید تا جایی که ممکن است اسباب بازی ها را تعمیر کنید تا کسب درآمد و تجربه بیشتری کسب کنید. موزه های اسباب بازی خود خرید و تعمیر اسباب بازی های منحصر به فرد بخرید و ساختمان های جدید را بخرید و موزه های اسباب بازی خود را طراحی کنید."
+    },
+    {
+        "title": "toy tinker simulator free100 off",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1510580/Toy_Tinker_Simulator/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1536740/header.jpg?t=1659980316",
+        "description": "Hi, I'm a solo game developer from São Paulo, Brazil, and this is my game! TrackMaster is a game about physics sandbox, racing, vehicular mess and crazy types of events and competitions: doing unexpected things with unexpected vehicles! Want to take a trailer truck to a stunt track? Why not? Want to do a race in a figure 8 track featuring a monster truck, a muscle car, a truck and a bus? Why not? The game will let you drive freely in any track in a freeroam mode, race in tracks designed for collisions, and take part in events for doing stunts, dominating the hill, playing football and many others! TrackMaster is really a project I have began because of those moments of \"if no one is making the game I want to play, I'll make it\". I want the physics and chaos of the old Destruction Derby games, the freedom of old games like Interstate'76 and of modern games like BeamNGDrive, the simplicity of Super Off-Road and Super Skidmarks, the crazy modes of Test Drive: Eve of Destruction, the mayhem of Twisted Metal (the first one), the Monster Trucks from Monster Truck Madness, all this with split screen multiplayer, and more, much more, is that too much to ask? The game is designed as a balanced blend of simulation and fun: the vehicles are entirely governed by physics, so that you can always see a different result from collisions, jumps and stunts. The vehicles sizes and weights are also proportional to each other as in real life. If you drive a 6 ton truck at 100 km/h into regular cars, expect the poor cars to get thown away. But here comes the balance to be fun: the truck won't take 15 seconds to reach 100 km/h (as it would in real life), it's acceleration will let it race against sports cars and other fast vehicles! The physics based system also allows for different handling of RWD (rear wheel drive), FWD (front wheel drive) and 4WD (4 wheel drive) vehicles. GAME MODES FreeRoam - Drive freely, no time limits and no goals in any arena or track. - AVAILABLE NOW Event - Races and other events, see EVENTS, below. - AVAILABLE NOW Career - Start as a novice driver, with a bad car, and try to climb up the racing ranks! - COMING SOON Tournament - Combinations of events in sequence. - COMING SOON EVENTS 14 event types ALREADY IN THE GAME FreeStyle - Do as many tricks as you can in 2 minutes. Front flips, back flips, spiral flips, long and high jumps. Or, prevent the others from doing their hard trained tricks. Racing - You know, try to reach the finish line first. In this game, that's the only rule. Master of the Hill - Stay as long as you can on top of the hill for 2 minutes. Also, make sure the other vehicles can't make it. Tag - Or \"Touch And Go\", the playground game, the one you played as a child. Now with big toys. Red Rover - Drive from one end of the arena to the other. The last vehicle each time is out, until there is only one, the winner. Kamikaze Race - A race event where half the vehicles drive the right way. The other half, the wrong way. Football - You know, one ball, two goals. Period. COMING SOON There and Back Race - Also race, but you drive one lap the right way, the next lap, the wrong way. And so on until finish. Around the Flag Race - And yet another race event: after each lap, make a circle around a flag in the middle of the track, and then proceed to the next lap. Capture the Flag - Two teams, each one with a flag. Take the other teams flag and bring to your base. Demolition - Destroy anything that moves. Cops and Robbers - Or \"Team Tag \". You also played this one as a child. Now, with big toys too. Power Potato - Stay most of the time with the potato. Touch the vehicle with the potato to steal it. Hot Potato - Stay away from the potato. The one carrying it, loses points. Touch other vehicles to pass on the potato. Trailer Mode - All of the above, but with trailers attached. Try to finish the event with your trailers, and try to make the other vehicles lose theirs. THE PLAN You can see how I'm planning to develop the game in the TrackMaster website. Also, I will present these updates here, on Steam. So, the plan: End of 2022. The game at this point will feature all the vehicles (7 classes, with a varying number of models inside each class, to a total of 15 models), 11 tracks (plus the tracks variations) and 14 game modes planned now. 1.0 (end of early access phase) is planned to the end of 2023. The game at this point will feature on-line multiplayer, LAN multiplayer, track editor and of course, more vehicles, tracks and game modes are going to be made. Nothing prevents some features to come out earlier than planned, like online multiplayer, I just can't promise it now. After 1.0, free updates with more of everything described above, and, why not, some new and cool things, like an open world, real world tracks, steering wheel support, vehicle destruction (with soft body physics!), missions and scenarios... but this are just dreams right now and I can't promise any of this. So, the idea is to build a racing game that is easy to play, with a nice balance of fun and physics simulation, so that there are always new stuff to do and try, but that you can play in a relaxed way if you want. As long as the game proves to be good and is financially viable, I don't plan to abandon it after some features have being added, it could go on for years, why not!? I really like the way games like Euro/American Truck Simulator, BeamNGDrive, Cities Skylines and Elite Dangerous are made: with great involvement from a community and constant and free updates and improvements. I don't think I'm going for the paid DLC way, even for the big content updates. I like the idea of a game you can have at the beginning, with just a few features, but a solid foundation, and years later you are still able to have fun with it, but with much more content, and more important, with no more money for it. So, if you like the idea of a racing game to play the way you want, with any vehicle that comes to your mind, in crazy tracks, with lots of chaos, mayhem and solid physics, I hope you can enjoy the game from now on!",
+        "id_in_db": "t3_1ppygm3",
+        "subreddit": "GameDeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "1536740",
+        "genres": [
+            "Action",
+            "Casual",
+            "Racing",
+            "Sports",
+            "Early Access"
+        ],
+        "is_multiplayer": true,
+        "is_online": false,
+        "is_dlc_or_addon": false,
+        "persian_summary": "سلام، من یک توسعه دهنده بازی انفرادی از سائوپائولو، برزیل هستم و این بازی من است! TrackMaster یک بازی در مورد جعبه شنی فیزیک، مسابقه، آشفتگی وسایل نقلیه و انواع دیوانه کننده رویدادها و مسابقات است: انجام کارهای غیرمنتظره با وسایل نقلیه غیرمنتظره! آیا می خواهید یک کامیون تریلر را به یک مسیر بدلکاری ببرید؟ چرا نه؟ آیا می خواهید در پیست شماره 8 مسابقه ای انجام دهید که شامل یک کامیون هیولا، یک ماشین عضلانی، یک کامیون و یک اتوبوس است؟ چرا نه؟ این بازی به شما امکان می‌دهد آزادانه در هر مسیری در حالت freeroam رانندگی کنید، در مسیرهای طراحی شده برای برخورد مسابقه دهید، و در رویدادهایی برای انجام شیرین کاری، تسلط بر تپه، بازی فوتبال و بسیاری دیگر شرکت کنید! TrackMaster واقعاً پروژه ای است که من به خاطر آن لحظات شروع کرده ام. من فیزیک و هرج و مرج بازی های قدیمی Destruction Derby، آزادی بازی های قدیمی مانند Interstate'76 و بازی های مدرن مانند BeamNGDrive، سادگی Super Off-Road و Super Skidmarks، حالت های دیوانه کننده Test Drive: Eve of Destruction، ... را می خواهم."
+    },
+    {
+        "title": "wild terra 2",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1134700/Wild_Terra_2_New_Lands/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1134700/bfecd25e4d54da445622f75e4f9a59e327f1af9d/header_alt_assets_6.jpg?t=1766086082",
+        "description": "Play your role in the life-filled medieval world controlled by players. MMORPG full of details that create a unique immersion and the spirit of adventure! Huge selection of crafts. Attention to details Become the best builder, blacksmith, fisherman, healer, alchemist, baker, sailor, tanner, trader, farmer, jeweler and anything else. But getting the Master's Mark requires perseverance and knowledge. In Wild Terra, you cannot create equipment in one click. Pets Catch, tame and grow rare species of animals. As they level up, pets receive random bonuses. It will take luck or hard work to put together the perfect combination. Raids and Solo play Join groups, create guilds, or play solo. Hunt huge bosses and explore dark dungeons! Build, evolve and travel to PvP and PvE zones. Or you can challenge and go to mysterious continents with a variety of biomes, inhabitants and conditions, for example, to an Plague Island. Leveling and combat system Whatever you use, the skill level of that increases. The game has many non-combat and battle skills, a variety of melee and ranged weapons, each with its own active and passive abilities. There are no pre-selected classes in Wild Terra. What you have in your hands determines your role in combat. And thanks to the non-target combat system, your skill is as important as your equipment. Only your choice You decide whether to risk your loot or stay in safe zones. Also, in any dungeon, you can choose the difficulty from Easy to Nightmare. The rewards justify the risk, but the decision is yours!",
+        "id_in_db": "t3_1po8sof",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/MeguminShiro [لینک] [نظر]"
-    },
-    {
-        "title": "Wild Terra 2: New Lands",
-        "id_in_db": "wild-terra-2-new-lands@1765908925",
-        "store": "other",
-        "url": "https://itad.link/019b285f-b28a-709f-9a7d-839276dd9e42/",
-        "is_free": true,
-        "discount_text": "100% Off",
         "steam_app_id": "1134700",
-        "description": "Play your role in the life-filled medieval world controlled by players. MMORPG full of details that create a unique immersion and the spirit of adventure! Huge selection of crafts. Attention to details Become the best builder, blacksmith, fisherman, healer, alchemist, baker, sailor, tanner, trader, farmer, jeweler and anything else. But getting the Master's Mark requires perseverance and knowledge. In Wild Terra, you cannot create equipment in one click. Pets Catch, tame and grow rare species of animals. As they level up, pets receive random bonuses. It will take luck or hard work to put together the perfect combination. Raids and Solo play Join groups, create guilds, or play solo. Hunt huge bosses and explore dark dungeons! Build, evolve and travel to PvP and PvE zones. Or you can challenge and go to mysterious continents with a variety of biomes, inhabitants and conditions, for example, to an Plague Island. Leveling and combat system Whatever you use, the skill level of that increases. The game has many non-combat and battle skills, a variety of melee and ranged weapons, each with its own active and passive abilities. There are no pre-selected classes in Wild Terra. What you have in your hands determines your role in combat. And thanks to the non-target combat system, your skill is as important as your equipment. Only your choice You decide whether to risk your loot or stay in safe zones. Also, in any dungeon, you can choose the difficulty from Easy to Nightmare. The rewards justify the risk, but the decision is yours!",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1134700/07763518d7a4ca5cd3ca53a670f955b90efeb333/header_alt_assets_5.jpg?t=1765908364",
         "genres": [
             "Action",
             "Indie",
@@ -992,7 +868,6 @@
         "is_multiplayer": true,
         "is_online": true,
         "is_dlc_or_addon": false,
-        "subreddit": "FreeGameFindings",
         "persian_summary": "نقش خود را در دنیای پر از زندگی قرون وسطایی که توسط بازیکنان کنترل می شود بازی کنید. MMORPG پر از جزئیات که غوطه وری منحصر به فرد و روح ماجراجویی را ایجاد می کند! انتخاب عظیمی از صنایع دستی. توجه به جزئیات بهترین سازنده، آهنگر، ماهیگیر، شفا دهنده، کیمیاگر، نانوا، ملوان، دباغ، تاجر، کشاورز، جواهرساز و هر چیز دیگری شوید. اما گرفتن نشان استاد مستلزم پشتکار و دانش است. در Wild Terra، شما نمی توانید تجهیزات را با یک کلیک ایجاد کنید. حیوانات خانگی گونه های کمیاب حیوانات را صید، اهلی و پرورش می دهند. با بالا رفتن سطح، حیوانات خانگی پاداش های تصادفی دریافت می کنند. برای کنار هم قرار دادن یک ترکیب عالی، شانس یا کار سخت می خواهد. بازی Raids و Solo به گروه ها بپیوندید، اصناف ایجاد کنید، یا انفرادی بازی کنید. رئیس های بزرگ را شکار کنید و سیاه چال های تاریک را کشف کنید! ساخت، تکامل و سفر به مناطق PvP و PvE. یا می توانید به قاره های اسرارآمیز با انواع بیوم ها، ساکنان و شرایط به چالش بکشید و به عنوان مثال به جزیره طاعون بروید. سیستم تسطیح و مبارزه هر چه که استفاده می کنید، سطح مهارت آن ..."
     },
     {
@@ -1012,7 +887,7 @@
         "title": "windows macos mobile the darkside detectiveca1699 free a pixel game in which you join the darkside division as they investigate the bizarre twin lakes",
         "store": "other",
         "url": "https://www.reddit.com/r/AppHookup/comments/1pe4tnm/windows_macos_mobile_the_darkside_detectiveca1699/",
-        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/368390/header.jpg?t=1751347179",
+        "image_url": "https://cdn2.unrealengine.com/the-darkside-detective-3-3840x2160-902dde55a55f.jpg",
         "description": "https://store.epicgames.com/en-US/p/the-darkside-detective-02fd5a https://store.epicgames.com/en-US/p/the-darkside-detective-ios-f97bd7 https://store.epicgames.com/en-US/p/the-darkside-detective-android-f088bb Grab your trench coat, tune your sixth sense and join the Darkside Division as they investigate the bizarre, the downright dangerous and the mildly confusing cases of Twin Lakes. submitted by /u/PM_ME_FREEGAMES [link] [comments]",
         "id_in_db": "t3_1pe4tnm",
         "subreddit": "AppHookup",
@@ -1020,6 +895,25 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "https://store.epicgames.com/en-US/p/the-darkside-detective-02fd5a https://store.epicgames.com/en-US/p/the-darkside-detective-ios-f97bd7 https://store.epicgames.com/en-US/p/the-darkside-detective-02fd5a حس ششم خود را داشته باشید و به بخش Darkside بپیوندید تا در مورد موارد عجیب و غریب، کاملا خطرناک و کمی گیج کننده دریاچه های دوقلو تحقیق کنند. ارسال شده توسط /u/PM_ME_FREEGAMES [پیوند] [نظر]"
+    },
+    {
+        "title": "winter sale a heros rest",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/2016080/A_Heros_Rest_An_RPG_Town_Simulator/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2592060/header.jpg?t=1741024405",
+        "description": "Step back in time and embark on a remarkable journey through the heart of Norman England, spanning over 250 years of fully realised Medieval English history. Begin your humble life as a lowly serf playing your own custom character. Armed with just an acre of land, a ramshackle cottage, and enough provisions to survive winter, your quest for prosperity begins. Guide your family through the Middle Ages, from one generation to the next. Each character boasts distinct personalities, needs, and skills, and it's your duty to oversee every facet of their lives, from their livelihoods to their social circles and even their daily sustenance. Every character possesses three defining traits—Mind, Body, and Spirit—that dictate their compatibility with others, preferred activities, and unlock unique event options. Choose wisely, as each trait brings both advantages and disadvantages, impacting their daily toil and needs. Keep your characters content and productive by attending to their essential needs: Satisfy their Taste with over 50 authentic medieval ingredients. Grant them Rest , allowing them precious respite from their laborious routines. Nurture their Faith through immersive Middle Ages church experiences. Foster their Social connections by participating in genuine medieval social gatherings and building lasting bonds with fellow villagers. Surviving in the Middle Ages demands a diverse skill set. Master the arts of Farming, Herbalism, Cooking, Husbandry, Carpentry, and Tailoring as you engage in the myriad tasks of a medieval peasant's life. From plowing fields to shearing sheep, there's always work to be done, though the season and the changing value of goods will keep you on your toes. While you focus on your family, the village thrives around you. Forge friendships, pursue romance, and interact with your neighbours. But beware, as rival families vie for elections and jury seats. Consider forging alliances to collectively prosper. Life as a peasant extends beyond the fields. Enhance your cottage and garden with handcrafted furniture that can elevate the value of your goods, whether for personal use or lucrative market sales. If space becomes a constraint, negotiate with your Lord for a larger cottage or garden to accommodate more furniture. Farming entails more than just crops—farm animals provide vital resources. Purchase and breed cows, horses, goats, sheep, pigs, and chickens, each with their own unique needs and benefits. Opt for the strength of an ox or the speed of a horse, or reap the rewards of wool from sheep and the fertiliser from pigs. Revive the age-old Hallmote tradition—an annual gathering of villagers to address legal disputes and elect local officials. Dive into the realm of politics, with rewards for winning elections and voting for allies. Your male family members might also be summoned for jury duty during village disputes. Negotiate your feudal dues and responsibilities with your Lord. From farmland to meadowland, your home to your garden, all aspects of your life are open to negotiation. As a serf, you'll toil on your Lord's demesne or face fees, but earning their respect could pave your path to freedom. Rise to a freeman status and expand your rights, from baking your own bread to hunting in the forests. Under The Yoke intricately replicates the medieval rights system. Immerse yourself in medieval England's vibrant tapestry through a dynamic event system, featuring hundreds of unique events that ensure every play-through remains fresh. From social intrigues to attending church, your choices shape your family's legacy throughout the ages. Experience history like never before as your characters respond to the pivotal events of their time. With our dynamic event system, we weave 250 years of history from 1085 to 1335 into your personal narrative, enabling you to walk in the shoes of the common man as the world evolves around you.",
+        "id_in_db": "t3_1pq4io9",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "50% off",
+        "steam_app_id": "2592060",
+        "genres": [
+            "Simulation"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "is_dlc_or_addon": false,
+        "persian_summary": "در زمان به عقب برگردید و سفری قابل توجه را در قلب نورمن انگلستان آغاز کنید که بیش از 250 سال از تاریخ کاملاً درک شده قرون وسطی انگلیس را در بر می گیرد. زندگی فروتنانه خود را به عنوان یک رعیت حقیر با بازی شخصیت سفارشی خود آغاز کنید. با داشتن تنها یک هکتار زمین، یک کلبه درهم و برهم، و آذوقه کافی برای زنده ماندن در زمستان، تلاش شما برای رفاه آغاز می شود. خانواده خود را در قرون وسطی از نسلی به نسل دیگر هدایت کنید. هر شخصیت دارای شخصیت‌ها، نیازها و مهارت‌های متمایز است و وظیفه شما این است که بر همه جنبه‌های زندگی آن‌ها نظارت داشته باشید، از معیشت آن‌ها گرفته تا حلقه‌های اجتماعی و حتی معاش روزانه‌شان. هر شخصیت دارای سه ویژگی تعیین کننده است - ذهن، بدن و روح - که سازگاری آنها با دیگران، فعالیت های ترجیحی و باز کردن گزینه های رویداد منحصر به فرد را دیکته می کند. عاقلانه انتخاب کنید، زیرا هر ویژگی مزایا و معایبی را به همراه دارد و بر زحمت و نیازهای روزانه آنها تأثیر می گذارد. کاراکترهای خود را با توجه به موارد ضروری آنها محتوا و سازنده نگه دارید..."
     },
     {
         "title": "world action rpg now you can take control of the action and be at the center of your own adventure in the wizarding world",
@@ -1044,27 +938,5 @@
         "age_rating": "This Game may contain content not appropriate for all ages, or may not be appropriate for viewing at work: Frequent Violence, Blood and Gore, Suggestive Themes, Strong Language, and Use of Alcohol.",
         "is_dlc_or_addon": false,
         "persian_summary": "در دنیایی وسیع و پر جنب و جوش، ادیسه ای را برای کشتی گمشده آغاز کنید: سرزمین های جدید را کاوش کنید، به دنبال گنج های گمشده بگردید و خود را در نبردهای اکشن هیجان انگیز آزمایش کنید. سبک مبارزه خود را با کلاس و کلاس پیشرفته خود تعریف کنید و مهارت ها، سلاح ها و تجهیزات خود را سفارشی کنید تا در مبارزه با انبوهی از دشمنان، رئیسان عظیم الجثه و نیروهای تاریکی که به دنبال قدرت آرک هستند، مهارت ها، سلاح ها و تجهیزات خود را به گونه ای سفارشی کنید که در این بازی RPG رایگان بازی کنید. جهانی پر از ماجرا را کشف کنید هفت قاره وسیع و متنوع و دریاهای بین آنها را کاوش کنید تا فرهنگ‌های پر جنب و جوش، جانوران عجیب و غریب و شگفت‌انگیز و تمام شگفتی‌های غیرمنتظره‌ای را که منتظر کشف هستند، بیابید. اسرار Arkesia را کشف کنید، قدرت خود را در نبردها و حملات ثابت کنید، با دیگر بازیکنان در PvP رقابت کنید، به جزایر دور سفر کنید تا به دنبال ثروت های پنهان باشید، با گروه های دشمنان و رئیس های عظیم در جهان باز روبرو شوید و موارد دیگر. Odyssey شما در انتظار ورود به نبرد و پیشرفت بسیار رضایت بخش به سبک ARPG در حین جستجو، حمله و ..."
-    },
-    {
-        "title": "x 3rd anniversary",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/4207960/STALCRAFT_X__3rd_Anniversary/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1611600/header.jpg?t=1763021605",
-        "description": "Are you ready to take command? Deploy into an authentic, expansive, and meticulously researched Cold War real-time strategy game with WARNO . As the spiritual successor to the acclaimed Wargame series, WARNO is the ultimate next-gen World War III battle simulator. Two years have passed since Gorbachev’s overthrow in a coup by hardline communists, and now, in the dark summer days of 1989, the Cold War finally turns hot. The armies of NATO and Warsaw Pact have deployed in a divided and tense Germany. Conflict is imminent. The only thing left is to wait for the inevitable Warning Order that will begin it all. War is coming home, commanders… WARNO - Warning Order - lets you command your customized battlegroup and lead hundreds of Cold War-era units to victory on dynamic, tactical battlefields. Choose between the arsenals of NATO or the Warsaw Pact, and fight across a multitude of solo and online modes against challenging AI or human opponents in massive 10v10 battles. Show your mettle as a strategic commander in the turn-based Army General campaigns depicting a devastating, techno-thrilling World War III in Western Europe. Take Command of Your Battlegroup The Cold War-era armed forces of six nations - aligned to NATO or Warsaw Pact - can be led into a hyper-detailed World War III: U.S., West Germany, United Kingdom, and France square off against the Soviet Union and East Germany. From conscripts and main battle tanks to mobile SAM systems, self-propelled artillery, scout helicopters, strike aircraft, and fast interceptors, each WARNO nation has its unique arsenal of vehicles, planes, and soldiers. More than 1000 different military units are featured, such as the mighty M1A1 Abrams , the British MCV-80 Warrior , French Gazelle scout helicopters, German Leopard tanks, Spetsnaz special forces, SU-25 Frogfoot , the East German KPz T-55AM2 or Mil Mi-24 Hind helicopter gunships. In the Armory, each unit can be inspected and compared in detail. An array of famous military formations and brigades, each with their unique identity, act as the parent division of your personal battlegroup. Use the units available, choose your economy of forces, and customize your troops in WARNO’s enhanced battlegroup building system. A New Dimension to War Experience 5 massive turn-based strategic Army General campaigns centered on the NATO’s CENTAG and Warsaw Pact’s Central Group of Forces area of responsibility in 1989, placing you right in the heart of the war near the infamous Fulda Gap. The Army General campaigns let you command hundreds of units and military formations, down to the platoon level, including the U.S. 11th Armored Cavalry Regiment and 3rd Armored Division, West German 5. Panzerdivision, Soviet 79th Guards Tank Division and 27th Guards Motor Rifle Division, and the East German 7. Panzerdivision. 8 scripted Operations will allow you to undertake daring tactical combat missions that tell captivating stories of an all-too-real conflict. Immerse Yourself Witness an ever-evolving battlefield that never looked more beautiful, from the detailed environments to the brutal destruction unleashed. The latest incarnation of Eugen’s proprietary engine simulates modern land and air combat in Western Europe to the fullest extent. The maps are rich with tactical options and objectives, from hills, small villages, dense forests, meandering rivers, bridges, and industrial zones to be captured. Be wary of ambushes or outflanking maneuvers as you continuously advance the dynamic frontline that contributes to a side’s victory or defeat. Lead your chosen battlegroup into battle as an expert commander, taking advantage of all the available tactical tools. Combat in WARNO is an all-encompassing contest of smarts, tactics, and mastery of your units. Combat Evolved Take to war across a wide variety of game modes, including stand-alone Skirmish missions playable in solo, cooperative, or multiplayer. Battle against an enhanced and challenging AI or pit your tactical prowess against other human players, in intense ranked 1v1, 2v2 to 4v4 team matches to all-encompassing 10v10 battles. Take advantage of a host of quality-of-life enhancements catering to new players and veterans of Eugen Systems’ previous titles. This includes issuing commands during pre-combat deployment, Rules of Engagements, AI-assisted Smart Orders, and much more.",
-        "id_in_db": "t3_1pj70de",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "1611600",
-        "genres": [
-            "Action",
-            "Indie",
-            "Simulation",
-            "Strategy"
-        ],
-        "is_multiplayer": true,
-        "is_online": true,
-        "is_dlc_or_addon": false,
-        "persian_summary": "آیا برای گرفتن فرمان آماده اید؟ با WARNO در یک بازی استراتژیک واقعی، گسترده و دقیق تحقیق شده در زمان واقعی جنگ سرد مستقر شوید. WARNO به عنوان جانشین معنوی سری تحسین‌شده Wargame، شبیه‌ساز نبرد نسل بعدی جنگ جهانی سوم است. دو سال از سرنگونی گورباچف ​​در یک کودتا توسط کمونیست های تندرو می گذرد و اکنون، در روزهای تاریک تابستان 1989، سرانجام جنگ سرد داغ شده است. ارتش های ناتو و پیمان ورشو در یک آلمان تقسیم شده و پرتنش مستقر شده اند. درگیری قریب الوقوع است. تنها چیزی که باقی می ماند این است که منتظر دستور هشدار اجتناب ناپذیر باشید که همه چیز را آغاز می کند. جنگ به خانه می آید، فرماندهان... WARNO - دستور هشدار - به شما امکان می دهد به گروه نبرد سفارشی شده خود فرمان دهید و صدها واحد از دوران جنگ سرد را به پیروزی در میدان های نبرد پویا و تاکتیکی هدایت کنید. از میان زرادخانه‌های ناتو یا پیمان ورشو یکی را انتخاب کنید و در بسیاری از حالت‌های انفرادی و آنلاین با هوش مصنوعی یا حریفان انسانی چالش برانگیز در نبردهای عظیم 10 در 10 مبارزه کنید. استعداد خود را به عنوان ..."
     }
 ]
