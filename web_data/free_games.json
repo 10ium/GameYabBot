@@ -1,5 +1,67 @@
 [
     {
+        "title": "adventure jam",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/3772820/Adventure__Jam/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3772820/3e3aa3770db7e096eb3a53a357c66b905be42421/header.jpg?t=1768783474",
+        "description": "About This Game Tell the story of a boy during World War II who breaks through the siege with strong willpower. No matter what kind of predicament he faces or where he finds himself, he firmly believes that as long as he moves towards the light and carries hope in his heart, he will find the strength to move forward. He searches for hope in adversity, persistence in the source of his dreams, and the driving force behind them. Adventure Jam is a Roguelike game, an adventure level-based game featuring TPS, and RPG elements. Pick up randomly-dropped weapons with random affixes. Fight your way to the final boss and escape or continue your run indefinitely to see just how long you can survive. Every level is random; each new restart is a brand-new experience. You will meet different heroes and experience new weapons, items, checkpoints, and unique combat rhythms throughout the game.",
+        "id_in_db": "t3_1qgom0m",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "90% off",
+        "steam_app_id": "3772820",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Indie",
+            "RPG",
+            "Early Access"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "is_dlc_or_addon": false,
+        "persian_summary": "درباره این بازی داستان پسری را در طول جنگ جهانی دوم تعریف کنید که با قدرت اراده قوی از محاصره عبور می کند. مهم نیست که با چه مخمصه‌ای روبرو می‌شود یا در کجا قرار می‌گیرد، اعتقاد راسخ دارد که تا زمانی که به سوی نور حرکت کند و امید را در دل خود حمل کند، قدرت حرکت به جلو را پیدا می‌کند. او به دنبال امید در سختی ها، پایداری در سرچشمه رویاهایش و نیروی محرکه پشت سر آنها می گردد. Adventure Jam یک بازی Roguelike است، یک بازی مبتنی بر سطح ماجراجویی با عناصر TPS و RPG. اسلحه هایی را که به طور تصادفی رها شده اند با الصاق تصادفی بردارید. راه خود را به سمت رئیس نهایی بجنگید و فرار کنید یا به دویدن خود به طور نامحدود ادامه دهید تا ببینید چقدر می توانید زنده بمانید. هر سطح تصادفی است. هر راه اندازی مجدد یک تجربه کاملاً جدید است. شما با قهرمانان مختلف ملاقات خواهید کرد و سلاح ها، آیتم ها، پست های بازرسی و ریتم های مبارزه منحصر به فرد را در طول بازی تجربه خواهید کرد."
+    },
+    {
+        "title": "apps binarynotes 099",
+        "store": "googleplay",
+        "url": "https://play.google.com/store/apps/details?id=com.jamesrussell.binarynotes",
+        "image_url": "https://external-preview.redd.it/Fbj2J9VPugkAWZWR_RdnbpTd_yVUpG4YwrFmBej3APk.png?width=320&crop=smart&auto=webp&s=bba54d29ee60d1c088dfcbc08592343560e39e66",
+        "description": "submitted by /u/Lohigno [link] [comments]",
+        "id_in_db": "t3_1qg8vqh",
+        "subreddit": "googleplaydeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/Lohigno [پیوند] [نظر]"
+    },
+    {
+        "title": "apps pixel watch face 149",
+        "store": "googleplay",
+        "url": "https://play.google.com/store/apps/details?id=com.watchfacestudio.awfpixelface",
+        "image_url": "https://external-preview.redd.it/xaK7KoHIGusa7xEsGvRl2Kgm2NWx_pjO--8YWFcNFkk.png?width=320&crop=smart&auto=webp&s=29f1356ce84dead39317f377ac8249de919c67e8",
+        "description": "submitted by /u/Lohigno [link] [comments]",
+        "id_in_db": "t3_1qg8tqx",
+        "subreddit": "googleplaydeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/Lohigno [پیوند] [نظر]"
+    },
+    {
+        "title": "apps snapcontacts 199",
+        "store": "googleplay",
+        "url": "https://www.reddit.com/r/googleplaydeals/comments/1qgqwh4/apps_snapcontacts_199_free/",
+        "image_url": "https://images.launchbox-app.com/659a62cb-f090-4bbe-839f-f03ddbb11c1d.jpg",
+        "description": "https://play.google.com/store/apps/details?id=com.snapcontact.app&pcampaignid=web_share submitted by /u/Sea_Membership3168 [link] [comments]",
+        "id_in_db": "t3_1qgqwh4",
+        "subreddit": "googleplaydeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "https://play.google.com/store/apps/details?id=com.snapcontact.app&pcampaignid=web_share ارسال شده توسط /u/Sea_Membership3168 [لینک] [نظرات]"
+    },
+    {
         "title": "arctico",
         "store": "steam",
         "url": "https://store.steampowered.com/app/325210/Arctico/",
@@ -138,7 +200,7 @@
         "title": "cassette beasts ca2299 free pokemon",
         "store": "epicgames",
         "url": "https://store.epicgames.com/en-US/p/cassette-beasts-32c8e0",
-        "image_url": "https://assetsio.gnwcdn.com/cassette-beasts-key-art.png?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+        "image_url": "https://www.ggrecon.com/media/2yffrzhc/cassette-beasts-key-art.png?width=1000&v=1dae2d9e3b63240&quality=60",
         "description": "submitted by /u/PM_ME_FREEGAMES [link] [comments]",
         "id_in_db": "t3_1px173l",
         "subreddit": "AppHookup",
@@ -172,21 +234,14 @@
         "title": "dark fantasy world of tragic heroes violent deaths and lovecraftian horror",
         "store": "epicgames",
         "url": "https://store.epicgames.com/en-US/p/skald-against-the-black-priory-cffcc0",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1069160/header.jpg?t=1766090307",
-        "description": "You drag yourself from the black tides, across the corpses of drowned men, and onto the unwelcoming, craggy shoreline. Gulls cry overhead and the stink of seaweed fills your nose. By some miracle you have made it to Idra. It will take all your skill to survive and unravel the eldritch mysteries of the Black Priory SKALD: Against the Black Priory is inspired by roleplaying games of yesteryear, combining modern design and compelling storytelling with authentic 8-bit looks and charms. Delve into a dark fantasy world, full of deadly creatures, tragic heroes, and lovecraftian horror for an epic retro-style adventure rich in exploration and tactical, turn-based combat. Do you have what it takes to lead a company of broken heroes from the tainted shores of Idra to the gates of the Black Priory - and beyond? Gather your party Lead a band of broken heroes through challenging turn-based combat scenarios as you cleave, blast or stealth your way through deadly enemies of all definitions. Equip your heroes using a modern inventory system, fulfil objectives through quest logs, read journals to discover hidden secrets. And if the action is still a bit too hot to handle, auto-resolve to bypass conflict entirely. Prepare thyself Set yourself up for the journey ahead by crafting and cooking from a slew of distinct recipes Choose your character, select their stats and build out a party from a series of diverse allies, each with their own skill-set, agenda and personality. Decide between a dozen classes and varied backgrounds, levelling up to 20 while customising your spells and equipment to suit your style. Venture Forth Set in an unforgiving world with lovecraftian horrors and choice-based dialogue, your story will take many unexpected twists and turns. Living life as a mercenary, you’ll need to roll the dice to determine whether you fall prey to certain peril or escape grave danger. Celebrate Yesteryear Uncover the grand schemes of the Gallian Empire and explore the vast expanse of Freymark and the Outer Isles. In SKALD: Against the Black Priory, you’ll experience this richly illustrated world of authentic pixel art, built from thousands of hand-drawn tiles and images using a palette inspired by the legendary Commodore 64 computer. Optional CRT filter for true retro aficionados also included. Mod Support Looking for more SKALD content to play? Players now have access to the SKALD Data Editing Tool (SKaDE) to create their own adventures and play all new ones at no extra cost. This custom-made modding tool is powered by Mod.io and gives you access to all of the assets in SKALD: Against The Black Priory. Where will your imagination take you?",
+        "image_url": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3798067435309023517",
+        "description": "submitted by /u/PM_ME_FREEGAMES [link] [comments]",
         "id_in_db": "t3_1pxurpo",
         "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "1069160",
-        "genres": [
-            "Indie",
-            "RPG"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "شما خود را از جزر و مد سیاه، از میان اجساد مردان غرق شده، و به خط ساحلی ناخوشایند و پرتگاه می کشانید. مرغان دریایی بالای سرتان گریه می کنند و بوی جلبک دریایی بینی شما را پر می کند. با معجزه ای به ایدرا رسیدی. زنده ماندن و کشف اسرار الدریچ Black Priory به تمام مهارت شما نیاز دارد. در یک دنیای فانتزی تاریک، پر از موجودات مرگبار، قهرمانان غم انگیز، و وحشت عاشقانه برای یک ماجراجویی حماسی به سبک یکپارچهسازی با سیستمعامل، سرشار از اکتشاف و نبردهای تاکتیکی و نوبتی شوید. آیا برای رهبری گروهی از قهرمانان شکسته از سواحل آلوده Idra به دروازه های Black Priory - و فراتر از آن چه نیاز دارید؟ مهمانی خود را جمع کنید گروهی از قهرمانان شکسته را از طریق سناریوهای مبارزه نوبتی چالش برانگیز رهبری کنید، همانطور که راه خود را از میان دشمنان مرگبار از همه تعاریف جدا می کنید، انفجار می دهید یا پنهان می کنید. تجهیز ..."
+        "persian_summary": "ارسال شده توسط /u/PM_ME_FREEGAMES [پیوند] [نظر]"
     },
     {
         "title": "dead standoff premium 249",
@@ -271,6 +326,19 @@
         "persian_summary": "ارسال شده توسط /u/etailmarket [لینک] [نظر]"
     },
     {
+        "title": "etailmarket the alters 40 off 2109",
+        "store": "other",
+        "url": "https://etail.market/the-alters-126",
+        "image_url": "https://external-preview.redd.it/1jbA4ZVfVznCMFoPdad8Wm-jeNZArRWGnb4iSqSg1TM.jpeg?width=640&crop=smart&auto=webp&s=16733e7243f83a5e39790e5dc98e0969c0088e21",
+        "description": "submitted by /u/etailmarket [link] [comments]",
+        "id_in_db": "t3_1qg3wh7",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "40% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/etailmarket [لینک] [نظر]"
+    },
+    {
         "title": "exiled giveaways and itchio mega threads",
         "store": "other",
         "url": "https://www.reddit.com/r/FreeGameFindings/comments/1qb23b9/exiled_giveaways_and_itchio_mega_threads/",
@@ -287,7 +355,7 @@
         "title": "free massive 3d tower defense game with 70 handcrafted maps 17 diverse heroes and 25 powerful monkey towers designed to give you hours and hours of gameplay",
         "store": "epicgames",
         "url": "https://store.epicgames.com/en-US/p/bloons-td-6-bf95a0",
-        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/960090/capsule_616x353.jpg?t=1761619015",
+        "image_url": "https://images.sftcdn.net/images/t_app-cover-s,f_auto/p/74097b5e-8f0a-4e66-b586-6e3474b70a66/3667625253/bloons-td-6-how-to-play-bloons-td-6-windows.jpg",
         "description": "submitted by /u/Singhvistaar [link] [comments]",
         "id_in_db": "t3_1q7hvyr",
         "subreddit": "AppHookup",
@@ -317,15 +385,15 @@
         "persian_summary": "No Man's Sky با الهام از ماجراجویی و تخیلی که ما از داستان های علمی-تخیلی کلاسیک دوست داریم، کهکشانی را برای کاوش در اختیار شما قرار می دهد، که مملو از سیارات منحصر به فرد و شکل های حیات، و خطر و عمل دائمی است. در No Man's Sky، هر ستاره نور خورشیدی دوردست است که هر کدام توسط سیاراتی مملو از حیات می چرخند و شما می توانید به هر یک از آنها که انتخاب می کنید بروید. از اعماق فضا به سطوح سیاره ای بدون صفحه نمایش بارگیری و بدون محدودیت پرواز کنید. در این جهان بی‌نهایت که به صورت رویه‌ای ایجاد شده است، مکان‌ها و موجوداتی را خواهید دید که هیچ بازیکن دیگری قبلاً ندیده‌اند - و شاید دیگر هرگز نخواهند دید. اکنون از جمله... با تمام به‌روزرسانی‌های اصلی از زمان راه‌اندازی بازی کنید: Foundation، Pathfinder، Atlas Rises، NEXT، The Abyss، Visions، به‌روزرسانی 2.0 BEYOND، Synthesis، Living Ship، Exo Mech، Desolation و به‌روزرسانی 3.0، ORIGINS، نسل بعدی، Companions، Expeditions، Frontanceila، Prispoints. (4.0)، فراکتال، رهگیر، پژواک، امگا، مداری، جهان ها قسمت اول (5.0)،..."
     },
     {
-        "title": "games buff knight",
+        "title": "games brain game",
         "store": "googleplay",
-        "url": "https://play.google.com/store/apps/details?id=com.buffstudio.onthehero",
-        "image_url": "https://external-preview.redd.it/UIC9OQT0M17RfsHaL66JjDsy67fp8dp3mKipiqndpxo.png?width=320&crop=smart&auto=webp&s=ad6d8d9620ddd366f0d95818610636c29d27ff94",
+        "url": "https://play.google.com/store/apps/details?id=com.games.bar10n.find5x",
+        "image_url": "https://external-preview.redd.it/ffj-UE8LJ3g_PDYCoTX3DntjKOGSzHaWU0g4vZDq0Ws.png?width=320&crop=smart&auto=webp&s=d62817098540e1186fd713bc300763af7aeb3a1e",
         "description": "submitted by /u/Lohigno [link] [comments]",
-        "id_in_db": "t3_1qatlp7",
+        "id_in_db": "t3_1qg8rvm",
         "subreddit": "googleplaydeals",
-        "is_free": false,
-        "discount_text": "Discount",
+        "is_free": true,
+        "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/Lohigno [پیوند] [نظر]"
     },
@@ -349,6 +417,19 @@
         "image_url": "https://external-preview.redd.it/kuYGnmGkq7UA5UAEtMesiRVf9c7VKbSXjLgQy2UpATc.png?width=320&crop=smart&auto=webp&s=f30eb8c4ff5d44a0cb571332e87db03314d2e02e",
         "description": "submitted by /u/Lohigno [link] [comments]",
         "id_in_db": "t3_1qbwrl8",
+        "subreddit": "googleplaydeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/Lohigno [پیوند] [نظر]"
+    },
+    {
+        "title": "games sand and water 499",
+        "store": "googleplay",
+        "url": "https://play.google.com/store/apps/details?id=com.unknownprojectx.sandnwater.r",
+        "image_url": "https://external-preview.redd.it/pN5mLC5MJLpAgFkT9SQEl7LfJlVPxalEGkDazZuVw94.png?width=320&crop=smart&auto=webp&s=728dd4ed2ed7102445bbe2e7bedefd9c1fe4f804",
+        "description": "submitted by /u/Lohigno [link] [comments]",
+        "id_in_db": "t3_1qg8uwu",
         "subreddit": "googleplaydeals",
         "is_free": true,
         "discount_text": "100% Off",
@@ -422,12 +503,12 @@
         "persian_summary": "بازی با ورق Rock-Paper-Scissors Roguelike – زمان توقف، احضار سونامی، شلیک با اسلحه های حباب دار، کارت های تغذیه برای تقلید، جمع آوری کارت های منفی کمیاب! 3 امتیاز برای برنده شدن در یک بازی. کارت ها را به جلو بکشید تا آنها را بازی کنید. -یک کارت در دست بگیرید تا اثرات آن را بخوانید. من این بازی را با Godot4 ساختم. اگر می‌خواهید الهام بگیرید، من مخزن کد را عمومی کردم، بنابراین می‌توانید کد را در پروژه‌های خود نگاه کنید یا دوباره از آن استفاده کنید. نام github من \"horridparlor\" و \"سخت‌ترین\" نام پروژه است. در README پیوندی به پوشه Google Drive با دارایی های بازی وجود دارد. من به عنوان وب سایت این بازی، گالری کارتی را که برای بازی در وب سایت خود ایجاد کردم، پیوند داده ام تا اساساً به عنوان پایگاه داده برای کارت ها استفاده شود. همچنین، دارای تصاویر با کیفیت بالا از کارت!"
     },
     {
-        "title": "icon packs purple",
+        "title": "icon packs iris light flat 3d icon pack 149",
         "store": "googleplay",
-        "url": "https://play.google.com/store/apps/details?id=com.panotogomo.purple",
-        "image_url": "https://external-preview.redd.it/uW-Ni4Fud00iM8cLa5XdYy2Ilx7OowpxIfbQhAenQfg.png?width=320&crop=smart&auto=webp&s=6840d8c6af762520963ea2075389fe03d8bdb166",
+        "url": "https://play.google.com/store/apps/details?id=com.creativepixels.irislight.iconpack.app",
+        "image_url": "https://external-preview.redd.it/UmzJVxa4K9VQO1ZCm1ZGWh7PzINq8Aq4ygCpHPrqmeo.png?width=320&crop=smart&auto=webp&s=27ce00e63288baa5df3fbe4ad5be3fc42a17d2d7",
         "description": "submitted by /u/Lohigno [link] [comments]",
-        "id_in_db": "t3_1qatkr6",
+        "id_in_db": "t3_1qg8sfe",
         "subreddit": "googleplaydeals",
         "is_free": true,
         "discount_text": "100% Off",
@@ -435,15 +516,16 @@
         "persian_summary": "ارسال شده توسط /u/Lohigno [پیوند] [نظر]"
     },
     {
-        "title": "Initial Drift Online",
-        "id_in_db": "initial-drift-online@1768328132",
-        "store": "other",
-        "url": "https://itad.link/019bb891-e674-716e-bc9c-0d2704c5752e/",
+        "title": "initial drift online",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1456200/Initial_Drift_Online/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1456200/header.jpg?t=1767030563",
+        "description": "Drift over some of Japan's most legendary mountain passes, compete against your friends or players from around the world in epic battles, make deliveries, buy new cars and set records in the world rankings! Initial Drift Online is a fully multiplayer game that aims to be the first MMO of its kind. No headache, just join a server and start playing straight away! The game has a semi-open world composed of 3 legendary locations : - The road to Irohazaka - Mt. Haruna - Mt. Akagi Earn money and experience by making deliveries! Buy new cars at the Irohazaka dealership and customize them at the garage! Compete against your friends or players from around the world in epic uphill and downhill battles! Set records to try to be among the champions in the global ranking! Two music playlists available: Eurobeat or Phonk. It's up to you to choose your style! Chat with all the players on your continent by opening the chat! A day / night cycle is present on each server and will radically change the atmosphere! Several camera angles are available. First or third person view, it's up to you! Realistic but dynamic physics for a gameplay as pleasant as possible! Will you manage to reach level 1000 and become a Drift King? Initial Drift Online will provide the player a unique experience of the most advanced Japanese drift RP in a fully multiplayer world! What are you waiting for to join the race?",
+        "id_in_db": "t3_1qby8mk",
+        "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
         "steam_app_id": "1456200",
-        "description": "Drift over some of Japan's most legendary mountain passes, compete against your friends or players from around the world in epic battles, make deliveries, buy new cars and set records in the world rankings! Initial Drift Online is a fully multiplayer game that aims to be the first MMO of its kind. No headache, just join a server and start playing straight away! The game has a semi-open world composed of 3 legendary locations : - The road to Irohazaka - Mt. Haruna - Mt. Akagi Earn money and experience by making deliveries! Buy new cars at the Irohazaka dealership and customize them at the garage! Compete against your friends or players from around the world in epic uphill and downhill battles! Set records to try to be among the champions in the global ranking! Two music playlists available: Eurobeat or Phonk. It's up to you to choose your style! Chat with all the players on your continent by opening the chat! A day / night cycle is present on each server and will radically change the atmosphere! Several camera angles are available. First or third person view, it's up to you! Realistic but dynamic physics for a gameplay as pleasant as possible! Will you manage to reach level 1000 and become a Drift King? Initial Drift Online will provide the player a unique experience of the most advanced Japanese drift RP in a fully multiplayer world! What are you waiting for to join the race?",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1456200/header.jpg?t=1767030563",
         "genres": [
             "Action",
             "Indie",
@@ -454,14 +536,13 @@
         "is_multiplayer": true,
         "is_online": false,
         "is_dlc_or_addon": false,
-        "subreddit": "FreeGameFindings",
         "persian_summary": "در برخی از افسانه‌ای‌ترین گذرگاه‌های کوهستانی ژاپن حرکت کنید، با دوستان یا بازیکنان خود از سراسر جهان در نبردهای حماسی رقابت کنید، تحویل بگیرید، ماشین‌های جدید بخرید و در رتبه‌بندی جهانی رکورد بزنید! Initial Drift Online یک بازی کاملا چند نفره است که قصد دارد اولین MMO در نوع خود باشد. بدون سردرد، فقط به یک سرور بپیوندید و بلافاصله شروع به بازی کنید! بازی دارای یک دنیای نیمه باز متشکل از 3 مکان افسانه ای است: - جاده ایروهازاکا - کوه هارونا - کوه آکاگی با تحویل گرفتن پول و تجربه کسب کنید! خودروهای جدید را در نمایندگی Irohazaka بخرید و آنها را در گاراژ سفارشی کنید! در نبردهای حماسی در سربالایی و سراشیبی با دوستان یا بازیکنان خود از سراسر جهان رقابت کنید! رکوردهایی را برای تلاش برای قرار گرفتن در بین قهرمانان رنکینگ جهانی ثبت کنید! دو لیست پخش موسیقی موجود است: Eurobeat یا Phonk. این به شما بستگی دارد که سبک خود را انتخاب کنید! با باز کردن چت با همه بازیکنان قاره خود چت کنید! یک چرخه روز / شب در هر سرور وجود دارد و به طور اساسی تغییر می کند ..."
     },
     {
         "title": "ios android dumb ways to die ca569 free save the beans from meeting their hilariously tragic fates",
         "store": "other",
         "url": "https://www.reddit.com/r/AppHookup/comments/1qdnrry/ios_android_dumb_ways_to_die_ca569_free_save_the/",
-        "image_url": "https://cdn2.unrealengine.com/dumb-ways-to-die-2-3840x2160-cb0ca8945390.jpg",
+        "image_url": "https://cdn1.epicgames.com/spt-assets/63dd97c2c58d47e195b51b2663337c9a/dumb-ways-to-die-kb6fr.png",
         "description": "https://store.epicgames.com/en-US/p/dumb-ways-to-die-android-625b0c https://store.epicgames.com/en-US/p/dumb-ways-to-die-ios-5f556d Keep your Beans alive for as long as you can in over 80 fast-paced and wildly dumb mini-games. Every round is a new chance to laugh, panic and test your reflexes. Collect all the quirky characters you know and love for your train station, dodge disasters, chase high scores and unlock the original music video that started it all! Download the game now, because one thing’s for sure… it’s going to be dumb! submitted by /u/PM_ME_FREEGAMES [link] [comments]",
         "id_in_db": "t3_1qdnrry",
         "subreddit": "AppHookup",
@@ -538,26 +619,23 @@
         "persian_summary": "Styx: Master of Shadows یک بازی نفوذی با عناصر RPG است که در یک دنیای فانتزی تاریک اتفاق می‌افتد، جایی که شما به‌عنوان استیکس، یک گابلین دو قرنی، دزدکی، دزدی و ترور می‌کنید. در اعماق برج رهاشده سرگیجه‌آور و چندلایه آکناش، جایی که انسان‌ها و الف‌ها از درخت جهانی محافظت می‌کنند، منبع کهربا - یک شیره طلایی قدرتمند و جادویی - فرصتی برای استیکس پنهان است تا منشأ واقعی خود را بفهمد ... و در عین حال ثروتی به دست آورد. در میان برج عظیم آکناش به ارتفاع مایل ها پرسه بزنید، ماموریت های مختلف (ترور، بازیابی اطلاعات و غیره) را انجام دهید و از شناسایی اجتناب کنید. در سایه پیشرفت کنید، اهداف خود را در نبرد نزدیک ترور کنید، یا \"حوادث\" را سازماندهی کنید. مکانیک های RPG به شما امکان می دهند مهارت های جدید قدرتمند، حرکات ویژه چشمگیر و تجهیزات بهینه شده را باز کنید. کهربا به شما قدرت های شگفت انگیزی مانند نامرئی، «دید کهربایی» و توانایی شبیه سازی خود را می دهد. سطوح را کاوش کنید تا هر بیت از اطلاعات را در مورد..."
     },
     {
-        "title": "netherworld covenant",
-        "store": "indiegala",
-        "url": "https://www.indiegala.com/store/game/netherworld-covenant/2735580",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2735580/0799cb20b36dd4f656ff12e51ff034ac8040b833/header.jpg?t=1765505656",
-        "description": "Netherworld Covenant is a dark fantasy 3D isometric action roguelike centered on precision combat and Soul Companion powers to deliver a hardcore, strategically rich experience. Control the survivor of a catastrophic disaster, wielding the Nether Lantern—a forbidden artifact bridging the mortal realm and the netherworld—to forge pacts with the souls of deceased allies. Venture into procedurally generated labyrinths to challenge corrupted heroes and demonic lords. A Complete Evolution! The Final Covenant Begins! The highlights of Official 1.0 Version comparing to the Early Access include: Expanded Class Depth: 5 new playable classes: Berserker, Mage, Hunter, Shield Guard, and Useless Person; 4 new weapons: Double-Bladed Axe, Staff, Bow, and Spear Comprehensive Gameplay Upgrades: 2 new game modes: Boss Rush and Chaos Mode; 2 new difficulty modes: Iron Crown Frenzy and Corruption Mode Complete Story Progression: Addition of Chapters 5 and 6, completing the ending animation System Overhaul & Massive Content Additions: Significant additions and restructuring of the Aura and Relic systems; Expanded variety of random events, accessories, and secondary weapons; Over 50 optimizations covering character mobility, resource allocation, and balance adjustments; 4 new character skins The Beauty of Precision Combat prioritizes tactical mastery over frenetic combos. Parry, dodge, and execute Ethereal Dash to evade attacks, then counter with lethal strikes. Every decision—timing, resource allocation, and positioning—deepens the strategic depth of encounters. Bound by Souls, Empowered by the Dead The Soul Companion system offers diverse combat strategies, featuring four distinct spectral allies: Swordsman, Ranger, Guardian, and Rogue. Harness their abilities to phase through obstacles, ambush foes from the netherworld, or evade fatal blows by shifting dimensions. Corrupted Legends Await Face bosses twisted by malevolent soul energy—fallen lords, once-noble knights, primordial demons, and entities lurking in the dimensional void. Sanctuary at the Edge of Realms At the borderland camp between worlds, gather spectral allies, forge weapons tainted with demonic blood, stockpile resources, and piece together the truth behind calamity through fragmented dialogues. Will you redeem your comrades’ souls or remain stuck between life and death? “The Torch’s light reveals no path to salvation, only the shadow of a gamble: as spectral forces tear through demonic throats, the wielder’s name may yet become another epitaph on the Covenant Stone.”",
-        "id_in_db": "t3_1qdhgjd",
+        "title": "neuroza",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/3582490/NEUROZA/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582490/9fd7382f4dac4fa150346b5f4d41b34cca8c16d7/header.jpg?t=1766224504",
+        "description": "Hello. Good news ̄̏͋̎̄̏͋̎ ̉̑̔͑̓̏̓̽̎͑̈́̄̏͋̎̚ ̉̑̔͑̓̏̓̽̎͑̈́̚ ̄̏͋̎̄̏͋̎ You are in the process of integrating your shadow. ̄̏͋̎̄̏͋̎ ̉̑̔͑̓̏̓̽̎͑̈́̄̏͋̎̚ ̉̑̔͑̓̏̓̽̎͑̈́̚ /̴̨̢̢̧̨̨̧̡̧̢̧̢̨̨̧̨̢̢̧̢̨̧̡̡̧̛̛̛͉̜̝̗̠̮͉̹͈̝̻̖̳̲͈̮̫͈͎̥̼̥̣̦͙͇͉͇͇̤̠̙̲̳̰͉͎̹̭͉̦̪̲̹̪͔̞̼͚̬̹̮̯̮̤͈͓̲̥̺̩̠̭̜̰͕̼̖̩͉͖̝͉̻̜̘̜͔̬͖̥̯͉͚͕̮̯̣̥̟̹̙̫͖̱̩̳͕̤̹̺̰͍͉̥̟̗͇̬͕̬̤̩͙̜̩͔̘͇͙̘̗͍̲̹̼̝̳̣͓̗͙̲̩̩̟̭̲̬͚͉̲͍̲͉͕̼̫̗͉͎̙̩͖̠̝̝̻͎̜͙͇͈̩̱͕̟͇͍̬̭̱͔̩̩̼̥̬̤̜͔̯͍͍̙͖̙͖͕͙̳̩̻͍̰̙͇̼̬͕̘̼̮̖̩̟̘̹̰̪̳̤̰̝̰̭̖̗̜͕͕̜̙̘͕̟͙̫̮͙̻̬͚̦̹̟̖̱̥̺̥̗̝̀̐̆̄̔́̈̍͊͋̏̏̈̌̃̓̎̊͐̄̇͊̀̃̊͐̽̋̉̿͐̑͗̆̂̈́̿͊̉̀̂̇̆́͐̑͊̎̿̂̐̔̍́̆̽̈́͐̓̊̅̂̎͌̽͂̔̾̆́̄̐̀͒̈͋͗̿͌̂̋̃̀̐̓̍̑̾͒͛̈́̽͌͂̌͗́̾̄̈́͗̂̆̏͒̽͛̐̂̀̋͗͂́͑̋̄̆̓̐̇̇̔̓̊͛̄̌̈́̊̈́͑̊̔̎̋̽́̆̈́̚͘͘͘̕̚̕̚͘̚͘͜͜͝͝͠͝͝͝͠͝͝͠͝͝͝͝͠͠͠͠ͅͅͅͅͅͅͅͅͅͅ Shadow integration may be accompanied by unpleasant sensations, such as anxiety, sleep disturbance, increased muscle tension, sleep paralysis, shortness of breath, heart palpitations. This process will be painful, but it can bear blissful fruit in the form of harmony of spirit, body and emotions - integration and merging of repressed parts of the whole, not accepted by the ego Ņ̴̣͕̻̤̣̞̝͑̾̉̄̃͊̀̚ͅĘ̵̢̺̞̱̙̔ͅǓ̶̢͚͕̙̙͕̙̻̖̥̗̗̦̾͆̄͋̉̈́͂̄̉̽̉̒̓R̸̨͈̝͇̰͇̺̼̙͕̄̇̃̈́͜͠Ǒ̸͔̳͇̏̽̽̒́̾Z̵̛͕͙͍͚̒̇̏̆̍̌̂̔̕Ȃ̶͇̱̫͌̌̑́̒̂́̑́̒̈͐͘͠ is a hidden object game. The player's task is to find things ̶̧̡̠̜̯̣͎̳̩͖̙͙̙͉̦͓̥̭̱̾̌̿̅́̿̌͑̏́̄̋̊̔̈́̋̔̾̄̀̿̓̀̿̚͘͘͠͠ ̵͎͎̮̣̳̓̃̆͗̆̄̋̇̅̍̌͘͝͝ ̵̧̛̛͍͉̗̞̮̺͚̦̹̟͓̝̗͎̲̣̬̻̒͊̿̋̋̆̍͊̄́͊͊͒̌̊́͋̎̊̓͂̒̏̎͐͗͗͘͠͝͠ ̶̧̡̠̜̯̣͎̳̩͖̙͙̙͉̦͓̥̭̱̾̌̿̅́̿̌͑̏́̄̋̊̔̈́̋̔̾̄̀̿̓̀̿̚͘͘͠͠ ̵͎͎̮̣̳̓̃̆͗̆̄̋̇̅̍̌͘͝͝ ̵̧̛̛͍͉̗̞̮̺͚̦̹̟͓̝̗͎̲̣̬̻̒͊̿̋̋̆̍͊̄́͊͊͒̌̊́͋̎̊̓͂̒̏̎͐͗͗͘͠͝͠ ̵̶̡̨̧̡̹̹͎͈̱̟̰̫̫͈͚̫̯͈̙̥̲̠̜̯̣͎̳̩͖̙͙̙͉̦͓̥̭̱̀̌͛̉̾͒̎̇̐̏̎̈̐͒̌́͐́̾̌̿̅́̿̌͑̏́̄̋̊̔̈́̋̔̾̄̀̿̓̀̿̚͘͘͜͠͠͠ͅ ̵͎͎̮̣̳̓̃̆͗̆̄̋̇̅̍̌͘͝͝ ̵̶̡̨̧̡̹̹͎͈̱̟̰̫̫͈͚̫̯͈̙̥̲̠̜̯̣͎̳̩͖̙͙̙͉̦͓̥̭̱̀̌͛̉̾͒̎̇̐̏̎̈̐͒̌́͐́̾̌̿̅́̿̌͑̏́̄̋̊̔̈́̋̔̾̄̀̿̓̀̿̚͘͘͜͠͠͠ͅ ̵͎͎̮̣̳̓̃̆͗̆̄̋̇̅̍̌͘͝͝ hidden on the map. The story is based on the motifs of depth psychology by Carl Gustaf Jung, ̶̧̡̠̜̯̣͎̳̩͖̙͙̙͉̦͓̥̭̱̾̌̿̅́̿̌͑̏́̄̋̊̔̈́̋̔̾̄̀̿̓̀̿̚͘͘͠͠ ̵͎͎̮̣̳̓̃̆͗̆̄̋̇̅̍̌͘͝͝ ̵̧̛̛͍͉̗̞̮̺͚̦̹̟͓̝̗͎̲̣̬̻̒͊̿̋̋̆̍͊̄́͊͊͒̌̊́͋̎̊̓͂̒̏̎͐͗͗͘͠͝͠ ̵̶̡̨̧̡̹̹͎͈̱̟̰̫̫͈͚̫̯͈̙̥̲̠̜̯̣͎̳̩͖̙͙̙͉̦͓̥̭̱̀̌͛̉̾͒̎̇̐̏̎̈̐͒̌́͐́̾̌̿̅́̿̌͑̏́̄̋̊̔̈́̋̔̾̄̀̿̓̀̿̚͘͘͜͠͠͠ͅ ̵͎͎̮̣̳̓̃̆͗̆̄̋̇̅̍̌͘͝͝ ̵̧̛̛͍͉̗̞̮̺͚̦̹̟͓̝̗͎̲̣̬̻̒͊̿̋̋̆̍͊̄́͊͊͒̌̊́͋̎̊̓͂̒̏̎͐͗͗͘͠͝͠ ̵̡̨̹̹͎͈̱̟̰̫̫͈͚̫̯͈̙̥̲̀̌͛̉̾͒̎̇̐̏̎̈̐͒̌́͐́͜͠ͅ especially the motif of the shadow and the unconscious, as well as neurotic disorders, but is presented in a pictorial and symbolic way. ̴̡̡̨̟͈̲͍̺̱̫̱͓̖̼͉̘̲̿͜ ̶̧̛̲̬̂̎͛͊̀̿̂̀̋͐̔̑͐̈́̍̈̈́̈́̄̚ ̸̧̨̣͕͙̱̱̊͆̈́͜ͅр̵̡̪͖͍͓̭̹͔̻̬͖̗̖̺̄̽͛ͅ ̄̏͋̎̄̏͋̎ ̉̑̔͑̓̏̓̽̎͑̈́̄̏͋̎̚ ̉̑̔͑̓̏̓̽̎͑̈́̚ ̄̏͋̎̄̏͋̎ ̉̑̔͑̓̏̓̽̎͑̈́̄̏͋̎̚ ̉̑̔͑̓̏̓̽̎͑̈́̚ ̄̏͋̎̄̏͋̎ ̉̑̔͑̓̏̓̽̎͑̈́̄̏͋̎̚ ̉̑̔͑̓̏̓̽̎͑̈́̚ ̴̡̡̨̟͈̲͍̺̱̫̱͓̖̼͉̘̲̿͜ ̶̧̛̲̬̂̎͛͊̀̿̂̀̋͐̔̑͐̈́̍̈̈́̈́̄̚ ̸̧̨̣͕͙̱̱̊͆̈́͜ͅр̵̴̡̡̡̨̪͖͍͓̭̹͔̻̬͖̗̖̺̟͈̲͍̺̱̫̱͓̖̼͉̘̲̄̽͛̿͜ͅ ̶̧̛̲̬̂̎͛͊̀̿̂̀̋͐̔̑͐̈́̍̈̈́̈́̄̚ ̸̧̨̣͕͙̱̱̊͆̈́͜ͅр̵̡̪͖͍͓̭̹͔̻̬͖̗̖̺̄̽͛ͅ The characteristic hand-drawn graphics, with a strong symbolic style, complement the overall impression and build the mood of the game world.",
+        "id_in_db": "t3_1qg653f",
         "subreddit": "GameDeals",
         "is_free": false,
-        "discount_text": "30% off",
-        "steam_app_id": "2735580",
+        "discount_text": "50% off",
+        "steam_app_id": "3582490",
         "genres": [
-            "Action",
-            "Adventure",
-            "Indie",
-            "RPG"
+            "Indie"
         ],
         "is_multiplayer": false,
         "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "Netherworld Covenant یک اکشن ایزومتریک سه بعدی فانتزی تاریک است که بر روی مبارزات دقیق و قدرت های Soul Companion متمرکز شده است تا تجربه ای هاردکور و استراتژیک غنی را ارائه دهد. بازمانده یک فاجعه فاجعه‌بار را کنترل کنید، با استفاده از فانوس زیرین - یک مصنوع ممنوعه که بین قلمرو فانی و جهان پایین پل می‌کند - تا با روح متحدان فوت شده پیمان ببندید. برای به چالش کشیدن قهرمانان فاسد و اربابان اهریمنی، وارد هزارتوهای ایجاد شده رویه شوید. یک تکامل کامل! میثاق نهایی آغاز می شود! نکات برجسته نسخه رسمی 1.0 در مقایسه با دسترسی زودهنگام عبارتند از: عمق کلاس گسترده: 5 کلاس جدید قابل بازی: Berserker، Mage، Hunter، Shield Guard و Person Useless. 4 اسلحه جدید: تبر دو تیغه، کارکنان، کمان و نیزه ارتقاء گیم پلی جامع: 2 حالت بازی جدید: Boss Rush و Chaos Mode. 2 حالت سختی جدید: Iron Crown Frenzy و Corruption Mode Progress Story کامل: اضافه شدن فصل های 5 و 6، تکمیل سیستم انیمیشن پایانی..."
+        "persian_summary": "سلام. خبرهای خوب ̄̏͋̎̄̏͋̎ ̉̑̔͑̓̏̓̽̎͑̈́̄̏͋̎̚ ̉̑̔͑̓̏̓̽̎͑̈́̚ ̄̏͋̎̄̏ در فرآیند ادغام شما در حال ادغام ̎ هستید. ̄̏͋̎̄̏͋̎ ̉̑̔͑̓̏̓̽̎͑̈́̄̏͋̎̚ ̉̑̔͑̓̏̓̽̎͑̈́̚ /̴̀̐̆̄̔́̈̍͊͋̏̏̈̌̓̎̊͐̄̇͊̀̃̊͐̽̋̉̿͐̑͗̆̂̈́̿͊̉̀̂̆́̚͘͝͝͝͝͝ ̛̝͕̝͕͐̑͊̎̿̂̐̔̍́̆̽̈́͐̓̊̅̂̎͌̽͂̔̾̆́̄̐̀͒̈͋͗̿͌̂̋̃̀̐̓̑̾͒͌͂̔̾̆́̄̐̀͒̈͋͗̿͌̂̋̃̀̐̓̑̾͒͛͘͘͘͘ ̛̛̈́̽͌͂̌͗́̾̄̈́͗̂̆̏͒̽͛̐̂̀̋͗͂́͑̋̄̆̓̐̇̇̔̓̊͛̄̌̈́̊́͑̆̏͒̽͛̐̂̀̋͗͂́͑̋̄̆̓̐̇̇̔̓̊͛̄̌̈́̊́͑̊̄̄̌̈́̊́͑̊̄͋͋͝ ̨̢̢̧͉̜̝̗̠̮͉̹͈̝̻̖̳̲͈̮̫͈͎̥̼̥̣̦͙͇͉͇͇̤̠̙̲̳̰͉͉̹͈̝̻̖̳̲͈̮̫͈͎̥̼̥̣̦͙͇͉͇͇̤̠̙̲̳̰͉͉͹̹̭͉̦ͲͲͲͲͲ ̨̨̧̡̼͚̬̹̮̯̮̤͈͓̲̥̺̩̠̭̜̰͕̼̖̩͉͖̝͉̻̜̘̜͔̬͖̥̯͉͹͕̮̯̣̥͵ ̧̢̧̢̨̨̧̨̤̹̺̰͍͉̥̟̗͇̬͕̬̤̩͙̜̩͔̘͇͙̘̗͍̲̹̼̝̳̣͓̗͙̩̩̩̟͕͕͕͕͙͙͕ ̢̢̧̢̨̲͉͕̼̫̗͉͎̙̩͖̠̝̝̻͎̜͙͈̩̱͕̟͇͍̬̭̱͔̩̩̼̥̬̤̜͔̯͖̠̠̝̝̻͎̜͙͈͈̩̱͕̟͇͍̬̭̱͔̩̩̼̥̬̤̜͔̯͖̠͖͖ ̧̡̡̧̻͍̰̙͇̼̬͕̘̼̮̖̩̟̘̹̰̪̳̤̰̝̰̭̖̗̜͕͕̜̙̘͕̟͙̫̝͙̻̬͖͕͵ ادغام سایه ممکن است با احساسات ناخوشایند مانند اضطراب، اختلال خواب، افزایش تنش عضلانی، فلج خواب، تنگی نفس، تپش قلب همراه باشد. این روند دردناک خواهد بود، اما می تواند ثمره سعادتمندانه ای را در قالب هماهنگی روح، بدن و عواطف به بار آورد - یکپارچگی و ادغام بخش های سرکوب شده کل، که توسط ایگو پذیرفته نشده است ..."
     },
     {
         "title": "other world of warships",
@@ -582,19 +660,6 @@
         "persian_summary": "War Thunder جامع‌ترین بازی نظامی رایگان، چند پلتفرمی و MMO است که به حمل و نقل هوایی، وسایل نقلیه زرهی، از اوایل قرن بیستم تا پیشرفته‌ترین واحدهای رزمی مدرن اختصاص یافته است. اکنون بپیوندید و در نبردهای بزرگ در زمین، هوا و دریا شرکت کنید و با میلیون ها بازیکن از سراسر جهان در محیطی همیشه در حال تکامل مبارزه کنید. در War Thunder، هواپیماها، هلیکوپترهای تهاجمی، نیروهای زمینی و کشتی های دریایی در نبردهای رقابتی واقع گرایانه با یکدیگر همکاری می کنند. شما می توانید از بین بیش از 2500 وسیله نقلیه و طیف گسترده ای از موقعیت های جنگی انتخاب کنید که بسیاری از آنها منحصر به فرد هستند. می‌توانید متوجه شوید که تعقیب‌کنندگان خود را از یک برجک بمب‌افکن منفجر می‌کنید، از هم تیمی‌های خود در زمین در برابر یک حمله هوایی با اسلحه‌های ضدهوایی دفاع می‌کنید، هواپیماهای دشمن را با طوفان آتش از پرتابگرهای موشکی متعدد ساقط می‌کنید، یا سعی می‌کنید یک کشتی جنگی دشمن را با یک اژدر از یک قایق حمله سریع غرق کنید. ویژگی ها عبارتند از: گیم پلی بدون درز کراس پلتفرم بین رایانه شخصی ویندوز، لینوکس، مک، پلی استیشن 4، ..."
     },
     {
-        "title": "playstation store monster jam showdown",
-        "store": "playstation",
-        "url": "https://store.playstation.com/en-us/product/UP1981-PPSA16160_00-MONSTERJAMGAME00/?emcid=pa-co-520650&gclsrc=aw.ds&gad_source=1&gad_campaignid=21552866546&gbraid=0AAAAADc1uAbzVPj5bIYYodJ2XqNW05Pnk&gclid=CjwKCAiAmp3LBhAkEiwAJM2JUNQSoPia2zmNxIWCqexJFomfSACQzftKlB8azKE7vn4XGlrpDj9xvBoC5EAQAvD_BwE",
-        "image_url": "https://image.api.playstation.com/vulcan/ap/rnd/202405/1614/20e63f339952bea4252c35293785152259fa732ec38bbd8c.jpg",
-        "description": "submitted by /u/Zyoneatslyons [link] [comments]",
-        "id_in_db": "t3_1qd9e5k",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "80% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/Zyoneatslyons [پیوند] [نظر]"
-    },
-    {
         "title": "playsum darkest dungeon 311 297 254 c405 a455 r999 with code cheers",
         "store": "other",
         "url": "https://store.playsum.live/product/51f5773d-7411-4ebc-a458-d8a74ef2707a/darkest-dungeon",
@@ -604,6 +669,19 @@
         "subreddit": "GameDeals",
         "is_free": false,
         "discount_text": "88% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/Lets_Playsum [لینک] [نظر]"
+    },
+    {
+        "title": "playsum pathologic 3 2442 2150 1863 c3239 a3638 r7179 with code cheers",
+        "store": "other",
+        "url": "https://store.playsum.live/product/0aa8aef9-499e-456c-b6e3-72a83afe2f30/pathologic-3",
+        "image_url": "https://external-preview.redd.it/HhXLteSB9uk8UxyzitI4gMITNFgtPVVkTiDCna7UqxU.jpeg?width=216&crop=smart&auto=webp&s=39aacd1ee4a1a907c14b5a8e259f9d02ab82acf9",
+        "description": "submitted by /u/Lets_Playsum [link] [comments]",
+        "id_in_db": "t3_1qgnrro",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "30% off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/Lets_Playsum [لینک] [نظر]"
     },
@@ -802,6 +880,29 @@
         "persian_summary": "ارسال شده توسط /u/LighteningOneIN [پیوند] [نظر]"
     },
     {
+        "title": "smart factory tycoon 1479 free tycoon management game about running your dream factory with robots",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1755300/Smart_Factory_Tycoon/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1810980/header.jpg?t=1766935533",
+        "description": "Smart Factory Tycoon is a tycoon management game about running your dream factory with robots. Design your dream factory, plan all steps of production, research new technologies and become a tycoon! Machines & Robots Purchase new machinery and unlock advanced machines to produce every type of products in the market Purchase new robots with varying colors and watch them coming to your factory by different transportation options: balloon, mine cart, boat, parachute, PWC or bus Use the skill points to level up your robots (Movement speed, processing speed, charge capacity, oil capacity) Purchase chargers, super chargers, wireless chargers, and lubricators for your robots rooms Upgrade your machines, solar panels, wind turbines, chargers and lubricators for faster production and increased efficiency Fully automated machine-maintenance by drones Production & Market Plan all steps of the production Purchase high quality raw material to produce healthy and durable products Analyze the market to be aware of trending products Check the general market categories (Basic-Medium-Master) and Special Orders Increase your health, durability and sustainability levels to be eligible for some products in the market Sustainability & Economy Purchase wind turbines and solar panels to reduce electricity costs and increase your sustainability Plant trees in your gardens to be a sustainable factory Earn more money and XP to take the first place in the leaderboard Do the math and be aware of your expenses! Don't go bankrupt! Invest & Research & Development Research new technologies to improve your factory Purchase new buildings and deliver your products by rail, sea, and air Build new rooms for robots and production Place your product zones and define their types as general or export Achieve milestones to earn more XP and level-up your factory",
+        "id_in_db": "t3_1qgacxb",
+        "subreddit": "AppHookup",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "1810980",
+        "genres": [
+            "Casual",
+            "Indie",
+            "Simulation",
+            "Strategy",
+            "Free To Play"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "is_dlc_or_addon": false,
+        "persian_summary": "Smart Factory Tycoon یک بازی مدیریت سرمایه دار در مورد راه اندازی کارخانه رویایی شما با روبات ها است. کارخانه رویایی خود را طراحی کنید، تمام مراحل تولید را برنامه ریزی کنید، در مورد فن آوری های جدید تحقیق کنید و یک سرمایه دار شوید! ماشین‌آلات و ربات‌ها ماشین‌آلات جدید بخرید و قفل ماشین‌های پیشرفته را باز کنید تا هر نوع محصولی را در بازار تولید کنید. ربات‌های جدید با رنگ‌های مختلف خریداری کنید و با گزینه‌های مختلف حمل‌ونقل به کارخانه‌تان می‌آیند: بالون، گاری معدن، قایق، چتر نجات، PWC یا اتوبوس از امتیازات مهارت برای ارتقای سطح ربات‌های خود استفاده کنید شارژرها و روان کننده ها برای اتاق روبات های خود دستگاه ها، پنل های خورشیدی، توربین های بادی، شارژرها و روان کننده ها را برای تولید سریعتر و افزایش راندمان ارتقا دهید. تعمیر و نگهداری ماشین کاملاً خودکار توسط هواپیماهای بدون سرنشین برنامه ریزی تولید و بازار تمام مراحل تولید خرید مواد اولیه با کیفیت بالا برای تولید محصولات سالم و بادوام تجزیه و تحلیل بازار..."
+    },
+    {
         "title": "stealth bastard deluxe bundle 149",
         "store": "steam",
         "url": "https://store.steampowered.com/developer/curvedigital/sale/curvenewyearsale2026",
@@ -847,6 +948,19 @@
         "is_online": false,
         "is_dlc_or_addon": false,
         "persian_summary": "اسپین آف حماسه تحسین شده Super Woden، ترکیبی از جوهر بازی کلاسیک با عمق زیاد و عشق واقعی به فرهنگ خودرو. رالی اج با شخصیتی منحصربه‌فرد شما را به دورانی برمی‌گرداند که سرگرمی فراتر از واقع‌گرایی است. ■ مثل همیشه، طیف گسترده ای از وسایل نقلیه: از کوچکترین و فروتن ترین تا ماشین های غیرقابل توقف Hillclimb. ■ یک سبک گرافیکی جدید و منحصر به فرد، که با دقت تا آخرین جزئیات ساخته شده است. ■ یک موسیقی متن اصلی که برای به تصویر کشیدن احساسات مسابقه رالی ایجاد شده است. ■ خودروهای خود را در گاراژ بخرید، بفروشید، ارتقا دهید و سفارشی کنید. ■ مهارت های عکاسی خود را در حالت عکس نشان دهید. ■ چند نفره محلی برای حداکثر 4 بازیکن در صفحه تقسیم شده. ■ زمان های خود را به صورت آنلاین ثبت کنید و برای شکست دادن رکوردهای بازیکنان دیگر رقابت کنید. حالا، دست و پنجه نرم کنید و آدرنالین را در هر نوبت احساس کنید."
+    },
+    {
+        "title": "the rogue prince of persia 50 off 1499",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/2717880/The_Rogue_Prince_of_Persia/",
+        "image_url": "https://external-preview.redd.it/qfPVWKbj77XS_h3qTYgNGEqlOKSY-4jIUAa4ROcnndE.jpeg?width=320&crop=smart&auto=webp&s=809b82581f6d4f3d941ae0478d1507ff057487f6",
+        "description": "submitted by /u/NrFive [link] [comments]",
+        "id_in_db": "t3_1qglyx9",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "50% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/NrFive [لینک] [نظر]"
     },
     {
         "title": "the world ends in ohio",
@@ -971,25 +1085,6 @@
         "persian_summary": "ارسال شده توسط /u/PM_ME_FREEGAMES [پیوند] [نظر]"
     },
     {
-        "title": "windows macos disco elysium ca4399 free youre a detective with a unique skill system at your disposal interrogate unforgettable characters crack murders or take bribes become a hero or an absolute disaster of a human being",
-        "store": "epicgames",
-        "url": "https://store.epicgames.com/en-US/p/disco-elysium",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/header.jpg?t=1766855203",
-        "description": "Disco Elysium - The Final Cut is the definitive edition of the groundbreaking role playing game. You’re a detective with a unique skill system at your disposal and a whole city block to carve your path across. Interrogate unforgettable characters, crack murders, or take bribes. Become a hero or an absolute disaster of a human being. Full voice acting. All of the city's beautiful people are brought to life with full English voiceover. Play characters against each other, try to help them, or fall hopelessly in love as each word is spoken to you with the appropriate accent and emotion. New political vision quests. Face the reality of your worldview as your political compass leads you down new paths. Discover more citizens, a whole extra area, and monumental sights as you leave an even bigger mark on the world by chasing your dreams. Unprecedented freedom of choice​. Intimidate, sweet-talk, resort to violence, write poetry, sing karaoke, dance like a beast, or solve the meaning of life. Disco Elysium - The Final Cut is the most faithful representation of desktop role playing ever attempted in video games. Countless tools for role playing. ​ Mix and match from 24 wildly different skills. Develop a personal style with over 80 clothing items. Wield 14 tools from guns to flashlights to a boombox, or pour yourself a cocktail of 6 different psychoactive substances. Develop your character even further with 60 wild ​thoughts ​to think – with the detective's Thought Cabinet. A revolutionary dialogue system with unforgettable characters. ​The world is alive with real people, not extras. Ask probing questions, make insightful observations, or express your wildest desires as you play cop or something completely different. Disco Elysium's revolutionary dialogue system lets you do almost anything. Carve your unique path across the city​. Explore, manipulate, collect tare, or become a millionaire in an open world unlike anything you've seen before. The city of Revachol is yours for the taking, one small piece at a time. From the streets to the beaches – and beyond. Hard boiled, hard core. ​Death, sex, taxes, and disco – nothing is off the table. Revachol is a real place with real challenges. Solve a massive murder investigation, or relax and kick back with sprawling side-cases. The detective decides, the citizens abide.",
-        "id_in_db": "t3_1pvgfmp",
-        "subreddit": "AppHookup",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "632470",
-        "genres": [
-            "RPG"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "Disco Elysium - The Final Cut نسخه قطعی بازی نقش آفرینی پیشگامانه است. شما یک کارآگاه هستید با یک سیستم مهارت منحصربفرد در اختیار شما و یک بلوک کامل شهر برای ایجاد مسیر خود در سراسر آن. بازجویی از شخصیت‌های فراموش نشدنی، قتل‌ها یا گرفتن رشوه. تبدیل به یک قهرمان یا یک فاجعه مطلق یک انسان شوید. صداپیشگی کامل همه مردم زیبای شهر با صدای کامل انگلیسی زنده می شوند. شخصیت ها را در برابر یکدیگر بازی کنید، سعی کنید به آنها کمک کنید یا ناامیدانه عاشق شوید زیرا هر کلمه با لهجه و احساسات مناسب برای شما صحبت می شود. جست و جوهای بینش سیاسی جدید با واقعیت جهان بینی خود روبرو شوید زیرا قطب نما سیاسی شما را به مسیرهای جدیدی هدایت می کند. با تعقیب رویاهای خود، شهروندان بیشتری، یک منطقه اضافی و مناظر تاریخی را کشف کنید. آزادی انتخاب بی سابقه بترسانید، شیرین صحبت کنید، به خشونت متوسل شوید، شعر بنویسید، کارائوکه بخوانید، مانند یک جانور برقصید، یا معنای زندگی را حل کنید..."
-    },
-    {
         "title": "witchy and the puzzle adventures",
         "store": "indiegala",
         "url": "https://freebies.indiegala.com/witchy-and-the-puzzle-adventures",
@@ -1033,7 +1128,7 @@
         "title": "xbox steel duel tanks",
         "store": "xbox",
         "url": "https://www.xbox.com/en-us/games/store/steel-duel-tanks-multiplayer-tank-combat/9n87b4cmzgmn",
-        "image_url": "https://media.indiedb.com/images/games/1/90/89765/Screenshot_55.png",
+        "image_url": "https://store-images.s-microsoft.com/image/apps.21747.14054559211546505.d144e032-1ca6-48c9-abdb-ea145321960d.0176c353-d71c-4b80-83aa-06711e475829?q=90&w=320&h=180",
         "description": "submitted by /u/Slippy2k [link] [comments]",
         "id_in_db": "t3_1q5l05h",
         "subreddit": "FreeGameFindings",
