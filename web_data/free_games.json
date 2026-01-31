@@ -1,22 +1,9 @@
 [
     {
-        "title": "a normal lost phone",
-        "store": "iosappstore",
-        "url": "https://apps.apple.com/us/app/a-normal-lost-phone/id1181828672",
-        "id_in_db": "685ffb7f27321dd30e25d22c64612c7d7e519778736889c2237b3dbd47d13804",
-        "subreddit": "AppHookup",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/50/dc/8f/50dc8f14-6929-ab3c-b4ce-40faf1db9f55/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-        "is_dlc_or_addon": false,
-        "persian_summary": "",
-        "description": ""
-    },
-    {
         "title": "allyouplay cairn 2695 224 2695 eu uk us",
         "store": "other",
         "url": "https://www.allyouplay.com/pc/cairn",
-        "image_url": "https://i.ytimg.com/vi/4f1hXfLR6xs/maxresdefault.jpg",
+        "image_url": "https://external-preview.redd.it/allyouplay-disney-dreamlight-valley-26-99-22-60-26-99-33-v0-oZBxuwsl1Ax9eU8BxVrqkgf76MfypFL5v6nwrtqD1R4.jpg?width=640&crop=smart&auto=webp&s=08e834c484b7d31b2d1632b896448517dbdefc3e",
         "description": "submitted by /u/AllYouPlay [link] [comments]",
         "id_in_db": "t3_1qqfjkw",
         "subreddit": "GameDeals",
@@ -56,19 +43,6 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "پیشنهاد زمان محدود (6 روز) ارسال شده توسط /u/Manosai [لینک] [نظرات]"
-    },
-    {
-        "title": "another lost phone",
-        "store": "iosappstore",
-        "url": "https://apps.apple.com/us/app/another-lost-phone/id1267197755",
-        "id_in_db": "cd603494238c6f3dd61662514ef6778eb5fa40c1e4ec54bb8f634b020485e84c",
-        "subreddit": "AppHookup",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/e9/6e/04/e96e046e-1809-1322-2f33-8f3b2d3cd931/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-        "is_dlc_or_addon": false,
-        "persian_summary": "",
-        "description": ""
     },
     {
         "title": "apps blend photos",
@@ -149,29 +123,6 @@
         "persian_summary": "ارسال شده توسط /u/ac_del [لینک] [نظر]"
     },
     {
-        "title": "battle simulator",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/2623090/Battle_Simulator_Counter_Stickman/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/879670/header.jpg?t=1757871783",
-        "description": "Please consider buying only if you wish to support the development of Battle Simulator. You should wait before buying if you want to play a game with more content. Soldier to the assault! Deploy your troops and destroy the enemy army! Choose the right units and strategically place them to defeat your enemy! You will have the choice between 3 units: Barbarian, Lancer, Archer! Cross 2 different biomes in 30 unique levels! May the best army win! \"War is like hunting, except that rabbits shoot at war\" Features: ► Nice poly decorations! ► 3 different troops available! ► 2 different biomes! ► 30 levels! ► Play against AI! ► Good gameplay! ► Easy to take in hand! ► Nice medieval music!",
-        "id_in_db": "t3_1qhbis0",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "879670",
-        "genres": [
-            "Action",
-            "Casual",
-            "Indie",
-            "Simulation",
-            "Strategy"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "لطفاً فقط در صورتی که می خواهید از توسعه Battle Simulator حمایت کنید، خرید کنید. اگر می خواهید یک بازی با محتوای بیشتر بازی کنید، قبل از خرید باید منتظر بمانید. سرباز به حمله! نیروهای خود را مستقر کنید و ارتش دشمن را نابود کنید! واحدهای مناسب را انتخاب کنید و به صورت استراتژیک آنها را برای شکست دادن دشمن خود قرار دهید! شما بین 3 واحد انتخاب خواهید داشت: Barbarian، Lancer، Archer! از 2 بیوم مختلف در 30 سطح منحصر به فرد عبور کنید! باشد که بهترین ارتش پیروز شود! \"جنگ مانند شکار است، با این تفاوت که خرگوش ها در جنگ شلیک می کنند\" ویژگی ها: ► تزئینات پلی زیبا! ► 3 سرباز مختلف در دسترس است! ► 2 بیوم مختلف! ► 30 سطح! ► در برابر هوش مصنوعی بازی کنید! ► گیم پلی خوب! ► راحت در دست گرفتن! ► موسیقی زیبای قرون وسطایی!"
-    },
-    {
         "title": "bit game pack",
         "store": "steam",
         "url": "https://store.steampowered.com/app/257910/Z3TA_2__Polybius_8bit_Game_Pack/",
@@ -224,6 +175,26 @@
         "discount_text": "39% off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/Lets_Playsum [لینک] [نظر]"
+    },
+    {
+        "title": "callus",
+        "store": "itch.io",
+        "url": "https://emika-games.itch.io/callus",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4258330/6bdf7e7240b40e22c54c407ebe860b7397c53fd8/header.jpg?t=1769749127",
+        "description": "In a mother’s embrace. What does it mean to be bound to another person? Is it love, an emotional connection, a desire to stay close? But what if these feelings are distorted? What if attachment becomes a form of violence? Callus is a short psychological horror walking simulator. Average playtime: 30 minutes Returning to his mother’s apartment, he is briefly pulled back into the past. Every corner of the place reminds him of his childhood. You might call them warm memories… perhaps. But not for him. Callus is a story about coldness, overprotection, and indifference. It can turn your soul inside out and crawl under your skin, leaving a lasting mark. Or it may simply pass you by. It all depends on where you choose to look… and what you are willing to see. Game Features: Walking simulator Short playtime Realistic gameplay No AI used",
+        "id_in_db": "t3_1qrbdka",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "4258330",
+        "genres": [
+            "Indie",
+            "Simulation"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "is_dlc_or_addon": false,
+        "persian_summary": "در آغوش مادر مقید بودن به شخص دیگری به چه معناست؟ آیا این عشق، یک ارتباط عاطفی، میل به نزدیک ماندن است؟ اما اگر این احساسات تحریف شوند چه؟ اگر دلبستگی به نوعی خشونت تبدیل شود چه؟ Callus یک شبیه‌ساز راه رفتن ترسناک روان‌شناختی کوتاه است. میانگین زمان بازی: 30 دقیقه با بازگشت به آپارتمان مادرش، برای مدت کوتاهی به گذشته کشیده می شود. هر گوشه از این مکان او را به یاد دوران کودکی اش می اندازد. شما ممکن است آنها را خاطرات گرم بنامید ... شاید. اما نه برای او. کالوس داستانی درباره سردی، محافظت بیش از حد و بی تفاوتی است. می تواند روح شما را به درون برگرداند و زیر پوست شما بخزد و اثری ماندگار از خود به جای بگذارد. یا ممکن است به سادگی از کنار شما بگذرد. همه چیز به این بستگی دارد که شما انتخاب می کنید کجا نگاه کنید... و چه چیزی را می خواهید ببینید. ویژگی های بازی: شبیه ساز راه رفتن زمان بازی کوتاه گیم پلی واقعی و بدون هوش مصنوعی"
     },
     {
         "title": "choo choo survivor choo choo survivor 2 peacequarium guild commander home by the river weekend drive model city",
@@ -281,26 +252,24 @@
         "persian_summary": "نیروهای ترور stickmen باید با یک حمله تاکتیکی متوقف شوند! شما فرمانده نبرد نیروهای ضد تروریست استیکمن (CTS) هستید. ▶شبیه ساز نبرد - سبک گیم پلی ▶ استیکمن های سه بعدی، سطوح و مدل های تفنگ ▶به پیروزی در جنگ استیکمن کمک کنید... در ترور! ▶ تاکتیک های stickman دقیق"
     },
     {
-        "title": "crown champion",
+        "title": "cube foundry",
         "store": "steam",
-        "url": "https://store.steampowered.com/app/527710/Crown_Champion_Legends_of_the_Arena/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/527710/header.jpg?t=1768832289",
-        "description": "From the creators of Rhe Deed and The Deed Dynasty and the Space Pilgrim Saga comes a fantasy RPG/Management simulator set in the ruthless world of gladiatorial combat. In Crown Champion: Legends of the Arena you are not a hero, a noble ruler, or even a combatant. Instead, you are the new owner of a team of fighting slaves, one of the many factions who compete for the adoration of the common people in the ancient storied arenas of the Crownlands. Your task will be to oversee the training of your fighters and build your estate into an effective school of combat, all while trying to enhance your personal reputation and standing among the nobles of the realm. This is an expensive business, and the king demands his taxes - so you must make sure to manage your treasury with care and attention. Glory awaits those with a bold heart and a steadfast mind, as well as a place for their faction among the legends of the arena ... Features Inherit a dilapidated estate and a couple of fledgling fighters, and then over time develop it into a prestigious academy for your team of fighting slaves. Restore the ruined buildings and hire new staff to serve your every need, from doctors and trainers to cooks and scribes. Progress through twelve arenas and dozens of opponents to reach the royal arena in the city of Aldmoor, where your slaves will fight for the glory of the king and queen. Develop relationships with whichever fighters you choose to acquire from the slave ship, each of whom comes with a unique personality and a fully fleshed-out backstory. Train your fighters and purchase new and stronger equipment as your fortunes increase, progressing through shortswords and basic leather coverings to halberds and full plate armour. As your reputation grows you can also choose to become engaged with the turbulent politics of the realm, following a series of 'choice and consequence' based storylines and meeting many important characters along the way. And of course, you must have a life outside of the arena. Find a husband or wife to share in your glory. Build stables and start keeping a team of racing horses to bring more money into your household. Forge a legacy to last the ages.",
-        "id_in_db": "t3_1qhbih0",
+        "url": "https://store.steampowered.com/app/3722890/Cube_Foundry/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722890/099fc2f8333438d0fa39ce2c464fc7d0df8f958c/header.jpg?t=1769833330",
+        "description": "Dive into Cube Foundry , a captivating incremental game where every click counts! Starting from a single cube, expand your production to create an industrial empire. Unlock powerful generators, purchase strategic upgrades, and ascend through Mastery levels to dominate the cube universe. Simple to learn, incredibly satisfying to master! 🏗️ From Humble Clicks to Intergalactic Industry Your journey begins with a single, mysterious Central Cube . Each click generates valuable resources — the first sparks of your future empire. But this is just the beginning. Use your earnings to unlock a wide array of automated generators , each more advanced and efficient than the last. From the basic Mini Assembler to the awe-inspiring Dimensional Replicator , every machine helps you scale your cube production to astronomical levels. ⚙️ Optimize. Specialize. Evolve. In the Upgrades Panel , build a production strategy that matches your style: Increase your Click Power (CPC) Amplify specific generators or overall CPS Unlock special upgrades that merge active and passive income Progression unfolds through branching upgrade trees — choose your focus: clicks, early economy, or advanced automation. Every upgrade has prerequisites, encouraging long-term planning and specialization. 🔁 Prestige & Purpose: Reset to Rise Once your production reaches astronomical levels , it's time to reset — and evolve. Through the Prestige System , sacrifice short-term progress to gain Prestige Points (PP) and unlock permanent upgrades : Boost CPC and CPS multipliers Start future runs with pre-built advantages Climb faster, stronger, and smarter with every loop 🧠 Master the Foundry The deeper your cube journey, the more you unlock the Mastery System — a powerful metagame with two layers: 🎓 Mastery Levels grant permanent passive bonuses and Mastery Points (MP) 🔧 Mastery Attributes (Power, Efficiency, Economy, Prestige, Fortune) let you shape your factory’s strengths, with scaling costs that reward specialization and smart allocation. 🏆 Achievements & Secrets Await Track your milestones — or stumble upon hidden ones. Whether it's your total clicks, mastery levels, or how many times you've prestiged, Achievements offer permanent rewards and secret bonuses for the most dedicated players.",
+        "id_in_db": "t3_1qr8ge1",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "527710",
+        "steam_app_id": "3722890",
         "genres": [
-            "Action",
-            "Adventure",
-            "Indie",
-            "RPG"
+            "Casual",
+            "Indie"
         ],
         "is_multiplayer": false,
         "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "از سازندگان Rhe Deed و The Deed Dynasty و Space Pilgrim Saga یک شبیه‌ساز RPG/Management فانتزی که در دنیای بی‌رحمانه نبرد گلادیاتورها جریان دارد، ارائه می‌شود. در Crown Champion: Legends of the Arena شما یک قهرمان، یک حاکم نجیب یا حتی یک مبارز نیستید. در عوض، شما مالک جدید تیمی از بردگان جنگنده هستید، یکی از گروه‌هایی که برای ستایش مردم عادی در عرصه‌های تاریخی باستانی کراونلند رقابت می‌کنند. وظیفه شما این خواهد بود که بر آموزش مبارزان خود نظارت کنید و املاک خود را به یک مدرسه رزمی مؤثر بسازید، در حالی که سعی می کنید شهرت شخصی خود را افزایش دهید و در میان اشراف این قلمرو قرار بگیرید. این یک تجارت گران است و پادشاه مالیات خود را مطالبه می کند - بنابراین باید مطمئن شوید که خزانه خود را با دقت و توجه مدیریت می کنید. شکوه در انتظار کسانی است که قلبی جسور و ذهنی استوار دارند و همچنین جایی برای جناح آنها در میان افسانه های عرصه ... ویژگی ها یک املاک ویران و یک زن و شوهر نوپا را به ارث می برند..."
+        "persian_summary": "شیرجه رفتن به Cube Foundry، یک بازی افزایشی فریبنده که در آن هر کلیک مهم است! با شروع از یک مکعب واحد، تولید خود را برای ایجاد یک امپراتوری صنعتی گسترش دهید. ژنراتورهای قدرتمند را باز کنید، ارتقاهای استراتژیک بخرید و از سطوح تسلط بالا بروید تا بر جهان مکعب تسلط پیدا کنید. ساده برای یادگیری، فوق العاده رضایت بخش برای استاد! 🏗️ از کلیک های فروتن تا صنعت بین کهکشانی سفر شما با یک مکعب مرکزی مرموز آغاز می شود. هر کلیک منابع ارزشمندی تولید می کند - اولین جرقه های امپراتوری آینده شما. اما این تازه آغاز راه است. از درآمد خود استفاده کنید تا قفل مجموعه وسیعی از ژنراتورهای خودکار را باز کنید که هر کدام پیشرفته‌تر و کارآمدتر از گذشته هستند. از Mini Assembler پایه گرفته تا Replicator Dimensional الهام‌بخش، هر دستگاهی به شما کمک می‌کند تولید مکعب خود را به سطوح نجومی افزایش دهید. ⚙️ بهینه سازی کنید. تخصصی شدن تکامل یابد. در پانل ارتقا، یک استراتژی تولید بسازید که با سبک شما مطابقت داشته باشد: قدرت کلیک (CPC) خود را افزایش دهید ژنراتورهای خاص را تقویت کنید یا..."
     },
     {
         "title": "Cursedland",
@@ -361,7 +330,7 @@
         "title": "definitely not fried chicken ca2899 free a business management sim with a twist build legitimate fronts whilst managing an illicit empire",
         "store": "epicgames",
         "url": "https://store.epicgames.com/en-US/p/definitely-not-fried-chicken-a30160",
-        "image_url": "https://fanatical.imgix.net/product/original/17f7f7ec-a617-42b7-8db2-32bf0a8a16d9.jpeg?auto=compress,format&w=870&fit=crop&h=489",
+        "image_url": "https://i0.wp.com/kyberscorner.com/wp-content/uploads/2026/01/Definitely-Not-Fried-Chicken.jpg?fit=1200%2C675&ssl=1&w=640",
         "description": "submitted by /u/PM_ME_FREEGAMES [link] [comments]",
         "id_in_db": "t3_1qqchfo",
         "subreddit": "GameDeals",
@@ -395,6 +364,26 @@
         "persian_summary": "سفری به شهر دولوک را آغاز کنید - واحه ای پسا آخرالزمانی پر از خرابه های متروکه، معماری منحصر به فرد و افراد مختلف. این سرزمین خالی را احیا کنید و با شهرک ها آشنا شوید. با کاوش عمیق تر در این قلمرو مرموز و در عین حال جذاب، رشد کنید و سرنوشت خود را کشف کنید! منابع را جمع آوری کنید تا مزرعه خود را از پایه بسازید! به عنوان یک کشاورز، شما به محصولات کشاورزی، ساخت و ساز، صنایع دستی، آشپزی، خط تولید و بسیاری موارد دیگر رسیدگی خواهید کرد. ساختمان های جذاب بسازید، خانه خود را ارتقا دهید، و ابزارهای دستی را بسازید تا زمین آرام خود را به پناهگاه روستایی پررونق تبدیل کنید! پرورش حیوانات در خشکی و آب! حیوانات خود را پرورش دهید، زیستگاه آنها را حفظ کنید و فضل آنها را جمع آوری کنید. مواد خام را به کالاهای دست‌ساز تبدیل کنید، دودمان‌های جدید را پرورش دهید و خود را به‌عنوان برترین دامدار روز قیامت معرفی کنید. کاوش در این قلمرو ناشناخته، با دره پیچیده، تالاب های خائنانه، و خرابه های متروکه در انتظار شماست. در جستجوی آثار مخفی، گنجینه ها و موارد دیگر، بیابان وسیع و دست نخورده را جستجو کنید! در..."
     },
     {
+        "title": "dont stop girlypop",
+        "store": "indiegala",
+        "url": "https://www.indiegala.com/store/game/dont-stop-girlypop/2610650",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2610650/c51ea16bebef6f0f679ac2482559542f1db738a0/header.jpg?t=1769704644",
+        "description": "❤ The faster you go, the more damage you deal and the more you heal! DSG combines the riotous fun of boomer shooter mechanics with advanced contemporary movement abilities. ❤ Wave hopping combines the feeling of a classic bunny hop with modern ground slam, dash and double jump mechanics to fling you into a fast, fluid and precise flow state. ❤ Unleash the horrors <3 Guns with alt-fires combine symbiotically with each other to create magical moments of complex interplay ❤ Master a deep and dynamic combat system to generate high Love scores and become the Cupid of death! ❤ Destroy shareholder value! Mining corp Tigris Nix wants to drain your world of The Love , a natural force keeping your planet alive. Lay waste to its robot drones to heal the Oasis ! ❤ Kill ‘em with kindness! Every point of damage dealt against a robot is one piece of The Love released back into the environment and one step closer to the end of Tigris Nix. ❤ Dazzle your enemies by decorating your arms and guns with fabrics and ornaments. Add butterflies to your barrel, paint yourself in pink chrome, and – yes – dominate the battlefield in a quintuple-denim masterpiece.",
+        "id_in_db": "t3_1qrfyx4",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "20% off",
+        "steam_app_id": "2610650",
+        "genres": [
+            "Action",
+            "Adventure"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "is_dlc_or_addon": false,
+        "persian_summary": "❤ هر چه سریعتر بروید، آسیب بیشتری وارد می کنید و بیشتر بهبود می یابند! DSG سرگرمی آشفته مکانیک های تیراندازی بومر را با توانایی های حرکتی پیشرفته معاصر ترکیب می کند. ❤ پرش موجی، حس یک پرش اسم حیوان دست اموز کلاسیک را با مکانیک های مدرن زمینی اسلم، داش و پرش دوبل ترکیب می کند تا شما را به حالت جریان سریع، روان و دقیق برساند. ❤ رها کردن وحشت <3 اسلحه با آتش آلت به طور همزیستی با یکدیگر ترکیب می شوند تا لحظات جادویی از تعامل پیچیده ایجاد کنند ❤ بر یک سیستم رزمی عمیق و پویا مسلط شوید تا نمرات عشق بالایی ایجاد کنید و تبدیل به کوپید مرگ شوید! ❤ ارزش سهامداران را از بین ببرید! شرکت ماینینگ دجله نیکس می‌خواهد دنیای شما را از عشق، نیروی طبیعی که سیاره شما را زنده نگه می‌دارد، خالی کند. برای شفای Oasis، پهپادهای روباتی خود را هدر دهید! ❤ آنها را با مهربانی بکش! هر نقطه آسیبی که به یک ربات وارد می شود یک قطعه از عشق است که به محیط باز می گردد و یک قدم به پایان Tigris Nix نزدیکتر می شود. ❤ با تزئین بازوها و اسلحه های خود با..."
+    },
+    {
         "title": "dreamgame cairn",
         "store": "other",
         "url": "https://www.dreamgame.com/search?Box=true&q=cairn",
@@ -406,6 +395,26 @@
         "discount_text": "10% off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/TeamDreamgame [لینک] [نظر]"
+    },
+    {
+        "title": "envelope",
+        "store": "itch.io",
+        "url": "https://eirix.itch.io/envelope-game",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2717480/ef768ba958d2775e7d6637057769e7e53756c35b/header.jpg?t=1763140703",
+        "description": "Envelope is a psychological thriller game that puts you in the shoes of an unfortunate soul who finds himself getting pushed to do something beyond anything he could possibly imagine. Delve into a small open world where you choose your path, and your choices matter. Immersive gameplay and storytelling. Work your way through the night shift to explore an odd world full of strange people. Do not let the mundane tasks fool you, there is something sinister going on, and you somehow end up in the middle of it all. The second part of the game reveals an open world for you to explore, and every choice you make could affect how the ending of the game plays out. Follow the main objective, or take an alternate route to explore what the world has to offer. There are plenty of interesting characters to come by. Maybe you'll even find one of the many secrets. Regardless of how your mission ends, your actions will progress the game, making future attempts quicker and easier. Unlock additional items, shortcuts, or abilities by completing certain tasks. Even if you die, your actions have permanently altered the world, allowing you to return stronger than ever. FEATURES Multiple endings Freedom of choice Your actions permanently change the world to give you more tools with each attempt Minimalistic indie chic graphic style inspired by the Nintendo 64 Strange characters that may or may not help you on your journey Two separate storylines intersecting in the strangest way possible",
+        "id_in_db": "t3_1qrbfy0",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "2717480",
+        "genres": [
+            "Adventure",
+            "Indie"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "is_dlc_or_addon": false,
+        "persian_summary": "پاکت یک بازی هیجان‌انگیز روان‌شناختی است که شما را به جای یک روح بدبخت قرار می‌دهد که می‌بیند برای انجام کاری فراتر از هر چیزی که تصورش را می‌کند تحت فشار قرار می‌گیرد. به دنیای باز کوچکی بپردازید که در آن مسیر خود را انتخاب می کنید و انتخاب های شما اهمیت دارد. گیم پلی همهجانبه و داستان سرایی. در شیفت شب کار کنید تا دنیای عجیب و غریب پر از افراد عجیب و غریب را کشف کنید. اجازه ندهید کارهای پیش پا افتاده شما را گول بزنند، چیزی شوم در حال وقوع است و شما به نوعی در میانه همه چیز قرار می گیرید. قسمت دوم بازی دنیایی باز را برای شما به نمایش می گذارد که می توانید آن را کشف کنید و هر انتخابی که می کنید می تواند بر نحوه پایان بازی تأثیر بگذارد. هدف اصلی را دنبال کنید، یا مسیر دیگری را برای کشف آنچه جهان ارائه می دهد انتخاب کنید. شخصیت‌های جالب زیادی وجود دارد. شاید حتی یکی از رازهای متعدد را پیدا کنید. صرف نظر از اینکه ماموریت شما چگونه به پایان می رسد، اقدامات شما باعث پیشرفت بازی می شود و تلاش های آینده را سریع تر و آسان تر می کند. باز کردن قفل اضافی..."
     },
     {
         "title": "epic games mobile faily brakes 2",
@@ -427,26 +436,25 @@
         "persian_summary": "BAFL - Brakes Are For Losers یک بازی مسابقه ای از بالا به پایین و تک صفحه است که به عنوان ادای احترام به بازی های قدیمی خوب مانند Super Sprint، Indy Heat یا Super Off Road ایجاد شده است. توضیحات دوستان خود را به چالش بکشید، یک ماشین بد بو انتخاب کنید و با مهارت های رانندگی و ترفندهای کثیف خود از آنها پیشی بگیرید. آنها را از سر راه خود خارج کنید یا برای از بین بردن آنها جایزه بگیرید. BAFL ادای احترامی به بازی های مسابقه ای آرکید مدرسه قدیمی است. با هم روی کاناپه اسکوچ کنید و حداکثر 8 نفر را جمع کنید که روی یک صفحه بازی می کنند، در مسابقات قهرمانی رقابت کنید، ماشین های خود را ارتقا دهید و دوستی ها را قطع کنید! BAFL همچنین یک تجربه انفرادی چالش برانگیز با قهرمانی در برابر هوش مصنوعی شدید و حالت‌های ویژه مانند Time Attack یا Perfect Race ارائه می‌دهد. اجرا در آهنگ های منحصر به فرد با الهام از فرهنگ پاپ دهه 80 و 90 همراه با جزئیات خنده دار و رویدادهای غافلگیر کننده. هر مکان شما را به محیطی متفاوت می برد، از جزیره آرام کارائیب تا زیرزمینی جهنمی، از لاس وگاس افسانه ای تا ماه! BAFL دعوتنامه ای برای غواصی در یک وضعیت مدرن است ..."
     },
     {
-        "title": "epic games mobile the forest quartet",
-        "store": "epicgames",
-        "url": "https://www.reddit.com/r/FreeGameFindings/comments/1qjycmp/epic_games_mobile_game_the_forest_quartet/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3564740/6d94b048393d5358690a04a7db99f2c9739c703c/header.jpg?t=1768270140",
-        "description": "Jianghu knows no boundaries: Cross-play available on PS5, PC, and Mobile. Dive into the game for free now! Where Winds Meet is an epic open-world action-adventure RPG rooted in the rich legacy of Wuxia. Set during the turbulent era of tenth-century China, you take on the role of a young sword master, uncovering forgotten truths and the mysteries of your own identity. As the wind stirs across mountains and rivers, so too will your legend rise. An Era on the Brink. A Hero on the Rise Immerse yourself in the captivating Five Dynasties and Ten Kingdoms period of China, where epic battles and legendary tales come to life. From the bustling imperial capital to the hidden wilderness, every path is filled with secrets and adventures. In this world, freedom carries weight. Stir up mischief and face challenges, or take the noble route: befriend villagers, forge alliances, and carve your legacy as a Wuxia hero. In a land of possibilities, become the spark that ignites change! An Open World of Infinite Possibilities Explore a vibrant world filled with life, from bustling cities to hidden temples in lush forests—all dynamically shaped by time, weather, and your choices. Experience Wuxia—style traversal: scale rooftops, glide through the air, or use fast travel to swiftly navigate between regions. Uncover thousands of points of interest across 20+ unique regions. Interact with diverse characters, engage in authentic activities, explore ancient cities, discover forgotten tombs, play flutes beneath swaying willows, and enjoy drinks under lantern-lit skies. Master Your Way of Wuxia Combat Tailor your combat approach-melee, ranged, or stealth. Build a loadout that suits your playstyle. Engage in combat with classic Wuxia weapons—swords, spears, dual blades, rope dart, bows, fans, and umbrellas. Switch weapons and employ martial arts and mystic skills like Tai Chi to outmaneuver enemies. Customize your character, choose your role, align with factions, and explore unique professions to shape your identity. Adventure Alone or Forge Your Community Embark on a narrative-driven adventure filled with rich solo gameplay, or team up with up to four friends for seamless co-op experiences. Join or create a Guild to access group activities—intense guild wars, multiplayer dungeons, and epic raids. Show your skill in competitive duels, or enter a shared, evolving world with thousands of fellow adventurers.",
-        "id_in_db": "t3_1qjycmp",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "3564740",
+        "title": "etailmarket metal gear solid",
+        "store": "other",
+        "url": "https://etail.market/metal-gear-solid-d-snake-eater-29",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2417610/05c97cbcd0cfc27c8ed6c7fc6d81e0995aa2a7d4/header.jpg?t=1762249119",
+        "description": "The Beginning of it All. A remake of the 2004 game METAL GEAR SOLID 3: SNAKE EATER, with the same gripping story and engrossing world, now with all new graphics and 3D audio that enhance the jungle atmosphere. Get ready for the ultimate survival stealth action experience. The Cold War Crisis that started it all In the middle of the Cold War, Naked Snake, the man who would later be known as Big Boss, infiltrates the Soviet Union to escort a defecting scientist, Sokolov. However, the mission ends in failure when Snake's mentor—The Boss, a soldier known as the mother of special forces—betrays him, and Sokolov is captured by Colonel Volgin of the GRU. One week later, Snake returns to Soviet territory to rescue Sokolov and eliminate The Boss—a mission that will mark the start of a new legend, against the backdrop of the ever-changing march of history. Everything you love, and more The story, characters, voice acting, gameplay, and music that made the original a sensation return, remade for modern consoles. This evolutionary leap breathes new life into every cutscene, and rebuilds every corner of the world. Gorgeously rendered graphics With Unreal Engine 5, expansive stages are rendered with cutting-edge technology. Incredible new graphics bring the wild growth of the jungles, forests, and swamps to life in exquisite detail. Characters are rendered in such fine detail that facial wrinkles, pores, and even separate eye and iris movements are visible, allowing for rich and emotive facial animations. Authentic to life portrayals The battle damage system has been upgraded, with the wear and tear of Snake's clothes, as well as bruises and bullet wounds on his body, reflected in real time. Injuries will leave their mark on Snake's body permanently, telling a story of each player's unique journey through the game. Deeply immersive experiences Players can elect for a newly added, more modern control style. These intuitive controls let you focus entirely on the game, and the immersive thrills of the survival stealth experience. You can also choose to play with a classic control style that more closely recreates the feel of the original game. Additional Game Modes ・SNAKE VS MONKEY In this mode, you'll play as Snake, and round up all the escaped apes running amok in each stage! ・FOX HUNT An all-new online multiplayer mode, set in the same world as the main story. This new mode makes use of stealth and survival elements to deliver exciting hide-and-seek-style back-and-forth gameplay. ・Secret Theater Find 8mm film canisters, secretly carried by enemy soldiers, to unlock these humorous takes on certain scenes. You can find scenes from the original Secret Theater, as well as newly created videos. *Secret Theater will be unlocked after finishing the game. *Film canisters carried by soldiers can be collected during initial playthrough. ・GUY SAVAGE Δ The \"Guy Savage\" nightmare game returns in a fully reimagined version that captures the essence of the original while providing a fresh new look from PlatinumGames. Trigger the nightmare sequence during gameplay or clear the entire story mode to unlock it as a bonus mode. *GUY SAVAGE Δ will be unlocked after finishing the game.",
+        "id_in_db": "t3_1qr4in9",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "58% off",
+        "steam_app_id": "2417610",
         "genres": [
             "Action",
-            "Adventure",
-            "RPG",
-            "Free To Play"
+            "Adventure"
         ],
         "is_multiplayer": true,
-        "is_online": true,
+        "is_online": false,
+        "age_rating": "This Game may contain content not appropriate for all ages, or may not be appropriate for viewing at work: Frequent Violence, General Mature Content",
         "is_dlc_or_addon": false,
-        "persian_summary": "Jianghu هیچ مرزی نمی شناسد: Cross-play در PS5، PC و Mobile در دسترس است. اکنون به صورت رایگان وارد بازی شوید! Where Winds Meet یک نقش آفرینی اکشن ماجراجویی حماسی جهان باز است که ریشه در میراث غنی Wuxia دارد. در دوران پرتلاطم قرن دهم چین، شما نقش یک استاد جوان شمشیر را بر عهده می گیرید و حقایق فراموش شده و اسرار هویت خود را کشف می کنید. همانطور که باد در میان کوه ها و رودخانه ها به حرکت در می آید، افسانه شما نیز بلند خواهد شد. عصری در آستانه. قهرمانی در حال ظهور در دوره جذاب پنج سلسله و ده پادشاهی چین غوطه ور شوید، جایی که نبردهای حماسی و داستان های افسانه ای جان می گیرند. از پایتخت شلوغ امپراتوری تا بیابان پنهان، هر مسیری پر از رازها و ماجراجویی است. در این دنیا آزادی وزن دارد. به شرارت دامن بزنید و با چالش ها روبرو شوید، یا مسیر شریف را انتخاب کنید: با روستاییان دوست شوید، اتحاد ایجاد کنید و میراث خود را به عنوان یک قهرمان Wuxia بسازید. در سرزمین احتمالات، تبدیل به جرقه ای شوید که تغییرات را شعله ور می کند! دنیای باز از ..."
+        "persian_summary": "آغاز همه چیز. بازسازی بازی METAL GEAR SOLID 3: SNAKE EATER در سال 2004، با همان داستان جذاب و دنیای جذاب، اکنون با تمام گرافیک های جدید و صدای سه بعدی که فضای جنگل را بهبود می بخشد. برای تجربه نهایی اکشن مخفی کاری بقا آماده شوید. بحران جنگ سرد که همه چیز را آغاز کرد در میانه جنگ سرد، مار برهنه، مردی که بعدها به عنوان رئیس بزرگ شناخته شد، به اتحاد جماهیر شوروی نفوذ می کند تا دانشمند فراری به نام سوکولوف را اسکورت کند. با این حال، ماموریت با شکست به پایان می رسد زمانی که مربی اسنیک - رئیس، سربازی که به عنوان مادر نیروهای ویژه شناخته می شود - به او خیانت می کند و سوکولوف توسط سرهنگ ولگین از GRU دستگیر می شود. یک هفته بعد، اسنیک برای نجات سوکولوف و از بین بردن رئیس، به قلمرو شوروی بازمی‌گردد، ماموریتی که آغاز یک افسانه جدید را در پس‌زمینهٔ راهپیمایی همیشه در حال تغییر تاریخ نشان می‌دهد. هر چیزی که دوست دارید، و بیشتر داستان، شخصیت‌ها، صداگذاری، گیم‌پلی و موسیقی که باعث بازگشت حس اصلی به نسخه اصلی شد، بازسازی شده برای..."
     },
     {
         "title": "etailmarket monster hunter stories 3",
@@ -482,19 +490,6 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "برای افزایش دید، مگا رشته ها به صورت هفتگی ارسال می شوند. این به دنبال بحث کلی مگا موضوعات از طریق به‌روزرسانی FGF انجام می‌شود - https://redd.it/jkxyzw لطفاً از موضوعات زیر برای پست‌های خود استفاده کنید. :) Exiled Giveaways Mega Thread (#2) Itchio Mega Thread (#10) آیا می خواهید هشدارهایی را برای این رشته ها تنظیم کنید؟ اطلاعات فید RSS را می توان در ویکی ما یافت! https://www.reddit.com/r/FreeGameFindings/wiki/rssfeed شامل اطلاعاتی درباره ربات اختلاف ما و موارد کلی فید RSS است. حتما بهش نگاه کن! ارسال شده توسط /u/AutoModerator [لینک] [نظر]"
-    },
-    {
-        "title": "fallen order 319 immortals of aveum 419 dragonage",
-        "store": "steam",
-        "url": "https://store.steampowered.com/developer/EA/sale/lunar-new-year-2026",
-        "image_url": "https://external-preview.redd.it/NBIEy9ng9hxKDIe3P_wN0IpHpRkoNjsm0LxpWDeQzjc.jpeg?width=640&crop=smart&auto=webp&s=efe4cc4092aceec20460edddbf947031e7c803c9",
-        "description": "submitted by /u/tqbh [link] [comments]",
-        "id_in_db": "t3_1qpbsww",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "88% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/tqbh [لینک] [نظر]"
     },
     {
         "title": "final fantasy iii 3d remake final fantasy iv 3d remake final fantasy ix final fantasy viii remaster",
@@ -533,33 +528,14 @@
         "title": "free massive 3d tower defense game with 70 handcrafted maps 17 diverse heroes and 25 powerful monkey towers designed to give you hours and hours of gameplay",
         "store": "epicgames",
         "url": "https://store.epicgames.com/en-US/p/bloons-td-6-bf95a0",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960090/header.jpg?t=1769161752",
-        "description": "Craft your perfect defense from a combination of powerful Monkey Towers and awesome Heroes, then pop every last invading Bloon! Over a decade of tower defense pedigree and regular massive updates makes Bloons TD 6 a favorite game for millions of players. Enjoy endless hours of strategy gaming with Bloons TD 6! Regular updates! We release several updates every year with new characters, features, and gameplay. Boss Events! Fearsome Boss Bloons will challenge even the strongest defenses. Odysseys! Battle through a series of maps connected by their theme, rules, and rewards. Contested Territory! Join forces with other players and battle for territory against five other teams. Capture tiles on a shared map and compete on the leaderboards. Quests! Delve into what makes the Monkeys tick with Quests, crafted to tell tales and share knowledge. Trophy Store! Earn Trophies to unlock dozens of cosmetic items that let you customize your Monkeys, Bloons, animations, music, and more. Content Browser! Create your own Challenges and Odysseys, then share them with other players and check out the most liked and played community content. 25 powerful Monkey Towers Each with 3 upgrade paths and unique activated abilities. Paragons! Explore the incredible power of the newest Paragon upgrades. 17 diverse Heroes With 20 signature upgrades and 2 special abilities. Plus, unlockable skins and voiceovers! 4-Player Co-Op! Play every map and mode with up to 3 other players in public or private games. Play anywhere Single player offline works even when your WiFi doesn’t! 70+ handcrafted maps With more added every update. Monkey Knowledge! Over 100 meta-upgrades to add power where you need it. Powers and Insta Monkeys! Earned through gameplay, events, and achievements. Instantly add power for tricky maps and modes. We pack as much content and polish into each update as possible, and we’ll continue to add new features, content, and challenges in regular updates. We truly respect your time and support, and we hope Bloons TD 6 will be the best strategy game you’ve ever played. If it’s not, please contact us at and tell us what we can do better! Now those Bloons aren't going to pop themselves... sharpen your darts and go play Bloons TD 6! ********* Ninja Kiwi Notes Please review our Terms of Service and Privacy Policy. You will be prompted in-game to accept these terms in order to cloud save and protect your game progress. Bloons TD 6 contains in-game items that can be purchased with real money. You can disable in-app purchases in your device's settings, or reach us through Support for help. Your purchases fund our development updates and new games, and we sincerely appreciate every vote of confidence you give us with your purchases. Ninja Kiwi Community We love hearing from our players, so please get in touch with any feedback, positive or negative. Streamers and Video Creators: Ninja Kiwi is actively promoting channel creators on YouTube and Twitch! If you are not already working with us, keep making videos and tell us about your channel!",
+        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/960090/capsule_616x353.jpg?t=1769161752",
+        "description": "submitted by /u/Singhvistaar [link] [comments]",
         "id_in_db": "t3_1q7hvyr",
         "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "960090",
-        "genres": [
-            "Strategy"
-        ],
-        "is_multiplayer": true,
-        "is_online": true,
         "is_dlc_or_addon": false,
-        "persian_summary": "دفاع کامل خود را از ترکیبی از برج‌های میمون قدرتمند و قهرمانان شگفت‌انگیز بسازید، سپس آخرین بلون مهاجم را پاپ بزنید! بیش از یک دهه شجره نامه دفاع از برج و به روز رسانی های گسترده منظم، Bloons TD 6 را به بازی مورد علاقه میلیون ها بازیکن تبدیل کرده است. با Bloons TD 6 از ساعت های بی پایان بازی استراتژیک لذت ببرید! به روز رسانی های منظم! ما هر سال چندین به روز رسانی با شخصیت ها، ویژگی ها و گیم پلی جدید منتشر می کنیم. رویدادهای رئیس! Boss Bloons ترسناک حتی قوی ترین دفاع ها را به چالش می کشد. اودیسه ها! نبرد از طریق یک سری از نقشه های مرتبط با موضوع، قوانین، و پاداش. منطقه مورد مناقشه! به نیروهای دیگر بپیوندید و برای قلمرو در برابر پنج تیم دیگر بجنگید. کاشی‌ها را روی نقشه مشترک ثبت کنید و در تابلوهای امتیازات به رقابت بپردازید. ماموریت ها! آنچه که باعث می‌شود میمون‌ها با کوئست‌هایی که برای قصه‌گویی و اشتراک‌گذاری دانش ساخته شده‌اند را بررسی کنید. فروشگاه غنائم! جوایز کسب کنید تا ده‌ها مورد از لوازم آرایشی را باز کنید که به شما امکان می‌دهد میمون‌ها، بلون‌ها، انیمیشن‌ها، موسیقی و موارد دیگر را سفارشی کنید. مطالب..."
-    },
-    {
-        "title": "frequencies",
-        "store": "iosappstore",
-        "url": "https://apps.apple.com/us/app/alt-frequencies/id1457675789",
-        "id_in_db": "a4ba987cd911381d85c597e07fbbbd3d80bc85575ed1386e6af67c77f3c0c763",
-        "subreddit": "AppHookup",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/57/d5/6f57d5c8-0abd-115b-c693-0d577c031cdc/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
-        "is_dlc_or_addon": false,
-        "persian_summary": "",
-        "description": ""
+        "persian_summary": "ارسال شده توسط /u/Singhvistaar [پیوند] [نظر]"
     },
     {
         "title": "games a normal lost phone 299 free",
@@ -586,30 +562,6 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/pozition [لینک] [نظر]"
-    },
-    {
-        "title": "grand theft horse",
-        "store": "epicgames",
-        "url": "https://store.epicgames.com/p/rustler-grand-theft-horse-21a7ca",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/844260/header.jpg?t=1754054367",
-        "description": "Grand Theft… Horse Rustler is an open-world, top-down action game paying tribute to the good old GTA style and gameplay, fusing it with a historically inaccurate medieval setting. Play as The Guy, whose parents apparently were too lazy to give him a proper name. Experience feudal injustice, inquisition, witch-hunting, and join The Grand Tournament. Meet valiant, yet incredibly stupid knights. Complete a wide variety of twisted missions and quests, or don’t give a damn about the plot and bring mayhem in the villages and cities. Choose to go on foot, or by a stolen horse. Fight with a sword or pick a fancy automatic crossbow. All that, spiced up with an inappropriate Monty Python inspired sense of humor. Be a bold, bald thug in a medieval sandbox Rustler’s world is filled with humor, anachronisms, and pop culture references. Ever been towed for parking in a “NO HORSE ZONE”? Wanna do some cage fights in Medieval Martial Arts Arena? Or maybe pimp-a-horse a little? How about joining the Round-Earthers sect? Wreak havoc in top-down, old-school combat Use swords, spears, turds, and crossbows. Want to get more efficient? Try holy hand grenades or… horses. Nothing’s more deadly than hooves galloping in your direction. Or drifting a cart. Screw everyone over to win half the kingdom As a poor peasant, you really need to get creative in order to win the Grand Tournament™. Form weird alliances, double-cross your foes, and dig up dinosaur skeletons in a light, easy-to-understand, and hard-to-empathize-with story. Hire bards to aid you musically in battle A bard can be your sweaty personal radio. Not only will he not leave your side, even in the midst of the bloodiest of conflicts, he will also change the song's dynamic depending on the action on-screen. Moreover, you can express a desire to change the tune by punching him in the face. A lot of horsin’ around Shoot cows into the sky, dress up as a guard or even Death himself, burn entire piles of weed, draw fancy shapes with a plowing cart, survive a full-on guard onslaught after killing half the city… And that’s only a few of the many crazy things you can do in Rustler. Gameplay Trailer Song: BouzoukXp - Korrigan",
-        "id_in_db": "t3_1qjyc85",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "844260",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Indie",
-            "Racing",
-            "RPG"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "age_rating": "there might be a lot of blood and swearing",
-        "is_dlc_or_addon": false,
-        "persian_summary": "Grand Theft… Horse Rustler یک بازی اکشن جهان باز و از بالا به پایین است که به سبک و گیم پلی خوب قدیمی GTA ادای احترام می کند و آن را با یک محیط قرون وسطایی نادرست تاریخی ترکیب می کند. نقش The Guy را بازی کنید که ظاهراً والدینش تنبل‌تر از آن بودند که نامی مناسب برای او بگذارند. بی عدالتی فئودالی، تفتیش عقاید، شکار جادوگران را تجربه کنید و به تورنمنت بزرگ بپیوندید. با شوالیه های شجاع و در عین حال فوق العاده احمق ملاقات کنید. طیف گسترده‌ای از ماموریت‌ها و ماموریت‌های پیچیده را انجام دهید، یا به طرح داستان دست ندهید و در دهکده‌ها و شهرها آشوب ایجاد کنید. پیاده روی یا با اسب دزدیده شده را انتخاب کنید. با شمشیر بجنگید یا یک کمان پولادی خودکار فانتزی انتخاب کنید. همه اینها با حس شوخ طبعی الهام گرفته از مونتی پایتون نامناسب همراه بود. در یک جعبه شنی قرون وسطایی یک اراذل جسور و طاس باشید. آیا تا به حال برای پارک کردن در \"منطقه بدون اسب\" بکسل شده اید؟ می‌خواهید چند مبارزه در قفس در ورزشگاه هنرهای رزمی قرون وسطی انجام دهید؟ یا شاید کمی دلال اسب؟ چطور به پیوستن به ..."
     },
     {
         "title": "gravit",
@@ -714,7 +666,7 @@
         "title": "ios android the forest quartet ca689 free help a late lead singer spirit find her jazz band members to sing the final farewell concert",
         "store": "other",
         "url": "https://www.reddit.com/r/AppHookup/comments/1qjzbaa/ios_android_the_forest_quartet_ca689_free_help_a/",
-        "image_url": "https://cdn1.epicgames.com/spt-assets/5f711e24b6534e32981f910a38e20756/the-forest-quartet-1dvpn.jpg",
+        "image_url": "https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch/70010000068412/caaab697c29d1c889448ae4de74ab1cd698dea2ce8cade7eb9a32112912c1a3e",
         "description": "https://store.epicgames.com/en-US/p/forest-quartet-ios-eea63c https://store.epicgames.com/en-US/p/forest-quartet-android-eb07b9 The Forest Quartet is a 3D narrative puzzler about a gone, but not forgotten, lead singer. Play her spirit and travel through 3 acts unique to the members of her band for a final farewell concert. Face their emotions, solve puzzles and fight the corruption plaguing their souls. submitted by /u/PM_ME_FREEGAMES [link] [comments]",
         "id_in_db": "t3_1qjzbaa",
         "subreddit": "AppHookup",
@@ -722,6 +674,19 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "https://store.epicgames.com/en-US/p/forest-quartet-ios-eea63c https://store.epicgames.com/en-US/p/forest-quartet-android-eb07b9 کوارتت جنگل یک معمای روایی سه بعدی درباره یک خواننده اصلی رفته، اما فراموش نشده است. روح او را بنوازید و برای آخرین کنسرت خداحافظی در 3 عمل منحصر به فرد اعضای گروهش سفر کنید. با احساسات آنها روبرو شوید، پازل ها را حل کنید و با فسادی که روح آنها را آزار می دهد مبارزه کنید. ارسال شده توسط /u/PM_ME_FREEGAMES [پیوند] [نظر]"
+    },
+    {
+        "title": "itchio gravity storm",
+        "store": "itch.io",
+        "url": "https://jampley-dev.itch.io/gravity-storm-first-mission",
+        "image_url": "https://external-preview.redd.it/pedOCH2YwSuBMHWprketUHCjLKErpRDw88aE-32R0Ao.png?width=640&crop=smart&auto=webp&s=f924e698dee74b2fc9f26b6b2c92d5dadcf136b8",
+        "description": "submitted by /u/jampley_dev [link] [comments]",
+        "id_in_db": "t3_1qrijs0",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "50% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/jampley_dev [لینک] [نظر]"
     },
     {
         "title": "Kiki",
@@ -768,10 +733,31 @@
         "persian_summary": "یک پلتفرمر پر جنب و جوش با گرافیک منحصر به فرد و موسیقی متن چیپ‌تون جذاب! از تله ها و موانع خائنانه طفره بروید، فقط با چابکی و رفلکس های سریع خود بر آنها غلبه کنید. این فرصت را از دست ندهید که توانایی های خود را آزمایش کنید و به یک استاد واقعی پرش تبدیل شوید! 🏃‍♀️ ✨موانع مختلف شما باید با استفاده از چابکی و مهارت های تصمیم گیری سریع بر موانع مختلفی مانند اره های چرخان، سنبله ها و سایر تله ها غلبه کنید. ✨سطوح سه فصل شامل سی سطح هیجان انگیز با طراحی منحصر به فرد، که هر یک چالش منحصر به فرد را ارائه می دهد. از سطوح آسان برای مبتدیان تا سطوح چالش برانگیز برای بازیکنان با تجربه. آیا آماده هستید که چالش را قبول کنید و استاد پرش شوید؟ ✨صدای متن اصلی یک موسیقی متن چیپ‌تون خیره‌کننده که سرعت بازی را حفظ می‌کند و فضای موسیقی بی‌نظیری ایجاد می‌کند. موسیقی را می توان به صورت جداگانه با کیفیت بالا تهیه کرد. برای این کار باید DLC موسیقی را خریداری کنید."
     },
     {
+        "title": "kings blade",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/2204620/Kings_Blade/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2204620/header.jpg?t=1755239149",
+        "description": "Step into a grim world of heroic fantasy with King's Blade - a classic Beat 'em up inspired by the universe of Conan the Barbarian and legendary arcade titles like Golden Axe and Streets of Rage. Take command of the elite warriors of the King's Blade and fight your way through the hordes of the Barganian Empire! Crush enemies in epic brawls, traverse deadly lands, and carve a path to the heart of the enemy capital. Join forces with friends in local co-op for up to 4 players, or add AI fighters to your team! Key features 6 Unique Heroes. 12 Diverse Levels. Deep Combat System with various combos, environmental weapons, spells, and special attacks. Local Co-op for up to 4 players. Co-op with AI.",
+        "id_in_db": "t3_1qr2b0h",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "35% off",
+        "steam_app_id": "2204620",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Indie"
+        ],
+        "is_multiplayer": true,
+        "is_online": false,
+        "is_dlc_or_addon": false,
+        "persian_summary": "با King's Blade وارد دنیایی از فانتزی قهرمانانه شوید - یک Beat'em up کلاسیک که از دنیای Conan the Barbarian و عناوین بازی های افسانه ای مانند Golden Axe و Streets of Rage الهام گرفته شده است. فرماندهی جنگجویان نخبه King's Blade را بر عهده بگیرید و راه خود را در میان انبوهی از امپراتوری بارگانیان بجنگید! دشمنان را در نزاع های حماسی له کنید، از سرزمین های مرگبار عبور کنید و مسیری را به سمت قلب پایتخت دشمن تراشید. با دوستان خود در Co-op محلی برای حداکثر 4 بازیکن به نیروها بپیوندید یا مبارزان هوش مصنوعی را به تیم خود اضافه کنید! ویژگی های کلیدی 6 قهرمان منحصر به فرد. 12 سطح متنوع سیستم مبارزه عمیق با ترکیب های مختلف، سلاح های محیطی، جادوها و حملات ویژه. Co-op محلی برای حداکثر 4 بازیکن. همکاری با هوش مصنوعی"
+    },
+    {
         "title": "leechjelly fishsea butterflyagler fish followers",
         "store": "other",
         "url": "https://www.devolver.codes/cotl",
-        "image_url": "https://i.redd.it/xv54zf1kng3g1.jpeg",
+        "image_url": "https://cards.scryfall.io/art_crop/front/0/d/0d85d8c7-07b2-4577-8c62-7a34dca73ad8.jpg?1696636708",
         "description": "submitted by /u/Responsible-River653 [link] [comments]",
         "id_in_db": "t3_1qoegti",
         "subreddit": "FreeGameFindings",
@@ -920,15 +906,15 @@
     {
         "title": "other untrusted",
         "store": "other",
-        "url": "https://www.dungeonloot.com/untrusted-free-credits",
-        "image_url": "https://i.ytimg.com/vi/hl2GxGJp8Yc/maxresdefault.jpg",
-        "description": "submitted by /u/yogurtsapien [link] [comments]",
-        "id_in_db": "t3_1qqes0p",
+        "url": "https://gaming.lenovo.com/game-key-drops/post/untrusted---in-game-currency-key-drops-kARcnPdJt1HatWS",
+        "image_url": "https://external-preview.redd.it/5sji-5pro6EHKYywqYVZi87s7RRuv0SG5QUykGukk3M.jpeg?width=640&crop=smart&auto=webp&s=bfa4e3dbabbe845a6755deb34b60cda9f1872ed2",
+        "description": "This drop has been restocked to celebrate \"Untrusted\" being free on Steam thru Feb 1st. submitted by /u/XsealofsolomonX [link] [comments]",
+        "id_in_db": "t3_1qro4ta",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/yogurtsapien [لینک] [نظر]"
+        "persian_summary": "این قطره برای جشن گرفتن رایگان بودن «Untrusted» در Steam تا 1 فوریه دوباره ذخیره شده است. ارسال شده توسط /u/XsealofsolomonX [پیوند] [نظر]"
     },
     {
         "title": "pcxboxps other dead by daylight x stranger things twitch drops",
@@ -951,7 +937,7 @@
         "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": "100% Off",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5d/5f/46/5d5f4601-00d7-f878-b704-2f05a2b33595/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/00/d6/c3/00d6c308-d2c6-7dd4-8a76-f7e593f06cb9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
         "is_dlc_or_addon": false,
         "persian_summary": "",
         "description": ""
@@ -968,31 +954,6 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/LighteningOneIN [پیوند] [نظر]"
-    },
-    {
-        "title": "puppet master",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/1757610/Puppet_Master_The_Game/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1819820/header.jpg?t=1668112366",
-        "description": "Who is the puppet master of your country You alone, voiceless, and in a sea of global corporate corruption and media propaganda! What can you do, well... fight back! We are already at the bottom of the power structure in greater numbers but what's at the top? who is at the top? Time to find out by infiltrating the power structure and fighting your way up the ranks. The question is can you ever get to the top and if so what will you see when you are there? Simple but fun player control and movement, there is just something fun about the simplicity of flinging a humanoid ragdoll around. Choose from different countries to fight in all with their own unique enemies and boss. Enemies also have unique traits that can both benefit you and harm you. The more you play and level up the more the enemies scale in strength and numbers, there is no end! Every time you win you will earn more and more in-game currency called crip-toe. You will also unlock new abilities and cosmetics. There are unique ability bracelets that you can unlock and customize on your character. For example, you might place a bracelet on a limb you know you have less chance of losing, as if you lose a limb with a bracelet you lose the power that bracelet gave you. So you will need to strategize what bracelets to use in certain fights and where those bracelets should be placed on your character. The enemy scaling system in Puppet Master is built to keep on increasing AI strength and difficulty the more you play and skill up. This means the levels and rounds you play will increasingly get more difficult with more variations of enemies. There will be a global scoring system where you can rank but no one can really reach the top as there is no top, just another pyramid of power you will need to climb.",
-        "id_in_db": "t3_1qj883b",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "1819820",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Casual",
-            "Free To Play",
-            "Indie",
-            "Simulation",
-            "Early Access"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "عروسک گردان کشورت کیست تو تنها، بی صدا و در دریای فساد شرکت های جهانی و تبلیغات رسانه ای! چه کاری می توانید انجام دهید، خوب ... مبارزه کنید! ما در حال حاضر به تعداد بیشتری در پایین ترین سطح ساختار قدرت قرار داریم، اما چه چیزی در بالای آن قرار دارد؟ چه کسی در اوج است وقت آن است که با نفوذ در ساختار قدرت و مبارزه در مسیر صعود به رتبه، متوجه شوید. سوال این است که آیا می توانید به اوج برسید و اگر چنین است وقتی آنجا باشید چه خواهید دید؟ کنترل و حرکت پخش کننده ساده اما سرگرم کننده، فقط یک چیز سرگرم کننده در مورد سادگی پرت کردن یک راگدال انسان نما در اطراف وجود دارد. از بین کشورهای مختلف انتخاب کنید تا با دشمنان و رئیس منحصر به فرد خود بجنگید. دشمنان نیز ویژگی های منحصر به فردی دارند که هم می تواند به شما سود برساند و هم به شما آسیب برساند. هر چه بیشتر بازی کنید و سطح خود را بالا ببرید، دشمنان از نظر قدرت و تعداد بیشتر مقیاس می شوند، پایانی وجود ندارد! هر بار که برنده می‌شوید، ارزهای درون بازی بیشتری به نام کریپ‌تو به دست خواهید آورد. همچنین توانایی ها و لوازم آرایشی جدیدی را باز خواهید کرد. منحصر به فرد وجود دارد ..."
     },
     {
         "title": "renegades the edge of fate year of prophecy ultimate year of prophecy the final shape lightfall the witch queen legacy collection 2025",
@@ -1024,7 +985,7 @@
         "title": "rustler grand theft horse ca2899 free become a medieval thug in a crazy open",
         "store": "epicgames",
         "url": "https://store.epicgames.com/en-US/p/rustler-grand-theft-horse-21a7ca",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/844260/header.jpg?t=1754054367",
+        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/844260/capsule_616x353.jpg?t=1754054367",
         "description": "submitted by /u/PM_ME_FREEGAMES [link] [comments]",
         "id_in_db": "t3_1qjyngw",
         "subreddit": "AppHookup",
@@ -1054,6 +1015,25 @@
         "is_online": false,
         "is_dlc_or_addon": false,
         "persian_summary": "Smart Factory Tycoon یک بازی مدیریت سرمایه دار در مورد راه اندازی کارخانه رویایی شما با روبات ها است. کارخانه رویایی خود را طراحی کنید، تمام مراحل تولید را برنامه ریزی کنید، در مورد فن آوری های جدید تحقیق کنید و یک سرمایه دار شوید! ماشین‌آلات و ربات‌ها ماشین‌آلات جدید بخرید و قفل ماشین‌های پیشرفته را باز کنید تا هر نوع محصولی را در بازار تولید کنید. ربات‌های جدید با رنگ‌های مختلف خریداری کنید و با گزینه‌های مختلف حمل‌ونقل به کارخانه‌تان می‌آیند: بالون، گاری معدن، قایق، چتر نجات، PWC یا اتوبوس از امتیازات مهارت برای ارتقای سطح ربات‌های خود استفاده کنید شارژرها و روان کننده ها برای اتاق روبات های خود دستگاه ها، پنل های خورشیدی، توربین های بادی، شارژرها و روان کننده ها را برای تولید سریعتر و افزایش راندمان ارتقا دهید. تعمیر و نگهداری ماشین کاملاً خودکار توسط هواپیماهای بدون سرنشین برنامه ریزی تولید و بازار تمام مراحل تولید خرید مواد اولیه با کیفیت بالا برای تولید محصولات سالم و بادوام تجزیه و تحلیل بازار..."
+    },
+    {
+        "title": "special promotion",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1846170/Iron_Lung/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960090/header.jpg?t=1769161752",
+        "description": "Craft your perfect defense from a combination of powerful Monkey Towers and awesome Heroes, then pop every last invading Bloon! Over a decade of tower defense pedigree and regular massive updates makes Bloons TD 6 a favorite game for millions of players. Enjoy endless hours of strategy gaming with Bloons TD 6! Regular updates! We release several updates every year with new characters, features, and gameplay. Boss Events! Fearsome Boss Bloons will challenge even the strongest defenses. Odysseys! Battle through a series of maps connected by their theme, rules, and rewards. Contested Territory! Join forces with other players and battle for territory against five other teams. Capture tiles on a shared map and compete on the leaderboards. Quests! Delve into what makes the Monkeys tick with Quests, crafted to tell tales and share knowledge. Trophy Store! Earn Trophies to unlock dozens of cosmetic items that let you customize your Monkeys, Bloons, animations, music, and more. Content Browser! Create your own Challenges and Odysseys, then share them with other players and check out the most liked and played community content. 25 powerful Monkey Towers Each with 3 upgrade paths and unique activated abilities. Paragons! Explore the incredible power of the newest Paragon upgrades. 17 diverse Heroes With 20 signature upgrades and 2 special abilities. Plus, unlockable skins and voiceovers! 4-Player Co-Op! Play every map and mode with up to 3 other players in public or private games. Play anywhere Single player offline works even when your WiFi doesn’t! 70+ handcrafted maps With more added every update. Monkey Knowledge! Over 100 meta-upgrades to add power where you need it. Powers and Insta Monkeys! Earned through gameplay, events, and achievements. Instantly add power for tricky maps and modes. We pack as much content and polish into each update as possible, and we’ll continue to add new features, content, and challenges in regular updates. We truly respect your time and support, and we hope Bloons TD 6 will be the best strategy game you’ve ever played. If it’s not, please contact us at and tell us what we can do better! Now those Bloons aren't going to pop themselves... sharpen your darts and go play Bloons TD 6! ********* Ninja Kiwi Notes Please review our Terms of Service and Privacy Policy. You will be prompted in-game to accept these terms in order to cloud save and protect your game progress. Bloons TD 6 contains in-game items that can be purchased with real money. You can disable in-app purchases in your device's settings, or reach us through Support for help. Your purchases fund our development updates and new games, and we sincerely appreciate every vote of confidence you give us with your purchases. Ninja Kiwi Community We love hearing from our players, so please get in touch with any feedback, positive or negative. Streamers and Video Creators: Ninja Kiwi is actively promoting channel creators on YouTube and Twitch! If you are not already working with us, keep making videos and tell us about your channel!",
+        "id_in_db": "t3_1qr9z4b",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "Discount",
+        "steam_app_id": "960090",
+        "genres": [
+            "Strategy"
+        ],
+        "is_multiplayer": true,
+        "is_online": true,
+        "is_dlc_or_addon": false,
+        "persian_summary": "دفاع کامل خود را از ترکیبی از برج‌های میمون قدرتمند و قهرمانان شگفت‌انگیز بسازید، سپس آخرین بلون مهاجم را پاپ بزنید! بیش از یک دهه شجره نامه دفاع از برج و به روز رسانی های گسترده منظم، Bloons TD 6 را به بازی مورد علاقه میلیون ها بازیکن تبدیل کرده است. با Bloons TD 6 از ساعت های بی پایان بازی استراتژیک لذت ببرید! به روز رسانی های منظم! ما هر سال چندین به روز رسانی با شخصیت ها، ویژگی ها و گیم پلی جدید منتشر می کنیم. رویدادهای رئیس! Boss Bloons ترسناک حتی قوی ترین دفاع ها را به چالش می کشد. اودیسه ها! نبرد از طریق یک سری از نقشه های مرتبط با موضوع، قوانین، و پاداش. منطقه مورد مناقشه! به نیروهای دیگر بپیوندید و برای قلمرو در برابر پنج تیم دیگر بجنگید. کاشی‌ها را روی نقشه مشترک ثبت کنید و در تابلوهای امتیازات به رقابت بپردازید. ماموریت ها! آنچه که باعث می‌شود میمون‌ها با کوئست‌هایی که برای قصه‌گویی و اشتراک‌گذاری دانش ساخته شده‌اند را بررسی کنید. فروشگاه غنائم! جوایز کسب کنید تا ده‌ها مورد از لوازم آرایشی را باز کنید که به شما امکان می‌دهد میمون‌ها، بلون‌ها، انیمیشن‌ها، موسیقی و موارد دیگر را سفارشی کنید. مطالب..."
     },
     {
         "title": "the game until february 20",
@@ -1093,6 +1073,19 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "سلام به همه، من استودیوی هنری کودکان را ساختم، یک برنامه نقاشی آرام که برای کودکان ساخته شده است، اما برای بزرگسالان نیز سرگرم کننده است. شما آزادانه روی بوم نقاشی می کشید و برنامه تخیل شما را زنده می کند. می‌توانید قبل از باز کردن قفل هر چیزی، برنامه را با 10 اثر موفق رایگان امتحان کنید. این تجربه ابتدا آفلاین است و بر حفظ حریم خصوصی متمرکز است: نقاشی‌ها و عکس‌ها هرگز دستگاه را ترک نمی‌کنند بدون تبلیغات بدون ردیابی بدون حساب همه آثار هنری موفق و پذیرفته‌شده به صورت محلی ذخیره می‌شوند و در یک گالری درون‌برنامه ساده نشان داده می‌شوند. این برنامه برای بچه ها طراحی شده است و شامل یک دروازه والدین (سؤال ریاضی کوچک) برای خرید و اشتراک گذاری تصاویر خارجی است. ویژگی ها: ابزار طراحی آرام و بدون حواس پرتی 14 سبک بصری برای کشف آفلاین و حریم خصوصی - ابتدا با طراحی پرداخت یکباره برای آثار نامحدود بدون اشتراک فروش محدود به مدت 72 ساعت باز کردن قفل یکباره از 4.99 دلار به 0.99 دلار برای انیمیشن های نامحدود کاهش می یابد. ویدیوی دمو کوتاه: https://www.youtube.com/shorts/-Bu-_EgRW9o لینک اپ استور:..."
+    },
+    {
+        "title": "touhoueternalfrontier",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/3652860/TouhouEternalFrontier/",
+        "image_url": "https://external-preview.redd.it/gkSEhlxk57x2tzXcrSmZJov4NB53FcSzzPe3_rKm09U.jpeg?width=320&crop=smart&auto=webp&s=978b6267ab455d00f3392f79afc0505895c00789",
+        "description": "submitted by /u/Responsible-River653 [link] [comments]",
+        "id_in_db": "t3_1qr8j9y",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/Responsible-River653 [لینک] [نظر]"
     },
     {
         "title": "treasure temples",
@@ -1233,5 +1226,18 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "اولین پست ارسال شده توسط /u/Slippy2k [لینک] [نظرات] را بخوانید"
+    },
+    {
+        "title": "xbox membership xbox gamepass premium",
+        "store": "other",
+        "url": "https://about.webtoon.com/press-release/230",
+        "image_url": "https://api-about.webtoon.com/files/download?fileNo=9",
+        "description": "submitted by /u/StOoPiD_U [link] [comments]",
+        "id_in_db": "t3_1qrj1h7",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/StOoPiD_U [پیوند] [نظر]"
     }
 ]
