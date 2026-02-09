@@ -96,15 +96,16 @@
         "persian_summary": "ارسال شده توسط /u/pozition [لینک] [نظر]"
     },
     {
-        "title": "Arabian Gulf",
-        "id_in_db": "arabian-gulf@1770315776",
-        "store": "other",
-        "url": "https://itad.link/019c2f06-fb7c-72ec-8323-daab6b109114/",
+        "title": "arabian gulf",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/3744480/Arabian_Gulf/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3744480/efb96c296ba8c4832eb4a39b26f108527e92fae5/header.jpg?t=1770243842",
+        "description": "Arabian Gulf is a thrilling survival action game where every second is a test of your skill and courage. Equip your weapons and brace yourself for an unforgettable battle for survival against relentless enemies in a vast, unforgiving desert. Your journey is fraught with danger, but the goal is clear: fight your way through treacherous landscapes, conquer the challenges, and reach the ancient castle to claim the legendary treasures hidden within. Epic survival action in a dynamic desert environment Face relentless enemies in intense combat Conquer the castle and claim your rightful treasures Are you ready to carve your legend in the sands of the Arabian Gulf?",
+        "id_in_db": "t3_1qwsiwa",
+        "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
         "steam_app_id": "3744480",
-        "description": "Arabian Gulf is a thrilling survival action game where every second is a test of your skill and courage. Equip your weapons and brace yourself for an unforgettable battle for survival against relentless enemies in a vast, unforgiving desert. Your journey is fraught with danger, but the goal is clear: fight your way through treacherous landscapes, conquer the challenges, and reach the ancient castle to claim the legendary treasures hidden within. Epic survival action in a dynamic desert environment Face relentless enemies in intense combat Conquer the castle and claim your rightful treasures Are you ready to carve your legend in the sands of the Arabian Gulf?",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3744480/efb96c296ba8c4832eb4a39b26f108527e92fae5/header.jpg?t=1770243842",
         "genres": [
             "Action",
             "Adventure"
@@ -112,7 +113,6 @@
         "is_multiplayer": false,
         "is_online": false,
         "is_dlc_or_addon": false,
-        "subreddit": "FreeGameFindings",
         "persian_summary": "خلیج عربی یک بازی اکشن بقا هیجان انگیز است که هر ثانیه آزمونی برای مهارت و شجاعت شماست. سلاح های خود را مجهز کنید و خود را برای نبردی فراموش نشدنی برای بقا در برابر دشمنان بی امان در یک صحرای وسیع و نابخشودنی آماده کنید. سفر شما مملو از خطر است، اما هدف روشن است: راه خود را از طریق مناظر خائنانه بجنگید، چالش ها را فتح کنید و به قلعه باستانی برسید تا گنج های افسانه ای پنهان در آن را به دست آورید. اکشن حماسی بقا در یک محیط بیابانی پویا با دشمنان بی امان در نبردهای شدید روبرو شوید قلعه را فتح کنید و گنجینه های واقعی خود را به دست آورید آیا آماده هستید که افسانه خود را در شن های خلیج عربی حک کنید؟"
     },
     {
@@ -303,6 +303,19 @@
         "persian_summary": "ارسال شده توسط /u/etailmarket [لینک] [نظر]"
     },
     {
+        "title": "etailmarket humanitz 49 off 960",
+        "store": "other",
+        "url": "https://etail.market/humanitz-323",
+        "image_url": "https://external-preview.redd.it/6wrjyWmkLZuMRqLiqT6F9VXxVS-UXeaURVoKeQZrSdE.jpeg?width=640&crop=smart&auto=webp&s=b58e1b8887d0c833cd3adbb7799c133f4910d933",
+        "description": "submitted by /u/etailmarket [link] [comments]",
+        "id_in_db": "t3_1qz46yg",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "49% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/etailmarket [لینک] [نظر]"
+    },
+    {
         "title": "exiled giveaways and itchio mega threads",
         "store": "other",
         "url": "https://www.reddit.com/r/FreeGameFindings/comments/1qu2ej8/exiled_giveaways_and_itchio_mega_threads/",
@@ -476,7 +489,7 @@
         "title": "free relaxing color hue sorting based on the munsell test",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/colorhueiq/id6758524857ColorHueIQ",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/c3/21/95/c321952f-422b-7090-9ce9-128122845254/AppIcon-1x_U007emarketing-0-7-85-220.png/512x512bb.jpg",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/24/88/70/24887089-05c9-dd08-5a4b-ba93c85b11f0/AppIconiOS18-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
         "description": "Hey Everyone! I want to share a project I just finished called ColorHueIQ. I have always really liked the Munsell test and found the process of sorting colors to be very relaxing. I wanted a way to have that experience on my phone so I built this. The app is focused on color perception and gradient accuracy. It is a puzzle game where you arrange tiles to create a perfect chromatic transition. While there are timers to track your best solves and a scoring system for accuracy, I kept the interface very clean and distraction free because I wanted to maintain a satisfying feeling. Some of the key features include: Multiple Game Modes: You can play a linear classic mode, a pyramid chaos mode, or a large 8x8 square grid. Smart Analysis: The app analyzes your gameplay to tell you exactly which specific hues you struggle with. Statistics: There is a dashboard to track your best times and highest scores for every mode. I am looking for some feedback on the UI and the overall feel of the sorting. I have a Google Sheet here with some free promo codes if you want to check it out. Please just mark them as used in the sheet so others know which ones are gone. Here are a bunch of free codes to use up below! Thank you all for having a look! https://www.promies.net/promotion/0880c82f-a697-43da-9acb-0a4c48aae854/ submitted by /u/paulishuku [link] [comments]",
         "id_in_db": "t3_1qyl55e",
         "subreddit": "AppHookup",
@@ -785,19 +798,6 @@
         "persian_summary": "ارسال شده توسط /u/TheDealMage [پیوند] [نظر]"
     },
     {
-        "title": "playsum artis impact 1261 1075 975 c1659 a1795 r3492 with code cheers",
-        "store": "other",
-        "url": "https://store.playsum.live/product/a38bf4db-605d-4c0b-a11b-ad3b281f31b3/artis-impact",
-        "image_url": "https://external-preview.redd.it/iYc4t_-daf6fz6FPZECx6vNwz5ynzczUmrgBdzaBh6s.jpeg?width=320&crop=smart&auto=webp&s=8bbf61ee882e7b3f6f508b836604a219c38859a8",
-        "description": "submitted by /u/Lets_Playsum [link] [comments]",
-        "id_in_db": "t3_1qw9g72",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "34% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/Lets_Playsum [لینک] [نظر]"
-    },
-    {
         "title": "poster puzzles",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/poster-puzzles/id1522837681",
@@ -848,6 +848,19 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/PM_ME_FREEGAMES [پیوند] [نظر]"
+    },
+    {
+        "title": "sector zero till 17th february",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/2352050/SECTOR_ZERO/",
+        "image_url": "https://external-preview.redd.it/M5EoSe7o96YWXI5b9wzh4Vc3fYwV_d09KLAJ8NEtBZ4.jpeg?width=320&crop=smart&auto=webp&s=34e5e42608582e068e1c452be995f5bd38f0a5c4",
+        "description": "submitted by /u/Simple_Ghost [link] [comments]",
+        "id_in_db": "t3_1qzbl5v",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "10% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/Simple_Ghost [لینک] [نظر]"
     },
     {
         "title": "steamepic endless space 2",
@@ -1046,7 +1059,7 @@
         "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": "100% Off",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9a/a8/fd/9aa8fdfe-f009-2291-e29b-cc53101cbff8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/e0/66/28e0663a-693d-56bf-a0f3-819c080671e2/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
         "is_dlc_or_addon": false,
         "persian_summary": "",
         "description": ""
@@ -1084,19 +1097,6 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "برای انجام ارتقای نسخه حرفه ای رایگان این مراحل را دنبال کنید: به وب سایت بروید ( https://www.monsterwriter.com/ ) نسخه دسکتاپ برنامه را دانلود کنید (از وب سایت، نه فروشگاه برنامه mac) برنامه را شروع کنید ایجاد یک سند جدید روی «پیش نمایش و صادرات» کلیک کنید روی ارتقا کلیک کنید. این تخفیف فقط برای نسخه دسکتاپ اعمال می شود. نه نسخه SaaS/Browser. ارسال شده توسط /u/WolfOliver [پیوند] [نظر]"
-    },
-    {
-        "title": "xbox 2d car parking master free100 off",
-        "store": "xbox",
-        "url": "https://www.xbox.com/en-us/games/store/2d-car-parking-master/9p9gvn8mr4ms",
-        "image_url": null,
-        "description": "submitted by /u/Cebuc23 [link] [comments]",
-        "id_in_db": "t3_1qwlplv",
-        "subreddit": "GameDeals",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/Cebuc23 [پیوند] [نظر]"
     },
     {
         "title": "xbox membership xbox gamepass premium",
