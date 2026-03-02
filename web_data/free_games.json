@@ -10,7 +10,7 @@
         "is_free": false,
         "discount_text": "Discount",
         "is_dlc_or_addon": false,
-        "persian_summary": "سلام 👋 من در حال ساختن Stillroom بودم، یک برنامه ژورنال شخصی برای iOS/iPad، و می‌خواستم آن را در اینجا به اشتراک بگذارم، زیرا این انجمن دقیقاً به آنچه من اهمیت می‌دهم اهمیت می‌دهد - مزخرف نیست. چیزی که من را به ساختن آن سوق داد: اکثر برنامه های ژورنال امروزی از شما می خواهند قبل از نوشتن یک کلمه یک حساب کاربری ایجاد کنید. که همیشه به من احساس عقب افتادگی می داد. ژورنال خصوصی ترین چیزی است که می توانید داشته باشید. چرا باید یک سرور در جایی بداند که وجود دارد؟ بنابراین Stillroom چگونه کار می کند: بدون حساب، بدون ثبت نام - برنامه را باز می کنید و تازه شروع به نوشتن می کنید. همین است. همه چیز در دستگاه شما باقی می ماند - ورودی ها به طور پیش فرض به صورت محلی ذخیره می شوند. هیچ چیز به جایی نمی رسد. همگام‌سازی اختیاری iCloud - اگر می‌خواهید ژورنال خود را در چندین دستگاه اپل قرار دهید، می‌توانید آن را روشن کنید. کاملاً انتخاب شما، می تواند در هر زمان خاموش شود. شناسه چهره / قفل رمز عبور - دفترچه یادداشت شما به تنهایی متعلق به شماست، حتی اگر کسی تلفن شما را بردارد. عکس‌ها و یادداشت‌های صوتی - گاهی اوقات کلمات کافی نیستند. صادرات PDF - نوشته شما، در دستان شما، در قالبی که شما..."
+        "persian_summary": "سلام 👋 من در حال ساختن Stillroom بودم، یک برنامه ژورنال شخصی برای iOS/iPad، و می‌خواستم آن را در اینجا به اشتراک بگذارم، زیرا این انجمن دقیقاً به آنچه من اهمیت می‌دهم اهمیت می‌دهد - مزخرف نیست. چیزی که من را به ساختن آن سوق داد: اکثر برنامه های ژورنال امروزی از شما می خواهند قبل از نوشتن یک کلمه یک حساب کاربری ایجاد کنید. که همیشه به من احساس عقب افتادگی می داد. ژورنال خصوصی ترین چیزی است که می توانید داشته باشید. چرا باید یک سرور در جایی بداند که وجود دارد؟ بنابراین Stillroom چگونه کار می کند: بدون حساب، بدون ثبت نام - برنامه را باز می کنید و تازه شروع به نوشتن می کنید. همین. همه چیز در دستگاه شما باقی می ماند - ورودی ها به طور پیش فرض به صورت محلی ذخیره می شوند. هیچ چیز به جایی نمی رسد. همگام‌سازی اختیاری iCloud - اگر می‌خواهید ژورنال خود را در چندین دستگاه اپل قرار دهید، می‌توانید آن را روشن کنید. کاملاً انتخاب شما، می تواند در هر زمان خاموش شود. شناسه چهره / قفل رمز عبور - دفترچه یادداشت شما به تنهایی متعلق به شماست، حتی اگر کسی تلفن شما را بردارد. عکس‌ها و یادداشت‌های صوتی - گاهی اوقات کلمات کافی نیستند. صادرات PDF - نوشته شما، در دستان شما، در قالبی که شما..."
     },
     {
         "title": "49948hrs onlycreate your perfect soundscape 20 rain sounds sleep timer 100 offline private",
@@ -77,7 +77,7 @@
         "title": "allyouplay nested lands 1045 1205 eu us",
         "store": "other",
         "url": "https://www.allyouplay.com/pc/nested-lands",
-        "image_url": "https://gaming-cdn.com/images/products/21893/616x353/nested-lands-pc-steam-cover.jpg?v=1772008341",
+        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2553040/04dcabcb455aaa6bc32f2be7f791877e8abb2c15/capsule_616x353.jpg?t=1772038951",
         "description": "submitted by /u/AllYouPlay [link] [comments]",
         "id_in_db": "t3_1rf31dt",
         "subreddit": "GameDeals",
@@ -90,7 +90,7 @@
         "title": "apps wardrobe manager premium 399",
         "store": "googleplay",
         "url": "https://www.reddit.com/r/googleplaydeals/comments/1rfeb9r/apps_wardrobe_manager_premium_399_free/",
-        "image_url": "https://images.squarespace-cdn.com/content/v1/6321094c82fde37e691eb3f2/9c88b41c-0eb4-4e51-9ea8-78aa285402fc/pureple-wardrobe-app.jpg",
+        "image_url": "https://imageio.forbes.com/specials-images/imageserve/69a0f822051f9750a45b4f66/The-Two-Masters-DLC-for-Ninja-Gaiden-4/0x0.png?height=399&width=480&fit=bounds",
         "description": "https://play.google.com/store/apps/details?id=com.virtualwardrobe.manager&pcampaignid=web_share Write prive to get free premium forever submitted by /u/Fit_Salt_9167 [link] [comments]",
         "id_in_db": "t3_1rfeb9r",
         "subreddit": "googleplaydeals",
@@ -150,27 +150,6 @@
         "is_dlc_or_addon": false,
         "subreddit": "FreeGameFindings",
         "persian_summary": "وارد قلمرویی شوید که به دو قسمت تقسیم شده است... ... بین واقعیت و خاطرات تقسیم شده است، تکه های شکسته آن پنجره هایی بین دنیاها باقی می گذارند. کسانی که قدرت حرکت بین آنها را دارند با هیولاهای سایه روبرو می شوند، پازل های فریبنده را حل می کنند و توانایی های جدیدی را به دست می آورند. با خاطره مقابله کنید و تکه های گذشته را به سرنوشتی درخشان تبدیل کنید. ویژگی ها: راه رفتن بین دنیاها: از قدرت جادویی خود برای عبور از مرز بین واقعیت و حافظه استفاده کنید. The Fragments: پنجره های شکسته که اجازه عبور و گسترش نفوذ خود را می دهد. The Wretched: دشمنان سایه ای که شما را در قلمروها تعقیب می کنند. سطوح جوی: ترکیبی از پلتفرم کردن تحت فشار، دشمنان منحصر به فرد و محیط مالیخولیایی. توانایی های خم شدن واقعیت: باز کردن مسیرها و امکانات جدید، به شما اجازه می دهد خود جهان را تغییر دهید. Fluid Beauty: دنیایی که با دست ترسیم و متحرک شده است، با جزئیات فراوان در حالت ساکن و در حال حرکت."
-    },
-    {
-        "title": "brother save him",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/1286560/BROTHER_Save_him__Hardcore_Platformer/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1286560/header.jpg?t=1771665550",
-        "description": "The legendary game is now on Steam! Can you prove that you are a good player, go through a difficult path and save your brother? This challenge is not for wimps! BROTHER!!! - this is a hardcore 2D-platformer in retro style (pixel). You are the magician Ben , your brother Jarl got into trouble. Evil has invaded! He can't win alone! Key Features: interesting, addictive and fun gameplay more than 20 levels formidable bosses the ideal control of the player many traps and enemies beautiful pixel graphics gamepad support great music Steam achievements",
-        "id_in_db": "t3_1r96bhz",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "1286560",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Indie"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "بازی افسانه ای هم اکنون در استیم است! آیا می توانید ثابت کنید که بازیکن خوبی هستید، مسیر دشواری را طی کنید و برادرتان را نجات دهید؟ این چالش برای وحشی ها نیست! برادر!!! - این یک پلتفرم 2 بعدی هاردکور در سبک یکپارچهسازی با سیستمعامل (پیکسل) است. تو جادوگر بن هستی، برادرت جارل دچار مشکل شد. شیطان هجوم آورده است! او به تنهایی نمی تواند برنده شود! ویژگی‌های کلیدی: گیم‌پلی جالب، اعتیادآور و سرگرم‌کننده بیش از 20 سطح، کارفرمایان قدرتمند، کنترل ایده‌آل بازیکن تله‌ها و دشمنان بسیار زیبا با گرافیک پیکسلی زیبا، پشتیبانی از موسیقی عالی دستاوردهای Steam"
     },
     {
         "title": "calorie counter",
@@ -318,7 +297,7 @@
         "title": "easy step counter 099",
         "store": "googleplay",
         "url": "https://www.reddit.com/r/googleplaydeals/comments/1rgfbhp/apps_on_foot_easy_step_counter_099_free/",
-        "image_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=600295059313288",
+        "image_url": "https://cdn-0001.qstv.on.epicgames.com/wncCBHnSfvsTUkejOJ/image/landscape_comp.jpeg",
         "description": "Hi everyone, I’m the developer of On Foot. I recently released the app and wanted to run a 3-day promotion to get some initial feedback and help more people track their activity. About the app: On Foot is a lightweight, privacy-focused step counter designed to be clear and straightforward. No account is required—it just works right out of the box to help you hit your daily walking goals. If you find it useful, a review on the Play Store would mean a lot! Play Store Link: https://play.google.com/store/apps/details?id=com.avibortnick.walkthisway submitted by /u/Shadowpooch123 [link] [comments]",
         "id_in_db": "t3_1rgfbhp",
         "subreddit": "googleplaydeals",
@@ -373,6 +352,19 @@
         "is_free": false,
         "discount_text": "39% off",
         "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/etailmarket [لینک] [نظر]"
+    },
+    {
+        "title": "etailmarket lego harry potter collection 86 off 573",
+        "store": "other",
+        "url": "https://etail.market/lego-harry-potter-collection-258",
+        "image_url": "https://external-preview.redd.it/ClPlMYyBicfmGYTsQeGS7COjhFRvSCtAz8ofJzlwHLw.jpeg?width=640&crop=smart&auto=webp&s=55d9d13917ec42c8466305582d0fe076bee24186",
+        "description": "submitted by /u/etailmarket [link] [comments]",
+        "id_in_db": "t3_1ri315k",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "86% off",
+        "is_dlc_or_addon": true,
         "persian_summary": "ارسال شده توسط /u/etailmarket [لینک] [نظر]"
     },
     {
@@ -709,6 +701,27 @@
         "persian_summary": "این جایی است که شما شخصیت خود را از نمای سوم شخص بالا به پایین کنترل می کنید و شخصیت در فاصله کافی به سمت دشمنان شلیک می کند. در این شهر، بازیکن می تواند با فاصله کافی به سمت دشمن حرکت کند، اسلحه به صورت خودکار به نزدیکترین دشمن شلیک می کند. در آنجا صد ماموریت باید به پایان برسد. سعی کنید تمام ماموریت ها را تکمیل کنید ویژگی های بیشتر ده نقشه عبارتند از: خیابان، پل، جاده بلند، پشت بام، باغ، ساختمان، چهارراه، پارکینگ، راهرو، بالای خانه دارای پنج نوع اسلحه و شخصیت پول و سیستم ارتقاء تجربه"
     },
     {
+        "title": "lawnmower game ufo chase 2",
+        "store": "other",
+        "url": "https://gleam.io/ZmDYr/free-x2500-lawnmower-game-ufo-chase-2-steam-keys",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4325740/83d59a7b7314bcb56c5195cf66f1e0fcd1205913/header.jpg?t=1769846828",
+        "description": "Game story: Lawnmower ufo chase is back in this second part of racing and survival series. Player’s mission is agaib to avoid UFO and cut grass. UFO is very well armed!! Ufo has 3 weapons: Laser, Rockets and following laser barrier. Levels also contain different objects to avoid like rotating objects. More grass you cut at every level, more stars you earn. If you just drive and not cut you earn 0-1 star and if you are good cutter you earn 2-3 stars. Player need enough stars to unlock new levels. If UFO hits you? You need to restart level! Different themed levels like levels with cars, food stuff like donuts, also several rotating and moving platforms which player lawnmower guy need avoid. So be fast grass cutter and avoid UFO!!!!!!!! Features:: - 20 levels Unlocked level system - Collectable/grass to cut. Star system, more stars more you unlock levels: 3 stars: cut 90% of grass in every level 2 stars: cut 80% of grass in every level 1 stars: cut 33% of grass in every level 0 stars: cut under 33% of grass - Enemy UFO with 3 different weapons: Rockets, Following laser and following laser barrier - Different obstacles, like cars, donuts, fences, rotating objects - Unlocked level system. Cut more grass at levels and earn more stars to unlock more levels So be true hero cut grass and finish all levels Steam achievement by unlocking new levels",
+        "id_in_db": "t3_1rigep3",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "4325740",
+        "genres": [
+            "Adventure",
+            "Indie",
+            "Racing"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "is_dlc_or_addon": false,
+        "persian_summary": "داستان بازی: چمن زنی بشقاب پرنده چمن زنی در این قسمت دوم از سری مسابقه و بقا بازگشته است. ماموریت بازیکن اجتناب از بشقاب پرنده و بریدن چمن است. بشقاب پرنده بسیار خوب مسلح است!! Ufo دارای 3 سلاح است: لیزر، موشک و مانع لیزری زیر. سطوح همچنین شامل اشیاء مختلف برای اجتناب از مانند اشیاء در حال چرخش است. علف بیشتری در هر سطح می برید، ستاره های بیشتری کسب می کنید. اگر فقط رانندگی می‌کنید و کوتاه نمی‌کنید، 0-1 ستاره کسب می‌کنید و اگر کاتر خوبی هستید، 2-3 ستاره کسب می‌کنید. بازیکن برای باز کردن سطوح جدید به ستاره های کافی نیاز دارد. اگر بشقاب پرنده به شما برخورد کند؟ شما باید سطح را دوباره راه اندازی کنید! سطوح مختلف با مضمون مانند سطوح با ماشین، مواد غذایی مانند دونات، همچنین چندین پلت فرم چرخشی و متحرک که بازیکن چمن زنی باید از آنها اجتناب کند. پس سریع چمن‌بر باشید و از بشقاب پرنده پرهیز کنید!!!!!!!! ویژگی ها: - 20 سطح سیستم سطح باز - قابل جمع آوری / چمن برای برش. سیستم ستاره‌ای، ستاره‌های بیشتر شما سطوح را باز می‌کنید: 3 ستاره: برش 90 درصد چمن در هر سطح 2 ستاره: برش 80 درصد چمن در هر سطح 1 ستاره: 33 درصد چمن را در هر سطح برش دهید 0 ستاره:..."
+    },
+    {
         "title": "lost fragments 100 off free",
         "store": "epicgames",
         "url": "https://store.epicgames.com/en-US/free-games",
@@ -733,7 +746,7 @@
         "title": "lost fragments ca1699 free as a legendary thief your next assignment lures you into a grand and lavish mansion",
         "store": "other",
         "url": "https://www.reddit.com/r/AppHookup/comments/1rfe7ae/multiplatform_boxes_lost_fragments_ca1699_free_as/",
-        "image_url": "https://ladiesgamers.com/wp-content/uploads/2026/02/KeyArt_ladiesgamers_840x360.png",
+        "image_url": "https://ladiesgamers.com/wp-content/uploads/2024/01/img_5192-1.jpg",
         "description": "https://store.epicgames.com/en-US/p/boxes-lost-fragments-079041 https://store.epicgames.com/p/boxes-lost-fragments-android-356638 https://store.epicgames.com/p/boxes-lost-fragments-ios-07172e As a legendary thief, your next assignment lures you into a grand and lavish mansion. There you find a series of puzzle boxes, designed for an unknown purpose. What should have been a quick in-and-out, gradually turns into your own harrowing struggle for freedom and answers. submitted by /u/PM_ME_FREEGAMES [link] [comments]",
         "id_in_db": "t3_1rfe7ae",
         "subreddit": "AppHookup",
@@ -846,7 +859,7 @@
         "is_multiplayer": false,
         "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "Neon Phonk Robots یک بازی برای آشنایان واقعی Phonk و زیبایی شناسی آن است. در فضای پویا این موسیقی غوطه ور شوید، از نور نئون روشن لذت ببرید و ربات های بیشتری را منفجر کنید! خرید پهپاد می توانید ربات های مسلح بخرید! گروهی از همراهان مکانیکی خود را جمع آوری کنید. دوست داری پاره کنی و پرت کنی؟ جمعیتی از طوفان‌بازان ایجاد کنید! آیا ترجیح می دهید دشمنان را از راه دور نابود کنید؟ انبوهی از ربات های دوربرد در این امر به شما کمک می کنند! آیا خود را باهوش‌تر از دیگران می‌دانید و می‌خواهید یک تیم متعادل بسازید؟ همانطور که دلت می خواهد! انواع سلاح ها می توانید اسلحه های جدید بخرید! از منفجر کردن ربات ها با مسلسل خسته شده اید؟ یک تفنگ بخر! و سپس توپ اسید، و چند مسلسل وجود دارد! و برو روبات ها را منفجر کن! گرفتن و تقویت نقاط می توانید امتیاز بگیرید و برجک بخرید! آیا نقطه ای را ثبت کرده اید؟ آفرین، و حالا یک برجک نئونی سالم روی آن نصب کنید! تا همه بدانند که این حرف شماست و آن را به کسی نمی دهید!..."
+        "persian_summary": "Neon Phonk Robots یک بازی برای آشنایان واقعی Phonk و زیبایی شناسی آن است. در فضای پویا این موسیقی غوطه ور شوید، از نور نئون روشن لذت ببرید و ربات های بیشتری را منفجر کنید! خرید پهپاد می توانید ربات های مسلح بخرید! گروهی از همراهان مکانیکی خود را جمع آوری کنید. آیا دوست دارید پاره کنید و پرتاب کنید؟ جمعیتی از طوفان‌بازان ایجاد کنید! آیا ترجیح می دهید دشمنان را از راه دور نابود کنید؟ انبوهی از ربات های دوربرد در این امر به شما کمک می کنند! آیا خود را باهوش‌تر از دیگران می‌دانید و می‌خواهید یک تیم متعادل بسازید؟ همانطور که دلت می خواهد! انواع سلاح ها می توانید اسلحه های جدید بخرید! از منفجر کردن ربات ها با مسلسل خسته شده اید؟ یک تفنگ بخر! و سپس توپ اسید، و چند مسلسل وجود دارد! و برو روبات ها را منفجر کن! گرفتن و تقویت نقاط می توانید امتیاز بگیرید و برجک بخرید! آیا نقطه ای را ثبت کرده اید؟ آفرین، و حالا یک برجک نئونی سالم روی آن نصب کنید! تا همه بدانند که این حرف شماست و آن را به کسی نمی دهید!..."
     },
     {
         "title": "nobody wants to die ca3449 free detective james karra who risks it all in pursuit of a serial killer targeting the citys elite",
@@ -886,7 +899,7 @@
         "is_multiplayer": true,
         "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "به عصر ششم جیلینور سفر کنید و دنیایی فانتزی عمیق با افسانه و افسانه را کشف کنید. مردم جیلینور ممکن است در حال شکوفایی باشند، اما خدایان بزرگ هنوز نقشه می کشند. ابرها تاریک می شوند و جنگ در پیش است. 19 سال در حال ساخت یک دنیای آنلاین فانتزی را تجربه کنید. این به شما بستگی دارد. آیا با دوستانتان دنیا را کاوش خواهید کرد یا به عنوان یک ماجراجوی تنها به دنبال شهرت و ثروت خود خواهید بود؟ چه درگیر ماموریت های جسورانه باشید، چه بی سر و صدا به مزرعه خود رسیدگی کنید، همه آن را در برابر یک رئیس سطح بالا به خطر بیندازید یا یک شب را در سیرک سپری کنید، RuneScape بازی عالی در صفحه دوم است. همانطور که می خواهید بازی کنید - انتخاب با شماست. چه نوع قهرمانی خواهید بود؟ با جهانی که 19 سال باورنکردنی در حال رشد بوده است، RuneScape همچنان به هیجان بازیکنان با ماجراجویی‌هایی که شبیه هیچ‌کدام از دیگران نیست، ادامه می‌دهد. با 270 میلیون نصب و قابلیت پخش متقابل روی رایانه شخصی و موبایل، به صدها میلیون نفری بپیوندید که دنیای خارق العاده و عرفانی Gielinor را کاوش کرده اند. دوست – و شاید گاهی دشمن – با یک..."
+        "persian_summary": "به عصر ششم جیلینور سفر کنید و دنیایی فانتزی عمیق با افسانه و افسانه را کشف کنید. مردم جیلینور ممکن است در حال شکوفایی باشند، اما خدایان بزرگ هنوز نقشه می کشند. ابرها تاریک می شوند و جنگ در حال رخ دادن است. 19 سال در حال ساخت یک دنیای آنلاین فانتزی را تجربه کنید. این به شما بستگی دارد. آیا با دوستانتان دنیا را کاوش خواهید کرد یا به عنوان یک ماجراجوی تنها به دنبال شهرت و ثروت خود خواهید بود؟ چه درگیر ماموریت های جسورانه باشید، چه بی سر و صدا به مزرعه خود رسیدگی کنید، همه آن را در برابر یک رئیس سطح بالا به خطر بیندازید یا یک شب را در سیرک سپری کنید، RuneScape بازی عالی در صفحه دوم است. همانطور که می خواهید بازی کنید - انتخاب با شماست. چه نوع قهرمانی خواهید بود؟ با جهانی که 19 سال باورنکردنی در حال رشد بوده است، RuneScape همچنان به هیجان بازیکنان با ماجراجویی‌هایی که شبیه هیچ‌کدام از دیگران نیست، ادامه می‌دهد. با 270 میلیون نصب و قابلیت پخش متقابل روی رایانه شخصی و موبایل، به صدها میلیون نفری بپیوندید که دنیای خارق العاده و عرفانی Gielinor را کاوش کرده اند. دوست – و شاید گاهی دشمن – با یک..."
     },
     {
         "title": "platform residual ca599 free outer space pixel survival exploration game",
@@ -900,19 +913,6 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "https://store.epicgames.com/en-US/p/residual-android-eef593 https://store.epicgames.com/en-US/p/residual-ios-0e5d52 یک کهکشان فراموش شده پر از سیارات مختلف را کاوش کنید، به اعماق سیاره بپردازید تا منابع راز و اقلام کمیاب خود را کشف کنید، کشتی ها و اقلام مخفی خود را کشف کنید. این یک بازی اکتشافی (بقا) است که شبیه هیچ بازی دیگری نیست. ماجراجویی در انتظار است! ارسال شده توسط /u/PM_ME_FREEGAMES [پیوند] [نظر]"
-    },
-    {
-        "title": "playsum car mechanic simulator 2021 1038 881 766 c1417 a1458 r3037 with code cheers",
-        "store": "other",
-        "url": "https://store.playsum.live/product/23698c08-bb49-4330-a410-2363fd08ce2b/car-mechanic-simulator-2021",
-        "image_url": "https://external-preview.redd.it/uVsXHpLWTOvb4TV8q6LoIA2KBlD-ScFmXSyxWE8t7qk.jpeg?width=320&crop=smart&auto=webp&s=1dd951cc868a03bdf4d798a769b4fd090abcb8a3",
-        "description": "submitted by /u/Lets_Playsum [link] [comments]",
-        "id_in_db": "t3_1rexsik",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "58% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/Lets_Playsum [لینک] [نظر]"
     },
     {
         "title": "playsum rain world 964 775 709 c1303 a1352 r2829 with code cheers",
@@ -931,7 +931,7 @@
         "title": "ps skullpirates",
         "store": "playstation",
         "url": "https://store.playstation.com/en-gb/concept/10000917",
-        "image_url": "https://i.kickstarter.com/assets/019/329/377/ff11c5de5b52e5abb6705a4fb479458c_original.png?anim=false&fit=cover&gravity=auto&height=873&origin=ugc&q=92&v=1512311129&width=1552&sig=KdO9bBONrbMis1HO2IydkPGsZZrxNC3emy8iDt51pII%3D",
+        "image_url": "https://image.api.playstation.com/vulcan/ap/rnd/202312/2008/1990c23e7916af5e76d4383f2df76f28ae7b719183f1412a.jpg",
         "description": "submitted by /u/MeguminShiro [link] [comments]",
         "id_in_db": "t3_1rh69wi",
         "subreddit": "FreeGameFindings",
@@ -944,7 +944,7 @@
         "title": "psa wargaming publisher sale 2026",
         "store": "other",
         "url": "https://www.reddit.com/r/FreeGameFindings/comments/1r974wf/psa_wargaming_publisher_sale_2026_animated_avatar/",
-        "image_url": "https://clan.fastly.steamstatic.com/images/32977250/ca9e49bcc87340205bd9626e803a2b3f730bfe4f.jpg",
+        "image_url": "https://i.ytimg.com/vi/oqqEh9hpmHw/maxresdefault.jpg",
         "description": "Free 6 Steam Items Watch 5~15 min Broadcast #1 ／ #2 (In case if any of them doesn't work) to get free Steam Items Animated Avatar｜WOWS Steam-chan avatar Mini Profile Background｜ Wargaming Publisher Sale 2026 WOWS: Publisher Sale 2026 Profile Background｜ Super Blitz Wargaming Publisher Sale 2026 WOWS: Publisher Sale 2026 Free 4 DLCs World of Tanks Blitz - Smart Progress Pack World of Tanks — Kimono Pack World of Warships — Publisher Sale Gift World of Warplanes - Swift Takeoff Pack 💻 For ASF (ArchiSteamFarm) Users !ALA s/1486638, s/1494732, s/1491438, s/1495347 submitted by /u/MeguminShiro [link] [comments]",
         "id_in_db": "t3_1r974wf",
         "subreddit": "FreeGameFindings",
@@ -954,31 +954,33 @@
         "persian_summary": "6 مورد رایگان استیم را تماشا کنید پخش 5 تا 15 دقیقه شماره 1 ／ شماره 2 (در صورتی که هر یک از آنها کار نمی کند) برای دریافت آواتار متحرک Steam Items رایگان｜پس زمینه نمایه کوچک آواتار Steam-chan WOWS｜ فروش ناشر Wargaming 2026 WOWS: Super2026 Sale ناشر فروش ناشر 2026 WOWS: فروش ناشر 2026 رایگان 4 DLC World of Tanks Blitz - Smart Progress Pack World of Tanks — Kimono Pack World of Warships — Publisher Sale Gift World of Warplanes - Swift Takeoff Pack 💻 For ASF (Archip) s/1486638, s/1494732, s/1491438, s/1495347 ارسال شده توسط /u/MeguminShiro [لینک] [نظرات]"
     },
     {
-        "title": "rate candidate launch deal",
+        "title": "rollbound 25 off 299",
         "store": "steam",
-        "url": "https://store.steampowered.com/app/2916480/Cat_President_3rdRate_Candidate/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881040/header.jpg?t=1769613114",
-        "description": "🐛Bug Academy is a crazy action game in which you control a swarm of cute, little insects and try to guide them through a series of lessons and exercises. Break through walls while delivering fridges, send rockets into space using mosquitoes and chili sauce, or catch ghosts with a vacuum cleaner. Finish all the lessons and pass the final exam to become Bug Academy graduate! More Than 30 Lessons delivering fridges herding cows building towers working in mines catching ghosts stealing diamonds launching rockets painting pictures fire fighting delivering pizzas special military operations and many more... 4 Types Of Bugs Flies. They are small in size, but large in numbers. They have large eyes and small noses. Working together they can grab almost anything. Fireflies. Thanks to their butts, glowing in all the colors of the rainbow, they can illuminate even the darkest places. That makes them perfect candidates for working in dark environments, like mines, haunted houses and even space stations. Mosquitoes. They are like little flying balloons, that can drink and then spit any liquid. Depending on what they drank different things can happen. With water they can put out fires, with paint they can paint, and with chilli sauce they get a lot of thrust. Bees. They are led by their beloved Queen. They are devoted, hardworking and will do everything that the Queen commands - pop up balloons, sneak into a heavily guarded building and even protect diamonds from space thieving cows! Crazy Humor Have you ever seen flies delivering a fridge to the 4th floor? Or a rocket being launched into space by group of mosquitoes filled with chilli sauce? Or a swarm of bees dancing to the music? We have, and it's hilarious! Lots of crazy scenarios, tons of unpredictability, and a great deal of joyful chaos. Colorful and Vivid Graphics All the places you'll fly through are little dioramas crafted with care. There are levers made from matches, trees made from clay, grass made from wool and walls made from cardboard! Amazing Music More than a dozen different songs were played personally by our insect students on their tiny instruments. Just listen to the song in the trailer! Challenges Get up to 3 stars for each lesson. Get special achievements and compete with other players on global leaderboards. Fight for the title of the best graduate of the Bug Academy! Hats Get stars depending on how well you perform on each lesson. Use these stars to unlock special hats and customize your bugs.",
-        "id_in_db": "t3_1reoykg",
+        "url": "https://store.steampowered.com/app/4073190/Rollbound",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/721300/header.jpg?t=1509087790",
+        "description": "You wake up in pitch black darkness. You know not where you are. You know not who you are. And they’re trying to kill you... Imagine a horror novel where you get to make the choices and decide how the story plays out: Welcome to American Angst , a text-based multiple-choice survival horror interactive fiction, combining RPG elements and turn-based combat with dark humor and satire. A choice-based game slash novel, you try to escape from an underground prison complex – all the while suffering from amnesia, fighting off guards seeking your death, and slowly unravelling the mystery that brought you to this place, as you traverse the thin line between survival and revenge… What American Angst IS NOT: made with Unity made with Unreal an online multiplayer first-person shooter with amazing graphics and audio full of micro-transactions What American Angst IS: a playable horror novel (you'll have to read) driven by your imagination full of dark humor and satire in a fully fleshed-out dystopian world in the not so far future (you will watch TV and read a newspaper) Created with Twine by M3G1DD0 aka Misha Verollet (@m3g1dd0 on Twitter), American Angst is an interactive fiction in the vein of Choose your own Adventure and Fighting Fantasy games. The Steam Deluxe Edition comes with bonus content not available in the vanilla edition: An exclusive short story epilogue and two mini games set in the American Angst universe! Five distinct endings plus variations: Even minor decisions impact the narrative Replay value: The full story unfolds through the different endings Monitor your stats: Health, panic status, inventory, weapons, ... Turn-based Combat System Autosave and Checkpoints Text-based, no graphics or sound effects: Your imagination is your best friend and worst enemy Warning: Graphic Violence, Explicit Language, Dark Humor, Gore 70k words Approx. 45 - 60 minutes of estimated play time (depending on your pace and choices you make) Steam Deluxe Edition This edition comes with bonus content exclusive to Steam: The Main Game in the Vanilla Edition is identical to the Steam Deluxe Edition. \"Murderbook\" is a short story epilogue that expands on what happens in the game. The Mini Games take place in the American Angst universe and won't be released separately: Arkwright House is a short haunted house game, Kasey's War is a short and snappy text-based shooter. Why should I buy your game here when I can get a cheaper version somewhere else? Valid question. Here are two and a half arguments for spending $2.99 on American Angst: 1) You would like to access the bonus content that comes with the Steam Deluxe Edition 2) You would like to support me, the author of this game. I hope $2.99 isn't too much of a risk to take – you'd be buying me a cup of coffee or a snack for our dog. 2.5) American Angst will be released on Steam first , ahead of other market places. You'll be an early adopter and will be able to tell your friends you already played American Angst when it wasn't cool yet. How about that for an incentive, right?",
+        "id_in_db": "t3_1ri9d6u",
         "subreddit": "GameDeals",
         "is_free": false,
-        "discount_text": "10% off",
-        "steam_app_id": "881040",
+        "discount_text": "25% off",
+        "steam_app_id": "721300",
         "genres": [
-            "Action",
-            "Casual",
-            "Indie"
+            "Violent",
+            "Gore",
+            "Adventure",
+            "Indie",
+            "RPG"
         ],
         "is_multiplayer": false,
         "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "🐛باگ آکادمی یک بازی اکشن دیوانه کننده است که در آن شما گروهی از حشرات زیبا و کوچک را کنترل می کنید و سعی می کنید آنها را از طریق یک سری درس و تمرین راهنمایی کنید. هنگام تحویل یخچال، دیوارها را بشکنید، با استفاده از پشه و سس فلفل، موشک به فضا بفرستید یا با جاروبرقی ارواح را بگیرید. تمام درس ها را تمام کنید و امتحان نهایی را قبول کنید تا فارغ التحصیل Bug Academy شوید! بیش از 30 درس تحویل یخچال ها گله داری گاوها برج می سازند که در معادن کار می کنند و ارواح در حال سرقت الماس پرتاب موشک نقاشی تصاویر آتش نشانی تحویل پیتزا عملیات های نظامی ویژه و بسیاری دیگر... 4 نوع مگس حشرات. اندازه آنها کوچک است، اما تعداد آنها زیاد است. چشمان بزرگ و بینی کوچکی دارند. با هم کار کردن آنها می توانند تقریباً هر چیزی را بگیرند. کرم شب تاب. به لطف باسنشان که در تمام رنگ های رنگین کمان می درخشند، می توانند حتی تاریک ترین مکان ها را نیز روشن کنند. این باعث می شود آنها کاندیدای مناسبی برای کار در محیط های تاریک مانند معادن، خانه های خالی از سکنه و حتی فضا باشند."
+        "persian_summary": "شما در تاریکی سیاه از خواب بیدار می شوید. نمیدونی کجایی نمیدونی کی هستی و آنها در حال تلاش برای کشتن شما هستند... یک رمان ترسناک را تصور کنید که در آن می‌توانید انتخاب کنید و تصمیم بگیرید که داستان چگونه پیش می‌رود: به American Angst خوش آمدید، یک داستان تخیلی تعاملی ترسناک و چند گزینه‌ای مبتنی بر متن، ترکیبی از عناصر RPG و مبارزات نوبتی با طنز تاریک و طنز. یک رمان اسلش بازی مبتنی بر انتخاب، شما سعی می‌کنید از یک مجموعه زندان زیرزمینی فرار کنید - تمام این مدت از فراموشی رنج می‌برید، با نگهبان‌هایی که به دنبال مرگ شما هستند می‌جنگید، و به آرامی رازی را که شما را به این مکان می‌برد، کشف می‌کنید، در حالی که از خط باریک بین بقا و انتقام عبور می‌کنید... آنچه که ترس آمریکایی نیست: ساخته شده با بازی Unity و بازی چندگانه‌ای آنلاین. صوتی پر از تراکنش های کوچک What American Angst IS: یک رمان ترسناک قابل پخش (شما باید بخوانید) که توسط تخیل شما پر از طنز و طنز تاریک در یک داستان کاملاً روان ..."
     },
     {
         "title": "shrunk down tsundere conception with scolding fresh anechan",
         "store": "other",
         "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ109462.html",
-        "image_url": "https://img.itch.zone/aW1nLzY2NDkxODMucG5n/original/Rt3nje.png",
+        "image_url": "https://external-preview.redd.it/stove-game-black-academy-v0-B4fLQDmrTR38FdvHDOifSbRZbnxHhgjow2oLbsVnLYs.jpg?width=640&crop=smart&auto=webp&s=a4069cb72338b39da56eb2797dfa819329a9cbac",
         "description": "submitted by /u/MeguminShiro [link] [comments]",
         "id_in_db": "t3_1rh6e6r",
         "subreddit": "FreeGameFindings",
@@ -1082,6 +1084,29 @@
         "is_online": false,
         "is_dlc_or_addon": false,
         "persian_summary": "درباره Wayward Valley به Wayward Valley خوش آمدید، یک بازی RPG نوبتی نیمه ماسه‌باکس جذاب که ساختمان دهکده، مدیریت منابع و خزیدن در سیاهچال را در یک ماجراجویی حماسی ترکیب می‌کند. پس از اینکه یک مرگ ناگهانی شما را به دنیای جدید مرموز می برد، از هیچ شروع می کنید و در این سفر الهام گرفته از isekai، سرنوشت خود را رقم خواهید زد. دهکده خود را بسازید، سرنوشت خود را شکل دهید یک سکونتگاه فروتن را به شهری پر رونق در لبه پادشاهی تبدیل کنید. هر ساختمان، هر کارگاه و هر خانه ای باید با دستان خودتان با استفاده از منابع جمع آوری شده از طبیعت ساخته شود. همانطور که دهکده شما رشد می کند، NPC های جدیدی را جذب خواهید کرد – هر کدام با مهارت ها، نیازها و شخصیت های خاص خود. آنها را سیر، خوشحال و شاغل نگه دارید، در غیر این صورت در معرض خطر از دست دادن کارکنان باارزش سطح بالا هستید که در هنگام خروج، تخصص خود را با خود می برند. مزرعه، کاردستی، تسخیر، هنر جمع‌آوری منابع و صنایع دستی را در حین کاوش در بیابان خطرناک اطراف Wayward Valley به دست آورید. جمع آوری مواد، جعل تجهیزات قدرتمند و..."
+    },
+    {
+        "title": "wrath of mynah",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/3988190/Wrath_of_Mynah/?beta=1",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3988190/c0fa542debdee42abe6d15be14da0aae183a8225/header.jpg?t=1768782299",
+        "description": "Wrath of Mynah is a turn-based RPG adventure game that follows the gripping story of The Great Hanyem War. Hundreds of years after Mynah Smith arrived on Hanyem, you play as Pike Gilder, a petty thief who wants to make a difference in the everlasting fight against the tyrannical Indigallo Federation as they lose their grip over their territories. Join forces with a plethora of unique party members, such as Tusk, Liz Fureon, Deven Proditor, Rosie, Nova Acri, and Val Fortis! Collect items, armor and weapons! Uncover the deep history and lore of Hanyem and the human, felibrawno, and gisharen people. Eventually you will be prepared for the ultimate battle against the mysterious General Zed Aurum and King Mynah Smith IX! Controls: Arrow keys for movement Space or enter for selection Shift to dash and go back in menus X to open or close a menu Mouse also works for like everything if you feel like it Have fun, I hope you all enjoy exploring this world I've made. Made by BluWind Portraits by Sharkekei Cutscenes by MrWalrusTheGiraffe, Janaeither, and Javier 89 Javier Plugins by CardCaph, SRDude, and Mjshi Music by MrWalrusTheGiraffe, Axi, and Kacper Cieśluk Additional art by OMI and Sharkekei King Mynah Smith IX voiced by Albie Robles General Zed Aurum voiced by Oliver Hetherington Special thanks to AngelJar, Valkienyx, PermanX, Luckynumchris, JMcKennaStories, and Maya KL",
+        "id_in_db": "t3_1rhqavv",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "19% off",
+        "steam_app_id": "3988190",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Casual",
+            "Indie",
+            "RPG"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "is_dlc_or_addon": false,
+        "persian_summary": "Wrath of Mynah یک بازی ماجراجویی RPG مبتنی بر نوبت است که داستان جذاب جنگ بزرگ هانیم را دنبال می کند. صدها سال پس از ورود Mynah Smith به Hanyem، شما در نقش Pike Gilder بازی می کنید، یک دزد خرده پا که می خواهد در مبارزه ابدی علیه فدراسیون ظالم Indigallo که کنترل خود را بر قلمروهای خود از دست می دهند، تفاوت ایجاد کند. با تعداد زیادی از اعضای حزب منحصر به فرد، مانند تاسک، لیز فورون، دیون پرودیتور، رزی، نوا آکری و وال فورتیس به نیروها بپیوندید! جمع آوری اقلام، زره و سلاح! تاریخ عمیق و افسانه هانیم و مردمان انسان، فلیبرانو و گیشارن را کشف کنید. در نهایت شما برای نبرد نهایی علیه ژنرال اسرارآمیز Zed Aurum و پادشاه Mynah Smith IX آماده خواهید شد! کنترل‌ها: کلیدهای پیکان برای حرکت فاصله یا enter برای انتخاب Shift to dash و بازگشت به منوهای X برای باز کردن یا بستن یک منو، ماوس نیز مانند همه چیز کار می‌کند. ساخته شده توسط BluWind Portraits توسط ..."
     },
     {
         "title": "xbox prime backgammon",
