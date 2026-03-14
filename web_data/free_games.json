@@ -42,14 +42,23 @@
         "title": "alien grounds",
         "store": "steam",
         "url": "https://store.steampowered.com/app/3351550/Alien_Grounds/",
-        "image_url": "https://external-preview.redd.it/KorDEDfpenEMdWzD2vT7bPoLy23LghKdBnqHHB_zVyI.jpeg?width=320&crop=smart&auto=webp&s=6e33903cd5368c662c393d26ed7f458d5a533e50",
-        "description": "On April 9, the game will move to Full Release and switch from free to paid. This will help support long-term development, new content, and ongoing updates. If you already own the game - or get it before April 9 - you will keep it permanently for free. Quotes from December 12 post by dev on Steam. submitted by /u/Sea_Yak_6683 [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3351550/0367a80c016a6b1590ad0ea0c50e018056854cb3/header.jpg?t=1771978571",
+        "description": "Alien Grounds is a fast sci-fi FPS built around arena shooter battles against relentless enemy hordes - a clean, high-speed loop of short runs, escalating pressure, and mastery. It blends boomer shooter energy with a sci-fi setting and light roguelite structure - a solo indie action game focused on pure gameplay. Missions Each mission is a short run with its own score. Completed mission scores add to your Overall Score. Play the next mission, or replay to improve your result. Progress saves after each mission you complete. Enemies Runner - fast, light hits. Tank - slow, heavy hits. Shooter - keeps distance and fires. Phantom - appears out of nowhere. Weapons Pistol - Low damage, limited ammo. Automatic Rifle - Standard damage with recoil and spread. Ammo refills when low. Laser Gun - Standard damage with infinite energy and no recoil, but overheats if overused. Gravity Gun - Standard damage with infinite energy and no recoil, but speeds up the fight. Annihilator - Close-range panic button with a short recharge. Chem Gun - Poisons enemies. Kills trigger after enough enemies are poisoned. Freeze Gun - Area control tool that locks enemies in place. Slow recharge. Difficulty Levels Easy - Relaxed and forgiving. Learn the systems. Medium - The intended experience. Balance and precision matter. Hard - Deadlier enemies. Tight resources. Highest multipliers. Score Your Overall Score is ranked on two leaderboards: monthly and all-time. Get more score: Headshots Shoot fireballs Knock enemies off the map Use the gravity gun at high speed Use the pistol Avoid powerful weapons (chem gun, freeze gun, annihilator) Play higher missions and harder difficulty levels Just Play This FPS is built around clarity, speed, and mastery. Hit Play. Chase a better score.",
         "id_in_db": "t3_1rrlb53",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
+        "steam_app_id": "3351550",
+        "genres": [
+            "Action",
+            "Indie",
+            "Free To Play",
+            "Early Access"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "در 9 آوریل، بازی به نسخه کامل منتقل می شود و از رایگان به پولی تبدیل می شود. این به توسعه بلندمدت، محتوای جدید و به‌روزرسانی‌های مداوم کمک می‌کند. اگر قبلاً مالک بازی هستید - یا آن را قبل از 9 آوریل دریافت کنید - آن را به صورت دائمی و رایگان نگه خواهید داشت. نقل قول از پست 12 دسامبر توسط dev در استیم. ارسال شده توسط /u/Sea_Yak_6683 [لینک] [نظر]"
+        "persian_summary": "Alien Grounds یک FPS سریع علمی-تخیلی است که حول نبردهای تیراندازی در میدان جنگ علیه انبوهی از دشمنان بی امان ساخته شده است - یک حلقه تمیز و پرسرعت از دویدن های کوتاه، افزایش فشار و تسلط. این انرژی تیرانداز قوی را با محیط علمی تخیلی و ساختار سبک سرکش ترکیب می کند - یک بازی اکشن مستقل انفرادی با تمرکز بر گیم پلی خالص. ماموریت ها هر ماموریت یک دوره کوتاه با امتیاز خاص خود است. نمرات ماموریت تکمیل شده به امتیاز کلی شما می افزاید. ماموریت بعدی را بازی کنید یا برای بهبود نتیجه خود دوباره پخش کنید. پیشرفت پس از هر ماموریتی که انجام می دهید ذخیره می شود. دونده دشمنان - ضربه های سریع و سبک. تانک - ضربات آهسته و سنگین. تیرانداز - فاصله را حفظ می کند و آتش می گیرد. فانتوم - از هیچ جا ظاهر می شود. Weapons Pistol - آسیب کم، مهمات محدود. تفنگ اتوماتیک - آسیب استاندارد با پس زدن و گسترش. مهمات وقتی کم است دوباره پر می شود. تفنگ لیزری - آسیب استاندارد با انرژی بی نهایت و بدون پس زدن، اما در صورت استفاده بیش از حد گرم می شود. Gravity Gun - آسیب استاندارد با انرژی بی نهایت و بدون پس زدن، اما سرعت مبارزه را افزایش می دهد. Annihilator - وحشت از فاصله نزدیک..."
     },
     {
         "title": "along the edge",
@@ -213,17 +222,31 @@
         "url": "https://itad.link/0196d1b9-7664-71a4-b8da-0e8e8e712d39/",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "3470190",
-        "description": "BrightGunner is a innovative fast-paced first person shooter game. simplicity and refreshment, the three major design concepts are: diversified gameplay, mild Rogue mechanism, and no interface design style. 1.Diversified gameplay The game features a multi-game mode. In survival mode, players face an infinite number of waves of battles, each of which includes a large number of monsters and a light meat pigeon mechanic. The standard mode is a mix of multiple gameplay styles with multiple small levels. In addition, there are six modes, Encounter, Sniper Battle, Boss Battle, Runner,Maze Exploration, and Story Mode. Each mode has its own focus. 2.Mild Rogue mechanism Monsters, cards and props appear randomly in the level, and a large number of monsters rush to the protagonist, and the protagonist's ability gradually grows. Players need to keep moving to avoid monsters and counterattacks, and search for supplies to survive. 3.No Interface design style The game replaces the traditional initial interface with an innovative initial scene, where game modes, levels, option settings, and skill upgrades are all completed. Player interacts by shooting bricks with a gun, instead of clicking buttons in the traditional interface.",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3470190/39ac52ac4e76eba2145b6b7a127733516047ef23/header.jpg?t=1751120012",
+        "is_dlc_or_addon": false,
+        "persian_summary": "",
+        "description": ""
+    },
+    {
+        "title": "captain of industry",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1594320/Captain_of_Industry/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1594320/7ba3942a94de9c194959ebd28480134b49328022/header_alt_assets_4.jpg?t=1773075705",
+        "description": "Your journey begins on a remote island with a small crew of workers and a ship full of supplies. Mine raw materials, reshape the fully dynamic terrain, grow crops, build factories, and research new technologies. Expand across the island, lay rail networks, trade with distant settlements, and work your way up to nuclear power and space flight. Mine resources and shape the land The entire terrain is fully dynamic. Every mountain can be flattened, every valley filled, and even the ocean can be reclaimed to expand the available land. Create open-pit mines to reach deep ore deposits, or dump excess rock into the ocean to expand your shoreline. Build ramps and slopes so your vehicles can reach any elevation. Build your factory Start simple with iron smelting, concrete mixing, and food processing. As you research new technologies, expand into oil refining, electronics, computing, and eventually rocket and space station components. Manage waste and pollution before they affect your people's health. Move products with trucks, trains, belts, and pipes Trucks handle general logistics automatically, delivering products where they are needed most. Lay conveyor belts and pipes for high-throughput direct connections between machines. Build a rail network to move bulk cargo across long distances. Use amphibious vehicles and bridges to reach other islands. Feed and protect your people Grow crops on farms and process them into food or industrial products. Supply fertilizers to boost yields and build greenhouses to grow more advanced crops. Your population needs housing, clean water, electricity, healthcare, and household goods. Keep them happy and healthy, and they will reward you with Unity, a resource that lets you speed up construction, enact powerful edicts, and claim resources on the world map. Neglect waste management or let pollution build up, and diseases will spread. Explore, trade, and become self-sufficient Send your ship out to explore the world map. Discover new islands with resources to import, refugees to rescue, and allied settlements to trade with. Establish shipping contracts for recurring exchanges, or negotiate quick trades when you need something fast. Your ultimate goal is full self-sufficiency: launch rockets, build a space station, and mine asteroids for rare resources that make your colony independent indefinitely. Your tools Copy and paste parts of your factory, or save entire layouts as blueprints to reuse and share. Use planning mode to lay out designs before committing resources. Design your own island in the map editor and play it or share it with others. Or switch to sandbox mode where all buildings and resources are free, perfect for experimenting and learning.",
+        "id_in_db": "t3_1rskaqe",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "30% off",
+        "steam_app_id": "1594320",
         "genres": [
-            "Action",
-            "Indie"
+            "Indie",
+            "Simulation",
+            "Strategy",
+            "Early Access"
         ],
         "is_multiplayer": false,
         "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "BrightGunner یک بازی تیراندازی اول شخص ابتکاری و سریع است. سادگی و طراوت، سه مفهوم اصلی طراحی عبارتند از: گیم پلی متنوع، مکانیزم Rogue ملایم، و بدون سبک طراحی رابط. 1. گیم پلی متنوع بازی دارای حالت چند بازی است. در حالت بقا، بازیکنان با تعداد نامحدودی از نبردها روبرو می شوند که هر کدام شامل تعداد زیادی هیولا و یک مکانیک کبوتر سبک گوشت است. حالت استاندارد ترکیبی از چند سبک گیم پلی با چندین سطح کوچک است. علاوه بر این، شش حالت وجود دارد، Encounter، Sniper Battle، Boss Battle، Runner، Maze Exploration و Story Mode. هر حالت تمرکز خاص خود را دارد. 2. مکانیسم سرکش خفیف هیولاها، کارت ها و وسایل به طور تصادفی در سطح ظاهر می شوند و تعداد زیادی هیولا به سمت قهرمان هجوم می آورند و توانایی قهرمان به تدریج افزایش می یابد. بازیکنان باید برای جلوگیری از هیولاها و ضدحملات به حرکت ادامه دهند و برای زنده ماندن به جستجوی لوازم بپردازند. 3. بدون سبک طراحی رابط این بازی جایگزین سنتی..."
+        "persian_summary": "سفر شما در یک جزیره دورافتاده با خدمه کوچکی از کارگران و یک کشتی پر از لوازم آغاز می شود. استخراج مواد خام، تغییر شکل زمین کاملاً پویا، رشد محصولات کشاورزی، ساخت کارخانه‌ها و تحقیق در مورد فناوری‌های جدید. در سراسر جزیره گسترش پیدا کنید، شبکه‌های ریلی ایجاد کنید، با سکونتگاه‌های دوردست معامله کنید، و به سمت انرژی هسته‌ای و پرواز فضایی پیش بروید. منابع معدن و شکل دادن به زمین کل زمین کاملاً پویا است. هر کوهی را می توان مسطح کرد، هر دره را پر کرد، و حتی اقیانوس را می توان برای گسترش زمین های موجود بازیابی کرد. معادن روباز ایجاد کنید تا به ذخایر معدنی عمیق برسید یا سنگ های اضافی را به اقیانوس بریزید تا خط ساحلی خود را گسترش دهید. رمپ ها و شیب هایی بسازید تا وسایل نقلیه شما بتوانند به هر ارتفاعی برسند. کارخانه خود را بسازید با ذوب آهن، اختلاط بتن و فرآوری مواد غذایی ساده شروع کنید. همانطور که در مورد فن آوری های جدید تحقیق می کنید، به پالایش نفت، الکترونیک، محاسبات و در نهایت قطعات موشک و ایستگاه فضایی بسط دهید. پسماندها و آلودگی ها را قبل از اینکه بر مردم شما تأثیر بگذارد مدیریت کنید..."
     },
     {
         "title": "cat simulator",
@@ -251,19 +274,6 @@
         "persian_summary": "Disclaimer Cat Simulator یک بازی سرگرم کننده است اما در دسترسی اولیه است. لطفاً آن را خریداری نکنید مگر اینکه بخواهید از توسعه بازی حمایت کنید. Cat Simulator Cat Simulator یک بازی ویدیویی سرگرم کننده اول شخص گربه است. هدف شما تعقیب موش‌ها و موش‌ها، شکستن چیزها، خوردن و انجام کارهای دیگری است که گربه‌ها انجام می‌دهند... شما لذت شکار موش‌ها و موش‌ها را در حین جمع‌آوری امتیاز با ضربه زدن به چیزها تجربه خواهید کرد. تا جایی که ممکن است تخریب کنید! ویژگی های کلیدی - یک گربه باشید! با ضربه زدن به همه چیز، نقاط را جمع کنید! -LOTS از اشکالات! رسانه‌ها و کاربران یوتیوب در اینجا با ما تماس بگیرید: support@catstudio.xyz -رسانه‌ها و کاربران یوتیوب اینجا با ما تماس بگیرید: support@catstudio.xyz سلب مسئولیت Cat Simulator یک بازی سرگرم‌کننده است اما در دسترسی اولیه است. لطفاً آن را خریداری نکنید مگر اینکه بخواهید از توسعه بازی حمایت کنید."
     },
     {
-        "title": "cats vs trolls 179 10 off",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/4425480/Cats_vs_Trolls/",
-        "image_url": "https://external-preview.redd.it/HfCk9P_HgflSAPTNW9e3MoXXINy9u6VneSiop8MivCA.jpeg?width=320&crop=smart&auto=webp&s=ab019a1fe93af3248cd33aa999b3651d31ff8d97",
-        "description": "submitted by /u/Moyses_dev [link] [comments]",
-        "id_in_db": "t3_1rr3cf9",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "10% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/Moyses_dev [پیوند] [نظر]"
-    },
-    {
         "title": "changing island as a spirit scout youll wander the islands forest each day finding new hidden secrets and helping soothe the local ghosts to bring back color and joy",
         "store": "epicgames",
         "url": "https://store.epicgames.com/en-US/p/cozy-grove",
@@ -275,19 +285,6 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/Singhvistaar [پیوند] [نظر]"
-    },
-    {
-        "title": "chloe puzzle game pro",
-        "store": "iosappstore",
-        "url": "https://apps.apple.com/us/app/chloe-puzzle-game-pro/id1665917003",
-        "id_in_db": "8e3a56a2ea22a31aa3634f6145b4b892743a8189945dc3dc7e1f336727f1c093",
-        "subreddit": "AppHookup",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/cd/d2/81/cdd2818c-f059-5f62-2fdc-1b7418dd3191/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-        "is_dlc_or_addon": false,
-        "persian_summary": "",
-        "description": ""
     },
     {
         "title": "coloring painting games 2999 free",
@@ -319,14 +316,22 @@
         "title": "controllers switch accessory bundle",
         "store": "other",
         "url": "https://www.reddit.com/r/FreeGameFindings/comments/1rpe7yl/fgf_giveaway_aknes_controllers_switch_accessory/",
-        "image_url": null,
-        "description": "Be sure to check supported regions before entering - https://aknes.com/pages/delivery-time Note about customs in some regions: It depends on the country. For example, countries like Mexico, Brazil, India, Serbia, and Turkey require the recipient to pay customs fees, while most countries do not. This is a direct from dev/pub/store giveaway for FGF. Similar to those we have done before. Big thanks go out to AKNES for supplying this promotion on FGF! There are many places to buy up some controllers, mobile systems, replacement gaming controller parts and console accessories online. One that might've flown under your radar is AKNES. AKNES is a partner of many well-known brands such as 8BitDo, MOBAPAD, RetroFlag and more. They began back in 2019 and have been selling great stuff ever since. You might've seen them online here and there, especially on Reddit where they have been running periodic giveaways on a variety of subreddits. Whether you're looking for some new analog sticks, some great controllers, or something else, you should check AKNES! Recently the team over there have been wanting to grow their Discord community. With roughly 5,000 users as of writing this, the community is strong with a bunch to chat to. Many fun discussions to be had surrounding AKNES products and just general topics of course. On top of that, they also run giveaways or events with prizes on the server every month! You'll definitely want to get in there and try your luck with some giveaways in the server. To promote AKNES, their Discord and their goodies, I am happy to announce that they supplied us with some cool stuff. We will be giving away an 8BitDo Ultimate 2 Controller, 2 EasySMX D05 Controllers, 1 GuliKit Elves 2 Controller and 1 AKNES Protection Bundle for Switch 2! A grant total of 5 total winners in this giveaway! To enter this giveaway we will be using Gleam and the comments. 2 Controllers and 1 Switch Accessory Bundle on Gleam. 2 Controller through the comments. Feel free to enter with any and all methods/links. Gleam entries: 8BitDo Ultimate 2 Controller - https://gleam.io/FI2hI/fgf-x-aknes-8bitdo-ultimate-2-controller EasySMX D05 Controller + Charging Dock - https://gleam.io/SRj8q/fgf-x-aknes-easysmx-d05-controller-charging-dock AKNES Protection Bundle for Switch 2 - https://gleam.io/ELvPI/fgf-x-aknes-aknes-protection-bundle-for-switch-2 Comment entries: EasySMX D05 Controller + Charging Dock GuliKit Elves 2 Controller Simply make a top-level comment (although only one top-level comment please) with the item(s) you want to win! Order the item in terms of interest. Example: 1. GuliKit Elves Controller 2. EasySMX D05 Controller Be aware of the following though. NOTE: If you win this giveaway I will be contacting through email for Gleam winners, and Reddit Chat for comment winners. I'll wait at most 3 days after I reach out for a response, so please be sure to set a reminder to check this thread, your email (check your junk/spam too) , and Reddit chat for my message if you have won. If I don't hear back, I will need to re-roll/find a new winner quickly from the FGF community somewhere (like Discord) for the unclaimed prize(s). Winners will be selected at random. This offer will be live until March 16th . The next day or so, I will reach out to the winners through the methods mentioned earlier. Winners will then be asked for their shipping information. Prizes are only available to be sent to the supported regions mentioned above. You can enter from anywhere in the world and have it sent to a friend/family member in the supported region(s). Good luck everyone! Some links to AKNES: The AKNES Website - http://aknes.com/ AKNES on Reddit - /r/AKNES AKNES on Discord - https://discord.gg/qzCMEbGsjj Full disclosure, I was not supplied with any product for or during this giveaway. For more details about when I have and have not been supplied an item for these FGF Giveaways, see here - https://docs.google.com/spreadsheets/d/1RFeaSIpqFvvSzfOowecLz_rbbFo-YKa25PYAqF6Y6ko/ submitted by /u/StOoPiD_U [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/ce5437442768e38eb575f205ab9397d0264017b0/header.jpg?t=1772587704",
+        "description": "Requiem for the dead. Nightmare for the living. A new era of survival horror arrives with Resident Evil Requiem, the latest and most immersive entry yet in the iconic Resident Evil series. Experience terrifying survival horror with FBI analyst Grace Ashcroft, and dive into pulse-pounding action with legendary agent Leon S. Kennedy. Both of their journeys and unique gameplay styles intertwine into a heart-stopping, emotional experience that will chill you to your core. Raccoon City Return once again to the city of disaster and despair. A midwestern city in the United States and the headquarters for the former global pharmaceutical company, Umbrella. In the face of the zombie outbreak in 1998, the government approved a sterilization operation, a missile strike on the city in an attempt to quickly bring the situation under control—but this was swiftly covered up. Grace Ashcroft An intelligence analyst for the FBI who demonstrates intense focus and insight in deductive reasoning and analysis. Her mother's death shook her to the soul, making her an introvert who immerses herself in work. So she heads to the abandoned hotel alone to investigate this mysterious death. Leon S. Kennedy One of the survivors of the Raccoon City Incident. With a strong sense of justice and physical capabilities to match, he has responded to numerous outbreaks since that fateful day. Now, as a seasoned DSO agent combatting bioterrorism, he has returned to investigate the latest string of deaths in the Midwest. Gameplay Experience the series' classic survival horror through combat, investigations, puzzles, and resource management. Gameplay allows you to freely switch between first and third-person views to face the horrors in a way that suits your playstyle. *This content is also available as part of one or more bundles. Please check your previous purchases to avoid duplication.",
         "id_in_db": "t3_1rpe7yl",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
+        "steam_app_id": "3764200",
+        "genres": [
+            "Action",
+            "Adventure"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "age_rating": "This Game may contain content not appropriate for all ages, or may not be appropriate for viewing at work: Frequent Violence or Gore, General Mature Content",
         "is_dlc_or_addon": true,
-        "persian_summary": "قبل از ورود حتماً مناطق پشتیبانی شده را بررسی کنید - https://aknes.com/pages/delivery-time نکته در مورد گمرک در برخی مناطق: بستگی به کشور دارد. به عنوان مثال، کشورهایی مانند مکزیک، برزیل، هند، صربستان و ترکیه دریافت کننده را ملزم به پرداخت هزینه های گمرکی می کنند، در حالی که اکثر کشورها این کار را نمی کنند. این یک هدیه مستقیم از طرف dev/pub/store برای FGF است. مشابه کارهایی که قبلا انجام داده ایم. با تشکر فراوان از AKNES برای ارائه این تبلیغات در FGF! مکان‌های زیادی برای خرید آنلاین برخی از کنترل‌کننده‌ها، سیستم‌های موبایل، قطعات جایگزین کنترلرهای بازی و لوازم جانبی کنسول وجود دارد. یکی که ممکن است زیر رادار شما پرواز کرده باشد AKNES است. AKNES شریک بسیاری از برندهای معروف مانند 8BitDo، MOBAPAD، RetroFlag و غیره است. آنها در سال 2019 شروع به کار کردند و از آن زمان تاکنون چیزهای عالی می فروشند. ممکن است آنها را اینجا و آنجا به صورت آنلاین دیده باشید، به خصوص در Reddit که در آن هدایای دوره ای در انواع subreddits اجرا می کنند. چه به دنبال چند چوب آنالوگ جدید باشید، برخی..."
+        "persian_summary": "مرثیه اموات. کابوس برای زنده ها دوران جدیدی از ترس بقا با Resident Evil Requiem فرا می‌رسد، آخرین و همه‌جانبه‌ترین ورودی تا به حال در سری نمادین Resident Evil. با گریس اشکرافت، تحلیلگر FBI، وحشت وحشتناک بقا را تجربه کنید و با مامور افسانه ای لئون اس. کندی وارد یک اقدام تپنده نبض شوید. هر دو سفر و سبک‌های گیم‌پلی منحصربه‌فرد آن‌ها به یک تجربه هیجان‌انگیز و هیجان‌انگیز تبدیل می‌شوند که شما را تا حد زیادی خنک می‌کند. شهر راکون یک بار دیگر به شهر فاجعه و ناامیدی بازگردید. شهری در غرب میانه در ایالات متحده و دفتر مرکزی شرکت جهانی داروسازی سابق، آمبرلا. در مواجهه با شیوع زامبی ها در سال 1998، دولت یک عملیات عقیم سازی، حمله موشکی به شهر را در تلاشی برای تحت کنترل درآوردن سریع وضعیت تصویب کرد - اما این موضوع به سرعت پنهان شد. گریس اشکرافت، تحلیلگر اطلاعاتی FBI که تمرکز و بینش شدیدی را در استدلال قیاسی و..."
     },
     {
         "title": "Cozy Grove",
@@ -335,21 +340,9 @@
         "url": "https://itad.link/018d959e-e778-721f-89bc-ddd8333b0553/",
         "is_free": true,
         "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "",
-        "description": ""
-    },
-    {
-        "title": "cozy grove",
-        "store": "epicgames",
-        "url": "https://store.epicgames.com/p/cozy-grove",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1458100/header.jpg?t=1764788370",
-        "description": "Welcome to Cozy Grove , a life-sim game about camping on a haunted, ever-changing island. As a Spirit Scout, you'll wander the island's forest each day, finding new hidden secrets and helping soothe the local ghosts. With a little time and a lot of crafting, you'll bring color and joy back to Cozy Grove! Features: Beautiful, dynamic, hand-drawn landscapes that come alive when you help a spirit in need. Dozens of memorable characters and spirits for you to find and befriend. Each spirit has a unique, extensive story for you to unravel over time. Collect spirit animals, craft decorations, go fishing and more! 40+ hour campaign filled with side quests, designed to span months of playtime. Like Animal Crossing, Cozy Grove is synced to real world time , and provides 30-60 minutes of new quest content each day. After that, you can fish, craft and decorate to your heart's content!",
-        "id_in_db": "t3_1rrt2hg",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
         "steam_app_id": "1458100",
+        "description": "Welcome to Cozy Grove , a life-sim game about camping on a haunted, ever-changing island. As a Spirit Scout, you'll wander the island's forest each day, finding new hidden secrets and helping soothe the local ghosts. With a little time and a lot of crafting, you'll bring color and joy back to Cozy Grove! Features: Beautiful, dynamic, hand-drawn landscapes that come alive when you help a spirit in need. Dozens of memorable characters and spirits for you to find and befriend. Each spirit has a unique, extensive story for you to unravel over time. Collect spirit animals, craft decorations, go fishing and more! 40+ hour campaign filled with side quests, designed to span months of playtime. Like Animal Crossing, Cozy Grove is synced to real world time , and provides 30-60 minutes of new quest content each day. After that, you can fish, craft and decorate to your heart's content!",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1458100/header.jpg?t=1764788370",
         "genres": [
             "Casual",
             "Indie"
@@ -357,6 +350,7 @@
         "is_multiplayer": false,
         "is_online": false,
         "is_dlc_or_addon": false,
+        "subreddit": "FreeGameFindings",
         "persian_summary": "به Cozy Grove خوش آمدید، یک بازی سیم‌کارت زندگی درباره کمپینگ در جزیره‌ای خالی از سکنه و همیشه در حال تغییر. به عنوان یک پیشاهنگ روح، هر روز در جنگل جزیره پرسه خواهید زد، اسرار پنهان جدیدی پیدا می کنید و به آرام کردن ارواح محلی کمک می کنید. با کمی زمان و کاردستی زیاد، رنگ و شادی را به Cozy Grove برمی‌گردانید! ویژگی ها: مناظر زیبا، پویا و با دست طراحی شده که وقتی به روح نیازمند کمک می کنید زنده می شوند. ده ها شخصیت و روح به یاد ماندنی را می توانید پیدا کنید و با آنها دوست شوید. هر روح یک داستان منحصر به فرد و گسترده دارد که می توانید در طول زمان آن را کشف کنید. حیوانات روحی، تزئینات صنایع دستی را جمع آوری کنید، به ماهیگیری بروید و موارد دیگر! کمپین 40+ ساعتی پر از ماموریت‌های جانبی، طراحی شده برای ماه‌ها زمان بازی. مانند Animal Crossing، Cozy Grove با زمان دنیای واقعی همگام‌سازی می‌شود و هر روز 30 تا 60 دقیقه محتوای جستجوی جدید ارائه می‌کند. پس از آن، می توانید ماهی بگیرید، کاردستی کنید و به دلخواه تزئین کنید!"
     },
     {
@@ -366,21 +360,9 @@
         "url": "https://itad.link/019cd399-99b5-73b6-8a00-8eec235b5862/",
         "is_free": true,
         "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "",
-        "description": ""
-    },
-    {
-        "title": "deponia",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/214340/Deponia/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/214340/header.jpg?t=1772651228",
-        "description": "Daedalic Entertainment, once called “Lucasarts from Germany“ by the GameStar magazine, invites the players into a fantastic comedy adventure that revolves around a crazy love story of Rufus and Goal. In Deponia, the world has degenerated into a vast garbage dump, in which the crotchety Rufus ekes out his sorry existence. He is part of the lowest social class, doomed to live his life in literal mountains of trash. He hopes for an opportunity to get into the world of the rich, who live in a floating city high above the clouds. Fate seems to smile on the snotty good-for-nothing when one day the attractive lady named Goal from the higher sector plummets into one of the trash heaps. Rufus decides to help the young woman out by taking her back to her husband. When he notices that Goal's husband is a dead ringer for himself, he hatches a diabolical scheme to gain access to the upper world. However, things don't work out quite as planned, since he has feelings for the beauty which limits his usual unscrupulousness. Help Rufus, the poor boy from the junkyard, to win over the girl from heaven. Only with this rich girl from his dreams he might be able to escape Deponia and, unexpectedly, to save the planet. Key Features Unique comic style with hand-drawn HD resolution 2D graphics Bizarre characters and wacky humor Challenging puzzles and hours of dialogue Unique universe in the tradition of Douglas Adams (The Hitchhiker's Guide to the Galaxy), Terry Pratchett (Discworld) and Matt Groening (The Simpsons, Futurama) From the creators of the award-winning games Edna & Harvey: The Breakout, Edna & Harvey: Harvey’s New Eyes and The Whispered World",
-        "id_in_db": "t3_1rp5tbb",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
         "steam_app_id": "214340",
+        "description": "Daedalic Entertainment, once called “Lucasarts from Germany“ by the GameStar magazine, invites the players into a fantastic comedy adventure that revolves around a crazy love story of Rufus and Goal. In Deponia, the world has degenerated into a vast garbage dump, in which the crotchety Rufus ekes out his sorry existence. He is part of the lowest social class, doomed to live his life in literal mountains of trash. He hopes for an opportunity to get into the world of the rich, who live in a floating city high above the clouds. Fate seems to smile on the snotty good-for-nothing when one day the attractive lady named Goal from the higher sector plummets into one of the trash heaps. Rufus decides to help the young woman out by taking her back to her husband. When he notices that Goal's husband is a dead ringer for himself, he hatches a diabolical scheme to gain access to the upper world. However, things don't work out quite as planned, since he has feelings for the beauty which limits his usual unscrupulousness. Help Rufus, the poor boy from the junkyard, to win over the girl from heaven. Only with this rich girl from his dreams he might be able to escape Deponia and, unexpectedly, to save the planet. Key Features Unique comic style with hand-drawn HD resolution 2D graphics Bizarre characters and wacky humor Challenging puzzles and hours of dialogue Unique universe in the tradition of Douglas Adams (The Hitchhiker's Guide to the Galaxy), Terry Pratchett (Discworld) and Matt Groening (The Simpsons, Futurama) From the creators of the award-winning games Edna & Harvey: The Breakout, Edna & Harvey: Harvey’s New Eyes and The Whispered World",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/214340/header.jpg?t=1772651228",
         "genres": [
             "Adventure",
             "Indie"
@@ -391,26 +373,30 @@
         "persian_summary": "Daedalic Entertainment که زمانی توسط مجله GameStar \"Lucasarts from Germany\" نامیده می شد، بازیکنان را به یک ماجراجویی کمدی فوق العاده دعوت می کند که حول یک داستان عاشقانه دیوانه کننده Rufus و Goal می چرخد. در دپونیا، جهان به زباله‌دانی وسیع تبدیل شده است، که در آن روفوس قلاب‌دار وجود متاسف خود را بیرون می‌زند. او بخشی از پایین‌ترین طبقه اجتماعی است که محکوم به زندگی در کوه‌های زباله است. او امیدوار است فرصتی پیدا کند تا وارد دنیای ثروتمندانی شود که در شهری شناور بالای ابرها زندگی می کنند. به نظر می‌رسد که سرنوشت به لبخندی می‌زند که روزی بانوی جذاب به نام گل از بخش بالاتر به یکی از انبوه زباله‌ها سقوط می‌کند. روفوس تصمیم می گیرد به زن جوان کمک کند و او را نزد شوهرش بازگرداند. وقتی متوجه می‌شود که شوهر گل برای خودش یک زنگ مرده است، نقشه‌ای شیطانی برای دستیابی به دنیای بالا در می‌آورد. با این حال، همه چیز کاملاً طبق برنامه پیش نمی رود، زیرا او احساس زیبایی دارد که او را محدود می کند ..."
     },
     {
+        "title": "deponia",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/214340/Deponia/",
+        "image_url": "https://external-preview.redd.it/gmWNeTJCH8JgOBoIlDD3ZgxYjdImcM8-Bq6DT9ip1uc.jpeg?width=320&crop=smart&auto=webp&s=62ee7911c6b9c2805303c7f739946b3928458f97",
+        "description": "submitted by /u/iambaldy [link] [comments]",
+        "id_in_db": "t3_1rp5tbb",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/iambaldy [لینک] [نظر]"
+    },
+    {
         "title": "die young",
         "store": "indiegala",
         "url": "https://freebies.indiegala.com/die-young",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/433170/header.jpg?t=1609754218",
-        "description": "Die Young is an open world, dynamic action adventure presented in first-person perspective. You awaken, on a picturesque 12 sq km island in the Mediterranean, buried alive and left for dead. Starving and dehydrated, your struggle to stay alive has just begun. Jump, climb, take advantage of your athletic and parkour skills to overcome the dangers and wildness of nature! Stay Alive. This is not a \"classic\" survival game. If you aim to spend many days and nights looking for resources or build a shelter or a fortress, this will not be possible here. Your main goal is to stay alive. Your only purpose is to escape. As soon as possible. Stay hydrated in the hot Mediterranean summer, looking for a way to leave. Explore. Find out what happened to your friends. Explore the island and find out more about its enigmatic dwellers, ancient ruins, dark mines and caves. Uncover the awful truth behind the quiet, bucolic life of the island. Equip and Fight. Stripped of everything of value down to the shoes on your feet, you have to make a run for it. You have no chance of escaping relying on your wits alone. Search for items and combat equipment that can help you survive the nightmare. Escape. The astonishing beauty of the natural landscape hides deadly threats and foes. Fighting your way out is hopeless. Run, jump, climb, and leave those who want you dead behind. Nerve-racking and brimming with suspense from the moment you press start, Die Young is an immersive thriller that will take you on an unforgettable dash for freedom and survival.",
+        "image_url": "https://external-preview.redd.it/DS66GbRK1BnR_9MMbR7mffJ-FjHzazrvglAxHCymhB8.png?width=320&crop=smart&auto=webp&s=79d6a42762d9298898271a973022b722cafdffc5",
+        "description": "submitted by /u/MeguminShiro [link] [comments]",
         "id_in_db": "t3_1rovu8j",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "433170",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Indie",
-            "Simulation"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "Die Young یک دنیای باز و ماجراجویی اکشن پویا است که در دید اول شخص ارائه شده است. بیدار می شوید، در جزیره ای زیبا به مساحت 12 کیلومتر مربع در دریای مدیترانه، زنده به گور شده و مرده رها شده اید. گرسنگی و کم آبی، مبارزه شما برای زنده ماندن تازه شروع شده است. بپرید، صعود کنید، از مهارت های ورزشی و پارکور خود برای غلبه بر خطرات و طبیعت وحشی استفاده کنید! زنده بمان. این یک بازی بقا \"کلاسیک\" نیست. اگر قصد دارید روزها و شب های زیادی را به دنبال منابع بگذرانید یا پناهگاه یا قلعه بسازید، در اینجا امکان پذیر نخواهد بود. هدف اصلی شما زنده ماندن است. تنها هدف شما فرار است. در اسرع وقت. در تابستان گرم مدیترانه هیدراته بمانید و به دنبال راهی برای ترک آن باشید. کاوش کنید. ببینید چه اتفاقی برای دوستانتان افتاده است. جزیره را کاوش کنید و درباره ساکنان مرموز، خرابه های باستانی، معادن تاریک و غارها بیشتر بدانید. حقیقت وحشتناک زندگی آرام و بی‌نظیر جزیره را کشف کنید. تجهیز و مبارزه کنید. از هر چیزی که با ارزش است تا ..."
+        "persian_summary": "ارسال شده توسط /u/MeguminShiro [لینک] [نظر]"
     },
     {
         "title": "dinos dynasties",
@@ -429,7 +415,7 @@
         "title": "elixion",
         "store": "other",
         "url": "https://steamdb.info/app/4330770/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4330770/c58ef41b35c94c03b4f650e6b94173362b4cec4f/header.jpg?t=1773349558",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4330770/c58ef41b35c94c03b4f650e6b94173362b4cec4f/header.jpg?t=1773456046",
         "description": "Story You are an Adventurer Mage; you have left your village in search of Potion mixing knowledge to defend against any type of creatures & beasts. Strategic Action As a Mage, prepare for turn-based enemy encounters by brewing or buying defensive & offensive potions. Master the art of mixing to maximize your potions' potential. Overcome every enemy by learning their strengths & weaknesses. There is a limit to how many potions you can carry so plan accordingly & adapt. Gameplay Features Brewing Drag & mix potions into the flask to brew & create new recipes to Level Up. Use the recipe book to your advantage by learning new crafting combinations & the strength of potions. Strategize & prepare for battle by leveling up, brewing, or purchasing up to 10 potions. Keep track of your currency! Turn-Based Battles Drag potions onto enemies to attack or onto yourself to heal/buff in turn-based battles! Roll the dice in battle to determine how many potions you can use per turn. Adapt & make every turn count! Win the game by Hunting and defeating all enemies!",
         "id_in_db": "t3_1rs9yaw",
         "subreddit": "FreeGameFindings",
@@ -501,25 +487,20 @@
         "title": "epic games mobile wonder boy",
         "store": "epicgames",
         "url": "https://www.reddit.com/r/FreeGameFindings/comments/1rrt3xb/epic_games_mobile_game_wonder_boy_the_dragons_trap/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2776900/bc105acf1d037b25730a483f59c5ff759d242d2d/header.jpg?t=1760412784",
-        "description": "・Based on the popular light novel, manga and anime franchise - The Eminence in Shadow: Master of Garden is finally available on Steam! ・Faithfully rendered characters from The Eminence in Shadow grace this beautiful high intensity party-based action battler. ・Strategically build your perfect squad to tackle the Cult of Diabolos and the many powerful enemies arrayed against Shadow and his elite warriors, the Shadow Garden. ・Progress through rich story and lore faithful to the original books plus exclusive game-only story content, 1-on-1 chats with each character, arena fights, guild battles, mini-games and more! ～World～ “The Eminence in Shadow.” Not the main character, and not the last boss. The one who lurks in the shadows of the storyline and holds all the power, hiding his true abilities by acting like a side character. The boy who longs to be a 'Shadowbroker' lives an unobtrusive life as a side character, training to gain magic power until he's killed in an accident and reincarnated into another world. Reborn as Cid Kagenou, the boy decides to enjoy himself in this other world with a made-up scenario about \"the Eminence in Shadow.\" He starts fooling around with secret maneuvers against an evil cult that he born from his imagination... and it turns out that the cult really does exist! The girls he took on as his subordinates on a whim began worshiping Cid as Shadow, and before he knows it, Cid has become a true \"Eminence in Shadow.\" Before long, Cid—along with his mysterious group the Shadow Garden—will destroy the darkness of his new world. The Strongest MC x Overwhelming Chuunibyou x A Serious Comedy Full of Misunderstandings!? ～What's Special?～ ◆ Experience The Eminence in Shadow's epic story modes! Continue the story with new chapters, beat exciting new challenges and get the latest characters after every new episode with anime-updates! Featuring cutting-edge 3D graphics and anime cutscenes, Master of Garden's story spotlights characters with memorable scenes from the anime and untold events from the light novels! Whether you're a fan of the light novels, or have yet to see The Eminence in Shadow, Master of Garden's story is sure to satisfy any anime fan! ◆ Every original \"Seven Shadows Chronicles\" and event story is supervised by Daisuke Aizawa, author of the original light novels! Discover the fate of the Seven Shadows during their \"missing two years\" away from Shadow only in \"Master of Garden\"! ◆ Play 3D battles straight from the Anime! Destroy your enemies in exciting anime-style 3D graphics! ◆ Fight with the Seven Shadows! Team-up with Rose, Alexia & Beta and unleash their worst! Unleash Rose & Alexia's sister power! Build your dream party using any character from The Eminence in Shadow! Plus, specific matches will result in special battle animations you can't see anywhere else! Share your favorite secret moves on social media! ◆ Fill your Combo gauge to unleash Strike Combos! Master of Garden's unique battle system generates combos based on your party's action order! Strategize your best move from near-infinite character-order combinations! ◆ Get 1-on-1 time with your favorite heroine! Talk to your favorite girl on the Home Screen every day! You might be surprised - Deepen your bond to see an unexpected, new side of her! ◆ The incredible cast of \"The Eminence in Shadow\" Cid / Shadow (Voice: Seiichiro Yamashita) Alexia Midgar (Voice: Kana Hanazawa) Alpha (Voice: Asami Seto) Beta (Voice: Inori Minase) Gamma (Voice: Suzuko Mimori) Delta (Voice: Fairouz Ai) Epsilon (Voice: Hisako Kanemoto) Zeta (Voice: Ayaka Asai) Eta (Voice: Reina Kondo) Rose Oriana (Voice: Haruka Shiraishi) Claire Kagenou (Voice: Rina Hidaka) Nu (Voice: Maaya Uchida) Aurora (Voice: Kaori Nazuka) Chi (Voice: Mayu Minami) Omega (Voice: Ryoko Maekawa) Lambda (Voice: Ikumi Hasegawa) Yukime (Voice: Shizuka Ito) Elisabeth (Voice: Saori Hayami) ◆ Opening Theme Song: \"grayscale dominator\" Lyrics: hotaru Music: Tom-H@ck ◆ Music Basiscape Co.,Ltd. - Main Works: ELDEN RING, DISSIDIA FINAL FANTASY, others ◆ \"The Eminence in Shadow\" anime creators (titles abbreviated) Original Story: Daisuke Aizawa Original Characters: Touzai Director: Kazuya Nakanishi Character Design: Makoto Iino Animation: Nexus Production: Shadow Garden ◆ Recommended if you... - Are a fan of \"The Eminence in Shadow\" - Have dreamt of reincarnating in another world - Want to become the eminence in shadow yourself! - Have vowed to defeat an evil cult threatening the world - Love anime, manga and light novels! - Want 1-on-1 time with cute anime girls - Want to experience major misunderstandings - Can't resist a great RPG - Are looking for an amazing F2P game - Want to play the latest mobile anime RPG! ◆ Pricing: Free-to-Play (in-app items available for purchase). ©Daisuke Aizawa,KADOKAWA/Shadow Garden ©Master of Garden Project Published under license by Crunchyroll Games, LLC",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2052410/header.jpg?t=1753952335",
+        "description": "Product Description TYPE-MOON, known for the wildly popular mobile game \"Fate/Grand Order\" and the epic visual novel \"Tsukihime,\" is releasing a remaster of the 2012 hit \"Witch on the Holy Night. Experience a coming of age story set in the vibrant, bustling 1980s, which follows an innocent young man and two young \"witches.\" Updates added since the original release include long-awaited fully voiced characters as well as visuals remastered in full HD, bringing the experience to life with unparalleled quality and fidelity. Masterful manipulation of visual elements imbues combat scenes with nail-biting tension, but also breathes life into the characters' everyday activities. Animated graphical elements bring an entirely new level of depth to the reading experience as well! STORY In the mansion on the hill, there lived two witches... It is the late 1980s—the twilight of an era of beauty and vigor. A boy moves to the city, barely missing two witches living in modern times. The boy leads a completely ordinary life. She carries herself with gallant pride. The girl lives a sleepy, hidden life. Each walks a starlit path. One would never expect their paths to cross. The story of how these three disparate people came together is soon to be told.",
         "id_in_db": "t3_1rrt3xb",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "2776900",
+        "steam_app_id": "2052410",
         "genres": [
-            "Action",
-            "Adventure",
-            "Casual",
-            "RPG",
-            "Strategy",
-            "Free To Play"
+            "Adventure"
         ],
-        "is_multiplayer": true,
-        "is_online": true,
+        "is_multiplayer": false,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "・بر اساس لایت رمان محبوب، فرنچایز مانگا و انیمه - The Eminence in Shadow: Master of Garden سرانجام در Steam در دسترس قرار گرفت! ・کاراکترهای وفادارانه از The Eminence in Shadow این مبارز اکشن اکشن با شدت بالا را زیبا می‌کنند. ・به صورت استراتژیک تیم عالی خود را برای مقابله با فرقه دیابولوس و بسیاری از دشمنان قدرتمندی که در برابر Shadow و جنگجویان نخبه او یعنی باغ سایه قرار گرفته اند بسازید. ・پیشرفت از طریق داستان و افسانه غنی وفادار به کتاب‌های اصلی به‌علاوه محتوای داستانی منحصر به فرد بازی، چت 1 به 1 با هر شخصیت، مبارزات عرصه، نبردهای صنفی، مینی‌بازی‌ها و موارد دیگر! \"جهان\" \"برجستگی در سایه\". نه شخصیت اصلی و نه آخرین رئیس. کسی که در سایه خط داستانی کمین کرده و تمام قدرت را در دست دارد و با عمل کردن مانند یک شخصیت فرعی، توانایی های واقعی خود را پنهان می کند. پسری که مشتاق تبدیل شدن به یک \"Shadowbroker\" است، به عنوان یک شخصیت فرعی زندگی محجوبانه ای دارد و برای به دست آوردن قدرت جادویی تمرین می کند تا اینکه در یک تصادف کشته می شود و..."
+        "persian_summary": "توضیحات محصول TYPE-MOON، که به خاطر بازی موبایل بسیار محبوب «سرنوشت/نظم بزرگ» و رمان تصویری حماسی «Tsukihime» شناخته می‌شود، در حال انتشار نسخه‌ای بازسازی‌شده از موفق سال 2012 «جادوگر در شب مقدس است. داستان بلوغ را تجربه کنید که در پرجنب‌وجوش و شلوغی اتفاق می‌افتد که از دهه 1980 به بعد یک مرد جوان اضافه شده است.» نسخه اصلی شامل شخصیت‌های کاملاً مورد انتظار و همچنین تصاویری است که با کیفیت و وفاداری بی‌نظیر به این تجربه جان می‌بخشد، صحنه‌های مبارزه را با تنش میخ‌گزینی آغشته می‌کند، اما به فعالیت‌های روزمره شخصیت‌ها روحیه می‌دهد. در آنجا دو جادوگر زندگی می‌کردند... اواخر دهه 1980 است."
     },
     {
         "title": "etailmarket abiotic factor 38 off 2119",
@@ -535,12 +516,12 @@
         "persian_summary": "ارسال شده توسط /u/etailmarket [لینک] [نظر]"
     },
     {
-        "title": "etailmarket pawnbroker simulator 32 off 1020",
+        "title": "etailmarket salvage shop simulator 10 off 629",
         "store": "other",
-        "url": "https://etail.market/pawnbroker-simulator-3",
-        "image_url": "https://external-preview.redd.it/YBhMBVCcKds1WmT0Kk99ldhjK06vclkENNe0DUxbUQs.jpeg?width=640&crop=smart&auto=webp&s=23938f3da4b9289ae3c884b3a26051bce3e81bed",
+        "url": "https://etail.market/salvage-shop-simulator-237",
+        "image_url": "https://external-preview.redd.it/h4S5UKMCIOxuJfakb55AelgWIsA5trEmB01MfmnvFL0.jpeg?width=640&crop=smart&auto=webp&s=eb49f01878ad9b5c6ebbff372c45ec713ff7ad57",
         "description": "submitted by /u/etailmarket [link] [comments]",
-        "id_in_db": "t3_1rqyqc7",
+        "id_in_db": "t3_1rssjhv",
         "subreddit": "GameDeals",
         "is_free": false,
         "discount_text": "Discount",
@@ -561,15 +542,15 @@
         "persian_summary": "برای افزایش دید، مگا رشته ها به صورت هفتگی ارسال می شوند. این به دنبال بحث کلی مگا موضوعات از طریق به‌روزرسانی FGF انجام می‌شود - https://redd.it/jkxyzw لطفاً از موضوعات زیر برای پست‌های خود استفاده کنید. :) Exiled Giveaways Mega Thread (#2) Itchio Mega Thread (#10) آیا می خواهید هشدارهایی را برای این رشته ها تنظیم کنید؟ اطلاعات فید RSS را می توان در ویکی ما یافت! https://www.reddit.com/r/FreeGameFindings/wiki/rssfeed شامل اطلاعاتی درباره ربات اختلاف ما و موارد کلی فید RSS است. حتما بهش نگاه کن! ارسال شده توسط /u/AutoModerator [لینک] [نظر]"
     },
     {
-        "title": "fanatical john carpenters toxic commando 12 off",
+        "title": "fanatical crimson desert 15 off",
         "store": "fanatical",
-        "url": "https://www.fanatical.com/en/game/john-carpenters-toxic-commando",
-        "image_url": "https://external-preview.redd.it/F9KPWYPjlQdXmbYze9KM7PDpTiIqrPG7rL_NoULPIK8.jpeg?width=640&crop=smart&auto=webp&s=3f54b9fa200b8f2480dca4fca8001d42b24512b8",
+        "url": "https://www.fanatical.com/en/game/crimson-desert",
+        "image_url": "https://external-preview.redd.it/l0bNaupL6XNPh0Dxo3g6jXWNwUm3lfDn1uJJrFHPf2c.jpeg?width=640&crop=smart&auto=webp&s=57d8098a4f703bf00893ee4cc7dfc0e9b40d6fda",
         "description": "submitted by /u/WeAreFanatical [link] [comments]",
-        "id_in_db": "t3_1rqwkqt",
+        "id_in_db": "t3_1rsr38u",
         "subreddit": "GameDeals",
         "is_free": false,
-        "discount_text": "12% off",
+        "discount_text": "15% off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/WeAreFanatical [پیوند] [نظر]"
     },
@@ -626,6 +607,19 @@
         "persian_summary": "ارسال شده توسط /u/Singhvistaar [پیوند] [نظر]"
     },
     {
+        "title": "free lifetime swipe albums like tiktok free for 48 hours",
+        "store": "iosappstore",
+        "url": "https://apps.apple.com/us/app/swipeclean-swipe-photo-cleaner/id6757922053",
+        "image_url": "https://external-preview.redd.it/8eTwPK2GEPoEigQgnuvaIyfns0rVY5I0PTMKQKQFpWo.jpeg?width=640&crop=smart&auto=webp&s=aaa6074d4262eef69927542042bd61839d675e92",
+        "description": "submitted by /u/Individual_Laugh_314 [link] [comments]",
+        "id_in_db": "t3_1rt6zbg",
+        "subreddit": "AppHookup",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/Individual_Laugh_314 [لینک] [نظر]"
+    },
+    {
         "title": "free point click comedy adventure revolving around a crazy love story help rufus the poor boy from the junkyard win over the girl from heaven",
         "store": "steam",
         "url": "https://store.steampowered.com/app/214340/Deponia/",
@@ -652,6 +646,19 @@
         "persian_summary": "ارسال شده توسط /u/namlgiang [پیوند] [نظر]"
     },
     {
+        "title": "free turn your childs artwork into a digital gallery the whole family can enjoy",
+        "store": "other",
+        "url": "https://itunes.apple.com/app/id6753904837",
+        "image_url": "https://external-preview.redd.it/NJWFZK3XjVhNmChmSu-GwsngCMVWDQIA8ZMtIl1IMcQ.jpeg?width=640&crop=smart&auto=webp&s=c119a0364eed9cebde2c48c85c69acd12a0355c7",
+        "description": "submitted by /u/MarioWollbrink [link] [comments]",
+        "id_in_db": "t3_1rsh9gi",
+        "subreddit": "AppHookup",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/MarioWollbrink [پیوند] [نظر]"
+    },
+    {
         "title": "games adventure in wonderland 299",
         "store": "googleplay",
         "url": "https://play.google.com/store/apps/details?id=com.syntaxity.wonderland",
@@ -665,20 +672,6 @@
         "persian_summary": "ارسال شده توسط /u/Agile_End [لینک] [نظر]"
     },
     {
-        "title": "gigantic bundle",
-        "store": "steam",
-        "url": "https://store.steampowered.com/sub/76471/",
-        "image_url": "https://external-preview.redd.it/V1c_o75rHJ43NurWWbO6oIRU8vbYyJURiS6gFHww6jY.jpeg?width=640&crop=smart&auto=webp&s=802bc3016ea097912a9b5f79f5cd1c75ead8b9c9",
-        "description": "submitted by /u/VegetaFan1337 [link] [comments]",
-        "id_in_db": "t3_1rr1pya",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "95% off",
-        "steam_app_id": "327220,314810,339190,249650,314830,382140,260160,255300,351860,351870,265330,384570,323720,281750",
-        "is_dlc_or_addon": true,
-        "persian_summary": "ارسال شده توسط /u/VegetaFan1337 [لینک] [نظر]"
-    },
-    {
         "title": "gmg bravely default flying fairy hd remaster 2559 36 off with xp offer",
         "store": "greenmangaming",
         "url": "https://www.greenmangaming.com/games/bravely-default-flying-fairy-hd-remaster-pc/",
@@ -690,6 +683,19 @@
         "discount_text": "36% off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/Ambedextrose [پیوند] [نظر]"
+    },
+    {
+        "title": "hiragana flashcards promotion 20 off 079",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/3843090/Hiragana_Flashcards/",
+        "image_url": "https://external-preview.redd.it/L-Z2fphdXl3LQgeXCL4zuoxuGdZR8X_airvh4kmQxh8.jpeg?width=320&crop=smart&auto=webp&s=0e7ba96ecb4b0d489275f709b1d325305f84d2c5",
+        "description": "submitted by /u/AlyxVeldin [link] [comments]",
+        "id_in_db": "t3_1rsqvft",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "20% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/AlyxVeldin [پیوند] [نظر]"
     },
     {
         "title": "ios android little nightmares ca449 free a horror platform that forces you to escape your childhood fears",
@@ -724,9 +730,21 @@
         "url": "https://itad.link/018d959d-7365-7078-9312-bb4d2c0d18c1/",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "1556790",
-        "description": "World War One expands to the mountains of the Italian Front - beautiful but deadly in equal measure. Take part in key offensives of the Great War, from the Sixth Battle of the Isonzo to the Strafexpedition, and lead your team to victory among the scenic landscapes and peaks of Northern Italy. Isonzo is a realistic tactical multiplayer FPS crafted by BlackMill Games, known for their critically acclaimed authentic WW1 wargames such as Verdun and Tannenberg. Immerse yourself in faithful recreations of historical battles with intense 48-player matches, testing your tactical skills and mastery of Alpine warfare. Decide your path to victory: whether you’re leading the offensive with grenades or using mountain trails to flank enemy positions, you have options. Dive into combat or take a supporting role cutting barbed wire and crewing heavy machine guns and mortars. Thanks to a unique flare gun system, mark targets for artillery strikes or biplane flybys, before charging in to finish the job at close quarters with bayonets or trench clubs. Choose from six distinct classes and build your loadout from a selection of 50+ iconic WW1 weapons, along with historically accurate equipment and perks specific to each class. Play as a Marksman to pick off soldiers from afar, storm enemy lines with the Assault class, issue tactical orders as an Officer, and much more. After choosing a class, make it your own by picking from a large variety of role-appropriate uniforms, accessories and headgear. As a finishing touch, you can even pick your mustache from several famous wartime styles! From hillside fortresses to mountain trenches and city streets, fight through varied Alpine landscapes inspired by historical battles. Learn the lay of the land to maintain cover and surprise your enemies - or go a step further to shape a dynamic battlefield by placing sandbags, barbed wire and ammo crates. Trench periscopes and sniper shields offer even more tactical options, but beware of poisonous gas attacks and artillery barrages! Taking inspiration from the years-long struggle for control of the Alps during World War One, Isonzo brings the authenticity of the conflict to all players. Everything is recreated based on research and field trips, from sound effects, weapons and uniforms down to the houses, vineyards and trenches you’ll be fighting over. Choose your side and immerse yourself in History! Enlist for more First World War action with the other standalone titles in the WW1 Game Series: Gallipoli , Tannenberg and Verdun . Engage in expeditionary warfare on the Middle Eastern Front with Gallipoli , maneuver for control of key sectors in Tannenberg on the Eastern Front OR Dive into the trenches along the Western Front in Verdun . Choose from a range of squads from across the war, as they fight for control of the ever-changing frontlines.",
+        "is_dlc_or_addon": false,
+        "persian_summary": "",
+        "description": ""
+    },
+    {
+        "title": "isonzo",
+        "store": "epicgames",
+        "url": "https://store.epicgames.com/p/isonzo",
         "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1556790/header.jpg?t=1770380091",
+        "description": "World War One expands to the mountains of the Italian Front - beautiful but deadly in equal measure. Take part in key offensives of the Great War, from the Sixth Battle of the Isonzo to the Strafexpedition, and lead your team to victory among the scenic landscapes and peaks of Northern Italy. Isonzo is a realistic tactical multiplayer FPS crafted by BlackMill Games, known for their critically acclaimed authentic WW1 wargames such as Verdun and Tannenberg. Immerse yourself in faithful recreations of historical battles with intense 48-player matches, testing your tactical skills and mastery of Alpine warfare. Decide your path to victory: whether you’re leading the offensive with grenades or using mountain trails to flank enemy positions, you have options. Dive into combat or take a supporting role cutting barbed wire and crewing heavy machine guns and mortars. Thanks to a unique flare gun system, mark targets for artillery strikes or biplane flybys, before charging in to finish the job at close quarters with bayonets or trench clubs. Choose from six distinct classes and build your loadout from a selection of 50+ iconic WW1 weapons, along with historically accurate equipment and perks specific to each class. Play as a Marksman to pick off soldiers from afar, storm enemy lines with the Assault class, issue tactical orders as an Officer, and much more. After choosing a class, make it your own by picking from a large variety of role-appropriate uniforms, accessories and headgear. As a finishing touch, you can even pick your mustache from several famous wartime styles! From hillside fortresses to mountain trenches and city streets, fight through varied Alpine landscapes inspired by historical battles. Learn the lay of the land to maintain cover and surprise your enemies - or go a step further to shape a dynamic battlefield by placing sandbags, barbed wire and ammo crates. Trench periscopes and sniper shields offer even more tactical options, but beware of poisonous gas attacks and artillery barrages! Taking inspiration from the years-long struggle for control of the Alps during World War One, Isonzo brings the authenticity of the conflict to all players. Everything is recreated based on research and field trips, from sound effects, weapons and uniforms down to the houses, vineyards and trenches you’ll be fighting over. Choose your side and immerse yourself in History! Enlist for more First World War action with the other standalone titles in the WW1 Game Series: Gallipoli , Tannenberg and Verdun . Engage in expeditionary warfare on the Middle Eastern Front with Gallipoli , maneuver for control of key sectors in Tannenberg on the Eastern Front OR Dive into the trenches along the Western Front in Verdun . Choose from a range of squads from across the war, as they fight for control of the ever-changing frontlines.",
+        "id_in_db": "t3_1rrt2hk",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "1556790",
         "genres": [
             "Action",
             "Indie",
@@ -737,7 +755,6 @@
         "is_multiplayer": true,
         "is_online": false,
         "is_dlc_or_addon": false,
-        "subreddit": "FreeGameFindings",
         "persian_summary": "جنگ جهانی اول تا کوه های جبهه ایتالیا گسترش می یابد - زیبا اما مرگبار به همان اندازه. در حملات کلیدی جنگ بزرگ، از نبرد ششم ایسونزو تا استراف اکسپدیشن، شرکت کنید و تیم خود را در میان مناظر دیدنی و قله های شمال ایتالیا به پیروزی هدایت کنید. Isonzo یک FPS چند نفره تاکتیکی واقع گرایانه است که توسط BlackMill Games ساخته شده است که به خاطر بازی های جنگی معتبر WW1 که مورد تحسین منتقدان قرار گرفته است مانند Verdun و Tannenberg شناخته شده است. خود را در تفریحات وفادار نبردهای تاریخی با مسابقات شدید 48 نفره غرق کنید و مهارت های تاکتیکی و تسلط خود را در جنگ آلپ آزمایش کنید. مسیر پیروزی خود را تعیین کنید: چه در حال رهبری حمله با نارنجک باشید و چه از مسیرهای کوهستانی برای کنار زدن مواضع دشمن استفاده کنید، گزینه هایی دارید. وارد نبرد شوید یا نقش پشتیبانی را بر عهده بگیرید و سیم خاردار را ببرید و مسلسل های سنگین و خمپاره برداری کنید. با تشکر از یک سیستم تفنگ آتش‌سوزی منحصر به فرد، قبل از شارژ کردن برای اتمام کار، اهداف را برای حملات توپخانه یا پرواز با هواپیما علامت‌گذاری کنید..."
     },
     {
@@ -754,19 +771,6 @@
         "description": ""
     },
     {
-        "title": "kats trigger 719",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/3324650/",
-        "image_url": "https://external-preview.redd.it/TKKiOnxN0OoxV2xp_uJjYXCfRT8DLKt2-NIGEDbrhfk.jpeg?width=320&crop=smart&auto=webp&s=ab75bbee191e3aa352cf926b6797fd9e1037b74e",
-        "description": "submitted by /u/That_Rest_9509 [link] [comments]",
-        "id_in_db": "t3_1rqkxy1",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "20% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/That_Rest_9509 [لینک] [نظر]"
-    },
-    {
         "title": "kolumno",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/kolumno/id1440050196",
@@ -778,6 +782,27 @@
         "is_dlc_or_addon": false,
         "persian_summary": "",
         "description": ""
+    },
+    {
+        "title": "light fairytale trilogy bundle",
+        "store": "steam",
+        "url": "https://store.steampowered.com/bundle/70121",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/314330/header.jpg?t=1670607742",
+        "description": "\"Deadly Rooms of Death\" (DROD) is a turn-based strategy and tactics puzzle game series. It is a 2D top-down puzzle adventure that focuses on pure gameplay mechanics. The DROD series began over a decade ago and has enthralled thousands of players. Swordplay and puzzles combine in this thinking man's dungeon crawl. It's simple to learn, with just a handful of commands to master. This game's rogue-like exterior belies clever puzzle design and unique play mechanics that provide amazing depth. Each room is a hand-crafted puzzle that you solve by clearing out all the monsters with your Really Big Sword without letting any reach and kill you. Monster types each have their own AI, with deterministic movement patterns. Puzzle elements and terrain types help and hinder you in solving each puzzle. You start by learning basic mechanics and fighting techniques, and then the difficulty steadily ramps up as each room you face presents a fresh challenge with a logical solution. This game features a novel play style, with story- and puzzle-driven voiced dialogue delivered inline with hardcore puzzle solving that involves a mix of strategy, tactics, lateral thinking and linchpins. As developers, our goal is to present you with a novel experience where game mechanics are paramount. DROD will give you that \"just one more room\" feeling. This game is the entry-point title in the ongoing DROD franchise. \"Gunthro\" is designed as an beginner-level offering to the DROD world, with both new players and veterans in mind. The level layout is has multiple hub areas to explore as you progress. The game starts easy, has a smooth learning curve and an integrated online hints system. You should be pleased by the puzzle designs that went into this game, making for a delightful blend of fun and challenge. A level editor and enthusiastic player community make this a game you can relish for years. Main game features Over 300 puzzle rooms across 25 levels, each organized around different combinations of puzzle elements. All-new enhanced version of the \"Gunthro and the Epic Blunder\" campaign! Over 25,000 usermade rooms available for download! Dozens of secret areas and optional extra challenge levels that lie in store for the more curious and adventuresome, uncovered in a variety of ways. Varied elements and monster types like rock golems, giant serpents, wraithwings, and evil eyes, each with a distinctive AI behavior and requiring different strategies and tactics to conquer. Hours of contextual music composed by synthpop artist Jon Sonnenberg of Travelogue. New and upgraded in-game artwork, including three all-new terrain styles, with real-time lighting and a range of environmental effects. Full-featured level/campaign editor, with custom scripting engine and modding capabilities Active and friendly player community Hi-score competition and hints system via our CaravelNet service The story: In this game, Beethro Budkin recounts an epic tale of adventure to his precocious nephews about his grandfather, Gunthro Budkin, and his exploits in the dangerous nation of Rasarus. Gunthro is a third-generation smitemaster and a rather ugly man. Smitemasters are hard-bitten, muscled veteran dungeon exterminators that slay hideous beasties in dark places for a living. You know Gunthro will get the job done, and you'll happily pay him to clear your basement of giant man-eating dungeon roaches. When the Rasarun king is slain by an officer of Tueno, Gunthro is recruited by Rasarus to defend his country and reclaim its honor. However, as Gunthro searches deeper, he will find that things are not quite as they seem. Experience the unique turn-based puzzle dungeon adventure of DROD! Deluxe Bundle: Contains: DROD: Gunthro and the Epic Blunder DROD OST: Deadly Music of Death, Volumes 1 and 2 DLC Bundles: DROD: The Original Trilogy Smitemasters Selections 1-12",
+        "id_in_db": "t3_1rsn562",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "53% off",
+        "steam_app_id": "314330",
+        "genres": [
+            "Adventure",
+            "Indie",
+            "Strategy"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "is_dlc_or_addon": true,
+        "persian_summary": "«اتاق‌های مرگ‌بار مرگ» (DROD) یک سری بازی‌های پازل استراتژی و تاکتیک‌های نوبتی است. این یک ماجراجویی پازل دو بعدی از بالا به پایین است که بر مکانیک های گیم پلی خالص تمرکز دارد. سری DROD بیش از یک دهه پیش آغاز شد و هزاران بازیکن را مجذوب خود کرده است. شمشیر بازی و پازل در خزیدن سیاه چال این مرد متفکر ترکیب می شوند. یادگیری آن ساده است، فقط با چند دستور برای تسلط. بیرونی شبیه به سرکش این بازی طراحی پازل هوشمندانه و مکانیک های بازی منحصر به فرد را که عمق شگفت انگیزی را ارائه می دهد، نادیده می گیرد. هر اتاق یک پازل دست ساز است که با پاک کردن تمام هیولاها با شمشیر واقعاً بزرگ خود بدون اینکه اجازه دهید هیچ چیزی به شما برسد و شما را بکشد آن را حل می کنید. انواع هیولاها هر کدام هوش مصنوعی خاص خود را دارند، با الگوهای حرکتی قطعی. عناصر پازل و انواع زمین به شما در حل هر پازل کمک می کنند و مانع می شوند. شما با یادگیری مکانیک‌های اولیه و تکنیک‌های مبارزه شروع می‌کنید، و سپس با هر اتاقی که با آن روبرو می‌شوید، مشکل به‌طور پیوسته افزایش می‌یابد، چالشی تازه با راه‌حلی منطقی ارائه می‌کند. این بازی دارای یک ..."
     },
     {
         "title": "lost fragments ca1699 free as a legendary thief your next assignment lures you into a grand and lavish mansion",
@@ -796,27 +821,20 @@
         "title": "M2K",
         "store": "steam",
         "url": "https://store.steampowered.com/app/1763120/M2K/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1763120/0048217c1efca9f92bfd657bc08bbba3f5e6a6d3/header.jpg?t=1760051273",
-        "description": "You landed on labyrinth-planet, where all territory filled of puzzles. Your need clearance mines and destroy trolls. When entering new rooms puzzles have more objects. You awaiting not only moving boxes, destructable walls, static lasers, electricity, speading acid, and more & more. If you do error sometimes level must be restarted. Game have internal level editor and docs. Remake original M2K game from 1998 (Zx-spectrum) with crossplatform,better graphics and PS3 controller support.",
+        "image_url": "https://external-preview.redd.it/kPyFjNiTMCL-7tRJG0ifLpcPz7QA4Cztrt_vG_1jJGE.jpeg?width=320&crop=smart&auto=webp&s=65fc9ed1c5c06459689fb5a6af2d65d3bee29039",
+        "description": "submitted by /u/MeguminShiro [link] [comments]",
         "id_in_db": "t3_1rs9urt",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "1763120",
-        "genres": [
-            "Action",
-            "Indie"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "شما در سیاره هزارتویی فرود آمدید، جایی که تمام قلمرو پر از پازل بود. شما نیاز به پاکسازی مین ها و نابود کردن ترول ها دارید. هنگام ورود به اتاق های جدید، پازل ها دارای اشیاء بیشتری هستند. شما نه تنها منتظر جعبه های متحرک، دیوارهای قابل تخریب، لیزرهای ساکن، الکتریسیته، اسید اسپیدینگ و غیره هستید. اگر خطا انجام دهید، گاهی اوقات سطح باید دوباره راه اندازی شود. بازی دارای ویرایشگر سطح داخلی و اسناد است. بازسازی بازی اصلی M2K از سال 1998 (طیف Zx) با کراس پلتفرم، گرافیک بهتر و پشتیبانی از کنترلر PS3."
+        "persian_summary": "ارسال شده توسط /u/MeguminShiro [لینک] [نظر]"
     },
     {
         "title": "marathon",
         "store": "indiegala",
         "url": "https://www.indiegala.com/store/game/marathon/3065800",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065800/b7a1a07b4d22e38abfbe0e2de16dd68932555412/header.jpg?t=1773161972",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065800/b7a1a07b4d22e38abfbe0e2de16dd68932555412/header.jpg?t=1773437772",
         "description": "Infil into the dark sci-fi world of Tau Ceti IV: A derelict colony rife with rival Runners, hostile UESC security forces, and unpredictable environments. As you scavenge its zones for valuables with a crew or alone, tense moments of exploration break into fast-paced PvP combat where gunplay is responsive, supplies are finite, and preparation is rewarded. Exfil to advance your seasonal power, earn cosmetics for your achievements, and assemble stronger builds with your stolen loot. Then put your gear back on the line to seek even greater fortunes in your next run. A GRAVEYARD OF POSSIBILITIES Trespass across deserted research facilities, rugged landscapes, and security outposts holding the remnants of a vanished expedition, yours to salvage. Tau Ceti threatens death at every turn with unique enemies, dynamic events, and environmental hazards. Each zone escalates in difficulty, preparing you for the UESC Marathon locked in the heavens. POWERFUL. CONFIGURABLE. EXPENDABLE. Six equippable Runner shells offer diverse playstyle foundations to build upon, like Destroyer, Recon, and Thief. Scavenge an arsenal of moddable weapons, body implants, and core system upgrades to craft countless builds. Strategize as a crew each run to form comps that maximize your combined strengths, shaping the way you approach fights and objectives. ENEMIES EVERYWHERE Face the unknown as a crew of two or three, or alone in solo lobbies. Or sneak into in-progress crew lobbies as Rook, a lone scavenger with no starting gear and nothing to lose. Forge uneasy alliances with rival Runners in prox chat to defeat mutual foes, but remember your new allies might revert to enemies just as quickly. Be merciless in combat: A lone survivor can reboot their crew, even from death. Later in Season 1, compete in Rated mode to measure your skill and build a name for yourself. INFLUENCE IS POWER Liaise with six competing factions, each offering lucrative incentives to advance their foothold on Tau Ceti. Completing faction contracts grows your baseline power via season-long unlocks like Runner shell upgrades, stronger starting loadouts, expanded vault space, and specialized wares on offer for spare loot. DEFRAGMENT THE TRUTH No one knows what happened a century ago when the Marathon expedition went dark. As a trespasser into UESC territory, you are uniquely positioned to piece the story together. Unearth the skeletons of Tau Ceti’s past as you run deeper into the colony. DEATH HANGS ABOVE Once the way into orbit unlocks, bring your endgame build to Cryo Archive, the first floor of the UESC Marathon. Solve raid-like security measures to unseal frozen vaults and pillage the artifacts within. Every cramped corridor forces you into conflict with fully-geared enemy crews racing for the same prize. Breach the seventh vault to challenge an entity even the UESC fears.",
         "id_in_db": "t3_1rrmomh",
         "subreddit": "GameDeals",
@@ -845,43 +863,73 @@
         "persian_summary": "ارسال شده توسط /u/PM_ME_FREEGAMES [پیوند] [نظر]"
     },
     {
-        "title": "national park simulator 1525 1540 eu us",
+        "title": "newegg death stranding 2",
         "store": "other",
-        "url": "https://www.allyouplay.com/pc/rangers-path-national-park-simulator-pointnxs-65256404-a295-4bca-aeab-e49aded1b615",
-        "image_url": null,
-        "description": "submitted by /u/AllYouPlay [link] [comments]",
-        "id_in_db": "t3_1rqnfl9",
+        "url": "https://www.newegg.com/playstation-publishing-llc-death-stranding-2-on-the-beach-pre-order-pc/p/N82E16832886175",
+        "image_url": "https://external-preview.redd.it/-ABG5YYMyg3NbvN_9sgrWRmZhTOBXLC2T4lHpswpRrY.jpeg?width=640&crop=smart&auto=webp&s=b86c56fdca9bd45ac425673bc457f65efb419a62",
+        "description": "submitted by /u/Dramatic_Walk8473 [link] [comments]",
+        "id_in_db": "t3_1rt3ibl",
         "subreddit": "GameDeals",
         "is_free": false,
-        "discount_text": "23% off",
+        "discount_text": "21% off",
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/AllYouPlay [لینک] [نظر]"
+        "persian_summary": "ارسال شده توسط /u/Dramatic_Walk8473 [پیوند] [نظر]"
     },
     {
         "title": "once in yaissor",
         "store": "other",
         "url": "https://givee.club/en/event/1259",
-        "image_url": "https://external-preview.redd.it/GQzm3MbUjPbnePPNliyVCwd3yqF5B4BxipCQZERuwM0.jpeg?width=320&crop=smart&auto=webp&s=0860047b82e383972c52cc9b7eda76fac175f176",
-        "description": "submitted by /u/thalesulisses_29 [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553790/header.jpg?t=1770076237",
+        "description": "Game Features: - Complex plot - Well-developed characters - Great humor - Unique style - Life themes are touched upon - No annoying anime characters Summer, 2020, Ya'issor. Most people have become youtubers, streamers, and other scum, and almost no one wants to be a working bum. Nobody has an opinion of their own. Everyone thinks they are nihilists, atheists, reading intellectuals and other elites. But life has not changed, because all the people who are persecuted are the same as they are. That is why Yaissor is no longer Europe-Asia, it is now Atheist-Bull. Atheisto is led by the people themselves, or rather by those who engage in Internet activity. At the head of the Bildo is Nitup and it is this part of the country that supplies Yaissor with all the production it needs, because in Atheisto live people who believe that work is for people who are backward in development. RECENTS Over and over again.. - It is not interesting to walk alone, however, in the company of friends and a few boxes of spirits, this story can be very funny! Heart of the Games - I don't understand even single word but it's best game I have ever seen. StopGame.ru - Passing Yaissor alone is not interesting, but in the company of friends and a few cases of strong drinks this novel can be very funny :-) BF Reviews - An excellent novel with a deep story from domestic developers. Real photos, real life situations, well readable text. Funny and sometimes sad.",
         "id_in_db": "t3_1rlrjoh",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
+        "steam_app_id": "553790",
+        "genres": [
+            "Adventure",
+            "Indie"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/thalesulisses_29 [پیوند] [نظر]"
+        "persian_summary": "ویژگی های بازی: - طرح پیچیده - شخصیت های توسعه یافته - طنز عالی - سبک منحصر به فرد - موضوعات زندگی لمس شده است - بدون شخصیت های انیمه آزاردهنده تابستان، 2020، Ya'issor. بیشتر مردم یوتیوب، استریمر، و دیگر خوار و بارها شده اند و تقریباً هیچ کس نمی خواهد یک آدم بدکار باشد. هیچ کس برای خودش نظری ندارد. همه فکر می کنند پوچ گرا، بی خدا، روشنفکر کتابخوان و دیگر نخبگان هستند. اما زندگی تغییر نکرده است، زیرا همه افرادی که مورد آزار و اذیت قرار می گیرند همان هستند. به همین دلیل است که یایسور دیگر اروپا-آسیا نیست، اکنون آتئیست-بول است. آتئیستو توسط خود مردم، یا بهتر است بگوییم توسط کسانی که در فعالیت های اینترنتی شرکت می کنند، رهبری می شود. در رأس Bildo Nitup قرار دارد و این بخش از کشور است که تمام تولیدات مورد نیاز یایسور را تامین می کند، زیرا در Atheisto افرادی زندگی می کنند که معتقدند کار برای افرادی است که در توسعه عقب مانده اند. اخیراً بارها و بارها.. - تنها راه رفتن جالب نیست، اما در جمع دوستان و چند ..."
     },
     {
         "title": "pcconsole other the elder scrolls online",
         "store": "other",
         "url": "https://account.elderscrollsonline.com/redeem-code?code=U49GIFT",
-        "image_url": null,
-        "description": "submitted by /u/MeguminShiro [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/306130/0d72f13b2d3f75385a0c83e2551ba97e1059c6fe/header.jpg?t=1773248402",
+        "description": "Includes The Elder Scrolls Online base game plus the Morrowind, Imperial City, Orsinium, Thieves Guild, and Dark Brotherhood adventures. Every legend starts somewhere and in The Elder Scrolls Online, it starts with you. Write your story into a vibrant chapter of Tamriel’s distant past that takes place nearly 1,000 years before the iconic TES V: Skyrim, and discover a world steeped in adventure and possibility. A DIVERSE FANTASY WORLD – Travel Tamriel and discover a world of adventure. Explore mushroom forests in Morrowind, battle Daedra in Oblivion, or duel other players in PvP combat. RICH STORIES ON A SHARED CANVAS - Immerse yourself in storytelling crafted with the same spirit as your favorite Elder Scrolls games. Discover an ever-growing world with friends or solo. PURPOSE IN EVERY PATH - Choose from an array of quests and challenges that fit your desires and ambitions. Make this Elder Scrolls world your own - you belong here.",
         "id_in_db": "t3_1rscydy",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
+        "steam_app_id": "306130",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Massively Multiplayer",
+            "RPG"
+        ],
+        "is_multiplayer": true,
+        "is_online": true,
+        "age_rating": "Blood and gore\r\nSexual themes\r\nUse of alcohol\r\nViolence",
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/MeguminShiro [لینک] [نظر]"
+        "persian_summary": "شامل بازی پایه آنلاین The Elder Scrolls به اضافه ماجراهای Morrowind، Imperial City، Orsinium، Thieves Guild و Dark Brotherhood است. هر افسانه ای از جایی شروع می شود و در The Elder Scrolls Online با شما شروع می شود. داستان خود را در فصلی پر جنب و جوش از گذشته دور تامریل بنویسید که تقریباً 1000 سال قبل از نماد TES V: Skyrim رخ می دهد و دنیایی پر از ماجراجویی و امکان را کشف کنید. یک دنیای فانتزی متنوع - به تامریل سفر کنید و دنیایی از ماجراجویی را کشف کنید. جنگل‌های قارچ را در Morrowind کاوش کنید، در Oblivion با Daedra مبارزه کنید یا در مبارزات PvP با دیگر بازیکنان دوئل کنید. داستان های غنی روی بوم مشترک - در داستان سرایی که با همان روحیه بازی های Elder Scrolls ساخته شده است غوطه ور شوید. با دوستان یا انفرادی دنیایی رو به رشد را کشف کنید. هدف در هر مسیر - از میان مجموعه ای از ماموریت ها و چالش هایی که متناسب با خواسته ها و جاه طلبی های شما هستند، انتخاب کنید. این دنیای Elder Scrolls را متعلق به خود کنید - شما به اینجا تعلق دارید."
+    },
+    {
+        "title": "pcconsolemobile other warframe",
+        "store": "other",
+        "url": "https://www.warframe.com/news/warframe-x-hyperx-13-year-anniversary-keyboard-giveaway",
+        "image_url": "https://external-preview.redd.it/Q7m9fVWTRfsz2UIKfL_fRcwnHtvCm_IA0q_3pb397es.png?width=640&crop=smart&auto=webp&s=c6768d63f69bee22fd5e8c6a529c239e8fc0843c",
+        "description": "Requires installing HP OMEN Gaming Hub . submitted by /u/MeguminShiro [link] [comments]",
+        "id_in_db": "t3_1rtbeaa",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "نیاز به نصب HP OMEN Gaming Hub دارد. ارسال شده توسط /u/MeguminShiro [لینک] [نظر]"
     },
     {
         "title": "photo gallery pro 999",
@@ -900,40 +948,24 @@
         "title": "planet coaster",
         "store": "other",
         "url": "https://www.digiphile.co/collections/planet-coaster-free-game-plus",
-        "image_url": "https://external-preview.redd.it/sVXAY8tIY5QcgqkRX1QbYmTQYmOfpktGpsaWuNcWE6g.png?width=640&crop=smart&auto=webp&s=793fc2d8061cebdcb5f9c7dd6f6805e901a8bd2f",
-        "description": "submitted by /u/MeguminShiro [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/493340/header.jpg?t=1725377481",
+        "description": "Surprise, delight and thrill crowds as you build the theme park of your dreams. Build and design incredible coaster parks with unparalleled attention to detail and manage your park in a truly living world. Piece-by-Piece Construction: Planet Coaster makes a designer out of everyone. Lay paths, build scenery, customize rides and make everything in your park unique with piece-by-piece construction and over a thousand unique building components. Landscape Sculpting: Play with nature and reshape the land beneath your feet. Sculpt the landscape to raise mountains, form lakes, dig caverns and even build islands in the sky, then weave coasters through your park above ground and below. Total Authenticity: Recreate your favorite rides or leave the real world at the door. However you love to play, the most realistic rides and most realistic reactions from your guests make Planet Coaster the most authentic simulation ever. Simulation Evolved: The deepest park simulation in gaming history rewards your skills and makes management fun. Control every aspect of your guests’ experience and watch as Planet Coaster’s world reacts to your choices in an instant. A Living World: Every park guest is an expressive individual who thinks, feels and explores your park with their own interests and desires. Together Planet Coaster’s guests will tell you at a glance just how well your park is run. Park Management: You’re the boss with accessible controls that make management fun. Test your skills in a campaign of creative scenarios, or just build for fun and tweak your parks to surprise, delight and thrill your guests. Communal Creation: Planet Coaster links coaster fanatics and creators around the world with the Steam Workshop community hub. Trade scenery, rollercoasters and even entire parks with other players, and add the world’s wildest creations to your own park. Be Inspired: Discover new content from the world’s best coaster park creators every day. Browse and download content from your favorite creators, or choose from the latest designs selected by the Planet Coaster dev team. Share Your Creativity: Whether it’s a magnificent ice cream shop or the world’s most thrilling coaster, build it, name it and share it with the planet. Join a community of creators and see your designs appear in parks around the world.",
         "id_in_db": "t3_1rq0itr",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
+        "steam_app_id": "493340",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Casual",
+            "Simulation",
+            "Strategy"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/MeguminShiro [لینک] [نظر]"
-    },
-    {
-        "title": "platform residual ca599 free outer space pixel survival exploration game",
-        "store": "other",
-        "url": "https://www.reddit.com/r/AppHookup/comments/1r93efg/multiplatform_residual_ca599_free_outer_space/",
-        "image_url": null,
-        "description": "https://store.epicgames.com/en-US/p/residual-android-eef593 https://store.epicgames.com/en-US/p/residual-ios-0e5d52 Explore a forgotten galaxy full of different planets, venture deeper into the planet to mine for rare resources, craft items to fix your ship, and discover ancient secrets and life forms. It is an exploration (survival) game like no other.. Adventure awaits! submitted by /u/PM_ME_FREEGAMES [link] [comments]",
-        "id_in_db": "t3_1r93efg",
-        "subreddit": "AppHookup",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "https://store.epicgames.com/en-US/p/residual-android-eef593 https://store.epicgames.com/en-US/p/residual-ios-0e5d52 یک کهکشان فراموش شده پر از سیارات مختلف را کاوش کنید، به اعماق سیاره بپردازید تا منابع راز و اقلام کمیاب خود را کشف کنید، کشتی ها و اقلام مخفی خود را کشف کنید. این یک بازی اکتشافی (بقا) است که شبیه هیچ بازی دیگری نیست. ماجراجویی در انتظار است! ارسال شده توسط /u/PM_ME_FREEGAMES [پیوند] [نظر]"
-    },
-    {
-        "title": "playsum marvels guardians of the galaxy 810 810 681 c1053 a1214 with code cheers",
-        "store": "other",
-        "url": "https://store.playsum.live/product/3b6c3950-7ef2-5d9d-afdb-70a0cfa8a1fd/marvel-s-guardians-of-the-galaxy",
-        "image_url": "https://external-preview.redd.it/AmfSvkBv7RfK0jqGRfGlco3sy8S8kaTxu6oL5NhKzog.jpeg?width=320&crop=smart&auto=webp&s=be4dc7f2a4507811ab3a40abb1a4a2ffc035b6fe",
-        "description": "submitted by /u/Lets_Playsum [link] [comments]",
-        "id_in_db": "t3_1rqgli7",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "86% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/Lets_Playsum [لینک] [نظر]"
+        "persian_summary": "با ساختن پارک موضوعی رویاهای خود، جمعیت را غافلگیر، شاد و هیجان زده کنید. پارک های ساحلی باورنکردنی را با توجه بی نظیر به جزئیات بسازید و طراحی کنید و پارک خود را در دنیایی واقعا زنده مدیریت کنید. ساخت و ساز تکه به تک: Planet Coaster از همه یک طراح می سازد. مسیرها را بسازید، مناظر بسازید، سواری ها را سفارشی کنید و همه چیز را در پارک خود با ساخت و ساز تکه تکه و بیش از هزار جزء منحصر به فرد ساختمان منحصر به فرد کنید. مجسمه سازی منظره: با طبیعت بازی کنید و زمین زیر پای خود را تغییر شکل دهید. منظره را برای بلند کردن کوه ها، تشکیل دریاچه ها، حفاری غارها و حتی ساختن جزایر در آسمان، مجسمه سازی کنید، سپس در پارک خود در بالای زمین و زیر آن، ترن هوایی ببافید. اصالت کامل: سواری های مورد علاقه خود را دوباره بسازید یا دنیای واقعی را پشت در بگذارید. با وجود این که دوست دارید بازی کنید، واقعی ترین سواری ها و واقعی ترین واکنش های مهمانانتان، Planet Coaster را به معتبرترین شبیه سازی تا کنون تبدیل کرده است. Simulation Evolved: عمیق ترین شبیه سازی پارک در جوایز تاریخ بازی..."
     },
     {
         "title": "rip them off",
@@ -949,17 +981,30 @@
         "description": ""
     },
     {
-        "title": "shot egs tattoo tycoon egs siege of avalon gog are complimentary with amazon prime",
-        "store": "amazon",
-        "url": "https://luna.amazon.com/claims/home?filter=Game&g=s",
-        "image_url": "https://external-preview.redd.it/_fBjABdCsDDIR7bJn-cgpkXoTMJ2MnAEY3PCdXPaAoY.png?width=640&crop=smart&auto=webp&s=bef23da95c6aa8211ed8845602ada6c6644977cf",
-        "description": "submitted by /u/LighteningOneIN [link] [comments]",
-        "id_in_db": "t3_1rlogto",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
+        "title": "ruiner 90 off 199",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/464060/RUINER/",
+        "image_url": "https://external-preview.redd.it/e9kJ6rLi2VNGN-SaMt7TmInBTMX7jGEmzaipDNKzzW0.jpeg?width=320&crop=smart&auto=webp&s=6fcae61c70ffbcaa8f09a26991ed7f9d9e91034e",
+        "description": "submitted by /u/BadOrange8 [link] [comments]",
+        "id_in_db": "t3_1rsmn44",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "90% off",
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/LighteningOneIN [پیوند] [نظر]"
+        "persian_summary": "ارسال شده توسط /u/BadOrange8 [پیوند] [نظر]"
+    },
+    {
+        "title": "space odyssey 30 off 559",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/2352670/Arcadium__Space_Odyssey/",
+        "image_url": "https://external-preview.redd.it/3bsbH_ossAcWin4L19W5sFS_Z6-8qTLZLD4CsdbCzps.jpeg?width=320&crop=smart&auto=webp&s=5dc2e457a7edc8db5af29e4c63f5c49e50c83c10",
+        "description": "submitted by /u/Odd_Particular4116 [link] [comments]",
+        "id_in_db": "t3_1rr6m93",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "30% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/Odd_Particular4116 [پیوند] [نظر]"
     },
     {
         "title": "the assault",
@@ -973,41 +1018,6 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/MeguminShiro [لینک] [نظر]"
-    },
-    {
-        "title": "The Assault: Survivor",
-        "id_in_db": "the-assault-survivor@1772917985",
-        "store": "other",
-        "url": "https://itad.link/018f9677-e515-7136-bd7e-3c3affd9d4e7/",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "2827230",
-        "description": "Welcome to \"Wild Assault\". This third-person PvP shooting game was developed using Unreal Engine 5, where you are about to embark on a unique furry warfare experience that integrates intense battles, teamwork, and ingenious animal hero abilities. Anthro heroes & heroines with unique abilities based on animal instincts. Unleash their primal power with your wisdom and achieve victory together! Different styles, different origins, different goals, same battleground! Wild Assault provides a free-choice experience based on weapon classes. Whether you're a cool-headed marksman or a brave assault player, in Wild Assault you can always enjoy the most exhilarating shooting experience. All characters in Wild Assault have their unique abilities based on animal instincts. It's more than just shooting combat - help the characters unleash their primal powers to achieve victory! Wild Assault offers a 20 vs 20 team-based battleground gaming experience. From capturing strongholds to frontline assaults and defenses, utilize characters' high mobility on all fours and unique abilities to secure victory. It's a test of skill and strategy! Assault, expert, medic, marksman, and much more! Unleash your wisdom and creativity to match different classes for the squad. Maximize the team's strength!",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2827230/8ca2fb4b9a04f10b633c2c05b3ac78dd1cb21db1/header.jpg?t=1770881648",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Massively Multiplayer",
-            "Early Access"
-        ],
-        "is_multiplayer": true,
-        "is_online": true,
-        "is_dlc_or_addon": false,
-        "persian_summary": "به \"حمله وحشی\" خوش آمدید. این بازی تیراندازی PvP سوم شخص با استفاده از Unreal Engine 5 ساخته شده است، جایی که شما در حال تجربه یک جنگ خزدار منحصر به فرد هستید که نبردهای شدید، کار گروهی و توانایی های قهرمان حیوانات مبتکرانه را در خود ادغام می کند. قهرمانان و قهرمانان Anthro با توانایی های منحصر به فرد بر اساس غرایز حیوانات. قدرت اولیه آنها را با خرد خود آزاد کنید و با هم به پیروزی برسید! سبک های مختلف، ریشه های مختلف، اهداف متفاوت، میدان جنگ یکسان! بازی Wild Assault یک تجربه انتخاب آزاد بر اساس کلاس های سلاح را فراهم می کند. چه یک تیرانداز خونسرد یا یک بازیکن تهاجمی شجاع باشید، در بازی Wild Assault همیشه می‌توانید از هیجان‌انگیزترین تجربه تیراندازی لذت ببرید. همه شخصیت های بازی Wild Assault توانایی های منحصر به فرد خود را بر اساس غرایز حیوانات دارند. این چیزی بیش از فقط تیراندازی در نبرد است - به شخصیت ها کمک کنید تا قدرت های اولیه خود را آزاد کنند تا به پیروزی برسند! بازی Wild Assault تجربه بازی 20 در مقابل 20 تیمی را در میدان جنگ ارائه می دهد. از تصرف سنگرها تا حملات خط مقدم..."
-    },
-    {
-        "title": "the daedalic armageddon bundle",
-        "store": "steam",
-        "url": "https://store.steampowered.com/sub/55062/",
-        "image_url": "https://external-preview.redd.it/qZTM6BWUPsFA8QOmHDUXV70HuZbuTYtixZXmx8NN35g.jpeg?width=640&crop=smart&auto=webp&s=57e400ec7d603f78ce4c7e0c2d5abcbe06210eaa",
-        "description": "submitted by /u/Luke-Hatsune [link] [comments]",
-        "id_in_db": "t3_1rr203u",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "95% off",
-        "steam_app_id": "214340,220740,241910,268540,203830,105000,243200,230820,255320,219910,255280",
-        "is_dlc_or_addon": true,
-        "persian_summary": "ارسال شده توسط /u/Luke-Hatsune [پیوند] [نظر]"
     },
     {
         "title": "the dragons trap is currently available to claim for free on the epic game store for mobile 899",
@@ -1026,14 +1036,21 @@
         "title": "traces of the lost colony",
         "store": "steam",
         "url": "https://store.steampowered.com/app/1269500/Crowalt_Traces_of_the_Lost_Colony/",
-        "image_url": "https://external-preview.redd.it/cTLYozB6PEnYhJLHRYP4QJluuen1dUibj1a0xaDLzG8.jpeg?width=320&crop=smart&auto=webp&s=4b06379662fb0901cbb8e5bc1c46f8bb93a85a30",
-        "description": "submitted by /u/Fhczvyd474374846 [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1269500/header.jpg?t=1772894318",
+        "description": "Crowalt: Traces of the Lost Colony is an adventure game that is merging the traditional storytelling with modern-day pixel art graphics. CHASING A MYSTERY THAT IS UNEXPLAINED FOR 150 YEARS A group of people who set out to establish the first settled colony in America in 1587, mysteriously disappears a short time after arriving. They leave only an island name carved on a tree: \"Crowalt\". Now, the year is 1737. A young and ambitious adventurer Hugh Radcliff pursues the Lost Colony to make his first great discovery. Now, different people live in Crowalt, where he came to solve this mystery. He will hover around the island and definitely will get in a series of troubles to find what happened to the Lost Colony. CLASSIC POINT AND CLICK MECHANICS Collect, combine, and use items to solve puzzles. PIRATES ARE HERE TOO! Try to deal with routine pirate visitors of Crowalt and of course, enjoy funny dialogues. FOLLOW YOUR JOURNAL Hugh draws important things and takes notes regarding them in his journal. It will be updated after important events and findings during the game. MAKE CHOICES Lie or speak only the truth. COLLECT ARTIFACTS There are lots of historical items around the island, collecting them will take you to another level of… achievements! EARN THE TRUST OF NATIVES Natives are discreet residents of the island. Taking information from them will require earning their trust.",
         "id_in_db": "t3_1rml626",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
+        "steam_app_id": "1269500",
+        "genres": [
+            "Adventure",
+            "Indie"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/Fhczvyd474374846 [لینک] [نظر]"
+        "persian_summary": "Crowalt: Traces of the Lost Colony یک بازی ماجراجویی است که داستان سرایی سنتی را با گرافیک هنری پیکسل مدرن ادغام می کند. تعقیب یک راز که به مدت 150 سال غیرقابل توضیح است گروهی از افرادی که در سال 1587 برای ایجاد اولین مستعمره مستقر در آمریکا تصمیم گرفتند، مدت کوتاهی پس از رسیدن به طرز مرموزی ناپدید می شوند. آنها تنها نام جزیره ای را بر روی درخت حک شده به جای می گذارند: \"Crowalt\". اکنون، سال 1737 است. یک ماجراجوی جوان و جاه طلب، هیو رادکلیف، کلنی گمشده را دنبال می کند تا اولین کشف بزرگ خود را انجام دهد. اکنون افراد مختلفی در کرووالت زندگی می کنند، جایی که او برای حل این معما آمده است. او در اطراف جزیره شناور خواهد شد و قطعاً در یک سری مشکلات برای یافتن آنچه برای کلونی گمشده رخ داده است، مواجه خواهد شد. مکانیک های کلاسیک نقطه و کلیک جمع آوری، ترکیب و استفاده از موارد برای حل پازل ها. دزدان دریایی نیز اینجا هستند! سعی کنید با بازدیدکنندگان معمولی دزدان دریایی کرووالت برخورد کنید و البته از دیالوگ های خنده دار لذت ببرید. ژورنال خود را دنبال کنید هیو چیزهای مهمی را ترسیم می کند و در مورد آنها یادداشت برداری می کند..."
     },
     {
         "title": "turnip boy robs a bank ca1699 free turnip boy is back this time hes teamed up with the fearsome pickled gang to pull off the weirdest heist of all time",
@@ -1047,17 +1064,6 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/PM_ME_FREEGAMES [پیوند] [نظر]"
-    },
-    {
-        "title": "Umm Oyoun",
-        "id_in_db": "umm-oyoun@1773357803",
-        "store": "other",
-        "url": "https://itad.link/019a7c85-c809-7289-bfe0-684a7e1755aa/",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "",
-        "description": ""
     },
     {
         "title": "umm oyoun",
@@ -1078,6 +1084,17 @@
         "is_online": false,
         "is_dlc_or_addon": false,
         "persian_summary": "بازی یک تجربه روایی اپیزودیک است که در آن هر فصل جدید بر اساس تداوم فصل قبلی است. داستان یک مادر و دخترش سارا را دنبال می‌کند که در یک سفر هیجانی و هیجان‌انگیز برای جستجوی پدر سارا که در یک شب طوفانی و وهم‌آور در شرایطی مرموز ناپدید شده است، می‌روند. این بازی ترکیبی از عمق احساسی و تعلیق را ارائه می دهد و بازیکنان را در دنیایی از اسرار و شخصیت های معمایی غوطه ور می کند. ویژگی ها اکتشاف محیطی: درگیر جستجوی دقیق و کاوش در محیط های غوطه ور شوید. استفاده از چراغ قوه: از چراغ قوه برای پیمایش موثر در مناطق تاریک و وهم آلود استفاده کنید. شمع روشنایی: شمع روشن کنید تا محیط اطراف را روشن کنید و فضایی امن ایجاد کنید. حل پازل: پازل های چالش برانگیز را حل کنید که مسیرهای جدید را باز می کند و عناصر داستان را باز می کند. Ghost Chases: تعقیب و گریز هیجان انگیز ارواح را تجربه کنید و تنش و هیجان را به گیم پلی بازی اضافه کنید. یادداشت از تیم توسعه بازی در حال حاضر در دست توسعه است و در..."
+    },
+    {
+        "title": "Umm Oyoun - ام عيون",
+        "id_in_db": "umm-oyoun-am-ywn@1773357803",
+        "store": "other",
+        "url": "https://itad.link/019a7c85-c809-7289-bfe0-684a7e1755aa/",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "",
+        "description": ""
     },
     {
         "title": "umm oyoun 100 off free",
