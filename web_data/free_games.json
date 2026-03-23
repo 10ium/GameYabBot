@@ -29,14 +29,25 @@
         "title": "ACT",
         "store": "steam",
         "url": "https://store.steampowered.com/app/1297320/ACT/",
-        "image_url": "https://external-preview.redd.it/fKPPp7-d0wTMqmAnJnEm6dCml0HcZP4_00znjX8mJ-g.jpeg?width=320&crop=smart&auto=webp&s=eab7471e09ead0c194ef7187da659e13a3dde3ea",
-        "description": "https://store.steampowered.com/news/app/1297320/view/497223585377551681 submitted by /u/thalesulisses_29 [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297320/header.jpg?t=1693332020",
+        "description": "What is \"ACT\"? ACT is a \" Mini Role Play \" multiplayer game which is played from 4 to 6 players. A game lasts 10 minutes, during which you will have to try to earn as much money as possible . To do this you will have a job (which will be secret to the other players) which gives you special abilities : - Police (Infiltrate gangs and arrest all criminals) - FBI (Collaborate with fellow FBI players and kill all terrorists) - Robber (Rob the whole shop out) - Mafia (Recruit other players and let them join your crime organization) - Kamikaze (Explode and earn money by getting killed) - Serial Killer (You are a total psychopath, kill as many players as you can) Each job has different goals, and brings you money through differents ways. But be carefoul: you have a gun . This means you can kill people ... but you can be killed too... You will need to speak with other neighbor players with your mic (VOIP, voice chat system) to find out what job the other players have, and know if you should kill them or not.",
         "id_in_db": "t3_1rznqz9",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
+        "steam_app_id": "1297320",
+        "genres": [
+            "Action",
+            "Casual",
+            "Indie",
+            "Simulation",
+            "Strategy",
+            "Free To Play"
+        ],
+        "is_multiplayer": true,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "https://store.steampowered.com/news/app/1297320/view/497223585377551681 ارسال شده توسط /u/thalesulisses_29 [لینک] [نظر]"
+        "persian_summary": "\"ACT\" چیست؟ ACT یک بازی چند نفره \"Mini Role Play\" است که بین 4 تا 6 بازیکن بازی می شود. یک بازی 10 دقیقه طول می کشد که در طی آن باید سعی کنید تا جایی که ممکن است درآمد کسب کنید. برای انجام این کار شما یک شغل (که برای سایر بازیکنان مخفی خواهد بود) خواهید داشت که به شما توانایی های ویژه ای می دهد: - پلیس (نفوذ به باندها و دستگیری همه جنایتکاران) - FBI (همکاری با دیگر بازیکنان FBI و کشتن همه تروریست ها) - دزد (دزدیدن کل فروشگاه) - مافیا (بازیکنان دیگر را به خدمت بگیرید و به آنها اجازه دهید با دریافت جنایت و جنایت خود به آنها بپیوندند). قاتل (شما یک روان پریش هستید، هر تعداد بازیکن را که می توانید بکشید) هر شغل اهداف متفاوتی دارد و از راه های مختلف برای شما پول به ارمغان می آورد. اما مراقب باشید: شما یک تفنگ دارید. این به این معنی است که شما می توانید مردم را بکشید ... اما شما نیز می توانید کشته شوید ... شما باید با میکروفون خود (VOIP، سیستم چت صوتی) با سایر بازیکنان همسایه صحبت کنید تا بدانید که بازیکنان دیگر چه شغلی دارند و بدانید که آیا باید ..."
     },
     {
         "title": "adventure in wonderland",
@@ -52,30 +63,17 @@
         "description": ""
     },
     {
-        "title": "apps color picker 099",
-        "store": "googleplay",
-        "url": "https://play.google.com/store/apps/details?id=io.github.utopiacosmica.color_picker_new",
-        "image_url": "https://external-preview.redd.it/U3djMH7_bJeXVgb-D2sUlgViOnU-6J9b3wlQFBAXbTk.png?width=320&crop=smart&auto=webp&s=2ea43278816791c3021de5c815c50c233624cf1f",
-        "description": "submitted by /u/ac_del [link] [comments]",
-        "id_in_db": "t3_1rs7zhb",
-        "subreddit": "googleplaydeals",
+        "title": "ammo night 100 off free",
+        "store": "epicgames",
+        "url": "https://store.epicgames.com/p/wave-gods-ammo-night-7eb978",
+        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1593230/1dd18fe88a7b1e949f0f9b702ae964e5d7354213/header_alt_assets_9.jpg?t=1773851320",
+        "description": "submitted by /u/LongDistanceStranger [link] [comments]",
+        "id_in_db": "t3_1s0pwe1",
+        "subreddit": "GameDeals",
         "is_free": true,
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/ac_del [لینک] [نظر]"
-    },
-    {
-        "title": "apps cryptomator 2999",
-        "store": "googleplay",
-        "url": "https://play.google.com/store/apps/details?id=org.cryptomator",
-        "image_url": "https://external-preview.redd.it/928mq65DVusKrfyH8bS_rzrt5ZwTDATRIaoU0xEL6Eo.png?width=320&crop=smart&auto=webp&s=979c46712288301bd8481a42b2585a226e585fa0",
-        "description": "submitted by /u/iMarcosBR [link] [comments]",
-        "id_in_db": "t3_1rs7quf",
-        "subreddit": "googleplaydeals",
-        "is_free": false,
-        "discount_text": "66% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/iMarcosBR [پیوند] [نظر]"
+        "persian_summary": "ارسال شده توسط /u/LongDistanceStranger [پیوند] [نظر]"
     },
     {
         "title": "apps deals tracker pro",
@@ -91,23 +89,23 @@
         "persian_summary": "https://play.google.com/store/apps/details?id=com.tomlocksapps.dealstracker.ebay.pro&referrer=utm_source%3Dreddit%26utm_campaign%3Dgpd ارسال شده توسط /u/tomlocksapps [لینک] [نظرات]"
     },
     {
-        "title": "apps iptv smart player pro 949",
+        "title": "bass booster equalizer pro 299",
         "store": "googleplay",
-        "url": "https://play.google.com/store/apps/details?id=com.iptv.smart.smarters.player.stream.tv.live.watch.streaming.chromecast",
-        "image_url": "https://external-preview.redd.it/K6mdZUMUz9OpmE-wRIphP_E8RdtnwLPaGC_DpcNfABI.png?width=320&crop=smart&auto=webp&s=8f415fdd1f13e85445064bb35c17efa27d81f10b",
-        "description": "submitted by /u/ac_del [link] [comments]",
-        "id_in_db": "t3_1rs66n9",
+        "url": "https://play.google.com/store/apps/details?id=com.realbass.bassbooster",
+        "image_url": "https://external-preview.redd.it/xe7Y8xvytdTVybitmkm2MlHs7V2eaFlTLTDMojKPZV4.png?width=320&crop=smart&auto=webp&s=161c46dbe3e26740f34906c21476b22e41f9af76",
+        "description": "Bass Booster & Equalizer PRO is currently free for a limited time! Improve the sound quality of your Android device with Bass Boost, Volume Boost, 3D surround Effect, and a 8-band Equalizer. Main Features: 8-band Equalizer & presets (Rock, Pop, Jazz, etc.) Bass Boost & Volume Boost effects Stereo surround sound effect No ads in this Pro version submitted by /u/vvvqwerty [link] [comments]",
+        "id_in_db": "t3_1s1721y",
         "subreddit": "googleplaydeals",
         "is_free": true,
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/ac_del [لینک] [نظر]"
+        "persian_summary": "Bass Booster & Equalizer PRO در حال حاضر برای مدت محدودی رایگان است! کیفیت صدای دستگاه اندرویدی خود را با Bass Boost، Volume Boost، 3D Surround Effect و اکولایزر 8 بانده بهبود دهید. ویژگی های اصلی: اکولایزر 8 باند و از پیش تنظیم شده (راک، پاپ، جاز، و غیره) جلوه های تقویت باس و افزایش صدا جلوه صدای فراگیر استریو بدون تبلیغات در این نسخه حرفه ای توسط /u/vvvqwerty [لینک] [نظرات]"
     },
     {
         "title": "beholder 2 214 192 166 c280 a311 with code cheers",
         "store": "other",
         "url": "https://store.playsum.live/product/0f2bba24-8397-5343-b6d7-608d7ce8c7a9/beholder-2",
-        "image_url": "https://external-preview.redd.it/KgDl6EGT6ddxYWZQu66Y5fZZs4HSS55xoRQ2zRDNMow.jpeg?width=320&crop=smart&auto=webp&s=21ff570abe6c21ae38e10f044cf07099423ea744",
+        "image_url": "https://cogconnected.com/wp-content/uploads/2017/12/Beholder-2-featured-wide-min.jpg",
         "description": "submitted by /u/Lets_Playsum [link] [comments]",
         "id_in_db": "t3_1ryoljg",
         "subreddit": "GameDeals",
@@ -139,7 +137,7 @@
         "title": "changing island as a spirit scout youll wander the islands forest each day finding new hidden secrets and helping soothe the local ghosts to bring back color and joy",
         "store": "epicgames",
         "url": "https://store.epicgames.com/en-US/p/cozy-grove",
-        "image_url": "https://cozygrovegame.com/wp-content/uploads/2024/05/CozyGrove2game-art-horizontal_na_08_en.jpg",
+        "image_url": "https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch2/70010000120540/da1548e7300fdf7ca169eafb60091169831fc44a78c97c293bfe61f47f637689",
         "description": "submitted by /u/Singhvistaar [link] [comments]",
         "id_in_db": "t3_1rrv8q9",
         "subreddit": "AppHookup",
@@ -210,70 +208,23 @@
         "url": "https://itad.link/018d959c-4ce0-7017-85af-4d940f1b48f1/",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "1080020",
-        "description": "In the Electrician Simulator game you will take on the role of an electrician. Learn the secrets of the electrician profession and become the best professional in town! Make repairs Install sockets, screw in light bulbs, repair broken devices, plugs, chandeliers, and lay wires. Use the online store to find the necessary parts. Experience what an electrician's job looks like! Explore the plot Meet your customers and solve their problems. The realistic storyline will make you feel like a real electrician! Remember to get the necessary equipment and check everything twice before meeting with the customer. There is no room for mistakes here! Your own workshop Do some DIY in your garage! Instead of standard orders, also repair damaged electrical equipment sent by customers. Take apart appliances, replace parts and find a way to repair damaged equipment! Variety of missions and customers Is there anything more interesting than new challenges? Check your inbox regularly and accept a variety of jobs - from small tasks to complex electrical installations! Remember being an electrician is not only fun but also professional. Try to do your job with as much attention to detail as possible! It's better not to mess with customers… Arrange your garage Everyone has a favorite place, right? Customize your home and garage to suit your needs! Raise money from orders and install as much electrical equipment in your home as you want! Endless possibilities Procedurally generated houses, random quests and even more challenges - it's all waiting for you! Repair broken gadgets at the workbench, go on missions and earn experience to unlock various exciting rewards!",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1080020/header.jpg?t=1773420811",
-        "genres": [
-            "Adventure",
-            "Casual",
-            "Indie",
-            "Simulation"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
+        "image_url": "https://cdn1.epicgames.com/spt-assets/d0be4faac92a49ebae039c0e0d386e42/electrician-simulator-1j17y.jpg?resize=1&w=480&h=270&quality=medium",
         "is_dlc_or_addon": false,
-        "subreddit": "FreeGameFindings",
-        "persian_summary": "در بازی Electrician Simulator شما نقش یک برقکار را خواهید داشت. اسرار حرفه برق را بیاموزید و بهترین حرفه ای شهر شوید! انجام تعمیرات سوکت ها را نصب کنید، لامپ ها را پیچ کنید، دستگاه های خراب، دوشاخه ها، لوسترها و سیم ها را تعمیر کنید. برای یافتن قطعات لازم از فروشگاه اینترنتی استفاده کنید. کار برقکار را تجربه کنید! طرح را کاوش کنید با مشتریان خود ملاقات کنید و مشکلات آنها را حل کنید. خط داستانی واقع گرایانه باعث می شود احساس کنید یک برقکار واقعی هستید! به یاد داشته باشید قبل از ملاقات با مشتری، تجهیزات لازم را تهیه کنید و همه چیز را دو بار بررسی کنید. اینجا جایی برای اشتباه نیست! کارگاه خودتان در گاراژ خود کارهای خود را انجام دهید! به جای سفارشات استاندارد، تجهیزات الکتریکی آسیب دیده ارسال شده توسط مشتریان را نیز تعمیر کنید. لوازم خانگی را جدا کنید، قطعات را تعویض کنید و راهی برای تعمیر تجهیزات آسیب دیده پیدا کنید! تنوع ماموریت ها و مشتریان آیا چیزی جالب تر از چالش های جدید وجود دارد؟ صندوق پستی خود را مرتب چک کنید و انواع مختلفی را بپذیرید..."
+        "persian_summary": "",
+        "description": ""
     },
     {
         "title": "electrician simulator ca2099 free take on the electrician role and learn the professions basics",
         "store": "epicgames",
-        "url": "https://store.epicgames.com/en-US/p/electrician-simulator-164e9f",
-        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1080020/capsule_616x353.jpg?t=1773420811",
+        "url": "https://store.epicgames.com/p/electrician-simulator-164e9f",
+        "image_url": "https://cdn1.epicgames.com/spt-assets/d0be4faac92a49ebae039c0e0d386e42/electrician-simulator-1j17y.jpg?resize=1&w=480&h=270&quality=medium",
         "description": "submitted by /u/PM_ME_FREEGAMES [link] [comments]",
-        "id_in_db": "t3_1ry3ujz",
-        "subreddit": "AppHookup",
+        "id_in_db": "t3_1ry2qux",
+        "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/PM_ME_FREEGAMES [پیوند] [نظر]"
-    },
-    {
-        "title": "elixion",
-        "store": "other",
-        "url": "https://steamdb.info/app/4330770/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4330770/c58ef41b35c94c03b4f650e6b94173362b4cec4f/header.jpg?t=1773696035",
-        "description": "Story You are an Adventurer Mage; you have left your village in search of Potion mixing knowledge to defend against any type of creatures & beasts. Strategic Action As a Mage, prepare for turn-based enemy encounters by brewing or buying defensive & offensive potions. Master the art of mixing to maximize your potions' potential. Overcome every enemy by learning their strengths & weaknesses. There is a limit to how many potions you can carry so plan accordingly & adapt. Gameplay Features Brewing Drag & mix potions into the flask to brew & create new recipes to Level Up. Use the recipe book to your advantage by learning new crafting combinations & the strength of potions. Strategize & prepare for battle by leveling up, brewing, or purchasing up to 10 potions. Keep track of your currency! Turn-Based Battles Drag potions onto enemies to attack or onto yourself to heal/buff in turn-based battles! Roll the dice in battle to determine how many potions you can use per turn. Adapt & make every turn count! Win the game by Hunting and defeating all enemies!",
-        "id_in_db": "t3_1rs9yaw",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "4330770",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Casual",
-            "Indie",
-            "RPG",
-            "Strategy"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "داستان شما یک جادوگر ماجراجو هستید. شما روستای خود را در جستجوی دانش ترکیب معجون برای دفاع در برابر هر نوع موجود و جانور ترک کرده اید. اقدام استراتژیک به عنوان یک جادوگر، با تهیه یا خرید معجون های دفاعی و تهاجمی، برای رویارویی های نوبتی با دشمن آماده شوید. برای به حداکثر رساندن پتانسیل معجون های خود، در هنر مخلوط کردن مسلط شوید. با یادگیری نقاط قوت و ضعف بر هر دشمنی غلبه کنید. محدودیتی برای تعداد معجون هایی که می توانید حمل کنید وجود دارد، بنابراین بر اساس آن برنامه ریزی کنید و تطبیق دهید. ویژگی‌های گیم‌پلی Brewing معجون‌ها را به داخل فلاسک بکشید و مخلوط کنید تا دستور العمل‌های جدیدی برای Level Up ایجاد کنید. با یادگیری ترکیبات جدید صنایع دستی و قدرت معجون ها از کتاب دستور العمل به نفع خود استفاده کنید. با ارتقاء سطح، دم کردن، یا خرید حداکثر 10 معجون، استراتژی و آماده شدن برای نبرد. ارز خود را پیگیری کنید! نبردهای نوبتی معجون‌ها را روی دشمنان بکشید تا به آنها حمله کنید یا روی خودتان برای شفا/حماقت در نبردهای نوبتی! تاس را در نبرد بیندازید تا مشخص کنید در هر نوبت از چند معجون می توانید استفاده کنید. تطبیق و ایجاد هر..."
-    },
-    {
-        "title": "emperor edition egs turmoil egs veil of darkness gog mahokenshi",
-        "store": "amazon",
-        "url": "https://luna.amazon.com/claims/home?filter=Game&g=s",
-        "image_url": "https://external-preview.redd.it/_fBjABdCsDDIR7bJn-cgpkXoTMJ2MnAEY3PCdXPaAoY.png?width=640&crop=smart&auto=webp&s=bef23da95c6aa8211ed8845602ada6c6644977cf",
-        "description": "submitted by /u/LighteningOneIN [link] [comments]",
-        "id_in_db": "t3_1rrwe6w",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": true,
-        "persian_summary": "ارسال شده توسط /u/LighteningOneIN [پیوند] [نظر]"
     },
     {
         "title": "epic games mobile potion permit",
@@ -294,25 +245,6 @@
         "is_online": true,
         "is_dlc_or_addon": false,
         "persian_summary": "Gravity's Ragnarok X: نسل بعدی بازتعریف RO Classic Adventure - بیش از 20 میلیون بازیکن در سراسر جهان ROX تکامل رسمی نسل بعدی MMORPG آنلاین کلاسیک راگناروک است. با جلوه‌های بصری پیشرفته، مبارزات استراتژیک و گیم‌پلی متنوع، ROX به ریشه‌های خود وفادار می‌ماند و در عین حال غارت منصفانه، تجارت رایگان و ماجراجویی واقعی را ارائه می‌دهد. افسانه شما اکنون آغاز می شود - آیا آماده اید؟ ◈ یک Reborn کلاسیک: منصفانه و رایگان ◈ ROX به داستان، جهان و سیستم شغلی *راگناروک آنلاین* اصلی احترام می گذارد و در عین حال همه چیزهای دیگر را ارتقا می دهد: دنیایی فراگیرتر، کنترل های بهتر، گرافیک مدرن، و بازی بدون درز موبایل به متقاطع. ROX که هم برای کهنه سربازان و هم برای تازه واردان ساخته شده است، آینده MMORPG های کلاسیک است. ◈ اقتصاد واقعی بازیکن محور ◈ فقط کسب درآمد کنید، تجارت کنید و پیشرفت کنید. در ROX، ابزار قدرتمند از سقوط رئیس منصفانه و تجارت بازیکن به بازیکن به دست می آید. روندهای بازار را پیش بینی کنید، بر خانه حراج مسلط شوید و با هزاران بازیکن در یک اقتصاد مشترک رقابت کنید. این معامله برای برد است، نه نقد به برد. ◈ دنیای زنده از..."
-    },
-    {
-        "title": "epic games mobile wonder boy",
-        "store": "epicgames",
-        "url": "https://www.reddit.com/r/FreeGameFindings/comments/1rrt3xb/epic_games_mobile_game_wonder_boy_the_dragons_trap/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2052410/header.jpg?t=1753952335",
-        "description": "Product Description TYPE-MOON, known for the wildly popular mobile game \"Fate/Grand Order\" and the epic visual novel \"Tsukihime,\" is releasing a remaster of the 2012 hit \"Witch on the Holy Night. Experience a coming of age story set in the vibrant, bustling 1980s, which follows an innocent young man and two young \"witches.\" Updates added since the original release include long-awaited fully voiced characters as well as visuals remastered in full HD, bringing the experience to life with unparalleled quality and fidelity. Masterful manipulation of visual elements imbues combat scenes with nail-biting tension, but also breathes life into the characters' everyday activities. Animated graphical elements bring an entirely new level of depth to the reading experience as well! STORY In the mansion on the hill, there lived two witches... It is the late 1980s—the twilight of an era of beauty and vigor. A boy moves to the city, barely missing two witches living in modern times. The boy leads a completely ordinary life. She carries herself with gallant pride. The girl lives a sleepy, hidden life. Each walks a starlit path. One would never expect their paths to cross. The story of how these three disparate people came together is soon to be told.",
-        "id_in_db": "t3_1rrt3xb",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "2052410",
-        "genres": [
-            "Adventure"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "توضیحات محصول TYPE-MOON، که به خاطر بازی موبایل بسیار محبوب «سرنوشت/نظم بزرگ» و رمان تصویری حماسی «Tsukihime» شناخته می‌شود، در حال انتشار نسخه‌ای بازسازی‌شده از موفق سال 2012 «جادوگر در شب مقدس است. داستان بلوغ را تجربه کنید که در پرجنب‌وجوش و شلوغی اتفاق می‌افتد که از دهه 1980 به بعد یک مرد جوان اضافه شده است.» نسخه اصلی شامل شخصیت‌های کاملاً مورد انتظار و همچنین تصاویری است که با کیفیت و وفاداری بی‌نظیر به این تجربه جان می‌بخشد، صحنه‌های مبارزه را با تنش میخ‌گزینی آغشته می‌کند، اما به فعالیت‌های روزمره شخصیت‌ها روحیه می‌دهد. در آنجا دو جادوگر زندگی می‌کردند... اواخر دهه 1980 است."
     },
     {
         "title": "epic i need spirit off",
@@ -377,7 +309,7 @@
         "title": "free battle among the scenic peaks rugged valleys and idyllic towns of northern italy in this authentic ww1 fps take part in historical offensives from the sixth battle of the isonzo to the strafexpedition",
         "store": "epicgames",
         "url": "https://store.epicgames.com/en-US/p/isonzo",
-        "image_url": "https://www.thexboxhub.com/wp-content/uploads/2022/06/isonzo-screen.png",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1556790/page_bg_raw.jpg?t=1773655146",
         "description": "submitted by /u/Singhvistaar [link] [comments]",
         "id_in_db": "t3_1rrv2ko",
         "subreddit": "AppHookup",
@@ -452,6 +384,19 @@
         "persian_summary": "ارسال شده توسط /u/MarioWollbrink [پیوند] [نظر]"
     },
     {
+        "title": "frontier forge 85 off 176",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/3313070/Frontier_Forge/",
+        "image_url": "https://external-preview.redd.it/8_d8DEnv3OiyrB-B5OoOwtraQSGCav7wpB0kCj9aFvc.jpeg?width=320&crop=smart&auto=webp&s=95fd0d9627574927bbe02f8f427307022109bf26",
+        "description": "submitted by /u/goodlinegames [link] [comments]",
+        "id_in_db": "t3_1s0dr4h",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "85% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/goodlinegames [لینک] [نظر]"
+    },
+    {
         "title": "games dungeon princess 3 049",
         "store": "googleplay",
         "url": "https://play.google.com/store/apps/details?id=com.ssicosm.dungeon_princess_3_pay",
@@ -478,6 +423,32 @@
         "persian_summary": "ارسال شده توسط /u/pudah_et [پیوند] [نظر]"
     },
     {
+        "title": "games truth or dare pro 099",
+        "store": "googleplay",
+        "url": "https://play.google.com/store/apps/details?id=com.tryoniarts.truthordare.noads",
+        "image_url": "https://external-preview.redd.it/f_8EabgIcjievUA6mVTfkkXO6nDH92R_fvz9nY3TSmk.png?width=320&crop=smart&auto=webp&s=14e552b4bf1ed859403f5a875bcd601a8de3531a",
+        "description": "submitted by /u/Lohigno [link] [comments]",
+        "id_in_db": "t3_1s0ibou",
+        "subreddit": "googleplaydeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/Lohigno [پیوند] [نظر]"
+    },
+    {
+        "title": "hardcore circus 60 off 179",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/3308330/Hardcore_Circus/",
+        "image_url": "https://external-preview.redd.it/qJhyr_fj7ypE2ZtouOSe_ygXnp-6rmcDWKj_ctRGv2k.jpeg?width=320&crop=smart&auto=webp&s=ed9ae61df74ff0c41f5775a8b5947d6474cdd7e4",
+        "description": "submitted by /u/Peregoon [link] [comments]",
+        "id_in_db": "t3_1s0gi23",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "60% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/Peregoon [لینک] [نظر]"
+    },
+    {
         "title": "heroes hooray survivors 80 off 099",
         "store": "steam",
         "url": "https://store.steampowered.com/app/4091370/Heroes_Hooray_Survivors/",
@@ -497,31 +468,21 @@
         "url": "https://itad.link/018d959c-3bfa-7369-af8f-d107dda67bee/",
         "is_free": true,
         "discount_text": "100% Off",
-        "image_url": "https://www.fangamer.com/cdn/shop/files/OFFlenticMOCKsim8.gif?crop=center&height=600&v=1734563677&width=900",
-        "is_dlc_or_addon": true,
-        "persian_summary": "",
-        "description": ""
-    },
-    {
-        "title": "i opened a portal to hell in the favela trying to revive mit aia i need to close it 345 31 off",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/3191050/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3191050/274bcccf2d730c0a545f17b5c01e666037d0afba/header.jpg?t=1773939963",
-        "description": "\"Incredible things coming out of Latin America right now\" -Hakita (Creator of Ultrakill) about the game \"John Brazil/You shot a lot f¨&$ you I don't give a s*$¨/GOTY 2025\" -Vinny (Vinesauce) \"I picked up a lotta cool weapons!!!!\" -Charlie (MoistCr1TiKaL) \" I just impulse bought this game. This is probably the most realistic depiction of Rio de Janeiro I've ever seen in a video game. \" -Chance Glasco (Co-Founder of Infinity Ward from Call of Duty) \" BDD3 plays, looks, and sounds like a retro fever dream, complete with loud, ear-piercing music, random sound effects, bizarre textures everywhere you look, and oddly shaped levels based on real-life locations . \" \"I had a blast playing BDD3. \" - Zack Zwiezen (Kotaku) \" One of 2025’s best releases \" - Joel Loynds (The Escapist) \"BRAZILIAN DRUG DEALER 3: I OPENED A PORTAL TO HELL IN THE FAVELA TRYING TO REVIVE MIT AIA I NEED TO CLOSE IT is the best boomer shooter of 2025 and I think everyone should play it .\" - Civvie IMPORTANT : THIS GAME WILL CONTINUE RECEIVING NEW UPDATES AND MAPS EVEN AFTER 1.0!! BRAZILIAN DRUG DEALER 3 is a fast-paced ultraviolent BRAZILIAN old school FPS heavily inspired by the first Quake, and using the same engine as the game (ID TECH2). It is A TRIBUTE TO THE BRAZILIAN MODS OF THE 2000S, THE BRAZILIAN BOOTLEG GAMES OF THE 2000S, BRAZILIAN MUSIC AND THE KING OF BRAZILIAN MUSIC, MIT AIA! YOU ARE A MIT AIA FAN, A LEGEND OF BRAZILIAN 70S FUNK MUSIC, AND YOU TRIED TO REVIVE HIM IN THE FAVELA WHERE YOU LIVE WITH A PENTAGRAM, THINGS TOOK A BAD TURN AND YOU OPENED A PORTAL TO HELL! ALL THE PEOPLE IN THE STATE OF RIO DE JANEIRO GOT POSSEEESSED! IT'S UP TO YOU TO FIND A WAY TO STOP THE HELL INVASION! Use your quake-ish movement abilities to stay mobile and avoid the relentless attacks of the dead, demons and other BRAZILIAN POSSESSED. ALMOST EVERY WEAPON IN THE GAME IS BATHED IN GOLD AND ALSO THE ROCKET LAUNCHER HAS THE COLORS OF YOUR FAVORITE BRAZILIAN TEAM, FLAFLAMENCO! CRAZY WEAPONS LIKE BERIMBAU, PAYPHONE THAT SHOOTS COCONUTS AND MONEY PAPER AIRPLANE GUN!! A BUNCH OF ENEMIES GOING FROM ARMED DEMONS TO ZOMBIES, BRAZILIAN TRUCK CLOWNS AND EVEN POSSESSED BRAZILIAN SINGERS! 42 STAGES GOING THROUGH THE ENTIRE STATE OF RIO DE JANEIRO, PARTS OF SÃO PAULO, AMAZONIA, SPACE, HELL AND EVEN HEAVEN! SAVE RIO AND SAVE MIT AIA! (28 CAMPAIGN STAGES, 5 HORDE MAPS AND 3 DM MAPS!) (wow what happened! the game had 18 maps in the day early access launched, things change fast, it's double the size lol) LOTS OF SECRET AREAS ON EACH LEVEL! -COOPERATIVE AND DEATHMATCH ON ALL CAMPAIGN MAPS -EAT PASTEL AND DRINK CANE BROTH TO GAIN HEALTH! IT'S SCATTERED ON THE MAPS! REPLAY THE GAME WITH ROCKET JUMPING TO FIND EXCLUSIVE ROCKET JUMP SECRET AREAS! OLD SCHOOL 90S STYLE! ATTENTION : THE GAME WILL STILL RECEIVE CONTENT MONTHLY EVEN AFTER 1.0!",
-        "id_in_db": "t3_1rygafj",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "31% off",
-        "steam_app_id": "3191050",
+        "steam_app_id": "1015470",
+        "description": "Need for Spirit: Off-Road Edition is the highly anticipated sequel of Need for Spirit! It significantly ups the ante by offering far crazier challenges. You probably thought that you’ve seen it all, that no drill can catch you by surprise, yet you’ll still put that hard earned experience to use once more. Transporting contraband (the good ol’ booze and cigs) across difficult terrain, has never looked or felt more captivating. Forget about rusty pickup trucks and jeeps. What better way to deter the border patrol than transporting your high-risk wares with a freaking tank? As expected from such a monumental task, the reward is only for those daring enough to brave the uncharted dirt roads. You don’t want to end up stranded in such places as the night sets in, so you’ll have to adapt and overcome any obstacles along the way. No room for errors or cowards. As with the predecessor, roads alone shall not be your only foe as consuming some of the goods you’re supposed to transport, shall deprive you of a clear sight and mindset. If you thought that driving a car while inebriated is tough and dangerous, wait until you try our armored vehicles! Mayhem may ensue, but we’re certain you can come to senses and never steer off-course. What are you waiting for, driver? Rev that engine, strap on your helmet, empty a few bottles and truly put your skills to the test in a sequel to a parody which definitely doesn’t encourage such behavior in real life. Limit your reckless driving solely to video games and that hangover will disappear faster than flipping the wheels (or tank tracks) in this tongue-in-cheek simulation! Key features: - Three types of transport vehicles ranging from tanks to custom off-road trucks. - Three camera modes. - The high probability of experiencing drunk vision. - Challenging driving highlighted by obstacles and time limits.",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1015470/header.jpg?t=1703503330",
         "genres": [
-            "Action",
             "Adventure",
-            "Indie"
+            "Casual",
+            "Indie",
+            "Racing",
+            "Simulation",
+            "Sports"
         ],
-        "is_multiplayer": true,
-        "is_online": true,
-        "is_dlc_or_addon": false,
-        "persian_summary": "\"چیزهای باورنکردنی که از آمریکای لاتین در حال حاضر بیرون می آیند\" -هاکیتا (خالق Ultrakill) در مورد بازی \"جان برزیل/تو خیلی شلیک کردی به تو I don't give a s*$¨/GOTY 2025\" -Vinny (Vinesauce) \"من سلاح های بسیار جالبی برداشتم!!!!\" -چارلی (MoistCr1TiKaL) \"من به تازگی این بازی را خریدم. این احتمالا واقعی ترین تصویری از ریودوژانیرو است که تا به حال در یک بازی ویدیویی دیده ام.\" -چنس گلاسکو (از بنیانگذار Infinity Ward از Call of Duty) \"BDD3 پخش می کند، به نظر می رسد با موزیک و صدایی شبیه به رؤیایی. جلوه‌های صوتی تصادفی، بافت‌های عجیب و غریب به هر کجا که نگاه می‌کنید، و سطوحی با شکل عجیب و غریب بر اساس مکان‌های واقعی زندگی می‌کردم . Hell IN THE FAVELA تلاش برای احیای MIT AIA I NEED TO CLOSE IT بهترین شوتر 2025 است و فکر می کنم همه باید آن را بازی کنند.\" - Civvie مهم: این بازی ..."
+        "is_multiplayer": false,
+        "is_online": false,
+        "is_dlc_or_addon": true,
+        "persian_summary": "Need for Spirit: Off-Road Edition دنباله مورد انتظار Need for Spirit است! این به طور قابل توجهی با ارائه چالش‌های بسیار دیوانه‌کننده‌تر، پیشرفت را افزایش می‌دهد. احتمالاً فکر می‌کنید که همه آن‌ها را دیده‌اید، هیچ مته‌ای نمی‌تواند شما را غافلگیر کند، با این حال همچنان از آن تجربه سخت به دست آمده یک بار دیگر استفاده خواهید کرد. حمل و نقل کالای قاچاق (نوشیدنی های الکلی و سیگارهای سبز) در زمین های دشوار، هرگز جذاب تر به نظر نمی رسید. وانت های زنگ زده و جیپ ها را فراموش کنید. چه راهی بهتر از حمل و نقل اجناس پرخطر خود با یک تانک مخرب برای جلوگیری از گشت مرزی؟ همانطور که از چنین کاری عظیم انتظار می رود، پاداش فقط برای کسانی است که به اندازه کافی جرات دارند در جاده های خاکی ناشناخته شجاعت کنند. شما نمی خواهید در مکان هایی مانند غروب شب گیر بیفتید، بنابراین باید سازگار شوید و بر هر مانعی در این راه غلبه کنید. جایی برای اشتباه یا ترسو نیست. مانند گذشته، جاده ها به تنهایی تنها دشمن شما نیستند، زیرا مصرف برخی از کالاهایی که قرار است حمل کنید، باید..."
     },
     {
         "title": "icon packs guavaline pink icon pack 099",
@@ -561,6 +522,19 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "https://store.epicgames.com/en-US/p/potion-permit-ios-e4b5aa https://store.epicgames.com/en-US/p/potion-permit-android-e270c3 شهر مونبری را شفا دهید! شهر مونبری همیشه نسبت به پیشرفت های پزشکی دنیای خارج محتاط بوده و ترجیح می دهد به روش های درمانی سنتی خود تکیه کند. با این حال، وقتی دختر شهردار مریض می‌شود و جادوگر محلی نمی‌تواند کاری برای کمک به او انجام دهد، مجبور می‌شوند به بیرون از جامعه کوچک خود برای کمک نگاه کنند. انجمن پزشکی تصمیم می گیرد تا موفق ترین شیمیدان خود - شما - را بفرستد تا به درمان دختر شهردار کمک کند و ساکنان مونبری را از شگفتی های کیمیاگری مدرن متقاعد کند. اعتماد آنها را به دست آورید و به هر فردی که بیمار می شود در این RPG سیم کارتی با پایان باز مراجعه کنید! ارسال شده توسط /u/PM_ME_FREEGAMES [پیوند] [نظر]"
+    },
+    {
+        "title": "ios brain reboot 5 free track bad habits spot patterns break them",
+        "store": "iosappstore",
+        "url": "https://apps.apple.com/us/app/brain-reboot-habit-tracker/id6757360634",
+        "image_url": "https://external-preview.redd.it/tranmtk_IgiF8x29dioAkwdA8ojyfeOkkQ2reeknFGQ.jpeg?width=640&crop=smart&auto=webp&s=99c4dafece2487b5858c2444864be02a5089f301",
+        "description": "Hi guys, I’ve just launched my new app focused on helping you identify and eliminate bad habits. For a limited time, you can unlock the full version lifetime for free. Hope you like it. Enjoy! submitted by /u/mammutKay [link] [comments]",
+        "id_in_db": "t3_1s0l5rl",
+        "subreddit": "AppHookup",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "سلام بچه ها، من به تازگی برنامه جدید خود را راه اندازی کرده ام که تمرکز آن بر کمک به شما در شناسایی و حذف عادات بد است. برای مدت زمان محدود، می‌توانید قفل نسخه کامل را به صورت رایگان باز کنید. امیدوارم خوشتون بیاد لذت ببرید! ارسال شده توسط /u/mammutKay [پیوند] [نظر]"
     },
     {
         "title": "ios together 3999 free lifetime couples app countdown shared bucket list relationship timeline",
@@ -626,7 +600,7 @@
         "title": "lost fragments ca1699 free as a legendary thief your next assignment lures you into a grand and lavish mansion",
         "store": "other",
         "url": "https://www.reddit.com/r/AppHookup/comments/1rfe7ae/multiplatform_boxes_lost_fragments_ca1699_free_as/",
-        "image_url": "https://ladiesgamers.com/wp-content/uploads/2024/01/img_5192-1.jpg",
+        "image_url": "https://i.ytimg.com/vi/u0JbLREQ1O8/maxresdefault.jpg",
         "description": "https://store.epicgames.com/en-US/p/boxes-lost-fragments-079041 https://store.epicgames.com/p/boxes-lost-fragments-android-356638 https://store.epicgames.com/p/boxes-lost-fragments-ios-07172e As a legendary thief, your next assignment lures you into a grand and lavish mansion. There you find a series of puzzle boxes, designed for an unknown purpose. What should have been a quick in-and-out, gradually turns into your own harrowing struggle for freedom and answers. submitted by /u/PM_ME_FREEGAMES [link] [comments]",
         "id_in_db": "t3_1rfe7ae",
         "subreddit": "AppHookup",
@@ -636,30 +610,10 @@
         "persian_summary": "https://store.epicgames.com/en-US/p/boxes-lost-fragments-079041 https://store.epicgames.com/p/boxes-lost-fragments-android-356638 https://store.epicgames.com/p/boxes-lost-fragments-079041، assignary next، legend-ios-071 خود را تعیین کنید. شما را به یک عمارت بزرگ و مجلل. در آنجا مجموعه ای از جعبه های پازل را پیدا می کنید که برای هدفی نامعلوم طراحی شده اند. چیزی که باید یک ورود و خروج سریع باشد، به تدریج به مبارزه دلخراش شما برای آزادی و پاسخ تبدیل می شود. ارسال شده توسط /u/PM_ME_FREEGAMES [پیوند] [نظر]"
     },
     {
-        "title": "M2K",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/1763120/M2K/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1763120/0048217c1efca9f92bfd657bc08bbba3f5e6a6d3/header.jpg?t=1773665770",
-        "description": "You landed on labyrinth-planet, where all territory filled of puzzles. Your need clearance mines and destroy trolls. When entering new rooms puzzles have more objects. You awaiting not only moving boxes, destructable walls, static lasers, electricity, speading acid, and more & more. If you do error sometimes level must be restarted. Game have internal level editor and docs. Remake original M2K game from 1998 (Zx-spectrum) with crossplatform,better graphics and PS3 controller support.",
-        "id_in_db": "t3_1rs9urt",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "1763120",
-        "genres": [
-            "Action",
-            "Indie"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "شما در سیاره هزارتویی فرود آمدید، جایی که تمام قلمرو پر از پازل بود. شما نیاز به پاکسازی مین ها و نابود کردن ترول ها دارید. هنگام ورود به اتاق های جدید، پازل ها دارای اشیاء بیشتری هستند. شما نه تنها منتظر جعبه های متحرک، دیوارهای قابل تخریب، لیزرهای ساکن، الکتریسیته، اسید اسپیدینگ و غیره هستید. اگر خطا انجام دهید، گاهی اوقات سطح باید دوباره راه اندازی شود. بازی دارای ویرایشگر سطح داخلی و اسناد است. بازسازی بازی اصلی M2K از سال 1998 (طیف Zx) با کراس پلتفرم، گرافیک بهتر و پشتیبانی از کنترلر PS3."
-    },
-    {
         "title": "man 2 3652 3349 3641 helldivers 2 2726 2624 2719 ghost of tsushima 3270 2999",
         "store": "other",
         "url": "https://www.allyouplay.com/discover/highlights",
-        "image_url": "https://image.api.playstation.com/vulcan/ap/rnd/202602/0318/3bd68123f694c24831a0b38111d74db3110475a380f18af0.jpg?w=440",
+        "image_url": "https://store-images.s-microsoft.com/image/apps.12634.14538027815579556.d9bf7db9-e720-48ca-89b6-999f48917438.c2c71460-bf0e-459d-a42b-b57844bd1d7d",
         "description": "submitted by /u/AllYouPlay [link] [comments]",
         "id_in_db": "t3_1rzl3mc",
         "subreddit": "GameDeals",
@@ -672,7 +626,7 @@
         "title": "my night job ca1149 free my night job sends players into an abandoned building and sick hordes of monsters on them",
         "store": "epicgames",
         "url": "https://store.epicgames.com/en-US/p/my-night-job-a416a6",
-        "image_url": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000088319/e38ce96a544d6707bbb08e186402bdc35500d532a08be93c2d61c744e5ac45b8",
+        "image_url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_400/store/software/switch/70010000088319/e38ce96a544d6707bbb08e186402bdc35500d532a08be93c2d61c744e5ac45b8",
         "description": "submitted by /u/PM_ME_FREEGAMES [link] [comments]",
         "id_in_db": "t3_1rff2fo",
         "subreddit": "AppHookup",
@@ -680,6 +634,52 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/PM_ME_FREEGAMES [پیوند] [نظر]"
+    },
+    {
+        "title": "Narvas",
+        "id_in_db": "narvas@1774199742",
+        "store": "other",
+        "url": "https://itad.link/019d168b-34d9-71ed-b2da-7f75857c4ff0/",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "image_url": "https://i.ytimg.com/vi/Wgj1-ZrU9jk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCJ64rUcvPn413G5UeLNzQ8crbqHg",
+        "is_dlc_or_addon": false,
+        "persian_summary": "",
+        "description": ""
+    },
+    {
+        "title": "narvas",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/640700/Narvas/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/640700/header.jpg?t=1773344192",
+        "description": "The story of Mace, a young scavenger recently promoted to the Resource Collection Department for the Narvas Colonies. He is ordered to infiltrate and discover resources on distant planets in search of materials to ensure the survival of his people. Supplies are hemorrhaging, scarce, and unaccounted for. Times are bleak for Narvas. The scavenger feels the weight of an entire population on his shoulders as he embarks on increasingly more dangerous and deadlier missions. It is up to Mace and his mechanical companion Toby to discover the source behind the recent shortages and save an entire colony from extinction. Take control of Mace in this local co-op side scrolling platform shooter as you go from assignment to assignment taking on enemy bots and dangerous bosses on different planets. Features: -Sprint, dodge, wall climb, and teleport through platforming situations. -Take control of your personal bot, Toby, to help navigate through levels or use him to unleash a devastating attack. -Collect gun mods and ability buffs that drop randomly to help you through your assignment. -Track your fastest times for each level and compare your time to the best of Steam's Community. -Single player or Local Co-op through any level. -Replay any mission at any time in order to get the perfect run and fastest time. -Build momentum from successful missions to increase your effectiveness for future levels. Join the discord!",
+        "id_in_db": "t3_1s0qx0g",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "640700",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Indie"
+        ],
+        "is_multiplayer": true,
+        "is_online": false,
+        "is_dlc_or_addon": false,
+        "persian_summary": "داستان میس، یک لاشخور جوان که اخیراً به بخش جمع آوری منابع برای مستعمرات نارواس ارتقا یافته است. به او دستور داده شده است که در سیارات دوردست در جستجوی مواد برای اطمینان از بقای مردم خود نفوذ کند و منابعی را کشف کند. منابع خونریزی دهنده، کمیاب و نامشخص هستند. روزگار برای نارواس تلخ است. لاشخور وزن کل جمعیت را روی دوش خود احساس می کند، زیرا او مأموریت های خطرناک تر و مرگبارتر را آغاز می کند. این بر عهده میس و همراه مکانیکی او توبی است که منبع کمبودهای اخیر را کشف کنند و کل کلنی را از انقراض نجات دهند. کنترل Mace را در این تیرانداز پلتفرم اسکرول جانبی محلی Co-op در دست بگیرید، همانطور که از یک وظیفه به تکلیف می‌روید و با ربات‌های دشمن و رئیس‌های خطرناک در سیارات مختلف روبرو می‌شوید. ویژگی ها: سرعت، جاخالی دادن، بالا رفتن از دیوار، و تله پورت از طریق موقعیت های platforming. -کنترل ربات شخصی خود، توبی را در دست بگیرید تا به حرکت در سطوح کمک کنید یا از او برای انجام یک حمله ویرانگر استفاده کنید."
+    },
+    {
+        "title": "narvas 100 off free",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/640700/Narvas/",
+        "image_url": "https://external-preview.redd.it/vKCzP9fxlHxOnGNXXTouzQSaoRm4zo7ffigs4ogzXEk.jpeg?width=320&crop=smart&auto=webp&s=f1b0de53e333fd4ef1f18156144b3aa6196e1ba7",
+        "description": "submitted by /u/LighteningOneIN [link] [comments]",
+        "id_in_db": "t3_1s0qxw4",
+        "subreddit": "GameDeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/LighteningOneIN [پیوند] [نظر]"
     },
     {
         "title": "newegg god of war ragnark",
@@ -708,48 +708,58 @@
         "persian_summary": "ارسال شده توسط /u/Dramatic_Walk8473 [پیوند] [نظر]"
     },
     {
+        "title": "newegg nioh 3 5199 35 off wcode",
+        "store": "other",
+        "url": "https://www.newegg.com/koei-tecmo-nioh-3-for-pc-steam-code-united-states/p/N82E16832959153?item=N82E16832959153&utm_source=google&utm_medium=organic%2Bshopping&utm_campaign=knc-googleadwords-_-downloadable%2520software%2520-%2520games-_-koei%2520tecmo%2520america%2520corp.-_-32959153&source=region",
+        "image_url": "https://external-preview.redd.it/AcVy_QUI_PfNDczHRfF24zwJuFow-uVlslTP4-8gSUY.png?width=640&crop=smart&auto=webp&s=e763ce77e443ed63f34326884f07ff00a8bc13c4",
+        "description": "submitted by /u/WarriYahTruth [link] [comments]",
+        "id_in_db": "t3_1s0ow2m",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "35% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/WarriYahTruth [پیوند] [نظر]"
+    },
+    {
         "title": "other random 1 steam game out of 5 games for filling out a short survey",
         "store": "steam",
         "url": "https://keyxp.co/",
-        "image_url": "https://external-preview.redd.it/pHZbN2JYbk_bGi6UghjezPXopxWSSHXfCqXcN6RxjV0.jpeg?width=640&crop=smart&auto=webp&s=145eb5658b93370498404ffdc7066281c00b7127",
-        "description": "Requires Linking Steam & Discord Account submitted by /u/EmuConscious108 [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/bd8d4c2d59dfc199529f50fc2a65828f19096aa3/header_alt_assets_25.jpg?t=1770822722",
+        "description": "Inspired by the adventure and imagination that we love from classic science-fiction, No Man's Sky presents you with a galaxy to explore, filled with unique planets and lifeforms, and constant danger and action. In No Man's Sky, every star is the light of a distant sun, each orbited by planets filled with life, and you can go to any of them you choose. Fly smoothly from deep space to planetary surfaces, with no loading screens, and no limits. In this infinite procedurally generated universe, you'll discover places and creatures that no other players have seen before - and perhaps never will again. Now including... Play with all major updates since launch: Foundation, Pathfinder, Atlas Rises, NEXT, The Abyss, Visions, the 2.0 BEYOND update, Synthesis, Living Ship, Exo Mech, Desolation and the 3.0 update, ORIGINS, Next Generation, Companions, Expeditions, Prisms, Frontiers, Sentinel, Outlaws, Endurance, Waypoint (4.0), Fractal, Interceptor, Echoes, Omega, Orbital, Worlds Part I (5.0), Worlds Part II, Relics, Beacon, VOYAGERS (6.0) and Remnant. And now with added Cross-Save ! No Man’s Sky now supports Cross-Play and Cross-Save between a huge number of platforms including PC, PlayStation 4, PlayStation 5, PlayStation 5 Pro, Xbox One and Series X/S, Game Pass, GOG, Nintendo Switch, Steam Deck, PlayStation VR 1 & 2 and PCVR. Available for PC and Mac (see recommended and minimum specs for details). An epic voyage to the centre of a shared universe awaits, allowing you to explore, trade, fight and survive alone or with friends. Embark on an epic voyage At the centre of the galaxy lies an irresistible pulse which draws you on a journey towards it to learn the true nature of the cosmos. But, facing hostile creatures and fierce pirates, you'll know that death comes at a cost, and survival will be down to the choices you make over how you upgrade your ship, your weapon and suit. Find your own destiny Your voyage through No Man's Sky is up to you. Will you be a fighter, preying on the weak and taking their riches, or taking out pirates for their bounties? Power is yours if you upgrade your ship for speed and weaponry. Or a trader? Find rich resources on forgotten worlds and exploit them for the highest prices. Invest in more cargo space and you'll reap huge rewards. Or perhaps an explorer? Go beyond the known frontier and discover places and things that no one has ever seen before. Upgrade your engines to jump ever farther, and strengthen your suit for survival in toxic environments that would kill the unwary. Share your journey The galaxy is a living, breathing place. Trade convoys travel between stars, factions vie for territory, pirates hunt the unwary, and the police are ever watching. Every other player lives in the same galaxy, and you can choose to share your discoveries with them on a map that spans known space. Perhaps you will see the results of their actions as well as your own...",
         "id_in_db": "t3_1rx5buk",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
+        "steam_app_id": "275850",
+        "genres": [
+            "Action",
+            "Adventure"
+        ],
+        "is_multiplayer": true,
+        "is_online": true,
         "is_dlc_or_addon": false,
-        "persian_summary": "نیاز به پیوند دادن حساب Steam و Discord ارائه شده توسط /u/EmuConscious108 [پیوند] [نظرات]"
+        "persian_summary": "No Man's Sky با الهام از ماجراجویی و تخیلی که ما از داستان های علمی-تخیلی کلاسیک دوست داریم، کهکشانی را برای کاوش در اختیار شما قرار می دهد، که مملو از سیارات منحصر به فرد و شکل های حیات، و خطر و عمل دائمی است. در No Man's Sky، هر ستاره نور خورشیدی دوردست است که هر کدام توسط سیاراتی مملو از حیات می چرخند و شما می توانید به هر یک از آنها که انتخاب می کنید بروید. از اعماق فضا به سطوح سیاره ای بدون صفحه نمایش بارگیری و بدون محدودیت پرواز کنید. در این جهان بی‌نهایت که به صورت رویه‌ای ایجاد شده است، مکان‌ها و موجوداتی را خواهید دید که هیچ بازیکن دیگری قبلاً ندیده‌اند - و شاید دیگر هرگز نخواهند دید. اکنون از جمله... با تمام به‌روزرسانی‌های اصلی از زمان راه‌اندازی بازی کنید: Foundation، Pathfinder، Atlas Rises، NEXT، The Abyss، Visions، به‌روزرسانی 2.0 BEYOND، Synthesis، Living Ship، Exo Mech، Desolation و به‌روزرسانی 3.0، ORIGINS، نسل بعدی، Companions، Expeditions، Frontanceila، Prispoints. (4.0)، فراکتال، رهگیر، پژواک، امگا، مداری، جهان ها قسمت اول (5.0)،..."
     },
     {
         "title": "pcconsole other the elder scrolls online",
         "store": "other",
         "url": "https://account.elderscrollsonline.com/redeem-code?code=U49GIFT",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/306130/0d72f13b2d3f75385a0c83e2551ba97e1059c6fe/header.jpg?t=1773248402",
-        "description": "Includes The Elder Scrolls Online base game plus the Morrowind, Imperial City, Orsinium, Thieves Guild, and Dark Brotherhood adventures. Every legend starts somewhere and in The Elder Scrolls Online, it starts with you. Write your story into a vibrant chapter of Tamriel’s distant past that takes place nearly 1,000 years before the iconic TES V: Skyrim, and discover a world steeped in adventure and possibility. A DIVERSE FANTASY WORLD – Travel Tamriel and discover a world of adventure. Explore mushroom forests in Morrowind, battle Daedra in Oblivion, or duel other players in PvP combat. RICH STORIES ON A SHARED CANVAS - Immerse yourself in storytelling crafted with the same spirit as your favorite Elder Scrolls games. Discover an ever-growing world with friends or solo. PURPOSE IN EVERY PATH - Choose from an array of quests and challenges that fit your desires and ambitions. Make this Elder Scrolls world your own - you belong here.",
+        "image_url": "https://cdn1.epicgames.com/offer/27aa2ebdcda14b3bb8a669aab73ca55f/EGS_TheElderScrollsOnline_ZeniMaxOnlineStudios_S1_2560x1440-c93fde42abdad707d680dba12fd5d2b4",
+        "description": "submitted by /u/MeguminShiro [link] [comments]",
         "id_in_db": "t3_1rscydy",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "306130",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Massively Multiplayer",
-            "RPG"
-        ],
-        "is_multiplayer": true,
-        "is_online": true,
-        "age_rating": "Blood and gore\r\nSexual themes\r\nUse of alcohol\r\nViolence",
         "is_dlc_or_addon": false,
-        "persian_summary": "شامل بازی پایه آنلاین The Elder Scrolls به اضافه ماجراهای Morrowind، Imperial City، Orsinium، Thieves Guild و Dark Brotherhood است. هر افسانه ای از جایی شروع می شود و در The Elder Scrolls Online با شما شروع می شود. داستان خود را در فصلی پر جنب و جوش از گذشته دور تامریل بنویسید که تقریباً 1000 سال قبل از نماد TES V: Skyrim رخ می دهد و دنیایی پر از ماجراجویی و امکان را کشف کنید. یک دنیای فانتزی متنوع - به تامریل سفر کنید و دنیایی از ماجراجویی را کشف کنید. جنگل‌های قارچ را در Morrowind کاوش کنید، در Oblivion با Daedra مبارزه کنید یا در مبارزات PvP با دیگر بازیکنان دوئل کنید. داستان های غنی روی بوم مشترک - در داستان سرایی که با همان روحیه بازی های Elder Scrolls ساخته شده است غوطه ور شوید. با دوستان یا انفرادی دنیایی رو به رشد را کشف کنید. هدف در هر مسیر - از میان مجموعه ای از ماموریت ها و چالش هایی که متناسب با خواسته ها و جاه طلبی های شما هستند، انتخاب کنید. این دنیای Elder Scrolls را متعلق به خود کنید - شما به اینجا تعلق دارید."
+        "persian_summary": "ارسال شده توسط /u/MeguminShiro [لینک] [نظر]"
     },
     {
         "title": "pcconsolemobile other warframe",
         "store": "other",
-        "url": "https://www.warframe.com/news/warframe-x-hyperx-13-year-anniversary-keyboard-giveaway",
-        "image_url": "https://external-preview.redd.it/Q7m9fVWTRfsz2UIKfL_fRcwnHtvCm_IA0q_3pb397es.png?width=640&crop=smart&auto=webp&s=c6768d63f69bee22fd5e8c6a529c239e8fc0843c",
+        "url": "https://www.warframe.com/promocode/ANDROID-QV4RX",
+        "image_url": "https://external-preview.redd.it/MDpUge0MoIV3w7TScl-KpZ4-g95O8-d4nLf8h73MQ7E.png?width=640&crop=smart&auto=webp&s=f42eb588c1bc065355f75b6610726fdcd3be1930",
         "description": "Requires installing HP OMEN Gaming Hub . submitted by /u/MeguminShiro [link] [comments]",
-        "id_in_db": "t3_1rtbeaa",
+        "id_in_db": "t3_1s12dz0",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
@@ -757,15 +767,16 @@
         "persian_summary": "نیاز به نصب HP OMEN Gaming Hub دارد. ارسال شده توسط /u/MeguminShiro [لینک] [نظر]"
     },
     {
-        "title": "Pet Lands",
-        "id_in_db": "pet-lands@1773950956",
-        "store": "other",
-        "url": "https://itad.link/019d07ae-2ffe-71fc-abd2-b94cf26d9279/",
+        "title": "pet lands",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/3144950/Pet_Lands/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3144950/header.jpg?t=1773344180",
+        "description": "Collect quadrillion of coins, hatch pets to mine for you, and unlock 100 unique hand-crafted areas! An incremental clicker/idle creatures-collection adventure. Dopamine heaven has arrived! Features: Mine coins (yes, it's as fun as it looks)! Unlock a huge variety of hand-crafted areas! Hatch new pets to automatically mine coins for you! Collect the rarest pets and discover rare variations like Gold, Rainbow, Mega, and Omega! Tons of random events to make mining exciting, from ice cubes to dragons - anything is possible! Find, buy, and craft many upgrades for you and your pets! Ascend every 25 areas to become even stronger!",
+        "id_in_db": "t3_1ry5zyi",
+        "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
         "steam_app_id": "3144950",
-        "description": "Collect quadrillion of coins, hatch pets to mine for you, and unlock 100 unique hand-crafted areas! An incremental clicker/idle creatures-collection adventure. Dopamine heaven has arrived! Features: Mine coins (yes, it's as fun as it looks)! Unlock a huge variety of hand-crafted areas! Hatch new pets to automatically mine coins for you! Collect the rarest pets and discover rare variations like Gold, Rainbow, Mega, and Omega! Tons of random events to make mining exciting, from ice cubes to dragons - anything is possible! Find, buy, and craft many upgrades for you and your pets! Ascend every 25 areas to become even stronger!",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3144950/header.jpg?t=1773344180",
         "genres": [
             "Action",
             "Adventure",
@@ -776,21 +787,20 @@
         "is_multiplayer": false,
         "is_online": false,
         "is_dlc_or_addon": false,
-        "subreddit": "FreeGameFindings",
         "persian_summary": "چهار میلیارد سکه جمع آوری کنید، حیوانات خانگی را برایتان استخراج کنید و قفل 100 منطقه منحصر به فرد دست ساز را باز کنید! یک ماجراجویی با کلیک/موجودات بیکار-ماجراجویی افزایشی. بهشت دوپامین رسیده است! ویژگی ها: استخراج سکه (بله، به همان اندازه که به نظر می رسد سرگرم کننده است)! باز کردن طیف وسیعی از مناطق دست ساز! حیوانات خانگی جدید را بیرون بیاورید تا به طور خودکار سکه ها را برای شما استخراج کنند! کمیاب ترین حیوانات خانگی را جمع آوری کنید و انواع کمیاب مانند طلا، رنگین کمان، مگا و امگا را کشف کنید! هزاران رویداد تصادفی برای هیجان انگیز کردن استخراج، از تکه های یخ گرفته تا اژدها - هر چیزی ممکن است! تعداد زیادی ارتقاء را برای خود و حیوانات خانگی خود پیدا کنید، بخرید و بسازید! هر 25 منطقه را صعود کنید تا قوی تر شوید!"
     },
     {
-        "title": "photo gallery pro 999",
-        "store": "googleplay",
-        "url": "https://play.google.com/store/apps/details?id=gallery.photomanager.photogallery.hidepictures.pro",
-        "image_url": "https://external-preview.redd.it/XnLwnbEvPuoGHE6n3VrIxdnFgnh06NTnMt0Z7c0VLyY.png?width=320&crop=smart&auto=webp&s=28945ee54d13b6af0592450e14243f5f715d42c7",
-        "description": "submitted by /u/QWxoYWl0aGFt [link] [comments]",
-        "id_in_db": "t3_1rseyik",
-        "subreddit": "googleplaydeals",
-        "is_free": true,
-        "discount_text": "100% Off",
+        "title": "playsum nice day for fishing 878 831 831 c1142 a1274 r3058 with code cheers",
+        "store": "other",
+        "url": "https://store.playsum.live/product/cbfd722b-44b7-4b24-9d22-f536dd2517f4/nice-day-for-fishing",
+        "image_url": "https://external-preview.redd.it/xq-ypAk7SNE0f8T3BdxufZN_SWtY1Y_jRcq4eB3JOEk.jpeg?width=320&crop=smart&auto=webp&s=2706d9a16006fb4cf359339bec38afe61f58dcbc",
+        "description": "submitted by /u/Lets_Playsum [link] [comments]",
+        "id_in_db": "t3_1s0ilpv",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "56% off",
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/QWxoYWl0aGFt [پیوند] [نظر]"
+        "persian_summary": "ارسال شده توسط /u/Lets_Playsum [لینک] [نظر]"
     },
     {
         "title": "police stories",
@@ -852,20 +862,14 @@
         "title": "psa steam spring sale 2026",
         "store": "steam",
         "url": "https://store.steampowered.com/explore?dq=widget",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/485610/0becb5b8e325d08101422223602d6e68abafa9e5/header.jpg?t=1772371455",
-        "description": "Features Multiplayer 11 Game modes 21 Stadiums Dedicated servers Antilag system Realistic physics Ball editor Customization Bots Tutorial Replays Statistics Soccer Game Soccer Online: Ball 3D is the first soccer game in a new genre. Control one player on the virtual field. Kick the ball high, low, hard, lightly, curve, lob, jump, dribble, sprint (dash) and perform tricks. Discover a multi-player football simulator played by over 1 million players. Gameplay Ball 3D is an immersive computer game where you have 100% control. The physics is powered by a professional physics engine, which ensures realistic ball behavior. Because this is a physics-driven game, you need to use the geometry of the in-game objects to control them. Third person camera view makes the gameplay very unique in the electronic gaming world. At last a game that lets you perform pixel perfect moves. Open yourself to an atmospheric, magic reality, gain access to a new world where your unreal fantasy of becoming a soccer player will come true. Not many aaa titles offer what you will find in this hidden gem, it may be your best choice. This competitive team-based game is a true marvel for real-life soccer fans, offering endless fun. Soccer Online Playing single-player vs bots is so fun, but this is a modern esport game. Play online in the cross-platform multiplayer and play with other humans over the internet (or local network). Exciting and addictive Co-Op/PvP is the strongest element of this indie game. More than soccer Ball 3D has other sports for you to enjoy on-line: Basketball, Handball, Ice Hockey, Racing, Battle Royale and more. In Battle Royale survival is the key. Carefully overwatch the entire battlefield and avoid your opponents at all cost. It is not a shooter, there is no crosshair, the only weapon you have is you). You win this combat only when all your rivals are \"dead\". Use your reflex to win this epic war. The racing mode is like a kart racer, but with discs. During the race you drive using your mouse and keyboard as a controller. In Hockey mode you play with a puck. Ball 3D is a multi-sport simulation game available on laptop/desktop PC (Windows), Mac/Macbook (MacOS) and Steam Deck (Linux). Absolutely unique soccer sim game for casual, hardcore and pro players, where your realtime reaction skills matter. It mixes arcade gameplay with strategy. Fast-paced, easy to play, hard to master e-sport game with creative mechanics. Great to play in 2025 and even in 2026. It may be a light, relaxing and cozy experience. Unlike many RPG games where you level up your character, here your quest is to improve yourself. Whether you prefer golf, tennis, pool, baseball, cricket, volleyball or any other olympic sport, you will still like Ball 3D. Teams Building your own team is half of the success. Choose a name/tag (FC The Best, AS Best Players, EAS-Vampires, Foot Monsters (FM), Greatest Among Many (GAM), FRE or any other) then invite your friends to join the party and become a real team coach/manager. Be ready to compete in global leagues, cups and tournaments. Wouldn't it be nice to join the elite and win the Ball 3D World Cup Grand Final? Reach the peak and become a God, a living legend, the undisputed best Ball 3D player on the planet earth (the GOAT). Meet new friends, write your story and fulfill your American dream! If you lose, challenge your opponents to a rematch. Invite 1, 2 or 5 friends, 6, 7, 10. Not enough? How about 25, 26 or even more. Cooperation is the secret formula. Your team is hollow without it. Try to play positional attacks or it may defend the goal like a tank, lock the penalty area, turn it into a fortress and try counter attacks. Parking a bus in the goal is a sensible tactic too. Picking the best tactic for your team is like solving a puzzle, use your head and logic. Stealing tactics from your opponents is not theft. It is your role to decide if you want to play with one striker or with two, with three defenders or with four. You may try accurate short passes to gain space or full power flat strikes. Try all possible ideas and alternatives or your team will fall. Welcome new players! Simple tutorial will teach you how to play. It will help you massively to improve during the humble beginnings of your career. It is like a sandbox that lets you practice your moves and tricks. Multiplayer The game offers very advanced and optimized network code, including client side prediction anti-lag system and great dedicated servers in various regions that offer low ping. It is one of the most dynamic highest-rated coop soccer games. If you like multiplayer or mmo games you will love it. Ball 3D is mainly not a singleplayer offline PvE game, but you may decide that it is too early to play with real people and prefer to try your 1st game solo vs bots (AI). Man of the match The name of the best player will be featured and shown on the board as the man (woman) of the match. Put your name there and become popular! It tastes really wonderful to reach the apex and become the hero of the match. Replays Replays (demos) will help you craft your soccer skills into an art. Watch the matches from various cameras, including: TV, Action, Top Down, Auto and several others or from the 3rd person perspective. Remember to record replays and save your \"wow\" goals for later. Soccer variations Try modes like: Darts, Ping Pong and others. Ball 3D is a super fun, rich and deep co-operative game not similar to any other. Different environments Play on the grass, darker grass, dried grass, sand (desert), snow, concrete or rust-colored gravel. Play during the sunny summer, cold snowy winter, rainy autumn or green spring. Do you prefer the daylight or the dark night? Clean hot sky, clouds, wind or maybe a rain? Play on stadiums like: Classic, Real, Small, Big, Good, Mega, Huge, a street city stadium called Urban and many others. Ball 3D is a colorful, peaceful, family friendly, non-violent (no violence, no blood) game about soccer with a bit of the old school retro vibe. It can be played by players of all age, kids and adults, boys and girls. No matter what your sex is. Whether you are 18, 24 or 50 years old, boomer or young. Other features The game also offers Steam Trading Cards and Achievements among many other features. Buy and sell in-game items for a very cheap price on the Steam Market (cheapest deals are for less than 0.99 dollars). Get free items (loot inside the boxes) for playing the game and then put them on sale or go to the market and look for some best-sellers for yourself. Visit the shop, where you can find paid items and some attractive discounted bundles that offer great value (halloween, christmas, valentine and others). Tweak the graphics and other settings to get far more fps. The game will work on all computers including bad low spec / low end hardware (potato pc). After you score a goal, you can turn yourself into a rocket, alien, spider, ufo, car, zombie, hat guy vs knights, and many other scary but cartoony monsters, plants and wild animals you may know from horror and sci-fi movies or cartoons. How cool and funny is that? Use stylized visual shot effects like: shadow, ghost, black trail, white shuriken, fire ball, dying star, red devil from hell, rainbow cubes, ancient artifact and countless others. Show emotions to by using special emotion items, the list is long: cute cat, pumpkin smile, wolf, crazy kiss, laugh, cry, XD, lol, bat. Use badges: dog, portal, loops, dwarf, dragon, underground, warrior, hand, heat map, spooky. Join our community. It's not difficult. Start playing soccer right away and begin a new adventure. Support Ball 3D was created by Unusualsoft. You can contact us by email, on the forum, social media or discord. Feel free to ask questions or make suggestions. We will be very happy to reply to you! Updates The game has been already updated over 250 times. Many fun things will be added in the upcoming releases.",
+        "image_url": "https://external-preview.redd.it/zmADNofKaW4Msc89mR6pZyObwUmf3yBmyAtIUidA77I.jpeg?width=640&crop=smart&auto=webp&s=9d213a641b25f90de30e3c6fec491f85d703d4af",
+        "description": "submitted by /u/iambaldy [link] [comments]",
         "id_in_db": "t3_1ry5uat",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "485610",
-        "genres": [
-            "Sports"
-        ],
-        "is_multiplayer": true,
-        "is_online": true,
         "is_dlc_or_addon": false,
-        "persian_summary": "ویژگی های چند نفره 11 حالت بازی 21 استادیوم سرورهای اختصاصی سیستم Antilag فیزیک واقعی ویرایشگر توپ سفارشی سازی ربات ها آموزش بازپخش آمار بازی فوتبال فوتبال آنلاین: Ball 3D اولین بازی فوتبال در سبک جدید است. یک بازیکن را در زمین مجازی کنترل کنید. توپ را بالا، پایین، محکم، سبک ضربه بزنید، منحنی کنید، لوب کنید، بپرید، دریبل کنید، دوی سرعت (خط تیره) بزنید و ترفند انجام دهید. یک شبیه ساز فوتبال چند نفره را کشف کنید که توسط بیش از 1 میلیون بازیکن بازی می شود. Gameplay Ball 3D یک بازی رایانه ای همهجانبه است که در آن شما 100% کنترل دارید. فیزیک توسط یک موتور فیزیک حرفه ای طراحی شده است که رفتار واقعی توپ را تضمین می کند. از آنجایی که این یک بازی فیزیک محور است، باید از هندسه اشیاء درون بازی برای کنترل آنها استفاده کنید. نمای دوربین سوم شخص، گیم پلی بازی را در دنیای بازی های الکترونیکی بسیار منحصر به فرد می کند. در نهایت یک بازی که به شما امکان می دهد حرکات پیکسلی عالی را انجام دهید. خودتان را به روی یک واقعیت جوی و جادویی باز کنید، به دنیای جدیدی دسترسی پیدا کنید که در آن فانتزی غیرواقعی شما برای تبدیل شدن به یک فوتبال..."
+        "persian_summary": "ارسال شده توسط /u/iambaldy [لینک] [نظر]"
     },
     {
         "title": "relaxing puzzle game 90",
@@ -879,25 +883,6 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/SuryaOfficial [لینک] [نظر]"
-    },
-    {
-        "title": "retro rally 80 off059",
-        "store": "other",
-        "url": "https://www.reddit.com/r/GameDeals/comments/1rym2nd/steam_retro_rally_80_off059/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1190380/header.jpg?t=1575453672",
-        "description": "In Race Race Racer, feel your passion for speed with High-Speed Racing Retro Cars. Put your pedal to the metal and race your car through stunningly 80's style Classic Arcade car racing game! Feel the rush as you tear down the track at breakneck speeds in a thrilling car race to the finish. 4 Game Play Modes: * Rally Racing: Race 15+ Intelligent AI Opponents and hit the finish line. * Knock Out Race: Keep Eliminating the last racer in circuit until you are the only one left. * Cops Pursuit: Chase and Take down High-Speed Criminals. * Smash Crash Mode - Dash and Blow Off Cars on Highway. * More Game-play Modes Coming Soon..... Features: > Race against a field of 15+ rival drivers, each with unique personalities. > 100+ Level with top notch graphics and special effects. More Coming Soon.. > 8 Unlock-able High Speed Retro Racing Cars.",
-        "id_in_db": "t3_1rym2nd",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "80% off",
-        "steam_app_id": "1190380",
-        "genres": [
-            "Racing"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "در Race Race Racer، اشتیاق خود را به سرعت با اتومبیل های Retro Racing با سرعت بالا احساس کنید. پدال خود را روی فلز قرار دهید و ماشین خود را از طریق بازی اتومبیل رانی کلاسیک آرکید به سبک خیره کننده دهه 80 مسابقه دهید! وقتی مسیر را با سرعتی سرسام آور در یک مسابقه اتومبیلرانی هیجان انگیز تا پایان خراب می کنید، عجله را احساس کنید. 4 حالت بازی: * مسابقه رالی: با 15+ مخالفان هوش مصنوعی هوشمند مسابقه دهید و به خط پایان برسید. * مسابقه ناک اوت: به حذف آخرین مسابقه دهنده در مدار ادامه دهید تا زمانی که تنها شما باقی مانده باشید. * تعقیب پلیس: جنایتکاران پرسرعت را تعقیب و نابود کنید. * Smash Crash Mode - Dash and Blow Off Cars on Highway. * حالت های بازی بیشتر به زودی ..... ویژگی ها: > مسابقه در برابر میدانی از 15+ راننده رقیب، هر کدام با شخصیت های منحصر به فرد. > 100+ سطح با گرافیک درجه یک و جلوه های ویژه. موارد بیشتر به زودی.. > 8 ماشین مسابقه ای با سرعت بالا با قابلیت باز کردن قفل."
     },
     {
         "title": "rip them off",
@@ -961,25 +946,104 @@
         "persian_summary": "پیوند برای کاربران iOS: https://store.epicgames.com/p/wonder-boy-the-dragons-trap-ios-b8e1a4 پیوند برای کاربران اندروید: https://store.epicgames.com/p/wonder-boy-the-dragons-trap-android-cca4a4 اژدها را بکشید، نفرین را بشکنید و تبدیل به نفرین شوید! این فیلم کلاسیک کالت با داشتن انیمیشن‌های زیبا و دست‌کشیده و یک موسیقی متن بازسازی‌شده، با ترکیبی بی‌نظیر از کاوش، اکشن و ماجراجویی بازمی‌گردد! Wonder Boy: The Dragon's Trap تا 19 مارس قابل دریافت است (و شما باید نگه دارید). دستورالعمل های دانلود برای کاربران تلفن همراه و اطلاعات بیشتر: https://store.epicgames.com/en-US/mobile (این فروشگاه جدا از Apple AppStore یا Google Playstore است و ابتدا باید دانلود شود). فروشگاه موبایل برای کاربران اندروید در سراسر جهان و کاربران iOS فقط در اتحادیه اروپا در دسترس است. کاربران iOS خارج از اتحادیه اروپا نمی‌توانند این بازی‌ها را دانلود کنند، اما در صورت تمایل می‌توانند این بازی‌ها را در حساب Epic خود (برای استفاده در آینده) از همان لینک‌های بالا درخواست کنند. ارسال شده توسط /u/Singhvistaar..."
     },
     {
-        "title": "tiny crate",
+        "title": "the flayed man",
         "store": "steam",
-        "url": "https://store.steampowered.com/app/3733440/Tiny_Crate/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3733440/cab5d935a873bfbcf5a5b3ef8fa48b35831628f5/header.jpg?t=1773756369",
-        "description": "Tiny Crate is a cute little precision platformer with puzzle elements! Lift and toss crates to traverse over spike pits and reach higher ground! Weigh down buttons to create platforms and solve puzzles. Pass-through Blocks will become solid when tripped. Push yourself and make tight jumps! You got this <3 (: Solve more than 36 puzzles across 5 worlds, each puzzle hides a secret musical note. Create your own unique character with a choice of color palette. See how fast you can speedrun each stage and compete against the local high score! The fastest runs for each stage are recorded as replays, race against your ghosts. Playing on a Touch Screen device? Touch Controls are available in-game. Do you want to feel Complete? Unlock 32 Unique Trophies. All inputs and controls can be set to any keyboard key or game-pad action you like! Customize your play experience. Having trouble focusing on puzzle elements? Dim or remove the background details to focus on each puzzle! Tiny Crate is Open Source, and made with Godot Engine. Tiny Crate was first released on September 5th, 2021. View Tiny Crate on GitHub",
-        "id_in_db": "t3_1rtblct",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "3733440",
+        "url": "https://store.steampowered.com/app/3471670/The_Flayed_Man/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3471670/header.jpg?t=1749337493",
+        "description": "The Flayed Man is a short, chilling experience ~30 minutes long, perfect for playing before bed, especially if you’re in the mood for a nightmare. You are the Flayed Man. Awaking in a decayed, otherworldly house where your every waking moment is agony, you must uncover the sins of the past, pass judgement, and decide your fate in this unsettling, macabre adventure. A dark horror game with mature, disturbing themes. Multiple endings depending on your choices. An atmospheric and moody original soundtrack. Evocative and chilling pixel-art graphics. Traditional point and click gameplay with modern mechanics and user interface. Psychosexual demons that will give any budding psychologist food for thought.",
+        "id_in_db": "t3_1s0na8u",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "50% off",
+        "steam_app_id": "3471670",
         "genres": [
-            "Action",
+            "Adventure",
             "Indie",
-            "Strategy"
+            "Free To Play"
         ],
         "is_multiplayer": false,
         "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "Tiny Crate یک پلتفرمر دقیق و زیبا با عناصر پازل است! جعبه ها را بلند کنید و پرتاب کنید تا از چاله های سنبله عبور کنید و به زمین های بالاتر برسید! برای ایجاد پلتفرم و حل پازل دکمه ها را وزن کنید. بلوک‌های عبوری در هنگام خاموش شدن جامد می‌شوند. به خود فشار بیاورید و پرش های محکمی انجام دهید! شما این <3 را دریافت کردید (: بیش از 36 معما را در 5 جهان حل کنید، هر پازل یک نت موسیقی مخفی را پنهان می کند. شخصیت منحصر به فرد خود را با انتخاب پالت رنگ ایجاد کنید. ببینید با چه سرعتی می توانید هر مرحله را سریع بدید و با امتیاز بالای محلی رقابت کنید! سریع ترین دویدن برای هر مرحله به صورت تکرار ضبط می شود، با یک روح مسابقه ای که در حال پخش است روی دستگاه شما در دسترس هستند؟ آیا می خواهید 32 عدد منحصر به فرد را باز کنید."
+        "persian_summary": "The Flayed Man یک تجربه کوتاه و خنک به مدت 30 دقیقه است که برای بازی قبل از خواب مناسب است، به خصوص اگر در حال کابوس هستید. شما مرد پوسته پوسته شده هستید. در خانه‌ای فاسد و اخروی که در آن هر لحظه بیداری شما عذاب می‌کشد، باید گناهان گذشته را کشف کنید، قضاوت کنید و در این ماجراجویی ناامیدکننده و ترسناک درباره سرنوشت خود تصمیم بگیرید. یک بازی ترسناک تاریک با مضامین بالغ و آزاردهنده. پایان های متعدد بسته به انتخاب شما. یک موسیقی متن اصلی اتمسفر و خلق و خوی. گرافیک هنری پیکسلی خاطره انگیز و هیجان انگیز. گیم پلی سنتی نقطه و کلیک با مکانیک و رابط کاربری مدرن. شیاطین روان‌جنسی که به هر روان‌شناس نوظهوری برای فکر کردن می‌دهند."
+    },
+    {
+        "title": "the last days of baltaseth",
+        "store": "itch.io",
+        "url": "https://itch.io/s/182394/the-last-days-of-baltaseth-free-for-a-limited-time",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4395270/cea2531df63ae0ab347e790257e5aab21f18e07a/header.jpg?t=1772333699",
+        "description": "In the far future, on a dead planet, there is a cabin where the last survivor left his final record. Will discovering the truth behind an alien civilization's demise doom you as well? Solve puzzles to unlock a cosmic mystery in this short, narrative-focused horror game. Live Out a Horror Story in an Unusual Setting It's the year 202,026, and you're an investigator sent to explore the last remnant of civilization on the planet Baltaseth. Earth is an unfathomable distance away, and yet, you discover things that seem eerily familiar... Explore a Mysterious, Claustrophobic Environment Why is this cabin all that's left of a planet that was once teeming with life? And are you truly alone in this unsettling place? Solve Puzzles to Unravel the Mystery You'll have to think outside the box to overcome an alien language barrier between you and the answers you seek. Fortunately, you've got an AI companion downloaded into cybernetic components in your brain to help you. Yay! No way that can go badly, right? Features Realistic 3D graphics with retro-inspired visual effects, meant to evoke classic sci-fi films like Alien and Blade Runner Short playthrough time (roughly 1 hour), so you can easily polish this off between the longer titles in your backlog Full voice acting (note: even though there's an AI character in this game, he, like all the other characters, is voiced by a real human) NOTE: This game is intended to be completed in a single session and has only one possible ending; as such, it does not have a save system.",
+        "id_in_db": "t3_1s0hkxs",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "4395270",
+        "genres": [
+            "Adventure",
+            "Simulation"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "is_dlc_or_addon": false,
+        "persian_summary": "در آینده ای دور، در یک سیاره مرده، کابینی وجود دارد که آخرین بازمانده آخرین رکورد خود را در آنجا به جا گذاشته است. آیا کشف حقیقت پشت نابودی یک تمدن بیگانه شما را نیز محکوم خواهد کرد؟ در این بازی ترسناک کوتاه و متمرکز با روایت، معماها را حل کنید تا یک رمز و راز کیهانی را باز کنید. یک داستان ترسناک را در یک محیط غیرمعمول زندگی کنید. سال 202026 است، و شما محققی هستید که برای کشف آخرین بقایای تمدن در سیاره Baltaseth فرستاده شده‌اید. زمین فاصله‌ای غیرقابل درک دارد، و با این حال، چیزهایی را کشف می‌کنید که به‌طور وحشتناکی آشنا به نظر می‌رسند... محیطی مرموز و کلاستروفوبیک را کاوش کنید چرا این کابین تنها چیزی است که از سیاره‌ای که زمانی پر از حیات بود باقی مانده است؟ و آیا واقعاً در این مکان نا آرام تنها هستید؟ حل معماها برای کشف راز شما باید خارج از جعبه فکر کنید تا بر یک مانع زبان بیگانه بین خود و پاسخ هایی که به دنبال آن هستید غلبه کنید. خوشبختانه، شما یک همراه هوش مصنوعی دارید که در اجزای سایبرنتیک مغزتان دانلود شده است تا به شما کمک کند. آری راهی که نمیشه رفت..."
+    },
+    {
+        "title": "the last days of baltaseth 100 off free",
+        "store": "itch.io",
+        "url": "https://haymakergamestudios.itch.io/the-last-days-of-baltaseth",
+        "image_url": "https://external-preview.redd.it/omZOUUtzYoC1PsUIWYu3wJ5iuggpd9Gt-YrwsByfUWw.jpeg?width=320&crop=smart&auto=webp&s=ada74d5b9019550bef746d39c25e9500c9cbf67a",
+        "description": "submitted by /u/LighteningOneIN [link] [comments]",
+        "id_in_db": "t3_1s0r6i9",
+        "subreddit": "GameDeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/LighteningOneIN [پیوند] [نظر]"
+    },
+    {
+        "title": "the princess factory",
+        "store": "itch.io",
+        "url": "https://haymakergamestudios.itch.io/the-princess-factory",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4206150/9c9f32bc8c6a66d556753c5af9cbf7ca8aeaa78b/header.jpg?t=1772831773",
+        "description": "The Princess Factory is an anomaly-detection horror game where you work in a mysterious factory beneath an abandoned fairy-tale theme park. You must check each princess animatronic for aberrations while trying to uncover the dark secrets of the park. Your actions may determine far more than simply whether or not you get out alive...but which path will you choose? Check the Princesses, Find Anomalies Anomalies abound. Some are easy to spot (or hear), others not so much. Let too many slip past you, and you won't survive the day. Survive Four Days on the Job A new princess type is added each day, making your tasks more and more difficult. Can you survive even when four different princesses are out to get you? Unravel a Terrifying Mystery What's the dark secret behind the Princess Factory? Uncover clues among the anomalies as you fight to stay alive. Choose How Your Fate Will Unfold No two playthroughs will be the same, and there are multiple endings to unlock. How the story ends is up to you. Features A wide variety of anomalies Randomized events to make each playthrough unique Hand-drawn art (not AI!) Voice acting (also not AI) Original music (also not AI, safe for streaming!) An intriguing mystery to unravel as you play Four different endings determined by your choices",
+        "id_in_db": "t3_1s0rmnb",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "4206150",
+        "genres": [
+            "Adventure",
+            "Simulation"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "is_dlc_or_addon": false,
+        "persian_summary": "The Princess Factory یک بازی ترسناک تشخیص ناهنجاری است که در آن در یک کارخانه مرموز در زیر یک پارک موضوعی متروکه افسانه ای کار می کنید. هنگام تلاش برای کشف اسرار تاریک پارک، باید هر انیماترونیک شاهزاده خانم را برای انحرافات بررسی کنید. اعمال شما ممکن است خیلی بیشتر از اینکه زنده بیرون بیایید یا نه تعیین کند ... اما کدام مسیر را انتخاب خواهید کرد؟ شاهزاده خانم ها را بررسی کنید، ناهنجاری ها را پیدا کنید ناهنجاری ها فراوان است. شناسایی (یا شنیدن) برخی آسان است، برخی دیگر چندان زیاد نیستند. بگذارید خیلی ها از کنار شما بگذرند و از آن روز جان سالم به در نخواهید برد. Survive Four Days on Job هر روز یک نوع شاهزاده خانم جدید اضافه می شود و وظایف شما را سخت تر و دشوارتر می کند. آیا می توانید زنده بمانید حتی زمانی که چهار شاهزاده خانم مختلف به دنبال شما هستند؟ یک راز وحشتناک را کشف کنید راز تاریک پشت کارخانه شاهزاده خانم چیست؟ هنگام مبارزه برای زنده ماندن، سرنخ هایی را در میان ناهنجاری ها کشف کنید. انتخاب کنید سرنوشت شما چگونه باز خواهد شد هیچ دو بازی یکسان نیستند و چندین پایان برای باز کردن وجود دارد. چگونگی پایان داستان به ..."
+    },
+    {
+        "title": "the princess factory 100 off free",
+        "store": "itch.io",
+        "url": "https://haymakergamestudios.itch.io/the-princess-factory",
+        "image_url": "https://external-preview.redd.it/9FT1MGUR_9NEduu1KnyaWpQ04RocYtBEvZc6RcviF_M.png?width=320&crop=smart&auto=webp&s=90ac4ae6d480a831e13a1e4310edb86a25f735cd",
+        "description": "submitted by /u/LighteningOneIN [link] [comments]",
+        "id_in_db": "t3_1s0s05v",
+        "subreddit": "GameDeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/LighteningOneIN [پیوند] [نظر]"
+    },
+    {
+        "title": "tiny crate",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/3733440/Tiny_Crate/",
+        "image_url": "https://external-preview.redd.it/ua3U3ZheqwOSMdsGV-6ApH_BG0OOxu-UlKpKyjOmOLQ.jpeg?width=320&crop=smart&auto=webp&s=aa8c6078da27d8eb69eb6bba525ea37de53dc6a4",
+        "description": "submitted by /u/MeguminShiro [link] [comments]",
+        "id_in_db": "t3_1rtblct",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/MeguminShiro [لینک] [نظر]"
     },
     {
         "title": "turnip boy robs a bank ca1699 free turnip boy is back this time hes teamed up with the fearsome pickled gang to pull off the weirdest heist of all time",
@@ -995,19 +1059,6 @@
         "persian_summary": "ارسال شده توسط /u/PM_ME_FREEGAMES [پیوند] [نظر]"
     },
     {
-        "title": "ubisoft the rogue prince of persia 67 off 960",
-        "store": "ubisoftstore",
-        "url": "https://store.ubisoft.com/us/the-rogue-prince-of-persia-tm-/6635164075637a09298a6001.html",
-        "image_url": "https://external-preview.redd.it/p4kSEqL5xzRXuCCB4rjLCit-7yZyBPz1hc7XENg2aNI.jpeg?width=640&crop=smart&auto=webp&s=4fe2ed10006cd802767fa21f73a5b18e46994dff",
-        "description": "submitted by /u/livejamie [link] [comments]",
-        "id_in_db": "t3_1ry7j6c",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "67% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/livejamie [لینک] [نظر]"
-    },
-    {
         "title": "ubisoftsteamxbox seriesplaystation 5switch 2 other assassins creed shadows",
         "store": "other",
         "url": "https://x.com/assassinscreed/status/2034646073264816284",
@@ -1019,26 +1070,6 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/StOoPiD_U [پیوند] [نظر]"
-    },
-    {
-        "title": "umm oyoun",
-        "store": "epicgames",
-        "url": "https://store.epicgames.com/p/ummoyoun-a2aa02",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3575390/4a7d3bf630df970ff0c717439ee5d79b7f37ef75/header.jpg?t=1762560053",
-        "description": "The game is an episodic narrative experience, where each new chapter builds upon the continuity of the previous one. The story follows a mother and her daughter, Sarah, as they embark on an emotional and thrilling journey to search for Sarah's father, who vanished under mysterious circumstances during a stormy and eerie night. The game offers a blend of emotional depth and suspense, immersing players in a world of secrets and enigmatic characters. Features Environmental Exploration: Engage in detailed search and exploration of immersive environments. Flashlight Usage: Utilize a flashlight to navigate dark and eerie areas effectively. Candle Lighting: Light candles to illuminate surroundings and create a safe atmosphere. Puzzle Solving: Solve challenging puzzles that unlock new paths and unravel story elements. Ghost Chases: Experience thrilling ghost chases, adding tension and excitement to the gameplay. Note from the Development Team The game is currently under development and, at this stage, includes only one chapter. The current demo version is the same as the paid version. The goal of this project is to receive both financial and conceptual support to develop and add the remaining chapters. Additionally, this support will greatly contribute to our next project and help us bring our creative vision to life. Thank you for your trust and support! اللعبة هي تجربة قصصية متجددة تُقدم على شكل فصول متتابعة، حيث يعتمد كل فصل جديد على استمرارية أحداث الفصل السابق. تروي القصة حكاية أم وابنتها سارة، اللتين تنطلقان في رحلة بحث مؤثرة ومليئة بالتشويق عن والد سارة، الذي اختفى في ظروف غامضة وسط أجواء ماطرة ومخيفة. تتسم اللعبة بأجوائها العاطفية والمثيرة التي تأخذ اللاعبين في مغامرة لاستكشاف أسرار العالم المحيط والشخصيات المليئة بالغموض.المميزات البحث واستكشاف البيئة: استمتع باستكشاف بيئات غامضة ومليئة بالتفاصيل. استخدام المصباح اليدوي: استخدم المصباح اليدوي للتنقل في الأماكن المظلمة والمخيفة. تشغيل الشموع للإضاءة: قم بإشعال الشموع لتوفير الإضاءة وخلق جو آمن. حل الألغاز: حل الألغاز الشيقة التي تفتح مسارات جديدة وتكشف عن عناصر القصة. مطاردة الأشباح: خض تجارب مطاردات الأشباح المثيرة التي تضيف توتراً وحماساً إلى أسلوب اللعب. ملاحظة من فريق العمل اللعبة ما زالت قيد التطوير، وفي الوقت الحالي تحتوي على فصل واحد فقط. نسخة الديمو الحالية هي نفس النسخة المدفوعة، حيث يهدف المشروع إلى الحصول على الدعم المادي والفكري لتطوير بقية الفصول وإضافتها. كما أن هذا الدعم يساهم بشكل كبير في دعم مشروعنا القادم وتحقيق رؤيتنا الإبداعية. شكراً لدعمكم وثقتكم بنا!",
-        "id_in_db": "t3_1rs7819",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "3575390",
-        "genres": [
-            "Adventure",
-            "Indie"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "بازی یک تجربه روایی اپیزودیک است که در آن هر فصل جدید بر اساس تداوم فصل قبلی است. داستان یک مادر و دخترش سارا را دنبال می‌کند که در یک سفر هیجانی و هیجان‌انگیز برای جستجوی پدر سارا که در یک شب طوفانی و وهم‌آور در شرایطی مرموز ناپدید شده است، می‌روند. این بازی ترکیبی از عمق احساسی و تعلیق را ارائه می دهد و بازیکنان را در دنیایی از اسرار و شخصیت های معمایی غوطه ور می کند. ویژگی ها اکتشاف محیطی: درگیر جستجوی دقیق و کاوش در محیط های غوطه ور شوید. استفاده از چراغ قوه: از چراغ قوه برای پیمایش موثر در مناطق تاریک و وهم آلود استفاده کنید. شمع روشنایی: شمع روشن کنید تا محیط اطراف را روشن کنید و فضایی امن ایجاد کنید. حل پازل: پازل های چالش برانگیز را حل کنید که مسیرهای جدید را باز می کند و عناصر داستان را باز می کند. Ghost Chases: تعقیب و گریز هیجان انگیز ارواح را تجربه کنید و تنش و هیجان را به گیم پلی بازی اضافه کنید. یادداشت از تیم توسعه بازی در حال حاضر در دست توسعه است و در..."
     },
     {
         "title": "underworld office",
@@ -1057,7 +1088,7 @@
         "title": "unemployment simulator 2018 40 off 585",
         "store": "steam",
         "url": "https://store.steampowered.com/app/3252360/Unemployment_Simulator_2018/",
-        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3252360/ea1aea21356fa41d6ea902e645cccc5f33e88d58/capsule_616x353.jpg?t=1773944219",
+        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3252360/header.jpg?t=1773944219",
         "description": "submitted by /u/voidfriend- [link] [comments]",
         "id_in_db": "t3_1rzredy",
         "subreddit": "GameDeals",
@@ -1067,10 +1098,43 @@
         "persian_summary": "ارسال شده توسط /u/voidfriend- [لینک] [نظر]"
     },
     {
+        "title": "wave gods",
+        "store": "epicgames",
+        "url": "https://store.epicgames.com/p/wave-gods-ammo-night-7eb978",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2157830/ade0163ee0cebba5dc9b200424e7f70c81222ddd/header.jpg?t=1773831617",
+        "description": "Load up your gun, Toxic Commando, and team up in a 4-player squad to send the Sludge God and its undead horde back to hell! Gather a 4-player squad or jump in with fellow commandos online for pure co-op chaos. Revive fallen teammates, share ammo, cover each other's backs, and laugh through the madness. When infected swarm from every angle, teamwork isn't optional—it's survival. Unleash hell with an arsenal of guns, grenades, and devastating powers as thousands of infected pour toward you in relentless waves. Powered by Saber's Swarm Engine (World War Z, Warhammer 40,000: Space Marine 2), the horde never stops—and neither should your trigger finger. Search for vehicles scattered across semi-open maps and tear through the wasteland. Each ride feels unique: some pack serious firepower or special abilities; others come with handy tools like winches. Find what fits your squad, then floor it through the hordes for that pure rush of power and satisfaction—nothing beats turning zombies into roadkill.",
+        "id_in_db": "t3_1s0hsl7",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "2157830",
+        "genres": [
+            "Action",
+            "Adventure"
+        ],
+        "is_multiplayer": true,
+        "is_online": true,
+        "age_rating": "17",
+        "is_dlc_or_addon": false,
+        "persian_summary": "تفنگ خود را بار کنید، کماندوی سمی، و در یک تیم 4 نفره با هم متحد شوید تا خدای لجن و گروه ترکان مرده اش را به جهنم بازگردانید! یک تیم 4 نفره جمع کنید یا با کماندوهای همکار به صورت آنلاین برای هرج و مرج خالص همراه شوید. هم تیمی های افتاده را احیا کنید، مهمات را به اشتراک بگذارید، پشت همدیگر را بپوشانید و از جنون بخندید. وقتی افراد آلوده از هر زاویه ای ازدحام می کنند، کار تیمی اختیاری نیست - بقا است. جهنم را با زرادخانه ای از اسلحه، نارنجک، و قدرت های ویرانگر آزاد کنید و هزاران نفر آلوده در امواج بی امان به سمت شما سرازیر شوند. با استفاده از موتور ازدحام سابر (World War Z, Warhammer 40,000: Space Marine 2)، این گروه هرگز متوقف نمی شود – و همچنین نباید انگشت ماشه شما را متوقف کند. وسایل نقلیه پراکنده در نقشه های نیمه باز را جستجو کنید و در زمین های بایر پاره کنید. هر سواری احساس منحصر به فردی دارد: برخی از آنها قدرت شلیک جدی یا توانایی های ویژه دارند. دیگران با ابزارهای مفیدی مانند وینچ عرضه می شوند. آنچه را که برای تیمتان مناسب است پیدا کنید، سپس آن را در میان انبوهی ها برای آن هجوم ناب قدرت و رضایت قرار دهید - هیچ چیز بهتر از تبدیل زامبی ها به ..."
+    },
+    {
+        "title": "Wave Gods: Ammo Night",
+        "id_in_db": "wave-gods-ammo-night@1774174034",
+        "store": "other",
+        "url": "https://itad.link/019a81e6-4e0d-70a1-9b17-3f0b76c25736/",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "image_url": "https://i.ytimg.com/vi/rhkbWLjaWWM/maxresdefault.jpg",
+        "is_dlc_or_addon": false,
+        "persian_summary": "",
+        "description": ""
+    },
+    {
         "title": "world of warships epic anniversary tachibana pack",
         "store": "epicgames",
         "url": "https://store.epicgames.com/p/world-of-warships-world-of-warships-%E2%80%94-tachibana-lima-pack-5930e4",
-        "image_url": "https://cdn1.epicgames.com/spt-assets/4eb4296fe40e4130a61adbf2d6b34586/world-of-warships-1ahdf.png?resize=1&w=480&h=270&quality=medium",
+        "image_url": "https://cdn1.epicgames.com/spt-assets/4eb4296fe40e4130a61adbf2d6b34586/world-of-warships-1ahdf.png",
         "description": "submitted by /u/el9in [link] [comments]",
         "id_in_db": "t3_1ry2quz",
         "subreddit": "FreeGameFindings",
@@ -1078,18 +1142,5 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": true,
         "persian_summary": "ارسال شده توسط /u/el9in [لینک] [نظر]"
-    },
-    {
-        "title": "wrath of mynah",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/3988190/Wrath_of_Mynah/?beta=1",
-        "image_url": "https://external-preview.redd.it/LGelsyvND_tMDPDLGG-xuPyMyYMu0AE7eqzHn4OOMLI.jpeg?width=320&crop=smart&auto=webp&s=cc4a63702468d05e26dca9b4c2adaa96d9376122",
-        "description": "submitted by /u/BlueWind_GamingYT [link] [comments]",
-        "id_in_db": "t3_1ry9nxu",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "20% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/BlueWind_GamingYT [پیوند] [نظر]"
     }
 ]
