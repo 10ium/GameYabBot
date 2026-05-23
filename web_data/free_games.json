@@ -10,28 +10,33 @@
         "is_free": true,
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
-        "persian_summary": "شما پرسیدید، پس ما دوباره اینجا هستیم. دادن 1000 کد مادام العمر به صورت رایگان. محدودیت زمانی وجود ندارد، اما زمانی که آنها رفته اند، رفته اند. One Good Thing یک برنامه فکری روزانه است که در سال گذشته به صورت انفرادی ساخته‌ام. یک کارت در روز، کمتر از دو دقیقه، از یکی از دوازده زمینه: فلسفه، زیست شناسی تکاملی، پارادوکس ریاضی، لنزهای فرهنگی، حقایق آرام، چارچوب های مجدد، لحظات زبان، مدل های ذهنی، حکایات تاریخی، تضادهای صادقانه، علم، و سوالاتی که باید با آنها بنشینید. شما فکر را حمل می کنید یا آن را رها می کنید. سپس برنامه را ببندید. همین است. محصول مکث است، نه محتوا. آنچه همیشه رایگان است: یک کارت در روز، حمل یا رها کردن، رشته روزهای متوالی شما، مجموعه شما. چه چیزی در طول عمر باز می شود: بپرسید (انعکاس هوش مصنوعی روی کارت)، باغ فکر (تجسم مولد الگوهای حمل شما)، صورت فلکی کنجکاوی (ارتباطات بین زمینه ها)، پرتره متفکر (بند نوشته شده درباره نحوه تفکر شما)، پرتره ماهانه، بایگانی کامل. اینجا چیه..."
+        "persian_summary": "شما پرسیدید، پس ما دوباره اینجا هستیم. دادن 1000 کد مادام العمر به صورت رایگان. محدودیت زمانی وجود ندارد، اما زمانی که آنها رفته اند، رفته اند. One Good Thing یک برنامه فکری روزانه است که در سال گذشته به صورت انفرادی ساخته‌ام. یک کارت در روز، کمتر از دو دقیقه، از یکی از دوازده زمینه: فلسفه، زیست شناسی تکاملی، پارادوکس ریاضی، لنزهای فرهنگی، حقایق آرام، چارچوب های مجدد، لحظات زبان، مدل های ذهنی، حکایات تاریخی، تضادهای صادقانه، علم، و سوالاتی که باید با آنها بنشینید. شما فکر را حمل می کنید یا آن را رها می کنید. سپس برنامه را ببندید. همین. محصول مکث است، نه محتوا. آنچه همیشه رایگان است: یک کارت در روز، حمل یا رها کردن، رشته روزهای متوالی شما، مجموعه شما. چه چیزی در طول عمر باز می شود: بپرسید (انعکاس هوش مصنوعی روی کارت)، باغ فکر (تجسم مولد الگوهای حمل شما)، صورت فلکی کنجکاوی (ارتباطات بین زمینه ها)، پرتره متفکر (بند نوشته شده درباره نحوه تفکر شما)، پرتره ماهانه، بایگانی کامل. اینجا چیه..."
     },
     {
-        "title": "anomaly 404",
+        "title": "aether studios publisher sale",
         "store": "steam",
-        "url": "https://store.steampowered.com/app/4282420/Anomaly_404/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4282420/375660933e96fe4f3986f56bec7f172624f7f666/header.jpg?t=1779185869",
-        "description": "As a journalist, you're infiltrating a secret military bunker to expose the horrifying truth of \" Project 404 \". Your mission: find and photograph the anomalies. Just remember — your eyes will deceive you. INSTRUCTIONS If you see an anomaly, take a photo. If there is no anomaly, keep moving without taking a photo. Anomaly 404 is a first-person psychological horror. The gameplay is a spot-the-difference experience. If you understand the instructions above, you are ready to play. KEY FEATURES 100+ Anomalies: Find a massive variety of anomalies. Multiple Levels: Explore different eerie locations. Sanity System: Losing your sanity makes finding anomalies more difficult. Story Documents: Read documents to uncover the dark lore. Multiple Endings: Discover main and secret endings. 3D Progress Board: Track your search status inside the game. Photography Mechanic: Use your camera to capture anomalies. Interactive World: Inspect and interact with objects around you. Immersive Atmosphere: High-quality sound and tense psychological horror. Steam Achievements: Unlock regular and secret achievements.",
-        "id_in_db": "t3_1thrg8f",
+        "url": "https://store.steampowered.com/publisher/AetherStudios",
+        "image_url": "https://external-preview.redd.it/jzbFAS5gul4Ag9Jay7ZlSRi1HKXBe3-StBF1dyMvU9s.jpeg?width=108&crop=smart&auto=webp&s=46d3285f6126bfdd31059fe0087942c524de0de7",
+        "description": "submitted by /u/Parcle [link] [comments]",
+        "id_in_db": "t3_1tkppma",
         "subreddit": "GameDeals",
         "is_free": false,
-        "discount_text": "20% off",
-        "steam_app_id": "4282420",
-        "genres": [
-            "Adventure",
-            "Casual",
-            "Indie"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
+        "discount_text": "50% off",
         "is_dlc_or_addon": false,
-        "persian_summary": "به عنوان یک روزنامه نگار، شما در حال نفوذ به یک پناهگاه نظامی مخفی برای افشای حقیقت وحشتناک \"پروژه 404\" هستید. ماموریت شما: پیدا کردن و عکاسی از ناهنجاری ها. فقط به یاد داشته باشید - چشمان شما شما را فریب خواهند داد. دستورالعمل ها اگر ناهنجاری می بینید، عکس بگیرید. اگر ناهنجاری وجود ندارد، بدون عکس گرفتن به حرکت خود ادامه دهید. Anomaly 404 یک ترسناک روانشناختی اول شخص است. گیم پلی بازی یک تجربه نقطه به نقطه است. اگر دستورالعمل های بالا را درک می کنید، آماده بازی هستید. ویژگی های کلیدی بیش از 100 ناهنجاری: انواع زیادی از ناهنجاری ها را پیدا کنید. سطوح چندگانه: مکان های مخوف مختلف را کاوش کنید. سیستم سلامت: از دست دادن سلامت عقل، یافتن ناهنجاری ها را دشوارتر می کند. اسناد داستانی: اسناد را بخوانید تا داستان تاریک را کشف کنید. پایان های چندگانه: پایان های اصلی و مخفی را کشف کنید. تابلوی پیشرفت سه بعدی: وضعیت جستجوی خود را در داخل بازی پیگیری کنید. مکانیک عکاسی: از دوربین خود برای ثبت ناهنجاری ها استفاده کنید. دنیای تعاملی: اشیاء اطراف خود را بررسی کرده و با آنها تعامل داشته باشید. جو غوطه ور: ..."
+        "persian_summary": "ارسال شده توسط /u/Parcle [لینک] [نظر]"
+    },
+    {
+        "title": "apps compress video",
+        "store": "googleplay",
+        "url": "https://play.google.com/store/apps/details?id=com.tapuniverse.videocompressor",
+        "image_url": "https://external-preview.redd.it/KYaqyg81uAMNoD8aky1vuwELSsfY03uF5xNkFUH4PZQ.jpeg?width=320&crop=smart&auto=webp&s=0fbfa5bd2f12f5643bd9c471a4d334bfa8e45abd",
+        "description": "submitted by /u/ac_del [link] [comments]",
+        "id_in_db": "t3_1tkri7k",
+        "subreddit": "googleplaydeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/ac_del [لینک] [نظر]"
     },
     {
         "title": "apps nt calculator",
@@ -60,6 +65,19 @@
         "persian_summary": "ارسال شده توسط /u/MeguminShiro [لینک] [نظر]"
     },
     {
+        "title": "based 4x strategy game set in the warhammer 40000 universe play as one of four iconic warhammer factions astra militarum space marines orks or necrons each with their own unique playstyle and technology tree",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/489630/Warhammer_40000_Gladius__Relics_of_War/",
+        "image_url": "https://external-preview.redd.it/dPNCMQXNVxbj1dzh2uitUc7gfn2GhXbZ4JSw_doKXjw.jpeg?width=320&crop=smart&auto=webp&s=94c0a8c905b51bc2d0cbcbeca8638f82f450fa7a",
+        "description": "submitted by /u/Singhvistaar [link] [comments]",
+        "id_in_db": "t3_1tkugga",
+        "subreddit": "AppHookup",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/Singhvistaar [پیوند] [نظر]"
+    },
+    {
         "title": "blood and zombies",
         "store": "indiegala",
         "url": "https://freebies.indiegala.com/blood-and-zombies",
@@ -79,28 +97,96 @@
         "persian_summary": "عصر خون و روده و گوشت است. یک ویروس زامبی در سراسر جمعیت پخش شد و میلیون ها نفر را به هیولاهای درنده و جهش یافته تبدیل کرد. به نظر می رسد که بشریت در آستانه انقراض است. اینجاست که شما وارد می شوید. هنوز هم می توان با قدرت آتش برتر جهان را به دست آورد. مسئولیت ضد حمله را بر عهده بگیرید، امواج زامبی ها را در شب های به ظاهر بی پایان محو کنید و زمین را دوباره به دست آورید! Blood and Zombies ترکیبی از یک بازی برج دفاعی و یک تیرانداز اول شخص است. یکی از چهار قهرمان را انتخاب کنید، در منطقه جنگی مستقر شوید و قلعه ای بسازید که در برابر هجوم گروه زامبی ها مقاومت کند، تا زمانی که آخرین زامبی سقوط کند و شهر دیگری برای بشریت بازپس گرفته شود. سپس دوباره بارگیری کنید، دوباره مسلح شوید و دوباره وارد مبارزه شوید. قلعه خود را مستقر کرده و بسازید، از یک پاسگاه کوچک گرفته تا یک پناهگاه تسخیر ناپذیر که قادر به شکست دادن گروهی از هر اندازه است. از میان ده‌ها ساختار دفاعی، از مین‌های زمینی، از طریق مسلسل‌های معمولی گرفته تا برج‌های تسلا که قادر به سرخ کردن ده‌ها ..."
     },
     {
+        "title": "bunny guys",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/2218460/Bunny_Guys/",
+        "image_url": "https://external-preview.redd.it/84Jm-0UqpOx2sDPdsEoOimlcRb15Z9nPNhkDht82qDw.jpeg?width=320&crop=smart&auto=webp&s=51be4ceb703579232b39af5f046fef9c365bca28",
+        "description": "submitted by /u/iambaldy [link] [comments]",
+        "id_in_db": "t3_1tkoy52",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/iambaldy [لینک] [نظر]"
+    },
+    {
+        "title": "bunny guys 100 off",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/2218460/Bunny_Guys/",
+        "image_url": "https://external-preview.redd.it/84Jm-0UqpOx2sDPdsEoOimlcRb15Z9nPNhkDht82qDw.jpeg?width=320&crop=smart&auto=webp&s=51be4ceb703579232b39af5f046fef9c365bca28",
+        "description": "submitted by /u/Jerry2863 [link] [comments]",
+        "id_in_db": "t3_1tkoy64",
+        "subreddit": "GameDeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/Jerry2863 [پیوند] [نظر]"
+    },
+    {
+        "title": "Bunny Guys!",
+        "id_in_db": "bunny-guys@1779470184",
+        "store": "other",
+        "url": "https://itad.link/019e50af-697b-716a-953e-f7c7651ad9d7/",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "2218460",
+        "description": "Climb, tumble, and rage — the ruthless obstacle race for bunnies with nerves of steel. Play alone or online against up to 8 players: whoever reaches the top wins. Everyone else… falls down in spectacular fashion. Master dangerous parkour routes, dodge nasty traps, and jump with the precision of a bunny on espresso. One wrong step, one jump too early and boom, back to the start. Challenge your friends, chase each other through chaotic levels, and fight for a spot on the global leaderboard. Only the fastest earn the title “Golden Bunny” complete with an epic fireworks show. Features Challenging climbing and parkour levels with fair checkpoints Online multiplayer for up to 8 players Global leaderboard with time comparison Traps, checkpoints, and wonderfully frustrating “One more try!” moments included Average playtime: 60–120 minutes… or hours? (highly dependent on fall rate 🐰💀) How far will YOU get — and how many times will you have to start all over again?",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2218460/21bc1a04e1dc28a7a323f7dc4521836f56ad30e3/header.jpg?t=1778711514",
+        "genres": [
+            "Action",
+            "Casual",
+            "Indie"
+        ],
+        "is_multiplayer": true,
+        "is_online": false,
+        "is_dlc_or_addon": false,
+        "persian_summary": "صعود، غلت خوردن و خشم - مسابقه موانع بی رحمانه برای خرگوش هایی با اعصاب فولادی. به تنهایی یا آنلاین در برابر حداکثر 8 بازیکن بازی کنید: هر کسی که به اوج برسد برنده است. همه... به شکلی دیدنی به زمین می افتند. در مسیرهای پارکور خطرناک مسلط شوید، از تله‌های بد طفره بروید و با دقت یک اسم حیوان دست اموز روی اسپرسو بپرید. یک قدم اشتباه، یک پرش خیلی زود و بوم، بازگشت به شروع. دوستان خود را به چالش بکشید، یکدیگر را در سطوح پر هرج و مرج تعقیب کنید و برای جایگاهی در جدول امتیازات جهانی بجنگید. فقط سریع‌ترین‌ها عنوان «خرگوش طلایی» را با نمایش آتش‌بازی حماسی کسب می‌کنند. ویژگی‌های چالش‌برانگیز سطوح کوهنوردی و پارکور با نقاط بازرسی منصفانه بازی چندنفره آنلاین برای حداکثر 8 بازیکن جدول امتیازات جهانی با مقایسه زمان تله‌ها، نقاط بازرسی و \"یک بار دیگر تلاش کنید!\" لحظات گنجانده شده میانگین زمان پخش: 60 تا 120 دقیقه... یا ساعت؟ (به شدت وابسته به نرخ سقوط 🐰💀) تا کجا پیش خواهید رفت — و چند بار باید همه چیز را از نو شروع کنید؟"
+    },
+    {
+        "title": "Bunny Hurling",
+        "id_in_db": "bunny-hurling@1779470169",
+        "store": "other",
+        "url": "https://itad.link/019e50af-64cd-70ee-8aaa-2872962c8966/",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "3515620",
+        "description": "Track and hunt bunnies in the woods with your bow. It’s what the King demands. Load the catapult and hurl them into the castle. No one will thank you. Things tend to get stranger… and far more dangerous. Do you think you can satisfy the King's desires? He’s not known for his mercy. IN BUNNY HURLING, YOU CAN... Move stealthily and wait for the perfect moment to shoot your arrow! Lure the bunnies with a bunny caller ! Beware of vengeful creatures and ghosts ! You're not the only predator in the forest! Freely explore a vast non-linear map , full of bunny curiosities and much more!",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3515620/header.jpg?t=1777999536",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Casual",
+            "Indie"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "is_dlc_or_addon": false,
+        "subreddit": "FreeGameFindings",
+        "persian_summary": "با کمان خود خرگوش ها را در جنگل ردیابی و شکار کنید. این چیزی است که پادشاه خواسته است. منجنیق را بارگیری کنید و آنها را به داخل قلعه پرتاب کنید. هیچ کس از شما تشکر نخواهد کرد. چیزها عجیب تر و خطرناک تر می شوند. آیا فکر می کنید می توانید خواسته های پادشاه را برآورده کنید؟ او به رحمتش معروف نیست. در پرتاب اسم حیوان دست اموز، شما می توانید... یواشکی حرکت کنید و منتظر لحظه مناسب برای شلیک تیر خود باشید! با تماس گیرنده اسم حیوان دست اموز خرگوش ها را فریب دهید! مراقب موجودات و ارواح انتقام جو باشید! شما تنها شکارچی جنگل نیستید! آزادانه یک نقشه غیرخطی گسترده، پر از کنجکاوی های اسم حیوان دست اموز و خیلی چیزهای دیگر را کاوش کنید!"
+    },
+    {
+        "title": "bunny hurling",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/3515620/Bunny_Hurling/",
+        "image_url": "https://external-preview.redd.it/3b1dbP88XSuPHi4XmpBzozKWOJeOfTWWdGNB3e38p_I.jpeg?width=320&crop=smart&auto=webp&s=a916cb557773399c5bdbbc56cf75b03feff546f3",
+        "description": "submitted by /u/MyUserIsDeleted [link] [comments]",
+        "id_in_db": "t3_1tkrvxs",
+        "subreddit": "GameDeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/MyUserIsDeleted [پیوند] [نظر]"
+    },
+    {
         "title": "Car Mechanic Simulator 2018",
         "id_in_db": "car-mechanic-simulator-2018@1779383754",
         "store": "other",
         "url": "https://itad.link/019e4b88-c1ca-7317-bcad-8fd606eb5644/",
         "is_free": true,
         "discount_text": "100% Off",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/645630/capsule_616x353.jpg?t=1779384126",
-        "is_dlc_or_addon": false,
-        "persian_summary": "",
-        "description": ""
-    },
-    {
-        "title": "car mechanic simulator 2018",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/645630/Car_Mechanic_Simulator_2018/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/645630/header.jpg?t=1779384126",
-        "description": "The Bestselling Car Mechanic Simulator series goes to a new level! Car Mechanic Simulator 2018 challenges players to repair, paint, tune and drive cars. Find classic, unique cars in the new Barn Find module and Junkyard module. You can even add your self-made car in the Car Editor. Build and expand your repair service empire in this incredibly detailed and highly realistic simulation game, where attention to car detail is astonishing. All this with new, photorealistic graphics. Featuring more cars (40+), more tools (10+), more options and more parts (1000+) than ever before. It’s time to roll up your sleeves and get to work! Car Mechanic Simulator 2018 also includes car auctions where old cars are available for resale or purchased for your collection. With the inclusion of photo-mode, you can take stunning before and after photos, and the game’s infinite number of randomly generated missions will keep you more than busy (and dirty). Each mission offers its own unique challenge of varying difficulty and time constraints to meet. Additional tools are available for purchase if needed. You can eventually upgrade your garage to include specific equipment such as lacquer sprayer or a parts warehouse. Features of Car Mechanic Simulator 2018: photorealistic graphics 40+ cars to get your hands dirty with 10+ tools to help you check out cars 1000+ parts waiting for you start from a small workshop and upgrade it to a full sized 3-lifter gem mix of randomly generated jobs to fulfill endless gameplay multilevel car parking in which you can store you cars Advanced Upgrades System (level up and spend your points to upgrades) Path Test to test car suspension Test Track to test car condition (or just fool around) Race Track to test car performance Car Auctions where you can compete with other bidders and try to outbid them Car Paint Shop with different paint types and car liveries (or you can just paint one part to save money) Barn Finds, where you search for abandoned cars in barns - make sure to look there for parts Junkyard (scavenge for parts and rusty cars) Car Editor for modders (add your cars to the game!) New Features since CMS 2015: seats, steering wheels and benches are exchangeable car windows are now parts too new repair system (smarter way to repair parts) parts warehouse (you can store your parts in a warehouse now) sheds (Barn Find module) separated tires and rims (you can place any tire and rim you want) new working shock absorber tool new working battery charger new working wheel balancer and changer race track (next to test track, there is a race track with a timer) new physics system (much more complex) car liveries (you can apply liveries to your car) redone paint system (you can paint each part separately, choose the paint type: matt, metallic, pearl) modding support from day 1 (place your own cars in the game) customizable license plates (with modding support) customizable game music (with user music) engine crane (tired of lifting your car up and down to disassemble engine) creating new engines on the crane (starting from scratch) leveling system (XP with upgrades) new car salon (you can buy brand new cars) liquids in car story orders (pregenerated like in CMS 2014) next to generated orders (like in CMS 2015) all new UI and easier controls (with rebind) pad support ... and much, much more Official licensed brands coming up in DLC's: Mercedes Maserati DeLorean Pagani Bentley Dodge Plymouth Chrysler Jeep Ram Lotus Mazda ... and more",
-        "id_in_db": "t3_1tjqp8x",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
         "steam_app_id": "645630",
+        "description": "The Bestselling Car Mechanic Simulator series goes to a new level! Car Mechanic Simulator 2018 challenges players to repair, paint, tune and drive cars. Find classic, unique cars in the new Barn Find module and Junkyard module. You can even add your self-made car in the Car Editor. Build and expand your repair service empire in this incredibly detailed and highly realistic simulation game, where attention to car detail is astonishing. All this with new, photorealistic graphics. Featuring more cars (40+), more tools (10+), more options and more parts (1000+) than ever before. It’s time to roll up your sleeves and get to work! Car Mechanic Simulator 2018 also includes car auctions where old cars are available for resale or purchased for your collection. With the inclusion of photo-mode, you can take stunning before and after photos, and the game’s infinite number of randomly generated missions will keep you more than busy (and dirty). Each mission offers its own unique challenge of varying difficulty and time constraints to meet. Additional tools are available for purchase if needed. You can eventually upgrade your garage to include specific equipment such as lacquer sprayer or a parts warehouse. Features of Car Mechanic Simulator 2018: photorealistic graphics 40+ cars to get your hands dirty with 10+ tools to help you check out cars 1000+ parts waiting for you start from a small workshop and upgrade it to a full sized 3-lifter gem mix of randomly generated jobs to fulfill endless gameplay multilevel car parking in which you can store you cars Advanced Upgrades System (level up and spend your points to upgrades) Path Test to test car suspension Test Track to test car condition (or just fool around) Race Track to test car performance Car Auctions where you can compete with other bidders and try to outbid them Car Paint Shop with different paint types and car liveries (or you can just paint one part to save money) Barn Finds, where you search for abandoned cars in barns - make sure to look there for parts Junkyard (scavenge for parts and rusty cars) Car Editor for modders (add your cars to the game!) New Features since CMS 2015: seats, steering wheels and benches are exchangeable car windows are now parts too new repair system (smarter way to repair parts) parts warehouse (you can store your parts in a warehouse now) sheds (Barn Find module) separated tires and rims (you can place any tire and rim you want) new working shock absorber tool new working battery charger new working wheel balancer and changer race track (next to test track, there is a race track with a timer) new physics system (much more complex) car liveries (you can apply liveries to your car) redone paint system (you can paint each part separately, choose the paint type: matt, metallic, pearl) modding support from day 1 (place your own cars in the game) customizable license plates (with modding support) customizable game music (with user music) engine crane (tired of lifting your car up and down to disassemble engine) creating new engines on the crane (starting from scratch) leveling system (XP with upgrades) new car salon (you can buy brand new cars) liquids in car story orders (pregenerated like in CMS 2014) next to generated orders (like in CMS 2015) all new UI and easier controls (with rebind) pad support ... and much, much more Official licensed brands coming up in DLC's: Mercedes Maserati DeLorean Pagani Bentley Dodge Plymouth Chrysler Jeep Ram Lotus Mazda ... and more",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/645630/header.jpg?t=1779478899",
         "genres": [
             "Racing",
             "Simulation"
@@ -108,6 +194,7 @@
         "is_multiplayer": false,
         "is_online": false,
         "is_dlc_or_addon": false,
+        "subreddit": "FreeGameFindings",
         "persian_summary": "پرفروش ترین سری شبیه ساز مکانیک ماشین به سطح جدیدی می رود! Car Mechanic Simulator 2018 بازیکنان را برای تعمیر، رنگ آمیزی، تنظیم و رانندگی ماشین ها به چالش می کشد. ماشین‌های کلاسیک و منحصر به فرد را در ماژول جدید Barn Find و ماژول Junkyard پیدا کنید. شما حتی می توانید ماشین خود ساخته خود را در ویرایشگر ماشین اضافه کنید. امپراتوری خدمات تعمیر خود را در این بازی شبیه‌سازی فوق‌العاده دقیق و بسیار واقعی بسازید و گسترش دهید، جایی که توجه به جزئیات ماشین شگفت‌انگیز است. همه اینها با گرافیک های جدید و واقعی. دارای اتومبیل های بیشتر (40+)، ابزار بیشتر (10+)، آپشن های بیشتر و قطعات بیشتر (1000+) از همیشه. وقت آن است که آستین ها را بالا بزنید و دست به کار شوید! Car Mechanic Simulator 2018 همچنین شامل حراج‌های خودرو می‌شود که در آن ماشین‌های قدیمی برای فروش مجدد یا خرید برای مجموعه شما در دسترس هستند. با گنجاندن حالت عکس، می‌توانید عکس‌های قبل و بعد خیره‌کننده بگیرید، و تعداد نامحدودی از ماموریت‌های بازی که به‌طور تصادفی تولید می‌شوند، شما را بیش از حد مشغول (و کثیف) نگه می‌دارد. هر ماموریت چالش منحصر به فرد خود را ارائه می دهد ..."
     },
     {
@@ -162,7 +249,7 @@
         "url": "https://itad.link/019e2ca3-798b-7029-ab2f-b709891d0d6b/",
         "is_free": true,
         "discount_text": "100% Off",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3343840/1cc887f65d8acda71d39925824b8bbb8218c690e/capsule_616x353.jpg?t=1778921416",
+        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3343840/1cc887f65d8acda71d39925824b8bbb8218c690e/capsule_616x353.jpg?t=1778921416",
         "is_dlc_or_addon": false,
         "persian_summary": "",
         "description": ""
@@ -238,7 +325,7 @@
         "title": "ergonomic chair pro gift cards",
         "store": "other",
         "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tiwmqx/fgf_giveaway_branch_furniture_2_ergonomic_chair/",
-        "image_url": "http://configurator.anthros.com/cdn/shop/files/anthros_gift_card_one.jpg?v=1700153229",
+        "image_url": "https://cdn.thewirecutter.com/wp-content/media/2025/06/gaming-chairs-LTT-ace-pro-scaled.jpg?width=2048&quality=60&crop=2560:1920&auto=webp",
         "description": "This event is for Canada & USA Only! You can enter for/through a friend with a US/Canada address though. Unboxing and review video of the Ergonomic Chair Pro on the FGF YouTube channel - https://youtu.be/uYSIENA-qgI This is a direct from dev/pub/store giveaway for FGF. Similar to those we've done before. Big thanks go out to /u/AustinBranch from Branch Furniture again for letting this happen! INTRO Look who's back! Some months ago, we first saw Branch Furniture on the subreddit . It was so lovely the first time, that we're back at it again! In case you've forgotten, Branch Furniture make some fantastic chairs, desks, tables and more. Serving both Canada and the US, the New York City based company has been furnishing people and businesses since 2018. Netflix, Google and more big-name players love them, and you will too! Last year, Wired's Julian Chokkattu said their Ergonomic Chair Pro was the \"favourite office chair for most people\", although they seem to have updated the article a little. A competitive price and high-quality. Good stuff! Whether it's office chairs/couches , desks and tables , or a variety of bigger and smaller items, Branch can tick the boxes for your office and business planning! A reminder; they've been aiming to grow their /r/BranchFurniture subreddit. Check it out for some reviews, discussions and possibly some of their own giveaways too. To promote the brand, the subreddit, and their great stuff, I am happy to announce a second FGF Giveaway from Branch This time, for 1 Ergonomic Chair Pro (available in a variety of colours/materials) and 2 $150 USD Gift Cards to use on either the US or Canada Branch store website! Slightly smaller prize-pool this time around, but still a wonderful event! I got a chance to try out the chair myself and I love it! I don't think you'd be able to get any chair of theirs with the gift card alone, but you can use them to get some smaller items for free. Or simply take a big chunk out of a larger purchase of course. REVIEW To give a personal touch to this giveaway, Branch sent me an Ergonomic Chair Pro! Here is a video of me unboxing and reviewing it on the FGF YouTube channel - https://youtu.be/uYSIENA-qgI TLDW: A fantastic entry into the office chair scene! The Ergonomic Chair Pro is a feature-rich chair with a lot of care put in. It rocks a bunch of adjustability, many selections in colour and materials, a great cushion, and solid build quality. The default configuration feels great to me for the mesh backing, as well as the cushioning. Really like the feel of it all. The headrest and tall cylinder being optional is a bit of a bummer, but if it helps drop the cost down, then that's fine. It isn't what one would call a cheap chair, but it is extremely competitive in the premium space. You can save some cash with the non-pro version of the chair, but you lose like half of the adjustments, and end up with a supposedly worse cushion. I'm very happy with my Ergonomic Chair Pro and would certainly recommend it if you're looking for a premium chair, and are in Canada or the US. Guess I gotta get a head rest now! GIVEAWAY To enter this giveaway we will be using Gleam and the comments. The Ergonomic Chair Pro through Gleam. Then the two $150 USD Branch Furniture Gift Cards via the comments. Feel free to enter with any and all methods/links. Gleam entries: Ergonomic Chair Pro - https://gleam.io/vplTx/fgf-x-branch-furniture-2-ergonomic-chair-pro Comment entries: $150 USD Branch Furniture Gift Card Simply make a top-level comment (although only one top-level comment please) and you're entered for one of the gift cards! NOTE: If you win this giveaway I will be contacting through email for Gleam winners, and Reddit Chat for comment winners. The chair winner will need to supply their shipping information at that stage and the address supplied will need to be in a supported region. I'll wait at most 3 days after I reach out for a response, so please be sure to set a reminder to check this thread, your email (check your junk/spam too) , and Reddit chat for my message if you have won. If I don't hear back, I will need to re-roll/find a new winner quickly from the FGF community somewhere (like Discord) for the unclaimed prize. Winners will be selected at random. This offer will be live until May 27th . The next day or so, I will reach out to the winners through the methods mentioned earlier. You'll be asked for shipping details when applicable. Prizes are only available to be sent to the supported regions. You can enter from anywhere in the world and have it sent to a friend/family member in the supported region(s). Good luck everyone! Some links to Branch Furniture: The Branch Furniture USA Website - https://www.branchfurniture.com/ The Branch Furniture Canada Website - https://www.branchfurniture.ca/ Branch Furniture on Reddit - /r/BranchFurniture Branch on Insta - https://www.instagram.com/branchfurniture Branch on Twitter - https://x.com/officebybranch Branch on LinkedIn - https://www.linkedin.com/company/branchfurniture/ My Ergonomic Chair Pro Unboxing/Review - https://youtu.be/uYSIENA-qgI DISCLOSURE Full disclosure, I was supplied an Ergonomic Chair Pro for review purposes. For more details about when I have and have not been supplied an item for these FGF Giveaways, see here - https://docs.google.com/spreadsheets/d/1RFeaSIpqFvvSzfOowecLz_rbbFo-YKa25PYAqF6Y6ko/ submitted by /u/StOoPiD_U [link] [comments]",
         "id_in_db": "t3_1tiwmqx",
         "subreddit": "FreeGameFindings",
@@ -261,19 +348,6 @@
         "persian_summary": "ارسال شده توسط /u/LighteningOneIN [پیوند] [نظر]"
     },
     {
-        "title": "etailmarket abiotic factor 26 off 2508",
-        "store": "other",
-        "url": "https://etail.market/abiotic-factor-3",
-        "image_url": "https://miro.medium.com/v2/resize:fit:1200/1*g6QUJN3_xquw7pGmpf0D-A.png",
-        "description": "submitted by /u/etailmarket [link] [comments]",
-        "id_in_db": "t3_1til8rj",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "26% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/etailmarket [لینک] [نظر]"
-    },
-    {
         "title": "etailmarket lego harry potter collection 85 off 585",
         "store": "other",
         "url": "https://etail.market/lego-harry-potter-collection-258",
@@ -284,19 +358,6 @@
         "is_free": false,
         "discount_text": "85% off",
         "is_dlc_or_addon": true,
-        "persian_summary": "ارسال شده توسط /u/etailmarket [لینک] [نظر]"
-    },
-    {
-        "title": "etailmarket the precinct 44 off 1666",
-        "store": "other",
-        "url": "https://etail.market/the-precinct-1",
-        "image_url": "https://external-preview.redd.it/EsGeYKYY5on9bJTdisCo6LgM6Jst5x3ZXzAlzqnYwBM.jpeg?width=640&crop=smart&auto=webp&s=0028fce48a1937b7081d58100bc3b80dd598ef7b",
-        "description": "submitted by /u/etailmarket [link] [comments]",
-        "id_in_db": "t3_1thktgq",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "44% off",
-        "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/etailmarket [لینک] [نظر]"
     },
     {
@@ -326,42 +387,17 @@
         "persian_summary": "ارسال شده توسط /u/Ambedextrose [پیوند] [نظر]"
     },
     {
-        "title": "fanatical tower of time 100 off free",
-        "store": "fanatical",
-        "url": "https://www.fanatical.com/en/game/tower-of-time",
-        "image_url": "https://external-preview.redd.it/YveQ3zEjPdKuTJ-yUtkXJBMuovKDpp-0GHj4TW1O4to.jpeg?width=640&crop=smart&auto=webp&s=24e5ffe665608a3f5e0c3065b81c3fd017c88825",
-        "description": "submitted by /u/teemodidntdieforthis [link] [comments]",
-        "id_in_db": "t3_1tihasv",
-        "subreddit": "GameDeals",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/teemodidntdieforthis [پیوند] [نظر]"
-    },
-    {
         "title": "for the first time ever play the complete experience with all expansions and secret levels on modern platforms in this definitive collection",
         "store": "epicgames",
         "url": "https://store.epicgames.com/p/tomb-raider-iiii-remastered-538640",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/2953f199b4c075b22c0cf8ff03d88b0b1c267823/header_alt_assets_11.jpg?t=1777501665",
-        "description": "Diablo® IV is the ultimate action-RPG experience with endless evil to slaughter, countless abilities to master, nightmarish dungeons, and legendary loot. Embark on the epic campaign solo or with friends, meeting memorable characters through a gripping story in a beautifully dark world, or explore an expansive end game: battle iconic bosses for powerful loot, fight back the encroaching onslaught of Hell in Helltides, master the Forge to create your ultimate weapons and progress powerful characters, with cross-play and cross-progression on all available platforms. Welcome to Hell Discover the critically acclaimed franchise that defined the Action RPG genre. As the battle between the High Heavens and Burning Hells rages on, hatred devours Sanctuary as evil spreads and a new wave of cultists and worshippers arise to embrace Lilith’s coming. Only a brave few dare to face this threat and bring light to the all-consuming darkness. Expansive Open World Forge your own path through the corrupted lands of Sanctuary, an ever-growing, fully explorable world teeming with challenges, quests, enemies, and loot. Join your fellow adventurers, rescue and retake besieged towns, delve into nightmarish dungeons and uncover lost secrets as you fight back evil. The many zones of Sanctuary are yours to explore, and with rotating areas of extreme peril like World Bosses and Helltide, danger lurks at every turn. Immersive Character Development Create and customize your character to face the encroaching darkness. Choose from one of five classes and build your hero with skills, abilities and cosmetics, creating a champion that is uniquely your own. Grow stronger as you progress through powerful Skill Trees and develop even more unique end game specializations with Paragon Boards. Legendary Gear, Epic Battles Discover and experiment with a vast arsenal of powerful weapons, armor and more to fight back against the demons threatening Sanctuary. Explore unique combinations, create your own upgrades and collect a plethora of powerful tools to battle in immersive, action-packed combat against the deadliest of enemies. Seasons & Events The tales of Sanctuary continue to unfold. Create Seasonal Characters and join in fresh adventures - master new mechanics and take on the latest threats in each new Season. Complete harrowing feats of the Season Journey and earn new Battle Pass rewards. Plus, sharpen your swords and get in the spirit of the seasons when Limited-Time Events sweep through Sanctuary. End Game Undertakings There’s even more Diablo® IV to explore as you reach higher levels and more fearsome World Tiers. Face the greatest challenge yet as you take on the most powerful demons in The Pit, steel yourself against Uber Bosses to reap uber unique rewards, fight back overflowing armies of Hell as Helltides emerge across Sanctuary, battle larger-than-life World Bosses, and master the Forge to create the mightiest weapons fit for a hero.",
+        "image_url": "https://adventuregamehotspot.com/images/posts/1038/4396-Tomb%20Raider%20review%20pic%208.jpg",
+        "description": "submitted by /u/PM_ME_FREEGAMES [link] [comments]",
         "id_in_db": "t3_1tjnckx",
         "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "2344520",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Casual",
-            "Massively Multiplayer",
-            "RPG",
-            "Free To Play"
-        ],
-        "is_multiplayer": true,
-        "is_online": true,
-        "age_rating": "17",
         "is_dlc_or_addon": true,
-        "persian_summary": "Diablo® IV یک تجربه نهایی اکشن-RPG با شر بی‌پایان برای سلاخی، توانایی‌های بی‌شماری برای تسلط، سیاه چال‌های کابوس‌وار و غارت افسانه‌ای است. به صورت انفرادی یا با دوستان وارد کمپین حماسی شوید، با شخصیت های به یاد ماندنی از طریق یک داستان جذاب در دنیایی تاریک و زیبا آشنا شوید، یا یک بازی پایانی گسترده را کاوش کنید: با باس های نمادین برای غارت قدرتمند مبارزه کنید، با یورش متجاوزانه جهنم در Helltides مقابله کنید، بر Forge مسلط شوید تا سلاح های نهایی خود را بسازید و کاراکترهای قدرتمند را با پلتفرم های متقابل پیشرفت و پیشرفت متقابل در همه پلتفرم های موجود انجام دهید. به بازی Hell Discover خوش آمدید، فرنچایز مورد تحسین منتقدان که ژانر Action RPG را تعریف کرد. همانطور که نبرد بین بهشت ​​های بلند و جهنم های سوزان ادامه دارد، نفرت پناهگاه را می بلعد و شر گسترش می یابد و موج جدیدی از فرقه ها و عبادت کنندگان برای استقبال از آمدن لیلیت به وجود می آید. فقط عده معدودی شجاع جرات رویارویی با این تهدید را دارند و نور را به تاریکی فراگیر می آورند. جهان باز گسترده مسیر خود را از طریق..."
+        "persian_summary": "ارسال شده توسط /u/PM_ME_FREEGAMES [پیوند] [نظر]"
     },
     {
         "title": "free 9x9 6x6 and 4x4 sudoku nine themes unique puzzles ad free no tracking no nonsense",
@@ -375,6 +411,32 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "رایگان برای چند روز، لذت ببرید! 🥳 ارسال شده توسط /u/Fantastic_Market8061 [لینک] [نظر]"
+    },
+    {
+        "title": "free basic version normally 5",
+        "store": "googleplay",
+        "url": "https://play.google.com/store/apps/details?id=com.soundsoftlab.sonolune",
+        "image_url": "https://external-preview.redd.it/-QfDZEYMnVBxT_ew1FWp_118zfEKLu9hi4_xN9qDE-A.jpeg?width=320&crop=smart&auto=webp&s=f56dc912af9fd66ba4d6670e959e45de6a152b87",
+        "description": "SonoLune is a calm environment app for Android — built to shape your space, not just play sounds. Features - Ambient sound layering — Rain, Wind, Forest, Leaves - Adaptive Night Mode — AMOLED deep dark, Sacred Night - Focus Sessions without aggressive timers — ambient field + Whispers - Light controls — warmth, blue light reduction, Paper/Matte mode - Lunar Arc — schedules calm handoffs through your day - Lune Guard — eye-care breaks built into the field - Living Moments — hold their sound when you leave and return - Lune Field — live night wallpaper - Clean by design. No ads. No account. No trackers. Works offline. Latest: v1.5 — biggest update yet. The field feels more settled and continuous. App: https://play.google.com/store/apps/details?id=com.soundsoftlab.sonolune Built with care at Soundsoft Lab — feedback always welcome. submitted by /u/Uraniam9 [link] [comments]",
+        "id_in_db": "t3_1tkmprz",
+        "subreddit": "googleplaydeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "SonoLune یک برنامه محیطی آرام برای اندروید است که برای شکل دادن به فضای شما ساخته شده است، نه فقط برای پخش صداها. ویژگی‌ها - لایه‌بندی صدای محیطی - باران، باد، جنگل، برگ - حالت شب تطبیقی - تاریک عمیق AMOLED، شب مقدس - جلسات فوکوس بدون تایمرهای تهاجمی - میدان محیطی + زمزمه‌ها - کنترل‌های نور - گرما، کاهش نور آبی، حالت کاغذی/مات - کمان قمری - برنامه‌ریزی روزانه شما را به میدان‌های حرکتی آرام Living Moments — هنگام خروج و بازگشت صدای خود را نگه دارید - Lune Field — تصویر زمینه زنده شبانه - با طراحی تمیز کنید. بدون تبلیغات بدون حساب. بدون ردیاب آفلاین کار می کند. آخرین: v1.5 - بزرگترین به روز رسانی تا کنون. میدان آرام تر و پیوسته تر احساس می شود. برنامه: https://play.google.com/store/apps/details?id=com.soundsoftlab.sonolune با دقت در آزمایشگاه Soundsoft ساخته شده است - همیشه از بازخورد استقبال می شود. ارسال شده توسط /u/Uraniam9 [لینک] [نظر]"
+    },
+    {
+        "title": "free build and expand your repair service empire in this detailed and realistic simulation game features 40 cars car auctions a race track to test car performance and more",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/645630/Car_Mechanic_Simulator_2018/",
+        "image_url": "https://external-preview.redd.it/hpQ8BPWJoHlKGytpUJRjxxG_JRxujhyKnf36_2-oe3Q.jpeg?width=320&crop=smart&auto=webp&s=bb2fbe371409246f5425e7265423cc49a11a6074",
+        "description": "submitted by /u/Singhvistaar [link] [comments]",
+        "id_in_db": "t3_1tkqyvy",
+        "subreddit": "AppHookup",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/Singhvistaar [پیوند] [نظر]"
     },
     {
         "title": "free rediscover game night in this tactical rpg where shared strategy shapes every turn adventure across the sunderlands with up to four players in online multiplayer or couch co",
@@ -419,14 +481,21 @@
         "title": "iii remastered starring lara croft",
         "store": "epicgames",
         "url": "https://store.epicgames.com/p/tomb-raider-iiii-remastered-538640",
-        "image_url": "https://media.gamestop.com/i/gamestop/20009006/Tomb-Raider-I-III-Remastered-Starring-Lara-Croft",
-        "description": "submitted by /u/el9in [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2478970/a94ccfdb7582dc5564cdf736b0f239531b66bf1d/header.jpg?t=1773331351",
+        "description": "Discover Lara Croft’s Original Adventures, Lovingly Restored – Now with New Challenge Mode Play the Original Three Tomb Raider Adventures: For the first time ever, play the complete experience with all expansions and secret levels on modern platforms in this definitive collection. Now with more bonus content in the FREE Challenge Mode patch. Included Game Titles Tomb Raider I + Unfinished Business Tomb Raider II + Golden Mask Tomb Raider III + The Lost Artifact NEW Challenge Mode : Replay levels with customized modifiers and complete achievements to unlock 10 New Outfits that enhance Lara’s abilities. Solve Ancient Mysteries : Uncover treasures of the ancient world by solving puzzles and unraveling mysteries lost to the ravages of time. Globe-trotting Adventure : Follow Lara Croft around the world and face off against deadly foes and dangerous myths. Lovingly Restored : Experience the classics boasting upgraded graphics, with the option to switch to the original polygon look at any time. Photo Mode : Capture Lara with any weapon and unlocked outfit in 21 poses, or look around the level for hidden items and secrets.",
         "id_in_db": "t3_1tjn55w",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
+        "steam_app_id": "2478970",
+        "genres": [
+            "Action",
+            "Adventure"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/el9in [لینک] [نظر]"
+        "persian_summary": "ماجراهای اصلی لارا کرافت را کشف کنید که با عشق بازسازی شده است - اکنون با حالت چالشی جدید، ماجراهای اصلی Three Tomb Raider را بازی کنید: برای اولین بار، در این مجموعه قطعی، تجربه کامل را با تمام بسط ها و سطوح مخفی بر روی پلتفرم های مدرن بازی کنید. اکنون با محتوای پاداش بیشتر در وصله حالت چالش رایگان. عناوین بازی گنجانده شده Tomb Raider I + Business Unfinished Tomb Raider II + Golden Mask Tomb Raider III + The Lost Artifact حالت چالش جدید: بازپخش سطوح با اصلاح کننده های سفارشی و دستاوردهای کامل برای باز کردن 10 لباس جدید که توانایی های لارا را افزایش می دهد. حل اسرار باستانی: گنجینه های دنیای باستان را با حل معماها و کشف اسرار از دست رفته در زمان نابودی کشف کنید. ماجراجویی در جهان: لارا کرافت را در سراسر جهان دنبال کنید و با دشمنان مرگبار و اسطوره های خطرناک روبرو شوید. Lovingly Restored: کلاسیک‌ها را با گرافیک ارتقا یافته تجربه کنید، با گزینه تغییر به نمای چند ضلعی اصلی در هر..."
     },
     {
         "title": "iii remastered starring lara croft 100 off free",
@@ -450,19 +519,6 @@
         "persian_summary": "به عرصه فوق العاده Small Hero خوش آمدید! این یک بازی اکشن بقای سبک Roguelike با سرعت بالا و سرگرم کننده است. شما به عنوان یک قهرمان تنها بازی خواهید کرد و در مقابل امواج هیولاها قرار خواهید گرفت. هر دور یک ماجراجویی کاملاً جدید است: باید خرید کنید و خود را بین امواج تقویت کنید، سپس به نبرد بعدی و حتی شدیدتر برای بقا شیرجه بزنید! آیا شما تبدیل به یک برسرکر تیزبین می شوید یا یک تیرانداز تیرانداز؟ هر انتخاب سبک مبارزه منحصر به فرد شما را شکل می دهد. زنده بمانید، غارت کنید، محتوای بیشتری را باز کنید، و سپس... فقط یک دور دیگر بازی کنید! ویژگی های کلیدی ⚡ مبارزه دیوانه وار سریع هر نبرد 10 تا 30 دقیقه طول می کشد و گیم پلی فشرده، اکشن و فوق العاده رضایت بخشی را ارائه می دهد! از میان انبوهی از هیولاها طفره بروید و همه دشمنان را در بازه زمانی محدود شکست دهید و مهارت های موقعیت یابی و کنترل جمعیت خود را آزمایش کنید. 🎭 فهرستی عظیم، سبک‌های بازی منحصر به فرد، از میان انواع قهرمانان محبوب، هر کدام دارای سلاح‌های شروع، ویژگی‌ها و سبک‌های بازی منحصربه‌فرد خود را انتخاب کنید! چه آن ..."
     },
     {
-        "title": "indie gala observer",
-        "store": "indiegala",
-        "url": "https://www.indiegala.com/store/game/observer-system-redux/1386900",
-        "image_url": "https://www.indiegalacdn.com/store-img_game/games/big/1386900.jpg?v=20260514",
-        "description": "submitted by /u/Janusdarke [link] [comments]",
-        "id_in_db": "t3_1tij0ob",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "91% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/Janusdarke [پیوند] [نظر]"
-    },
-    {
         "title": "ios android monument valley 3 ca689 free set sail for adventure in this new instalment of the award",
         "store": "other",
         "url": "https://www.reddit.com/r/AppHookup/comments/1tjo347/ios_android_monument_valley_3_ca689_free_set_sail/",
@@ -476,23 +532,10 @@
         "persian_summary": "https://store.epicgames.com/p/monument-valley-3-ios-e569e7 https://store.epicgames.com/p/monument-valley-3-android-c7433e در حالی که نور را در جستجوی خود از طریق یک سری از ذهن و خمیدگی های puzzlesicerus هدایت می کنید، برای یک ماجراجویی در حال تغییر جهان حرکت کنید. آیا می توانید اسرار دنیای اسرارآمیز - و معنای پشت نور مقدس را باز کنید؟ ارسال شده توسط /u/PM_ME_FREEGAMES [پیوند] [نظر]"
     },
     {
-        "title": "ios fueltrackr 2499 to 1299 50 off lifetime pro",
-        "store": "iosappstore",
-        "url": "https://apps.apple.com/us/app/fueltrackr-fuel-mileage/id6741074755",
-        "image_url": "https://external-preview.redd.it/N6_ak5pOX-d1iPcRxReSQ8kemmCm4ThGIBfUV5lV-L8.jpeg?width=640&crop=smart&auto=webp&s=44926017c266d09ace7de2f8eb66e5d41f4f1654",
-        "description": "Hi everyone, I am the developer of FuelTrackr. I am currently running a 50% discount on the Lifetime Pro in app purchase for the next 16 days (Till 24th of may). App Functionality: FuelTrackr is a privacy focused vehicle management tool designed for car owners who want to avoid monthly subscriptions and data tracking. • Smart Receipt Scanning: You can take a photo of your fuel receipt and the app will automatically read the cost, fuel amount, and date. • Efficiency Ratings: The app provides an A to G grade for every refill by comparing the data to your own driving history. • Garage Management: You can track multiple vehicles in one place with smart maintenance reminders and predictive wear alerts. • Location Logging: Every entry can be tagged with a location that opens directly in Apple Maps. • No Tracking: There are no ads and no third party data tracking. Your vehicle history remains on your device. I am building this tool based on user feedback. If you have any questions about the features or how the app works, I will be here in the comments to answer them. submitted by /u/spijkermenno [link] [comments]",
-        "id_in_db": "t3_1tazsjb",
-        "subreddit": "AppHookup",
-        "is_free": false,
-        "discount_text": "50% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "سلام به همه، من توسعه دهنده FuelTrackr هستم. من در حال حاضر 50٪ تخفیف در خرید لایف تایم پرو در برنامه برای 16 روز آینده (تا 24 مه) دارم. عملکرد برنامه: FuelTrackr یک ابزار مدیریت خودرو متمرکز بر حریم خصوصی است که برای دارندگان خودرو طراحی شده است که می خواهند از اشتراک ماهانه و ردیابی داده ها اجتناب کنند. • اسکن هوشمند رسید: می توانید از رسید سوخت خود عکس بگیرید و برنامه به طور خودکار هزینه، مقدار سوخت و تاریخ را می خواند. • رتبه‌بندی کارایی: این برنامه با مقایسه داده‌ها با سابقه رانندگی شما، برای هر پر کردن مجدد یک درجه A تا G ارائه می‌کند. • مدیریت گاراژ: می‌توانید چندین وسیله نقلیه را در یک مکان با یادآوری‌های تعمیر و نگهداری هوشمند و هشدارهای سایش پیش‌بینی‌کننده ردیابی کنید. • ثبت موقعیت مکانی: هر ورودی را می توان با مکانی برچسب گذاری کرد که مستقیماً در نقشه های اپل باز می شود. • بدون ردیابی: هیچ آگهی و هیچ ردیابی اطلاعات شخص ثالث وجود ندارد. سابقه خودروی شما در دستگاه شما باقی می ماند. من این ابزار را بر اساس بازخورد کاربران می سازم. اگر سوالی در مورد..."
-    },
-    {
         "title": "ios glpzy lifetime premium 4499",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005",
-        "image_url": "https://external-preview.redd.it/ios-glpzy-lifetime-premium-44-99-free-private-glp-1-v0-JMuHOWqICf3asODoiUMt8R51V4I7orhiNadQyT83EMQ.jpeg?auto=webp&s=7eaabf0e7e5c2b79f4b7551a6756d4bce1ae5cdd",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple69/v4/ec/c6/bf/ecc6bf26-bfc3-099c-91dd-cf04271cc99c/mzl.tjcimgic.png/512x512bb.jpg",
         "description": "I’m an independent iOS developer. I built GLPzy because a lot of GLP‑1 tracking ends up scattered across notes, calendars, photos and spreadsheets. The app is local-first, has no mandatory account, and is designed for logging doses, weight, symptoms, appetite, reminders, progress photos and provider-style summaries. Lifetime Premium is temporarily free for founding users. This means Premium features for life at no cost during this founding user week. No review is required; I’m mainly looking for real feedback from people who would actually use this kind of tracker. How to get: Download GLPzy from the App Store. Open Settings → Premium. Choose Lifetime Premium. Confirm the App Store purchase showing free / $0.00. Use the app for a few days. No review is required; I’m mainly looking for real feedback from people who would actually use this kind of tracker. Lifetime IAP free until May 31st only, then price will revert to full price. It is not medical advice and does not tell anyone what dose to take. Please let me know any questions or feedback. Thanks! submitted by /u/Tiny_Split9436 [link] [comments]",
         "id_in_db": "t3_1tjd9fl",
         "subreddit": "AppHookup",
@@ -500,19 +543,6 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "من یک توسعه دهنده مستقل iOS هستم. من GLPzy را ساختم زیرا بسیاری از ردیابی‌های GLP‑1 در یادداشت‌ها، تقویم‌ها، عکس‌ها و صفحات گسترده پراکنده می‌شوند. این برنامه ابتدا محلی است، هیچ حساب اجباری ندارد و برای ثبت دوز، وزن، علائم، اشتها، یادآوری‌ها، عکس‌های پیشرفت و خلاصه‌هایی به سبک ارائه‌دهنده طراحی شده است. Lifetime Premium به طور موقت برای کاربران پایه‌گذار رایگان است. این بدان معناست که ویژگی‌های Premium مادام العمر بدون هیچ هزینه‌ای در طول این هفته کاربر پایه‌گذاری شده است. نیازی به بررسی نیست. من عمدتاً به دنبال بازخورد واقعی از افرادی هستم که واقعاً از این نوع ردیاب استفاده می کنند. نحوه دریافت: GLPzy را از اپ استور دانلود کنید. تنظیمات → Premium را باز کنید. Lifetime Premium را انتخاب کنید. خرید فروشگاه App را تأیید کنید که رایگان / 0.00 دلار است. برای چند روز از برنامه استفاده کنید. نیازی به بررسی نیست. من عمدتاً به دنبال بازخورد واقعی از افرادی هستم که واقعاً از این نوع ردیاب استفاده می کنند. IAP مادام العمر فقط تا 31 مه رایگان است، سپس قیمت به قیمت کامل باز خواهد گشت. این توصیه پزشکی نیست و به کسی نمی گوید که چه ..."
-    },
-    {
-        "title": "iosipados clear sudoku 9 199",
-        "store": "iosappstore",
-        "url": "https://apps.apple.com/us/app/clear-sudoku-9/id6759276385",
-        "image_url": "https://external-preview.redd.it/eNOUa8c3dyeKeYEj6hSVb6oz7vEdJdmeufa7BkVuB9s.jpeg?width=640&crop=smart&auto=webp&s=53194f98eff34103db56413cc2bda319134499aa",
-        "description": "Hello there! I'm a new dev that tries to make my life and others easier by building useful stuff. My parents are getting older so I suggested them to start playing Sudoku to keep their minds sharp. I tried downloading different versions of the game from the app store but I lost my patience when i discovered that most sudoku apps had annoying ads that were impossible for older people to dismiss or required subscription (who pays subscription for a sudoku app??). So I decided to build a completely stripped-down, premium version for my folks that the below helpful characteristics: Huge text / high contrast 100% offline Absolutely zero ads, analytics, or subscriptions. It's literally just Sudoku. It’s normally a $1.99 upfront paid app, but I just dropped the price to Free to get some real people playing it and hopefully catch any early bugs. It works fine on iPhones, but it really shines on an iPad. If you have parents or grandparents who love Sudoku but hate modern mobile game garbage, this might be exactly what they need. App Store Link: https://apps.apple.com/us/app/clear-sudoku-9/id6759276385 Let me know what you guys think, and please let me know if it crashes! UPDATE: Thank you to everyone who downloaded the game and let me know about the app crashing on the iPhone Air. The fix has been approved by Apple and the update is available now. Thank you also for all the wonderful suggestions you've shared! I am reading through all of them and will try to implement them as soon as possible. I'm going to leave the game free for the rest of the weekend, and then it will go back to its regular price next Monday on the 18th of May. I really appreciate all the feedback and support from this community. submitted by /u/theanob [link] [comments]",
-        "id_in_db": "t3_1t8y9ye",
-        "subreddit": "AppHookup",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "سلام! من یک توسعه دهنده جدید هستم که سعی می کند با ساختن چیزهای مفید زندگی خود و دیگران را آسان تر کند. پدر و مادرم در حال بزرگ شدن هستند، بنابراین به آنها پیشنهاد دادم که بازی سودوکو را شروع کنند تا ذهنشان تیز باشد. من سعی کردم نسخه‌های مختلف بازی را از فروشگاه برنامه دانلود کنم، اما وقتی متوجه شدم که اکثر برنامه‌های سودوکو تبلیغات آزاردهنده‌ای دارند که برای افراد مسن‌تر غیرممکن است که آنها را رد کنند یا نیاز به اشتراک داشته باشند، صبرم را از دست دادم (چه کسی اشتراک یک برنامه سودوکو را پرداخت می‌کند؟). بنابراین تصمیم گرفتم یک نسخه کاملاً مجهول و ممتاز برای دوستانم بسازم که ویژگی های مفید زیر را داشته باشد: متن عظیم / کنتراست بالا 100٪ آفلاین، تبلیغات، تجزیه و تحلیل، یا اشتراک مطلقاً صفر است. این به معنای واقعی کلمه فقط سودوکو است. این معمولاً یک برنامه پرداخت اولیه 1.99 دلاری است، اما من فقط قیمت را به رایگان کاهش دادم تا برخی از افراد واقعی آن را بازی کنند و امیدوارم اشکالات اولیه را پیدا کنند. روی آیفون‌ها خوب کار می‌کند، اما در آی‌پد واقعاً می‌درخشد. اگر پدر و مادر یا پدربزرگ و مادربزرگی دارید که سودوکو را دوست دارند اما از زباله های بازی های مدرن موبایل متنفرند،..."
     },
     {
         "title": "ioslifetime 1299 free collectorcam",
@@ -528,6 +558,19 @@
         "persian_summary": "ارسال شده توسط /u/Right_Hunt6790 [پیوند] [نظر]"
     },
     {
+        "title": "legacy of the dark knight 27 off 6560",
+        "store": "other",
+        "url": "https://etail.market/lego-batman-legacy-of-the-dark-knight-deluxe-edition-396",
+        "image_url": "https://external-preview.redd.it/8TU7SaNWYanZH_8dco818CPs6RCIl6HmwkfyOWMRmHE.jpeg?width=640&crop=smart&auto=webp&s=c5f4fe0f88fc172b3e1abb2186c67f72978e69b3",
+        "description": "submitted by /u/etailmarket [link] [comments]",
+        "id_in_db": "t3_1tki28s",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "27% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/etailmarket [لینک] [نظر]"
+    },
+    {
         "title": "matrix warhammer 40000",
         "store": "other",
         "url": "https://www.matrixgames.com/bundle/warhammer-40000-gladius-complete-edition",
@@ -541,30 +584,37 @@
         "persian_summary": "ارسال شده توسط /u/InconceivableAD [پیوند] [نظر]"
     },
     {
-        "title": "meta quest cybrid",
-        "store": "other",
-        "url": "https://www.meta.com/en-gb/experiences/cybrid/24008454042113681/",
-        "image_url": "https://external-preview.redd.it/26KeachNT2z8jMGti_RPt1Hxzm0fiDJ9m6u5r8eYNRw.jpeg?width=640&crop=smart&auto=webp&s=3d72be384418faae15314368677188119479c1d4",
-        "description": "submitted by /u/Slow-Region-1494 [link] [comments]",
-        "id_in_db": "t3_1tidq0m",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "44% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/Slow-Region-1494 [پیوند] [نظرات]"
-    },
-    {
-        "title": "order of the apocalypse egs are complimentary with amazon prime",
-        "store": "amazon",
-        "url": "https://luna.amazon.com/claims/home?filter=Game&g=s",
-        "image_url": "https://external-preview.redd.it/_fBjABdCsDDIR7bJn-cgpkXoTMJ2MnAEY3PCdXPaAoY.png?width=640&crop=smart&auto=webp&s=bef23da95c6aa8211ed8845602ada6c6644977cf",
-        "description": "submitted by /u/LighteningOneIN [link] [comments]",
-        "id_in_db": "t3_1td49go",
-        "subreddit": "FreeGameFindings",
+        "title": "medication reminders that actually work pro free with code",
+        "store": "iosappstore",
+        "url": "https://apps.apple.com/au/app/cadence-medication-reminders/id6758649306",
+        "image_url": "https://external-preview.redd.it/6WUOFKCOfs5hefuplofos5pCeuPVmvPSVhjDOl-ptRE.jpeg?width=640&crop=smart&auto=webp&s=c2312952978b7d2ee945f23b29a638215ce6b909",
+        "description": "Taking your medication every day sounds simple. Doing it on time, reliably, for months. That's the hard part. Cadence is built for the hard part. App currently has 700+ users and their feedback is helping me continue to improve the app over time. Website: https://www.cadencehealth.app Features: Reminders that hold up. Time-sensitive alerts that break through Focus and silent modes. Confirm or skip a dose straight from the lock screen. One tap, no unlocking. Miss one and it follows up. It also quietly learns the time you actually take each dose and shifts the reminder to match. No typing to add a medication. Point your camera at a prescription label and Cadence reads it (most of the time), matches against 2,300+ medications, and fills in the name and dosage. It also handles the regimens other apps choke on. It helps with tapering doses, every-other-day and cyclical schedules, dose windows, multiple times a day. Where it gets genuinely useful: the insights. Cadence pulls 10 metrics from Apple Health plus a daily reflection check-in (mood, energy, symptoms). Then it does the part most trackers skip: it surfaces patterns (how your adherence lines up with how you feel and how those metrics move) week over week, with anomaly flags, a year-at-a-glance heatmap, and a yearly \"Wrapped.\" Your data stays yours. No account. No third-party servers. No subscription by default. iCloud sync to your own devices, and that's the whole list. Health data this sensitive shouldn't live on someone else's machine. There's also an Apple Watch app, home-screen and lock-screen widgets, and you can share a read-only view with a caregiver or family member. Pricing. The core app is free forever: reminders, label scanning, every scheduling option. Pro is a one-time purchase (normally $9.99, no subscription) that unlocks the deeper Apple Health correlation views and insights. I've set aside 500 Pro codes for this sub. One-time redemption, no recurring charge, no expiry once redeemed. Codes: http://www.promies.net/promotion/b41ae28d-c321-4aa5-81f9-50d5019f9843 How to redeem: Grab a code from the link above Download Cadence from the App Store In the app: Settings → Redeem a code → paste to activate Pro submitted by /u/alvoliooo [link] [comments]",
+        "id_in_db": "t3_1tl6c1i",
+        "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/LighteningOneIN [پیوند] [نظر]"
+        "persian_summary": "مصرف روزانه داروها ساده به نظر می رسد. انجام آن به موقع، قابل اعتماد، برای ماه ها. این قسمت سخت است. Cadence برای قسمت سخت ساخته شده است. برنامه در حال حاضر بیش از 700 کاربر دارد و بازخورد آنها به من کمک می کند تا در طول زمان برنامه را بهبود بخشم. وب سایت: https://www.cadencehealth.app ویژگی ها: یادآوری هایی که ماندگار هستند. هشدارهای حساس به زمان که از حالت های فوکوس و بی صدا عبور می کنند. یک دوز را مستقیماً از صفحه قفل تأیید یا رد کنید. یک ضربه، بدون باز کردن قفل. خانم یکی و آن را دنبال می کند. همچنین بی سر و صدا زمان مصرف هر دوز را یاد می گیرد و یادآوری را مطابقت می دهد. بدون تایپ برای افزودن دارو دوربین خود را به سمت برچسب نسخه بگیرید و Cadence آن را می خواند (بیشتر اوقات)، با بیش از 2300 دارو مطابقت می دهد و نام و دوز دارو را پر می کند. همچنین رژیم‌هایی را که سایر برنامه‌ها در آن خفه می‌شوند کنترل می‌کند. این به کاهش دوزها، برنامه های روزانه و چرخه ای، پنجره های دوز، چندین بار در روز کمک می کند. جایی که واقعاً مفید است: بینش. Cadence 10 معیار را از ..."
+    },
+    {
+        "title": "one random game and playtest game from endix",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/4356840/Endix/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3742830/a629087934f370581a962797e2a12c99813a6a00/header.jpg?t=1778680953",
+        "description": "The Awakener: Battle Tendency The Awakener: Battle Tendency is an action RPG that blends hack-and-slash combat with a deep loot grind and affix-driven builds. From a third person perspective, you command Awakeners to confront fate’s echoes. Across ever-shifting illusory battlefields, fight alongside warriors from different eras, defy the laws of fate, grow through life and death trials, and seek a way to defeat the encroaching demon lord, the Erosion King. ⚔️ When “Loot” Meets “Action” One years ago when we started this project, the idea was pretty simple, we wanted an action RPG that we'd actually enjoy playing ourselves. Not one of those \"live service\" games where you have to log in every day. No pay to win skins, no FOMO mechanics. Just something you can boot up after work, grind a fewruns, find a piece of gear that feels rewarding, and close it feeling good. Like the old Diablo or Musou days. You know the feeling. That's what Battle Tendency is. We put a lot into the combat. It's not a stand there and spam skills kind of game. You dodge, you position, you time your burst windows. When enemies swarm you and you land a crit that fills the screen with damage numbers.honestly, we've lost track of time more than once during our own playtests. 🧠 Deep Buildcrafting: A Tribute to Classic Number Crunching Beauty The Equipment System is where it gets interesting. Random affixes that combine in pretty wild ways. Chain lightning bouncing around, meteors dropping on crits, attack speed stacking until you're basically a human gatling gun. During testing, players came up with builds we never even thought of. That was cool to see. 🔥 20–50 Hours of Pure, Concentrated Fun Roughly 20 to 50 hours. We didn't want to pad it with repetitive side quests or pointless backtracking. Every level is hand crafted. After you finish, there's higher difficulty content for people who want to push their builds to the limit. That's it. No seasons, no battle pass, no daily quests. One purchase, it's yours. Hope you have fun with it. Local multiplayer requires at least one controller. Keyboard and mouse are supported for single-player gameplay.",
+        "id_in_db": "t3_1tl3pto",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "3742830",
+        "genres": [
+            "Action",
+            "RPG"
+        ],
+        "is_multiplayer": true,
+        "is_online": false,
+        "is_dlc_or_addon": false,
+        "persian_summary": "The Awakener: Battle Tendency Awakener: Battle Tendency یک بازی RPG اکشن است که نبردهای هک و اسلش را با لوت عمیق و بیلدهای مبتنی بر چسب ترکیب می کند. از منظر سوم شخص، شما به Awakeners دستور می دهید تا با پژواک های سرنوشت مقابله کنند. در میدان‌های نبرد توهم‌آمیز همیشه در حال تغییر، در کنار جنگجویان دوره‌های مختلف بجنگید، قوانین سرنوشت را نادیده بگیرید، در آزمایش‌های مرگ و زندگی رشد کنید و به دنبال راهی برای شکست دادن ارباب شیطان متجاوز، پادشاه فرسایش باشید. ⚔️ هنگامی که \"لوت\" با \"اکشن\" ملاقات کرد یک سال پیش، وقتی این پروژه را شروع کردیم، ایده بسیار ساده بود، ما یک RPG اکشن می‌خواستیم که در واقع از بازی کردن خودمان لذت ببریم. یکی از آن بازی‌های «سرویس زنده» نیست که باید هر روز وارد آن شوید. بدون پرداخت هزینه برای برنده شدن پوسته ها، بدون مکانیک FOMO. فقط چیزی که می‌توانید بعد از کار آن را راه‌اندازی کنید، چند چرخش را خرد کنید، قطعه‌ای از چرخ دنده‌ای را پیدا کنید که حس مفیدی داشته باشد، و با احساس خوب آن را ببندید. مثل روزهای قدیمی دیابلو یا موسو. شما احساس را می دانید. Battle Tendency یعنی همین. ما چیزهای زیادی برای مبارزه گذاشتیم. این..."
     },
     {
         "title": "other warhammer skulls 2026 digital goodie bag",
@@ -593,6 +643,19 @@
         "persian_summary": "ارسال شده توسط /u/MeguminShiro [لینک] [نظر]"
     },
     {
+        "title": "playsum stray 1186 1024 885 c1626 a1649 r3398 with code cheers",
+        "store": "other",
+        "url": "https://store.playsum.live/product/894c0771-551f-47e1-9f27-b17ecffba59b/stray",
+        "image_url": "https://external-preview.redd.it/UutVDg4dw98fuxmzGBVxJjMnPb0b4tVtgFtersaSI_w.jpeg?width=320&crop=smart&auto=webp&s=1eb3392009ec5db083fadb000e11a0ff495f8b70",
+        "description": "submitted by /u/Lets_Playsum [link] [comments]",
+        "id_in_db": "t3_1tl566j",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "60% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/Lets_Playsum [لینک] [نظر]"
+    },
+    {
         "title": "playsum withering rooms 1038 1048 779 c1380 a1461 r3143 with code cheers",
         "store": "other",
         "url": "https://store.playsum.live/product/54370f73-f4b3-4f04-a74b-87b0b36b92d7/withering-rooms",
@@ -604,45 +667,6 @@
         "discount_text": "58% off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/Lets_Playsum [لینک] [نظر]"
-    },
-    {
-        "title": "ps4 real cake maker",
-        "store": "playstation",
-        "url": "https://store.playstation.com/product/EP2696-CUSA58742_00-2000000000000000",
-        "image_url": "https://image.api.playstation.com/vulcan/ap/rnd/202604/1511/ad1daa5a7299ff57e7ef592933d2aef9ad9b26299091f98d.jpg",
-        "description": "submitted by /u/Kaizuken [link] [comments]",
-        "id_in_db": "t3_1tddgst",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/Kaizuken [پیوند] [نظر]"
-    },
-    {
-        "title": "ps5 star wars outlaws",
-        "store": "playstation",
-        "url": "https://store.playstation.com/en-us/product/UP0001-PPSA08261_00-GAME000000000000?",
-        "image_url": "https://i5.walmartimages.com/asr/3cf6d4b3-2a62-4e3f-af5e-cfc6200ac014.ad3727eaf174da64b57333fead88d805.jpeg",
-        "description": "submitted by /u/mmori24 [link] [comments]",
-        "id_in_db": "t3_1thsmi2",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "70% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/mmori24 [لینک] [نظر]"
-    },
-    {
-        "title": "psa epic games mega sale 2026 freebies",
-        "store": "epicgames",
-        "url": "https://www.reddit.com/r/FreeGameFindings/comments/1td2fvf/psa_epic_games_mega_sale_2026_freebies/",
-        "image_url": "https://img.gg.deals/ce/f7/c51660242953b0cfe3052eeea806302dbb24_912cr476.jpg",
-        "description": "🎮 CLAIM ALL ｜BaseGame + DLC｜ 19 ／ 12 🧧 CLAIM ALL ｜ DLC Item Instant Checkout 🧧 Asphalt Legends｜Decal Pack BaseGame + DLC ／ DLC 🧧﻿ Discord Nitro Reward 🧧 Duet Night Abyss｜Windbreath Character Supply Chest: Hellfire BaseGame + DLC ／ DLC 🧧 Fall Guys｜Gamer Hardwear Costume BaseGame + DLC ／ DLC 🧧 Firestone – Idle Clicker Online RPG｜Mega Giveaway BaseGame + DLC ／ DLC 🧧 Fortnite｜Horizon'd Wrap BaseGame + DLC ／ DLC 🧧 Idle Champions of the Forgotten Realms｜Tasslehoff's Dragonlance Party Pack BaseGame + DLC ／ DLC 🧧 Infinity Nikki｜Epic Extras Bundle BaseGame + DLC ／ DLC 🧧 MONGIL: STAR DIVE｜Divers Mega Pack BaseGame + DLC ／ DLC 🧧 Neverwinter｜Twilight Adventurer Pack BaseGame + DLC ／ DLC 🧧 RAVEN2｜Half anniversary Starter Pack BaseGame + DLC ／ DLC 🧧 Rocket League®｜Triplex Black Wheels BaseGame + DLC ／ DLC 🧧 Star Trek Online｜Elite Starter Pack BaseGame + DLC ／ DLC 🧧 Where Winds Meet｜Epic Launch Gift Pack BaseGame + DLC ／ DLC 🧧 World of Warships — Dante Alighieri Pack BaseGame + DLC ／ DLC 🧧 Wuthering Waves｜Extras Pack BaseGame + DLC ／ DLC 🧧 Asphalt Legends｜Decal Pack ⌛ Rating／⛔ Blacklist ｜Belarus, Brazil, China, Russia, Venezuela, Vietnam, Zimbabwe 🧧 Discord Nitro ⌛ Rating／⛔ Blacklist ｜Iran, North Korea, Russia, Syria, Turkey, Ukraine 🧧 Duet Night Abyss｜Windbreath Character Supply Chest: Hellfire ⌛ Rating／⛔ Blacklist ｜China, Vietnam 🧧 Fall Guys｜Gamer Hardwear Costume ⌛ Rating／⛔ Blacklist ｜None 🧧 Firestone – Idle Clicker Online RPG｜Mega Giveaway ⌛ Rating／⛔ Blacklist ｜None 🧧 Fortnite｜Horizon'd Wrap ⌛ Rating／⛔ Blacklist ｜Russia 🧧 Idle Champions of the Forgotten Realms｜Tasslehoff's Dragonlance Party Pack ⌛ Rating／⛔ Blacklist ｜None 🧧 Infinity Nikki｜Epic Extras Bundle ⌛ Rating／⛔ Blacklist ｜China, Vietnam 🧧 MONGIL: STAR DIVE｜Divers Mega Pack ⌛ Rating／⛔ Blacklist ｜China, Vietnam 🧧 Neverwinter｜Twilight Adventurer Pack ⌛ Rating／⛔ Blacklist ｜South Korea 🧧 RAVEN2｜Half anniversary Starter Pack ⌛ Rating／⛔ Blacklist ｜Åland Islands, American Samoa, Andorra, Anguilla, Antarctica, Aruba, Bangladesh, Barbados, Bhutan, Bouvet Island, British Indian Ocean Territory, Brunei, Burundi, Caribbean Netherlands, Central African Republic, China, Christmas Island, Cocos (Keeling) Islands, Comoros, Cook Islands, Cuba, Curaçao, Djibouti, Equatorial Guinea, Eritrea, Eswatini, Ethiopia, Falkland Islands, Faroe Islands, French Guiana, French Polynesia, French Southern and Antarctic Lands, Gibraltar, Greenland, Guadeloupe, Guam, Guernsey, Guinea, Guyana, Haiti, Heard Island and McDonald Islands, Hong Kong, Iran, Isle of Man, Japan, Jersey, Kiribati, Lesotho, Liechtenstein, Macau, Madagascar, Malawi, Marshall Islands, Martinique, Mauritania, Mayotte, Monaco, Mongolia, Montserrat, Nauru, Netherlands Antilles, New Caledonia, Niue, Norfolk Island, North Korea, Northern Mariana Islands, Palau, Palestine, Pitcairn Islands, Puerto Rico, Réunion, Saint Barthélemy, Saint Helena, Ascension and Tristan da Cunha, Saint Martin, Saint Pierre and Miquelon, Saint Vincent and the Grenadines, Samoa, San Marino, São Tomé and Príncipe, Sint Maarten, Somalia, South Georgia, South Korea, South Sudan, Sudan, Svalbard and Jan Mayen, Syria, Taiwan, Timor-Leste, Togo, Tokelau, Tuvalu, United States Minor Outlying Islands, United States Virgin Islands, Vatican City, Vietnam, Wallis and Futuna, Western Sahara 🧧 Rocket League®｜Triplex Black Wheels ⌛ Rating／⛔ Blacklist ｜China, Hong Kong, Macau, South Korea, Taiwan 🧧 Star Trek Online｜Elite Starter Pack ⌛ Rating／⛔ Blacklist ｜South Korea 🧧 Where Winds Meet｜Epic Launch Gift Pack ⌛ Rating／⛔ Blacklist ｜China 🧧 World of Warships — Dante Alighieri Pack ⌛ Rating／⛔ Blacklist ｜Belarus, Russia 🧧 Wuthering Waves｜Extras Pack ⌛ Rating／⛔ Blacklist ｜China submitted by /u/MeguminShiro [link] [comments]",
-        "id_in_db": "t3_1td2fvf",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "🎮 CLAIM ALL ｜BaseGame + DLC｜ 19 ／ 12 🧧 CLAIM ALL ｜ DLC مورد پرداخت فوری Abyss｜Windbreath Character Supply Chest: Hellfire BaseGame + DLC ／ DLC 🧧 Fall Guys｜Gamer Hardwear Costume BaseGame + DLC ／ DLC 🧧 Firestone – Idle Clicker Online RPG｜Megae 🧧 Fortnite｜Horizon'd Wrap BaseGame + DLC ／ DLC 🧧 قهرمانان بیکار از قلمروهای فراموش شده 🧧 MONGIL: STAR DIVE｜Divers Mega Pack BaseGame + DLC ／ DLC 🧧 Neverwinter｜Twilight Adventurer Pack BaseGame + DLC ／ DLC 🧧 RAVEN2｜Halfyearold Starter Pack DLCet DLC League®｜Triplex Black Wheels BaseGame + DLC ／ DLC 🧧 Star Trek Online｜Elite Starter Pack BaseGame + DLC ／ DLC 🧧 Where Winds Meet｜Epic Launch Gift Pack BaseGame + DLC ＧDLC ＧDLC Ｇ World Warship Pack BaseGame + DLC ／ DLC 🧧 Wuthering..."
     },
     {
         "title": "psa no gravity games nintendo switch",
@@ -681,62 +705,75 @@
         "title": "relics of war 100 offfree",
         "store": "steam",
         "url": "https://store.steampowered.com/app/489630/Warhammer_40000_Gladius__Relics_of_War/",
-        "image_url": "https://external-preview.redd.it/dPNCMQXNVxbj1dzh2uitUc7gfn2GhXbZ4JSw_doKXjw.jpeg?width=320&crop=smart&auto=webp&s=94c0a8c905b51bc2d0cbcbeca8638f82f450fa7a",
-        "description": "submitted by /u/UnseenData [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/967330/header.jpg?t=1650712907",
+        "description": "Starfighter: Infinity is a space based MMORPG with a focus on ‘dogfighting’ style action and exploration. Features a huge array of imaginitive weapons and ship upgrades and more being added all the time. A large selection of ships that you can unlock as you progress through the game. Create your own organisations, that have an effect on the in game world by branding stations, and ai ships and choosing weapon loadouts for AI ships. Declare war on other organisations ...or... Just keep to yourself and pursue your own goals Craft unique weapons and upgrades by finding their blueprints Encounter other alien races and loot their unique weapons Craft, Loot Discover 84 playable ships (so far) with different stats and play styles unlocked as you progress. 1447 different items (so far) that you can buy, craft or loot. With a large variety of imagination - not just different numbers, weapons act differently have different effects. See the official website for a list Hunt down and mine precious minerals that can then be crafted into weapons/items Fight Realtime multiplayer PvP and PvE - keyboard or joypad based action involving skill. Action is skill based dogfighting style, with no fixed tactics: use a fast ship and evade, or a slower ship with tactical aids, and lots of shields. How you combine weapons and tactics is up to you. Designed so that pretty much any ship in game is a threat - you are not 'the chosen one', you have no special advantage over any other ship except your own cunning and skill... Neutral zones, warzones, free for all zones, duels and also jammers, interfering nebula dust all allow for different types of combat and tactics, or no combat at all... Encounter several other alien races in the game with their own ships and lootable weapons/items Explore 21 explorable star systems with between 100 and 289 sectors each, with lots of things to discover Loads of planets to find (100 so far) with their own back stories Ancient Relics drifting in space - not all are just dormant Explore inside space stations, chat to other players while turrets protect you from incoming enemies. Organise Team up with other players to form your own organisation and compete with others Organisation run stations: Affect the star system around you - Nearby AI ships will be coloured and branded to your organisation and will have weapons specified by you. Therefore the galaxy is very much influenced by the people playing it. Get special ranks and ships for running an organisation with a certain amount of members Starfighter: Legacy Older starfigther games bundled in an accessible via Extras menu (Windows only for now) Starfighter - where it all began, complete all the levels buying extra weapons/upgrades as you go Starfigther: Disputed Galaxy - fan favourite. Level up, buy ships, complete missions. Note: Singleplayer local saving only Starfighter: Defender - Control a turret and defend your station for as long as possible",
         "id_in_db": "t3_1tjp051",
         "subreddit": "GameDeals",
         "is_free": true,
         "discount_text": "100% Off",
+        "steam_app_id": "967330",
+        "genres": [
+            "Indie",
+            "Massively Multiplayer",
+            "RPG",
+            "Early Access"
+        ],
+        "is_multiplayer": true,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/UnseenData [پیوند] [نظر]"
+        "persian_summary": "Starfighter: Infinity یک MMORPG مبتنی بر فضایی با تمرکز بر اکشن و اکتشاف سبک «سگ‌فایت» است. دارای مجموعه عظیمی از سلاح های تخیلی و ارتقاء کشتی و موارد دیگر که همیشه اضافه می شوند. مجموعه بزرگی از کشتی ها که می توانید با پیشرفت در بازی قفل آن ها را باز کنید. سازمان‌های خود را ایجاد کنید که با برندسازی ایستگاه‌ها و کشتی‌های ai و انتخاب بارگیری سلاح برای کشتی‌های هوش مصنوعی بر دنیای بازی تأثیر می‌گذارند. به سازمان های دیگر اعلان جنگ کنید ... یا... فقط خودتان را حفظ کنید و اهداف خود را دنبال کنید. با پیدا کردن نقشه های آنها، سلاح ها و ارتقاهای منحصر به فرد بسازید. با نژادهای بیگانه دیگر روبرو شوید و سلاح های منحصر به فرد آنها را غارت کنید. 1447 آیتم مختلف (تا کنون) که می توانید بخرید، کاردستی کنید یا غارت کنید. با تنوع زیادی از تخیل - نه فقط اعداد مختلف، سلاح ها به طور متفاوت عمل می کنند اثرات متفاوتی دارند. برای مشاهده لیست Hunt down and mine precious به وب سایت رسمی مراجعه کنید..."
     },
     {
         "title": "spirit catcher 93",
         "store": "epicgames",
         "url": "https://store.epicgames.com/p/spirit-catcher-93-ee155d",
-        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4128630/e4a4073526ebe48112c505d792f560c7ccbae8ad/header.jpg?t=1773942005",
-        "description": "submitted by /u/Slippy2k [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4128630/e4a4073526ebe48112c505d792f560c7ccbae8ad/header.jpg?t=1773942005",
+        "description": "Spirit Catcher 93' is a single player, first-person horror game that plunges you into a desperate, retro-futuristic digital nightmare. You awaken not as a person, but as a shattered fragment, an echo of consciousness severed from its past. In this retro-futuristic digital nightmare, your only instinct is a desperate, unthinking pull toward escape. ESCAPE IS ALL THAT REMAINS There is no safety in this fractured reality. A force of unnatural order—the relentless Shepherd —stalks your every move. He is silent, methodical, and forever on your trail, determined to capture what you have become. THE GUARDIAN WILL FIND YOU Against the digital terror, you wield the mystical Spirit Catcher . It is a twisting conduit of raw energy, ready to transmute and carve a desperate path through whatever stands before you. Find a way to make it work or be consumed by the dark. THE SOUL IS YOUR WEAPON But beyond the escape, a deeper mystery beckons. Uncover the elusive truth hidden within this fractured reality. Are you merely a simulation? Are you dead? Part of a terrifying experiment? Find the source or be lost to the terrifying depths forever. THE ABYSS BECKONS This game is designed to be a true challenge. It draws inspiration from classic, difficult games , meaning we deliberately minimize hand-holding . There are no tutorials to guide your every step, no safe spaces to retreat to, and no easy answers. You'll need to rely on your wits, observation, and skill to survive. Warning: High risk of soul-fragmentation. Standard hardware may struggle to contain The Shepherd.",
         "id_in_db": "t3_1tf72jh",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/Slippy2k [لینک] [نظر]"
-    },
-    {
-        "title": "terrors to unveil",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/3587490/Terrors_to_Unveil__Day_Off/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3716700/7e7447fca45bea6695fb79fe0e5472954c500ce0/header.jpg?t=1761596222",
-        "description": "Terrors to Unveil is a series-based psychological horror game that immerses players in disturbing stories, each one unraveling the terrifying stories of those who lived to tell their experiences. This is the first episode in the series: Episode 1: Terrors to Unveil - Intrusion David Hopster, a 15-year-old high school student, has just been left home alone for the weekend while his parents head out of town. At first, everything seemed normal. He spent the day enjoying his freedom. But by nightfall, strange things started happening. The Gameplay This game is primarily a first-person narrative walking simulator with exploration, and conversation mechanics. Key Features Atmospheric environment and photo-realistic graphics. 2 Endings VHS film aesthetic. Interact with NPCs. Player voice activity.",
-        "id_in_db": "t3_1td49et",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "3716700",
+        "steam_app_id": "4128630",
         "genres": [
-            "Adventure",
-            "Casual",
-            "Indie",
-            "Free To Play"
+            "Indie"
         ],
         "is_multiplayer": false,
         "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "Terrors to Unveil یک بازی ترسناک روان‌شناختی مبتنی بر سریال است که بازیکنان را در داستان‌های آزاردهنده غوطه‌ور می‌کند و هر کدام داستان‌های وحشتناک کسانی را که زندگی کرده‌اند تا تجربیات خود را بازگو کنند. این اولین قسمت از مجموعه است: قسمت 1: ترس هایی که باید آشکار شوند - نفوذ دیوید هاپستر، دانش آموز 15 ساله دبیرستانی، به تازگی در خانه تنها مانده است تا آخر هفته در حالی که والدینش به بیرون از شهر رفته اند. در ابتدا همه چیز عادی به نظر می رسید. او روز را با لذت بردن از آزادی سپری کرد. اما تا شب اتفاقات عجیبی شروع شد. گیم پلی این بازی در درجه اول یک شبیه ساز پیاده روی روایت اول شخص با مکانیک کاوش و مکالمه است. ویژگی های کلیدی محیط جوی و گرافیک عکس واقع گرایانه. 2 پایان زیبایی شناسی فیلم VHS. تعامل با NPC ها فعالیت صوتی پخش کننده"
+        "persian_summary": "Spirit Catcher 93 یک بازی ترسناک تک نفره و اول شخص است که شما را در یک کابوس دیجیتالی ناامیدکننده و آینده نگر فرو می برد. شما نه به عنوان یک شخص، بلکه به عنوان یک قطعه شکسته بیدار می شوید، پژواک آگاهی جدا شده از گذشته خود. در این کابوس دیجیتالی آینده نگر، تنها غریزه شما یک کشش ناامیدانه و بی فکر به سوی فرار است. فرار تنها چیزی است که باقی می ماند هیچ ایمنی در این واقعیت شکسته وجود ندارد. نیرویی از نظم غیرطبیعی - چوپان بی امان - هر حرکت شما را تعقیب می کند. او ساکت، روشمند، و برای همیشه در رد پای شما است، مصمم است آنچه را که شده اید به تصویر بکشد. نگهبان شما را پیدا خواهد کرد در برابر وحشت دیجیتالی، شما روح گیر عرفانی را در اختیار دارید. این یک مجرای پرپیچ و خم انرژی خام است که آماده است تا مسیری نومیدانه را از طریق هر چیزی که در برابر شما قرار دارد تغییر دهد و تراش دهد. راهی بیابید که کار کند یا در تاریکی از بین برود. روح سلاح شماست اما فراتر از فرار، راز عمیق تری به شما اشاره می کند. حقیقت گریزان نهفته در این شکسته را کشف کنید..."
+    },
+    {
+        "title": "svoboda 1945",
+        "store": "itch.io",
+        "url": "https://charlesgames.itch.io/svoboda1945",
+        "image_url": "https://external-preview.redd.it/bNHxu4bzRv8oEDkrpaGhWY6zShJuoeyZ-YF2tCxg5Rg.jpeg?width=320&crop=smart&auto=webp&s=daf928a8853a927ae605ca2c919b294ffb37162c",
+        "description": "submitted by /u/Fhczvyd474374846 [link] [comments]",
+        "id_in_db": "t3_1tl9jix",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/Fhczvyd474374846 [لینک] [نظر]"
     },
     {
         "title": "through abandoned",
         "store": "other",
         "url": "https://givee.club/en/event/1318",
-        "image_url": "https://external-preview.redd.it/befeUsb0OF_h60i30vWU9FEkGkt3ANOVL3WJ6g3mCi4.jpeg?width=320&crop=smart&auto=webp&s=ce0b3dd03b0e39ae37718209becde04c7dda9399",
-        "description": "submitted by /u/Norland78 [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/513340/header.jpg?t=1765211801",
+        "description": "You continue your journey in worlds of Abandoned. Welcome to the Forest, the sacral place in the Ordered. Solve puzzles, find items and find a way to use them. Try to reach your brother and have fun.",
         "id_in_db": "t3_1tgyfse",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
+        "steam_app_id": "513340",
+        "genres": [
+            "Adventure",
+            "Indie"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/Norland78 [لینک] [نظر]"
+        "persian_summary": "شما به سفر خود در جهان های رها شده ادامه می دهید. به جنگل، مکان مقدس در Ordered خوش آمدید. پازل ها را حل کنید، آیتم ها را پیدا کنید و راهی برای استفاده از آنها پیدا کنید. سعی کن به برادرت برسی و خوش بگذرونی."
     },
     {
         "title": "Tomb Raider I-III Remastered",
@@ -762,22 +799,14 @@
         "title": "tower of time from fanatical",
         "store": "fanatical",
         "url": "https://www.fanatical.com/en/game/tower-of-time",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1778274309",
-        "description": "Gamble With Your Friends An online 1-6 player co-op \"casino crawler\" where you and your friends share one bank account and one massive debt. Gamble, buy sketchy items, make terrible decisions, and climb an ominous casino tower to hit your loan shark’s daily quota in 5 minutes - or face the consequences. FEATURES: 🥳 1–6 player online co-op ⏰ Around 2-3 hours of playtime with 3 endings 🃏 17 different games of chance 🧐 15+ sketchy items to fight the odds 🏗️ 4 distinctly themed casino floors 🥸 Many emotes + customization options 🎙️ Proximity voice chat 🎶 Original soundtrack from artists behind tracks featured in HASTE, ROUNDS, Stick Fight, POST VOID, TABS , and more SHARING IS CARING It’s not my money, it’s our money. Coordinate with your friends to manage a shared bank account while you gamble your way out of debt… because one bad all-in can ruin the run for everyone. WELCOME TO JEFF BOOTH’S PARADISE Each “day,” you get 5 minutes inside the casino to earn as much cash as possible. The tower has 4 distinctly themed floors , each with its own games of chance, randomized every time you enter. Unlock higher floors as you get richer (and bolder). TICKETS, TRADES, AND TERRIBLE IDEAS Hit your quota, complete unique challenges, or even sell a body part or two to earn Tickets . Spend Tickets on sketchy items to bend the odds in your team's favor. But even if you do everything “right\"... Lady Luck still has the final say . LOOK COOL WHILE YOU LOSE Spend Tickets on cosmetics back in the neighborhood. Is it optimal? No. Is it stylish? Absolutely. (Your friends may scream at you.) GAMBLING IS BETTER WITH FRIENDS Multiplayer is friends-only. Invite up to 5 friends through Steam. Solo play is possible… but not advised unless you’re feeling really lucky . A QUICK NOTE We don’t condone gambling! This is a co-op chaos game about teamwork, greed, and bad decisions. If gambling is a problem for you, please seek help. ⚠️ Attention: This game is digestible 😋🍴 We’re TENSTACK -a small collective making creative, digestible games. A digestible game respects your money and time, is built around one strong idea, and doesn’t overstay its welcome. Our goal: games you can finish in a couple of sessions -without feeling stuffed.",
+        "image_url": "https://external-preview.redd.it/YveQ3zEjPdKuTJ-yUtkXJBMuovKDpp-0GHj4TW1O4to.jpeg?width=640&crop=smart&auto=webp&s=24e5ffe665608a3f5e0c3065b81c3fd017c88825",
+        "description": "submitted by /u/WeAreFanatical [link] [comments]",
         "id_in_db": "t3_1tih1ok",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "3892270",
-        "genres": [
-            "Adventure",
-            "Indie",
-            "Simulation"
-        ],
-        "is_multiplayer": true,
-        "is_online": true,
         "is_dlc_or_addon": false,
-        "persian_summary": "با دوستان خود قمار کنید یک \"خزنده کازینو\" مشترک 1 تا 6 نفره آنلاین که در آن شما و دوستانتان یک حساب بانکی و یک بدهی هنگفت به اشتراک می گذارید. قمار کنید، اقلام ناقص بخرید، تصمیمات وحشتناکی بگیرید و از برج کازینوی شوم بالا بروید تا در عرض 5 دقیقه به سهمیه روزانه کوسه قرضی خود برسید - یا با عواقب آن روبرو شوید. ویژگی ها: 🥳 ۱ تا ۶ بازیکن آنلاین تعاونی ⏰ حدود ۲ تا ۳ ساعت زمان بازی با ۳ پایان 🃏 ۱۷ بازی شانسی مختلف 🧐 بیش از ۱۵ آیتم طرح دار برای مبارزه با احتمالات موسیقی متن از هنرمندان پشت آهنگ هایی که در HASTE، ROUNDS، Stick Fight، POST VOID، TABS و موارد دیگر به اشتراک گذاشته شده است، SARING IS CARING این پول من نیست، پول ماست. با دوستان خود هماهنگ کنید تا یک حساب بانکی مشترک را مدیریت کنید، در حالی که می خواهید از بدهی خود قمار کنید... زیرا یک آل-این بد می تواند کار را برای همه خراب کند. به بهشت ​​JEFF BOOTH خوش آمدید هر «روز»، 5 دقیقه در داخل کازینو فرصت دارید تا هرچه بیشتر پول نقد به دست آورید. ..."
+        "persian_summary": "ارسال شده توسط /u/WeAreFanatical [پیوند] [نظر]"
     },
     {
         "title": "track all your subscriptions daily expenses in one place",
@@ -793,25 +822,17 @@
         "persian_summary": "هی همه! توسعه دهنده مستقل انفرادی در اینجا. من یولا را ساختم تا به مردم کمک کنم کنترل پرداخت های مکرر و مخارج روزانه خود را در دست بگیرند. چه کاری انجام می‌دهد: • همه اشتراک‌های خود را در یک مکان ردیابی کنید — ببینید واقعاً چه چیزی ماهانه/سالانه پرداخت می‌کنید • ردیابی هزینه روزانه با دسته‌ها • یادآوری صورتحساب تا هرگز پرداختی را از دست ندهید • تجزیه و تحلیل هزینه‌های مبتنی بر هوش مصنوعی — پیدا کردن جایی که پول خود را هدر می‌دهید • برنامه‌ریزی بودجه با موجودی باقی‌مانده در زمان واقعی • نمودارها و خرابی‌های زیبا • نحوه کارکرد: چگونه برای بازپس‌گیری حساب به‌صورت آفلاین کار می‌کند. Yula از App Store تنظیمات باز ← بازخرید کد را وارد کنید: 1LIFETIME فقط 1 دلار (کمپین رایگان به پایان رسید) اگر از برنامه لذت می برید، من واقعاً از یک رتبه بندی سریع در App Store تشکر می کنم - به عنوان یک توسعه دهنده انفرادی کمک زیادی می کند. با تشکر 🙏 https://apps.apple.com/app/id6759402076 ارسال شده توسط /u/Funny-Guarantee-7977 [لینک] [نظرات]"
     },
     {
-        "title": "vaudeville",
-        "store": "epicgames",
-        "url": "https://store.epicgames.com/p/vaudeville-86cff0",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2240920/313318b82be9d06f868356f415a04f07e39ee771/header.jpg?t=1770214371",
-        "description": "The answer is hidden in plain sight, you just need to ask the right questions. Vaudeville is a groundbreaking, narrative-driven detective game that immerses you in the heart of Europe, in a bustling city renowned for its captivating charm. As the famed private investigator, Detective Martini, use your wit and intuition to uncover the intricate secrets lurking within this city's vibrant streets and shadowy corners. In Vaudeville, you're thrown into a complex web of murder, deceit, and intrigue. And the innovation doesn't stop there. Vaudeville uses advanced AI technology to create dialogues in real-time. You can interact with the city's intriguing inhabitants using natural language, either by typing or talking into the microphone. Every conversation, every interaction, is unique to your game, offering an unrivalled level of immersion. Investigate the brutal murders of three individuals, each with their own harrowing story. As you explore, you'll encounter a diverse cast of characters, each with their own secrets to hide. From the enigmatic lion tamer, Monsieur Saxabar, the beguiling burlesque dancer, Marina H, the secretive widow, Mrs Potter, to the arrogant nobleman, Count Gravesen - everyone is a suspect. Explore exquisite locales, from the enchanting Cabane Violette, the chaotic Circus Saxabar, the eerily beautiful Gravesen Manor, to the mysterious wilderness of the Blackwoods. Collect clues and engage in gripping dialogues to unveil the truth. Step into Vaudeville, a world where art and music conceal a tale of murder and deceit. The truth is just a conversation away. Can you solve the mystery before it's too late?",
-        "id_in_db": "t3_1tdcx1s",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "2240920",
-        "genres": [
-            "Adventure",
-            "Indie",
-            "Simulation"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
+        "title": "underworld office",
+        "store": "iosappstore",
+        "url": "https://apps.apple.com/us/app/underworld-office-novel-game/id1523265842",
+        "id_in_db": "c06e1d0dab306dc412891c83692d1ebc5505f19b45bc84a6da75fab7bc138532",
+        "subreddit": "AppHookup",
+        "is_free": false,
+        "discount_text": "Discount",
+        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/1c/c4/7b1cc446-20e0-cd0c-6a8d-61a6e8f18d8a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
         "is_dlc_or_addon": false,
-        "persian_summary": "پاسخ در یک دید آشکار پنهان است، فقط باید سوالات درست را بپرسید. Vaudeville یک بازی کارآگاهی پیشگامانه و داستان محور است که شما را در قلب اروپا غرق می کند، در شهری شلوغ که به خاطر جذابیت فریبنده اش مشهور است. به عنوان محقق خصوصی مشهور، کارآگاه مارتینی، از شوخ طبعی و شهود خود برای کشف رازهای پیچیده ای که در خیابان های پر جنب و جوش و گوشه های سایه این شهر در کمین هستند، استفاده کنید. در Vaudeville، شما در شبکه پیچیده ای از قتل، فریب و دسیسه پرتاب می شوید. و نوآوری در اینجا متوقف نمی شود. Vaudeville از فناوری پیشرفته هوش مصنوعی برای ایجاد دیالوگ در زمان واقعی استفاده می کند. می‌توانید با استفاده از زبان طبیعی، با تایپ کردن یا صحبت کردن با میکروفون، با ساکنان جذاب شهر ارتباط برقرار کنید. هر مکالمه، هر تعامل، منحصر به فرد در بازی شما است و سطح بی نظیری از غوطه وری را ارائه می دهد. قتل وحشیانه سه نفر را بررسی کنید که هر کدام داستان دلخراش خود را دارند. همانطور که کاوش می کنید، با گروه های مختلف شخصیت ها روبرو می شوید،..."
+        "persian_summary": "",
+        "description": ""
     },
     {
         "title": "Warhammer 40,000: Gladius - Relics of War",
@@ -822,7 +843,7 @@
         "discount_text": "100% Off",
         "steam_app_id": "1361210",
         "description": "Take back the city of Tertium from hordes of bloodthirsty foes in this intense and brutal action shooter. Warhammer 40,000: Darktide is the new co-op focused experience from the award-winning team behind the Vermintide series. In the depths of the hive, the seeds of corruption threaten to turn into an overwhelming tide of darkness. A mysterious and sinister new force is seeking to take control of the entire city. It is up to you and your allies in the Inquisition to root out the enemy before the city succumbs to Chaos. As Tertium falls, Rejects Will Rise. Built on the legacy of Vermintide 2’s best-in-class melee combat, Warhammer 40,000: Darktide introduces intense WH40K gunplay to the mix. Master the balance between ranged and melee combat as you fight through a slew of enemies. Feel the impact of each swipe, swing, and slice of a chainsword, or fry some flesh with a lasgun. Darktide is a co-op game. Wandering too far, risks punishment by foes looking to immobilize or capture stray Rejects, such as the slavering Chaos Hound or the Moebian Trapper. Once you fall prey to such foes, only your teammates can save you! More than that, your innate toughness – your determination to press on through the pain – only recharges when you are in the proximity of your strike team. Create your own, unique character and customize their physical appearance, voice, and origin. Choose your class to determine which unique traits and skill sets they will make use of in battle. Will you be a seasoned veteran of the Imperial army, a snarky outsider, or a fiery zealot? The choice is yours. Step into the violent, dystopian world of Warhammer 40,000. From boiling hot industrial factories to the decaying water maintenance zone afflicted by constant acid rainfall - Tertium Hive is a hard and unforgiving place even at the best of times. Your role is to serve the zealous Inquisition by embarking on missions to exterminate the threats lurking in the depths of the hive city, or die trying. Adapt to the erratic whims of Chaos with conditions- mutators that add a spontaneous challenge to your mission. Your team must learn to adjust, adopt new tactics and change up their loadouts to face these ruthless challenges.",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1361210/f07ebcb73a34112ac61c54608b1f1ded7e45eb8a/header.jpg?t=1779424071",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1361210/0fb7691b00d2a2e68ca2ca6a63835ad255842163/header_alt_assets_19.jpg?t=1779439171",
         "genres": [
             "Action",
             "Adventure",
@@ -835,10 +856,23 @@
         "persian_summary": "شهر ترتیوم را از انبوهی از دشمنان تشنه به خون در این تیراندازی اکشن شدید و وحشیانه پس بگیرید. Warhammer 40,000: Darktide تجربه جدیدی است که از تیم برنده جوایز پشت سری Vermintide متمرکز شده است. در اعماق کندو، بذرهای فساد تهدید به تبدیل شدن به جزر و مدی طاقت فرسا از تاریکی می کنند. یک نیروی جدید مرموز و شوم به دنبال کنترل کل شهر است. این به شما و متحدانتان در تفتیش عقاید بستگی دارد که قبل از تسلیم شدن شهر به آشوب، دشمن را ریشه کن کنید. با سقوط ترتیوم، Rejects Will Rise می کند. Warhammer 40,000: Darktide که بر اساس میراث بهترین مبارزات غوغا در کلاس Vermintide 2 ساخته شده است، بازی شدید WH40K را به ترکیب معرفی می کند. در حالی که با تعداد زیادی از دشمنان مبارزه می کنید، تعادل بین نبردهای دور و غوغا را کنترل کنید. تاثیر هر ضربه زدن، تاب خوردن و برش شمشیر زنجیری را احساس کنید، یا مقداری گوشت را با لازگون سرخ کنید. Darktide یک بازی Co-op است. سرگردانی بیش از حد، خطر مجازات توسط دشمنانی را به دنبال دارد که به دنبال بی حرکت کردن یا دستگیر کردن ولگرد هستند..."
     },
     {
+        "title": "warhammer 40000",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/489630/Warhammer_40000_Gladius__Relics_of_War/",
+        "image_url": "https://external-preview.redd.it/dPNCMQXNVxbj1dzh2uitUc7gfn2GhXbZ4JSw_doKXjw.jpeg?width=320&crop=smart&auto=webp&s=94c0a8c905b51bc2d0cbcbeca8638f82f450fa7a",
+        "description": "submitted by /u/iambaldy [link] [comments]",
+        "id_in_db": "t3_1tjozu6",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/iambaldy [لینک] [نظر]"
+    },
+    {
         "title": "windows macos down in bermuda ca2199 free overcome creatures of the deep and unravel the islands secrets in search for a way back home",
         "store": "epicgames",
         "url": "https://store.epicgames.com/p/down-in-bermuda",
-        "image_url": "https://images.gog-statics.com/f66a7192cfaf9537ffa2a115e43e33d80c640e174a8258b6fb4fe81962398a97.jpg",
+        "image_url": "https://cdn1.epicgames.com/0558e58003aa447a8ace48c3a0d53b54/offer/EGS_DowninBermuda_YakCo_S1-2560x1440-d97c45eccd46e98d4178d0d9881948eb.jpg",
         "description": "submitted by /u/PM_ME_FREEGAMES [link] [comments]",
         "id_in_db": "t3_1tjnasr",
         "subreddit": "AppHookup",
@@ -859,5 +893,44 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": true,
         "persian_summary": "ارسال شده توسط /u/RegionalPrices [لینک] [نظر]"
+    },
+    {
+        "title": "world of warships warhammer 40000",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/2924840",
+        "image_url": "https://external-preview.redd.it/jATgprlrWcQjBh87gfVZ_qnM071cMPLGV_qyBKk2cvw.jpeg?width=320&crop=smart&auto=webp&s=8e00825f0a4c8ef92aa9115f2aa0e4792cc12978",
+        "description": "submitted by /u/Slippy2k [link] [comments]",
+        "id_in_db": "t3_1tiwjf4",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/Slippy2k [لینک] [نظر]"
+    },
+    {
+        "title": "worm in horror place",
+        "store": "other",
+        "url": "https://gleam.io/6Tgp0/free-x2500-worm-in-horror-place-steam-keys",
+        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4386270/0ace8efe44885052d8072aeebea6ed35921015a0/header.jpg?t=1771242787",
+        "description": "submitted by /u/EinHaDe [link] [comments]",
+        "id_in_db": "t3_1tkpohc",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/EinHaDe [پیوند] [نظر]"
+    },
+    {
+        "title": "zombie rapmage shoomer booter",
+        "store": "steam",
+        "url": "https://store.steampowered.com/search/?publisher=Tommy%20Gun%20Walrus%20Studio",
+        "image_url": "https://external-preview.redd.it/zmADNofKaW4Msc89mR6pZyObwUmf3yBmyAtIUidA77I.jpeg?width=640&crop=smart&auto=webp&s=9d213a641b25f90de30e3c6fec491f85d703d4af",
+        "description": "submitted by /u/TommyGunWalrus [link] [comments]",
+        "id_in_db": "t3_1tksa8p",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "93% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/TommyGunWalrus [پیوند] [نظر]"
     }
 ]
