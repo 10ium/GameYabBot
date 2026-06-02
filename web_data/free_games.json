@@ -13,19 +13,6 @@
         "description": ""
     },
     {
-        "title": "apps deals tracker pro",
-        "store": "googleplay",
-        "url": "https://play.google.com/store/apps/details?id=com.tomlocksapps.dealstracker.ebay.pro",
-        "image_url": "https://external-preview.redd.it/ak5m9GsO2wUPxiL8iAuOUuPfFL1VRq_7w8zPHyODqP8.png?width=320&crop=smart&auto=webp&s=de1ceb5060cb19602a53b379b57e3ec68b834830",
-        "description": "submitted by /u/Lohigno [link] [comments]",
-        "id_in_db": "t3_1tq2gd6",
-        "subreddit": "googleplaydeals",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/Lohigno [پیوند] [نظر]"
-    },
-    {
         "title": "apps iptv smart player pro 949",
         "store": "googleplay",
         "url": "https://play.google.com/store/apps/details?id=com.iptv.smart.smarters.player.stream.tv.live.watch.streaming.chromecast",
@@ -45,6 +32,19 @@
         "image_url": "https://external-preview.redd.it/kE2f7U_6l6mrR6gYBD4auLggCNW154NjCnfYBIFnhZY.jpeg?width=320&crop=smart&auto=webp&s=e0f080499a739694d4acff4edf950b3f74ac8b9a",
         "description": "submitted by /u/Lohigno [link] [comments]",
         "id_in_db": "t3_1tqw9px",
+        "subreddit": "googleplaydeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/Lohigno [پیوند] [نظر]"
+    },
+    {
+        "title": "apps super shortcut",
+        "store": "googleplay",
+        "url": "https://play.google.com/store/apps/details?id=net.geekstools.supershortcuts.PRO",
+        "image_url": "https://external-preview.redd.it/rW2sKbOsId6KBTMMU4BnRX8rQyPQQNU6JyqEWJm_YTY.png?width=320&crop=smart&auto=webp&s=19f1ee91a9d11aaab9090b5517e51c6a6a1e1e95",
+        "description": "submitted by /u/Lohigno [link] [comments]",
+        "id_in_db": "t3_1ttrqfa",
         "subreddit": "googleplaydeals",
         "is_free": true,
         "discount_text": "100% Off",
@@ -115,45 +115,27 @@
         "title": "beta application is coming to ios",
         "store": "other",
         "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tnn6bp/fgf_mod_post_my_free_game_findings_v20_beta/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1273440/header.jpg?t=1724747397",
-        "description": "OVERDRIFT FESTIVAL: DRIFT & AUTOSTYLING Welcome to OverDrift festival - a grand celebration of car culture and sports! Become a participant in drift racing competitions. Explore large territories and find iconic tracks and configs. Single and multiplayer challenges, tasks and events. Train with your friends online, compete with rivals from all over the world. Build your rating among drivers, earn fan likes. Improve your style and develop your skills. Japanese, American and European cars - gather a unique collection. Upgrade, tune and customize the cars. Be creative and self-actualize in creating exclusive liveries for your cars using the advanced styling system. Experience the emotions of a real driver from participating in races: spectators and fans on the tracks will appreciate your driving. Share your successes with friends and like-minded people. Make your dream come true and become the star of the festival! Intrigue and competition, joy and tears, drama and celebration at OverDrift festival! Join the community on Steam and subscribe to our publics on social networks for the latest information, screenshots and more before anyone else! GAME WORLD Dozens of kilometers of picturesque roads and tracks: public roads, mountain \"toge\" serpentines and suburban highways, hypermarket parking and industrial zones, sports tracks and drift parks. Traffic on public roads. Iconic track configurations recognized by real professional drifters are integrated into the overall game world. The atmosphere of the sports tracks is created with the highest detail. Roads are perceived as real due to the environment and the terrain. Summer and winter, day and night, different weather conditions. FESTIVAL EVENTS Lots of events and tasks, drift races at the motorsports and styling festival. Make friends who are close in spirit to your car preferences. Host meetings and competitions in an open online lobby in a shared gaming world with a large number of participants from all over the world. Win the popularity of fans and spectators on the tracks, earn money for new cars and tuning, customize your car to accumulate likes. Create your own team and club, compete and advance to the top ranking of the festival drivers! CARS A large collection of legendary rear-wheel-drive cars that have earned the love of motorsport fans around the world. Models are made with high detail, salon and cockpit. An advanced system of styling and visual customization of cars has been developed in all aspects. All cars in this game are fictional. Any coincidence with real cars is an accident. PHYSICS Pure, clear and natural simulation of physical processes on our own architecture. Based on the many years of experience of our team, we have made great progress in improving physics and are proposing a next-gen project. Detailed tuning of the physical parameters of the car, variable parts increase in power and decrease in weight. Different weather conditions, air and asphalt temperatures affect engine performance and tire grip. The natural feeling of speed and lateral g-forces. BETA TESTING AND GAME IDEAS You can share your wishes and suggestions on Steam Community Hub by creating a separate topic. Submission of applications for participation in the beta testing of the project takes place in the Steam community. We will be glad to consider your candidacy. FEATURES: Real-time open world multiplayer Drift races on sports tracks and Free Style drift tours on public roads with traffic Huge game world with an area of ​​more than 30 square kilometers and a length of roads over 120 kilometers Photorealistic nature, environment objects and characters in the game world are powered by the Unreal Engine 60+ cars available in stock game & 100+ cars in car packs DLC Juicy engine and exhaust sound systems with customization Events and tasks in the game world - a lifetime in the project Compete with your friends according to your rules, arrange massive events among teams and clubs Support for the latest graphics technologies including RTX ray tracing Convenient control on the keyboard and all types of gaming devices Physics of the car has been improved thoroughly Support for keyboard and gamepad control Support for all controllers, support for multiple input devices at the same time Support for all steering wheels with detailed feedback",
+        "image_url": "https://r.res.easebar.com/pic/20250523/27db438b-49fb-413c-bb07-dd7d0310c902.jpg",
+        "description": "I made a thing for FGF and the FGF subreddit! A couple years ago, I released a small Android app that I worked on as a college project. The app was built in Kotlin/Jetpack Compose exclusively for Android, as that was what I learned. It was a bit limiting though and could use a rebuild. On and off for the past while, I've been working on making a new version of the application in React Native/Expo using Django Rest Framework as the backend. This application supports push notifications (which are more reliable than the local ones I used before) , filters , searching , condensed and full list item views , and a bit more from FGF subreddit! You can even see the latest FGF YouTube videos I create in it. Building the app in React Native/Expo means that it can support iOS and Android operating systems no problem, but during the Beta period it'll only be on iOS (and only in select regions) . Think of this application as an expansion to FGF in Reddit. Users have long wished for better filtering support for the subreddit, and that simply isn't supported very well natively. Both versions of the FGF app(s) I created do this better, all while just simply bringing you back to the subreddit. As noted above, this new version of my app has a backend to maintain. The benefits of this are more items to have in the list view, the implementation of push notifications, and some further app specific logic and content. The app originally was built with the logic of full user generated content involvement, but I stripped it back for the time being. I'll get into that a bit more later. There being a backend to maintain means that there is a cost to handle as well, which is why this app has some ads . A Google Ad and a section for affiliate links on the home screen. I don't love needing to do that, but revenue would be required to have this app exist in its current state. I hope that's reasonable. This beta period is meant to see how the app performs, if you guys like it, and if it's sustainable. I would love to continue it and expand it as well, but that depends on how things go. As for why the new app is only on iOS , it's due to some privacy concerns. You got effectively doxxed having a monetized app on the Google Play Store now. That's also why it doesn't support all regions on iOS (an EU thing). Assuming this goes well, I intend on getting things like a proper business address and stuff like that situated. Before then though, it's a high cost to handle. If there happen to be legs here, then I'm happy to expand into it. Just don't want to dive in if it isn't necessary, you know? Edit: I realized I didn't say it directly, my bad. This app is not currently in any of Europe. This is hopefully temporary though. Here's hoping this is of some interest to you guys! I hope to expand things soon and will aim to find an alternative if this design isn't sustainable, like simply using subreddit JSON data again. I'm not the best developer, so this took me a while to do for sure. If you're interested in trying the app, be sure to snag it on release! Please feel free to considering using the affiliate links and Google ad in app to support it! Here's the link - https://apps.apple.com/us/app/free-game-findings/id6755658255 Thanks for the read and I hope you enjoy! Let's see how it goes! submitted by /u/StOoPiD_U [link] [comments]",
         "id_in_db": "t3_1tnn6bp",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "1273440",
-        "genres": [
-            "Massively Multiplayer",
-            "Racing",
-            "Simulation",
-            "Sports"
-        ],
-        "is_multiplayer": true,
-        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "OVERDRIFT FESTIVAL: DRIFT & AUTOSTYLING به جشنواره OverDrift خوش آمدید - جشن بزرگ فرهنگ و ورزش خودرو! در مسابقات دریفت شرکت کنید. مناطق بزرگ را کاوش کنید و آهنگ ها و پیکربندی های نمادین را بیابید. چالش ها، وظایف و رویدادهای تک و چند نفره. با دوستان خود به صورت آنلاین آموزش دهید، با رقیبان از سراسر جهان رقابت کنید. رتبه خود را در بین رانندگان ایجاد کنید، لایک طرفداران را به دست آورید. سبک خود را بهبود بخشید و مهارت های خود را توسعه دهید. اتومبیل های ژاپنی، آمریکایی و اروپایی - مجموعه ای منحصر به فرد را جمع آوری کنید. ماشین ها را ارتقا، تنظیم و سفارشی کنید. خلاق باشید و با استفاده از سیستم طراحی پیشرفته، در ایجاد رنگ‌های منحصر به فرد برای خودروهای خود، خلاق باشید. احساسات یک راننده واقعی را از شرکت در مسابقات تجربه کنید: تماشاگران و طرفداران در مسیرها از رانندگی شما قدردانی خواهند کرد. موفقیت های خود را با دوستان و افراد همفکر خود به اشتراک بگذارید. رویای خود را محقق کنید و ستاره جشنواره شوید! دسیسه و رقابت، شادی و اشک، نمایش و جشن در..."
+        "persian_summary": "من چیزی برای FGF و ساب ردیت FGF ساختم! چند سال پیش، یک برنامه اندروید کوچک منتشر کردم که به عنوان یک پروژه دانشگاهی روی آن کار می کردم. این برنامه در Kotlin/Jetpack Compose به طور انحصاری برای اندروید ساخته شده است، همانطور که من یاد گرفتم. اگرچه کمی محدود بود و می‌توانست از بازسازی استفاده کند. روشن و خاموش در گذشته، من روی ساخت نسخه جدیدی از برنامه در React Native/Expo با استفاده از Django Rest Framework به عنوان باطن کار می‌کردم. این برنامه از اعلان‌های فشاری (که قابل اطمینان‌تر از اعلان‌های محلی هستند که قبلاً استفاده می‌کردم)، فیلترها، جستجو، نمایش آیتم‌های فهرست فشرده و کامل و کمی بیشتر از FGF subreddit پشتیبانی می‌کند! حتی می‌توانید آخرین ویدیوهای FGF YouTube را که من در آن ایجاد می‌کنم ببینید. ساختن این برنامه در React Native/Expo به این معنی است که می‌تواند از سیستم‌عامل‌های iOS و Android بدون مشکل پشتیبانی کند، اما در طول دوره بتا فقط در iOS (و فقط در مناطق انتخاب شده) وجود خواهد داشت. به این برنامه به عنوان یک بسط برای FGF در Reddit فکر کنید. کاربران مدت هاست که آرزوی بهتری دارند..."
     },
     {
         "title": "beta application is live on ios",
         "store": "other",
         "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tti39d/fgf_mod_post_my_free_game_findings_v20_beta/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1450830/d3aaa83d213c5ed3d757f50f73cc38b0a6485c25/header.jpg?t=1759702068",
-        "description": "At Dead Of Night is part horror film, part horror game and part ghost hunt. It seamlessly blends live-action and graphics to create a unique immersive horror experience like no other. Maya is a student trapped in a remote hotel run by a psychopath called Jimmy Hall. Jimmy has tied up Maya's friends and locked them in their rooms, with evil intentions. Maya has managed to escape, but Jimmy is on the prowl looking for her. However, to get him to release her friends, Maya must uncover Jimmy's dark secret. Using an ancient ghost voice receiver she finds, Maya must communicate with the ghosts of Jimmy's past, who materialise around the hotel and gradually reveal their story. BETA options Right click on the game in your library, then go to Properties > Betas, where you'll find two alternative versions of the game, one specifically for Steam Deck and one updated for 2024 - use this if you have any issues with the default download. OUR OTHER GAMES If you're into murder, filthy liars and spooky cults, why not try our other game Contradiction - Spot The Liar - check out our home page at for more info. AUDIO LATENCY Because of the way sound is synced to the video in this game, some users may notice some audio latency, affecting lip-sync. This can be improved a lot in Windows 10/11 - not just in this game but lots of games - in Windows 11 by navigating to System > Sound > More sound settings > Speakers or headphones (on the Playback tab) > Properties > Advanced tab, then unticking the ‘Give exclusive mode applications priority' option. REVIEWERS! Due to the very high number of requests for review keys we now have a limit of a single key per request. MERCH! We've added some new ADoN designs to our RedBubble page - check them out on our website",
+        "image_url": "https://play-lh.googleusercontent.com/QkA2U4advluKHsjTBufTPOC3TpKhwh1GdSqx1YCyzqcXXisrHYrgfFvfJEDYxgLh1rhL=w600-h300-pc0xffffff-pd",
+        "description": "Excited, scared, and unsure. Never the less, it's here! Just last week, I talked about my new iOS app that was set to come out soon. Well, that's right now! Somehow I apparently ended up setting it to launch at midnight (or maybe 11 PM) my time, which really blows for me. I'm exhausted and hopeful that I can get by with some casual checking here and there without anything going catastrophically wrong. Excited to wake up this morning. Fingers crossed! Anyways, it's out! Please feel free to check out this little application and let me know your thoughts. Users have long requested better filtering and stuff with FreeGameFindings, so this app is meant to be a solution to that, while also being something of a \"hub\" for FGF-related things I do. Using this application you can enable push notifications for all posts (I aim to make this customizable in the future) , enable filters for things you don't want to see anymore, search for specific items, view FGF YouTube videos, get linked out to other FGF things, etc. The goal of this app is to benefit subreddit users and get FGF to grow even more, all while circling people back into the subreddit. Open posts from within the application and be brought directly to the Reddit posts associated to them. The hope is that this can be a perfect companion to the subreddit . Enjoy FGF! Here's the link - https://apps.apple.com/us/app/free-game-findings/id6755658255 Here's the trailer - https://youtu.be/6g0-C5FMdvM Some quick notes: Apologies to users on Android who are \"stuck\" with my original version of the application. I built this app with the intention of bringing it to both Android and iOS platforms, but Google struck a bit. Same thing goes to iOS users in Europe. It's a privacy thing I'm trying to figure out. As of this current release, the application is what I would consider a \"beta\". The reasoning behind that choice is that to safely navigate the privacy concerns, I need to spent some cash on some business-y things. I don't think that would be wise without a real direction to go, so I'm going to take it slow and steady like this. This application was built with the need for me to maintain some backend stuff. This means that there is a cost to consider. I don't think this is going to be a high cost, but a cost none-the-less. This means the application has ads. A Google Ad on the homepage and a section to link out to affiliate links for Humble Bundle and GreenManGaming . Had to get creative for this though. Didn't want to risk putting ad(s) in the list of posts since they're from Reddit (properly credited in doing so btw), so I just did the homepage and made the homepage the default entry point. Pretty sure that works without breaking any rules or anything. Please consider partaking in those affiliate links, and in checking out whatever might interest you from the Google ad to help ensure this thing can stay afloat. If it isn't going to work out, I will need to pivot in some way. Final thing to mention is that this application was built with React Native (using Expo). I built this on a MacBook I purchased to embark on larger coding projects like this. Using that, I was able to access the iOS emulator, and did the development for/with that. I personally don't have any other apple devices, so testing on physical hardware required some slight input from friends. I think everything should be fine in that regard, but let me know if you find some both-job of mine and I'll try to get it resolved! I'm not a great programmer, but I'm hopeful I got things mostly right. Here's hoping all goes well and this can be a useful tool for the subreddit. Was fun to learn how to do this. I mean, I hated it, but I'm glad I did it. Hope you like it! submitted by /u/StOoPiD_U [link] [comments]",
         "id_in_db": "t3_1tti39d",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "1450830",
-        "genres": [
-            "Action",
-            "Indie",
-            "RPG",
-            "Strategy"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "At Dead Of Night بخشی از فیلم ترسناک، بخشی بازی ترسناک و بخشی شکار ارواح است. این به طور یکپارچه اکشن های زنده و گرافیک را با هم ترکیب می کند تا یک تجربه ترسناک غوطه ور منحصر به فرد ایجاد کند. مایا دانش آموزی است که در هتلی دورافتاده که توسط یک روان شناس به نام جیمی هال اداره می شود به دام افتاده است. جیمی با نیت شیطانی دوستان مایا را بسته و در اتاقشان حبس کرده است. مایا موفق به فرار شده است، اما جیمی به دنبال او است. با این حال، برای اینکه او دوستانش را آزاد کند، مایا باید راز تاریک جیمی را کشف کند. مایا با استفاده از یک گیرنده صدای ارواح باستانی که پیدا می کند، باید با ارواح گذشته جیمی که در اطراف هتل حضور پیدا می کنند و به تدریج داستان خود را فاش می کنند، ارتباط برقرار کند. گزینه های BETA روی بازی موجود در کتابخانه خود کلیک راست کنید، سپس به Properties > Betas بروید، در آنجا دو نسخه جایگزین بازی، یکی مخصوص Steam Deck و دیگری به روز شده برای سال 2024 را پیدا خواهید کرد - اگر با دانلود پیش فرض مشکل دارید از این استفاده کنید. بازی های دیگر ما اگر اهل قتل، دروغگوهای کثیف و..."
+        "persian_summary": "هیجان زده، ترسیده و نامطمئن. هرگز کمتر، اینجاست! همین هفته گذشته، من در مورد برنامه جدید iOS خود صحبت کردم که قرار بود به زودی منتشر شود. خب همین الانه! به نوعی ظاهراً آن را برای راه اندازی نیمه شب (یا شاید 11 شب) به وقت من تنظیم کردم، که واقعاً برای من خوب است. من خسته هستم و امیدوار هستم که بتوانم با بررسی های گاه به گاه اینجا و آنجا بدون اینکه هیچ چیز فاجعه باری پیش بیاید، از پس آن بر بیایم. هیجان زده از بیدار شدن امروز صبح. انگشتان رد شده! به هر حال، تمام شد! لطفاً این برنامه کوچک را بررسی کنید و نظرات خود را به من بگویید. کاربران مدت‌هاست که درخواست فیلترینگ بهتر و مواردی با FreeGameFindings کرده‌اند، بنابراین این برنامه راه‌حلی برای آن است، در حالی که چیزی شبیه به یک «هاب» برای کارهای مرتبط با FGF است که من انجام می‌دهم. با استفاده از این برنامه می‌توانید اعلان‌های فشاری را برای همه پست‌ها فعال کنید (من قصد دارم این را در آینده قابل تنظیم کنم)، فیلترها را برای چیزهایی که دیگر نمی‌خواهید ببینید، فعال کنید، موارد خاص را جستجو کنید، ویدیوهای YouTube FGF را مشاهده کنید، به..."
     },
     {
         "title": "Bunny Guys!",
@@ -164,7 +146,7 @@
         "discount_text": "100% Off",
         "steam_app_id": "2218460",
         "description": "Climb, tumble, and rage — the ruthless obstacle race for bunnies with nerves of steel. Play alone or online against up to 8 players: whoever reaches the top wins. Everyone else… falls down in spectacular fashion. Master dangerous parkour routes, dodge nasty traps, and jump with the precision of a bunny on espresso. One wrong step, one jump too early and boom, back to the start. Challenge your friends, chase each other through chaotic levels, and fight for a spot on the global leaderboard. Only the fastest earn the title “Golden Bunny” complete with an epic fireworks show. Features Challenging climbing and parkour levels with fair checkpoints Online multiplayer for up to 8 players Global leaderboard with time comparison Traps, checkpoints, and wonderfully frustrating “One more try!” moments included Average playtime: 60–120 minutes… or hours? (highly dependent on fall rate 🐰) How far will YOU get — and how many times will you have to start all over again?",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2218460/21bc1a04e1dc28a7a323f7dc4521836f56ad30e3/header.jpg?t=1779996640",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2218460/21bc1a04e1dc28a7a323f7dc4521836f56ad30e3/header.jpg?t=1780356747",
         "genres": [
             "Action",
             "Casual",
@@ -178,7 +160,7 @@
     },
     {
         "title": "Calico",
-        "id_in_db": "calico@1779980576",
+        "id_in_db": "calico@1780353418",
         "store": "other",
         "url": "https://itad.link/018d959f-058d-71ec-ba63-6a531e909ea3/",
         "is_free": true,
@@ -247,10 +229,36 @@
         "persian_summary": "Dino Running from a FURRY: GAMESFORFARM Dangerous Mr. Furry در حال حاضر در مسیر شما قرار گرفته است - و بهتر است نفهمید چه اتفاقی می افتد اگر شما را بگیرد... Dino Running from a FURRY: GAMESFORFARM یک دونده 2.5 بعدی درخشان است که در آن باید از یک تعقیب کننده بزرگ و خطرناک فرار کنید، سکه های جدید جمع آوری کنید، سکه های جدید جمع آوری کنید. هر تلاشی فرصتی است برای دوام بیشتر، جمع آوری سکه های بیشتر و اثبات اینکه دینو شما سریع ترین است! ویژگی های بازی: گیم پلی دونده پویا گرافیک دلپذیر و رنگارنگ فرمت 2.5 بعدی با ارائه جذاب موانع مختلف و غیرقابل پیش بینی سکه ها، رکوردها و تمایل به تلاش مجدد سفارشی سازی Dino بیش از 10 گزینه لباس برای شخصیت خود سکه ها را جمع آوری کنید، قفل ظاهری جدید را باز کنید و سعی کنید بالاترین رکورد را ثبت کنید. مهمتر از همه - متوقف نشوید. آقای خز در حال حاضر نزدیک است!"
     },
     {
+        "title": "diplomacy is not an option 1199",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1272320/Diplomacy_is_Not_an_Option/",
+        "image_url": "https://external-preview.redd.it/6MBb543x89DrbCPvrFwFXFcZx23fajSg4ZUI8TZn-iI.jpeg?width=320&crop=smart&auto=webp&s=4f23003d85ed279fc0a247931a48ce2ef1f67cd6",
+        "description": "submitted by /u/RepulsiveAnything635 [link] [comments]",
+        "id_in_db": "t3_1ttxxxf",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "60% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/RepulsiveAnything635 [پیوند] [نظر]"
+    },
+    {
+        "title": "dj music remix pro 999",
+        "store": "googleplay",
+        "url": "https://play.google.com/store/apps/details?id=dj.mixer.music.mixer.pro",
+        "image_url": "https://external-preview.redd.it/_zWTg1nM-hflZ6-XGe8SubhfpEXt3TX6O2h5MniMlxg.png?width=320&crop=smart&auto=webp&s=e4d5b3c3250eef5cab107ad7f3357e832b60eeb5",
+        "description": "submitted by /u/Lohigno [link] [comments]",
+        "id_in_db": "t3_1tts9x8",
+        "subreddit": "googleplaydeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/Lohigno [پیوند] [نظر]"
+    },
+    {
         "title": "dlsite mazakon tengoku",
         "store": "other",
         "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ116935.html",
-        "image_url": "https://i.redd.it/vqve5bdlyayd1.jpeg",
+        "image_url": "https://img.dlsite.jp/modpub/images2/work/doujin/RJ01527000/RJ01526475_img_main.jpg",
         "description": "submitted by /u/MeguminShiro [link] [comments]",
         "id_in_db": "t3_1tszie4",
         "subreddit": "FreeGameFindings",
@@ -266,11 +274,19 @@
         "url": "https://itad.link/019e6f5e-6dd1-73e1-bf2e-f30336d31990/",
         "is_free": true,
         "discount_text": "100% Off",
-        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1070580/fc246861ed1f5b0c2bbbb6287f9014694b5ec052/capsule_616x353.jpg?t=1778267414",
+        "steam_app_id": "1070580",
+        "description": "Get in your favorite car and set records alone or with friends in this unique arcade game! In Drift86 you will have to master the art of Drift. Try to make the biggest combo on music that will make you want to press the accelerator. A large number of cars and maps available for maximum fun. Launches a single-player or multiplayer race. Chat live with other players. “Driving technique is not something you can obtain in a few days” Features : ■ The mythical 86 car! ■ More than 30 different maps! ■ More than 40 different cars! ■ Multiplayer! ■ Addictive drift system! ■ Eurobeat! ■ Compatible xbox controller! ■ Steam trading cards!",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1070580/header.jpg?t=1778267414",
+        "genres": [
+            "Casual",
+            "Indie",
+            "Racing"
+        ],
+        "is_multiplayer": true,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "description": "submitted by /u/iambaldy [link] [comments]",
         "subreddit": "FreeGameFindings",
-        "persian_summary": "ارسال شده توسط /u/iambaldy [لینک] [نظر]"
+        "persian_summary": "سوار ماشین مورد علاقه خود شوید و به تنهایی یا با دوستان خود در این بازی آرکید بی نظیر رکورد بزنید! در Drift86 باید بر هنر Drift مسلط شوید. سعی کنید بزرگ‌ترین ترکیبی را روی موسیقی بسازید که بخواهید شتاب‌دهنده را فشار دهید. تعداد زیادی ماشین و نقشه برای حداکثر لذت در دسترس است. یک مسابقه تک نفره یا چند نفره راه اندازی می کند. چت زنده با سایر بازیکنان \"تکنیک رانندگی چیزی نیست که بتوانید ظرف چند روز به دست آورید\" ویژگی ها: ■ ماشین افسانه ای 86! ■ بیش از 30 نقشه مختلف! ■ بیش از 40 ماشین مختلف! ■ چند نفره! ■ سیستم دریفت اعتیاد آور! ■ یوروبیت! ■ کنترلر xbox سازگار! ■ کارت های معاملاتی استیم!"
     },
     {
         "title": "drift86 ca259 free get in your favorite car and set records alone or with friends in this unique arcade game",
@@ -286,48 +302,30 @@
         "persian_summary": "ارسال شده توسط /u/PM_ME_FREEGAMES [پیوند] [نظر]"
     },
     {
-        "title": "drift86 free100 off",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/1070580/Drift86/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/520950/header.jpg?t=1758622969",
-        "description": "Become a drift legend! Tune your dream drift car, change parts, boost performance and show your skills by competing with other players in multiple breathtaking challenges! A Unique fleet of licensed cars! Get on the track to test all the best and most iconic cars in the drifting world! Custom your dream drift car! Engines, suspensions, wheels: more than 1800 replaceable components are available in your garage. Change specific parts to make the performance of your vehicle tailored to your driving style. With visual tuning - by changing body kits, paint colour and decals - you'll create a drift car that's one of a kind! Visit the Japanese paradise of drift: the EBISU complex! Improve your drifting technique on the legendary Japanese circuits, perfectly recreated thanks to Laserscan technology! Show off your skills! Take part in demanding challenges that will test your drifting skills. Play in solo or compete with other racers in the multiplayer mode, to estabilish who is the best drifter! Available content: Licensed cars • Toyota AE86 • Mazda MX5 • Nissan Silvia (S15) • Subaru BRZ • Mazda RX8 • BMW E46 M3 • Ford Mustang • BMW E30 M3 • Nissan 350Z • Mazda RX7 • BMW E92 M3 • Nissan 180SX (S13) • BMW E36 M3 Engines • R4 • R6 • V8 • Boxer • 3 Rotor • 4 Rotor Tracks • EBISU Driftland • EBISU School • EBISU Minami • EBISU North • EBISU Touge • EBISU West • EBISU East • Koszalin • Stadium ver.1 • Stadium ver.2 • Multistorey parking • Training Track 1 • Training Track 2 Single player modes • Career • Quick Race • Sandbox • Free Ride • Solo Run • Time Attack • Gymkhana Multiplayer modes • Free Ride • Free For All (Event) • Sprint (Event) • Laps (Event) • Tandems (Event) Other functionalities • Garage mode (with over 1800 selectable parts) • Garage challenges • Tuning mode in the Dyno module • Paintbooth",
-        "id_in_db": "t3_1tq808h",
-        "subreddit": "GameDeals",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "520950",
-        "genres": [
-            "Action",
-            "Racing",
-            "Simulation",
-            "Sports"
-        ],
-        "is_multiplayer": true,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "تبدیل به یک افسانه دریفت شوید! ماشین دریفت رویایی خود را تنظیم کنید، قطعات را تغییر دهید، عملکرد را افزایش دهید و مهارت های خود را با رقابت با دیگر بازیکنان در چندین چالش نفس گیر نشان دهید! ناوگان بی نظیری از خودروهای دارای مجوز! وارد مسیر شوید تا بهترین و نمادین ترین خودروهای دنیای دریفت را آزمایش کنید! ماشین دریفت رویایی خود را سفارشی کنید! موتورها، سیستم تعلیق، چرخ ها: بیش از 1800 قطعه قابل تعویض در گاراژ شما موجود است. قسمت های خاصی را تغییر دهید تا عملکرد وسیله نقلیه شما متناسب با سبک رانندگی شما باشد. با تنظیم بصری - با تغییر کیت های بدنه، رنگ رنگ و برگردان ها - یک ماشین دریفت ایجاد خواهید کرد که در نوع خود بی نظیر است! از بهشت ​​دریفت ژاپنی دیدن کنید: مجموعه EBISU! تکنیک دریفت خود را در مدارهای افسانه‌ای ژاپنی که به لطف فناوری لیزر اسکن کاملاً بازسازی شده‌اند، بهبود بخشید! مهارت های خود را نشان دهید! در چالش‌هایی شرکت کنید که مهارت‌های دریفت شما را آزمایش می‌کنند. به صورت انفرادی بازی کنید یا در حالت چندنفره با دیگر روروک مخصوص بچه ها رقابت کنید تا مشخص کنید چه کسی بهترین است..."
-    },
-    {
         "title": "epic games mobile northgard",
         "store": "epicgames",
         "url": "https://store.epicgames.com/p/northgard-android-193af0",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3564740/96d68ee3de63a48f12276ab5e3d5c721c6dc2581/header_alt_assets_5.jpg?t=1779872892",
-        "description": "Jianghu knows no bounds. Play free across PS5, PC, and mobile with full cross-play and cross-progression. No pay-to-win. Gameplay content is entirely free, with monetization limited to cosmetic items. In Where Winds Meet, Chinese martial arts meet a seamless open world. Roam vast landscapes, uncover hidden ruins, and descend into layered underground catacombs. Steal techniques from martial sects, wield an arsenal of classic wuxia weaponry, and master over 30 mystic arts – from the flowing balance of Tai Chi to the force of Lion's Roar. Craft, architecture, astronomy, folk games and performance, medicine and healing – 16 systems come together to form an immersive ancient society. A Living Open-World History Jianghu knows no bounds. Ancient landscapes, traditional crafts, stories drawn from history and realistic graphics come together to build a world true to the spirit of wuxia. Immerse yourself in the captivating Five Dynasties and Ten Kingdoms period of China, where epic battles and legendary tales shape the course of history. From the bustling imperial capital to the hidden wilderness, every path is filled with secrets and adventures. Traverse vast landscapes in wuxia style: scale rooftops with fluid parkour, ride the windstride across miles in moments, or use fast travel points to leap between regions. Adventure Alone or Forge Your Community Embark on a narrative-driven adventure filled with rich solo gameplay, or team up with up to four friends for seamless co-op experiences. Join or create a Guild to access group activities: intense guild wars, multiplayer dungeons, and epic raids. Show your skill in competitive duels, or enter a shared, evolving world with thousands of fellow wanderers. Master Your Way of Wuxia Combat Tailor your combat – melee, ranged, or stealth. Build a loadout that suits your playstyle. Engage in combat with classic wuxia weapons – sword, spear, dual blades, rope dart, bow, fan, and umbrella. Switch weapons and employ martial arts and mystic skills like Tai Chi to outmaneuver enemies. Customize Your Jianghu Identity Customize your character, choose your role, align with factions, and explore unique professions to shape your identity. Here, freedom is yours, but every action has its weight. Cause chaos, defy the law, and face bounties, pursuit, even time behind bars. Or walk a nobler path: befriend villagers, forge alliances, and grow your reputation as a hero of the wuxia world. In a world torn by chaos, become the spark that ignites change and forge your legacy!",
+        "image_url": "https://cdn1.epicgames.com/spt-assets/92d5cfe1c2e74b4096a2d6619fdfb0f6/northgard-pi8mi.jpg",
+        "description": "submitted by /u/Fit-Cardiologist-124 [link] [comments]",
         "id_in_db": "t3_1tq6gvr",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "3564740",
-        "genres": [
-            "Action",
-            "Adventure",
-            "RPG",
-            "Free To Play"
-        ],
-        "is_multiplayer": true,
-        "is_online": true,
         "is_dlc_or_addon": false,
-        "persian_summary": "جیانگهو هیچ حد و مرزی نمی شناسد. به صورت رایگان در PS5، رایانه شخصی، و موبایل با بازی متقاطع و متقاطع بازی کنید. بدون پرداخت به برد. محتوای بازی کاملاً رایگان است و درآمدزایی محدود به موارد آرایشی است. در Where Winds Meet، هنرهای رزمی چینی با یک جهان باز یکپارچه روبرو می شوند. در مناظر وسیع پرسه بزنید، خرابه های پنهان را کشف کنید و به دخمه های زیرزمینی چند لایه فرود بیایید. تکنیک‌های فرقه‌های رزمی را بدزدید، زرادخانه‌ای از سلاح‌های کلاسیک ووشیا را به کار بگیرید و بر بیش از 30 هنر عرفانی تسلط پیدا کنید - از تعادل روان تای چی تا نیروی غرش شیر. صنایع دستی، معماری، نجوم، بازی‌های عامیانه و اجرا، پزشکی و شفا - 16 سیستم گرد هم می‌آیند تا یک جامعه باستانی همهجانبه را تشکیل دهند. تاریخچه جهان باز زنده جیانگهو هیچ حد و مرزی نمی شناسد. مناظر باستانی، صنایع دستی سنتی، داستان های برگرفته از تاریخ و گرافیک های واقع گرایانه گرد هم می آیند تا دنیایی را بسازند که مطابق با روح wuxia باشد. خود را در دوره جذاب پنج سلسله و ده پادشاهی چین غرق کنید، جایی که نبردهای حماسی و..."
+        "persian_summary": "ارسال شده توسط /u/Fit-Cardiologist-124 [لینک] [نظر]"
+    },
+    {
+        "title": "etailmarket stray 62 off 1075",
+        "store": "other",
+        "url": "https://etail.market/index.php?route=product/product&product_id=14555",
+        "image_url": "https://external-preview.redd.it/ZA_-wnBcHhoYRucDkZrmQgDteaiNB7WStnVLM_OEul4.jpeg?width=320&crop=smart&auto=webp&s=3bf7f2c6489e8e84e6d7c4720b08446993752f03",
+        "description": "submitted by /u/etailmarket [link] [comments]",
+        "id_in_db": "t3_1ttraga",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "62% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/etailmarket [لینک] [نظر]"
     },
     {
         "title": "exiled giveaways and itchio mega threads",
@@ -346,7 +344,7 @@
         "title": "for the first time ever play the complete experience with all expansions and secret levels on modern platforms in this definitive collection",
         "store": "epicgames",
         "url": "https://store.epicgames.com/p/tomb-raider-iiii-remastered-538640",
-        "image_url": "https://i.ytimg.com/vi/_bSGQZVlxDQ/sddefault.jpg",
+        "image_url": "https://adventuregamehotspot.com/images/posts/1038/4396-Tomb%20Raider%20review%20pic%208.jpg",
         "description": "submitted by /u/PM_ME_FREEGAMES [link] [comments]",
         "id_in_db": "t3_1tjnckx",
         "subreddit": "AppHookup",
@@ -382,6 +380,19 @@
         "persian_summary": "ارسال شده توسط /u/Singhvistaar [پیوند] [نظر]"
     },
     {
+        "title": "free flashy action packed 2d platformer in the spirit of console classics single player campaign with 12 stages each with their unique set of mechanics your platforming and combat skills will be tested against an armada of enemies and bosses",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/858710/Gravity_Circuit/",
+        "image_url": "https://external-preview.redd.it/7-Wd_X0yxJEDCWHaxcoNUTzqnVA56OfUu1w4bx0m2SU.jpeg?width=320&crop=smart&auto=webp&s=0a2a33dbd57100af89a8c1a96ea42f55ad4f66c1",
+        "description": "submitted by /u/Singhvistaar [link] [comments]",
+        "id_in_db": "t3_1tu3o8q",
+        "subreddit": "AppHookup",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": true,
+        "persian_summary": "ارسال شده توسط /u/Singhvistaar [پیوند] [نظر]"
+    },
+    {
         "title": "free lifetime no ads competitive game play with friends realtime multiplayer",
         "store": "iosappstore",
         "url": "https://apps.apple.com/redeem?ctx=offercodes&id=6760573646&code=LIFETIME",
@@ -395,17 +406,71 @@
         "persian_summary": "سلام به همه، توسعه دهنده مستقل انفرادی اینجاست. من در ابتدا این بازی را برای دوست دخترم ساختم زیرا بازی های چند نفره آناگرام موجود آن را برای ما (او) قطع نکردند. Anaduel یک بازی کلمات چند نفره بیدرنگ است که در آن 60 ثانیه فرصت دارید تا از حروفی که به شما داده شده است، تا حد امکان کلمات بیشتری پیدا کنید. حالت‌های بازی: معمولی (2 تا 6 بازیکن) Steal - نمی‌توان از کلمه‌ای استفاده کرد که شخص دیگری استفاده کرده است. تغییر حروف مختلط هر 20 ثانیه، 3 دور (به نظر می‌رسد این مورد مورد علاقه همه است) همچنین یک بازیکن تک نفره و یک چالش روزانه (همه حروف یکسانی دریافت می‌کنند؛ بهتر است ببینید که چگونه در سطح جهانی رتبه‌بندی می‌کنید) اگر به تنهایی بازی کنید. چیزهای جدید (اگر از تبلیغات راه اندازی در ماه مارس اینجا هستید): بیش از 70 دستاورد برای تعقیب سیستم رتبه بندی -رتبه شما در همه حالت های بازی و تابلوی امتیازات قابل مشاهده است، بنابراین می توانید به دوستان و خانواده نشان دهید که چقدر باهوش هستید آمارهای پیشرفته - ببینید چگونه بازی می کنید و آیا در حال بهبود جدول امتیازات تک نفره هستید - امتیازات روزانه، هفتگی، ماهانه، و همه..."
     },
     {
+        "title": "Gravity Circuit",
+        "id_in_db": "gravity-circuit@1780334301",
+        "store": "other",
+        "url": "https://itad.link/019e842f-5402-7386-866d-8bfb98399e17/",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "3447460",
+        "description": "The Circuits made peace...for a while, the skies were clear. Then a new Ark appeared and with it, the Hunter Army. Once again Kai, the Gravity Circuit, finds himself facing an incredible, seemingly unstoppable force. Thankfully, this time he isn't alone, as he is joined by Cable, the Power Circuit. With their strengths combined, they might just stand a chance against the invaders… Choose your Circuit Gravity Circuit 2 is an action-packed 2D platformer, with the option to select your fighting style. Kai brings along his familiar close-quarters combat: Fierce punches, hookshot-based grapples, and plenty of speed. Cable, on the other hand, offers a more a long-ranged approach: Pepper your enemies from a distance, chain multiple jumps to stay airborne, and use his powers to turn defeated foes into scrap that you can use as ammunition. Both characters share the same campaign, so every stage plays out differently depending on who you bring in. Switch between the characters at HQ, and tackle missions with your preferred style. Build your loadout Earn new abilities from bosses by equipping Circuit Shards, stack Booster Chips to amplify your capabilities, and slot up to four Burst Techniques for devastating finishers! Build and define a style that suits you. Secrets are everywhere: health boosters, burst boosters, civilians to rescue, and even crystal fragments to expand your possibilities! Blast right through action-packed stages, or act the part of a hero, and uncover everything. The choice is yours. High-speed action platforming with a banging soundtrack! From a water processing plant, to an artificial forest, to a weather control tower, and even a ghastly theater -- there are many varied locales to blast through on your journey to defeat the Hunter Army! Each stage features its own unique mechanics, gimmicks and bosses, keeping the adrenaline high, all while a banging soundtrack by Dominic Ninmark blasts in the background. No two stages will feel the same. Key Features 2 playable characters with distinct movesets and exclusive techniques More than a dozen stages await, including 8 Hunter Circuit bosses, each with their own dedicated stage and unique fighting style. Circuit Shards, 30 Booster Chips, and 40 Burst Techniques to mix and match Collectibles tucked throughout every stage A new hub HQ area, featuring a various NPCs, vendors, training rooms, and even a jukebox Original soundtrack by Dominic Ninmark Small Studio. Genre fans through and through. Domesticated Ant Game s is a small independent game studio based in Finland, founded in 2021. Working together with Dominic Ninmark of Ninmark Soundworks , and with the help of various freelancers and contractors, they created the critically acclaimed Gravity Circuit.",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3447460/dcd5f0ad6026e51b86f9c3d5373bf2c2319bf47b/header.jpg?t=1780333317",
+        "genres": [
+            "Action",
+            "Adventure"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "is_dlc_or_addon": false,
+        "subreddit": "FreeGameFindings",
+        "persian_summary": "مدارها صلح کردند... برای مدتی آسمان صاف بود. سپس یک آرک جدید و همراه با آن ارتش شکارچی ظاهر شد. بار دیگر کای، مدار جاذبه، خود را در برابر نیرویی باورنکردنی و به ظاهر غیرقابل توقف می بیند. خوشبختانه، این بار او تنها نیست، زیرا کابل، مدار برق به او می پیوندد. با ترکیب نقاط قوت آنها، آنها ممکن است شانسی در برابر مهاجمان داشته باشند... مدار گرانشی خود را انتخاب کنید. کای مبارزات نزدیک آشنای خود را به همراه دارد: مشت‌های شدید، قلاب‌بازی‌های مبتنی بر هوک‌شات و سرعت زیاد. از سوی دیگر، کیبل یک رویکرد طولانی‌تر ارائه می‌دهد: دشمنان خود را از راه دور فلفل کنید، چندین پرش زنجیره‌ای کنید تا در هوا بمانید، و از قدرت‌های خود برای تبدیل دشمنان شکست‌خورده به قراضه استفاده کنید که می‌توانید از آنها به عنوان مهمات استفاده کنید. هر دو شخصیت کمپین یکسانی دارند، بنابراین هر مرحله بسته به اینکه چه کسی را وارد می‌کنید متفاوت است."
+    },
+    {
+        "title": "gravity circuit 100 offfree",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/858710/Gravity_Circuit/",
+        "image_url": "https://external-preview.redd.it/CGhLrS2T8aABmYpIIVD8xQt8PZSuE127j4euGRq1O9U.jpeg?width=320&crop=smart&auto=webp&s=09fe6693d939dc491e98dc5462d3b02b385b4245",
+        "description": "submitted by /u/UnseenData [link] [comments]",
+        "id_in_db": "t3_1ttyh3f",
+        "subreddit": "GameDeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/UnseenData [پیوند] [نظر]"
+    },
+    {
         "title": "heavy rain",
         "store": "other",
         "url": "https://gaming.lenovo.com/heavy-rain-key-drops",
-        "image_url": "https://preview.redd.it/heavy-rain-jp-vs-eu-vs-us-box-art-v0-fj2aevh1gkd01.png?width=1080&crop=smart&auto=webp&s=1860eae88d7fec1f4e7ca0287c9a2081ef3a4871",
-        "description": "It looks like another set of Heavy Rain keys will be given away today. There is supposedly around 5,000 keys this time. If you have already claimed it the last time, you might not be able to claim this one. submitted by /u/Sea_Yak_6683 [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960910/header.jpg?t=1675271942",
+        "description": "Winner of several awards, including 2011 BAFTA Game Awards for Best Story, Best Original Music and Technical Innovation, as well as multiple Interactive Achievement Awards and NAVGTR Awards, discover Heavy Rain, a game developed by Quantic Dream which brought new standards to narrative-driven games. HOW FAR WILL YOU GO TO SAVE SOMEONE YOU LOVE? Experience a gripping psychological thriller filled with innumerable twists and turns. Spanning four days of mystery and suspense, the hunt is on for a murderer known only as the Origami Killer - named after his macabre calling card of leaving behind folded paper shapes at crime scenes. Four characters, each following their own leads and with their own motives, must take part in a desperate attempt to prevent the killer from claiming a new victim. You need to think fast and act even faster, as every choice and move you make can result in dramatic, game-changing consequences – and even determine who lives… and who dies. How this story ends is entirely up to you. FOUR CHARACTERS, FOUR PERSPECTIVES The award-winning storyline puts you in control of four distinct characters who are each following their own leads in a desperate search for a missing person. ACCESSIBLE AND INTUITIVE CONTROLS Not limited by gaming conventions, the uncomplicated HUD keeps you deeply immersed in the storytelling and features controls for both gamepad and keyboard/mouse players. FULLY OPTIMIZED FOR PC The classic title is brought to PC with stunning visuals including 4K resolution and 60 fps framerate.",
         "id_in_db": "t3_1tp8fdd",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
+        "steam_app_id": "960910",
+        "genres": [
+            "Action",
+            "Adventure"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "age_rating": "17",
         "is_dlc_or_addon": false,
-        "persian_summary": "به نظر می رسد مجموعه دیگری از کلیدهای Heavy Rain امروز به شما اهدا می شود. ظاهراً این بار حدود 5000 کلید وجود دارد. اگر قبلاً آخرین بار آن را ادعا کرده اید، ممکن است نتوانید آن را ادعا کنید. ارسال شده توسط /u/Sea_Yak_6683 [لینک] [نظر]"
+        "persian_summary": "برنده چندین جایزه، از جمله جوایز بازی BAFTA 2011 برای بهترین داستان، بهترین موسیقی اصلی و نوآوری فنی، و همچنین جوایز متعدد دستاوردهای تعاملی و جوایز NAVGTR، بازی Heavy Rain را کشف کنید که توسط Quantic Dream توسعه یافته و استانداردهای جدیدی را برای بازی های روایت محور به ارمغان می آورد. برای نجات کسی که دوستش دارید تا کجا پیش خواهید رفت؟ یک تریلر روانشناختی جذاب را تجربه کنید که پر از پیچ و تاب ها و چرخش های بی شمار است. که چهار روز پر از رمز و راز و تعلیق را در بر می گیرد، شکار قاتلی است که فقط به عنوان قاتل اوریگامی شناخته می شود - که به خاطر کارت ویزیت مخوف او که در صحنه های جرم و جنایت به جای گذاشتن اشکال کاغذی تا شده نام دارد. چهار شخصیت، که هر کدام دنباله‌روی خود را دنبال می‌کنند و با انگیزه‌های خود، باید در تلاشی ناامیدکننده شرکت کنند تا قاتل از ادعای قربانی جدید جلوگیری کند. شما باید سریع فکر کنید و حتی سریع‌تر عمل کنید، زیرا هر انتخاب و حرکتی که انجام می‌دهید می‌تواند منجر به عواقب چشمگیر و تغییردهنده بازی شود - و حتی تعیین کنید که چه کسی زندگی می‌کند و چه کسی می‌میرد. این داستان چگونه به پایان می رسد ..."
+    },
+    {
+        "title": "humble store witchaven i ii bundle",
+        "store": "humblestore",
+        "url": "https://www.humblebundle.com/store/witchaven-i-and-ii-bundle",
+        "image_url": "https://external-preview.redd.it/Q5Rc6FLNEy5Pnn9NXPQA8DxGKCFJE5T2SWdMe6pCcnw.jpeg?width=320&crop=smart&auto=webp&s=4a4e903d8559200e1d6b0c05acfef2ab326655b1",
+        "description": "submitted by /u/Foxhack [link] [comments]",
+        "id_in_db": "t3_1tu0d7o",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "90% off",
+        "is_dlc_or_addon": true,
+        "persian_summary": "ارسال شده توسط /u/Foxhack [لینک] [نظر]"
     },
     {
         "title": "icon packs garis light lines icon pack 149",
@@ -463,7 +528,7 @@
         "title": "intruder selfie free no interstitial ads",
         "store": "googleplay",
         "url": "https://www.reddit.com/r/googleplaydeals/comments/1trzt1y/apps_app_locker_intruder_selfie_free_no/",
-        "image_url": "https://cdn.aptoide.com/imgs/5/f/4/5f449f0031ac308c15c9380de9567417_fgraphic.png",
+        "image_url": "https://play-lh.googleusercontent.com/QojtDzeisfGaS-_HMYa9ROAL--niMcx-rrHAY83PLoMi0h0cpEgXtokau5qfv3lOmUo=w526-h296-rw",
         "description": "https://play.google.com/store/apps/details?id=com.fabiosf34.applock submitted by /u/Signal_Membership_38 [link] [comments]",
         "id_in_db": "t3_1trzt1y",
         "subreddit": "googleplaydeals",
@@ -476,7 +541,7 @@
         "title": "ios android monument valley 3 ca689 free set sail for adventure in this new instalment of the award",
         "store": "other",
         "url": "https://www.reddit.com/r/AppHookup/comments/1tjo347/ios_android_monument_valley_3_ca689_free_set_sail/",
-        "image_url": "https://9to5toys.com/wp-content/uploads/sites/5/2026/05/Monument-Valley-3-copy.jpg?quality=82&strip=all",
+        "image_url": "https://spectator.com/wp-content/uploads/2025/01/gamer.jpg?w=1000",
         "description": "https://store.epicgames.com/p/monument-valley-3-ios-e569e7 https://store.epicgames.com/p/monument-valley-3-android-c7433e Set sail for a world-changing adventure as you guide Noor in their quest through a series of mind-bending illusions and atmospheric puzzles. Can you unlock the secrets of the mysterious world – and the meaning behind the Sacred Light? submitted by /u/PM_ME_FREEGAMES [link] [comments]",
         "id_in_db": "t3_1tjo347",
         "subreddit": "AppHookup",
@@ -502,14 +567,14 @@
         "title": "ios glpzy lifetime premium 4499",
         "store": "iosappstore",
         "url": "https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005",
-        "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f7/d6/a6/f7d6a69f-3e26-c5eb-58a5-433cb0be4a3d/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-        "description": "I’m an independent iOS developer. I built GLPzy because a lot of GLP‑1 tracking ends up scattered across notes, calendars, photos and spreadsheets. The app is local-first, has no mandatory account, and is designed for logging doses, weight, symptoms, appetite, reminders, progress photos and provider-style summaries. Lifetime Premium is temporarily free for founding users. This means Premium features for life at no cost during this founding user week. No review is required; I’m mainly looking for real feedback from people who would actually use this kind of tracker. How to get: Download GLPzy from the App Store. Open Settings → Premium. Choose Lifetime Premium. Confirm the App Store purchase showing free / $0.00. Use the app for a few days. No review is required; I’m mainly looking for real feedback from people who would actually use this kind of tracker. Lifetime IAP free until May 31st only, then price will revert to full price. It is not medical advice and does not tell anyone what dose to take. Please let me know any questions or feedback. Thanks! submitted by /u/Tiny_Split9436 [link] [comments]",
+        "image_url": "https://external-preview.redd.it/3FpVVoHX2GwBSqAbxJmEu9S_O0HYRaZqSJTLXZpz0VQ.jpeg?width=640&crop=smart&auto=webp&s=49061ed431b167d73eef5dbc4ea274b1f60e4360",
+        "description": "[FREE Lifetime Premium extended until June 7th as it's taken me longer iterating through new features - thank you for all the feedback] I’m an independent iOS developer. I built GLPzy because a lot of GLP‑1 tracking ends up scattered across notes, calendars, photos and spreadsheets. The app is local-first, has no mandatory account, and is designed for logging doses, weight, symptoms, appetite, reminders, progress photos and provider-style summaries. Lifetime Premium is temporarily free for founding users. This means Premium features for life at no cost during this founding user week. No review is required; I’m mainly looking for real feedback from people who would actually use this kind of tracker. How to get: Download GLPzy from the App Store. Open Settings → Premium. Choose Lifetime Premium. Confirm the App Store purchase showing free / $0.00. Use the app for a few days. No review is required; I’m mainly looking for real feedback from people who would actually use this kind of tracker. Lifetime IAP free until May 31st only, then price will revert to full price. It is not medical advice and does not tell anyone what dose to take. Please let me know any questions or feedback. Thanks! submitted by /u/Tiny_Split9436 [link] [comments]",
         "id_in_db": "t3_1tjd9fl",
         "subreddit": "AppHookup",
         "is_free": true,
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
-        "persian_summary": "من یک توسعه دهنده مستقل iOS هستم. من GLPzy را ساختم زیرا بسیاری از ردیابی‌های GLP‑1 در یادداشت‌ها، تقویم‌ها، عکس‌ها و صفحات گسترده پراکنده می‌شوند. این برنامه ابتدا محلی است، هیچ حساب اجباری ندارد و برای ثبت دوز، وزن، علائم، اشتها، یادآوری‌ها، عکس‌های پیشرفت و خلاصه‌هایی به سبک ارائه‌دهنده طراحی شده است. Lifetime Premium به طور موقت برای کاربران پایه‌گذار رایگان است. این بدان معناست که ویژگی‌های Premium مادام العمر بدون هیچ هزینه‌ای در طول این هفته کاربر پایه‌گذاری شده است. نیازی به بررسی نیست. من عمدتاً به دنبال بازخورد واقعی از افرادی هستم که واقعاً از این نوع ردیاب استفاده می کنند. نحوه دریافت: GLPzy را از اپ استور دانلود کنید. تنظیمات → Premium را باز کنید. Lifetime Premium را انتخاب کنید. خرید فروشگاه App را تأیید کنید که رایگان / 0.00 دلار است. برای چند روز از برنامه استفاده کنید. نیازی به بررسی نیست. من عمدتاً به دنبال بازخورد واقعی از افرادی هستم که واقعاً از این نوع ردیاب استفاده می کنند. IAP مادام العمر فقط تا 31 مه رایگان است، سپس قیمت به قیمت کامل باز خواهد گشت. این توصیه پزشکی نیست و به کسی نمی گوید که چه ..."
+        "persian_summary": "[FREE Lifetime Premium تا 7 ژوئن تمدید شد زیرا مدت زمان بیشتری از طریق ویژگی های جدید تکرار شد - از شما برای همه بازخوردها متشکرم] من یک توسعه دهنده مستقل iOS هستم. من GLPzy را ساختم زیرا بسیاری از ردیابی‌های GLP‑1 در یادداشت‌ها، تقویم‌ها، عکس‌ها و صفحات گسترده پراکنده می‌شوند. این برنامه ابتدا محلی است، هیچ حساب اجباری ندارد و برای ثبت دوز، وزن، علائم، اشتها، یادآوری‌ها، عکس‌های پیشرفت و خلاصه‌هایی به سبک ارائه‌دهنده طراحی شده است. Lifetime Premium به طور موقت برای کاربران پایه‌گذار رایگان است. این بدان معناست که ویژگی‌های Premium مادام العمر بدون هیچ هزینه‌ای در طول این هفته کاربر پایه‌گذاری شده است. نیازی به بررسی نیست. من عمدتاً به دنبال بازخورد واقعی از افرادی هستم که واقعاً از این نوع ردیاب استفاده می کنند. نحوه دریافت: GLPzy را از اپ استور دانلود کنید. تنظیمات → Premium را باز کنید. Lifetime Premium را انتخاب کنید. خرید فروشگاه App را تأیید کنید که رایگان / 0.00 دلار است. برای چند روز از برنامه استفاده کنید. نیازی به بررسی نیست. من عمدتاً به دنبال بازخورد واقعی از افرادی هستم که واقعاً از این نوع استفاده می کنند ..."
     },
     {
         "title": "ios lifetime premium iap 2499 free mealify 20",
@@ -551,15 +616,16 @@
         "persian_summary": "برای مدت زمان محدود، می‌توانید قفل نسخه کامل را به صورت رایگان باز کنید. امیدوارم خوشتون بیاد لذت ببرید! ارسال شده توسط /u/mammutKay [پیوند] [نظر]"
     },
     {
-        "title": "IQ Under Construction",
-        "id_in_db": "iq-under-construction@1780161376",
-        "store": "other",
-        "url": "https://itad.link/019e79e2-3b09-7127-bbb5-f53974c29274/",
+        "title": "iq under construction",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/3771740/IQ_Under_Construction/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3771740/f1c5eaf217c893e9f134251f44a3cac986fb06a2/header.jpg?t=1778708014",
+        "description": "IQ Under Construction When we said “we're building a game for fun,” we didn't think it would turn out like this. IQ Under Construction is an escalating frenzy where you and your friends are connected by a mysterious energy (don't ask how it works — we don't fully understand it ourselves). The main thing is not to stray too far from each other, otherwise... ready, set, go — back to the beginning! You start at the bottom and climb higher and higher, overcoming clever obstacles, jumping over dangerous structures, and screaming at each other in voice chat in a panic (if you want to, of course). This game is like friendship: if someone decides to go it alone, it's game over for everyone. 🔍 What's inside? 🚀 Vertical climbing with increasing levels of difficulty At first, everything is easy. Almost cute. But with each new location, the structure becomes more vicious. Jumping platforms, disappearing blocks, traps that were clearly invented by someone who was awake all night with no conscience. 🔗 Connection between players You can't run around as you please — the game world is against it. If someone flies too far, the whole team flies back. Fun, right? 🌆 Different locations, but the same vicious logic The world is one, but the levels in it are completely different. Architecture, pace, traps — everything is constantly changing so that you don't relax and think, “Well, now it will definitely be easier.” 👥 Alone or with friends Want some peace and quiet? Play alone. Want chaos, laughter, screams, and moral support? The game supports up to 4 players online. The main thing is to remember: if one falls, everyone falls. 🎨 A style that's easy on the eyes (but maybe not on the nerves) Colorful scenes, clear shapes, everything moves, shines, and teases you. Does the platform look simple? Suspicious. Check twice. 🎵 Music to keep you sane The soundtrack changes with you. Calm moments sound pleasant... and then the platform with millimeter jumps begins, and the sound abruptly ceases to be background noise. Translated with (free version)",
+        "id_in_db": "t3_1ts59q2",
+        "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
         "steam_app_id": "3771740",
-        "description": "IQ Under Construction When we said “we're building a game for fun,” we didn't think it would turn out like this. IQ Under Construction is an escalating frenzy where you and your friends are connected by a mysterious energy (don't ask how it works — we don't fully understand it ourselves). The main thing is not to stray too far from each other, otherwise... ready, set, go — back to the beginning! You start at the bottom and climb higher and higher, overcoming clever obstacles, jumping over dangerous structures, and screaming at each other in voice chat in a panic (if you want to, of course). This game is like friendship: if someone decides to go it alone, it's game over for everyone. 🔍 What's inside? 🚀 Vertical climbing with increasing levels of difficulty At first, everything is easy. Almost cute. But with each new location, the structure becomes more vicious. Jumping platforms, disappearing blocks, traps that were clearly invented by someone who was awake all night with no conscience. 🔗 Connection between players You can't run around as you please — the game world is against it. If someone flies too far, the whole team flies back. Fun, right? 🌆 Different locations, but the same vicious logic The world is one, but the levels in it are completely different. Architecture, pace, traps — everything is constantly changing so that you don't relax and think, “Well, now it will definitely be easier.” 👥 Alone or with friends Want some peace and quiet? Play alone. Want chaos, laughter, screams, and moral support? The game supports up to 4 players online. The main thing is to remember: if one falls, everyone falls. 🎨 A style that's easy on the eyes (but maybe not on the nerves) Colorful scenes, clear shapes, everything moves, shines, and teases you. Does the platform look simple? Suspicious. Check twice. 🎵 Music to keep you sane The soundtrack changes with you. Calm moments sound pleasant... and then the platform with millimeter jumps begins, and the sound abruptly ceases to be background noise. Translated with (free version)",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3771740/f1c5eaf217c893e9f134251f44a3cac986fb06a2/header.jpg?t=1778708014",
         "genres": [
             "Adventure",
             "Casual",
@@ -569,19 +635,6 @@
         "is_online": true,
         "is_dlc_or_addon": false,
         "persian_summary": "IQ در حال ساخت وقتی گفتیم \"ما داریم یک بازی برای سرگرمی می سازیم\"، فکر نمی کردیم اینطور شود. IQ Under Construction یک دیوانگی فزاینده است که در آن شما و دوستانتان با یک انرژی اسرارآمیز به هم متصل شده اید (نپرسید چگونه کار می کند - ما خودمان به طور کامل آن را درک نمی کنیم). نکته اصلی این است که خیلی از یکدیگر دور نشوید، در غیر این صورت ... آماده، تنظیم، رفتن - به ابتدا! از پایین شروع می‌کنید و بالاتر و بالاتر می‌روید، موانع هوشمندانه‌ای را پشت سر می‌گذارید، از روی سازه‌های خطرناک می‌پرید و در چت صوتی وحشت‌زده بر سر یکدیگر فریاد می‌زنید (البته اگر بخواهید). این بازی مانند دوستی است: اگر کسی تصمیم بگیرد به تنهایی ادامه دهد، بازی برای همه تمام شده است. 🔍 داخلش چیه؟ 🚀 صعود عمودی با افزایش سطح سختی در ابتدا همه چیز آسان است. تقریبا ناز اما با هر مکان جدید، ساختار باطل تر می شود. سکوهای پرش، بلوک های ناپدید شدن، تله هایی که به وضوح توسط شخصی اختراع شده است که تمام شب بیدار بوده و هیچ ..."
-    },
-    {
-        "title": "iq under construction",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/3771740/IQ_Under_Construction/",
-        "image_url": "https://external-preview.redd.it/R_v_mvh9BmnA8LLvPwJUfRrcR25i9StX3YQOBoQ1UtI.jpeg?width=320&crop=smart&auto=webp&s=dac5fc33a1c2ff4f945ad0f420fe8bb6261f0215",
-        "description": "submitted by /u/iambaldy [link] [comments]",
-        "id_in_db": "t3_1ts59q2",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/iambaldy [لینک] [نظر]"
     },
     {
         "title": "iq under construction 100 off free",
@@ -618,53 +671,25 @@
         "persian_summary": "ارسال شده توسط /u/That_Rest_9509 [لینک] [نظر]"
     },
     {
-        "title": "life is strange complete season episodes 1",
-        "store": "steam",
-        "url": "https://store.steampowered.com/sub/56692/",
-        "image_url": "https://external-preview.redd.it/INfyuLrbnIFYRnZhcLCNWkEcbDcNIgk4ctRq-VVeSoQ.jpeg?width=640&crop=smart&auto=webp&s=a2be3a09f32510933f4165762ab194117ec883f5",
-        "description": "submitted by /u/Mrtom987 [link] [comments]",
-        "id_in_db": "t3_1tqda11",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "85% off",
-        "is_dlc_or_addon": true,
-        "persian_summary": "ارسال شده توسط /u/Mrtom987 [لینک] [نظر]"
-    },
-    {
         "title": "linebound",
         "store": "steam",
         "url": "https://store.steampowered.com/app/4447550/Linebound/",
-        "image_url": "https://external-preview.redd.it/4Gp2zq9FtTXwSWI3wzF9tscdnK2geL5lmPxCAm816vQ.jpeg?width=320&crop=smart&auto=webp&s=25f4a65948b9d69747726af51b1092e4228de93e",
-        "description": "\"free-to-keep for the first month post launch\" submitted by /u/jacknash [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447550/f44b3899529251e29efa6b154fd8e2bd9b79b2ac/header.jpg?t=1780214242",
+        "description": "Linebound is free-to-keep for the first month post launch! Grab it while you can! One player draws; the other navigates. Together, you reach each exit. Linebound is a local, asymmetric, co-operative puzzle platform game for two players. One of you is the Artist, drawing platforms directly into the pages of a living sketchbook in real time. The other player is Sketch: a hand-drawn character who is brought to life inside the book and must hop through its puzzles and platforms. The Artist sees the world from the outside. Sketch lives inside it. They need each other to progress. With an intuitive, easy to learn gameplay-loop, Linebound puts its focus on player to player interaction. Communication is key, as trust is needed to effectively dot each i and cross each t. Linebound takes place inside a hand-drawn sketchbook. Pencil-scratched environments, crayon-colored platforms, and doodled creatures fill each page with charm and personality. Features: Asymmetric local co-op - 2 players, 2 different experiences Real-time platform drawing mechanic 15 hand-crafted puzzle levels inside a living sketchbook world Hand-drawn art style with pencil characters and crayon environments Built entirely around communication and cooperation Important: Steam Remote Play Together or Parsec is required for online play, as Linebound does not support it innately.",
         "id_in_db": "t3_1tt0vj9",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "\"قابلیت نگهداری رایگان برای اولین ماه پس از راه اندازی\" ارسال شده توسط /u/jacknash [لینک] [نظرات]"
-    },
-    {
-        "title": "loco parentis",
-        "store": "other",
-        "url": "https://givee.club/en/event/1325",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/693800/header.jpg?t=1772625918",
-        "description": "Just a usual day. You're heading out for a walk just like you do it every day. You're stepping out of your apartment when all of a sudden, you see a little girl who looks frightened. She asks to help her find her mother... From now on everything goes beyond normal. You are trapped in a nightmare that is taking place in this dwelling. But don't even try to escape - you have to help this girl. In this game, you will face paranormal creepy things that you need to defeat on your way to freedom. Meet terrifying tenants of your house... Are they friends or foes? Are you brave enough to find out the little girl's story and find her mother? Hardcore gameplay, challenging puzzles, ominous atmosphere and constant sense of foreboding are waiting for you. Solve all the mysteries, reveal all the stories playing as a single player, or with your friend in co-op. Our other projects: P R O T O C O L and Startup Valley Adventure - Episode 1",
-        "id_in_db": "t3_1tljpb0",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "693800",
+        "steam_app_id": "4447550",
         "genres": [
-            "Action",
             "Adventure",
             "Indie",
-            "Massively Multiplayer",
-            "RPG"
+            "Free To Play"
         ],
         "is_multiplayer": true,
-        "is_online": true,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "فقط یک روز معمولی شما هم مثل هر روز پیاده روی می کنید. شما در حال بیرون آمدن از آپارتمان خود هستید که ناگهان دختر کوچکی را می بینید که ترسیده به نظر می رسد. او به او کمک می کند تا مادرش را پیدا کند... از این به بعد همه چیز فراتر از حالت عادی است. شما در کابوسی که در این خانه در حال وقوع است گرفتار شده اید. اما حتی سعی نکنید فرار کنید - شما باید به این دختر کمک کنید. در این بازی با چیزهای خزنده ماوراء الطبیعه روبرو خواهید شد که باید در راه آزادی آنها را شکست دهید. با مستاجران وحشتناک خانه خود آشنا شوید... دوست هستند یا دشمن؟ آیا آنقدر شجاع هستید که داستان دختر کوچک را بفهمید و مادرش را پیدا کنید؟ گیم پلی هاردکور، پازل های چالش برانگیز، فضای شوم و حس همیشگی پیشگویی در انتظار شماست. تمام رمز و رازها را حل کنید، تمام داستان‌ها را که به صورت تک‌نفره یا با دوستتان در حالت تعاونی پخش می‌شوند، آشکار کنید. پروژه های دیگر ما: P R O T O C O L و Startup Valley Adventure - قسمت 1"
+        "persian_summary": "Linebound برای اولین ماه پس از راه اندازی رایگان است! تا می توانید آن را بگیرید! یک بازیکن مساوی می کند. دیگری حرکت می کند. با هم به هر خروجی می رسید. Linebound یک بازی پلت فرم پازل محلی، نامتقارن و مشارکتی برای دو بازیکن است. یکی از شما هنرمند است که پلتفرم‌ها را مستقیماً در صفحات یک کتاب طراحی زنده در زمان واقعی ترسیم می‌کند. بازیکن دیگر Sketch است: شخصیتی که با دست طراحی شده است که در داخل کتاب زنده می شود و باید از طریق پازل ها و پلتفرم های آن بپرد. هنرمند دنیا را از بیرون می بیند. طرح درون آن زندگی می کند. آنها برای پیشرفت به یکدیگر نیاز دارند. با یک حلقه گیم پلی بصری و آسان برای یادگیری، Linebound تمرکز خود را بر تعامل بازیکن با بازیکن قرار می دهد. ارتباط کلیدی است، زیرا برای نقطه‌گذاری مؤثر هر i و عبور از هر t، به اعتماد نیاز است. Linebound در داخل یک کتاب طراحی دستی اتفاق می افتد. محیط های مداد خراشیده، پلتفرم های مداد رنگی و موجودات ابله دار هر صفحه را با جذابیت و شخصیت پر می کنند. ویژگی ها: همکاری محلی نامتقارن - 2 بازیکن، 2 ..."
     },
     {
         "title": "LONESTAR",
@@ -704,7 +729,7 @@
         "title": "lonestar ca1699 free fight space criminals in this roguelite spaceship card deckbuilder",
         "store": "epicgames",
         "url": "https://store.epicgames.com/p/lonestar-83f143",
-        "image_url": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000086723/6506f68d503cf431507d019eee9ecdf298904617272085be63ebce4c5e4e6725",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2056210/ec1c741d931b23019806241da0b8bca2f674517a/capsule_616x353.jpg?t=1776409283",
         "description": "submitted by /u/PM_ME_FREEGAMES [link] [comments]",
         "id_in_db": "t3_1tq8fvu",
         "subreddit": "AppHookup",
@@ -714,17 +739,17 @@
         "persian_summary": "ارسال شده توسط /u/PM_ME_FREEGAMES [پیوند] [نظر]"
     },
     {
-        "title": "marbles marbles",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/4137920/Marbles_Marbles/",
-        "image_url": "https://external-preview.redd.it/XiwFlGz9YzcZ8ruQsigrG492HoS7HILrlk1zaAJowdI.jpeg?width=320&crop=smart&auto=webp&s=4dd2f698aee3e1e809985e1733b7627d6eac66b0",
-        "description": "submitted by /u/destinedd [link] [comments]",
-        "id_in_db": "t3_1tqk701",
+        "title": "madruga works games dawn of man planetbase the mobius machine",
+        "store": "other",
+        "url": "https://www.reddit.com/r/GameDeals/comments/1tukrat/steam_madruga_works_games_50_off_dawn_of_man_1249/",
+        "image_url": "https://europe1.discourse-cdn.com/unity/original/4X/2/8/9/28928c885f08ce790f54ed5cbd8da8df7c093f68.jpeg",
+        "description": "My name is Tucho from Madruga Works , all our games are 50% off during the Steam Autumn Sale: Dawn of man ($12.49): https://store.steampowered.com/app/858810/Dawn_of_Man/ Planetbase ($7.49): https://store.steampowered.com/app/403190/Planetbase/ The Mobius Machine ($9.99): https://store.steampowered.com/app/2281940/The_Mobius_Machine/ submitted by /u/MadrugaWorksDev [link] [comments]",
+        "id_in_db": "t3_1tukrat",
         "subreddit": "GameDeals",
         "is_free": false,
-        "discount_text": "20% off",
+        "discount_text": "50% off",
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/destinedd [لینک] [نظر]"
+        "persian_summary": "نام من Tucho از Madruga Works است، همه بازی‌های ما در طول فروش پاییزی استیم 50 درصد تخفیف دارند: Dawn of man (12.49 دلار): https://store.steampowered.com/app/858810/Dawn_of_Man/ Planetbase (7.49 دلار): https://store.com/steampower04 Mobius Machine (9.99 دلار): https://store.steampowered.com/app/2281940/The_Mobius_Machine/ ارسال شده توسط /u/MadrugaWorksDev [لینک] [نظر]"
     },
     {
         "title": "medication reminders that actually work pro free with code",
@@ -756,34 +781,39 @@
         "is_multiplayer": false,
         "is_online": false,
         "is_dlc_or_addon": false,
-        "subreddit": "FreeGameFindings",
         "persian_summary": "تا زمانی که برای فروش اینجا هستید، لطفاً بازی‌های دیگر من را در Steam ببینید: در ایستگاه فضایی با Keychain Killer به دام افتاده‌اید، باید این راز را کشف کنید، در غیر این صورت این آخرین راز شما خواهد بود. شواهد جمع آوری کنید، مظنونان را بازجویی کنید و پازل ها را حل کنید تا شانس داشته باشید. Deep Siren یک افسانه ترسناک لاوکرافت از جنگ جهانی دوم است. هنگامی که تنها بازمانده USS Siren یک پری دریایی را در حین سرگردانی در دریا کشف می کند، خود را در دنیایی از ترسناک های فراطبیعی در زیر سطح می بیند. از مکانیک های گیم پلی منحصر به فرد در حالی که الکس برای حفظ سلامت خود می جنگد، استفاده کنید. بارگذاری خود را انتخاب کنید، قلم‌های هنری خود را انتخاب کنید و راه خود را به سمت یک شاهکار حرکت دهید! Pew-casso یک تیرانداز اکشن روگلیت از بالا به پایین است که در آن با شکست دادن دشمنان به سطح بالا می‌روید و یک اثر هنری خلق می‌کنید. هر چه بیشتر دوام بیاورید، اثر هنری منحصر به فرد شما پیچیده تر می شود. کاوش... تحقیق... عکس... A Hidden World Moonrise Fall یک بازی پازل اکتشافی جوی در مورد پسری است که خود را در یک ماوراء طبیعی گم می کند..."
+    },
+    {
+        "title": "moonrise fall",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1035110/Moonrise_Fall/",
+        "image_url": "https://external-preview.redd.it/YdOLlZfWLGBQAP78LRpcTtyRHxfOZd7EjNP0ZIrbFJ8.jpeg?width=320&crop=smart&auto=webp&s=b3e97c1bb71e8502e853d4800b7f4caa3f41abe6",
+        "description": "submitted by /u/Fhczvyd474374846 [link] [comments]",
+        "id_in_db": "t3_1ts59nb",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/Fhczvyd474374846 [لینک] [نظر]"
     },
     {
         "title": "moonrise fall 100 off free",
         "store": "steam",
         "url": "https://store.steampowered.com/app/1035110/Moonrise_Fall/",
-        "image_url": "https://external-preview.redd.it/YdOLlZfWLGBQAP78LRpcTtyRHxfOZd7EjNP0ZIrbFJ8.jpeg?width=320&crop=smart&auto=webp&s=b3e97c1bb71e8502e853d4800b7f4caa3f41abe6",
-        "description": "submitted by /u/LighteningOneIN [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548430/header.jpg?t=1775555380",
+        "description": "Hello Miner, and congratulations on joining DEEP ROCK GALACTIC ! It’s the beginning of a bright new career for you. We’re preparing to send you and your colleagues down into the rich mines of Hoxxes IV . If you’re a hard worker, a good shot and a reliable team player, you should have respectable odds of survival. Award-winning co-op gameplay puts 1-4 players together to explore labyrinthian procedurally-generated cave systems, extract valuable minerals, and fight for their lives against alien hordes. Play as four unique classes: SCOUT: The nimble wayfinder. Light the way with your flare gun, zip around with your grappling hook, and be the first to fall down a really deep hole. GUNNER: The heavy weapons guy. Great at turning alive things into dead things, and keeping teammates safe behind his impenetrable bubble shield. ENGINEER: The defensive support specialist. Sentry guns, land mines and 40mm grenades help you keep a secure perimeter. DRILLER: The living bulldozer. Carve through terrain and shape the work site with your handheld drills, and solve problems using your flamethrower and C4 charges. Each class brings their own strengths to the team. Use your toolkits in tandem and work together to bring your whole crew home safe. Explore an endless labyrinth of procedurally-generated caves – no two missions are alike. You’ll need to rely on your wits and your traversal tools to navigate through narrow, snaking passages and vast caverns alike. Dig into 11 distinct biomes , each with their own unique cave formations and colorful (sometimes deadly) flora and fauna. And with 100% destructible environments, you can shape the terrain as you see fit. Dig tunnels, collapse stalagmites and close off choke points to make your job easier. Your work in the mines will pit you against the many creatures of Hoxxes IV who don’t take kindly to your presence. Keep your finger on the trigger, and learn to defend yourself against hordes of over 50 different enemy types , all of which are keen to bite, slash and acid-spit you to death. Some fly, some crawl, some snatch you from above and below. You’ll need to keep your wits about you, and make sure your teammates have your back. Unlock thousands of cosmetics, weapons and player upgrades, making for hundreds of hours of gameplay as you work your way up the ranks and become a star employee. Deep Rock Galactic features six full seasons of additional content on top of the base game, and it’s all free . No time-limited battlepasses, no FOMO shop rotations, no gated content. The only extras you can buy are a couple DLC armors. The Deep Rock Galactic Corporation isn’t known for its benefits package. But at least there’s a bar on the Space Rig. Enough talk – it’s time to get to work, and join millions of other motivated employees! NO DWARF LEFT BEHIND - FOR ROCK AND STONE!",
         "id_in_db": "t3_1ts59zv",
         "subreddit": "GameDeals",
         "is_free": true,
         "discount_text": "100% Off",
+        "steam_app_id": "548430",
+        "genres": [
+            "Action"
+        ],
+        "is_multiplayer": true,
+        "is_online": true,
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/LighteningOneIN [پیوند] [نظر]"
-    },
-    {
-        "title": "mrbrocco co",
-        "store": "indiegala",
-        "url": "https://freebies.indiegala.com/mrbrocco-co",
-        "image_url": "https://external-preview.redd.it/apQ2MmCyA93rL8zuGXLlDUvaNN3st5mPOKHq8fcU1yA.png?width=320&crop=smart&auto=webp&s=f955f90b2f7f1aac800fc89b93bbb3ae1c8aa8be",
-        "description": "submitted by /u/MeguminShiro [link] [comments]",
-        "id_in_db": "t3_1tlbv3m",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/MeguminShiro [لینک] [نظر]"
+        "persian_summary": "سلام ماینر، و پیوستن به DEEP ROCK GALACTIC را تبریک می گویم! این آغاز یک حرفه جدید روشن برای شما است. ما در حال آماده شدن برای فرستادن شما و همکارانتان به معادن غنی Hoxxes IV هستیم. اگر شما یک کار سخت، یک شوتزن خوب و یک بازیکن تیم قابل اعتماد هستید، باید شانس بقای قابل توجهی داشته باشید. گیم‌پلی برنده جوایز هم‌آپ، 1 تا 4 بازیکن را گرد هم می‌آورد تا سیستم‌های غار را کشف کنند، مواد معدنی ارزشمند استخراج کنند و برای جان خود در برابر انبوهی از بیگانگان بجنگند. بازی به عنوان چهار کلاس منحصر به فرد: SCOUT: راه یاب زیرک. راه را با تفنگ فلر روشن کنید، با قلاب دست و پنجه نرم کنید و اولین کسی باشید که از یک سوراخ واقعا عمیق می افتد. توپچی: مرد سلاح های سنگین. در تبدیل چیزهای زنده به چیزهای مرده و حفظ امنیت هم تیمی ها در پشت سپر حباب نفوذ ناپذیر خود عالی است. مهندس: متخصص پشتیبانی دفاعی. اسلحه‌های نگهبان، مین‌های زمینی و نارنجک‌های ۴۰ میلی‌متری به شما کمک می‌کنند محیط امنی داشته باشید. حفاری: بولدوزر زنده. کنده کاری از طریق ..."
     },
     {
         "title": "offline maps gps 60 projections 10k crs support",
@@ -849,34 +879,25 @@
         "title": "pcconsole other world of tanks",
         "store": "other",
         "url": "https://www.amdgaming.com/promotions/world-of-tanks-heat-giveaway",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236390/ceff9434460880755b42a90b8915e87dff4482ad/header.jpg?t=1779186880",
-        "description": "War Thunder is the most comprehensive free-to-play, cross-platform, MMO military game dedicated to aviation, armoured vehicles, from the early 20th century to the most advanced modern combat units. Join now and take part in major battles on land, in the air, and at sea, fighting with millions of players from all over the world in an ever-evolving environment. In War Thunder, aircraft, attack helicopters, ground forces and naval ships collaborate in realistic competitive battles. You can choose from over 3,000 vehicles and an extensive variety of combat situations many of which are exclusive. You can find yourself blasting your pursuers from a bomber turret, defending your teammates on the ground from an air raid with anti-aircraft guns, shooting down enemy planes with a firestorm from multiple rocket launchers, or trying to sink an enemy warship with a torpedo from a fast attack boat. Features include: Seamless cross-platform gameplay between Windows PC, Linux, Mac, PlayStation®4, PlayStation®5, Xbox One with Xbox Series X|S – everyone on the same server. Over 3,000 highly detailed aircraft, helicopters, tanks, warships and other combat vehicles crafted carefully from historical documents and surviving sources. 100 maps representing the main historical battle theaters. Intense PvP experiences in full-scale combat missions at various difficulty settings for all play styles and degrees of experience. Rich PvE content including dynamic historical campaigns and solo missions. Regular content updates including new vehicles, maps, missions and nations. Astonishing graphics, authentic sound effects and beautiful music creating an atmosphere to fully immerse yourself in. Create custom content for War Thunder and share it on War Thunder Live, with the prospect of earning real money through the Revenue Share Partner System!",
+        "image_url": "https://external-preview.redd.it/Fqd_GWKF3HNOsrrFGwSjBUFjM6D7xxFQzVmLOVNrFwY.jpeg?width=640&crop=smart&auto=webp&s=fda254c7e8868048d1c383ce73b5b10887d187fe",
+        "description": "submitted by /u/Responsible-River653 [link] [comments]",
         "id_in_db": "t3_1tqcd36",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "236390",
-        "genres": [
-            "Action",
-            "Massively Multiplayer",
-            "Simulation",
-            "Free To Play"
-        ],
-        "is_multiplayer": true,
-        "is_online": true,
         "is_dlc_or_addon": false,
-        "persian_summary": "War Thunder جامع‌ترین بازی نظامی رایگان، چند پلتفرمی و MMO است که به حمل و نقل هوایی، وسایل نقلیه زرهی، از اوایل قرن بیستم تا پیشرفته‌ترین واحدهای رزمی مدرن اختصاص یافته است. اکنون بپیوندید و در نبردهای بزرگ در زمین، هوا و دریا شرکت کنید و با میلیون ها بازیکن از سراسر جهان در محیطی همیشه در حال تکامل مبارزه کنید. در War Thunder، هواپیماها، هلیکوپترهای تهاجمی، نیروهای زمینی و کشتی های دریایی در نبردهای رقابتی واقع گرایانه با یکدیگر همکاری می کنند. شما می توانید از بین بیش از 3000 وسیله نقلیه و طیف گسترده ای از موقعیت های جنگی انتخاب کنید که بسیاری از آنها منحصر به فرد هستند. می‌توانید متوجه شوید که تعقیب‌کنندگان خود را از یک برجک بمب‌افکن منفجر می‌کنید، از هم تیمی‌های خود در زمین در برابر یک حمله هوایی با اسلحه‌های ضدهوایی دفاع می‌کنید، هواپیماهای دشمن را با طوفان آتش از پرتابگرهای موشکی متعدد ساقط می‌کنید، یا سعی می‌کنید یک کشتی جنگی دشمن را با یک اژدر از یک قایق حمله سریع غرق کنید. ویژگی ها عبارتند از: گیم پلی بدون درز کراس پلتفرم بین رایانه شخصی ویندوز، لینوکس، مک، پلی استیشن 4، ..."
+        "persian_summary": "ارسال شده توسط /u/Responsible-River653 [لینک] [نظر]"
     },
     {
-        "title": "playsum neon white 792 687 593 c1082 a1097 r2311 with code cheers",
+        "title": "playsum no mans sky 1996 1623 1402 c2610 a2631 r5198 with code cheers",
         "store": "other",
-        "url": "https://store.playsum.live/product/06c81d4c-2235-41af-aac1-bd92da886f66/neon-white",
-        "image_url": "https://external-preview.redd.it/VoyMST5SVk5ZoMEbu4a-A5I76l-5hCGTHIOvtwUrX9M.jpeg?width=216&crop=smart&auto=webp&s=18ee8060eb1f107ea644331a11d0d1ce3caf4d48",
+        "url": "https://store.playsum.live/product/46e6fb04-81af-4ab2-a040-4951ffef5d99/no-man-s-sky",
+        "image_url": "https://external-preview.redd.it/A972L0xyOUTo7PWnu5Yt6MrmZkia01TEcevifXpumVM.jpeg?width=320&crop=smart&auto=webp&s=35cb5ce1b7f2d27b1cf653f188b4628c0eacb45f",
         "description": "submitted by /u/Lets_Playsum [link] [comments]",
-        "id_in_db": "t3_1tqgx7q",
+        "id_in_db": "t3_1tuijc5",
         "subreddit": "GameDeals",
         "is_free": false,
-        "discount_text": "68% off",
+        "discount_text": "67% off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/Lets_Playsum [لینک] [نظر]"
     },
@@ -931,21 +952,14 @@
         "title": "ps other days of play 2026",
         "store": "other",
         "url": "https://www.reddit.com/r/FreeGameFindings/comments/1towg96/ps_other_days_of_play_2026_3_avatars/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2116120/f56378757827f5e437775a70ae3aa49725a70ed4/header.jpg?t=1776693556",
-        "description": "RECENTLY ADDED - FEBRUARY 2026 Patch 1.3.0.0 brings a completely new dimension to the gameplay with several progression-based additions, including Act 1 of the Campaign, Safehouse upgrades, player leveling, and an overhauled economy. With this, we bring a sprawling map, Delta, alongside minor reworks to Quarry and Bunker. Several mechanics have been added to support these systems, such as a rework to the Black Market, markable resources, and grenades. This patch represents a major step in the direction we plan to continue with as we exit the Alpha stage of development. New Completely Reworked AI by Solarint Story Campaign Act 1 of 3: 23 Missions, voiced by Jane Perry New Map: Delta New “Extreme Weather” Systems: Rain, Thunderstorm New In-Raid events & side quests New Safehouse Upgrade system New Boss: Monstera New Loose Loot New In-Game VOIP System with realistic occlusion New Faction: IGC (Iron Guard Corps) New Voice Lines: IGC and VLF factions New Improved Lighting on all Maps New Steam achievements New Resource system New Repair system New Grenade system Newly Added Vaulting/Mantling Overhauled Economy Overhauled Recoil/Stats Improved Sounds & Ambiences Improved Performance/Optimization Engine Upgrade from UE 5.4 to 5.6 New Weapons: SR-25 Galil Ace 2 M9A3 Beretta Saiga 12 Sig Sauer MPX Norinco CQ YOU ARE NOT IN KANSAS ANYMORE Incursion Red River lets you engage with up to 3 of your friends as squadmates throughout a destabilized Vietnam. Complete Operations and Tasks for 3 diverse factions throughout several detailed maps to increase your reputation and rewards. Shoot and loot your way through immersive tropics against deadly AI encounters to gain influence, wealth, and uncover dark mysteries, or die trying and lose it all. PLAN AHEAD FOR YOUR DEPLOYMENT The goal is to provide a balanced first-person experience that feels realistic, yet fun. Equipment and weapons influence ergonomics and combat playstyle, so you will need to pick your loadout carefully. Access the Marketplace to purchase limited quantities of weapons, medical equipment, gear, and ammunition. Whether you prefer to scope in from afar or keep things close and personal, loud or quiet, day or night, rain or shine - you choose how you get the task done. Simulated ballistic systems affect weapons and have unique characteristics that can be adjusted with attachments. Bringing in the right gear, having a proper plan of attack, and emphasizing tactical plays will maximize the success rate for deployments. CUSTOMIZE TO YOUR OWN STYLE Select and fully customize a wide variety of weapons and gear. Swap out barrels, handguards, foregrips, stocks, sights or magazines and turn your trusty Kalashnikov from a close-quarters menace, into a deadly accurate long-range rifle. Utilize the Gunsmith table to save & load your favorite presets. However, the customizable experience doesn’t stop at your loadout. Play to your strengths or call out your weaknesses by adjusting or fine-tuning AI difficulty at any point to ensure you always have the right level of challenge. WHY ARE YOU HERE? After nearly 20 years, the People’s Liberation Army repels the invasion of Vietnam, and with continued Soviet Union backing, arms manufacturing and exports prosper along with the country as a whole. Another 20 years go by, and the Soviet Union collapses. Vietnam then reluctantly finds its new source of stabilization from the eager West. Years pass and Western influence spreads until the rebuilt Russia helps fund a new political party in its own image, the Vietnamese Communist Union Party (VCUP). Following a heavily tampered election VCUP wins against the old government, who doesn’t go willingly. The less-than-fair election sparks a quiet civil war, both sides fought for by local citizens, and backed by foreign nations in the shadows. A year of “civil war” trudges by slowly. Eventually, Russia grows impatient with the transfer of power and allies itself with North Korea for more direct action, sending in the Iron Guard Corps (IGC). Western nations respond, providing “humanitarian aid” via United Intercontinental Security (UICS), and sick of endless imperialism, the Vietnamese Liberation Front (VLF) rises among the local population to free Vietnam. The tense calm that followed the unjust election quickly falls apart as each faction redoubles its efforts to gain control, ramping up their military forces. Amidst the noise, historic and renowned black-ops corporation FANG has given YOU a promotion. YOUR new operation is to get to know the factions, covertly carry out their tasks against each other, and figure out why you are really here. All you know is that if FANG finds what they are looking for, you will save untold lives. WHO ARE THE PARTIES INVOLVED? UNITED INTERCONTINENTAL SECURITY (UICS) UICS is a semi-neutral European organization that offers humanitarian aid to the locals. Some in their ranks, however, have ulterior motives of violently purging the East. They have established a strong presence, setting up in abandoned military bases and widely expanding their ground. VIETNAMESE LIBERATION FRONT (VLF) The VLF is a growing local movement with new leadership and intentions of liberating Vietnam from foreign influence once and for all. Using their knowledge of the area and lingering connections, their strategic and violent raids continue to succeed against the invading factions. IRON GUARD CORPS (IGC) The IGC, formed by Russia and North Korea, sits in the seat of power, militarily propping up a sympathetic government. Better for Vietnam to be supported by neighbors than the capitalist West. In order to avoid a full world war, the IGC must balance military action and accountability but has no intentions of stepping back.",
+        "image_url": "https://nfapi.noobfeed.com/storage/news/60325/sony-days-of-play-2026-playstation-state-of-play.webp",
+        "description": "🎁 Rewards 🔸 Days of Play 2026: Baby Steps Avatar 🔸 Days of Play 2026: Cairn Avatar 🔸 Days of Play 2026: Lumines Avatar 🔻 NA & SA BD3Q-NNBB-5843 🔻 EU & Africa & Middle East & Oceania & India AAET-4A2C-LLNP 🔻 Asia EK8R-B23R-NEJ2 🔻 JP B4A8-JABE-Q7GL 🔻 Korea 9T2P-CJKC-9GX6 submitted by /u/MeguminShiro [link] [comments]",
         "id_in_db": "t3_1towg96",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "2116120",
-        "genres": [
-            "Action",
-            "Early Access"
-        ],
-        "is_multiplayer": true,
-        "is_online": true,
         "is_dlc_or_addon": false,
-        "persian_summary": "اخیراً اضافه شده - فوریه 2026 Patch 1.3.0.0 با چندین افزودنی مبتنی بر پیشرفت، از جمله Act 1 Campaign، ارتقاء Safehouse، تراز کردن بازیکنان، و اقتصاد بازنگری شده، بعد کاملاً جدیدی را به گیم پلی بازی می بخشد. با این کار، ما یک نقشه گسترده به نام Delta را در کنار اصلاحات جزئی به Quarry و Bunker می آوریم. چندین مکانیک برای پشتیبانی از این سیستم ها اضافه شده است، مانند کار مجدد در بازار سیاه، منابع قابل توجه و نارنجک. این وصله نشان دهنده یک گام بزرگ در مسیری است که ما قصد داریم با خروج از مرحله توسعه آلفا ادامه دهیم. هوش مصنوعی جدید کاملاً بازسازی‌شده توسط Solarint Story Campaign Act 1 of 3: 23 Missions, با صدای جین پری نقشه جدید: Delta جدید سیستم‌های \"Extreme Weather\": باران، رعد و برق جدید رویدادهای In-Raid و ماموریت‌های جانبی سیستم ارتقای Safehouse جدید Boss New: Monstera New IP Systems NewOluseaot با Looseaot Faction: IGC (Iron Guard Corps) خطوط صوتی جدید: جناح های IGC و VLF نورپردازی جدید بهبود یافته در همه نقشه ها جدید..."
+        "persian_summary": "🎁 جوایز 🔸 Days of Play 2026: Baby Steps Avatar 🔸 Days of Play 2026: Cairn Avatar 🔸 Days of Play 2026: Lumines Avatar 🔻 NA & SA BD3Q-NNBB-5843 🔻 EU & Africa & Middle East-Ndia & Oce 🔻 Asia EK8R-B23R-NEJ2 🔻 JP B4A8-JABE-Q7GL 🔻 Korea 9T2P-CJKC-9GX6 ارسال شده توسط /u/MeguminShiro [لینک] [نظر]"
     },
     {
         "title": "psa nordic storm solitaire legacy games moon mystery egs pro basketball manager 2026 amazon games are complimentary with amazon prime",
@@ -1000,33 +1014,37 @@
         "title": "stacked",
         "store": "other",
         "url": "https://givee.club/en/event/1328",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4542110/da1880d7aa38b3a5a396f5a63e36465e5fc9f661/header.jpg?t=1775508904",
-        "description": "Every round, the game changes. Full Stacked is a fast-paced multiplayer FPS where every round you draft powerful cards that warp the rules of combat. Stack explosive rounds with homing bullets. Combine a grappling hook dash with featherfall. Turn your shield into a body-swapping teleporter. Build Your Loadout, Break the Game After each round, pick from a hand of cards that permanently modify your abilities for the rest of the match. Simple stat boosts? Sure. But legendary cards let you steer bullets mid-flight, respawn from the dead, or turn your shield into a gravity well that pulls enemies in. Cards stack, cards combo, and the right picks at the right time can turn a losing match into an unstoppable run. Fast, Fluid Combat Dash through danger. Raise your shield at the last second. Crouch, slide, and double-jump across different maps. Different weapons each play differently: burst rifles for mid-range pressure, snipers for patient picks, grenade launchers for area denial, and trusty pistol. Play Your Way Jump into Free-For-All or team up in 2v2 matches with up to 4 players. Hosts can tweak everything — wins needed, cards offered per round, map rotation, available weapons, and more. Quick brawls or long strategic series, you set the stakes.",
+        "image_url": "https://external-preview.redd.it/lPWUtU12cyzdiVAimFNEcUbL0XqmlKMzic1c7zItvIU.jpeg?width=320&crop=smart&auto=webp&s=f0b660f6af04c60c121a430f10b002119153d510",
+        "description": "submitted by /u/Fhczvyd474374846 [link] [comments]",
         "id_in_db": "t3_1tpjcyj",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "4542110",
-        "genres": [
-            "Action"
-        ],
-        "is_multiplayer": true,
-        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "هر دور، بازی تغییر می کند. Full Stacked یک FPS چند نفره سریع است که در هر دور کارت‌های قدرتمندی تهیه می‌کنید که قوانین مبارزه را تغییر می‌دهد. گلوله های مواد منفجره را با گلوله های خانگی روی هم قرار دهید. یک دایره قلاب گیره دار را با پرها ترکیب کنید. سپر خود را به یک تله‌پورتر تعویض بدن تبدیل کنید. Loadout خود را بسازید، بازی را بشکنید بعد از هر دور، از بین کارت هایی انتخاب کنید که توانایی های شما را برای بقیه بازی به طور دائم تغییر می دهند. افزایش آمار ساده؟ مطمئنا اما کارت‌های افسانه‌ای به شما این امکان را می‌دهند که گلوله‌ها را در اواسط پرواز هدایت کنید، از مردگان دوباره بیرون بیاورید، یا سپر خود را به چاه گرانشی تبدیل کنید که دشمنان را به داخل می‌کشد. پشته کارت‌ها، ترکیب کارت‌ها و انتخاب‌های مناسب در زمان مناسب می‌تواند یک مسابقه باخت را به یک دویدن غیرقابل توقف تبدیل کند. مبارزه سریع و سیال از طریق خطر. سپر خود را در آخرین ثانیه بالا ببرید. دولا شدن، اسلاید کردن، و دوبار پرش در نقشه های مختلف. اسلحه‌های مختلف هرکدام متفاوت بازی می‌کنند: تفنگ‌های انفجاری برای فشار میان برد، تک‌تیرانداز برای انتخاب بیمار، نارنجک‌انداز برای انکار منطقه، و قابل اعتماد..."
+        "persian_summary": "ارسال شده توسط /u/Fhczvyd474374846 [لینک] [نظر]"
     },
     {
         "title": "starting 526 weekly skins for lead up to 10th anniversary",
         "store": "other",
         "url": "https://www.reddit.com/r/deadbydaylight/comments/1trcw9z/incase_anyone_missed_it_there_are_free_skins_in/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button",
-        "image_url": "https://external-preview.redd.it/q0nhncgkh44h1.jpeg?width=320&crop=smart&auto=webp&s=98f4a76ec9699a88a8b77ac7d5cd5d769a348eea",
-        "description": "You've got mail. (You have to log in and hit claim to get them from your inbox and it looks to expire on 6/2 which I'm guessing is when it's replaced with more of the same set (currently the torso skins for Candlekeep Wraith and Demi-God David). More info on the Road to the 10th Anniversary bonuses and the steam link to the currently active codes is in the full post I put on the DBD reddit. Happy Friday & Weekend! submitted by /u/Blind-_-Tiger [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/656240/50f7de554f4b49d8d8472197562e89271c5e0cf0/header.jpg?t=1741841406",
+        "description": "Homestead (Singleplayer Mode) Grandpa has passed down his old farm to you. Help nurture it back to life in the new Homestead mode for Heat. Homestead is a new Single Player mode, in which you build an amazing farm by day, and go to sleep at night. It was inspired by games such as Harvest Moon and Stardew Valley, but we wanted to take it in a different direction, mixing in many survival elements. You can pick from 10 different scenarios. Each scenario has a different starting homestead, starting equipment, and some have special conditions. The game saves when you sleep at night, you can load up old saves, and it supports full admin commands. Heat (Multiplayer Mode) Survive the wilderness, build a home, raise a family, and expand your territory. Gain power as President, deliver justice as Sheriff, fight for your tribe as Chief, or show some southern hospitality as Governor. Begin your new life in 19th century America. Heat is an online multiplayer survival mode for up to 40 players. Environment There are 20 unique biomes in Heat spread out over a 67km2 world, each with its own sub-biomes to explore. We developed a unique way to create dense forest floors which requires players to clear the land in order to build. Explore vast and diverse landscapes ranging from the cold mountainous peaks to the tropical seashores, and from the harsh deserts to the muggy swamplands. Built from the roots up using real-world photogrammetric data, experience next generation graphics in both variety and detail. Seasons & Dynamic Weather The game world visually updates in real time based on the season you are in. Play through all four seasons. Enjoy the crisp colors of fall, or the long snowy days of winter. Prepare your homestead for the winter time by keeping ample food supply as you cannot farm during this season. Wear some insulated clothes, keep them dry, and light some furnaces to keep warm. Check the Newspaper for a weekly weather forecast, as its important to know when the rains will come. Towns, Merchants, and Outlaws Visit the towns of Washington, Tombstone, and Sacayo. You can buy and sell at them, and each town has some unique goods for sale in which you can trade between towns for a profit. Merchants sell items you cannot buy from the shipping bin catalogue, and are a convenient way to sell your items when traveling. Get a good nights rest at the local Inn, and deposit some money at the bank for safe keeping. You can also gift a dowry to any townsfolk in order to buy their affection. Fast travel between towns by buying a ticket for the train at the train stations. However, be careful to obey the law and not shoot at townsfolk and merchants. By doing so, you will be labelled an Outlaw, receive Heat, and have the law chase you down. Stockpiles and Shipping Bin We introduce a new concept in stockpiles. Heavy goods require physical space for storage, so while you can still store light goods in your small containers, wood, stone, ore, and other heavy materials must be stored in large stockpiles. This gives players a visual representation of their goods, and since stockpiles take up space, thought must also go into defending them. Each player also can craft a stash container which accepts a mix of light and heavy goods to help get them started, but these come with limited slots. Players may also build shipping bins. These can be placed in your base and you may sell harvested, crafted, and farmed goods in them for in-game currency. Shipping bins also come with a catalog with which you may order items using your hard earned in-game currency. Farming and Cooking Get farm-ready with the hoe, watering can, sprinklers, and scythe. Each tool has its own set of tiers, and there are a variety of crops that may be planted. Fertilizers are also an important consideration for the aspiring farmer. Once your crops have matured, harvest them and bring them to the cooking stations in order to produce a wide range of food types. You may also decide to sell your crops in your shipping bin and buy more seed for your farming operation. Building & Crafting Construct your new home - From a quick hobo shack, a rustic cabin deep in the woods, a refined mansion, or a giant fortress. Craft and place walls, floors, doors, windows, furniture, and other fixtures individually by your own design. Process goods with sawmills, tanneries, smelters and other workstations. These materials will aid in crafting at various workstations and purchasing blueprints. Protect your establishment with well-placed cannons and strategically planned fortifications using massive rampart building sections. Mounts, Livestock & Wildlife The landscape is populated by a variety of American wildlife, all of which can be hunted - assuming you are not hunted yourself. But they can also be tamed, whether as livestock or as a beloved pet. You may ride tamed horses, as well as other animals - even bears! Survival Gather and hunt for food to keep yourself strong. Collect a variety of raw materials from nature for use in crafting, building and refinement. Once you have the basics of sticks and stones down, you may begin your journey towards establishing yourself as an industrious and powerful colony or even President of the United States. There will be struggles and fallbacks along the way. Your character may be killed and robbed, where everything he or she has equipped is taken. Your property may be broken into and looted by a gang of raiders lead by other players. But with plenty of resources and defensive tactics at your disposal, raiders will be in for a serious fight. Go Forth and Multiply Start a family with other players or NPCs. Players can give birth to a newborn. The newborn grows to become a baby, the baby then grows up to be a child, the child eventually becomes an adult. A second option is to adopt from an orphanage by purchasing a baby basket in the shipping catalog. The baby will be inside the basket delivered to you. Adoption is very expensive, but provides a guaranteed outcome. Your children are a mix of the visual DNA of the two parents. Babies, children, and adults will need to feed and stay hydrated. Once your kids become adults you can equip them with outfits, gear, and weapons. They can help protect you when you are online. Road Building Build roads in the game or create pads around your base using the rake tool. Players may build roads using a variety of materials ranging from wood chips, dirt, sand, gravel, pavement and more. Players may also place freshly cut lawn for a well-kept look. Seats of Power As President, you own the Whitehouse, a section of land south of the monument, one intern, a golden gun, and two secret service NPCs. You also get to set and collect a President’s land tax. Players may also become the Sheriff, Chief, or Governor. Each are given their own areas, items, and NPCs. Combat & Capture On your adventures you'll encounter other players who may or may not be friendly. Likewise, you may not be so friendly either given these tactics at your disposal: - Fill 'em full of lead with plenty of handguns, rifles, shotguns and other firearms to craft. - Take the more silent approach with bows and javelins that will leave your foes looking like a pin cushion. - Get up in their face with melee instruments, or beat them down with some good old blunt force. - Capture, restrain, and put them into your interrogation dungeon with its various contraptions. - Messily dismember with a well-placed strike or shotgun blast. - Blow them to smithereens with artillery cannon fire and TNT. - Experience the thrill of vigilante justice from either a first or third person perspective. Character Customization Choose your gender and tune your appearance to your liking, including variations in skin tone, height and girth, the shape of facial features, hair or lack thereof, and voice tone.",
         "id_in_db": "t3_1trd3m6",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
+        "steam_app_id": "656240",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Indie",
+            "RPG",
+            "Simulation"
+        ],
+        "is_multiplayer": true,
+        "is_online": true,
         "is_dlc_or_addon": false,
-        "persian_summary": "شما نامه دارید (شما باید وارد شوید و ادعا را بزنید تا آنها را از صندوق ورودی خود دریافت کنید و به نظر می رسد در 6/2 منقضی می شود که من حدس می زنم زمانی است که با تعداد بیشتری از همان مجموعه جایگزین می شود (در حال حاضر پوسته های تنه برای Candlekeep Wraith و Demi-God David). اطلاعات بیشتر در مورد Road to the 10th Anniversary پیوند کد کاملی است که در حال حاضر در پست کدهای فعال در پاداش های فعال قرار داده شده است. DBD reddit و آخر هفته ارسال شده توسط /u/Blind-_-Tiger [نظرات]"
+        "persian_summary": "Homestead (حالت تک نفره) پدربزرگ مزرعه قدیمی خود را به شما منتقل کرده است. در حالت جدید Homestead برای Heat به زنده شدن آن کمک کنید. Homestead یک حالت Single Player جدید است که در آن روز یک مزرعه شگفت انگیز می سازید و شب ها به خواب می روید. این بازی از بازی‌هایی مانند Harvest Moon و Stardew Valley الهام گرفته شده بود، اما ما می‌خواستیم آن را در مسیری متفاوت قرار دهیم و عناصر بقای زیادی را با هم ترکیب کنیم. شما می توانید از 10 سناریو مختلف انتخاب کنید. هر سناریو دارای یک خانه شروع متفاوت، تجهیزات شروع، و برخی از آنها شرایط خاصی دارند. بازی هنگام خواب شبانه ذخیره می شود، می توانید سیوهای قدیمی را بارگیری کنید و از دستورات مدیریت کامل پشتیبانی می کند. گرما (حالت چند نفره) در بیابان زنده بمانید، خانه بسازید، خانواده تشکیل دهید و قلمرو خود را گسترش دهید. به عنوان رئیس جمهور قدرت به دست آورید، به عنوان کلانتر عدالت را اجرا کنید، به عنوان رئیس برای قبیله خود بجنگید، یا به عنوان فرماندار مهمان نوازی جنوبی را نشان دهید. زندگی جدید خود را در آمریکای قرن نوزدهم آغاز کنید. Heat یک حالت بقا چند نفره آنلاین برای حداکثر 40 بازیکن است."
     },
     {
         "title": "svarogs dream bundle",
@@ -1042,17 +1060,50 @@
         "persian_summary": "ارسال شده توسط /u/Bassfaceapollo [پیوند] [نظر]"
     },
     {
-        "title": "the time shift warrior under the waves heavy rain beyond",
-        "store": "indiegala",
-        "url": "https://www.indiegala.com/store/publisher-sale/quantic-dream",
-        "image_url": "https://external-preview.redd.it/89yqmcLJGEXBeS-iw4v3mTelhNkecaH7KT2M0GFmzHY.jpeg?width=640&crop=smart&auto=webp&s=5c428f42ef85ec5afe05e0cb97748bdee1ee3340",
-        "description": "submitted by /u/indieg [link] [comments]",
-        "id_in_db": "t3_1tr90t4",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "91% off",
+        "title": "tell me why",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1180660/Tell_Me_Why/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1180660/header.jpg?t=1780349055",
+        "description": "Tell Me Why is the latest narrative adventure game from DONTNOD Entertainment, the studio behind the beloved franchise, Life is Strange. In this intimate mystery, reunited twins Tyler and Alyson Ronan use their supernatural bond to unravel the memories of their loving but troubled childhood. Set in beautiful small-town Alaska, Tell Me Why features true-to-life characters, mature themes and gripping choices. As you conjure up memories of the past, your choices will affect the twins’ relationship, determine the strength of their bond, and shape the course of their lives. Revisit your past, discover the truth, and shape your future • Uncover the truth – Use the twins’ supernatural bond to relive and explore their conflicting childhood memories. • Shape your Story – Influence the relationship between Tyler and Alyson with choices that will determine their future. • Unlock even more secrets – Match wits with puzzles that deepen the story and open a window into the twins’ fantasy world, “The Book of Goblins.” Experience true-to-life setting and characters • Unique characters – Build relationships and solve mysteries through the eyes of compelling and realistic characters. • Alaskan splendor – Explore locations set in beautiful, highly detailed small-town Alaska in stunning 4K and HDR. Storytelling with purpose – DONTNOD Entertainment and Xbox Game Studios conducted on-the-ground research and partnered closely with cultural, mental health and gender advocates to craft a thoughtful, true-to-life experience.",
+        "id_in_db": "t3_1tu6c0a",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "1180660",
+        "genres": [
+            "Adventure",
+            "Free To Play"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "age_rating": "Drug Reference\r\nMild Blood\r\nStrong Language\r\nViolence",
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/indieg [لینک] [نظر]"
+        "persian_summary": "به من بگو چرا آخرین بازی ماجراجویی روایی از DONTNOD Entertainment، استودیو پشت فرنچایز محبوب، Life is Strange است. در این معمای صمیمی، دوقلوهای تایلر و آلیسون رونان که دوباره به هم پیوسته اند، از پیوند ماوراء طبیعی خود برای کشف خاطرات دوران کودکی دوست داشتنی اما مشکلشان استفاده می کنند. در شهر کوچک زیبای آلاسکا، به من بگو چرا شخصیت‌های واقعی، تم‌های بالغ و انتخاب‌های جذاب دارد. همانطور که خاطرات گذشته را تداعی می کنید، انتخاب های شما بر روابط دوقلوها تأثیر می گذارد، استحکام پیوند آنها را تعیین می کند و مسیر زندگی آنها را شکل می دهد. گذشته خود را دوباره مرور کنید، حقیقت را کشف کنید و آینده خود را شکل دهید • حقیقت را کشف کنید - از پیوند فوق طبیعی دوقلوها برای زنده کردن و کشف خاطرات متناقض دوران کودکی آنها استفاده کنید. • داستان خود را شکل دهید - با انتخاب هایی که آینده آنها را تعیین می کند، بر رابطه بین تایلر و آلیسون تأثیر بگذارید. • رازهای بیشتری را باز کنید - عقل را با معماهایی هماهنگ کنید که داستان را عمیق تر می کند و پنجره ای را به دنیای فانتزی دوقلوها باز می کند،..."
+    },
+    {
+        "title": "tell me why 100 offfree",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1180660/Tell_Me_Why/",
+        "image_url": "https://external-preview.redd.it/j5cnJVuPl8JBq9ugmGFP8hVEucTCZL0Y1PN2HyG5TZI.jpeg?width=320&crop=smart&auto=webp&s=d0c39c08c5515fa9af856169f4800025618f6fa8",
+        "description": "submitted by /u/UnseenData [link] [comments]",
+        "id_in_db": "t3_1tu6e0x",
+        "subreddit": "GameDeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/UnseenData [پیوند] [نظر]"
+    },
+    {
+        "title": "Tell Me Why: Chapter 1",
+        "id_in_db": "tell-me-why-chapter-1@1780349442",
+        "store": "other",
+        "url": "https://itad.link/019e8518-404a-709b-ae47-a4ef949552ea/",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1180660/header.jpg?t=1780349055",
+        "is_dlc_or_addon": false,
+        "persian_summary": "",
+        "description": ""
     },
     {
         "title": "the world ends in ohio",
@@ -1118,7 +1169,7 @@
         "title": "windows macos down in bermuda ca2199 free overcome creatures of the deep and unravel the islands secrets in search for a way back home",
         "store": "epicgames",
         "url": "https://store.epicgames.com/p/down-in-bermuda",
-        "image_url": "https://cdn1.epicgames.com/spt-assets/77dba99a6e6245d19bb2fb552cb7590c/down-in-bermuda-video-ctbq7.png?resize=1&w=480&h=270&quality=medium",
+        "image_url": "https://images.gog-statics.com/f66a7192cfaf9537ffa2a115e43e33d80c640e174a8258b6fb4fe81962398a97.jpg",
         "description": "submitted by /u/PM_ME_FREEGAMES [link] [comments]",
         "id_in_db": "t3_1tjnasr",
         "subreddit": "AppHookup",
@@ -1126,18 +1177,5 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/PM_ME_FREEGAMES [پیوند] [نظر]"
-    },
-    {
-        "title": "xbox store pc metro saga bundle",
-        "store": "xbox",
-        "url": "https://www.xbox.com/en-US/games/store/Metro-Saga-Bundle/9PLCPC32SWLZ",
-        "image_url": "https://store-images.s-microsoft.com/image/apps.52933.13527977782474486.a372844e-a162-4ec0-8cec-cf2a519ace10.bc3c214c-db43-445b-be30-5a3686893016?q=90&w=480&h=270",
-        "description": "submitted by /u/decriper [link] [comments]",
-        "id_in_db": "t3_1tqk53h",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "90% off",
-        "is_dlc_or_addon": true,
-        "persian_summary": "ارسال شده توسط /u/decriper [لینک] [نظر]"
     }
 ]
