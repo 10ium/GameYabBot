@@ -34,19 +34,6 @@
         "persian_summary": "Archipelago یک حرکت سریع سرکش است که در مجموعه ای از جزایر شناور قرار دارد. توانایی های حرکتی متعددی برای عبور از گستره بین جزایر موجود است. بازیکن باید از جزیره ای به جزیره دیگر برای مبارزه با دشمنان برود تا خود را برای سطوح پایین تر تقویت کند. هر چه پایین تر می روید، بازی به طور مداوم دشوارتر می شود. یک جریان انقباض را در بازی خود بگنجانید تا چیزها را ادویه کنید! از طریق چند دستور چت، چت انقباض می تواند به بازیکن آسیب برساند یا کمک کند."
     },
     {
-        "title": "beyond solar",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/1281560/Beyond_Solar/",
-        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1281560/bac8578d3736b1a813a1b37e8808b2cb8bb25dc3/capsule_616x353.jpg?t=1780923424",
-        "description": "submitted by /u/Odd-Call6699 [link] [comments]",
-        "id_in_db": "t3_1uyabye",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "80% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/Odd-Call6699 [پیوند] [نظر]"
-    },
-    {
         "title": "cairn haven squids odyssey furi furi",
         "store": "indiegala",
         "url": "https://www.indiegala.com/store/publisher-sale/the-game-bakers",
@@ -109,14 +96,35 @@
         "title": "definitely sneaky but not sneaky",
         "store": "steam",
         "url": "https://store.steampowered.com/app/954010/Definitely_Sneaky_But_Not_Sneaky/",
-        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/954010/68ed86ad2b33cbad31d8b21c45421dcc4422fffd/capsule_616x353.jpg?t=1778568915",
-        "description": "submitted by /u/SimplyGuy [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/954010/583664f0b62f53cda0f187cc797b36c391bb523e/header.jpg?t=1778568915",
+        "description": "Definitely Sneaky But Not Sneaky is a top-down action game with increasing difficulty levels. Earn points by efficiently completing missions to unlock different weapons, items, and skills you can combine into custom loadouts! Local multiplayer 4-person local multiplayer supports mixing different control types (one player on a keyboard, another on a PS4 controller, and a third on an Xbox controller, etc.) to get as many people playing as possible. Use Steam's Remote Play feature to play with other Steam users with just one copy of the game! Action-Stealth gameplay Approach missions in different ways depending on your loadout and strategy. Take out enemies before they notice you with close-ranged melee and silenced weapons! Or run in with a shotgun and some grenades. VR Support Play the game with a VR headset and controllers to immerse yourself completely in the sneakiness. With VR, the game turns almost into a board game that you can resize, rotate, and move around to your liking! Slow-motion Slow-motion effects activate throughout the game. Use them to your advantage to get extra time to make decisions! Party mode Play local co-op versus with 2-4 players. Go free-for-all or split into teams! Zombie mode Survive never-ending waves of zombies, purchase upgrades with kills, and explore the larger maps! Mission editor with Steam Workshop integration With the built-in editor, create all the missions you can see in the Missions mode and more! Create missions, string them into mission packs, and share them with the Steam community via Steam Workshop. Download others' published packs to play. Gamepad support With both keyboard/mouse and controller support, you can play the game whichever way is most comfortable. However, the game plays better with a controller .",
         "id_in_db": "t3_1v0dxr7",
         "subreddit": "GameDeals",
         "is_free": false,
         "discount_text": "75% off",
+        "steam_app_id": "954010",
+        "genres": [
+            "Action",
+            "Casual",
+            "Indie"
+        ],
+        "is_multiplayer": true,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/SimplyGuy [پیوند] [نظر]"
+        "persian_summary": "Definitely Sneaky But Not Sneaky یک بازی اکشن از بالا به پایین با سطح سختی فزاینده است. با انجام کارآمد ماموریت‌ها امتیاز کسب کنید تا سلاح‌ها، آیتم‌ها و مهارت‌های مختلفی را باز کنید که می‌توانید در بارگیری‌های سفارشی ترکیب کنید! بازی Local Multiplayer 4 نفره از ترکیب انواع مختلف کنترل (یک بازیکن روی صفحه کلید، دیگری روی کنترلر PS4 و سومی روی کنترلر Xbox و غیره) برای جذب هرچه بیشتر افراد ممکن است پشتیبانی می کند. از ویژگی Remote Play Steam برای بازی با سایر کاربران Steam تنها با یک نسخه از بازی استفاده کنید! گیم پلی Action-Stealth بسته به بارگذاری و استراتژی خود به ماموریت ها به روش های مختلف نزدیک شوید. دشمنان را قبل از اینکه متوجه شما شوند با سلاح‌های غوغا و خاموش‌شده دور کنید! یا با یک تفنگ ساچمه ای و چند نارنجک وارد شوید. پشتیبانی VR بازی را با یک هدست و کنترلرهای واقعیت مجازی انجام دهید تا کاملاً در فضای مخفیانه غوطه ور شوید. با VR، بازی تقریباً به یک بازی رومیزی تبدیل می شود که می توانید اندازه آن را تغییر دهید، بچرخانید و به دلخواه حرکت کنید!..."
+    },
+    {
+        "title": "derail valley 2999 transport fever 2 799 rail route 999 last train home 1319 captain of industry 2449 shapez 2",
+        "store": "steam",
+        "url": "https://store.steampowered.com/category/trains",
+        "image_url": "https://external-preview.redd.it/taLko0oBv0gzU_FWkgTVlCa_Rdniscgh6d74oUVJ5rw.jpeg?width=640&crop=smart&auto=webp&s=8465b3d00d48be1311f8a9bf8fa68a4df6bfaf15",
+        "description": "submitted by /u/Xathech [link] [comments]",
+        "id_in_db": "t3_1v2q7yu",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "25% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/Xathech [لینک] [نظر]"
     },
     {
         "title": "dragons npc dice pack volume 1",
@@ -259,7 +267,7 @@
         "title": "fortuna digital tabletop tavern 1119",
         "store": "other",
         "url": "https://fortunadigital.net/games/tabletop-tavern",
-        "image_url": "https://api.fortunadigital.net/storage/v1/object/public/media/p-img/tabletop-tavern/card/tabletop-tavern_card_1784277250840.webp",
+        "image_url": "https://api.fortunadigital.net/storage/v1/object/public/media/p-img/tabletop-tavern/hero/tabletop-tavern_hero_1784277250264.webp",
         "description": "submitted by /u/spiderwebdesign [link] [comments]",
         "id_in_db": "t3_1v0yk4r",
         "subreddit": "GameDeals",
@@ -307,21 +315,14 @@
         "title": "into the depths",
         "store": "steam",
         "url": "https://store.steampowered.com/app/3705150/Into_The_Depths/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2787360/header.jpg?t=1718823543",
-        "description": "A classic grid & turn-based roguelike, procedurally generated dungeon crawler, aimed at re-creating the games of yesteryear. Embark on a nostalgic journey with our classic turn-based roguelike dungeon crawler, crafted to evoke the souls of games from the classic eras. Select your path from various classes: Knight, Necromancer, and Mage. Or, if you crave an unforgiving challenge, take on the Naked Class. Begin as an old man with nothing – minimal HP and scarce magical abilities. Your adventure begins at the dungeon's top floor, and your quest is to delve deeper through ten progressively challenging levels. Each level introduces heightened difficulty, more diverse enemy types, and increased numbers. Can you endure the trials of this procedurally generated dungeon and conquer all ten terrifying levels? The choice is yours.",
+        "image_url": "https://external-preview.redd.it/JttbpOiBrYr1dFJb3KIjMi4BiaLXsMr7kLd-R7djTAY.jpeg?width=320&crop=smart&auto=webp&s=bd44684e0e046ffbccbe5dcfdecbc98e317b6736",
+        "description": "submitted by /u/SmelJey [link] [comments]",
         "id_in_db": "t3_1uz63t7",
         "subreddit": "GameDeals",
         "is_free": false,
         "discount_text": "20% off",
-        "steam_app_id": "2787360",
-        "genres": [
-            "Indie",
-            "RPG"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "یک خزنده سیاهچال کلاسیک شبکه‌ای و نوبتی که به‌صورت رویه‌ای ایجاد شده و هدف آن بازسازی بازی‌های گذشته است. سفری نوستالژیک را با خزنده سیاه چال سرکش مبتنی بر نوبت کلاسیک ما آغاز کنید، که برای تداعی روح بازی‌های دوران کلاسیک ساخته شده است. مسیر خود را از کلاس های مختلف انتخاب کنید: Knight، Necromancer و Mage. یا اگر هوس یک چالش نابخشودنی دارید، در کلاس برهنه شرکت کنید. به عنوان یک پیرمرد بدون هیچ چیز شروع کنید - حداقل HP و توانایی های جادویی کمیاب. ماجراجویی شما در طبقه بالای سیاه چال آغاز می شود و تلاش شما این است که در ده سطح به تدریج چالش برانگیز عمیق تر شوید. هر سطح دشواری بیشتر، انواع دشمنان متنوع تر و تعداد افزایش یافته را معرفی می کند. آیا می‌توانید آزمایش‌های این سیاه‌چال که به‌طور رویه‌ای ایجاد شده را تحمل کنید و هر ده سطح وحشتناک را فتح کنید؟ انتخاب با شماست."
+        "persian_summary": "ارسال شده توسط /u/SmelJey [لینک] [نظر]"
     },
     {
         "title": "keepup survival",
@@ -348,14 +349,23 @@
         "title": "lawnmower game beer",
         "store": "other",
         "url": "https://gleam.io/dQuUS/free-x2500-lawnmower-game-beer",
-        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4404630/29d1cd22ba57e2243ffc214a89b919d3eb4144ee/capsule_616x353.jpg?t=1772008352",
-        "description": "submitted by /u/EinHaDe [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4404630/b8b3bfd64dee78be4bce679ea962b60705cb5b65/header.jpg?t=1772008352",
+        "description": "Story: Lawnmower game series newest racing simulation themed game. 1 small open world where mission is to find 10 hidden beer bottles. Finding all game is finished. Those beer bottles are hidden in different places in small open world. Player has health system and need avoid bombs and zombies, by hitting those player health will decrease and when player dies game restarts. Player also can collect steam achievements by playing enough long Features: - small area, 10 hidden beer bottles - Deathly following zombie enemies, which can kill player. - bombs Play enough to collect steam achievements Health system",
         "id_in_db": "t3_1utptrg",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
+        "steam_app_id": "4404630",
+        "genres": [
+            "Adventure",
+            "Indie",
+            "Racing",
+            "Simulation"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/EinHaDe [پیوند] [نظر]"
+        "persian_summary": "داستان: سری بازی Lawnmower جدیدترین بازی شبیه سازی مسابقه ای. 1 جهان باز کوچک که در آن ماموریت یافتن 10 بطری آبجو مخفی است. یافتن همه بازی به پایان رسید. آن بطری های آبجو در مکان های مختلف در جهان باز کوچک پنهان شده اند. بازیکن دارای سیستم سلامتی است و باید از بمب ها و زامبی ها دوری کند، با زدن آن ها سلامت بازیکن کاهش می یابد و زمانی که بازیکن بمیرد بازی دوباره شروع می شود. بازیکن همچنین می تواند با بازی به اندازه کافی طولانی دستاوردهای بخار را جمع آوری کند. ویژگی ها: - منطقه کوچک، 10 بطری آبجو پنهان - دشمنان زامبی به دنبال مرگبار، که می تواند بازیکن را بکشد. - بمب ها به اندازه کافی برای جمع آوری دستاوردهای بخار بازی کنید سیستم سلامت"
     },
     {
         "title": "lost explorers swords pack",
@@ -401,7 +411,7 @@
         "title": "luto",
         "store": "epicgames",
         "url": "https://store.epicgames.com/p/luto-0a4ab3",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257152491/ff69cadf4a1e80d77c0e38dca7352fb94b14895a/movie_232x130.jpg?t=1749328351",
+        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/257152491/ff69cadf4a1e80d77c0e38dca7352fb94b14895a/movie_232x130.jpg?t=1749328351",
         "description": "submitted by /u/StOoPiD_U [link] [comments]",
         "id_in_db": "t3_1uy5bpe",
         "subreddit": "FreeGameFindings",
@@ -414,7 +424,7 @@
         "title": "pcconsole other assassins creed black flag resynced",
         "store": "other",
         "url": "https://www.reddit.com/r/FreeGameFindings/comments/1utjz2i/pcconsole_other_assassins_creed_black_flag/",
-        "image_url": "https://images.steamgamecovers.com/large/9541.png",
+        "image_url": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4V00cJ5WXweicgZbfuozAX/abf0ff70d9ffc60eefca8ef6ee8bffe7/blackflagthumbnail.jpg",
         "description": "Looks like there will be more rewards so instead posting each of them one by one, putting them in one thread and updating it instead. 🎁 Direct Redeem Crimson Storm Sails + 1,500 Keys Pirate Monkey Quiz｜ Wings of the Tempest Sails 📺 Twitch Drops 2 hours｜Rustborne Swords 4 hours｜Cheetah Claw Cat submitted by /u/MeguminShiro [link] [comments]",
         "id_in_db": "t3_1utjz2i",
         "subreddit": "FreeGameFindings",
@@ -426,21 +436,15 @@
     {
         "title": "pcconsole other black desert online",
         "store": "other",
-        "url": "https://www.zoom-platform.com/summer-2026-sale",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/485610/0becb5b8e325d08101422223602d6e68abafa9e5/header.jpg?t=1780304174",
-        "description": "Features Multiplayer 11 Game modes 21 Stadiums Dedicated servers Antilag system Realistic physics Ball editor Customization Bots Tutorial Replays Statistics Soccer Game Soccer Online: Ball 3D is the first soccer game in a new genre. Control one player on the virtual field. Kick the ball high, low, hard, lightly, curve, lob, jump, dribble, sprint (dash) and perform tricks. Discover a multi-player football simulator played by over 1 million players. Gameplay Ball 3D is an immersive computer game where you have 100% control. The physics is powered by a professional physics engine, which ensures realistic ball behavior. Because this is a physics-driven game, you need to use the geometry of the in-game objects to control them. Third person camera view makes the gameplay very unique in the electronic gaming world. At last a game that lets you perform pixel perfect moves. Open yourself to an atmospheric, magic reality, gain access to a new world where your unreal fantasy of becoming a soccer player will come true. Not many aaa titles offer what you will find in this hidden gem, it may be your best choice. This competitive team-based game is a true marvel for real-life soccer fans, offering endless fun. Soccer Online Playing single-player vs bots is so fun, but this is a modern esport game. Play online in the cross-platform multiplayer and play with other humans over the internet (or local network). Exciting and addictive Co-Op/PvP is the strongest element of this indie game. More than soccer Ball 3D has other sports for you to enjoy on-line: Basketball, Handball, Ice Hockey, Racing, Battle Royale and more. In Battle Royale survival is the key. Carefully overwatch the entire battlefield and avoid your opponents at all cost. It is not a shooter, there is no crosshair, the only weapon you have is you). You win this combat only when all your rivals are \"dead\". Use your reflex to win this epic war. The racing mode is like a kart racer, but with discs. During the race you drive using your mouse and keyboard as a controller. In Hockey mode you play with a puck. Ball 3D is a multi-sport simulation game available on laptop/desktop PC (Windows), Mac/Macbook (MacOS) and Steam Deck (Linux). Absolutely unique soccer sim game for casual, hardcore and pro players, where your realtime reaction skills matter. It mixes arcade gameplay with strategy. Fast-paced, easy to play, hard to master e-sport game with creative mechanics. Great to play in 2025 and even in 2026. It may be a light, relaxing and cozy experience. Unlike many RPG games where you level up your character, here your quest is to improve yourself. Whether you prefer golf, tennis, pool, baseball, cricket, volleyball or any other olympic sport, you will still like Ball 3D. Teams Building your own team is half of the success. Choose a name/tag (FC The Best, AS Best Players, EAS-Vampires, Foot Monsters (FM), Greatest Among Many (GAM), FRE or any other) then invite your friends to join the party and become a real team coach/manager. Be ready to compete in global leagues, cups and tournaments. Wouldn't it be nice to join the elite and win the Ball 3D World Cup Grand Final? Reach the peak and become a God, a living legend, the undisputed best Ball 3D player on the planet earth (the GOAT). Meet new friends, write your story and fulfill your American dream! If you lose, challenge your opponents to a rematch. Invite 1, 2 or 5 friends, 6, 7, 10. Not enough? How about 25, 26 or even more. Cooperation is the secret formula. Your team is hollow without it. Try to play positional attacks or it may defend the goal like a tank, lock the penalty area, turn it into a fortress and try counter attacks. Parking a bus in the goal is a sensible tactic too. Picking the best tactic for your team is like solving a puzzle, use your head and logic. Stealing tactics from your opponents is not theft. It is your role to decide if you want to play with one striker or with two, with three defenders or with four. You may try accurate short passes to gain space or full power flat strikes. Try all possible ideas and alternatives or your team will fall. Welcome new players! Simple tutorial will teach you how to play. It will help you massively to improve during the humble beginnings of your career. It is like a sandbox that lets you practice your moves and tricks. Multiplayer The game offers very advanced and optimized network code, including client side prediction anti-lag system and great dedicated servers in various regions that offer low ping. It is one of the most dynamic highest-rated coop soccer games. If you like multiplayer or mmo games you will love it. Ball 3D is mainly not a singleplayer offline PvE game, but you may decide that it is too early to play with real people and prefer to try your 1st game solo vs bots (AI). Man of the match The name of the best player will be featured and shown on the board as the man (woman) of the match. Put your name there and become popular! It tastes really wonderful to reach the apex and become the hero of the match. Replays Replays (demos) will help you craft your soccer skills into an art. Watch the matches from various cameras, including: TV, Action, Top Down, Auto and several others or from the 3rd person perspective. Remember to record replays and save your \"wow\" goals for later. Soccer variations Try modes like: Darts, Ping Pong and others. Ball 3D is a super fun, rich and deep co-operative game not similar to any other. Different environments Play on the grass, darker grass, dried grass, sand (desert), snow, concrete or rust-colored gravel. Play during the sunny summer, cold snowy winter, rainy autumn or green spring. Do you prefer the daylight or the dark night? Clean hot sky, clouds, wind or maybe a rain? Play on stadiums like: Classic, Real, Small, Big, Good, Mega, Huge, a street city stadium called Urban and many others. Ball 3D is a colorful, peaceful, family friendly, non-violent (no violence, no blood) game about soccer with a bit of the old school retro vibe. It can be played by players of all age, kids and adults, boys and girls. No matter what your sex is. Whether you are 18, 24 or 50 years old, boomer or young. Other features The game also offers Steam Trading Cards and Achievements among many other features. Buy and sell in-game items for a very cheap price on the Steam Market (cheapest deals are for less than 0.99 dollars). Get free items (loot inside the boxes) for playing the game and then put them on sale or go to the market and look for some best-sellers for yourself. Visit the shop, where you can find paid items and some attractive discounted bundles that offer great value (halloween, christmas, valentine and others). Tweak the graphics and other settings to get far more fps. The game will work on all computers including bad low spec / low end hardware (potato pc). After you score a goal, you can turn yourself into a rocket, alien, spider, ufo, car, zombie, hat guy vs knights, and many other scary but cartoony monsters, plants and wild animals you may know from horror and sci-fi movies or cartoons. How cool and funny is that? Use stylized visual shot effects like: shadow, ghost, black trail, white shuriken, fire ball, dying star, red devil from hell, rainbow cubes, ancient artifact and countless others. Show emotions to by using special emotion items, the list is long: cute cat, pumpkin smile, wolf, crazy kiss, laugh, cry, XD, lol, bat. Use badges: dog, portal, loops, dwarf, dragon, underground, warrior, hand, heat map, spooky. Join our community. It's not difficult. Start playing soccer right away and begin a new adventure. Support Ball 3D was created by Unusualsoft. You can contact us by email, on the forum, social media or discord. Feel free to ask questions or make suggestions. We will be very happy to reply to you! Updates The game has been already updated over 250 times. Many fun things will be added in the upcoming releases.",
-        "id_in_db": "t3_1uzkzek",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "90% off",
-        "steam_app_id": "485610",
-        "genres": [
-            "Sports"
-        ],
-        "is_multiplayer": true,
-        "is_online": true,
+        "url": "https://na.alienwarearena.com/ucf/show/2175607/boards/contest-and-giveaways-global/Giveaway/black-desert-online-reward-bundle-key-giveaway",
+        "image_url": "https://external-preview.redd.it/_SQkX7IVJkw2C-nax1EwyAfL_4eRFWsvFmWYsqpxQ5g.jpeg?width=320&crop=smart&auto=webp&s=1bb3c78ec5b8213fd5cc6d66adae38735c9f1e3c",
+        "description": "submitted by /u/MeguminShiro [link] [comments]",
+        "id_in_db": "t3_1uyo288",
+        "subreddit": "FreeGameFindings",
+        "is_free": true,
+        "discount_text": "100% Off",
         "is_dlc_or_addon": false,
-        "persian_summary": "ویژگی های چند نفره 11 حالت بازی 21 استادیوم سرورهای اختصاصی سیستم Antilag فیزیک واقعی ویرایشگر توپ سفارشی سازی ربات ها آموزش بازپخش آمار بازی فوتبال فوتبال آنلاین: Ball 3D اولین بازی فوتبال در سبک جدید است. یک بازیکن را در زمین مجازی کنترل کنید. توپ را بالا، پایین، محکم، سبک ضربه بزنید، منحنی کنید، لوب کنید، بپرید، دریبل کنید، دوی سرعت (خط تیره) بزنید و ترفند انجام دهید. یک شبیه ساز فوتبال چند نفره را کشف کنید که توسط بیش از 1 میلیون بازیکن بازی می شود. Gameplay Ball 3D یک بازی رایانه ای همهجانبه است که در آن شما 100% کنترل دارید. فیزیک توسط یک موتور فیزیک حرفه ای طراحی شده است که رفتار واقعی توپ را تضمین می کند. از آنجایی که این یک بازی فیزیک محور است، باید از هندسه اشیاء درون بازی برای کنترل آنها استفاده کنید. نمای دوربین سوم شخص، گیم پلی بازی را در دنیای بازی های الکترونیکی بسیار منحصر به فرد می کند. در نهایت یک بازی که به شما امکان می دهد حرکات پیکسلی عالی را انجام دهید. خودتان را به روی یک واقعیت جوی و جادویی باز کنید، به دنیای جدیدی دسترسی پیدا کنید که در آن فانتزی غیرواقعی شما برای تبدیل شدن به یک فوتبال..."
+        "persian_summary": "ارسال شده توسط /u/MeguminShiro [لینک] [نظر]"
     },
     {
         "title": "pcconsole other world of tanks",
@@ -463,19 +467,6 @@
         "is_online": false,
         "is_dlc_or_addon": false,
         "persian_summary": "World of Tanks چیزی برای همه ارائه می دهد: تاکتیک ها، وسایل نقلیه و حالت های مختلف را امتحان کنید! اکشن و تاکتیک World of Tanks سرعت منحصر به فردی دارد. وسایل نقلیه زرهی آن به اندازه‌ای سریع هستند که شما را وارد عمل کنند، در عین حال آنقدر کند هستند که به شما زمان می‌دهند تا استراتژیک فکر کنید. رفلکس های خوب همیشه یک مزیت هستند، اما این حرکات هوشمندانه و جسورانه است که واقعاً می تواند جریان یک نبرد را تغییر دهد. یک نقطه ضعف در دفاع تیم دشمن را شناسایی کنید، در لحظه مناسب به موقعیتی سودمند بروید، یا به حریف کمین کنید—و احساس قهرمانی خواهید کرد. گیم پلی متنوع سرعت منحصربفرد با شماست که باید کنترل کنید: پنج نوع وسیله نقلیه وجود دارد که هر کدام به طور بسیار متفاوتی بازی می کنند. به طور کلی، تانک های سبک به سرعت و مخفی کاری خود، تانک های سنگین به زره خود، و تانک های متوسط ​​به تطبیق پذیری خود متکی هستند. ناوشکن‌های تانک (TD) از فروشندگان آسیب می‌ترسند، و اسلحه‌های خودکششی (SPG) با استفاده از نمای RTS مانند گلوله‌ها را از دور به سمت دشمنان پرتاب می‌کنند. تقریباً هر یک از بیش از 800 وسیله نقلیه با جزئیات بسیار بالا، که در 11 طبقه و 11 کشور پخش شده اند، احساس می کنند ..."
-    },
-    {
-        "title": "playstation store madruga works games dawn of man planetbase the mobius machine additional 10 off with ps",
-        "store": "other",
-        "url": "https://www.reddit.com/r/GameDeals/comments/1uy8n6t/playstation_store_madruga_works_games_50_off_dawn/",
-        "image_url": "https://image.api.playstation.com/vulcan/ap/rnd/202301/3018/2bWxmixCbRHYB2iXa86XEhoU.jpg",
-        "description": "My name is Tucho from Madruga Works , all our games are 50% off during the Playstation Indies Sale: The Mobius Machine https://store.playstation.com/en-us/concept/10006425/ Dawn of Man https://store.playstation.com/en-us/product/UP2638-PPSA23724_00-MADWDAWNOFMANUS5 Planetbase https://store.playstation.com/en-us/product/UP2638-CUSA10337_00-MADWPLANETBASEUS submitted by /u/MadrugaWorksDev [link] [comments]",
-        "id_in_db": "t3_1uy8n6t",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "50% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "نام من Tucho از Madruga Works است، همه بازی‌های ما در طول فروش Playstation Indies 50% تخفیف دارند: The Mobius Machine https://store.playstation.com/en-us/product/UP2638-CUSA10337_00-MADWPLANETBASEUS ارسال شده توسط /u/MadrugaWorksDev [لینک] [نظر]"
     },
     {
         "title": "pool slide story forest camp story world cruise story zoo park story 76 off",
@@ -508,21 +499,13 @@
         "store": "other",
         "url": "https://gleam.io/vrJV7/free-x2500-sad-virus-darkland-steam-keys",
         "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4563400/267339247432acaa8181da61818fa683b5f98346/header.jpg?t=1775891514",
-        "description": "STORY: Sad virus adventure continue in darkland game where sad virus mission is to collect beer bottles in dark themed world which include graveyard, skulls, skeletons and other dark features. Mission is to find 10 beer bottles in this third person adventure game There are several deathly traps like moving spikes and deathly moving balls. Also there are launchpads so Sad Virus can jump higher to places where are beer bottles. So make virus again happy and avoid deathly traps and find all beer bottles and collect all steam achievements FEATURES: 10 different beer bottles collect to get steam achievements Dark themed land with skulls, skeletons,fire, smoke etc Several traps Checkpoint system",
+        "description": "submitted by /u/EinHaDe [link] [comments]",
         "id_in_db": "t3_1v25jtm",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "4563400",
-        "genres": [
-            "Adventure",
-            "Indie",
-            "Simulation"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "داستان: ماجراجویی ویروس غم انگیز در بازی Darkland ادامه دارد، جایی که ماموریت ویروس غم انگیز جمع آوری بطری های آبجو در دنیای تاریک است که شامل قبرستان، جمجمه، اسکلت و سایر ویژگی های تاریک است. ماموریت یافتن 10 بطری آبجو در این بازی ماجراجویی سوم شخص است. چندین تله مرگبار مانند میخ های متحرک و توپ های متحرک مرگبار وجود دارد. همچنین سکوهای پرتابی وجود دارد تا ویروس غمگین بتواند به مکان‌هایی که بطری‌های آبجو هستند بالاتر بپرد. پس ویروس را دوباره خوشحال کنید و از تله‌های مرگ اجتناب کنید و همه بطری‌های آبجو را پیدا کنید و تمام دستاوردهای بخار را جمع‌آوری کنید. ویژگی‌ها: 10 بطری آبجو مختلف جمع‌آوری می‌شوند تا دستاوردهای بخار را دریافت کنند زمینی با مضمون تاریک با جمجمه، اسکلت، آتش، دود و غیره چندین تله سیستم بازرسی"
+        "persian_summary": "ارسال شده توسط /u/EinHaDe [پیوند] [نظر]"
     },
     {
         "title": "shapez",
@@ -547,17 +530,38 @@
         "persian_summary": "shapez یک بازی کارخانه سازی کم هزینه است که همه چیز درباره اتوماسیون تولید اشکال است. اشکال اصلی را با ماینرها استخراج کنید، آنها را به بخش برش دهید و آنها را به شکل های کاملاً جدید و منحصر به فرد ترکیب کنید. چندین لایه از اشکال مختلف را روی هم قرار دهید و آنها را برای پیشروی به HUB تحویل دهید! با پیشرفت، قفل ساختمان های جدید باز می شوند و اشکال مورد نیاز پیچیده تر می شوند. رنگ را استخراج کرده و از آنها برای رنگ آمیزی اشکال خود استفاده کنید. برای به دست آوردن اشکال مختلف و افزایش تولید خود، در سراسر ماسه‌بازی بی‌نهایت پخش کنید. با افزایش تقاضا و پیچیده‌تر شدن اشکال، از ابزارهای کپی-پیست برای گسترش گسترده کارخانه خود استفاده کنید. رنگ را با هم مخلوط کنید تا رنگ‌های جدید ایجاد کنید، لایه‌های زیادی از شکل‌ها را روی هم قرار دهید و در صورت لزوم توان عملیاتی را افزایش دهید. از این گذشته ، این یک بازی بیکار نیست! با سیم کشی و منطق اختیاری خلاق باشید تا کارخانه خود را مطابق میل خود بهینه کنید و شاید حتی یک ماشین قدرتمند بسازید که بتواند هر شکلی را ممکن کند. بدون هیچ دشمن، تایمر یا محدودیت منابع برای نگرانی، shapez..."
     },
     {
+        "title": "sunward",
+        "store": "itch.io",
+        "url": "https://voidworks-games.itch.io/sunward",
+        "image_url": "https://external-preview.redd.it/Wd8zMl2e-rJJg30tXF7D_qCoXcIxzBb4ucbrzjiNyGA.png?width=320&crop=smart&auto=webp&s=ee414d22c461e71c04692e628f7e5149b64327ab",
+        "description": "submitted by /u/SnooStories2864 [link] [comments]",
+        "id_in_db": "t3_1v1qpzm",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "50% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/SnooStories2864 [پیوند] [نظر]"
+    },
+    {
         "title": "super distro",
         "store": "other",
         "url": "https://gleam.io/49v71/2000x-super-distro-steam-cd-key-giveaway",
-        "image_url": "https://external-preview.redd.it/n43HIYRvtxF50o7TI57AUVYwJo-mGg1h8GP1D_5_4Oc.jpeg?width=320&crop=smart&auto=webp&s=b1ba186456428dc312b2a38b1da47015b2eda1b9",
-        "description": "submitted by /u/thalesulisses_29 [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/364690/header.jpg?t=1686136383",
+        "description": "CONQUER THE BATTLEFIELD WITH SUPER-POWERED ABILITIES AND THE SKILL OF YOUR HOARDING! \"SUPER DISTRO\" is a hard-as-nails (Seriously, Who comes up with these idioms?) 2D platformer in the style of retro games such as Megaman, Super Mario Bros 2: The Lost Levels and other such rage-inducing classics. Taking \"Difficult gameplay\" to a whole new level - SUPER DISTRO is not for the faint-of-heart. You will die again and again. The weak need not apply - Only those who are determined to overcome impossible odds will find victory here and those are the rules of the land in SUPER DISTRO. In the words of a certain sour-tasting character from a popular television show: \"We've have it all!\" \"SUPER DISTRO\" is hopefully unlike anything you've ever played before (We promise that's a good thing!) - Taking familiar staples of excellent games of yesteryear and throwing bucketloads of creativity and innovation (And wall-punching difficulty!) on top; You'll be delighted with the result! Everything has been loving handcrafted by a single guy (With a little help from his friends!) to make sure SUPER DISTRO a stupidly enjoyable, Yet rage-inducing experience.",
         "id_in_db": "t3_1uv6u0z",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
+        "steam_app_id": "364690",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Indie"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/thalesulisses_29 [پیوند] [نظر]"
+        "persian_summary": "میدان نبرد را با توانایی های فوق العاده قدرتمند و مهارت احتکار خود فتح کنید! \"SUPER DISTRO\" یک پلتفرم سخت (به طور جدی، چه کسی با این اصطلاحات می آید؟) پلتفرمر دوبعدی به سبک بازی های یکپارچهسازی با سیستمعامل مانند Megaman، Super Mario Bros 2: The Lost Levels و دیگر آثار کلاسیک خشمگین است. \"بازی دشوار\" را به یک سطح کاملا جدید ببرید - SUPER DISTRO برای افراد ضعیف نیست. بارها و بارها خواهید مرد. لازم نیست افراد ضعیف اعمال شوند - فقط کسانی که مصمم به غلبه بر شانس های غیرممکن هستند در اینجا پیروز خواهند شد و این قوانین سرزمین در SUPER DISTRO است. به قول یک شخصیت ترش مزه از یک برنامه تلویزیونی محبوب: \"ما همه چیز را داریم!\" \"SUPER DISTRO\" امیدوار است با هر چیزی که قبلاً بازی کرده اید متفاوت باشد (ما قول می دهیم که این چیز خوبی است!) - استفاده از قطعات اصلی آشنا از بازی های عالی سال گذشته و پرتاب سطل های خلاقیت و نوآوری (و سختی ضربه زدن به دیوار!) شما با نتیجه خوشحال خواهید شد! همه چیز بوده است..."
     },
     {
         "title": "the final shape marathon starrupture lego voyagers rematch windblown mechabellum cat quest iii gray zone warfare",
@@ -616,22 +620,9 @@
         "url": "https://itad.link/0196faff-71bc-713e-a038-4d8c2e31cd09/",
         "is_free": true,
         "discount_text": "100% Off",
-        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2708790/d8329dc1b09c4bc36904126c1c6c9c4181915b18/page_bg_raw.jpg?t=1775309343",
-        "is_dlc_or_addon": false,
-        "persian_summary": "",
-        "description": ""
-    },
-    {
-        "title": "together after dark",
-        "store": "epicgames",
-        "url": "https://store.epicgames.com/p/together-after-dark-fa0ce0",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2708790/6df984dadfcb8b4affc211bc05b21438c18901c3/header.jpg?t=1775309343",
-        "description": "Together After Dark is a 4-player co-op horror experience that will take you on chilling journey into the unknown together with your friends. Dive deep into a dark and dangerous forest filled with unsettling mysteries, malevolent energies. Immerse yourselves in the chilling atmosphere: Walk through treacherous paths all covered in darkness and every rustle of the leaves or snap of a twig will feed your fear. Witness spooky paranormal events that will make you doubt your mind. Enjoy the excitement of camaraderie as you depend on one another to prevail over what lies ahead in terms of challenges and horrors. Beyond the haunting atmosphere and chilling encounters lies a crucial task: It is necessary to find a way out without being seen. Together After Dark provides a memorable tour of horror enthusiasts who are looking for an exciting and bloody journey with their friends. Key Features: 4-player co-op horror experience Hauntingly beautiful and atmospheric environment Chilling paranormal encounters and jump scares Challenging Unravel the dark secrets hidden within the forest Are you brave enough to face the darkness?",
-        "id_in_db": "t3_1uvvg0c",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
         "steam_app_id": "2708790",
+        "description": "Together After Dark is a 4-player co-op horror experience that will take you on chilling journey into the unknown together with your friends. Dive deep into a dark and dangerous forest filled with unsettling mysteries, malevolent energies. Immerse yourselves in the chilling atmosphere: Walk through treacherous paths all covered in darkness and every rustle of the leaves or snap of a twig will feed your fear. Witness spooky paranormal events that will make you doubt your mind. Enjoy the excitement of camaraderie as you depend on one another to prevail over what lies ahead in terms of challenges and horrors. Beyond the haunting atmosphere and chilling encounters lies a crucial task: It is necessary to find a way out without being seen. Together After Dark provides a memorable tour of horror enthusiasts who are looking for an exciting and bloody journey with their friends. Key Features: 4-player co-op horror experience Hauntingly beautiful and atmospheric environment Chilling paranormal encounters and jump scares Challenging Unravel the dark secrets hidden within the forest Are you brave enough to face the darkness?",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2708790/6df984dadfcb8b4affc211bc05b21438c18901c3/header.jpg?t=1775309343",
         "genres": [
             "Action",
             "Adventure",
@@ -640,6 +631,7 @@
         "is_multiplayer": true,
         "is_online": true,
         "is_dlc_or_addon": false,
+        "subreddit": "FreeGameFindings",
         "persian_summary": "Together After Dark یک تجربه ترسناک 4 نفره است که شما را به همراه دوستانتان به سفری هیجان انگیز به ناشناخته ها می برد. در اعماق جنگلی تاریک و خطرناک پر از رمز و رازهای نگران کننده، انرژی های بدخواهانه شیرجه بزنید. در فضای سرد غوطه ور شوید: در مسیرهای خائنانه ای که در تاریکی پوشیده شده است قدم بزنید و هر خش خش برگ ها یا ضربه زدن به شاخه ها ترس شما را تغذیه می کند. شاهد اتفاقات ماوراء الطبیعه شبح آور باشید که باعث می شود به ذهن خود شک کنید. از هیجان رفاقت لذت ببرید زیرا به یکدیگر وابسته هستید تا بر آنچه در پیش رو از نظر چالش ها و وحشت ها غلبه کنید. فراتر از فضای دلخراش و برخوردهای سرد، یک وظیفه حیاتی نهفته است: باید راهی برای خروج پیدا کرد بدون اینکه دیده شود. Together After Dark یک تور به یاد ماندنی از علاقه مندان به ترسناک را فراهم می کند که به دنبال یک سفر هیجان انگیز و خونین با دوستان خود هستند. ویژگی های کلیدی: تجربه ترسناک کوآپ 4 نفره محیطی فوق العاده زیبا و جوی وحشتناک ماوراء الطبیعه..."
     },
     {
@@ -679,7 +671,7 @@
         "title": "xbox delusion",
         "store": "xbox",
         "url": "https://www.xbox.com/en-US/games/store/delusion/9N6MNB5W4LM1",
-        "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkE8el-wE0sqNQsssTVBPMZ7GIAxELLtT2Ae6TyFb2QNVqZAmWE0OqNSN7CC8UE_pU0GE89IgzpI6_ej00CC3JDUc4SRILsVGsuFxXH5nK1CjLbzo9PaUj77o3bg8hAkm-O2jCr9Z1rrvc5NuXHLzZox4aCbIXd2KNGhzMMkSfat4DsXlQ2zHxpaMtS19x/s2400/DreadDelusion-banner.png",
+        "image_url": "https://res.cloudinary.com/billionhands/image/upload/v1770056572/items/skj7rdrifgxwbrqxpgem.png",
         "description": "submitted by /u/czsevcikdaniel [link] [comments]",
         "id_in_db": "t3_1v0oyil",
         "subreddit": "GameDeals",
@@ -687,5 +679,18 @@
         "discount_text": "80% off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/czsevcikdaniel [پیوند] [نظر]"
+    },
+    {
+        "title": "zoom platform summer sale 2026",
+        "store": "other",
+        "url": "https://www.zoom-platform.com/summer-2026-sale",
+        "image_url": "https://external-preview.redd.it/mDuixZbRPnJJSECjHiRdXayKzvZGLdQsakfPn6Le5g4.png?width=640&crop=smart&auto=webp&s=444534fb222b669d3aa554c185f906ae75913fbe",
+        "description": "submitted by /u/doZennn [link] [comments]",
+        "id_in_db": "t3_1uzkzek",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "90% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/doZennn [پیوند] [نظر]"
     }
 ]
