@@ -1,31 +1,5 @@
 [
     {
-        "title": "3000x star merchant",
-        "store": "other",
-        "url": "https://givee.club/en/event/1427",
-        "image_url": "https://external-preview.redd.it/jtv0wy9Wtw1eor07dBB63kZlNbMeIK5lbIngG4rUMXo.jpeg?width=320&crop=smart&auto=webp&s=4208575f8df90752825ef6d9e87ed07ebcba2338",
-        "description": "submitted by /u/Beneficial_Ad_6911 [link] [comments]",
-        "id_in_db": "t3_1w1qzh0",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/Beneficial_Ad_6911 [لینک] [نظرات]"
-    },
-    {
-        "title": "a game of changes",
-        "store": "other",
-        "url": "https://givee.club/en/event/1425",
-        "image_url": "https://external-preview.redd.it/9iogOJLfc-IMgU131wYjMR0MGzQTfYC1oASiRCFFnyg.jpeg?width=320&crop=smart&auto=webp&s=94a4dbdfaf6d8ff2d0731dede0e1336804d7678e",
-        "description": "submitted by /u/Beneficial_Ad_6911 [link] [comments]",
-        "id_in_db": "t3_1w1qzzu",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/Beneficial_Ad_6911 [لینک] [نظرات]"
-    },
-    {
         "title": "alan wake",
         "store": "steam",
         "url": "https://store.steampowered.com/app/108710/Alan_Wake/",
@@ -49,14 +23,24 @@
         "title": "ale tale tavern",
         "store": "steam",
         "url": "https://store.steampowered.com/app/2683150/Ale__Tale_Tavern/",
-        "image_url": "https://external-preview.redd.it/wu3Bo9r5rk0sklpPMu0-01YRLHcrLAsmvGfFayOHDOw.jpeg?width=320&crop=smart&auto=webp&s=f73e47d7ea4cea24e74d6d68d7db625a764e0a28",
-        "description": "submitted by /u/FdFrostbite [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2683150/2c88381f5697bb0d925a44c0db17f7778bac6a88/header.jpg?t=1788287471",
+        "description": "You are in for a stunning mix of genres: a coop first-person fantasy tavern simulator in an open world, action, fishing, hunting, exploration, fun and diverse quests. And, of course, COOKING! Play solo or with friends and feed the entire world! The game unfolds in a cozy and beautiful fantasy world. Step into the role of the owner of an abandoned tavern. Work alone or together with your friends to restore the former glory and popularity of the Ale & Tale tavern. Explore new recipes, participate in hunting and fishing, breed animals, grow plants, complete quests involving unique and amusing characters. Decorate your tavern. Fight against dangers. Cook dishes and drinks that will delight your visitors, and they will repay you with ringing coin! And remember: owning your own tavern is fun!! And if you want something else - just explore the world, enjoy its beauty and your complete freedom! Key Features: Play solo or with other players Coop mode for up to 6 people Owl Helpers – Automate Your Tavern! Enjoy superior graphics and a dynamic game world Explore a small, handcrafted open world full of adventures and activities Complete a variety of diverse story quests and meet unique characters inhabiting the game world Engage in whatever your heart desires Tavern management, cooking, decorating your tavern and crafting, delivering orders, growing plants, breeding animals, hunting, fishing, and much more Fight against a variety of enemies and monsters using different types of weapons Dive into an ocean of fun and complete freedom of action. Play the way you want and enjoy true pleasure! The Ale & Tale tavern awaits its heroes!",
         "id_in_db": "t3_1w76qn9",
         "subreddit": "GameDeals",
         "is_free": false,
         "discount_text": "60% off",
+        "steam_app_id": "2683150",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Casual",
+            "Indie",
+            "Simulation"
+        ],
+        "is_multiplayer": true,
+        "is_online": true,
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/FdFrostbite [لینک] [نظرات]"
+        "persian_summary": "You are in for a stunning mix of genres: a coop first-person fantasy tavern simulator in an open world, action, fishing, hunting, exploration, fun and diverse quests. And, of course, COOKING! Play solo or with friends and feed the entire world! The game unfolds in a cozy and beautiful fantasy world. Step into the role of the owner of an abandoned tavern. Work alone or together with your friends to restore the former glory and popularity of the Ale & Tale tavern. Explore new recipes, participate in hunting and fishing, breed animals, grow plants, complete quests involving unique and amusing characters. Decorate your tavern. Fight against dangers. Cook dishes and drinks that will delight your visitors, and they will repay you with ringing coin! And remember: owning your own tavern is fun!! And if you want something else - just explore the world, enjoy its beauty and your complete freedom! Key Features: Play solo or with other players Coop mode for up to 6 people Owl Helpers – Automate..."
     },
     {
         "title": "Alone With You",
@@ -65,22 +49,9 @@
         "url": "https://itad.link/01a043f0-8494-7105-8f08-30e027d95f96/",
         "is_free": true,
         "discount_text": "100% Off",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/564940/header.jpg?t=1704051941",
-        "is_dlc_or_addon": false,
-        "persian_summary": "",
-        "description": ""
-    },
-    {
-        "title": "alone with you",
-        "store": "epicgames",
-        "url": "https://store.epicgames.com/p/alone-with-you-028a15",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/564940/header.jpg?t=1788449210",
-        "description": "STORY You’re the last survivor of a doomed space colony, trying to escape a planet before it implodes around you. Equipped with a scanner, you’ll reveal clues, solve puzzles, and discover the fates of over two-dozen colonists and the secrets of their interwoven lives. By day you’ll explore this richly detailed world with the help of the colony’s troubled AI. And each night, you'll spend quality time with several holographic companions, forging lasting relationships while gaining further insight into the colony’s tragic downfall. FEATURES Over a dozen missions, multiple endings, varied conversation choices, and some surprising decisions provide a story you can sink your teeth into and experience multiple times A love letter to the Sega CD — vibrant, colourful 16-bit visuals and detailed cut-scene vignettes paint a beautiful sci-fi universe Completely original soundtrack with more than 30 foot-tapping, otherworldly tunes",
-        "id_in_db": "t3_1w69ubr",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
         "steam_app_id": "564940",
+        "description": "STORY You’re the last survivor of a doomed space colony, trying to escape a planet before it implodes around you. Equipped with a scanner, you’ll reveal clues, solve puzzles, and discover the fates of over two-dozen colonists and the secrets of their interwoven lives. By day you’ll explore this richly detailed world with the help of the colony’s troubled AI. And each night, you'll spend quality time with several holographic companions, forging lasting relationships while gaining further insight into the colony’s tragic downfall. FEATURES Over a dozen missions, multiple endings, varied conversation choices, and some surprising decisions provide a story you can sink your teeth into and experience multiple times A love letter to the Sega CD — vibrant, colourful 16-bit visuals and detailed cut-scene vignettes paint a beautiful sci-fi universe Completely original soundtrack with more than 30 foot-tapping, otherworldly tunes",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/564940/header.jpg?t=1788449210",
         "genres": [
             "Adventure",
             "Indie"
@@ -91,52 +62,56 @@
         "persian_summary": "STORY You’re the last survivor of a doomed space colony, trying to escape a planet before it implodes around you. Equipped with a scanner, you’ll reveal clues, solve puzzles, and discover the fates of over two-dozen colonists and the secrets of their interwoven lives. By day you’ll explore this richly detailed world with the help of the colony’s troubled AI. And each night, you'll spend quality time with several holographic companions, forging lasting relationships while gaining further insight into the colony’s tragic downfall. FEATURES Over a dozen missions, multiple endings, varied conversation choices, and some surprising decisions provide a story you can sink your teeth into and experience multiple times A love letter to the Sega CD — vibrant, colourful 16-bit visuals and detailed cut-scene vignettes paint a beautiful sci-fi universe Completely original soundtrack with more than 30 foot-tapping, otherworldly tunes"
     },
     {
-        "title": "alone with you 100 off free",
-        "store": "epicgames",
-        "url": "https://store.epicgames.com/p/alone-with-you-028a15",
-        "image_url": "https://static.pepperdeals.com/threads/raw/ViNOa/13252_1/re/768x768/qt/60/13252_1.jpg",
-        "description": "submitted by /u/LighteningOneIN [link] [comments]",
-        "id_in_db": "t3_1w69ubs",
-        "subreddit": "GameDeals",
-        "is_free": true,
-        "discount_text": "100% Off",
+        "title": "app bubbles multitask pro lifetime",
+        "store": "googleplay",
+        "url": "https://play.google.com/store/apps/details?id=co.bubbles",
+        "image_url": "https://external-preview.redd.it/sYTdKuNvjq4RcO96Q9iGNnLQFJesA-6j_w3txqQ5-Bw.png?width=320&crop=smart&auto=webp&s=3ee04d5bb107d4768f6d74919a46ba66fbc3a3a6",
+        "description": "submitted by /u/wnamhs [link] [comments]",
+        "id_in_db": "t3_1w8jqvq",
+        "subreddit": "googleplaydeals",
+        "is_free": false,
+        "discount_text": "50% off",
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/LighteningOneIN [لینک] [نظرات]"
+        "persian_summary": "ارسال شده توسط /u/wnamhs [لینک] [نظرات]"
     },
     {
-        "title": "artifacts of chaos epic games are complimentary with amazon prime",
-        "store": "amazon",
-        "url": "https://luna.amazon.com/claims/home?filter=Game&g=s",
-        "image_url": "https://external-preview.redd.it/_fBjABdCsDDIR7bJn-cgpkXoTMJ2MnAEY3PCdXPaAoY.png?width=640&crop=smart&auto=webp&s=bef23da95c6aa8211ed8845602ada6c6644977cf",
-        "description": "submitted by /u/LighteningOneIN [link] [comments]",
-        "id_in_db": "t3_1vzznz9",
-        "subreddit": "FreeGameFindings",
+        "title": "apps applock pro 699",
+        "store": "googleplay",
+        "url": "https://play.google.com/store/apps/details?id=com.app.protector.locker.pro",
+        "image_url": "https://external-preview.redd.it/nXczzct07js8CqL-d-pz27VEYEVRA8tftX6UmHnjwjQ.png?width=320&crop=smart&auto=webp&s=88472b1453c5b48918fe2c9687a3169e3a533525",
+        "description": "submitted by /u/HMSMonkeyPaws [link] [comments]",
+        "id_in_db": "t3_1w63wmy",
+        "subreddit": "googleplaydeals",
         "is_free": true,
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/LighteningOneIN [لینک] [نظرات]"
+        "persian_summary": "ارسال شده توسط /u/HMSMonkeyPaws [لینک] [نظرات]"
     },
     {
-        "title": "battle ram",
-        "store": "indiegala",
-        "url": "https://freebies.indiegala.com/battle-ram",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262060/header.jpg?t=1779411066",
-        "description": "Battle Ram is a thrilling and action-packed game that is sure to provide hours of entertainment for players of all skill levels. With its unique concept of a powerful lamb battling robots, the game offers a refreshing change from typical shooter or RPG games. The game's setting in a secret laboratory and military training ground provides an interesting backstory that adds to the overall excitement and intensity of the gameplay. Players must use their strategic thinking and fast reflexes to navigate through the various levels and defeat their opponents. One of the unique features of the game is the control mechanism, which requires the player to use only the mouse to control the Battle Ram. The music in the game is upbeat and fun, adding to the overall enjoyment of the game. While the game has a relatively small number of levels, the difficulty of the game ensures that players will be kept challenged and engaged for hours. The game is designed to be difficult, but not impossible, and players must practice and hone their skills to progress through the levels. The variety of levels, each with its own unique challenges and objectives, keeps the game fresh and exciting. From dodging missiles to battling robots, the game offers a range of different gameplay experiences that will keep players coming back for more. Overall, Battle Ram is an addictive and entertaining game that is well worth checking out. Its unique concept, challenging gameplay, and fun music make it a standout game in the crowded world of online gaming.",
-        "id_in_db": "t3_1w4z0ah",
-        "subreddit": "FreeGameFindings",
+        "title": "apps easy phone senior dialer",
+        "store": "googleplay",
+        "url": "https://play.google.com/store/apps/details?id=com.mcanalagoz.kolayara",
+        "image_url": "https://external-preview.redd.it/X_uUmb0P-NsRj29uGczuZK7LWvIYK83hsQxXD6fHZts.png?width=320&crop=smart&auto=webp&s=1fed5ec5d90ab789df14410eb517ca03104ece6c",
+        "description": "submitted by /u/jhnslw [link] [comments]",
+        "id_in_db": "t3_1w5mguf",
+        "subreddit": "googleplaydeals",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "1262060",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Simulation",
-            "Sports"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "Battle Ram is a thrilling and action-packed game that is sure to provide hours of entertainment for players of all skill levels. With its unique concept of a powerful lamb battling robots, the game offers a refreshing change from typical shooter or RPG games. The game's setting in a secret laboratory and military training ground provides an interesting backstory that adds to the overall excitement and intensity of the gameplay. Players must use their strategic thinking and fast reflexes to navigate through the various levels and defeat their opponents. One of the unique features of the game is the control mechanism, which requires the player to use only the mouse to control the Battle Ram. The music in the game is upbeat and fun, adding to the overall enjoyment of the game. While the game has a relatively small number of levels, the difficulty of the game ensures that players will be kept challenged and engaged for hours. The game is designed to be difficult, but not impossible, and..."
+        "persian_summary": "ارسال شده توسط /u/jhnslw [لینک] [نظرات]"
+    },
+    {
+        "title": "apps quick launcher 099",
+        "store": "googleplay",
+        "url": "https://play.google.com/store/apps/details?id=com.aistudio.quicklauncher.paid",
+        "image_url": "https://external-preview.redd.it/_Q2bqNMLpYjn3CNEY6ZbhmFTTw5UTbhJrNNoiz-idHM.png?width=320&crop=smart&auto=webp&s=1adaf7158d3a0028fcc33291cca641f4248a430d",
+        "description": "submitted by /u/Specialist-Cap1922 [link] [comments]",
+        "id_in_db": "t3_1w7y9i9",
+        "subreddit": "googleplaydeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/Specialist-Cap1922 [لینک] [نظرات]"
     },
     {
         "title": "Beach Invasion 1944",
@@ -145,22 +120,9 @@
         "url": "https://itad.link/018d959c-5bfc-72d1-b301-1ba96009a521/",
         "is_free": true,
         "discount_text": "100% Off",
-        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2209680/capsule_616x353.jpg?t=1760716065",
-        "is_dlc_or_addon": false,
-        "persian_summary": "",
-        "description": ""
-    },
-    {
-        "title": "beach invasion 1944",
-        "store": "epicgames",
-        "url": "https://store.epicgames.com/p/beach-invasion-1944-d654d6",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209680/header.jpg?t=1760716065",
-        "description": "Beach Invasion 1944 is a WWII FPS game where the player defends the beach fortifications against invading forces who will attack your position with troops, tanks, planes and more. Use a variety of iconic and authentic WWII weapons such as MG42, Flak88 and Panzers . Get additional defenses with mines , explosive barrels , artillery strikes and weapon upgrades ! Beach Invasion 1944 adds a dose of FPS realism to arcade style shooter games. The player takes the role of an Axis soldier operating machine guns and cannon turrets to defend the Atlantic Wall of Europe. During this immense amphibious and airborne operation, player's task is to destroy as many of the invading forces as possible, utilizing several machine gun, Flak and Panzer nests and bonuses from the supply drops. Hardcore action in an immersive WWII setting with realistic sounds and special effects which will make you relive the memorable and epic moments from your favourite WWII movies and TV-series. Non-stop action with continous naval and airborne attacks through day and night with changing weather conditions. Huge variety of enemies, including marines, paratroopers, bazookas, flamethrowers, attack boats, jeeps, tanks, armored cars, halftraks, fighters, bombers and more! Ability to call artillery strikes and rain destruction on your enemies. Getting temporary upgrades on your weapons which include Poison Gas, Armor Piercing, Explosive and Incendiary ammunition. Strengthening your defenses with anti-personnel and anti-tank mines, explosive barrels, tank barriers and barbed wire. Earn medals for achieving diffferent actions as you progress. The game will support following languages on release: English, Spanish, German, French, Russian, Chinese, Japanese, Korean, Turkish, Arabic.",
-        "id_in_db": "t3_1w6zcqv",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
         "steam_app_id": "2209680",
+        "description": "Beach Invasion 1944 is a WWII FPS game where the player defends the beach fortifications against invading forces who will attack your position with troops, tanks, planes and more. Use a variety of iconic and authentic WWII weapons such as MG42, Flak88 and Panzers . Get additional defenses with mines , explosive barrels , artillery strikes and weapon upgrades ! Beach Invasion 1944 adds a dose of FPS realism to arcade style shooter games. The player takes the role of an Axis soldier operating machine guns and cannon turrets to defend the Atlantic Wall of Europe. During this immense amphibious and airborne operation, player's task is to destroy as many of the invading forces as possible, utilizing several machine gun, Flak and Panzer nests and bonuses from the supply drops. Hardcore action in an immersive WWII setting with realistic sounds and special effects which will make you relive the memorable and epic moments from your favourite WWII movies and TV-series. Non-stop action with continous naval and airborne attacks through day and night with changing weather conditions. Huge variety of enemies, including marines, paratroopers, bazookas, flamethrowers, attack boats, jeeps, tanks, armored cars, halftraks, fighters, bombers and more! Ability to call artillery strikes and rain destruction on your enemies. Getting temporary upgrades on your weapons which include Poison Gas, Armor Piercing, Explosive and Incendiary ammunition. Strengthening your defenses with anti-personnel and anti-tank mines, explosive barrels, tank barriers and barbed wire. Earn medals for achieving diffferent actions as you progress. The game will support following languages on release: English, Spanish, German, French, Russian, Chinese, Japanese, Korean, Turkish, Arabic.",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209680/header.jpg?t=1760716065",
         "genres": [
             "Action",
             "Casual",
@@ -218,63 +180,6 @@
         "persian_summary": "SEE COMBAT THROUGH THE LENS Bodycam is the first ultra-realistic multiplayer FPS built to recreate the intensity of real combat. Experience tactical firefights through the lens of a body camera, where every angle you hold, every decision you make, and every bullet you fire can decide the outcome. Miss a check, and you pay for it. No crosshair. No ammo counter. No HUD. Countless hours were spent studying real footage, optics, camera movement, compression, exposure, sound behavior, and combat situations to push realism as far as possible. THE TRUE FIRST-PERSON FEEL Unlike traditional FPS games , where the camera drives the entire experience and floating hands are simply attached to your screen , Bodycam takes a completely different approach. Your arms, torso, legs and weapon are all physically connected. On top of this, we developed our True Body technology, making every movement feel smoother, more instinctive and more natural. It takes a little time to adapt at first , but once it..."
     },
     {
-        "title": "dead district",
-        "store": "other",
-        "url": "https://givee.club/en/event/1431",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1772910/4500acb91039190bad0fe34a2f32d7a99ce888c9/header.jpg?t=1782120730",
-        "description": "Dead District is an open-world survival sandbox where every decision matters. You start on a hostile island full of threats: wild animals, deadly traps, the infected and desperate survivors. Your goal is simple — stay alive. Build your shelter, craft weapons and tools, cultivate food, and explore the island alone or together with friends. Four unique characters are available, each ready to face the struggle for survival. Team up in multiplayer to share resources and defend your base, or test your skills solo. Drive vehicles, hunt, complete quests, and shape your own path in a world that never forgives mistakes. Features: - Single-player and multiplayer survival - Base building and crafting - Dynamic weather and day/night cycle - Mission and quest system - Farming, hunting and resource gathering - Driving and combat - Four playable characters - Expansive open world full of danger",
-        "id_in_db": "t3_1w85dgn",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "1772910",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Indie",
-            "Massively Multiplayer",
-            "Simulation"
-        ],
-        "is_multiplayer": true,
-        "is_online": true,
-        "is_dlc_or_addon": false,
-        "persian_summary": "Dead District is an open-world survival sandbox where every decision matters. You start on a hostile island full of threats: wild animals, deadly traps, the infected and desperate survivors. Your goal is simple — stay alive. Build your shelter, craft weapons and tools, cultivate food, and explore the island alone or together with friends. Four unique characters are available, each ready to face the struggle for survival. Team up in multiplayer to share resources and defend your base, or test your skills solo. Drive vehicles, hunt, complete quests, and shape your own path in a world that never forgives mistakes. Features: - Single-player and multiplayer survival - Base building and crafting - Dynamic weather and day/night cycle - Mission and quest system - Farming, hunting and resource gathering - Driving and combat - Four playable characters - Expansive open world full of danger"
-    },
-    {
-        "title": "epic games mobile evans remains",
-        "store": "epicgames",
-        "url": "https://www.reddit.com/r/FreeGameFindings/comments/1w69ug3/epic_games_mobile_game_evans_remains/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/235540/27acad277d2820c818471ef415209c36c924b3dd/header.jpg?t=1761316136",
-        "description": "Vermintide is a co-operative action first person shooter and melee combat adventure set in the End Times of the iconic Warhammer Fantasy world. Vermintide takes place in and around Ubersreik, a city overrun by Skaven. You will assume the role of one of five heroes, each featuring different play-styles, abilities, gear and personality. Working cooperatively, you must use their individual attributes to survive an apocalyptic invasion from the hordes of relentless rat-men, known as the Skaven. Battles will take place across a range of environments stretching from the top of the Magnus Tower to the bowels of the Under Empire. Core Features: Cooperative Survival For up to 4 Players - Band together with your friends or die alone. Vermintide will continuously test the teamwork and skill of you and your friends. Drop-in, drop-out Multiplayer and the addition of A.I. bots ensures a full team at any time, regardless of available players. Play as Five Unique Heroes - Five distinct characters to choose from, each with their own personality, agenda and story to tell. Learning what it means to work together is key to the group's survival. Huge Hero Arsenal - Each hero has its own unique weapons arsenal to draw from, allowing you to adjust their combat style to fit their gameplay preference. There are hundreds of different weapons, includíng swords, daggers, axes, hammers, bows, guns, magical staves & more Embark on an Epic Quest - Boasting 13 diverse levels - on the ground, in buildings, on walls and underground - ranging from the immense Magnus Tower to the treacherous Under Empire, Vermintide will take you on a journey you’ll never forget. Experience the Skaven Like Never Before - A rising tide of malicious and cunning rat-men await you, hacking, clawing and eviscerating all that stand in their way. Face vicious packs of clan-rats and deadly specialized elites. Gather Shiny Loot - Rewarding teamwork above all else, you are given loot dice at the end of a mission that will reward you and your team mates with a weapon, a hat or a trinket. Completing side objectives means that better loot dice can be added to the roll. Battle Unpredictable Enemies - Vermintide features a dynamic spawn system providing a constant set of new challenges lurking behind every corner. Experience an Immersive Story - Games Workshop veterans have banded together to write a fantastic new addition to the Warhammer lore, offering a new perspective on the cataclysmic events of The End Times. Find a Path to Safety - The Skaven boast incredible mobility, able to climb and leap fantastic distances to make life a living hell for the Heroes. No matter where you go, they will be there, ready to pounce. The time of mortals is ending, and the reign of Chaos draws ever closer. The Dark Gods are at last united in a singular purpose, losing their madness across the world as never before. In the Empire of Sigmar, Karl Franz's gaze is focused on the incursion of the savage northmen, but it is not the only threat. As the Chaos moon Morrslieb waxes full, shrill voices echo through tunnels gnawed far beneath the Empire's cities, and a Skaven host swarms towards the surface. It emerges first in the city of Ubersreik, a screeching mass that consumes all before it. Soon Ubersreik is a charnel-town, drowning beneath the malevolent shadow of the Horned Rat. Yet even in the darkest times, there are always champions to light the way. As Ubersreik cowers, five heroes, united by capricious fate, carry the fight to the rat-men. It remains to be seen whether they have the strength to survive, let alone work together long enough to thwart the invaders. One truth, however, is beyond all doubt: should these five fall, then Ubersreik will fall with them.",
-        "id_in_db": "t3_1w69ug3",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "235540",
-        "genres": [
-            "Action",
-            "Indie"
-        ],
-        "is_multiplayer": true,
-        "is_online": true,
-        "age_rating": "17",
-        "is_dlc_or_addon": false,
-        "persian_summary": "Vermintide is a co-operative action first person shooter and melee combat adventure set in the End Times of the iconic Warhammer Fantasy world. Vermintide takes place in and around Ubersreik, a city overrun by Skaven. You will assume the role of one of five heroes, each featuring different play-styles, abilities, gear and personality. Working cooperatively, you must use their individual attributes to survive an apocalyptic invasion from the hordes of relentless rat-men, known as the Skaven. Battles will take place across a range of environments stretching from the top of the Magnus Tower to the bowels of the Under Empire. Core Features: Cooperative Survival For up to 4 Players - Band together with your friends or die alone. Vermintide will continuously test the teamwork and skill of you and your friends. Drop-in, drop-out Multiplayer and the addition of A.I. bots ensures a full team at any time, regardless of available players. Play as Five Unique Heroes - Five distinct characters to..."
-    },
-    {
-        "title": "exiled giveaways and itchio mega threads",
-        "store": "other",
-        "url": "https://www.reddit.com/r/FreeGameFindings/comments/1w3jr1p/exiled_giveaways_and_itchio_mega_threads/",
-        "image_url": "https://external-preview.redd.it/ZPh1lhzQ7YxjNPDQa1irHPdQ4dCv258axO_XpzyIlJU.gif?frame=1&width=140&height=111&auto=webp&s=9607e5b0b520a718c3e1575331f6f79ab7435b76",
-        "description": "To increase visibility, the mega threads are posted on a weekly basis. This is being done following the overall discussion of Mega Threads via FGF Update - https://redd.it/jkxyzw Please use the below threads for your posts. :) Exiled Giveaways Mega Thread (#2) Itchio Mega Thread (#10) Want to setup alerts to these threads? RSS Feed information can be found in our wiki! https://www.reddit.com/r/FreeGameFindings/wiki/rssfeed Included is information about our discord bot and general RSS feed stuff. Definitely give it a look! submitted by /u/AutoModerator [link] [comments]",
-        "id_in_db": "t3_1w3jr1p",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "To increase visibility, the mega threads are posted on a weekly basis. This is being done following the overall discussion of Mega Threads via FGF Update - https://redd.it/jkxyzw Please use the below threads for your posts. :) Exiled Giveaways Mega Thread (#2) Itchio Mega Thread (#10) Want to setup alerts to these threads? RSS Feed information can be found in our wiki! https://www.reddit.com/r/FreeGameFindings/wiki/rssfeed Included is information about our discord bot and general RSS feed stuff. Definitely give it a look! submitted by /u/AutoModerator [link] [comments]"
-    },
-    {
         "title": "fs complete collection",
         "store": "other",
         "url": "https://www.reddit.com/r/GameDeals/comments/1w6blj1/itchio_fs_complete_collection_75_off/",
@@ -296,82 +201,106 @@
         "persian_summary": "🚜 Game Overview Thunder Tank: Iron Shield is a casual game set in a post-apocalyptic wasteland, blending bullet hell action, backpack-like strategy, and idle progression . You will pilot a battle vehicle through a perilous, post-modern wasteland, facing endless waves of enemies, collecting weapon fragments, unlocking powerful gear, and gradually building your own mobile steel fortress. The game features 20 difficulty levels , progressing from easy onboarding to hardcore challenges. Each level tests both your strategic combination skills and resource management—you must carefully arrange various weapons within your vehicle's limited grid space, using wit to crush your enemies and firepower to conquer the wasteland! 🔫 Core Gameplay: Backpack-Like + Bullet Hell The core inspiration comes from backpack-like gameplay : your vehicle has limited grid slots, and each weapon occupies a different number of slots. Machine guns, flamethrowers, rockets, heavy cannons, shock towers, laser..."
     },
     {
+        "title": "games bricks breaker pro 399",
+        "store": "googleplay",
+        "url": "https://play.google.com/store/apps/details?id=com.tryoniarts.brickbreakerplus.noads",
+        "image_url": "https://external-preview.redd.it/l-s9v0IVioFAyZX5TwTLa2LfT_NkSfh3Q5-zilZIoSc.png?width=320&crop=smart&auto=webp&s=2cea807b0eecdd8d5c39daa57c58892d71dc94dc",
+        "description": "submitted by /u/pudah_et [link] [comments]",
+        "id_in_db": "t3_1w9m6td",
+        "subreddit": "googleplaydeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/pudah_et [لینک] [نظرات]"
+    },
+    {
+        "title": "games math shot 199",
+        "store": "googleplay",
+        "url": "https://play.google.com/store/apps/details?id=air.de.appsfuerkids.mathshot",
+        "image_url": "https://external-preview.redd.it/1t0EwCgLdE5nlpKFM5m5M4gmvyyVwdeUQ1cTtdrq5dc.png?width=320&crop=smart&auto=webp&s=63bf86abab525fcc8a1be979a14f73e1b3010231",
+        "description": "submitted by /u/HMSMonkeyPaws [link] [comments]",
+        "id_in_db": "t3_1w63yxa",
+        "subreddit": "googleplaydeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/HMSMonkeyPaws [لینک] [نظرات]"
+    },
+    {
+        "title": "games trick shot math 199",
+        "store": "googleplay",
+        "url": "https://play.google.com/store/apps/details?id=air.de.appsfuerkids.math045g",
+        "image_url": "https://external-preview.redd.it/VIVGwYWGBB7KMc4Dtp3XhfkG3SYG65JMotz3OMzB8ME.png?width=320&crop=smart&auto=webp&s=2d324cb61dca4e8c4bd80eeb8a0016028f536050",
+        "description": "submitted by /u/HMSMonkeyPaws [link] [comments]",
+        "id_in_db": "t3_1w63zog",
+        "subreddit": "googleplaydeals",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/HMSMonkeyPaws [لینک] [نظرات]"
+    },
+    {
         "title": "humble look outside",
         "store": "humblestore",
         "url": "https://www.humblebundle.com/store/look-outside",
-        "image_url": "https://external-preview.redd.it/QkFtwMUDcHnmCkG3i7QLrZaikGc1jFnps8FMg6hwOnc.jpeg?width=320&crop=smart&auto=webp&s=fed441e4738649c54ca298547b7e957a1708b47f",
-        "description": "submitted by /u/Ok_Copy_9462 [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3407390/98fc2f1d471a6ba90cbf6c281f8d92c3b00800d3/header.jpg?t=1788434636",
+        "description": "ENDLESS Legend™ 2 is a fantasy strategy game where you lead wildly varied factions as they build grand empires and wage planet-spanning wars on an ever-evolving ocean world at the brink of extinction. Cataclysmic events have wrought havoc on the natural order, and the very world will change as time goes on revealing new opportunities for exploration and conquest to the bold and daring. Establish expansive cities to spread your influence and strengthen your economy, raise armies and command troops in turn-based tactical battles to overcome your enemies by force, and push forth into the unknown to uncover the dark secrets that lie at the planet’s core. Whether you command righteous warriors descended from the stars, cursed knights seeking reprieve from their misfortune, or hive-minded beasts that know only how to fight, feed, and propagate, ENDLESS Legend™ 2 features vastly different factions each driven by their own philosophies, histories, capabilities, and narratives. Each of the factions have unique traits that set them apart from one another whether on the battlefield, in matters of commerce, with regards to empire-building, or in diplomatic affairs – it is up to you to adapt to their strengths and weaknesses and build strategies and distinct playstyles. The choice of faction will influence every aspect of the game. Will you prefer to benefit from a constant state of fighting, untethered by the need to justify your wars, spawning additional warriors with each victorious battle to grow endlessly in strength? Will you choose to benefit from cohabitation and cooperation, spreading tendrils of influence throughout the world to build a network of allies, leveraging relationships with the minor factions of the planet to further enrich your empire? Or will you lead a people who feed upon their own kind for sustenance, taking advantage of a unique economy free from the needs of mere mortals? Learn what makes each faction distinct and use it to your advantage whether you’re leading them, or looking to destroy them. Military doctrine varies greatly between the factions, providing unique opportunities for a capable commander to gain an advantage over their foe, even when out of combat. Build massive fortifications to defend cities and establish connections to powerful weapon and support systems waiting in orbit as the martial Kin of Sheredyn. Invest in the spread of coral so the spiritualist Aspects are able to support themselves outside of friendly territory. Dot the land with nests and burrows to quickly traverse vast distances and ambush enemies from beneath as the Necrophage hive. Either auto-resolve combat or take direct control of individual units within your armies when battle begins, using the surrounding terrain to your advantage as you seek out chokepoints, cover, and the high ground. Apart from having faction-specific units, traits, weapons, and attributes, each faction also features special battlefield abilities that can turn the tide of battle if properly utilized. Where one faction might work best with a patient commander, able to meticulously maneuver troops to secure powerful adjacency bonuses, another might rely on force of numbers and overwhelming strength. Recruit heroes and watch them grow over time as they gain new traits to bolster their abilities, build relationships that provide them with various boons, and acquire equipment useful both in and out of battle. Powerful commanders, properly trained and armed, can turn the tide of entire wars when wisely utilized. Empires will rise and fall based on their ability to adapt to a changing world. Starting from a single humble city, expand according to your faction's unique strengths and limitations while adapting to the periodic monsoons and tidefalls. Build districts around your cities’ central structures, exploit strategic and luxury resources littered around the world, and develop your technological capabilities and industrial might. Cataclysmic tidefalls will expose new opportunities and threats as the oceans recede to unveil new land ripe for expansion. While your existing territory will remain unscathed, the newly revealed terrain from the retreating oceans will open up new avenues of approach for you and your enemies, alongside new resources to exploit and new anomalies to explore. While this can fundamentally change the strategic value of various locations as time goes on, a wise leader will plan for the inevitable – will you prepare to expand into new lands as soon as a tidefall occurs, or focus on shoring up your defenses where you anticipate new landbridges to appear? Plan the development of your cities to focus on population growth, industrialization, and commerce, or prioritize their contribution to the sciences, your empire’s influence, and your military might – the choice is yours based on the needs of your burgeoning empire. Establish districts that provide fortifications or further the production of various resources, take advantage of adjacency and terrain bonuses, and pursue technological advancements that allow you to upgrade established districts or unlock entirely new options. Will you patiently seek out ideal locations to establish long-term economic hubs and military strongholds, or will you spread rapidly to secure new lands and increased productivity ahead of your enemies? The lands around you are teeming with both opportunity and danger alike. Crush the weaker minor factions littered around the world to pillage their resources, or instead cultivate friendly relations and have them join your growing empire, incorporating their distinctive units and heroes to further strengthen your people. Explore ancient ruins and strange anomalies, braving the dangers of the unknown to enrich your lands and gain powerful artifacts to wield against your enemies. A deep mystery lies buried beneath the surface of this once-tranquil ocean world, where an ancient power stirs in the darkness. Gain dominion over the planet through violent conquest, seek victory through diplomatic and technological advancements, pursue quests and tackle events that can alter the course of a campaign, or empower your sworn heroes to unveil the story of your people – the choice is yours. Will you be a ruthless conqueror or a cunning builder? A cultivated diplomat or a flesh-eating beast? Will you bring harmony back to the planet, seeking out lost legends and heroes, or will you defy the fate that drives your faction and carve a legend of your own?",
         "id_in_db": "t3_1w6rjhw",
         "subreddit": "GameDeals",
         "is_free": false,
         "discount_text": "40% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/Ok_Copy_9462 [لینک] [نظرات]"
-    },
-    {
-        "title": "hyper hitmans",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/4849920/Hyper_Hitmans/",
-        "image_url": "https://external-preview.redd.it/D6BQxesns48JrEoTxpvnSNFsQnl3StGBG7tfRsPrZxM.jpeg?width=320&crop=smart&auto=webp&s=727505bc803396691bcbf79f3360dfd7313ecef7",
-        "description": "Announcement: https://store.steampowered.com/news/app/4849920/view/685263456405815963 One week from now, Hyper Hitmans will move from Free to Play to a premium single-purchase game priced at approximately €2.99 / US$2.99, with regional pricing applied through Steam. submitted by /u/Responsible-River653 [link] [comments]",
-        "id_in_db": "t3_1w45iz2",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "اطلاعیه: https://store.steampowered.com/news/app/4849920/view/685263456405815963 یک هفته دیگر، بازی Hyper Hitmans از حالت رایگان به یک بازی تک‌خریدی ویژه با قیمت تقریبی ۲.۹۹ یورو / ۲.۹۹ دلار آمریکا منتقل خواهد شد و قیمت‌گذاری منطقه‌ای از طریق استیم اعمال می‌شود. ارسال شده توسط /u/Responsible-River653 [لینک] [نظرات]"
-    },
-    {
-        "title": "legends of starkadia",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/2618160/Legends_of_Starkadia/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2618160/2400e306c82f04e892000cb74ec17494cad821b1/header.jpg?t=1783432904",
-        "description": "Brought to you by the developers of Ember Knights and their latest project, Welcome to Harmony. When one bored Earthling teen is accidentally teleported to the far flung Starkadian Empire, he lands face first in the middle of an interdimensional battle between good and evil, with the fate of the universe at stake! Now it’s up to him and a ragtag bunch of misfits to defeat the shadowy, extradimensional armies of the Empire and become the heroes the system needs. Key Features: Strategic turn-based combat with quick-time events (QTEs) for offense and defense A deeply rich and engaging story with multiple secret and side missions 12 quirky characters to unlock and play as, each with their own unique attributes and skills A sprawling universe with over 11 planets to explore Note: This adventure contains one planet only and should take approximately 2 hours to complete. The full experience is an epic journey across 11 planets from Scrap World to Starkadia and beyond! The complete story has been written but not yet developed.",
-        "id_in_db": "t3_1w5ou92",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "2618160",
+        "steam_app_id": "3407390",
         "genres": [
             "RPG",
-            "Free To Play"
+            "Simulation",
+            "Strategy",
+            "Early Access"
+        ],
+        "is_multiplayer": true,
+        "is_online": false,
+        "is_dlc_or_addon": false,
+        "persian_summary": "ENDLESS Legend™ 2 is a fantasy strategy game where you lead wildly varied factions as they build grand empires and wage planet-spanning wars on an ever-evolving ocean world at the brink of extinction. Cataclysmic events have wrought havoc on the natural order, and the very world will change as time goes on revealing new opportunities for exploration and conquest to the bold and daring. Establish expansive cities to spread your influence and strengthen your economy, raise armies and command troops in turn-based tactical battles to overcome your enemies by force, and push forth into the unknown to uncover the dark secrets that lie at the planet’s core. Whether you command righteous warriors descended from the stars, cursed knights seeking reprieve from their misfortune, or hive-minded beasts that know only how to fight, feed, and propagate, ENDLESS Legend™ 2 features vastly different factions each driven by their own philosophies, histories, capabilities, and narratives. Each of the..."
+    },
+    {
+        "title": "mall rivals 104930 off",
+        "store": "other",
+        "url": "https://www.reddit.com/r/GameDeals/comments/1w93u86/steam_mall_rivals_104930_off/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4808110/43c2d80a90d1ebc9b758a6ef8879adfeb31eced7/header.jpg?t=1788559171",
+        "description": "After a brutal war, super soldiers known as Draugrs successfully saved the world, but they needed to find a job after the fight was over. In this game, a Draugr has to work as a fast food worker in a run down mall, but another Draugr has opened a rival chain right next door! Naturally, they use left over war equipment and secret tech to duke it out with creatures made from the restaurant's inventory. You play as a minimum wage worker who's gotten roped into this mess. Command a flavorful army and use powerful technology to flip gravity and fight on the roof! Strategize and plan to defeat the tricky hot dog dogs! It is up to you, to win this Flip-Off!! Features Summon units to defend your kitchen! Flip gravity to fight both on the ground and the roof! Cycle cards to get the units you want! Activate skills to get an edge in battle Upgrade your units and pick the right ones for the mission! Fun bits of lore and details for each unit!",
+        "id_in_db": "t3_1w93u86",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "Discount",
+        "steam_app_id": "4808110",
+        "genres": [
+            "Action",
+            "Casual",
+            "Strategy"
         ],
         "is_multiplayer": false,
         "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "Brought to you by the developers of Ember Knights and their latest project, Welcome to Harmony. When one bored Earthling teen is accidentally teleported to the far flung Starkadian Empire, he lands face first in the middle of an interdimensional battle between good and evil, with the fate of the universe at stake! Now it’s up to him and a ragtag bunch of misfits to defeat the shadowy, extradimensional armies of the Empire and become the heroes the system needs. Key Features: Strategic turn-based combat with quick-time events (QTEs) for offense and defense A deeply rich and engaging story with multiple secret and side missions 12 quirky characters to unlock and play as, each with their own unique attributes and skills A sprawling universe with over 11 planets to explore Note: This adventure contains one planet only and should take approximately 2 hours to complete. The full experience is an epic journey across 11 planets from Scrap World to Starkadia and beyond! The complete story has..."
+        "persian_summary": "After a brutal war, super soldiers known as Draugrs successfully saved the world, but they needed to find a job after the fight was over. In this game, a Draugr has to work as a fast food worker in a run down mall, but another Draugr has opened a rival chain right next door! Naturally, they use left over war equipment and secret tech to duke it out with creatures made from the restaurant's inventory. You play as a minimum wage worker who's gotten roped into this mess. Command a flavorful army and use powerful technology to flip gravity and fight on the roof! Strategize and plan to defeat the tricky hot dog dogs! It is up to you, to win this Flip-Off!! Features Summon units to defend your kitchen! Flip gravity to fight both on the ground and the roof! Cycle cards to get the units you want! Activate skills to get an edge in battle Upgrade your units and pick the right ones for the mission! Fun bits of lore and details for each unit!"
     },
     {
         "title": "master detective archives",
         "store": "steam",
         "url": "https://store.steampowered.com/app/2903950/Master_Detective_Archives_RAIN_CODE_Plus/",
-        "image_url": "https://external-preview.redd.it/90T5eHBTmfAxjmurB7Z-Fcbr9fL9cYRmWitO8Y6Rcwo.jpeg?width=320&crop=smart&auto=webp&s=46bb76b490105a3ae11c0520fc5ef524af4c92e4",
-        "description": "submitted by /u/Neat_Exit3491 [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2903950/header.jpg?t=1755220097",
+        "description": "Enjoy a brand new dark fantasy detective action game from the minds behind the Danganronpa series! A city of rain is gripped by innumerable unsolved mysteries, under the complete control of a megacorporation. Master Detectives from around the world, each possessing unique powers, must rise to the challenge of uncovering the truth. With Shinigami by his side, Yuma joins the investigation as a trainee of the detective agency. The story progresses through investigation in the \"real world\" to collect clues needed to solve a case, then conquering the \"Mystery Labyrinth\" with the clues gathered. Uncover the truth by making full use of your evidence in the Mystery Labyrinth. [Investigation] Take control of Yuma and explore Kanai Ward. Talk to people in the city and investigate crime scenes to collect \"Solution Keys\". [Forensic Forte] The detectives who investigate with Yuma have \"Forensic Fortes,\" like \"Postcognition\" and \"Disguise\". They'll help find hidden clues and testimonies by utilizing these special abilities. [Mystery Labyrinth] As the investigation progresses, the \"Mystery Labyrinth\" will appear. The mysteries of the case materialize in the form of gimmicks and traps to attack you. Dodge them with the clues collected in the form of \"Solution Keys\". [Reasoning Death Match] In the Mystery Labyrinth, a \"Mystery Phantom\" appears to prevent you from finding the truth of the case. Fight back in fast-paced action sequences and slash through with a \"Solution Blade\"! [Additional Content Outside the Main Story] Obtain \"Memory Shards\" hidden in Kanai Ward to view secret memories between Yuma and the detectives. Enjoy substories and help people in need by fulfilling special requests. \"Plus\" features: - 4K compatibility & improved overall performance - New gallery mode to enjoy cinematics and BGM - 5 substories featuring different Master Detectives Ch. Desuhiko: Charisma Killed the Cat Ch. Fubuki: Fubuki's Luckiest Day Ch. Halara: Raining Cats & Dog Ch. Vivia: The Near-Death Detective Ch. Yakou: Thank You, My Detective [Languages] Interface: Japanese / Traditional Chinese / Simplified Chinese - Audio: Japanese *There is also Digital Deluxe Edition which contains digital art book and digital soundtrack. Please be mindful when purchasing.",
         "id_in_db": "t3_1w7burl",
         "subreddit": "GameDeals",
         "is_free": false,
         "discount_text": "50% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/Neat_Exit3491 [لینک] [نظرات]"
-    },
-    {
-        "title": "miyuki desktop",
-        "store": "other",
-        "url": "https://givee.club/en/event/1424",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4580730/596846350ff434aea429a3009e7d96af70c78da3/header.jpg?t=1776692204",
-        "description": "Miyuki Desktop - brings a charming Live2D anime girl to your Windows desktop. Miyuki lives on your screen, reacts to your mouse, blinks, breathes, and keeps you company while you work or browse. Features: Fully animated Live2D model with natural blinking, breathing, and hair physics Eyes and head follow your mouse cursor in real time 10+ idle animations that play automatically over time 8 emotions (angry, happy, sad, love, blushed, ill, roundeyes, normal) with unique animations Transparent background — Miyuki sits directly on your desktop Always visible above or below other windows Drag to any position on screen Scroll wheel to resize Controls: Left click + hold & drag — Move Miyuki to any position on screen Left click (quick tap) — Open emotion selection wheel Click emotion button — Apply emotion to Miyuki Click X — Close emotion wheel Scroll wheel — Resize Miyuki Right click → Quit — Close the application",
-        "id_in_db": "t3_1w0mhaw",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "4580730",
+        "steam_app_id": "2903950",
         "genres": [
-            "Casual"
+            "Action",
+            "Adventure"
         ],
         "is_multiplayer": false,
         "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "Miyuki Desktop - brings a charming Live2D anime girl to your Windows desktop. Miyuki lives on your screen, reacts to your mouse, blinks, breathes, and keeps you company while you work or browse. Features: Fully animated Live2D model with natural blinking, breathing, and hair physics Eyes and head follow your mouse cursor in real time 10+ idle animations that play automatically over time 8 emotions (angry, happy, sad, love, blushed, ill, roundeyes, normal) with unique animations Transparent background — Miyuki sits directly on your desktop Always visible above or below other windows Drag to any position on screen Scroll wheel to resize Controls: Left click + hold & drag — Move Miyuki to any position on screen Left click (quick tap) — Open emotion selection wheel Click emotion button — Apply emotion to Miyuki Click X — Close emotion wheel Scroll wheel — Resize Miyuki Right click → Quit — Close the application"
+        "persian_summary": "Enjoy a brand new dark fantasy detective action game from the minds behind the Danganronpa series! A city of rain is gripped by innumerable unsolved mysteries, under the complete control of a megacorporation. Master Detectives from around the world, each possessing unique powers, must rise to the challenge of uncovering the truth. With Shinigami by his side, Yuma joins the investigation as a trainee of the detective agency. The story progresses through investigation in the \"real world\" to collect clues needed to solve a case, then conquering the \"Mystery Labyrinth\" with the clues gathered. Uncover the truth by making full use of your evidence in the Mystery Labyrinth. [Investigation] Take control of Yuma and explore Kanai Ward. Talk to people in the city and investigate crime scenes to collect \"Solution Keys\". [Forensic Forte] The detectives who investigate with Yuma have \"Forensic Fortes,\" like \"Postcognition\" and \"Disguise\". They'll help find hidden clues and testimonies by..."
     },
     {
         "title": "mother russia bleeds 90 off149",
@@ -393,33 +322,19 @@
         "url": "https://itad.link/0194892a-57ba-7298-b5bb-68af3255422d/",
         "is_free": true,
         "discount_text": "100% Off",
-        "image_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=485745003555351",
-        "is_dlc_or_addon": false,
-        "persian_summary": "",
-        "description": ""
-    },
-    {
-        "title": "pcconsolemobile other idle champions of the forgotten realms",
-        "store": "other",
-        "url": "https://alienwarearena.com/ucf/show/2176109/boards/contest-and-giveaways-global/Giveaway/idle-champions-9th-anniversary-starter-pack-key-giveaway",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/627690/045beea7cc7687b6624f4b3ec1610e67742d4880/header_alt_assets_37.jpg?t=1788375230",
-        "description": "Recruit legendary Champions for the ultimate endless adventure! Idle Champions of the Forgotten Realms is a strategy management game that unites iconic Champions from D&D TRPG campaigns, video games, novels, actual plays, comic books, and shows into a grand adventure. Optimize formations using over 140 Champions, each with unique abilities, to defeat countless monsters across hundreds of adventures. Mastery requires pushing formations further with every adventure – only the most powerful formations will complete the greatest challenges Idle Champions has to offer. COLLECT ICONIC CHAMPIONS Unlock unique Champions from across the Dungeons & Dragons multiverse, each with their own formation abilities and ultimate powers. Fan favorites include Drizzt Do'Urden and the Companions of the Hall, Minsc & Boo, Astarion and Karlach from Baldur's Gate 3, …and many, many more! EASY TO LEARN, HARD TO MASTER Manage multiple adventuring parties to test your Champions' mettle and earn even greater rewards. Your Champions automatically fight enemies until defeated, even if you close the game. Your Familiars automate basic gameplay like leveling Champions and picking up gold so YOU can focus on optimizing your formation strategy. Build powerful synergies and unleash the full power of your Champions to complete the most difficult adventures! TRAVEL THE D&D MULTIVERSE Adventure throughout the Sword Coast and beyond. Visit legendary cities like Baldur's Gate, Waterdeep, and Sigil, the City of Doors. Explore the mists of Barovia, brave the endless Blood War of Avernus, and sail the Astral Sea. REGULAR CONTENT UPDATES There are multiple content updates every month. Since launching in 2017, Idle Champions has introduced 140+ Champions, over 200+ adventures, 8 campaigns based on official TRPG releases, and introduced dozens of new features and systems to the game. The next big update is never far away!",
-        "id_in_db": "t3_1w5et3i",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "627690",
+        "steam_app_id": "3297160",
+        "description": "Tired of waiting for matches to start? Craving a healthy dose of frustration? Then \"NoRush\" is the perfect game for you! Experience the thrill of the climb: Navigate perilous obstacles: Leap over deadly spikes, dodge swinging hammers, and avoid crushing platforms. Test your limits: Push yourself to the edge as the difficulty ramps up with each level. Reach the 300-meter summit: Prove your worth and conquer the tower (though the view from the top might not be worth the struggle). This isn't your typical platformer. Expect challenging gameplay, unexpected twists, and plenty of opportunities to scream in frustration (and maybe laugh a little). Download now and embrace the challenge!",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3297160/header.jpg?t=1741113215",
         "genres": [
             "Action",
             "Adventure",
-            "Indie",
-            "Strategy",
-            "Free To Play"
+            "Casual",
+            "Indie"
         ],
         "is_multiplayer": false,
         "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "Recruit legendary Champions for the ultimate endless adventure! Idle Champions of the Forgotten Realms is a strategy management game that unites iconic Champions from D&D TRPG campaigns, video games, novels, actual plays, comic books, and shows into a grand adventure. Optimize formations using over 140 Champions, each with unique abilities, to defeat countless monsters across hundreds of adventures. Mastery requires pushing formations further with every adventure – only the most powerful formations will complete the greatest challenges Idle Champions has to offer. COLLECT ICONIC CHAMPIONS Unlock unique Champions from across the Dungeons & Dragons multiverse, each with their own formation abilities and ultimate powers. Fan favorites include Drizzt Do'Urden and the Companions of the Hall, Minsc & Boo, Astarion and Karlach from Baldur's Gate 3, …and many, many more! EASY TO LEARN, HARD TO MASTER Manage multiple adventuring parties to test your Champions' mettle and earn even greater..."
+        "persian_summary": "Tired of waiting for matches to start? Craving a healthy dose of frustration? Then \"NoRush\" is the perfect game for you! Experience the thrill of the climb: Navigate perilous obstacles: Leap over deadly spikes, dodge swinging hammers, and avoid crushing platforms. Test your limits: Push yourself to the edge as the difficulty ramps up with each level. Reach the 300-meter summit: Prove your worth and conquer the tower (though the view from the top might not be worth the struggle). This isn't your typical platformer. Expect challenging gameplay, unexpected twists, and plenty of opportunities to scream in frustration (and maybe laugh a little). Download now and embrace the challenge!"
     },
     {
         "title": "playsum no mans sky 1996 1716 c2613 1473 a2628 r4989 with code cheers",
@@ -435,74 +350,6 @@
         "persian_summary": "ارسال شده توسط /u/Lets_Playsum [لینک] [نظرات]"
     },
     {
-        "title": "poubelle city",
-        "store": "itch.io",
-        "url": "https://rono-ok.itch.io/poubelle-city",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3856700/55e6b219a46788714ee7db69ab4212c3283e0458/header.jpg?t=1787729629",
-        "description": "🌆 Welcome to Poubelle City! Message from the Municipal Administration, under the authority of the Mayor, Hugo Lupo 🌃 Discover Poubelle City: A city of opportunities and dynamism! Dear visitors, welcome to Poubelle City, a vibrant metropolis where urban energy meets unparalleled authenticity! Under the enlightened leadership of our mayor, Hugo Lupo, our city stands as an essential destination for lovers of alternative culture, unique experiences and unforgettable atmosphere. Poubelle City is much more than a city: it's a lifestyle! ⭐ Why choose Poubelle City? 🧱 An authentic setting Our streets, rich in character, offer total immersion in a raw and warm urban atmosphere. Every street corner is an invitation to discover the soul of our community, with its lively markets, picturesque establishments and public spaces full of life. 📍 Iconic locations Rue Eugène Poubelle: The historic street of Poubelle City, where each cobblestone tells a page of our glorious past. Le Pont Schlag: An ideal viewpoint to contemplate the city's skyline 🌇. Le Bar la Louze: A friendly place where discussions and drinks flow 🍻. La Pizza Crado: A local culinary institution 🍕. Le Kebab Subintrant: A must for savoring the city's culinary diversity 🌯. La Boîte du Vide: The heart of nightlife, where anything can happen 💥. 🎭 A rich cultural heritage Poubelle City is proud of its dynamic community, made up of artisans, merchants and street artists who each bring a unique touch to our identity. 🎧 Event of the month: The legendary evening with DJ Aye-Aye! Poubelle City is buzzing to host the most anticipated event of the year: the exclusive performance by global mega-star DJ Aye-Aye at La Boîte du Vide! Expect an electrifying evening: powerful bass, dazzling lights, high-energy atmosphere ⚡. 📍 Where? La Boîte du Vide 🕗 When? Tonight! ❗ Warning: All spots are already reserved! Stay tuned for possible additional announcements. Statement from Mayor Hugo Lupo: \"DJ Aye-Aye in Poubelle City is proof that our city is an epicenter of culture and celebration! Come experience an unforgettable moment and show the world that Poubelle City knows how to make hearts and dancefloors vibrate!\" 🎶 🚀 Come live the Poubelle City experience! Whether you're passing through or a long-time resident, Poubelle City invites you to explore its streets, taste its flavors and vibe to its nights. Join us for DJ Aye-Aye's exceptional evening and discover why Poubelle City is much more than a destination: it's an adventure! ✨ For more information, contact the municipal office of Poubelle City. Hugo Lupo, Mayor of Poubelle City \"Together, let's make Poubelle City the city where everything is possible!\" Message approved by the Municipal Administration of Poubelle City.",
-        "id_in_db": "t3_1w600xy",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "3856700",
-        "genres": [
-            "Adventure",
-            "Indie"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "🌆 Welcome to Poubelle City! Message from the Municipal Administration, under the authority of the Mayor, Hugo Lupo 🌃 Discover Poubelle City: A city of opportunities and dynamism! Dear visitors, welcome to Poubelle City, a vibrant metropolis where urban energy meets unparalleled authenticity! Under the enlightened leadership of our mayor, Hugo Lupo, our city stands as an essential destination for lovers of alternative culture, unique experiences and unforgettable atmosphere. Poubelle City is much more than a city: it's a lifestyle! ⭐ Why choose Poubelle City? 🧱 An authentic setting Our streets, rich in character, offer total immersion in a raw and warm urban atmosphere. Every street corner is an invitation to discover the soul of our community, with its lively markets, picturesque establishments and public spaces full of life. 📍 Iconic locations Rue Eugène Poubelle: The historic street of Poubelle City, where each cobblestone tells a page of our glorious past. Le Pont Schlag: An ideal..."
-    },
-    {
-        "title": "psa grim trials free purchase from last month being revoked",
-        "store": "other",
-        "url": "https://www.reddit.com/r/FreeGameFindings/comments/1w6jnuj/psa_grim_trials_free_purchase_from_last_month/",
-        "image_url": "https://windowsreport.com/wp-content/uploads/2026/09/Grim-trials.png",
-        "description": "to anyone who claimed the free PC preorder. it just got cancelled and you should be getting this message soon. Seems like Xbox/the dev finally remembered it. “You recently placed a pre-order or purchase for Grim Trials. Unfortunately this product was not intended to be available, therefore we are cancelling your order, refunding any payment made, and removing it from your ''My games & apps'' list. We apologize for the inconvenience. Visit account.microsoft.com to view your billing history.” Here is the original post. submitted by /u/realUnknown12 [link] [comments]",
-        "id_in_db": "t3_1w6jnuj",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "to anyone who claimed the free PC preorder. it just got cancelled and you should be getting this message soon. Seems like Xbox/the dev finally remembered it. “You recently placed a pre-order or purchase for Grim Trials. Unfortunately this product was not intended to be available, therefore we are cancelling your order, refunding any payment made, and removing it from your ''My games & apps'' list. We apologize for the inconvenience. Visit account.microsoft.com to view your billing history.” Here is the original post. submitted by /u/realUnknown12 [link] [comments]"
-    },
-    {
-        "title": "psa just die already egs war hospital egs are complimentary with amazon prime",
-        "store": "amazon",
-        "url": "https://luna.amazon.com/claims/home?filter=Game&g=s",
-        "image_url": "https://external-preview.redd.it/_fBjABdCsDDIR7bJn-cgpkXoTMJ2MnAEY3PCdXPaAoY.png?width=640&crop=smart&auto=webp&s=bef23da95c6aa8211ed8845602ada6c6644977cf",
-        "description": "submitted by /u/LighteningOneIN [link] [comments]",
-        "id_in_db": "t3_1w6d9di",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/LighteningOneIN [لینک] [نظرات]"
-    },
-    {
-        "title": "sad virus tokyo",
-        "store": "other",
-        "url": "https://gleam.io/gNwMJ/free-x2500-sad-virus-tokyo-steam-keys",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4992270/5c451ea247a80fa7385bec001d26f3caf4d69fbb/header.jpg?t=1787132962",
-        "description": "STORY: Player controls sad Virus character in this 3rd person walking simulation and platformer game. Sad virus is now at Tokyo named city where Sad virus mission is to find 9 beer bottles hidden in different places. Avoid traps like moving spikes and balls. Use checkpoint system and jumping platforms to find all beer bottles in this 3rd person walking adventure game FEATURES: Try to find 9 beer bottles at Tokyo named city Avoid traps like spikes, balls Jumping platforms Checkpoints Steam achievements",
-        "id_in_db": "t3_1w3ebdd",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "4992270",
-        "genres": [
-            "Adventure",
-            "Casual",
-            "Indie",
-            "Simulation"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "STORY: Player controls sad Virus character in this 3rd person walking simulation and platformer game. Sad virus is now at Tokyo named city where Sad virus mission is to find 9 beer bottles hidden in different places. Avoid traps like moving spikes and balls. Use checkpoint system and jumping platforms to find all beer bottles in this 3rd person walking adventure game FEATURES: Try to find 9 beer bottles at Tokyo named city Avoid traps like spikes, balls Jumping platforms Checkpoints Steam achievements"
-    },
-    {
         "title": "special edition 87 off 389",
         "store": "steam",
         "url": "https://store.steampowered.com/app/1276760/DRAGON_BALL_THE_BREAKERS/",
@@ -516,91 +363,17 @@
         "persian_summary": "ارسال شده توسط /u/DBZWarrior05 [لینک] [نظرات]"
     },
     {
-        "title": "steamepicconsole other hogwarts legacy",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/1880831/Hogwarts_Legacy_Astronomers_Hat/",
-        "image_url": "https://external-preview.redd.it/JSP_JZIOZj2L88WoISFQPwgXY_iVGRR0gH8yUSsEVsw.jpeg?width=320&crop=smart&auto=webp&s=51a4378035f5e3555f1fcf4c23e1179bc2de0a10",
-        "description": "Steam Epic Games PS4 PS5 Xbox Switch Switch 2 Console can be claimed without the base game. Expires end of September. submitted by /u/iambaldy [link] [comments]",
-        "id_in_db": "t3_1w4jg8j",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "کنسول Steam Epic Games PS4 PS5 Xbox Switch Switch 2 را می‌توان بدون بازی پایه دریافت کرد. تاریخ انقضا تا پایان سپتامبر است. ارسال شده توسط /u/iambaldy [لینک] [نظرات]"
-    },
-    {
-        "title": "steammobileconsole vampire survivors legacy of the bloodmoon dlc",
+        "title": "the king of fighters 2002 unlimited match 188 169 c230 134 a262 r378 with code cheers",
         "store": "other",
-        "url": "https://bloodmoon.poncle.net/",
-        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1794680/4b34e783d44cf817c23a7121c66d93ab762ebb61/capsule_616x353_alt_assets_10.jpg?t=1787911678",
-        "description": "submitted by /u/mcd_threepwood [link] [comments]",
-        "id_in_db": "t3_1w5nzw9",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": true,
-        "persian_summary": "ارسال شده توسط /u/mcd_threepwood [لینک] [نظرات]"
-    },
-    {
-        "title": "stove primal slideee deluxe",
-        "store": "stove",
-        "url": "https://store.onstove.com/en/games/3694",
-        "image_url": "https://external-preview.redd.it/5fvrJlHvZ0pqpuUrrFzc9vUs4Y0Ny40bSFKVQ4_h8_I.jpeg?width=640&crop=smart&auto=webp&s=b3cfd782f600a2bf47ac752a52cd256a20615e76",
-        "description": "submitted by /u/MeguminShiro [link] [comments]",
-        "id_in_db": "t3_1w5a56j",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": true,
-        "persian_summary": "ارسال شده توسط /u/MeguminShiro [لینک] [نظرات]"
-    },
-    {
-        "title": "stove tasty love if",
-        "store": "stove",
-        "url": "https://store.onstove.com/en/games/3042",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1184250/header.jpg?t=1760865761",
-        "description": "The current Early Access version contains +8 weeks of military service, meaning over 40 hours of scripted gameplay content! WARNING: The game contains strong language, some censored nudity and mild violence so it is best suited for adult audience. The Purpose? To provide a realistic but humorous experience of the Finnish Military Service (conscription, \"intti\") around the year 2011. We want you to feel nostalgic! RK-69 (pun intended), M05, hazing / bullying (\"simputus\"), NBC Alarms (\"suojeluhälytys\")… Training includes conscript favorites such as NBC gear leak testing with tear gas. And fire training with napalm, as well as the ever-present cooper test. The Catch? The player can relate to the content if she/he has been through the Finnish Army. Strong language, black humor, strict guidelines, repetitive tasks, simple core mechanics are the heart of the game. Spend your on-base days going to endless lectures, learning basic discipline and marching drill. The Mechanics? Remember those good old “track and field” type of games? How about “Tony Hawk” games? This game will feature a lot of mechanics that many will remember from their childhood. Furthermore, RPG elements like dialogues, inventory, player stats, free roaming, skill trees etc. will provide additional depth to the gameplay. Many facets of training are included as minigames. Orienteering, combat training (\"taisteluammuntaharjoitus\") and military drill (\"sulkeisjärjestysharjoitus\") among them. Marching in time with your fellows has been a staple of military training since Napoleonic times. By the 2000’s, this hasn’t changed in Finnish armed service. You’ll be surprised how little else has. The Story? The game will have a “meta plot”. The player will be able to reveal army secrets that shouldn’t be commonly known. The player also maintains connection to the outside world by watching TV news and participating in activities during the weekend holidays which both will affect the gameplay. Count how many precious days of service remain with an in-game morning comb. Other inseparable aspects of Finnish military service, such as tent stove duty, roundabout group punishment and “intti slang” are brought vividly to life. Kilometers of Finnish country roads are modeled in luscious detail. And terrain exercises are complete with, well, terrain. As well as defensive structures for training. It is a well-known aspect of Finnish military service that the shortest service of 180 days includes approximately 300 nights sleeping in the woods. Or more often than not, spent in the woods guarding the empty forest. The barracks area is free to roam during the day, but during the night, the military police do their best to make sure anyone moving about is only doing so on actual business. That may not stop you. If you play your cards right, you may get to shoot dozens of live rounds. Dozens! Hundreds of pieces of military kit and other items, from weapons, live and simulated, to protective equipment and clothes, camping implements and packs, all the way to candy and snacks, perhaps even contraband… Kit enters the player’s inventory as it does in actual service, through regular visits to the equipment warehouse (\"varusvarasto\"). That is not to say that extra items and special equipment isn’t possible to come by. Barracks housing is modeled after the bunks, stools and steel cupboards every Finnish conscript knows and loves. Cleaning service (\"siivouspalvelus\"), folding the soldier’s blanket (\"pinkka\") and making the bed are all in the game. The barracks grounds are complete with a soldier home (\"sotilaskoti\"), a distinctive Finnish breed of combined canteen and commissary. This is the closest you’re likely to get to civilization and normal life most evenings. The soldier home commissary offers small creature comforts such as videogames, petty gambling (slot machine, payazzo) and tasty treats. What little remnants of the outside world exists on the barracks are modeled after actual Finnish popular culture, tongue firmly in cheek. Outside events do, however, have an effect on your service, and the game has several storylines that may take several playthroughts to fully uncover. Even in the unlikely event that a Finn knows nothing else about military service, the two things they are likely to know are that the jam doughnuts in the canteen are delicious and cheap, and that the coffee is undrinkable. There are things that some conscripts cannot live without that cannot be bought in the soldier home. Tins of Swedish snus, for example, may be bought from platoon mates.",
-        "id_in_db": "t3_1w53964",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "1184250",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Casual",
-            "Indie",
-            "RPG",
-            "Simulation",
-            "Sports",
-            "Early Access"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
+        "url": "https://store.playsum.live/product/f646f5ed-4c83-4f7c-80a3-0bbe6194c0de/the-king-of-fighters-2002-unlimited-match",
+        "image_url": "https://external-preview.redd.it/5HWUhCJJ9gVvroji4hiCDuBzdLr99tgsJhM9HDVIqnk.jpeg?width=320&crop=smart&auto=webp&s=a2721f8e601a5059a18260f072b8f4a12a7bb603",
+        "description": "submitted by /u/Lets_Playsum [link] [comments]",
+        "id_in_db": "t3_1w9lqjg",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "87% off",
         "is_dlc_or_addon": false,
-        "persian_summary": "The current Early Access version contains +8 weeks of military service, meaning over 40 hours of scripted gameplay content! WARNING: The game contains strong language, some censored nudity and mild violence so it is best suited for adult audience. The Purpose? To provide a realistic but humorous experience of the Finnish Military Service (conscription, \"intti\") around the year 2011. We want you to feel nostalgic! RK-69 (pun intended), M05, hazing / bullying (\"simputus\"), NBC Alarms (\"suojeluhälytys\")… Training includes conscript favorites such as NBC gear leak testing with tear gas. And fire training with napalm, as well as the ever-present cooper test. The Catch? The player can relate to the content if she/he has been through the Finnish Army. Strong language, black humor, strict guidelines, repetitive tasks, simple core mechanics are the heart of the game. Spend your on-base days going to endless lectures, learning basic discipline and marching drill. The Mechanics? Remember those..."
-    },
-    {
-        "title": "the leather maker",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/4805820/The_Leather_Maker/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4805820/c40c400dcb5798e4e5c28d1284301f7cb8d8fda1/header.jpg?t=1787260077",
-        "description": "The Leather Maker is a narrative adventure set amidst the bustling streets and uncertain fortunes of Boston in the year of 1773. Take upon yourself the role of Prince Hall, a leather maker by trade and a man of uncommon ambition. While the town finds itself divided by questions of liberty, commerce, and the authority of Parliament, Prince must contend with matters nearer his own hearth: a son seeking his own path, a beloved companion, trusted friends, and a community searching for its place in the world.",
-        "id_in_db": "t3_1w81fvu",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "4805820",
-        "genres": [
-            "Adventure",
-            "Casual",
-            "Indie",
-            "Free To Play"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "The Leather Maker is a narrative adventure set amidst the bustling streets and uncertain fortunes of Boston in the year of 1773. Take upon yourself the role of Prince Hall, a leather maker by trade and a man of uncommon ambition. While the town finds itself divided by questions of liberty, commerce, and the authority of Parliament, Prince must contend with matters nearer his own hearth: a son seeking his own path, a beloved companion, trusted friends, and a community searching for its place in the world."
+        "persian_summary": "ارسال شده توسط /u/Lets_Playsum [لینک] [نظرات]"
     },
     {
         "title": "this is no cave",
@@ -645,39 +418,6 @@
         "persian_summary": "Mankind turned Earth into a dry wasteland and perished, but some species adapted and evolved. Pick one of the beaver factions and see how long your colony can last. Beaver societies Control one of two beaver factions: the nature-friendly Folktails or the industrious Iron Teeth. Each faction has unique buildings, technology, and gameplay traits. Choose what fits your playstyle! Wet, dry, and toxic seasons Prepare your settlement for recurring droughts and waves of toxic waste. Stockpile food and keep fields and forests alive even after rivers dry up. Rely on both natural water sources and artificial irrigation to keep the land arable and your beavers safe. Water physics and terraforming Beavers’ engineering skills are legendary. With Timberborn’s 3D water physics and terraforming, so can be yours. Put up dams and floodgates, erect massive aqueducts, dig canals and tunnels with explosives, and reshape the terrain to your liking. Vertical architecture Harness the game’s unique vertical..."
     },
     {
-        "title": "tower edition",
-        "store": "epicgames",
-        "url": "https://store.epicgames.com/p/norush-67f385",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368850/header.jpg?t=1782399325",
-        "description": "Cursed Treasure 2 Ultimate Edition includes all existing game content of Cursed Treasure 2, plus 3 hand-crafted new levels! The total game re-balance and new mission rating system makes it more fun to play all previous levels once again, even if you have played before. The mission rating mechanism has been changed from \"Don't touch my gems\" to \"Come touch my gems\" that you always get a 3-star rating for the mission as long as there are still 3 gems on the field! The enemy waves have been adjusted and where the gem dropped will also affect enemies’ behaviors, all of these make the gameplay enjoyable with various of skills and tactics for many possible combinations. Why be good when you can be... bad? Cursed Treasure 2 is an addictive tower-defense game that puts the power of darkness at your fingertips. As a creature of ultimate evil, you don't ask for much... just to raze the odd kingdom and have your cache of all-powerful magical gems safely hidden away. Too bad the (ugh) good guys are out to steal them. Using the powers of the orcs, demons, and undead, you'll build unique and powerful towers along paths to destroy any hero that dares get close. Upgrade your undead crypts to instill fear in foes that make them flee in the opposite direction, or turn your demonic temples into mighty icons capable of turning the ground to lava beneath anyone's feet. You'll upgrade and enhance each unique type, and of course, unlock spells of your own to enter the fray... when the going gets tough, the tough drop meteors on everyone else, after all. Sure, your enemies have paladins and angels and ninjas and more, but when you've got power like yours, they'll wish they stayed at home. Cursed Treasure 2 is casual but engaging tower-defense with style, packed with 27 levels that can be conquered normally or in Night Mode for even more challenge. It's good to be bad. Features Three powerful and monstrous tower-types, each with their own unique skills to unlock! 27 levels of maniacal mayhem across a lush fantasy world. Replay stages in re-balanced Night Mode with limited illumination for added challenge. Earn ability points to improve everything from spells to towers and more. A wide variety of enemies tricky powers and abilities to overcome. A vibrant and colorful style... just because you're evil doesn't mean you can't look good. What's new in Ultimate Edition 3 gems instead of 5 and updated mission rating requirements: just keep all the gems on the level to get Brilliant! Yes, they can touch your gems now. 3 brand-new levels! Hand-crafted and polished. Total re-balance. More fun on every enemy wave. Among other things, the dwarves are not that mighty now - don’t bother piling up the skulls to beat them. Easy mana bottles and coins pick-up with mouse over. You won’t mis-click the scrolls anymore. Mana bottles auto-collection. Don't forget to upgrade the mana limit! Updated experience system - now you get experience even if you lose. But not if you quit - hold on to the last! Optimization and debugging for the smoother evil spreading experience. No more erased saves",
-        "id_in_db": "t3_1w0t18a",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "1368850",
-        "genres": [
-            "Casual",
-            "Strategy"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": true,
-        "persian_summary": "Cursed Treasure 2 Ultimate Edition includes all existing game content of Cursed Treasure 2, plus 3 hand-crafted new levels! The total game re-balance and new mission rating system makes it more fun to play all previous levels once again, even if you have played before. The mission rating mechanism has been changed from \"Don't touch my gems\" to \"Come touch my gems\" that you always get a 3-star rating for the mission as long as there are still 3 gems on the field! The enemy waves have been adjusted and where the gem dropped will also affect enemies’ behaviors, all of these make the gameplay enjoyable with various of skills and tactics for many possible combinations. Why be good when you can be... bad? Cursed Treasure 2 is an addictive tower-defense game that puts the power of darkness at your fingertips. As a creature of ultimate evil, you don't ask for much... just to raze the odd kingdom and have your cache of all-powerful magical gems safely hidden away. Too bad the (ugh) good guys..."
-    },
-    {
-        "title": "turret baffler turscar isle beneath europa dicey chess nightbell dire echo fear assessment and cult of flies",
-        "store": "other",
-        "url": "https://www.reddit.com/r/FreeGameFindings/comments/1w1vmw5/itchiogame_turret_baffler_turscar_isle_beneath/",
-        "image_url": "https://img.itch.zone/aW1nLzI5MjIzMTk2LnBuZw==/315x250%23c/%2BpLOhH.png",
-        "description": "I noticed a few games that are on steam but have been a bit lazy about posting them so so figured I'd do it now. As there are several I'm putting them all in one post to avoid spam. They have all been posted in the megathread before. Steam links are included for review reading. New items Turret Baffler and Turscar Isle: https://itch.io/s/198569/free-stealth-game-weekend Expired https://store.steampowered.com/app/3462150/Turret_Baffler/ https://store.steampowered.com/app/4310920/Turscar_Isle/ Perhaps a bit questionable do to low review numbers but I figured I'd include these since I'm posting stuff. Ends: 2026-08-30 T22:59:00 UTC. Beneath Europa: https://3xiled4ever.itch.io/beneath-europa Expired Edit: Sale seems to have ended early. Thanks to Apryed for the update. Note: Not yet released on steam but planned to be. https://store.steampowered.com/app/5094080/Beneath_Europa/ Sale ends 2026-09-04 T07:28:00 UTC. Dicey Chess: https://ibrahim-oezhan.itch.io/dicey-chess https://store.steampowered.com/app/2892190/Dicey_Chess/ Sale ends 2026-09-09 T21:31:00 UTC. Old items NIGHTBELL and DIRE ECHO: https://itch.io/s/190809/100-sale https://store.steampowered.com/app/4216630/NIGHTBELL/ https://store.steampowered.com/app/3743180/Dire_Echo/ Sale ends 2026-08-31 T14:57:00 UTC. Edit: Sale extended to 2026-09-30 T14:57:00 UTC Fear Assessment and CULT OF FLIES: https://itch.io/s/198920/sale-yay Note: Fear assessment is good enough for a post but not on steam and Cult of flies is apparently quite buggy. But since they are in the same sale I figured I'd add both. https://store.steampowered.com/app/2512380/CULT_OF_FLIES/ Sale ends 2026-09-05 T04:44:00 UTC. submitted by /u/Fhczvyd474374846 [link] [comments]",
-        "id_in_db": "t3_1w1vmw5",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "I noticed a few games that are on steam but have been a bit lazy about posting them so so figured I'd do it now. As there are several I'm putting them all in one post to avoid spam. They have all been posted in the megathread before. Steam links are included for review reading. New items Turret Baffler and Turscar Isle: https://itch.io/s/198569/free-stealth-game-weekend Expired https://store.steampowered.com/app/3462150/Turret_Baffler/ https://store.steampowered.com/app/4310920/Turscar_Isle/ Perhaps a bit questionable do to low review numbers but I figured I'd include these since I'm posting stuff. Ends: 2026-08-30 T22:59:00 UTC. Beneath Europa: https://3xiled4ever.itch.io/beneath-europa Expired Edit: Sale seems to have ended early. Thanks to Apryed for the update. Note: Not yet released on steam but planned to be. https://store.steampowered.com/app/5094080/Beneath_Europa/ Sale ends 2026-09-04 T07:28:00 UTC. Dicey Chess: https://ibrahim-oezhan.itch.io/dicey-chess..."
-    },
-    {
         "title": "ufo crash games special promotion",
         "store": "other",
         "url": "https://www.reddit.com/r/GameDeals/comments/1w7hozk/steam_ufo_crash_games_special_promotion_fullblast/",
@@ -699,25 +439,6 @@
         "persian_summary": "Xenonauts 2 is a strategy game that puts you in charge of a multinational military organization tasked with eliminating an extraterrestrial threat. Working from the shadows, you must seek out and engage the growing alien presence wherever it appears. Expand and manage a covert network of bases across the globe. Pursue research and development to bridge the technological gap with the alien invaders. Train, arm, and command your ground troops wherever the alien threat emerges. It is 2009 - the Cold War continues, and the Berlin Wall still stands. In the shadows, a secret organization works beyond arbitrary political boundaries to gather information about a greater threat to humanity. Mysterious sightings of unidentified flying objects and unknown beings have grown more common, coinciding with escalating international tensions and panic. Those who report such sightings frequently disappear without a trace, and it is clear that the aliens grow bolder with each passing day. Time is of the..."
     },
     {
-        "title": "ufo defense",
-        "store": "other",
-        "url": "https://freetokeep.gg/game/x-com-ufo-defense",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7760/header.jpg?t=1571243544",
-        "description": "You are in control of X-COM: an organization formed by the world's governments to fight the ever-increasing alien menace. Features: Command deadly close-combat battles Shooting down UFOs is just the beginning: you must then lead a squad of heavily-armed soldiers across different terrains as they investigate the UFO crash site. Tackle the aliens with automatic rifles, rocket launchers, and even tanks in the struggle to retrieve useful technology, weapons or life forms. Research and manufacture alien technologies Successful ground assault missions will allow X-COM scientists to analyze alien items. Each new breakthrough brings you a little closer to understanding the technology and culture of the alien races. Once you have sufficient research data on the UFO's superior weapons and crafts, you'll be able to manufacture weapons of equal capability. Develop a strategy to save the Earth You must make every crucial decision as you combat the powerful alien forces. But you'll also need to watch the world political situation: governments may be forced into secret pacts with the aliens and then begin to reduce X-COM funding.",
-        "id_in_db": "t3_1w47h60",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "7760",
-        "genres": [
-            "Strategy"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "You are in control of X-COM: an organization formed by the world's governments to fight the ever-increasing alien menace. Features: Command deadly close-combat battles Shooting down UFOs is just the beginning: you must then lead a squad of heavily-armed soldiers across different terrains as they investigate the UFO crash site. Tackle the aliens with automatic rifles, rocket launchers, and even tanks in the struggle to retrieve useful technology, weapons or life forms. Research and manufacture alien technologies Successful ground assault missions will allow X-COM scientists to analyze alien items. Each new breakthrough brings you a little closer to understanding the technology and culture of the alien races. Once you have sufficient research data on the UFO's superior weapons and crafts, you'll be able to manufacture weapons of equal capability. Develop a strategy to save the Earth You must make every crucial decision as you combat the powerful alien forces. But you'll also need to..."
-    },
-    {
         "title": "whiskerwood 34997 50 off",
         "store": "steam",
         "url": "https://store.steampowered.com/app/2489330/Whiskerwood/",
@@ -729,5 +450,39 @@
         "discount_text": "50% off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/shying_away [لینک] [نظرات]"
+    },
+    {
+        "title": "xbox obduction 50 off",
+        "store": "other",
+        "url": "https://www.reddit.com/r/GameDeals/comments/1w8vk2r/xbox_obduction_50_off_1499/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/495420/header.jpg?t=1741378867",
+        "description": "State of Decay 2 is an open-world survival-fantasy game set just after the zombie apocalypse. Your small community of survivors seeks to rebuild a corner of civilization, and you get to make all the decisions about how that happens. You decide who to recruit to your team, where to settle your community, how to fortify and upgrade your base, and when it’s time to move to greener pastures. You select which survivor to bring along on a scavenging run for the food and ammo you need, and who you’ll use to fight off the zombies attacking your base. You choose how you’ll deal with other people who move into your town. Will you be friendly and welcoming... or will you aggressively defend your territory? Every player’s experience in the sandbox is unique. Each character in your community has their own special set of skills and traits, so no two communities are ever the same. The challenges you face also vary from game to game, based on who you recruit and the decisions you make along the way. With co-op multiplayer support, you can visit your friends' communities and help them through a tough spot, bringing back rewards for your own communities later. Alternate game modes include a full 10-hour narrative campaign and a four-player zombie-slaughtering \"siege defense\" mode. Undead Labs is proud to present our best-ever vision of the zombie apocalypse. Keep your eyes peeled and your weapons ready. This is one apocalypse you won't want to miss. ACCESSIBILITY OPTIONS Gameplay Adjustable difficulty can be set to ‘Green’, ‘Standard’, ‘Dread’, ‘Nightmare’, or ‘Lethal’, and can be adjusted separately each for ‘Action’, ‘Community’, and ‘Maps’ Adjustable aim assist, allowing the character to automatically lock on to the nearest enemy, can be set to ‘None’, ‘Normal’, or ‘Maximum’ Game can be paused in single-player mode (pause is unavailable in multiplayer) Audio Volume controls can be adjusted for Music, Voice, and SFX audio Adjustable audio output can be set to Surround, Stereo, Headphones or TV Visual Subtitles for spoken content can be set to On or Off Subtitle text size can be scaled to 50%, 75%, 100%, 125%, or 150% Gamma levels can be adjusted to increase or decrease in-game brightness, and is available prior to game start Field of view can be adjusted between 40% and 100% Motion blur can be set to Off, Low, or High ‘Reduce auto-camera movement’ can be set to On or Off HUD UI visibility can be set to On or Off In-World Objective Icon visibility can be set to On or Off UI prompts for Finisher Moves on zombies can be set to On or Off Mini-map visibility can be set to On or Off Mini-map rotation lock can be set to On or Off Tooltip visibility can be set to On or Off Notifications can be set to On or Off Input Input remapping for keyboard & mouse, and most controller buttons* Controller vibration can be set to On or Off ‘Auto Camera Tracking on Foot’ can be set to On or Off ‘Auto Camera Tracking in Vehicle’ can be set to On or Off ‘Use camera to target interactions’ can be set to ‘Never’, ‘Always’, or ‘Only when using mouse’ ‘Aim on Movement Stick’ can be set to On or Off ‘Rapid Button Tap’ can be replaced with ‘Hold Button Down’ ‘Hold to Aim’ can be replaced with ‘Aim Toggle’ ‘Remember Aim Zoom Level’ can be set to On or Off Reduce Auto Camera Movement can be set to On or Off Adjustable sensitivity for camera movement and weapon aiming for controller joystick and mouse Ability to invert camera X and Y axes for controller joystick and mouse Ability to swap left and right controller joystick functionality *For Xbox controllers: the right stick, ‘view’, and ‘menu’ buttons are not remappable. To move your character while also aiming a weapon, a mouse or controller joystick stick is required – this cannot be done with a keyboard only.",
+        "id_in_db": "t3_1w8vk2r",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "50% off",
+        "steam_app_id": "495420",
+        "genres": [
+            "Action",
+            "RPG",
+            "Simulation"
+        ],
+        "is_multiplayer": true,
+        "is_online": true,
+        "is_dlc_or_addon": false,
+        "persian_summary": "State of Decay 2 is an open-world survival-fantasy game set just after the zombie apocalypse. Your small community of survivors seeks to rebuild a corner of civilization, and you get to make all the decisions about how that happens. You decide who to recruit to your team, where to settle your community, how to fortify and upgrade your base, and when it’s time to move to greener pastures. You select which survivor to bring along on a scavenging run for the food and ammo you need, and who you’ll use to fight off the zombies attacking your base. You choose how you’ll deal with other people who move into your town. Will you be friendly and welcoming... or will you aggressively defend your territory? Every player’s experience in the sandbox is unique. Each character in your community has their own special set of skills and traits, so no two communities are ever the same. The challenges you face also vary from game to game, based on who you recruit and the decisions you make along the way...."
+    },
+    {
+        "title": "xboxmicrosoft store final fantasy vii remake intergrade",
+        "store": "xbox",
+        "url": "https://www.xbox.com/en-us/games/store/final-fantasy-vii-remake-intergrade/9nrqvq7zrm7z?ocid=storeforweb",
+        "image_url": "https://store-images.s-microsoft.com/image/apps.49022.13766021564501406.a4d7cfc8-cacd-474d-930d-a6808bd4f042.5238aecd-b81c-45bb-8e06-c8155a7f0c45",
+        "description": "submitted by /u/LectorFrostbite [link] [comments]",
+        "id_in_db": "t3_1w99tzs",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "75% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/LectorFrostbite [لینک] [نظرات]"
     }
 ]
