@@ -13,42 +13,23 @@
         "persian_summary": "ارسال شده توسط /u/AllYouPlay [لینک] [نظرات]"
     },
     {
-        "title": "allyouplay borderlands 4 3040 2585 3055 risk of rain 2 699 590 750 borderlands 4",
-        "store": "other",
-        "url": "https://allyouplay.com/discover/highlights",
-        "image_url": "https://external-preview.redd.it/bP_oLBjvTgGLwxDGM4c0y9lQ_wuk2oY8LtSEZBC66lo.jpeg?width=640&crop=smart&auto=webp&s=434a91c3bf4b9dc361a4ca58e7956ee246265ee1",
-        "description": "submitted by /u/AllYouPlay [link] [comments]",
-        "id_in_db": "t3_1w9pbss",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "56% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/AllYouPlay [لینک] [نظرات]"
-    },
-    {
         "title": "Alone With You",
         "id_in_db": "alone-with-you@1788452396",
         "store": "other",
         "url": "https://itad.link/01a043f0-8494-7105-8f08-30e027d95f96/",
         "is_free": true,
         "discount_text": "100% Off",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/564940/header.jpg?t=1704051941",
+        "steam_app_id": "564940",
+        "description": "STORY You’re the last survivor of a doomed space colony, trying to escape a planet before it implodes around you. Equipped with a scanner, you’ll reveal clues, solve puzzles, and discover the fates of over two-dozen colonists and the secrets of their interwoven lives. By day you’ll explore this richly detailed world with the help of the colony’s troubled AI. And each night, you'll spend quality time with several holographic companions, forging lasting relationships while gaining further insight into the colony’s tragic downfall. FEATURES Over a dozen missions, multiple endings, varied conversation choices, and some surprising decisions provide a story you can sink your teeth into and experience multiple times A love letter to the Sega CD — vibrant, colourful 16-bit visuals and detailed cut-scene vignettes paint a beautiful sci-fi universe Completely original soundtrack with more than 30 foot-tapping, otherworldly tunes",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/564940/header.jpg?t=1788449210",
+        "genres": [
+            "Adventure",
+            "Indie"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "",
-        "description": ""
-    },
-    {
-        "title": "alone with you",
-        "store": "epicgames",
-        "url": "https://store.epicgames.com/p/alone-with-you-028a15",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/564940/header.jpg?t=1704051941",
-        "description": "submitted by /u/LighteningOneIN [link] [comments]",
-        "id_in_db": "t3_1w69ubr",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/LighteningOneIN [لینک] [نظرات]"
+        "persian_summary": "STORY You’re the last survivor of a doomed space colony, trying to escape a planet before it implodes around you. Equipped with a scanner, you’ll reveal clues, solve puzzles, and discover the fates of over two-dozen colonists and the secrets of their interwoven lives. By day you’ll explore this richly detailed world with the help of the colony’s troubled AI. And each night, you'll spend quality time with several holographic companions, forging lasting relationships while gaining further insight into the colony’s tragic downfall. FEATURES Over a dozen missions, multiple endings, varied conversation choices, and some surprising decisions provide a story you can sink your teeth into and experience multiple times A love letter to the Sega CD — vibrant, colourful 16-bit visuals and detailed cut-scene vignettes paint a beautiful sci-fi universe Completely original soundtrack with more than 30 foot-tapping, otherworldly tunes"
     },
     {
         "title": "arma 3",
@@ -73,119 +54,26 @@
         "persian_summary": "Authentic, diverse, open: Arma 3 sends you to war. The third installment in the legendary Arma franchise is the gold standard military sandbox on PC, featuring combined arms warfare, authentic weapons and assets, and a wide variety of single- and multiplayer content. Arma 3 now includes the Apex and Contact expansions, offering hundreds of hours of additional gameplay right out of the box. And for those who want all available official content from the get-go, Arma 3 Platinum includes the base game and every official expansion and DLC. Deploy into massive open worlds where ballistics are realistic, maneuvering keeps you alive, and teamwork is your strongest weapon. Drive tanks, fly jets, command a squad, or play a range of infantry roles: Arma 3 gives you the freedom to fight your way in the most comprehensive military sandbox on PC, now enhanced with the Apex and Contact expansions. From battling it out on the arid islands of Altis and Stratis in the East Wind campaign, to..."
     },
     {
-        "title": "battle food mania",
+        "title": "dice tavern",
         "store": "steam",
-        "url": "https://store.steampowered.com/app/3594680/Battle_Food_Mania/",
-        "image_url": "https://external-preview.redd.it/1KvQxutEyhv3M8CvMhrtVHTBQMqmjrGE9CtToN_gaJs.jpeg?width=320&crop=smart&auto=webp&s=1ff78bb2d081b32ee900a076eca2ba8ce629139a",
-        "description": "submitted by /u/BattleFoodMania [link] [comments]",
-        "id_in_db": "t3_1w9mpdq",
+        "url": "https://store.steampowered.com/app/4587610/Farkle_Roguelike/",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4587610/a32c8256e28e1b3005d8e02c2a50eb0d3910c15d/header_alt_assets_2.jpg?t=1788841850",
+        "description": "There’s an old saying in the kingdom: “When you’re lost, go to the nearest Dice Tavern.” It all started with Elena, a girl from the North who made a name for herself among the ruins of a tavern. She turned the humble game of Farkle into a challenge that swept across the kingdom. Six taverns, from the village to the throne. Thirty opponents, from humble challengers to legendary rivals. With just six dice, that girl rewrote her own destiny. And now, I can almost hear her calling: “Fancy a round?” Farkle is a classic dice game that has been played for centuries. Roll the dice and lock in your points, or keep pushing your luck. But Farkle, and you lose all your points for the round. Dice Tavern expands on these classic rules with roguelike deckbuilding mechanics. When dice gain unique abilities and probabilities can be reshaped, a simple game of luck becomes an adventure driven by risk, strategy, and clever combinations. 35 Unique Dice Every beautifully crafted die has its own ability and playstyle. They are more than tools. They can change the rules of the game. 43 Synergies Combine specific dice to activate powerful Synergies. Underdog lets cheap dice rewrite the rules for straights, while Holy Empire and Demon Dynasty let the three dice at the heart of your build decide whether you walk in the light or descend into the abyss. Every Synergy has its own story and logic. Deep Modding System Use lead weights to shift the odds. Apply copper, silver, or gold stickers to revive weak faces or stack powerful multipliers. Pair them with cheating tools to turn every die into a finely tuned machine. Gambler, Alchemist, Joker, and more. Each character puts their own spin on the rules. Some let you take bigger risks with fewer turns. Others make coatings cheaper while driving up the price of dice. One turns every scoring roll into a high-stakes gamble: a 65% chance to double your score, or a 35% chance to reduce it to 1 point. Different characters do more than change your starting conditions. They can make the same set of dice evolve into completely different strategies. Every choice is the beginning of a new fate. 6 taverns. 30 opponents. Target scores rising from 3,500 to 500,000. Every opponent brings a unique challenge modifier. They might seal away your strongest scoring numbers, restrict your favorite core combinations, punish Farkles with extra penalties, or drain your total score every turn. The shops are random. Gold is limited. Routes change every run. Every coin is a choice. Every roll is a risk. Every step takes you closer to the throne. After clearing all six taverns for the first time, Elena will open the door to a whole new challenge. Decrees: Stacking Challenges 15 Decree levels, each adding a new restriction to your journey. And it only gets tougher: the effects stack with each level. Previous restrictions remain in place as new ones are added. How far can your build and your luck take you? Endgame: Take Someone Else's Dice Every Endgame run is a puzzle left behind by the player who came before you. The dice, resources, and objectives are all set. Find the best solution within the given limitations. Every Endgame challenge is different. Take them on and find your way to victory. Fate never reveals its answer until the dice come to rest. Push open the tavern door and begin your journey.🎲",
+        "id_in_db": "t3_1wbhkdr",
         "subreddit": "GameDeals",
         "is_free": false,
-        "discount_text": "80% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/BattleFoodMania [لینک] [نظرات]"
-    },
-    {
-        "title": "battle ram",
-        "store": "indiegala",
-        "url": "https://freebies.indiegala.com/battle-ram",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262060/header.jpg?t=1779411066",
-        "description": "Battle Ram is a thrilling and action-packed game that is sure to provide hours of entertainment for players of all skill levels. With its unique concept of a powerful lamb battling robots, the game offers a refreshing change from typical shooter or RPG games. The game's setting in a secret laboratory and military training ground provides an interesting backstory that adds to the overall excitement and intensity of the gameplay. Players must use their strategic thinking and fast reflexes to navigate through the various levels and defeat their opponents. One of the unique features of the game is the control mechanism, which requires the player to use only the mouse to control the Battle Ram. The music in the game is upbeat and fun, adding to the overall enjoyment of the game. While the game has a relatively small number of levels, the difficulty of the game ensures that players will be kept challenged and engaged for hours. The game is designed to be difficult, but not impossible, and players must practice and hone their skills to progress through the levels. The variety of levels, each with its own unique challenges and objectives, keeps the game fresh and exciting. From dodging missiles to battling robots, the game offers a range of different gameplay experiences that will keep players coming back for more. Overall, Battle Ram is an addictive and entertaining game that is well worth checking out. Its unique concept, challenging gameplay, and fun music make it a standout game in the crowded world of online gaming.",
-        "id_in_db": "t3_1w4z0ah",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "1262060",
+        "discount_text": "20% off",
+        "steam_app_id": "4587610",
         "genres": [
-            "Action",
-            "Adventure",
+            "Casual",
+            "Indie",
             "Simulation",
-            "Sports"
+            "Strategy"
         ],
         "is_multiplayer": false,
         "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "Battle Ram is a thrilling and action-packed game that is sure to provide hours of entertainment for players of all skill levels. With its unique concept of a powerful lamb battling robots, the game offers a refreshing change from typical shooter or RPG games. The game's setting in a secret laboratory and military training ground provides an interesting backstory that adds to the overall excitement and intensity of the gameplay. Players must use their strategic thinking and fast reflexes to navigate through the various levels and defeat their opponents. One of the unique features of the game is the control mechanism, which requires the player to use only the mouse to control the Battle Ram. The music in the game is upbeat and fun, adding to the overall enjoyment of the game. While the game has a relatively small number of levels, the difficulty of the game ensures that players will be kept challenged and engaged for hours. The game is designed to be difficult, but not impossible, and..."
-    },
-    {
-        "title": "beach invasion 1944",
-        "store": "epicgames",
-        "url": "https://store.epicgames.com/p/beach-invasion-1944-d654d6",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209680/header.jpg?t=1760716065",
-        "description": "Beach Invasion 1944 is a WWII FPS game where the player defends the beach fortifications against invading forces who will attack your position with troops, tanks, planes and more. Use a variety of iconic and authentic WWII weapons such as MG42, Flak88 and Panzers . Get additional defenses with mines , explosive barrels , artillery strikes and weapon upgrades ! Beach Invasion 1944 adds a dose of FPS realism to arcade style shooter games. The player takes the role of an Axis soldier operating machine guns and cannon turrets to defend the Atlantic Wall of Europe. During this immense amphibious and airborne operation, player's task is to destroy as many of the invading forces as possible, utilizing several machine gun, Flak and Panzer nests and bonuses from the supply drops. Hardcore action in an immersive WWII setting with realistic sounds and special effects which will make you relive the memorable and epic moments from your favourite WWII movies and TV-series. Non-stop action with continous naval and airborne attacks through day and night with changing weather conditions. Huge variety of enemies, including marines, paratroopers, bazookas, flamethrowers, attack boats, jeeps, tanks, armored cars, halftraks, fighters, bombers and more! Ability to call artillery strikes and rain destruction on your enemies. Getting temporary upgrades on your weapons which include Poison Gas, Armor Piercing, Explosive and Incendiary ammunition. Strengthening your defenses with anti-personnel and anti-tank mines, explosive barrels, tank barriers and barbed wire. Earn medals for achieving diffferent actions as you progress. The game will support following languages on release: English, Spanish, German, French, Russian, Chinese, Japanese, Korean, Turkish, Arabic.",
-        "id_in_db": "t3_1w6zcqv",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "2209680",
-        "genres": [
-            "Action",
-            "Casual",
-            "Indie",
-            "Simulation"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "Beach Invasion 1944 is a WWII FPS game where the player defends the beach fortifications against invading forces who will attack your position with troops, tanks, planes and more. Use a variety of iconic and authentic WWII weapons such as MG42, Flak88 and Panzers . Get additional defenses with mines , explosive barrels , artillery strikes and weapon upgrades ! Beach Invasion 1944 adds a dose of FPS realism to arcade style shooter games. The player takes the role of an Axis soldier operating machine guns and cannon turrets to defend the Atlantic Wall of Europe. During this immense amphibious and airborne operation, player's task is to destroy as many of the invading forces as possible, utilizing several machine gun, Flak and Panzer nests and bonuses from the supply drops. Hardcore action in an immersive WWII setting with realistic sounds and special effects which will make you relive the memorable and epic moments from your favourite WWII movies and TV-series. Non-stop action with..."
-    },
-    {
-        "title": "dead district",
-        "store": "other",
-        "url": "https://givee.club/en/event/1431",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1772910/4500acb91039190bad0fe34a2f32d7a99ce888c9/header.jpg?t=1782120730",
-        "description": "Dead District is an open-world survival sandbox where every decision matters. You start on a hostile island full of threats: wild animals, deadly traps, the infected and desperate survivors. Your goal is simple — stay alive. Build your shelter, craft weapons and tools, cultivate food, and explore the island alone or together with friends. Four unique characters are available, each ready to face the struggle for survival. Team up in multiplayer to share resources and defend your base, or test your skills solo. Drive vehicles, hunt, complete quests, and shape your own path in a world that never forgives mistakes. Features: - Single-player and multiplayer survival - Base building and crafting - Dynamic weather and day/night cycle - Mission and quest system - Farming, hunting and resource gathering - Driving and combat - Four playable characters - Expansive open world full of danger",
-        "id_in_db": "t3_1w85dgn",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "1772910",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Indie",
-            "Massively Multiplayer",
-            "Simulation"
-        ],
-        "is_multiplayer": true,
-        "is_online": true,
-        "is_dlc_or_addon": false,
-        "persian_summary": "Dead District is an open-world survival sandbox where every decision matters. You start on a hostile island full of threats: wild animals, deadly traps, the infected and desperate survivors. Your goal is simple — stay alive. Build your shelter, craft weapons and tools, cultivate food, and explore the island alone or together with friends. Four unique characters are available, each ready to face the struggle for survival. Team up in multiplayer to share resources and defend your base, or test your skills solo. Drive vehicles, hunt, complete quests, and shape your own path in a world that never forgives mistakes. Features: - Single-player and multiplayer survival - Base building and crafting - Dynamic weather and day/night cycle - Mission and quest system - Farming, hunting and resource gathering - Driving and combat - Four playable characters - Expansive open world full of danger"
-    },
-    {
-        "title": "doomspire",
-        "store": "other",
-        "url": "https://na.alienwarearena.com/ucf/show/2175971/boards/contest-and-giveaways-global/Giveaway/doomspire-steam-game-key-giveaway",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3621050/6f1abb7ebbc68d3a3f68b642f1b73e076445e7e1/header.jpg?t=1764350545",
-        "description": "Doomspire is an epic, roguelike adventure card game set in the Doomspire , an ancient and cursed structure that spirals down into the abyss. Once a towering monument that pierced the heavens, the Doomspire now crumbles inward, its roots descending into darkness, where doom awaits all who descend. You will create your hero and venture deeper into the Doomspire , facing terrifying bosses, uncovering forgotten treasures, and battling for your very survival. Every journey is unique, as the Doomspire is procedurally generated with new paths, dangers, and mysteries waiting to be discovered. Collect powerful cards and passive powers , build synergies, and adapt your strategies as you progress. But beware—the deeper you go, the darker and more perilous the journey becomes. Key Features: Procedurally Generated Depths : Each run offers a new experience , with shifting paths, enemies, and treasures in the Doomspire . Strategic Deck-Building : Collect and craft a unique deck for your hero. Use synergies, abilities, and powerful cards to create your perfect strategy. Sacrifice Mechanics : Trade HP , minions , and resources for greater power. Risk and reward play a key role in the Doomspire . Epic Boss Fights : Confront powerful bosses, each with their own unique abilities and strategies. Overcome them to gain valuable rewards. Endless Replayability : Every descent into the Doomspire is different. With multiple builds, playstyles, and synergies to explore, no two runs are ever the same. Doomspire combines strategic deck-building with roguelike elements , where every choice matters. You’ll need to balance your resources, make tough decisions, and adapt to the ever-changing environment of the Doomspire . The core focus is on crafting powerful synergies between cards and managing sacrificial mechanics , allowing for highly dynamic gameplay and endless replayability.",
-        "id_in_db": "t3_1watdxs",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "3621050",
-        "genres": [
-            "Adventure",
-            "Casual",
-            "Indie",
-            "RPG"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "Doomspire is an epic, roguelike adventure card game set in the Doomspire , an ancient and cursed structure that spirals down into the abyss. Once a towering monument that pierced the heavens, the Doomspire now crumbles inward, its roots descending into darkness, where doom awaits all who descend. You will create your hero and venture deeper into the Doomspire , facing terrifying bosses, uncovering forgotten treasures, and battling for your very survival. Every journey is unique, as the Doomspire is procedurally generated with new paths, dangers, and mysteries waiting to be discovered. Collect powerful cards and passive powers , build synergies, and adapt your strategies as you progress. But beware—the deeper you go, the darker and more perilous the journey becomes. Key Features: Procedurally Generated Depths : Each run offers a new experience , with shifting paths, enemies, and treasures in the Doomspire . Strategic Deck-Building : Collect and craft a unique deck for your hero. Use..."
-    },
-    {
-        "title": "epic games mobile evans remains",
-        "store": "epicgames",
-        "url": "https://www.reddit.com/r/FreeGameFindings/comments/1w69ug3/epic_games_mobile_game_evans_remains/",
-        "image_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1530881899084422",
-        "description": "📝 Transactions Page (To see if you claimed or not) ⏩ Instant Checkout (Login to Epic Games first to use) Item Instant Checkout 🎮 CLAIM ALL Android & iOS 🎮﻿ Evan's Remains Android ／ iOS 🎮 Evan's Remains｜ Android ／ iOS ⌛ Rating／⛔ Blacklist ｜South Korea submitted by /u/MeguminShiro [link] [comments]",
-        "id_in_db": "t3_1w69ug3",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "📝 صفحه تراکنش‌ها (برای دیدن اینکه آیا درخواست داده‌اید یا خیر) ⏩ پرداخت فوری (برای استفاده ابتدا وارد اپیک گیمز شوید) پرداخت فوری کالا 🎮 درخواست همه اندروید و iOS 🎮﻿ Evan's Remains اندروید / iOS 🎮 Evan's Remains｜ اندروید / iOS ⌛ امتیاز /⛔ لیست سیاه ｜ کره جنوبی ارسال شده توسط /u/MeguminShiro [لینک] [نظرات]"
+        "persian_summary": "There’s an old saying in the kingdom: “When you’re lost, go to the nearest Dice Tavern.” It all started with Elena, a girl from the North who made a name for herself among the ruins of a tavern. She turned the humble game of Farkle into a challenge that swept across the kingdom. Six taverns, from the village to the throne. Thirty opponents, from humble challengers to legendary rivals. With just six dice, that girl rewrote her own destiny. And now, I can almost hear her calling: “Fancy a round?” Farkle is a classic dice game that has been played for centuries. Roll the dice and lock in your points, or keep pushing your luck. But Farkle, and you lose all your points for the round. Dice Tavern expands on these classic rules with roguelike deckbuilding mechanics. When dice gain unique abilities and probabilities can be reshaped, a simple game of luck becomes an adventure driven by risk, strategy, and clever combinations. 35 Unique Dice Every beautifully crafted die has its own ability and..."
     },
     {
         "title": "etailmarket no mans sky 71 off 1716",
@@ -201,23 +89,10 @@
         "persian_summary": "ارسال شده توسط /u/etailmarket [لینک] [نظرات]"
     },
     {
-        "title": "exiled giveaways and itchio mega threads",
-        "store": "other",
-        "url": "https://www.reddit.com/r/FreeGameFindings/comments/1w9xrbt/exiled_giveaways_and_itchio_mega_threads/",
-        "image_url": "https://preview.redd.it/exiled-giveaways-mega-thread-v0-9kll2rv7quih1.png?width=1518&format=png&auto=webp&s=9811bd7a7fa85e71c95135b01deba776fed25366",
-        "description": "To increase visibility, the mega threads are posted on a weekly basis. This is being done following the overall discussion of Mega Threads via FGF Update - https://redd.it/jkxyzw Please use the below threads for your posts. :) Exiled Giveaways Mega Thread (#2) Itchio Mega Thread (#10) Want to setup alerts to these threads? RSS Feed information can be found in our wiki! https://www.reddit.com/r/FreeGameFindings/wiki/rssfeed Included is information about our discord bot and general RSS feed stuff. Definitely give it a look! submitted by /u/AutoModerator [link] [comments]",
-        "id_in_db": "t3_1w9xrbt",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "To increase visibility, the mega threads are posted on a weekly basis. This is being done following the overall discussion of Mega Threads via FGF Update - https://redd.it/jkxyzw Please use the below threads for your posts. :) Exiled Giveaways Mega Thread (#2) Itchio Mega Thread (#10) Want to setup alerts to these threads? RSS Feed information can be found in our wiki! https://www.reddit.com/r/FreeGameFindings/wiki/rssfeed Included is information about our discord bot and general RSS feed stuff. Definitely give it a look! submitted by /u/AutoModerator [link] [comments]"
-    },
-    {
         "title": "fanatical dead or alive 6",
         "store": "fanatical",
         "url": "https://www.fanatical.com/en/game/dead-or-alive-6-last-round",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4144680/e94fe79e24de4c1488f1967f13144c6df66b5b51/header.jpg?t=1788397328",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4144680/e94fe79e24de4c1488f1967f13144c6df66b5b51/header.jpg?t=1789004553",
         "description": "Intense Fighting Entertainment is back!! Fan-favorite 3D fighting game DEAD OR ALIVE 6 is back with stylish moves, striking animations, and a cast of colorful characters to go head-to-head in the fighting game world's most extreme battles! Place, pose, and take picture-perfect screenshots of your favorite characters in the new Photo Mode. Play with the classic DOA6 roster and 5 additional DLC characters from the original version, along with new costumes. Whether you're a new player or a longtime veteran, DEAD OR ALIVE 6 Last Round has the action you're looking for. ◆ Includes five additional characters released in the original version! Play with a lineup of 29 characters, including five characters originally released as bonuses or DLC for the original version: Nyotengu, Phase 4, Momiji, Rachel, and Tamaki. ◆ Stage your own battles in the NEW Photo Mode! Choose your stage and characters, position them freely, change their poses and expressions, and create your own legendary moments in the brand-new Photo Mode. ◆ From simple skirmishes to serious strategy, DOA6LR is THE definitive 3D fighting game! Use Holds at the perfect moment to cripple your opponent. Build your Break Gauge and unleash powerful special moves. Mash through a Fatal Rush for an easy yet highly satisfying combo. Toss your opponent into a Danger Zone to deal extra damage. From first-time players to long-time strategists, DEAD OR ALIVE 6 Last Round has something for everyone. Note: - This version includes a Character Unlock Keys for 29 characters and Story Unlock Key. Be careful not to accidentally make duplicate purchases. - A free-to-play version is available as DEAD OR ALIVE 6 Last Round Core Fighters. - Costumes unlocked or purchased in DEAD OR ALIVE 6 may be transferred to this version. Some costumes may not be transferrable. - For more information on transferring data from DEAD OR ALIVE 6, see our official website.",
         "id_in_db": "t3_1wb68fs",
         "subreddit": "GameDeals",
@@ -232,19 +107,6 @@
         "age_rating": "This Game may contain content not appropriate for all ages, or may not be appropriate for viewing at work: Frequent Violence or Gore, Partial Nudity, Sexual Content",
         "is_dlc_or_addon": false,
         "persian_summary": "Intense Fighting Entertainment is back!! Fan-favorite 3D fighting game DEAD OR ALIVE 6 is back with stylish moves, striking animations, and a cast of colorful characters to go head-to-head in the fighting game world's most extreme battles! Place, pose, and take picture-perfect screenshots of your favorite characters in the new Photo Mode. Play with the classic DOA6 roster and 5 additional DLC characters from the original version, along with new costumes. Whether you're a new player or a longtime veteran, DEAD OR ALIVE 6 Last Round has the action you're looking for. ◆ Includes five additional characters released in the original version! Play with a lineup of 29 characters, including five characters originally released as bonuses or DLC for the original version: Nyotengu, Phase 4, Momiji, Rachel, and Tamaki. ◆ Stage your own battles in the NEW Photo Mode! Choose your stage and characters, position them freely, change their poses and expressions, and create your own legendary moments in..."
-    },
-    {
-        "title": "frog sqwad",
-        "store": "other",
-        "url": "https://na.alienwarearena.com/ucf/show/2176140/boards/contest-and-giveaways-global/Giveaway/frog-sqwad-steam-game-key-giveaway",
-        "image_url": "https://external-preview.redd.it/aGXcgZkVe7HsBBpzdYnHFvzqgwey_smTkINU-UTtdzI.jpeg?width=320&crop=smart&auto=webp&s=71368002bf045165733fab7439ea1ba69eb9b010",
-        "description": "submitted by /u/MeguminShiro [link] [comments]",
-        "id_in_db": "t3_1wat8mu",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/MeguminShiro [لینک] [نظرات]"
     },
     {
         "title": "greenmangaming hogwarts legacy 92 off 480",
@@ -273,26 +135,6 @@
         "persian_summary": "ارسال شده توسط /u/mMounirM [لینک] [نظرات]"
     },
     {
-        "title": "hyper hitmans",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/4849920/Hyper_Hitmans/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4849920/f5b01e7b7159192c9dd4ccf6278470fb4004aad5/header.jpg?t=1788442261",
-        "description": "HYPER HITMANS™ FUN GAME ON! Welcome to Hyper Hitmans — the colorful AI shooter where every match becomes a highlight clip. Jump into a vibrant city battlefield packed with ridiculous weapons, precision sniping, destruction, missiles, fast respawns, and endless opportunities to outplay your opponents. Whether you’re chasing trick shots, dominating team battles, Hyper Hitmans delivers nonstop action designed for players who love movement and chaotic Hyper-Casual fun. No downtime. No waiting. Just action. 🎯 PRECISION SNIPING Land incredible long-range eliminations. Track moving targets. Predict jumps. Hit impossible shots. Turn every encounter into a montage-worthy moment. Every kill feels earned. Every headshot feels satisfying. ⚡ FAST ACTION GAMEPLAY Why spend half the match running back to the fight? Hyper Hitmans keeps players engaged with rapid combat flow, instant action, and continuous opportunities to score points. More fighting. More highlights. More fun. 🏆 PLAY AGAINST AI Challenge Artificial Intelligence. Master weapons. Improve aim. Become the player everyone fears seeing in the kill feed. Victory belongs to the fastest thinkers and the sharpest shooters. 🌎 COLORFUL BATTLEFIELDS Fight across vibrant urban environments filled with: 🏢 Modern city districts 🌴 Sunny boulevards 🎡 Playful landmarks 🚀 Vertical combat zones 🎯 Long sightlines 💥 Chaotic hotspots Every map is designed to create memorable encounters. 🔥 MADE FOR HIGHLIGHTS Hyper Hitmans was built around creating moments players love sharing. Insane sniper shots. Last-second victories. Missile multi-kills. Ridiculous escapes. Unexpected comebacks. Every match tells a story.",
-        "id_in_db": "t3_1w45iz2",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "4849920",
-        "genres": [
-            "Action",
-            "Indie"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "HYPER HITMANS™ FUN GAME ON! Welcome to Hyper Hitmans — the colorful AI shooter where every match becomes a highlight clip. Jump into a vibrant city battlefield packed with ridiculous weapons, precision sniping, destruction, missiles, fast respawns, and endless opportunities to outplay your opponents. Whether you’re chasing trick shots, dominating team battles, Hyper Hitmans delivers nonstop action designed for players who love movement and chaotic Hyper-Casual fun. No downtime. No waiting. Just action. 🎯 PRECISION SNIPING Land incredible long-range eliminations. Track moving targets. Predict jumps. Hit impossible shots. Turn every encounter into a montage-worthy moment. Every kill feels earned. Every headshot feels satisfying. ⚡ FAST ACTION GAMEPLAY Why spend half the match running back to the fight? Hyper Hitmans keeps players engaged with rapid combat flow, instant action, and continuous opportunities to score points. More fighting. More highlights. More fun. 🏆 PLAY AGAINST AI..."
-    },
-    {
         "title": "iceborn 599 85 off monster hunter",
         "store": "steam",
         "url": "https://store.steampowered.com/developer/capcom/list/39578/",
@@ -306,58 +148,17 @@
         "persian_summary": "ارسال شده توسط /u/Siegfoult [لینک] [نظرات]"
     },
     {
-        "title": "legends of starkadia",
+        "title": "into the grid 20 off 1199usd",
         "store": "steam",
-        "url": "https://store.steampowered.com/app/2618160/Legends_of_Starkadia/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2618160/2400e306c82f04e892000cb74ec17494cad821b1/header.jpg?t=1783432904",
-        "description": "Brought to you by the developers of Ember Knights and their latest project, Welcome to Harmony. When one bored Earthling teen is accidentally teleported to the far flung Starkadian Empire, he lands face first in the middle of an interdimensional battle between good and evil, with the fate of the universe at stake! Now it’s up to him and a ragtag bunch of misfits to defeat the shadowy, extradimensional armies of the Empire and become the heroes the system needs. Key Features: Strategic turn-based combat with quick-time events (QTEs) for offense and defense A deeply rich and engaging story with multiple secret and side missions 12 quirky characters to unlock and play as, each with their own unique attributes and skills A sprawling universe with over 11 planets to explore Note: This adventure contains one planet only and should take approximately 2 hours to complete. The full experience is an epic journey across 11 planets from Scrap World to Starkadia and beyond! The complete story has been written but not yet developed.",
-        "id_in_db": "t3_1w5ou92",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "2618160",
-        "genres": [
-            "RPG",
-            "Free To Play"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "Brought to you by the developers of Ember Knights and their latest project, Welcome to Harmony. When one bored Earthling teen is accidentally teleported to the far flung Starkadian Empire, he lands face first in the middle of an interdimensional battle between good and evil, with the fate of the universe at stake! Now it’s up to him and a ragtag bunch of misfits to defeat the shadowy, extradimensional armies of the Empire and become the heroes the system needs. Key Features: Strategic turn-based combat with quick-time events (QTEs) for offense and defense A deeply rich and engaging story with multiple secret and side missions 12 quirky characters to unlock and play as, each with their own unique attributes and skills A sprawling universe with over 11 planets to explore Note: This adventure contains one planet only and should take approximately 2 hours to complete. The full experience is an epic journey across 11 planets from Scrap World to Starkadia and beyond! The complete story has..."
-    },
-    {
-        "title": "mall rivals 104930 off",
-        "store": "other",
-        "url": "https://www.reddit.com/r/GameDeals/comments/1w93u86/steam_mall_rivals_104930_off/",
-        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4090330/e6082e2c1e11e8f4896f5b33f34088c88b2b3ecf/header.jpg?t=1788519555",
-        "description": "Hey everyone, My cousin has been working on Mall Rivals for almost 2 years, and we’re finally at the point where we can start showing it to more people. It’s a multiplayer tycoon / management game where players build and grow their own shopping malls while competing with each other. At this stage, we’re mainly looking for honest feedback — especially on the trailer, Steam page, overall presentation, and whether the game looks interesting at first glance. What catches your attention? What feels weak or unclear? What would you change from a marketing perspective? Any feedback, positive or negative, would genuinely help us a lot. If you have a minute, check out the trailer or Steam page and let us know what looks fun, what feels unclear, or what you think should be improved. Steam: store.steampowered.com/app/4090330/Mall_Rivals Youtube: youtube.com/watch?v=lvLHHBuPWAU submitted by /u/CreedonGamesOfficial [link] [comments]",
-        "id_in_db": "t3_1w93u86",
+        "url": "https://store.steampowered.com/app/2576200/Into_The_Grid/",
+        "image_url": "https://external-preview.redd.it/SpfTVuKr-tgLEht_u-P9NQxWcUrK8JD0R6lgNx-Ce-A.jpeg?width=320&crop=smart&auto=webp&s=a37f25271feb2758096a3a53921728dbbc6d337d",
+        "description": "submitted by /u/Doudens [link] [comments]",
+        "id_in_db": "t3_1wbsw0z",
         "subreddit": "GameDeals",
         "is_free": false,
-        "discount_text": "Discount",
+        "discount_text": "20% off",
         "is_dlc_or_addon": false,
-        "persian_summary": "Hey everyone, My cousin has been working on Mall Rivals for almost 2 years, and we’re finally at the point where we can start showing it to more people. It’s a multiplayer tycoon / management game where players build and grow their own shopping malls while competing with each other. At this stage, we’re mainly looking for honest feedback — especially on the trailer, Steam page, overall presentation, and whether the game looks interesting at first glance. What catches your attention? What feels weak or unclear? What would you change from a marketing perspective? Any feedback, positive or negative, would genuinely help us a lot. If you have a minute, check out the trailer or Steam page and let us know what looks fun, what feels unclear, or what you think should be improved. Steam: store.steampowered.com/app/4090330/Mall_Rivals Youtube: youtube.com/watch?v=lvLHHBuPWAU submitted by /u/CreedonGamesOfficial [link] [comments]"
-    },
-    {
-        "title": "NoRush!",
-        "id_in_db": "norush@1787931229",
-        "store": "other",
-        "url": "https://itad.link/0194892a-57ba-7298-b5bb-68af3255422d/",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "3297160",
-        "description": "Tired of waiting for matches to start? Craving a healthy dose of frustration? Then \"NoRush\" is the perfect game for you! Experience the thrill of the climb: Navigate perilous obstacles: Leap over deadly spikes, dodge swinging hammers, and avoid crushing platforms. Test your limits: Push yourself to the edge as the difficulty ramps up with each level. Reach the 300-meter summit: Prove your worth and conquer the tower (though the view from the top might not be worth the struggle). This isn't your typical platformer. Expect challenging gameplay, unexpected twists, and plenty of opportunities to scream in frustration (and maybe laugh a little). Download now and embrace the challenge!",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3297160/header.jpg?t=1741113215",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Casual",
-            "Indie"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "Tired of waiting for matches to start? Craving a healthy dose of frustration? Then \"NoRush\" is the perfect game for you! Experience the thrill of the climb: Navigate perilous obstacles: Leap over deadly spikes, dodge swinging hammers, and avoid crushing platforms. Test your limits: Push yourself to the edge as the difficulty ramps up with each level. Reach the 300-meter summit: Prove your worth and conquer the tower (though the view from the top might not be worth the struggle). This isn't your typical platformer. Expect challenging gameplay, unexpected twists, and plenty of opportunities to scream in frustration (and maybe laugh a little). Download now and embrace the challenge!"
+        "persian_summary": "ارسال شده توسط /u/Doudens [لینک] [نظرات]"
     },
     {
         "title": "parkasaurus",
@@ -380,68 +181,6 @@
         "persian_summary": "Parkasaurus is a dinosaur tycoon management simulation where you take care of your dinosaurs by constructing well-designed exhibits, researching specialized technologies, and maximizing profits to expand into the ultimate dinosaur theme park. Do you favor development that favors your dinosaurs or the guests? EXHIBIT DESIGN Design success - each dinosaur requires a unique biosphere, which means the shape of exhibit, materials used, ecology, plants, elevation and humidity all play a key role in the success of your Dinos.Unique privacy and biome systems that promote creative design. PARK MANAGEMENT Spend resources wisely to build the ultimate Dino Park with over 80 buildable items and 4 employee types. DINO BABIES Nurture and raise Dinos from a small egg all the way to their full adult size, with over 24 dinosaurs to discover in the base game and many more yet to be added. RETURN HOME CAMPAIGN Travel the globe encountering missions that challenge you to be the best dinosaur tycoon while..."
     },
     {
-        "title": "pcconsolemobile other idle champions of the forgotten realms",
-        "store": "other",
-        "url": "https://alienwarearena.com/ucf/show/2176109/boards/contest-and-giveaways-global/Giveaway/idle-champions-9th-anniversary-starter-pack-key-giveaway",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/627690/045beea7cc7687b6624f4b3ec1610e67742d4880/header_alt_assets_37.jpg?t=1788375230",
-        "description": "Recruit legendary Champions for the ultimate endless adventure! Idle Champions of the Forgotten Realms is a strategy management game that unites iconic Champions from D&D TRPG campaigns, video games, novels, actual plays, comic books, and shows into a grand adventure. Optimize formations using over 140 Champions, each with unique abilities, to defeat countless monsters across hundreds of adventures. Mastery requires pushing formations further with every adventure – only the most powerful formations will complete the greatest challenges Idle Champions has to offer. COLLECT ICONIC CHAMPIONS Unlock unique Champions from across the Dungeons & Dragons multiverse, each with their own formation abilities and ultimate powers. Fan favorites include Drizzt Do'Urden and the Companions of the Hall, Minsc & Boo, Astarion and Karlach from Baldur's Gate 3, …and many, many more! EASY TO LEARN, HARD TO MASTER Manage multiple adventuring parties to test your Champions' mettle and earn even greater rewards. Your Champions automatically fight enemies until defeated, even if you close the game. Your Familiars automate basic gameplay like leveling Champions and picking up gold so YOU can focus on optimizing your formation strategy. Build powerful synergies and unleash the full power of your Champions to complete the most difficult adventures! TRAVEL THE D&D MULTIVERSE Adventure throughout the Sword Coast and beyond. Visit legendary cities like Baldur's Gate, Waterdeep, and Sigil, the City of Doors. Explore the mists of Barovia, brave the endless Blood War of Avernus, and sail the Astral Sea. REGULAR CONTENT UPDATES There are multiple content updates every month. Since launching in 2017, Idle Champions has introduced 140+ Champions, over 200+ adventures, 8 campaigns based on official TRPG releases, and introduced dozens of new features and systems to the game. The next big update is never far away!",
-        "id_in_db": "t3_1w5et3i",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "627690",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Indie",
-            "Strategy",
-            "Free To Play"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "Recruit legendary Champions for the ultimate endless adventure! Idle Champions of the Forgotten Realms is a strategy management game that unites iconic Champions from D&D TRPG campaigns, video games, novels, actual plays, comic books, and shows into a grand adventure. Optimize formations using over 140 Champions, each with unique abilities, to defeat countless monsters across hundreds of adventures. Mastery requires pushing formations further with every adventure – only the most powerful formations will complete the greatest challenges Idle Champions has to offer. COLLECT ICONIC CHAMPIONS Unlock unique Champions from across the Dungeons & Dragons multiverse, each with their own formation abilities and ultimate powers. Fan favorites include Drizzt Do'Urden and the Companions of the Hall, Minsc & Boo, Astarion and Karlach from Baldur's Gate 3, …and many, many more! EASY TO LEARN, HARD TO MASTER Manage multiple adventuring parties to test your Champions' mettle and earn even greater..."
-    },
-    {
-        "title": "poubelle city",
-        "store": "itch.io",
-        "url": "https://rono-ok.itch.io/poubelle-city",
-        "image_url": "https://external-preview.redd.it/K0gB23svNJ8D7jYwdpq065SFGfTbG06OatT8__6XIto.png?width=640&crop=smart&auto=webp&s=e7b60fef25bce9ff3bd47ece3cb0d11b15780086",
-        "description": "submitted by /u/Fhczvyd474374846 [link] [comments]",
-        "id_in_db": "t3_1w600xy",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/Fhczvyd474374846 [لینک] [نظرات]"
-    },
-    {
-        "title": "psa grim trials free purchase from last month being revoked",
-        "store": "other",
-        "url": "https://www.reddit.com/r/FreeGameFindings/comments/1w6jnuj/psa_grim_trials_free_purchase_from_last_month/",
-        "image_url": "https://styles.redditmedia.com/t5_9x6fyx/styles/bannerBackgroundImage_36s6xbdzo5bg1.png?frame=1&auto=webp&s=2543634781dda64ea5608e247a3fea62e178f071",
-        "description": "to anyone who claimed the free PC preorder. it just got cancelled and you should be getting this message soon. Seems like Xbox/the dev finally remembered it. “You recently placed a pre-order or purchase for Grim Trials. Unfortunately this product was not intended to be available, therefore we are cancelling your order, refunding any payment made, and removing it from your ''My games & apps'' list. We apologize for the inconvenience. Visit account.microsoft.com to view your billing history.” Here is the original post. submitted by /u/realUnknown12 [link] [comments]",
-        "id_in_db": "t3_1w6jnuj",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "to anyone who claimed the free PC preorder. it just got cancelled and you should be getting this message soon. Seems like Xbox/the dev finally remembered it. “You recently placed a pre-order or purchase for Grim Trials. Unfortunately this product was not intended to be available, therefore we are cancelling your order, refunding any payment made, and removing it from your ''My games & apps'' list. We apologize for the inconvenience. Visit account.microsoft.com to view your billing history.” Here is the original post. submitted by /u/realUnknown12 [link] [comments]"
-    },
-    {
-        "title": "psa just die already egs war hospital egs are complimentary with amazon prime",
-        "store": "amazon",
-        "url": "https://luna.amazon.com/claims/home?filter=Game&g=s",
-        "image_url": "https://external-preview.redd.it/_fBjABdCsDDIR7bJn-cgpkXoTMJ2MnAEY3PCdXPaAoY.png?width=640&crop=smart&auto=webp&s=bef23da95c6aa8211ed8845602ada6c6644977cf",
-        "description": "submitted by /u/LighteningOneIN [link] [comments]",
-        "id_in_db": "t3_1w6d9di",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/LighteningOneIN [لینک] [نظرات]"
-    },
-    {
         "title": "random mix",
         "store": "steam",
         "url": "https://store.steampowered.com/app/5042870/Random_Mix/",
@@ -461,26 +200,6 @@
         "is_online": false,
         "is_dlc_or_addon": false,
         "persian_summary": "Press play . A song that has never existed before builds itself around you: drums, bass, melody, all synthesized live on your machine. No downloads or song packs. Random Mix is a rhythm game with a composer inside. A New Song, Every Single Time Pick from 50+ genres across Electronic, Hip-Hop & Bass, Rock & Metal, Chill & Jazz, Pop & Funk, Global, and Cinematic. Each one runs on authentic BPM ranges, scales, swing and drum kits. Feeling random ? Hit Surprise Me , or let Mashup smash genres together. Play It However You're Feeling JAM: tap the notes and ride the track MIX: remix the stems while the song plays BATTLE: go head-to-head in versus AUTO: hands-free performance mode RADIO: sit back and just listen Songs Become the Game Five arcade modes play the generated song in completely different ways: Flight: flap through the gaps Pulse: a bullet hell where the drums are the guns Star Warp: dodge asteroids on the beat Echo Maze: the kick drum is your sonar Conductor: trace the melody by..."
-    },
-    {
-        "title": "state of mind",
-        "store": "gog",
-        "url": "https://www.gog.com/en/game/state_of_mind",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/437630/header.jpg?t=1770913197",
-        "description": "When mind and machine become one – what will remain of humanity? Berlin, 2048 – The world is on the brink. Lack of resources, illnesses caused by polluted air and water, crime on the rise, war. Governments and companies promise remedies through technological progress. Drones and humanoid robots replace humans in the public sector, everything is interconnected, surveillance has become omnipresent. Richard Nolan is one of the few journalists openly criticizing this development. When he wakes up in hospital after an explosion and finds that his wife and son have mysteriously vanished, Richard realizes: he and his family have become more than just bystanders in a storm of rivaling ideas pertaining humankind’s salvation between dystopian reality and digital utopia. Instead, they find themselves right at the center of it. This domestic drama evolves into a thriller about a worldwide conspiracy, which at its core aims to determine the fate of humanity: Could a perfect digital utopia be the answer? A virtual paradise not affected by material needs and quarrels? Could a super-AI be our savior – or would it simply declare us as dispensable since it could not be taught the value of philanthropy? What will the world look like after this storm, what will remain of humanity? Experience an alarmingly realistic vision of the near future Dive into a multi-layered Sci-Fi thriller, where dystopian reality and digital utopia are intertwined Unravel a global conspiracy in a society of ubiquitous digitalism, surveillance and transhumanism Explore a world with a rich and unique visual style, combining realistic environments with low-poly characters Take on the role of journalist Richard Nolan, as well as five additional playable characters Use dexterity, deductional skill and research to reconstruct Richard's past Supports Tobii Eye Tracking: Delve even deeper into the augmented reality dominated world of State of Mind with expanded eye tracking features",
-        "id_in_db": "t3_1w9rkar",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "437630",
-        "genres": [
-            "Adventure",
-            "Indie"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "When mind and machine become one – what will remain of humanity? Berlin, 2048 – The world is on the brink. Lack of resources, illnesses caused by polluted air and water, crime on the rise, war. Governments and companies promise remedies through technological progress. Drones and humanoid robots replace humans in the public sector, everything is interconnected, surveillance has become omnipresent. Richard Nolan is one of the few journalists openly criticizing this development. When he wakes up in hospital after an explosion and finds that his wife and son have mysteriously vanished, Richard realizes: he and his family have become more than just bystanders in a storm of rivaling ideas pertaining humankind’s salvation between dystopian reality and digital utopia. Instead, they find themselves right at the center of it. This domestic drama evolves into a thriller about a worldwide conspiracy, which at its core aims to determine the fate of humanity: Could a perfect digital utopia be the..."
     },
     {
         "title": "state of mind free 100 off",
@@ -507,142 +226,6 @@
         "persian_summary": "Liberty Castle: Home of the Free is a beacon of shining light in an increasingly dark and restrictive world. To call this project a game is a massive understatement , as it provides much more than any game ever could. In the Liberty Castle one does not waste time, conversely one of the main features of Liberty Castle is that every moment spent delving into information or participating in our various avenues for social interaction will help build ones knowledge base as well as help the user discover who they truly are in an internally reflective way that cant be found in any other \"game\". Liberty Castle is a truly immersive and uncensored social experience where the user's willingness to engage the information at hand and engage one's peers in a mutually constructive manner will help to increase your rank and give access to hidden places as well as unlock perks available only to those who master the craft of oration and debate. Our open mic will give a voice to those who typically may..."
     },
     {
-        "title": "steamepicconsole other hogwarts legacy",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/1880831/Hogwarts_Legacy_Astronomers_Hat/",
-        "image_url": "https://external-preview.redd.it/JSP_JZIOZj2L88WoISFQPwgXY_iVGRR0gH8yUSsEVsw.jpeg?width=320&crop=smart&auto=webp&s=51a4378035f5e3555f1fcf4c23e1179bc2de0a10",
-        "description": "Steam Epic Games PS4 PS5 Xbox Switch Switch 2 Console can be claimed without the base game. Expires end of September. submitted by /u/iambaldy [link] [comments]",
-        "id_in_db": "t3_1w4jg8j",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "کنسول Steam Epic Games PS4 PS5 Xbox Switch Switch 2 را می‌توان بدون بازی پایه دریافت کرد. تاریخ انقضا تا پایان سپتامبر است. ارسال شده توسط /u/iambaldy [لینک] [نظرات]"
-    },
-    {
-        "title": "steammobileconsole vampire survivors legacy of the bloodmoon dlc",
-        "store": "other",
-        "url": "https://bloodmoon.poncle.net/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1794680/4b34e783d44cf817c23a7121c66d93ab762ebb61/capsule_616x353_alt_assets_10.jpg?t=1787911678",
-        "description": "submitted by /u/mcd_threepwood [link] [comments]",
-        "id_in_db": "t3_1w5nzw9",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": true,
-        "persian_summary": "ارسال شده توسط /u/mcd_threepwood [لینک] [نظرات]"
-    },
-    {
-        "title": "stove primal slideee deluxe",
-        "store": "stove",
-        "url": "https://store.onstove.com/en/games/3694",
-        "image_url": "https://external-preview.redd.it/5fvrJlHvZ0pqpuUrrFzc9vUs4Y0Ny40bSFKVQ4_h8_I.jpeg?width=640&crop=smart&auto=webp&s=b3cfd782f600a2bf47ac752a52cd256a20615e76",
-        "description": "submitted by /u/MeguminShiro [link] [comments]",
-        "id_in_db": "t3_1w5a56j",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": true,
-        "persian_summary": "ارسال شده توسط /u/MeguminShiro [لینک] [نظرات]"
-    },
-    {
-        "title": "stove tasty love if",
-        "store": "stove",
-        "url": "https://store.onstove.com/en/games/3042",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1184250/header.jpg?t=1760865761",
-        "description": "The current Early Access version contains +8 weeks of military service, meaning over 40 hours of scripted gameplay content! WARNING: The game contains strong language, some censored nudity and mild violence so it is best suited for adult audience. The Purpose? To provide a realistic but humorous experience of the Finnish Military Service (conscription, \"intti\") around the year 2011. We want you to feel nostalgic! RK-69 (pun intended), M05, hazing / bullying (\"simputus\"), NBC Alarms (\"suojeluhälytys\")… Training includes conscript favorites such as NBC gear leak testing with tear gas. And fire training with napalm, as well as the ever-present cooper test. The Catch? The player can relate to the content if she/he has been through the Finnish Army. Strong language, black humor, strict guidelines, repetitive tasks, simple core mechanics are the heart of the game. Spend your on-base days going to endless lectures, learning basic discipline and marching drill. The Mechanics? Remember those good old “track and field” type of games? How about “Tony Hawk” games? This game will feature a lot of mechanics that many will remember from their childhood. Furthermore, RPG elements like dialogues, inventory, player stats, free roaming, skill trees etc. will provide additional depth to the gameplay. Many facets of training are included as minigames. Orienteering, combat training (\"taisteluammuntaharjoitus\") and military drill (\"sulkeisjärjestysharjoitus\") among them. Marching in time with your fellows has been a staple of military training since Napoleonic times. By the 2000’s, this hasn’t changed in Finnish armed service. You’ll be surprised how little else has. The Story? The game will have a “meta plot”. The player will be able to reveal army secrets that shouldn’t be commonly known. The player also maintains connection to the outside world by watching TV news and participating in activities during the weekend holidays which both will affect the gameplay. Count how many precious days of service remain with an in-game morning comb. Other inseparable aspects of Finnish military service, such as tent stove duty, roundabout group punishment and “intti slang” are brought vividly to life. Kilometers of Finnish country roads are modeled in luscious detail. And terrain exercises are complete with, well, terrain. As well as defensive structures for training. It is a well-known aspect of Finnish military service that the shortest service of 180 days includes approximately 300 nights sleeping in the woods. Or more often than not, spent in the woods guarding the empty forest. The barracks area is free to roam during the day, but during the night, the military police do their best to make sure anyone moving about is only doing so on actual business. That may not stop you. If you play your cards right, you may get to shoot dozens of live rounds. Dozens! Hundreds of pieces of military kit and other items, from weapons, live and simulated, to protective equipment and clothes, camping implements and packs, all the way to candy and snacks, perhaps even contraband… Kit enters the player’s inventory as it does in actual service, through regular visits to the equipment warehouse (\"varusvarasto\"). That is not to say that extra items and special equipment isn’t possible to come by. Barracks housing is modeled after the bunks, stools and steel cupboards every Finnish conscript knows and loves. Cleaning service (\"siivouspalvelus\"), folding the soldier’s blanket (\"pinkka\") and making the bed are all in the game. The barracks grounds are complete with a soldier home (\"sotilaskoti\"), a distinctive Finnish breed of combined canteen and commissary. This is the closest you’re likely to get to civilization and normal life most evenings. The soldier home commissary offers small creature comforts such as videogames, petty gambling (slot machine, payazzo) and tasty treats. What little remnants of the outside world exists on the barracks are modeled after actual Finnish popular culture, tongue firmly in cheek. Outside events do, however, have an effect on your service, and the game has several storylines that may take several playthroughts to fully uncover. Even in the unlikely event that a Finn knows nothing else about military service, the two things they are likely to know are that the jam doughnuts in the canteen are delicious and cheap, and that the coffee is undrinkable. There are things that some conscripts cannot live without that cannot be bought in the soldier home. Tins of Swedish snus, for example, may be bought from platoon mates.",
-        "id_in_db": "t3_1w53964",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "1184250",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Casual",
-            "Indie",
-            "RPG",
-            "Simulation",
-            "Sports",
-            "Early Access"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "The current Early Access version contains +8 weeks of military service, meaning over 40 hours of scripted gameplay content! WARNING: The game contains strong language, some censored nudity and mild violence so it is best suited for adult audience. The Purpose? To provide a realistic but humorous experience of the Finnish Military Service (conscription, \"intti\") around the year 2011. We want you to feel nostalgic! RK-69 (pun intended), M05, hazing / bullying (\"simputus\"), NBC Alarms (\"suojeluhälytys\")… Training includes conscript favorites such as NBC gear leak testing with tear gas. And fire training with napalm, as well as the ever-present cooper test. The Catch? The player can relate to the content if she/he has been through the Finnish Army. Strong language, black humor, strict guidelines, repetitive tasks, simple core mechanics are the heart of the game. Spend your on-base days going to endless lectures, learning basic discipline and marching drill. The Mechanics? Remember those..."
-    },
-    {
-        "title": "surfsup supporter",
-        "store": "other",
-        "url": "https://na.alienwarearena.com/ucf/show/2176141/boards/contest-and-giveaways-global/Giveaway/surfsup-supporter-dlc-key-giveaway",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3454830/3549f2950c551ce970ec6d488ea343e933fe5c12/header.jpg?t=1787092390",
-        "description": "Classic surf re-imagined in the Godot game engine. Free to play and made for everyone. SurfsUp is a faithful recreation of community air-surfing, designed for both veterans and newcomers. Whether you're chasing world records or riding your first ramp, SurfsUp offers precise movement, a competitive feel, and an easy entry point into one of gaming's most iconic experiences. Features 125+ Maps, All Free Every map is available to every player from day one, no unlocks or paywalls. Ride community classics like Utopia, Boreas, Summit, and Mesa alongside brand new maps built for v2. Multiplayer, Your Way Surf solo or with friends. Join public lobbies or host your own with full control over map selection, all with built-in voice and text chat. Surfing Mechanics Perfect your technique in high-speed air-surfing. Ride ramps, carve tight turns, and clear massive jumps with precision and flow. It's all about momentum, timing, and control. Modes and Styles Various ways to play with Surf, Bhop, and Climb (KZ). The new modes feature an Easy mode with reduced gravity and increased physics or play the Legacy mode with 1:1 CS:S physics, the new Freestyle mode features no resets with the ability to bhop anywhere, better keep your speed or get reset! Surf with styles like Half Sideways, Backwards, and W-Only, all with their own leaderboards! Races, Replays, and Ghosts Download any run from the leaderboard and race it as a ghost, or study it frame by frame in the replay player. Checkpoints and splits on every map show exactly where you're gaining or losing time against the world record, your friend, or against your personal best. Global Rankings and Leaderboards Compete worldwide or with your crew. Every mode, style, and input device has its own leaderboard, from mouse and keyboard players to controller surfers. Make It Yours Fully customize your HUD by dragging, scaling, and recoloring every widget. Build your own crosshair. Earn tradable player models and surf animations simply by playing. Full Controller Support Playable start to finish on a gamepad, with controller glyphs, rebindable inputs, and dedicated controller leaderboards. Supporter Bundle DLC An optional upgrade with unique cosmetics, lobby settings like no timer, lobby code only, or friends/supporters-only, custom profile flair, and support the game's development.",
-        "id_in_db": "t3_1wat9ij",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "3454830",
-        "genres": [
-            "Action",
-            "Casual",
-            "Indie",
-            "Racing",
-            "Sports",
-            "Free To Play"
-        ],
-        "is_multiplayer": true,
-        "is_online": true,
-        "is_dlc_or_addon": false,
-        "persian_summary": "Classic surf re-imagined in the Godot game engine. Free to play and made for everyone. SurfsUp is a faithful recreation of community air-surfing, designed for both veterans and newcomers. Whether you're chasing world records or riding your first ramp, SurfsUp offers precise movement, a competitive feel, and an easy entry point into one of gaming's most iconic experiences. Features 125+ Maps, All Free Every map is available to every player from day one, no unlocks or paywalls. Ride community classics like Utopia, Boreas, Summit, and Mesa alongside brand new maps built for v2. Multiplayer, Your Way Surf solo or with friends. Join public lobbies or host your own with full control over map selection, all with built-in voice and text chat. Surfing Mechanics Perfect your technique in high-speed air-surfing. Ride ramps, carve tight turns, and clear massive jumps with precision and flow. It's all about momentum, timing, and control. Modes and Styles Various ways to play with Surf, Bhop, and..."
-    },
-    {
-        "title": "swapmeat",
-        "store": "other",
-        "url": "https://na.alienwarearena.com/ucf/show/2176139/boards/contest-and-giveaways-global/Giveaway/swapmeat-steam-game-key-giveaway",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2790700/99508a3c5d7bd26ab1a2a9333c1f510bfd4d4881/header.jpg?t=1785966574",
-        "description": "You are Squishy, a shape-shifting operative of Rangus Corp. Adapt to your enemies and outmaneuver them by stealing heads, torsos, and legs – each equipped with a unique power-- creating thousands of possible strategic combos. This unique mechanic makes you harder to kill and your gameplay more strategic, no matter what enemy you encounter. 1 - 4 Player Co-op Survive your runs alone or recruit up to three friends to destroy aliens and swap their meat alongside you. With dynamically scaling difficulty, the game gets harder when players join and easier when they leave. Swap on the Fly If you’ve ever threatened to break someone’s arm and beat them with it, well, this is that mechanic in action, and the game for you. Every limb and extremity you equip changes your strategy instantly. Rapid adaptation is your key to success. For example, equip Squat Daddy legs to jump and butt-slam enemies, or an Octo Swirl head that shoots in all directions! This upgrade path is unique to SWAPMEAT: evolving strategically mid-combat, stealing abilities and turning them against your enemies. Muahahaha. Fast, Relentless Combat SWAPMEAT forces improvisation in a fresh new way: you work with what drops and learn to thrive in unpredictability, while under constant siege by alien weirdos. Waves of screwball enemies threaten to overwhelm you, but every weapon can be stolen for yourself. Dodge, shoot, and swap your way through escalating chaos while racing against time to complete objectives. Risk of Rain 2 and co-op shooters like Helldivers 2 inspired our developers, but the speed of core combat harks back to some of our favorite games, such as Quake 3, Serious Sam, and Overwatch. Hark! Roguelite Replayability Each mission throws new enemies, random events, and unexpected part combinations at you. No two runs are ever the same. Every death teaches you something new. Permanent Upgrades Between Runs Bring your research back to HQ and cash it in for weapon unlocks, new perks, and company-approved improvements. Over time, you get more powerful between runs. Hostile Alien Worlds Drop into random and bizarre planets, from an urban speedway thick with hungry mutant speedsters to a planetary cookout overrun by hostile aliens. Battle across wackadoodle, vivid landscapes strewn with the ruins of galactic capitalism, ancient tech, and '90's references. Difficulty Levels SWAPMEAT offers four different difficulty levels, from Casual to Nightmare. Pop-Quiz If you've read this far, you get a perfect score on today's pop-quiz. Congratulations! Have a glizzy. Mmm.",
-        "id_in_db": "t3_1wat877",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "2790700",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Indie"
-        ],
-        "is_multiplayer": true,
-        "is_online": true,
-        "is_dlc_or_addon": false,
-        "persian_summary": "You are Squishy, a shape-shifting operative of Rangus Corp. Adapt to your enemies and outmaneuver them by stealing heads, torsos, and legs – each equipped with a unique power-- creating thousands of possible strategic combos. This unique mechanic makes you harder to kill and your gameplay more strategic, no matter what enemy you encounter. 1 - 4 Player Co-op Survive your runs alone or recruit up to three friends to destroy aliens and swap their meat alongside you. With dynamically scaling difficulty, the game gets harder when players join and easier when they leave. Swap on the Fly If you’ve ever threatened to break someone’s arm and beat them with it, well, this is that mechanic in action, and the game for you. Every limb and extremity you equip changes your strategy instantly. Rapid adaptation is your key to success. For example, equip Squat Daddy legs to jump and butt-slam enemies, or an Octo Swirl head that shoots in all directions! This upgrade path is unique to SWAPMEAT:..."
-    },
-    {
-        "title": "the king of fighters 2002 unlimited match 188 169 c230 134 a262 r378 with code cheers",
-        "store": "other",
-        "url": "https://store.playsum.live/product/f646f5ed-4c83-4f7c-80a3-0bbe6194c0de/the-king-of-fighters-2002-unlimited-match",
-        "image_url": "https://image.api.playstation.com/vulcan/img/rnd/202102/0511/xhimBjeXHnwNYZRx9ldbQYwI.jpg",
-        "description": "submitted by /u/Lets_Playsum [link] [comments]",
-        "id_in_db": "t3_1w9lqjg",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "87% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/Lets_Playsum [لینک] [نظرات]"
-    },
-    {
-        "title": "the leather maker",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/4805820/The_Leather_Maker/",
-        "image_url": "https://external-preview.redd.it/Ec05kb3qstJZKtPfyT2Crb5TXTp6A4Yn7lpB1cnzpio.jpeg?width=320&crop=smart&auto=webp&s=986961e5f8f9cabe8a6123fe7fbc7e5573ed5450",
-        "description": "submitted by /u/thalesulisses_29 [link] [comments]",
-        "id_in_db": "t3_1w81fvu",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/thalesulisses_29 [لینک] [نظرات]"
-    },
-    {
         "title": "titanium court",
         "store": "steam",
         "url": "https://store.steampowered.com/app/2364580/Titanium_Court/",
@@ -660,19 +243,6 @@
         "is_online": false,
         "is_dlc_or_addon": false,
         "persian_summary": "Well what do we have here? Streetwise tough looking for answers, huh. Well, answers we got, assuming you've got the second half of our agreement? Excellent. Love the satisfying click of an opening briefcase. Come on in, pal. Here's all the \"dirt\" we uncovered on this \"Titanium Court\": So, lotta people have heard of this game, but not a lot are coming clean about what it actually is. Most of the witnesses we \"interviewed\" just said it was \"a fanciful rabbit-hole of unending delights\" or some crap like that. Real coy operation they got going on over there, I'll tell ya what. Don't worry, we did manage to shake a few facts out of them. Here you go! Title : Titanium Court Developer : AP Thomson Publisher : Fellow Traveller Number of players : 1 Play time : 6-30 hours. Now as for the genre we were having a lot of trouble pinning that down from testimony alone, so we \"acquired\" a copy to see what was up. (Hey what's a private investigation without a little bit of larceny, right?) Anyway, we..."
-    },
-    {
-        "title": "ufo defense",
-        "store": "other",
-        "url": "https://freetokeep.gg/game/x-com-ufo-defense",
-        "image_url": "https://external-preview.redd.it/YKvPb2r1IcgnYlFWZ3wOyYhzTLQUVwnHbhGS3XLoLwc.png?width=640&crop=smart&auto=webp&s=bff268b481a59fac5142baf521b10ef6337369fd",
-        "description": "submitted by /u/attentionspan0 [link] [comments]",
-        "id_in_db": "t3_1w47h60",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/attentionspan0 [لینک] [نظرات]"
     },
     {
         "title": "walmart nioh 3 25 44 off",
@@ -701,37 +271,16 @@
         "persian_summary": "ارسال شده توسط /u/gaining [لینک] [نظرات]"
     },
     {
-        "title": "worm in village",
+        "title": "zoom platform 12th anniversary sale",
         "store": "other",
-        "url": "https://gleam.io/syigu/free-x1000-worm-in-village-steam-keys",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5107010/a6f7df0ff7c813c0c99ffc9bcc5166d1aa1f0819/header.jpg?t=1788591664",
-        "description": "STORY: New part of Worm adventure game series. Player character is worm who can walk and jump. Game is third person adventure and walking simulation where worm mission is to find 8 stars to get steam achievements. Stars are hidden in different places in village and forest themed land. Avoid traps like spikes, moving spike traps, ball traps. Use checkpoint system Can you be brave hero worm and find all 8 hidden stars and collect all steam achievements in this third person adventure game FEATURES: Open world which is full of rotating objects and platforms walling to water will kill player Collect 8 stars to get steam achievements Checkpoints 3rd person short platformer and simulation game",
-        "id_in_db": "t3_1wawej1",
-        "subreddit": "FreeGameFindings",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "5107010",
-        "genres": [
-            "Adventure",
-            "Indie",
-            "Simulation"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "STORY: New part of Worm adventure game series. Player character is worm who can walk and jump. Game is third person adventure and walking simulation where worm mission is to find 8 stars to get steam achievements. Stars are hidden in different places in village and forest themed land. Avoid traps like spikes, moving spike traps, ball traps. Use checkpoint system Can you be brave hero worm and find all 8 hidden stars and collect all steam achievements in this third person adventure game FEATURES: Open world which is full of rotating objects and platforms walling to water will kill player Collect 8 stars to get steam achievements Checkpoints 3rd person short platformer and simulation game"
-    },
-    {
-        "title": "xboxmicrosoft store final fantasy vii remake intergrade",
-        "store": "xbox",
-        "url": "https://www.xbox.com/en-us/games/store/final-fantasy-vii-remake-intergrade/9nrqvq7zrm7z?ocid=storeforweb",
-        "image_url": "https://store-images.s-microsoft.com/image/apps.36508.13766021564501406.a4d7cfc8-cacd-474d-930d-a6808bd4f042.1db39840-51a9-4282-95ee-9fc924687f03",
-        "description": "submitted by /u/LectorFrostbite [link] [comments]",
-        "id_in_db": "t3_1w99tzs",
+        "url": "https://www.zoom-platform.com/12th-anniversary-sale",
+        "image_url": "https://external-preview.redd.it/7Zp-ROXFPhrMgGN8fJL2y-G_tXH2akIsJ7S9UWjfNiE.png?width=640&crop=smart&auto=webp&s=804240187cae8bae6ba0b48425918d98ca4b72e9",
+        "description": "submitted by /u/doZennn [link] [comments]",
+        "id_in_db": "t3_1wboz2q",
         "subreddit": "GameDeals",
         "is_free": false,
-        "discount_text": "75% off",
+        "discount_text": "90% off",
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/LectorFrostbite [لینک] [نظرات]"
+        "persian_summary": "ارسال شده توسط /u/doZennn [لینک] [نظرات]"
     }
 ]
