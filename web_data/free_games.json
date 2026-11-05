@@ -54,10 +54,18 @@
         "url": "https://itad.link/018d959b-b506-7274-9701-72b9a03e0be8/",
         "is_free": true,
         "discount_text": "100% Off",
-        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/855030/header.jpg?t=1526665750",
+        "steam_app_id": "855030",
+        "description": "Balloon Strike is amazing Balloon Strike game in which you have bow and arrow to hit balloon and get score. Features -Amazing Balloon Strike Game through Bow & Arrow. -This game have three levels Easy, Medium & Hard. -Game is Infinite in nature. -Fully Tested on Windows 7 & above. -Suitable for all age group. -Ratings & Feedback Appreciated.",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/855030/header.jpg?t=1526665750",
+        "genres": [
+            "Adventure",
+            "Casual",
+            "Indie"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "",
-        "description": ""
+        "persian_summary": "Balloon Strike یک بازی Balloon Strike شگفت‌انگیز است که در آن شما باید با تیر و کمان به بادکنک‌ها ضربه بزنید و امتیاز بگیرید. ویژگی‌ها - بازی شگفت‌انگیز Balloon Strike از طریق تیر و کمان. - این بازی دارای سه سطح آسان، متوسط ​​و سخت است. - بازی ماهیتی بی‌نهایت دارد. - کاملاً روی ویندوز ۷ و بالاتر آزمایش شده است. - مناسب برای همه گروه‌های سنی. - امتیازها و بازخوردها مورد تقدیر قرار گرفته است."
     },
     {
         "title": "battle food mania",
@@ -80,42 +88,23 @@
         "persian_summary": "این یک مبارزه غذایی معمولی نیست. گیم‌پلی جدی. شخصیت‌های نه چندان جدی. هزاران خط صوتی. به عنوان نگهبان جعبه را تحویل دهید یا به عنوان دزد جلوی تحویل را بگیرید. سرآشپز هرگز از کباب کردن دست نمی‌کشد. سلاح‌هایی که هیچ معنایی ندارند... اما حس شگفت‌انگیزی دارند. برای امتیاز بیشتر، تابلوهای دشمن را نابود کنید. نگهبانان تحویل می‌دهند. دزدها آنها را متوقف می‌کنند. به صورت انفرادی، مشارکتی یا در تیم‌های ۱ تا ۸ نفره بازی کنید. آن را به لیست علاقه‌مندی‌های خود اضافه کنید و به مبارزه غذایی بپیوندید!"
     },
     {
-        "title": "battle of stalingrad 85 off 749",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/307960/IL2_Sturmovik_Battle_of_Stalingrad/",
-        "image_url": "https://external-preview.redd.it/ob0YR7QW4rh7S1lxG5_t9q3ajbdHHfd0HN9iWHLXwrk.jpeg?width=320&crop=smart&auto=webp&s=8b927b276ca7c455535ab538909e941e57cc5c70",
-        "description": "submitted by /u/No_Fortune7206 [link] [comments]",
-        "id_in_db": "t3_1xlctp1",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "85% off",
-        "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/No_Fortune7206 [لینک] [نظرات]"
-    },
-    {
         "title": "capy farm",
         "store": "steam",
         "url": "https://store.steampowered.com/app/4849560/Capy_Farm/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4849560/88bc9ad5dbe4c16900b175349757d3e373d3c10a/header.jpg?t=1793642765",
-        "description": "Grow Plants Utilize your farms space and grow plants, then grow even better plants to earn gold and become the best farm. Buy Upgrades You can spend gold to buy upgrades at the shop. Automate Get your capybara friends to help you with the farm. They can harvest, water, seed and defend your farm from crows. Grand Harvest Competition Your goal is to have the richest farm in the neighborhood and become the Grand Harvest Competition Champion. Unlock All Seasons Each Run is a season of 90 days. Unlock Summer, Fall and Winter.",
+        "image_url": "https://external-preview.redd.it/JqeunNJp1ml6R6jDfhpGXAbwTaGF5Xygj0KGkYK22E4.jpeg?width=320&crop=smart&auto=webp&s=3a6acffc75bfbfa5704478b29a03434526b7216b",
+        "description": "submitted by /u/dedaistgeil [link] [comments]",
         "id_in_db": "t3_1xm4u6k",
         "subreddit": "GameDeals",
         "is_free": false,
         "discount_text": "20% off",
-        "steam_app_id": "4849560",
-        "genres": [
-            "Indie"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "Grow Plants Utilize your farms space and grow plants, then grow even better plants to earn gold and become the best farm. Buy Upgrades You can spend gold to buy upgrades at the shop. Automate Get your capybara friends to help you with the farm. They can harvest, water, seed and defend your farm from crows. Grand Harvest Competition Your goal is to have the richest farm in the neighborhood and become the Grand Harvest Competition Champion. Unlock All Seasons Each Run is a season of 90 days. Unlock Summer, Fall and Winter."
+        "persian_summary": "ارسال شده توسط /u/dedaistgeil [لینک] [نظرات]"
     },
     {
         "title": "cold blooded cube",
         "store": "other",
         "url": "https://givee.club/en/event/1498",
-        "image_url": "https://howlongtobeat.com/games/88721_Cold_Blooded_Cube.jpg",
+        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3089570/capsule_616x353.jpg?t=1728514872",
         "description": "submitted by /u/Beneficial_Ad_6911 [link] [comments]",
         "id_in_db": "t3_1xmqcsu",
         "subreddit": "FreeGameFindings",
@@ -141,49 +130,56 @@
         "title": "control",
         "store": "steam",
         "url": "https://store.steampowered.com/app/3669870/CONTROL_Resonant/",
-        "image_url": "https://external-preview.redd.it/BkhaThXm68f6lRF_Od0U9icKCI3hQZZULEEAapqnW9w.jpeg?width=320&crop=smart&auto=webp&s=ec406dc298c7e0392d10bfc98434d228e7ad3dc8",
-        "description": "submitted by /u/sleepy_girlfriend [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669870/1e0c76e4253d347bb1304c3f213570251d924edf/header.jpg?t=1793357289",
+        "description": "After years in confinement at the hands of the Federal Bureau of Control (FBC), Dylan Faden emerges into a warped Manhattan at the peak of a paranatural crisis. Charged with combating a mysterious cosmic entity as it alters fundamental aspects of our reality, Dylan must harness his new-found powers to take the fight to the myriad threats overwhelming Manhattan. Join Dylan in this sequel to the multi-award-winning CONTROL to explore the expansive zones of a city overrun by the corrupting influences of the chaotic Hiss, invasive micro-organism, the Mold, and other twisted paranatural threats. On the path to unlocking the full potential of his paranatural abilities Dylan will also seek out his sister, FBC Director Jesse Faden, as he bids to comprehend and contain the dangers that have spilled beyond the confines of the Oldest House to tear our world apart. STEP INTO A WARPED REALITY Explore multiple areas of a ravaged Manhattan in an expansive, unfamiliar, and exciting world. Traverse perception-bending locations and grapple with gravity anomalies that distort the vertical and horizontal plane, adding additional dimensions to puzzles and new tactical decisions to combat. Meet faces old and new on a path fraught with risk but rich in opportunity as the cityscape is reshaped and reality is redefined by a godlike force. MASTER THE PARANATURAL Channel the raw experiences of Dylan’s past to help understand his present and dig deeper into the inner workings of the FBC and reveal the horrors threatening humankind. Tap into power he must learn to master and take choices to shape how his abilities manifest and grow. Explore a deep progression system to define how Dylan adapts to emerging dangers. Forge connections crucial to Dylan’s fight to retain his humanity as he journeys from former test subject to paranatural superweapon. THE FIGHT SHIFTS. YOUR WEAPON SHIFTS WITH IT. Meet constantly evolving threats head-on, utilising the environment, deploying elemental abilities and using the raw force of Dylan’s shapeshifting melee weapon, the Aberrant. Wield the Aberrant in its many deadly forms. Deliver bone-crunching blows with a two-handed hammer and flow seamlessly into the swift precision of dual-wielded blades as this paranatural weapon morphs on demand to meet each new challenge. SHARED LEGACY. NEW THREAT FBC Director Jesse Faden's lockdown is no longer holding. A paranatural catastrophe has spilled beyond the Oldest House and onto the streets of Manhattan, and the Bureau's grip on containment is failing. Jesse Faden walked into the Oldest House to confront the threat within. Now Dylan must walk out of it to contain the threat beyond.",
         "id_in_db": "t3_1xn2vpd",
         "subreddit": "GameDeals",
         "is_free": false,
         "discount_text": "20% off",
+        "steam_app_id": "3669870",
+        "genres": [
+            "Action",
+            "Adventure",
+            "RPG"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/sleepy_girlfriend [لینک] [نظرات]"
+        "persian_summary": "After years in confinement at the hands of the Federal Bureau of Control (FBC), Dylan Faden emerges into a warped Manhattan at the peak of a paranatural crisis. Charged with combating a mysterious cosmic entity as it alters fundamental aspects of our reality, Dylan must harness his new-found powers to take the fight to the myriad threats overwhelming Manhattan. Join Dylan in this sequel to the multi-award-winning CONTROL to explore the expansive zones of a city overrun by the corrupting influences of the chaotic Hiss, invasive micro-organism, the Mold, and other twisted paranatural threats. On the path to unlocking the full potential of his paranatural abilities Dylan will also seek out his sister, FBC Director Jesse Faden, as he bids to comprehend and contain the dangers that have spilled beyond the confines of the Oldest House to tear our world apart. STEP INTO A WARPED REALITY Explore multiple areas of a ravaged Manhattan in an expansive, unfamiliar, and exciting world. Traverse..."
     },
     {
         "title": "critical ward",
         "store": "steam",
         "url": "https://store.steampowered.com/app/4879410/Critical_Ward",
-        "image_url": "https://external-preview.redd.it/bgsyTlFh9a1JyNzsRY93f3OiyniYZ9rRn9lAgW1hw6Q.jpeg?width=320&crop=smart&auto=webp&s=e55049f2839f94cf882a8478c39b07be7b3d0b34",
-        "description": "submitted by /u/BIESEL_G [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4879410/26f506f4761070b24b8964f31bf1ec17c3c4d441/header.jpg?t=1793868162",
+        "description": "Critical Ward The hospital is at its limit. So are you. Critical Ward is a fast, addictive and 100% arcade survival experience , designed to turn every run from a seemingly manageable shift into a spectacle of absolute chaos. Treat patients, build enormous combos, deploy automated medical equipment and create completely ridiculous builds as the hospital fills with contagious patients, disruptive relatives and events capable of destroying your strategy in seconds. The better you play, the stronger your build becomes. The stronger it becomes, the harder it is to keep it alive. Master the chaos Choose from characters with radically different abilities and playstyles, including specialists in healing, speed, crowd control, technology and strategies that completely transform the rules of each run. Learn their strengths, complete their challenges and unlock new characters and ways to play through an old-school progression system with no microtransactions or paid shortcuts . Huge combos. Absurd builds. Keep your streak alive, stack powerful bonuses and turn a good run into an overwhelming display of power. Turrets, prototypes, special items, skyrocketing stats and chained effects can transform the screen into glorious chaos. But a single mistake can erase everything you have built. Old-school arcade action Distinctive pixel art, direct animations and a presentation inspired by classic arcade games. Every character, effect and explosion of chaos is designed to deliver an authentic old-school arcade experience . All of it is driven by an incredible soundtrack , created to maintain the intensity and make every run immediately demand another one. Features Fast, addictive and 100% arcade survival gameplay . An incredible soundtrack that drives the chaos from beginning to end. A combo system capable of generating enormous bonuses. Completely ridiculous builds and runs that never stop escalating. Characters with entirely different abilities and playstyles. Pixel art graphics with an authentic old-school arcade spirit. Automated medical equipment, prototypes and special items. Contagious patients, troublesome relatives and unpredictable events. Achievements, challenges and unlocks inspired by classic progression systems. No microtransactions: everything is earned by playing. Intense runs with extremely high replayability. The hospital never stops Every patient you discharge makes you stronger. Every second brings new problems. Build the perfect run, push your combo to the limit and discover how much chaos you can control before the entire hospital collapses.",
         "id_in_db": "t3_1xml7n7",
         "subreddit": "GameDeals",
         "is_free": false,
         "discount_text": "10% off",
+        "steam_app_id": "4879410",
+        "genres": [
+            "Action",
+            "Casual",
+            "Indie"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/BIESEL_G [لینک] [نظرات]"
+        "persian_summary": "Critical Ward The hospital is at its limit. So are you. Critical Ward is a fast, addictive and 100% arcade survival experience , designed to turn every run from a seemingly manageable shift into a spectacle of absolute chaos. Treat patients, build enormous combos, deploy automated medical equipment and create completely ridiculous builds as the hospital fills with contagious patients, disruptive relatives and events capable of destroying your strategy in seconds. The better you play, the stronger your build becomes. The stronger it becomes, the harder it is to keep it alive. Master the chaos Choose from characters with radically different abilities and playstyles, including specialists in healing, speed, crowd control, technology and strategies that completely transform the rules of each run. Learn their strengths, complete their challenges and unlock new characters and ways to play through an old-school progression system with no microtransactions or paid shortcuts . Huge combos...."
     },
     {
         "title": "cybrid",
         "store": "steam",
         "url": "https://store.steampowered.com/app/1636850/CYBRID/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1636850/5f60265992763d0ffb5df1d3154dd3df7b85e59a/header.jpg?t=1781630008",
-        "description": "CYBRID is the action-rhythm VR game of the Cyber Future! Featuring cinematic visuals and lively levels timed to an electrifying soundtrack! Use your swords and pistols to slash and shoot your way through the oncoming cyborgs. Run, dodge, and jump among the neon lights of the city to a powerful soundtrack! Immerse yourself in the Cyber world and feel the adrenaline rush! Gameplay Run. Jump. Dodge. Deflect bullets with your sword. Switch between swords, pistols, or wrist-mounted blades. Whatever you do, follow the rhythm. Your success depends on it. Feature The main thing is to follow the rhythm, it is the main thing, the success of the passed level depends on it. Color matters! Blades and swords will only cut their own color, so swing with discretion!! LEVEL EDITOR At your disposal are different types of weapons, swords, blades and pistols! and... Use different modifications such as: time acceleration, error immunity Customize the color scheme for levels, weapons, and enemies to suit your taste Dynamic gameplay will keep you on your toes Additional endless levels and SURVIVOR DEMO EXPERIENCE From Developer The game is made by the forces of one person",
+        "image_url": "https://external-preview.redd.it/ElkADy5njeJmiaYMIyCTgpiRxBsNNil4Njf_0o5ZAF8.jpeg?width=320&crop=smart&auto=webp&s=19b15483b2350645bdd5fbe910f6ba028a7f4386",
+        "description": "submitted by /u/shada_games [link] [comments]",
         "id_in_db": "t3_1xmmtl5",
         "subreddit": "GameDeals",
         "is_free": false,
         "discount_text": "40% off",
-        "steam_app_id": "1636850",
-        "genres": [
-            "Action",
-            "Casual",
-            "Indie",
-            "Early Access"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "CYBRID is the action-rhythm VR game of the Cyber Future! Featuring cinematic visuals and lively levels timed to an electrifying soundtrack! Use your swords and pistols to slash and shoot your way through the oncoming cyborgs. Run, dodge, and jump among the neon lights of the city to a powerful soundtrack! Immerse yourself in the Cyber world and feel the adrenaline rush! Gameplay Run. Jump. Dodge. Deflect bullets with your sword. Switch between swords, pistols, or wrist-mounted blades. Whatever you do, follow the rhythm. Your success depends on it. Feature The main thing is to follow the rhythm, it is the main thing, the success of the passed level depends on it. Color matters! Blades and swords will only cut their own color, so swing with discretion!! LEVEL EDITOR At your disposal are different types of weapons, swords, blades and pistols! and... Use different modifications such as: time acceleration, error immunity Customize the color scheme for levels, weapons, and enemies to suit..."
+        "persian_summary": "ارسال شده توسط /u/shada_games [لینک] [نظرات]"
     },
     {
         "title": "Dark Mystery",
@@ -256,14 +252,22 @@
         "title": "epic games mobile galaxy kart",
         "store": "epicgames",
         "url": "https://www.reddit.com/r/FreeGameFindings/comments/1ximi13/epic_games_mobile_game_galaxy_kart/",
-        "image_url": "https://cdn1.epicgames.com/spt-assets/fbeed7cfd1524dbf80f272cca866a506/galaxy-kart-981jw.png?resize=1&w=1280&h=720&quality=medium",
-        "description": "📝 Transactions Page (To see if you claimed or not) ⏩ Instant Checkout (Login to Epic Games first to use) Item Instant Checkout 🎮 CLAIM ALL Android & iOS 🎮﻿ Galaxy Kart Android ／ iOS 🎮 Galaxy Kart｜ Android ／ iOS ⌛ Rating／⛔ Blacklist ｜None submitted by /u/MeguminShiro [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2321780/7747c56e7d0839de337f23ce4ba4ef02b7489117/header.jpg?t=1785320934",
+        "description": "The United Citizen Federation is calling on YOU to join the fight for humanity. You’ll witness humanity’s noble efforts to safeguard the galaxy first hand. Wield the diverse and unique Mobile Infantry arsenal to burn, dismember and cripple the Arachnid threat in first-person, high-action warfare through the eyes of Sammy. The Arachnid menace has spread far from their home planet of Klendathu, invading human territory across the galaxy. Once inspiring colonies of human beauty, ingenuity and collaboration, now lie torn apart by the merciless and unprovoked Bug threat. Sign up today and protect not just our world, but the future of the human race. A Faithful Training Simulation Recruits like you are vital to the Federation. We expect the best, and we give the best! Our Games and Theory department have been working hard to develop an in-depth training course. Troopers on the path to Citizenship will find a unique experience within Starship Troopers: Ultimate Bug War! Authentic retro FPS experience lead your squads through epic battlefields in a solo campaign packed with missions, secrets and (of course) BUGS! Devastating anti-Bug arsenal wield over 30 iconic weapons and items, from the classic Morita rifle to mechanical bipeds, tactical nukes and more Sharply loyal story experience a unique and original story honoring the Federation’s commitment to save humanity from the Bugs Video and audio starring General Johnny Rico himself witness the legend return in full, high-quality FMV and meet new Federation hero, Major Samantha Dietz",
         "id_in_db": "t3_1ximi13",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
+        "steam_app_id": "2321780",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Indie"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "📝 صفحه تراکنش‌ها (برای دیدن اینکه آیا درخواست داده‌اید یا خیر) ⏩ پرداخت فوری (برای استفاده ابتدا وارد اپیک گیمز شوید) پرداخت فوری کالا 🎮 درخواست همه اندروید و iOS 🎮﻿ گلکسی کارت اندروید / iOS 🎮 گلکسی کارت｜ اندروید / iOS ⌛ امتیاز/⛔ لیست سیاه ｜هیچ موردی توسط /u/MeguminShiro ارسال نشده است [لینک] [نظرات]"
+        "persian_summary": "The United Citizen Federation is calling on YOU to join the fight for humanity. You’ll witness humanity’s noble efforts to safeguard the galaxy first hand. Wield the diverse and unique Mobile Infantry arsenal to burn, dismember and cripple the Arachnid threat in first-person, high-action warfare through the eyes of Sammy. The Arachnid menace has spread far from their home planet of Klendathu, invading human territory across the galaxy. Once inspiring colonies of human beauty, ingenuity and collaboration, now lie torn apart by the merciless and unprovoked Bug threat. Sign up today and protect not just our world, but the future of the human race. A Faithful Training Simulation Recruits like you are vital to the Federation. We expect the best, and we give the best! Our Games and Theory department have been working hard to develop an in-depth training course. Troopers on the path to Citizenship will find a unique experience within Starship Troopers: Ultimate Bug War! Authentic retro FPS..."
     },
     {
         "title": "Epic World - Hunt For Quest",
@@ -291,15 +295,15 @@
         "persian_summary": "ارسال شده توسط /u/lizardon789 [لینک] [نظرات]"
     },
     {
-        "title": "etailmarket among the sleep",
+        "title": "etailmarket dragons dogma 2 23 off 3094",
         "store": "other",
-        "url": "https://etail.market/among-the-sleep-enhanced-edition-3",
-        "image_url": "https://external-preview.redd.it/bsJ-8CrN3wKpWsTOc2MHWKCghW-YG3CVDX4VR1n0IbU.jpeg?width=640&crop=smart&auto=webp&s=afb104354678bf2ab59eb64c4e128e023930d274",
+        "url": "https://etail.market/dragon-s-dogma-2169",
+        "image_url": "https://external-preview.redd.it/98mfvLNS_gGxaO-8Qjm_fIOSRHJUu_PDHbbvT_INnHw.jpeg?width=640&crop=smart&auto=webp&s=0dbf58f78f80bca7be95d4434ab0cbcb0ed7707c",
         "description": "submitted by /u/etailmarket [link] [comments]",
-        "id_in_db": "t3_1xlvrkq",
+        "id_in_db": "t3_1xnro42",
         "subreddit": "GameDeals",
         "is_free": false,
-        "discount_text": "84% off",
+        "discount_text": "23% off",
         "is_dlc_or_addon": false,
         "persian_summary": "ارسال شده توسط /u/etailmarket [لینک] [نظرات]"
     },
@@ -315,27 +319,6 @@
         "discount_text": "100% Off",
         "is_dlc_or_addon": false,
         "persian_summary": "To increase visibility, the mega threads are posted on a weekly basis. This is being done following the overall discussion of Mega Threads via FGF Update - https://redd.it/jkxyzw Please use the below threads for your posts. :) Exiled Giveaways Mega Thread (#2) Itchio Mega Thread (#10) Want to setup alerts to these threads? RSS Feed information can be found in our wiki! https://www.reddit.com/r/FreeGameFindings/wiki/rssfeed Included is information about our discord bot and general RSS feed stuff. Definitely give it a look! submitted by /u/AutoModerator [link] [comments]"
-    },
-    {
-        "title": "fanatical sonic racing",
-        "store": "fanatical",
-        "url": "https://www.fanatical.com/en/game/sonic-racing-crossworlds",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2486820/ee9b8f88d7d971723c3a08ebe87869797102e31e/header_alt_assets_17.jpg?t=1793753139",
-        "description": "Race across land, sea, air, and space in Sonic Racing: CrossWorlds! Warp through Travel Rings into new dimensions where something new awaits around every twist and turn. Speed to victory solo or as a team in a variety of offline and online modes and compete against players from around the world. Build the ultimate vehicle to match your racing style, unlock gadgets to gain the upper hand, and unleash power-up items! Come Race on Our Level Race across 24* courses and warp to one of 15 CrossWorld courses with Travel Rings, which transport you to a new course with special rules and challenges on the 2nd lap. Return to the first course for the final lap, where aspects of the track have changed. There’s always a surprise on the other side of the Travel Rings, and no two races are the same! Minutes to Learn, a Lifetime to Master Pick from over 45 unique original vehicles and over 70** gadgets that let you shape how you race and define your playstyle. Gadgets let you customize all parts of your race, including movement boost efficiency, item chance, recovery time, and more. Build the loadout that defines you. There are 5 character/vehicle classes to choose from: Speed, Acceleration, Handling, Power, and Boost. Within each class, you can further tune performance by combining front, rear, and tire parts, adjusting each stat to match your racing style. Top it all off with custom paint jobs, decals, and more to create your ultimate racing machine. The Largest Roster Ever! Choose from 23 iconic Sonic characters! From members of Team Sonic to the Babylon Rogues, Team Chaotix, and even the Deadly Six, it’s the largest roster in a Sonic racing game to date. Characters have unique interactions with each other through the new Rival system, which randomly picks a character each race to be your Rival who will be faster, smarter, and more challenging. Defeat them for bonus rewards and even more special dialogue. Play Your Way Hone your skills solo, co-op with friends, or online with up to 12 players in modes designed for competition, practice, and mastery. • Compete in the classic Grand Prix: compete across 4 courses to earn the most points. • Mix it up with Race Park: Race in teams of 2-4 players in matches with unique rule sets: collect the most rings, boost off your allies, knock out your opponent, play with only heavy hitting items, or make up your own custom rulesets! • Master individual courses with Time Trials: Race alone on a single course as you try to get the fastest time possible. Your time can be uploaded to a global leaderboard to show off your mastery. • Ascend the online leaderboards in World Match: Play online with players worldwide in 12 player lobbies and aim for the top: Legend Rank. A Racing Experience That Continues to Evolve Sonic Racing: CrossWorlds will be supported by ongoing free updates that add new characters, vehicles, music, sounds, and gadgets. Characters from across the SEGA universe including Joker, Ichiban, Hatsune Miku, AiAi, and NiGHTS join the race, with more characters to arrive soon. For those looking to expand their experience, unlock premium content through the Season Pass, which features guest crossovers from iconic franchises including SpongeBob SquarePants and Minecraft. Character Packs from the Season Pass will feature 2-4 playable racers***, new courses, decals and sounds to customize your vehicle, additional music, gadgets, and more. Race for Fun, Race for Glory The free character updates and paid premium content will be supported by Festivals, limited time events where you’ll team up players worldwide to represent one of 3 teams and compete for the most points. Races will feature unique rulesets during these events, with the winning team earning bonus rewards. For the best-of-the-best, test your skills in Legend Competitions. These timed events feature a unique competitive ruleset and open only to other top players (Legend 9 rank and above in World Match). Aim for the top to receive special rewards and shoot for the coveted “Emerald Racer” rank. *More courses may be added post-launch **Additional gadgets may be added post-launch ***Please see Season Pass & individual Content Packs for more information on playable characters",
-        "id_in_db": "t3_1xlkqoi",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "63% off",
-        "steam_app_id": "2486820",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Racing"
-        ],
-        "is_multiplayer": true,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "Race across land, sea, air, and space in Sonic Racing: CrossWorlds! Warp through Travel Rings into new dimensions where something new awaits around every twist and turn. Speed to victory solo or as a team in a variety of offline and online modes and compete against players from around the world. Build the ultimate vehicle to match your racing style, unlock gadgets to gain the upper hand, and unleash power-up items! Come Race on Our Level Race across 24* courses and warp to one of 15 CrossWorld courses with Travel Rings, which transport you to a new course with special rules and challenges on the 2nd lap. Return to the first course for the final lap, where aspects of the track have changed. There’s always a surprise on the other side of the Travel Rings, and no two races are the same! Minutes to Learn, a Lifetime to Master Pick from over 45 unique original vehicles and over 70** gadgets that let you shape how you race and define your playstyle. Gadgets let you customize all parts of..."
     },
     {
         "title": "final fantasy vii rebirth 59974985 off",
@@ -379,27 +362,6 @@
         "persian_summary": "Funtoon's World is amazing adventurous game with 25 Levels. Get Ready to enter Funtoon's World with amazing Excitement in each Level. Get Ready to face different monsters and earn as much coins as you can to get highest score. Features -25 Diffterent Levels in the Game. -8 Different Characters available in the Game. -Different Powers used in the Game. -Collect Coins and save yourself from monsters to get best score. -Multilanguage support provided in the Game. -Ratings & Feedback Appreciated. Note: Both Controller and Keyboard are supported. (Keyboard Keys: Up / Right / Left arrow Keys to control character and Space bar Key to Fire."
     },
     {
-        "title": "gimbap heaven launch discount",
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/4501140/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4501140/b85824e2b62e5a38236e08b28096034c567dea7e/header.jpg?t=1793613585",
-        "description": "Take over a small gimbap shop on a busy Seoul street corner and keep it running for 15 days! Hire staff, decide who works where, and let your crew handle prep, cooking and serving while you plan each day from the office. Keep up with ingredient costs, wages and bills that keep growing, and keep the doors open. Prep cooks, stove cooks, assembly cooks and hall staff each have their own specialty. Tell the kitchen what to prep and cook, and hall staff will pick up order tickets and carry finished dishes to the table. When your crew falls behind, step in and cook or serve by hand. In this kitchen, ingredients, cooking tools and even your staff are cards. Drag a card onto another to chop, cook and plate. From gimbap, ramyeon and tteokbokki to stews and rice bowls, you can make any dish yourself. Shop Around the Market Explore a lively market filled with colorful vendors. Pick up ingredients, recipes and cooking tools that fit your menu, plus gear for your staff. Just leave enough for wages, gas and the next bill. Choose Your Menu, Shape Your Strategy Choose each day's menu based on your ingredients, your tools and what your crew can handle. Collect related recipes to unlock set bonuses that boost output, cut costs or bring in more customers. Upgrade dishes and tools, and pick relics that fit the way you run the shop. Look After Your Crew Staff build up stress as they work, and a burned-out worker stops until they recover. Use Rush cards when you need speed, and give tired staff a rest or a paid day off. As the workdays add up, your crew levels up, learns new skills and earns a higher daily wage. Keep a close eye on customer patience, the dishes on the stove and the orders piling up. Reassign kitchen tasks, queue extra dishes on the kitchen order board, and jump in yourself when a dish cannot wait. Then feel the thrill as a mountain of orders disappears before your eyes. More from Noligo Games Follow Noligo Games on Steam to get notified when our next game launches.",
-        "id_in_db": "t3_1xlz56q",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "15% off",
-        "steam_app_id": "4501140",
-        "genres": [
-            "Casual",
-            "Simulation",
-            "Strategy"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "Take over a small gimbap shop on a busy Seoul street corner and keep it running for 15 days! Hire staff, decide who works where, and let your crew handle prep, cooking and serving while you plan each day from the office. Keep up with ingredient costs, wages and bills that keep growing, and keep the doors open. Prep cooks, stove cooks, assembly cooks and hall staff each have their own specialty. Tell the kitchen what to prep and cook, and hall staff will pick up order tickets and carry finished dishes to the table. When your crew falls behind, step in and cook or serve by hand. In this kitchen, ingredients, cooking tools and even your staff are cards. Drag a card onto another to chop, cook and plate. From gimbap, ramyeon and tteokbokki to stews and rice bowls, you can make any dish yourself. Shop Around the Market Explore a lively market filled with colorful vendors. Pick up ingredients, recipes and cooking tools that fit your menu, plus gear for your staff. Just leave enough for..."
-    },
-    {
         "title": "Gladiator: Blades of Fury",
         "id_in_db": "gladiator-blades-of-fury@1793471646",
         "store": "other",
@@ -423,14 +385,21 @@
         "title": "grimms journey remastered",
         "store": "fanatical",
         "url": "https://www.fanatical.com/en/game/letter-quest-grimms-journey-remastered",
-        "image_url": "https://external-preview.redd.it/Qq1vdb04Y-G23QPnDURF9VaoT0-7g5apeByX_g0DsN0.jpeg?width=640&crop=smart&auto=webp&s=69cc15923a012c52cb7c31d879507975e6adfc7e",
-        "description": "submitted by /u/WeAreFanatical [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/373970/header.jpg?t=1593028925",
+        "description": "The grim reapers Grimm and Rose need your help to defeat a legion of monsters, ghosts, and evil bunnies using the power of words! Spell words to battle monsters, earn gems and use them to purchase upgrades, books, special items, potions, and much more! Letter Quest is a game about using your linguistic skills to survive. It's a turn-based RPG featuring high-res artwork, clever wordplay, and a great soundtrack. Letter Quest, Remastered New ENDLESS MODE - choose your favorite background art, music, character, weapon, and letter tiles and see how long you can survive! 8 more achievements, now 60 in total! Fully animated enemies and shopkeepers A brand new soundtrack in addition to the original music - choose your favorite! Tooltips during battle Fully rewritten in Unity, allowing for a smoother experience, better resolution options, higher-quality music and sound effects, and much more! Windows, Mac, AND Linux support 70 quests to complete A built-in dictionary of over 192,000 English words that is frequently updated Keyboard Support All of the battles in Letter Quest Remastered can be played with a keyboard - no more hunting for letters with the mouse if you don't want to! Simply type letters to add them to the current word, hit backspace to remove the last letter typed, and much more! Letter Quest Remastered also supports setting key bindings for all hot-keys right in the game's options menu. Touch Support Everything in Letter Quest Remastered works great on touchscreen laptops and computers, including Microsoft Surface Pro - you can even swipe to scroll lists and the map! About Bacon Bandit Games We're a two-man Canadian game dev team attempting to make great games. Letter Quest Remastered is a completely rewritten version of our first game, Letter Quest: Grimm's Journey. The original Letter Quest was written in Flash and limited the platforms that we could release it on, so we spent over 600 hours rewriting it in Unity and are now proud to fully support Windows, Mac, and Linux! More Info",
         "id_in_db": "t3_1xnlcvy",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
+        "steam_app_id": "373970",
+        "genres": [
+            "Casual",
+            "Indie"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/WeAreFanatical [لینک] [نظرات]"
+        "persian_summary": "The grim reapers Grimm and Rose need your help to defeat a legion of monsters, ghosts, and evil bunnies using the power of words! Spell words to battle monsters, earn gems and use them to purchase upgrades, books, special items, potions, and much more! Letter Quest is a game about using your linguistic skills to survive. It's a turn-based RPG featuring high-res artwork, clever wordplay, and a great soundtrack. Letter Quest, Remastered New ENDLESS MODE - choose your favorite background art, music, character, weapon, and letter tiles and see how long you can survive! 8 more achievements, now 60 in total! Fully animated enemies and shopkeepers A brand new soundtrack in addition to the original music - choose your favorite! Tooltips during battle Fully rewritten in Unity, allowing for a smoother experience, better resolution options, higher-quality music and sound effects, and much more! Windows, Mac, AND Linux support 70 quests to complete A built-in dictionary of over 192,000 English..."
     },
     {
         "title": "grimms journey remastered 100 off free",
@@ -459,7 +428,7 @@
         "title": "halloween sale games highlights",
         "store": "other",
         "url": "https://www.reddit.com/r/FreeGameFindings/comments/1xhxt7f/itchiogame_halloween_sale_games_highlights/",
-        "image_url": "https://cdn2.unrealengine.com/en-halloween-blog-asset-1920x1080-7840e62a513d.jpg?resize=1&w=1920&h=1080&quality=medium",
+        "image_url": "https://cdn2.unrealengine.com/epic-games-halloween-sale-ending-soon-rainbow-six-siege-1920x1080-ffbcf0f439ae.jpg",
         "description": "Here's a bunch of stuff I found during the Halloween sale that might be worth a post. But since there's so much varied stuff I've collected it all here to avoid spam. I've tried to split it up by type of item so they will be easier to dig through. Steam links for review reading added where applicable. There's going to be way too many for the bot so I'm going to skip trying to trigger it and if anyone wants to see individual titles to they can trigger it at their own initiative. All items have been posted in the megathread at some time previously as well so you may already have them if you've been keeping up there. Update 11/4, old item. Static Voice (Expires 2026-11-09 T06:04:00 UTC): https://kadderagames.itch.io/static-voice https://store.steampowered.com/app/4207170/Static_Voice/ Update 11/2, new-ish items. Night Shift, can be claimed unlike other sale (Expires in a bit over seventeen hours and thirty minutes from this edit (2026-11-03 T22:08:00 UTC)): https://cyber752.itch.io/night-shift https://store.steampowered.com/app/3602430/Night_Shift/ Rockoon (Expires 2026-11-04 T18:00:00 UTC): https://canspectre.itch.io/rockoon-one-more-time-release https://store.steampowered.com/app/3377570/Rockoon/ Update 10/31, old items Jam and the Mystery of the Mysteriously Spooky Mansion and Four Before Midnight (Expires 2026-11-02 T06:59:00): https://itch.io/s/214773/halloween-sale-2026 Update 10/29 CTHON ( Expires 2026-11-02T06:59:00 UTC ): https://gravitygames.itch.io/cthon Note: Many thanks to Kid_Kidding who posted this in the megathread. I'm just reposting here to increase visibility so please direct all thanks their way. Edit: Sale extended to 2026-11-05 T06:59:00 UTC. https://store.steampowered.com/app/595100/CTHON/ Going for Nuts and mobile version (Expires 2026-11-04 T18:00:00 UTC): https://itch.io/s/213379/halloween-sale-2026 Note: Middling reviews but may as well post it. https://store.steampowered.com/app/3489520/Going_for_Nuts/ Hellbound: Reign of El Diablo: https://sodafrizz-og.itch.io/hellbound Note: Seems to be always free on itch but $0.99 on steam so I figured I'd mention it. https://store.steampowered.com/app/3702810/Hellbound_Reign_of_El_Diablo/ Note2: Second game also seems to be always free available here . And also the Hellbound/Hellbound 2 fan pack files from each game are downloadable only during the sale. New claimable items also on steam. Family Manners ( Expires 2026-10-30 T01:44:00 UTC ): https://nney.itch.io/family-manners Edit: Extended to 2026-11-06 T21:12:00 UTC. https://store.steampowered.com/app/3473210/Family_Manners/ Kuentame (Expires 2026-11-04 T18:00:00 UTC): https://apehardware.itch.io/0nc3up0n4t1m3 Note: Many thanks to Zivonyx posting info about this in the megathread. https://store.steampowered.com/app/4222630/Kuentame/ Lights On My Screen (Expires 2026-11-05 T21:00:00 UTC): https://sleeper-vision.itch.io/lights-on-my-screen Note: Not that great in the ratings but since I'm doing a compilation post I figured I'd add it. https://store.steampowered.com/app/5278930/Lights_On_My_Screen/ New/old items that are not claimable, some on steam. Various (Expires 2026-11-21 T23:00:00 UTC): https://itch.io/b/3955/itching-for-games-3 Note: This is a unique situation where the games can not be claimed and must be downloaded through the bundle page instead of the individual game pages. First click the \"Get the Bundle\" button. Next click \"No thanks, just take me to the downloads\" link in the popup to get to the downloads. The following are steam pages for some sale items. I think I got most of them but may have missed some, and also there might be some interesting ones not on steam so you may want to look through the offerings. https://store.steampowered.com/app/2257790/Trapers_Platformer/ https://store.steampowered.com/app/2303500/MF01_Aerostrike/ https://store.steampowered.com/app/4272040/The_Moon_my_Destination/ https://store.steampowered.com/app/2881270/Randy_Manilla/ https://store.steampowered.com/app/4281370/A_Thousand_Bees/ https://store.steampowered.com/app/3926150/Fortiori/ https://store.steampowered.com/app/3520600/ORBA/ https://store.steampowered.com/app/3602430/Night_Shift/ https://store.steampowered.com/app/3487660/The_Bunker/ https://store.steampowered.com/app/3549320/The_Survivor/ https://store.steampowered.com/app/3602880/Dark_Mine/ https://store.steampowered.com/app/500940/Get_The_Gems/ https://store.steampowered.com/app/2975110/Solares/ https://store.steampowered.com/app/712660/YBit/ https://store.steampowered.com/app/486630/Toxic_Terror/ New items that claim to be coming to steam. Octane100 (Expires 2026-11-03 T23:15:00 UTC): https://murchikstudio.itch.io/octane100 https://store.steampowered.com/app/3471070/Octane100/ MOLOKAUST (Expires 2026-11-04 T18:00:00 UTC): https://elp3luca.itch.io/molokaust https://store.steampowered.com/app/4503570/MOLOKAUST/ CIVIMAX (Expires 2026-11-04 T18:00:00 UTC): https://itch.io/s/209372/halloween-sale-2026 Old items that are claimable. Liminal Lane, Sleep Demon, and Liminal Space Holiday (expires 2026-11-01 T11:01:00 UTC): https://itch.io/s/210780/halloween-sale-2026 https://store.steampowered.com/app/3542420/Liminal_Lane/ https://store.steampowered.com/app/4465030/Sleep_Demon/ https://store.steampowered.com/app/5041880/Liminal_Space_Holiday/ Assassin at Crimson Keep (Expires 2026-11-04 T18:00:00 UTC): https://shadowglass.itch.io/assassin-at-crimson-keep https://store.steampowered.com/app/1773460/Assassin_at_Crimson_Keep/ Fear Assessment and CULT OF FLIES (Expires 2026-11-04 T18:00:00 UTC): https://itch.io/s/211210/halloween-sale-2026 https://store.steampowered.com/app/2512380/CULT_OF_FLIES/ Easy as Pi (Expires 2026-11-04 T18:00:00 UTC): https://snugpig.itch.io/easy-as-pi https://store.steampowered.com/app/3536140/Easy_as_Pi/ Heirloom (Expires 2026-11-04 T18:00:00 UTC): https://atticusfinn.itch.io/heirloom https://store.steampowered.com/app/2315570/Heirloom/ Abode: Definitive Edition (Expires 2026-11-04 T18:00:00 UTC): https://jordons.itch.io/abode-definitive-edition https://store.steampowered.com/app/3243780/Abode_Definitive_Edition/ Me and My Eldritch Parasite, DETUNED, Until It’s Undone: Unmastered, Odiumfloreo, and soundtracks (Expires 2026-11-04 T18:00:00 UTC): https://itch.io/s/205805/halloween-sale-2026 https://store.steampowered.com/app/1789670/Me_and_my_eldritch_parasite/ https://store.steampowered.com/app/2325040/DETUNED/ https://store.steampowered.com/app/2755320/Until_Its_Undone_Unmastered/ https://store.steampowered.com/app/3956560/Odiumfloreo/ Buckler 2, Roseblight, Project Malice, Solace Inc., and Aestheta (Expires 2026-11-05 T03:13:00 UTC): https://itch.io/s/212180/halloween-sale https://store.steampowered.com/app/1039910/Buckler_2/ https://store.steampowered.com/app/1728080/Roseblight/ https://store.steampowered.com/app/2157060/Project_Malice/ https://store.steampowered.com/app/2778250/Solace_Inc/ https://store.steampowered.com/app/3730600/Aestheta/ Hampton Court (Expires 2026-11-04 T18:00:00 UTC): https://chrisiscreative.itch.io/hampton-court Old items not claimable. Cherophobia and Do You Have a Moment to Talk About Our Lord and Savior? (Expires 2026-11-05 T22:54:00 UTC): https://itch.io/s/197970/fall-sale Note: There's some other stuff in the sale if you want to check those out too. https://store.steampowered.com/app/2994800/Cherophobia/ https://store.steampowered.com/app/3063960/Do_You_Have_a_Moment_to_Talk_About_Our_Lord_and_Savior/ submitted by /u/Fhczvyd474374846 [link] [comments]",
         "id_in_db": "t3_1xhxt7f",
         "subreddit": "FreeGameFindings",
@@ -472,7 +441,7 @@
         "title": "hentai mosaique vip room",
         "store": "other",
         "url": "https://givee.club/en/event/1493",
-        "image_url": null,
+        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1111790/capsule_616x353.jpg?t=1561986571",
         "description": "submitted by /u/RegionalPrices [link] [comments]",
         "id_in_db": "t3_1xix9af",
         "subreddit": "FreeGameFindings",
@@ -485,22 +454,14 @@
         "title": "hexologic",
         "store": "steam",
         "url": "https://store.steampowered.com/app/785890/Hexologic/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/785890/header.jpg?t=1793292026",
-        "description": "A Sudoku-like gameplay is taken to a whole new level! ! Immerse yourself in the beautiful world of Hexologic. Solve challenging, yet rewarding puzzles, listen to relaxing music, dive deep into the game’s atmosphere and fall in love in with Sudoku again! Hexologic is very easy to learn and in the same time a highly addictive language-independent logic puzzle game. Based on hexagonal grids, the game reinvents sudoku rules and brings it to a whole new level. Combining the dots inside the hexes in three possible directions, so that their sum matches the one given at the edge, will be a rewarding experience for both puzzle games’ veterans and newcomers. A simple gameplay mechanics adorned with a beautiful graphic design, relaxing music and challenging yet not unbeatable puzzles, will guarantee long hours of fun for gamers of all ages. IN HEXOLOGIC YOU’LL FIND: Relaxation, putting your mind at ease in the immersive atmosphere 6 completely different game worlds, each with unique gameplay mechanics Over 90 levels designed down to the smallest details Well-balanced puzzles An atmospheric soundtrack accentuating the game’s ambience Jump into the world of Hexologic and prove you are the true master of the hexes!",
+        "image_url": "https://external-preview.redd.it/hwC_fEMFW1n7-BmvjqHbGcpvvE8NsVANKyjowqw2N_0.jpeg?width=320&crop=smart&auto=webp&s=ef78f2eaabdce2e0ca44e2abf963b5da56a0142c",
+        "description": "submitted by /u/Fhczvyd474374846 [link] [comments]",
         "id_in_db": "t3_1xipmh1",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "785890",
-        "genres": [
-            "Casual",
-            "Indie",
-            "Strategy"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "A Sudoku-like gameplay is taken to a whole new level! ! Immerse yourself in the beautiful world of Hexologic. Solve challenging, yet rewarding puzzles, listen to relaxing music, dive deep into the game’s atmosphere and fall in love in with Sudoku again! Hexologic is very easy to learn and in the same time a highly addictive language-independent logic puzzle game. Based on hexagonal grids, the game reinvents sudoku rules and brings it to a whole new level. Combining the dots inside the hexes in three possible directions, so that their sum matches the one given at the edge, will be a rewarding experience for both puzzle games’ veterans and newcomers. A simple gameplay mechanics adorned with a beautiful graphic design, relaxing music and challenging yet not unbeatable puzzles, will guarantee long hours of fun for gamers of all ages. IN HEXOLOGIC YOU’LL FIND: Relaxation, putting your mind at ease in the immersive atmosphere 6 completely different game worlds, each with unique gameplay..."
+        "persian_summary": "ارسال شده توسط /u/Fhczvyd474374846 [لینک] [نظرات]"
     },
     {
         "title": "Highway Driving",
@@ -509,10 +470,17 @@
         "url": "https://itad.link/018d959b-aa0f-73c5-8297-ddfe4b709828/",
         "is_free": true,
         "discount_text": "100% Off",
-        "image_url": "https://cdn1.epicgames.com/spt-assets/34f072889fd841c7a09e20840ede7214/highway-driving-164q2.jpg?resize=1&w=1280&h=720&quality=medium",
+        "steam_app_id": "2016980",
+        "description": "Highway Driving is 3D racing game for everyone. Players will be amazed with the overall gaming experience in this game. There are various different tracks and game modes in the game. Players can select many different types of vehicles. Features 1. 3D Racing game for everyone. 2. Infinite racing tracks with different modes. 3. Various different vehicles are available for the player to choose from. 4. Proper score system and some features can be unlocked with money earned in game. 5. Suitable for all age group. Get ready to experience ultimate driving on highway. Note : Support for Steering wheels and Pedals added in the updated version.",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2016980/header.jpg?t=1702842388",
+        "genres": [
+            "Racing",
+            "Sports"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "",
-        "description": ""
+        "persian_summary": "Highway Driving is 3D racing game for everyone. Players will be amazed with the overall gaming experience in this game. There are various different tracks and game modes in the game. Players can select many different types of vehicles. Features 1. 3D Racing game for everyone. 2. Infinite racing tracks with different modes. 3. Various different vehicles are available for the player to choose from. 4. Proper score system and some features can be unlocked with money earned in game. 5. Suitable for all age group. Get ready to experience ultimate driving on highway. Note : Support for Steering wheels and Pedals added in the updated version."
     },
     {
         "title": "Horror Adventure",
@@ -521,19 +489,17 @@
         "url": "https://itad.link/018d959b-b52d-72ed-9f93-c545008959e6/",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "4204360",
-        "description": "As you progress, you'll need to find keys and open locked doors. Solve puzzles and find passages. A first-person game with horror elements. Explore the hospital and its rooms, collect batteries for your flashlight. Solve riddles. The darkness can hide various secrets. You are Alex, a journalist accustomed to searching for the truth. But when your missing sister, Sarah, sends a desperate message from the depths of this abandoned building, the search for the truth turns into a struggle for sanity. GAMEPLAY HORROR is a test of your logic in the face of primal fear. You are unarmed. You are vulnerable. All you have is a flashlight with a dying battery and your intellect. Survival Logic: To progress, you will have to interact with your environment. The hospital is a complex mechanism that needs to be activated. Study X-rays of mutants to solve the code. Threat is everywhere: The remnants of staff and patients lurk in the shadows. Enemies can't be killed—they can only be outsmarted, distracted, or escaped. GAME FEATURES Hyperrealistic graphics: Detailed interiors, an oppressive play of light and shadow, and textures that are terrifying to touch. A compelling story: Explore locations to understand the true nature of Project Unity. The story is told through the environment: writing on walls and in notes. WARNING **HORROR** contains scenes of violence, body horror, sudden jump scares, and themes that may shock sensitive players.",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4204360/3d39bcc31ac67b07a346cd9e96ef28659163c5d8/header.jpg?t=1782107753",
+        "steam_app_id": "2292610",
+        "description": "Horror Adventure is a interactive experience set in a procedurally generated haunted house. You're a paranormal investigator and you find yourself exploring what appears to be a old abandoned manor. You will be able to interact with basic items and limited tools at your disposal. The procedurally generated random house will create random locations and scares for you. So make sure to keep your eyes open at all the times, put your headphones on and enjoy the game! Features: 1. Immersive First person interactive gameplay which allow the player to control various handheld elements. 2. Procedurally generated random house to increase the scare factor and replayability. 3. Featuring different demonic entities, each designed specifically according to the procedural nature of the levels. 4. Save/Load feature so that you can take a breather in between. 5. Both Keyboard and Controller support provided. ( Use arrow keys to move front or back and use mouse to change direction. Use Space Bar to grab any key, torch or open any gate where you see Hand mark).",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2292610/header.jpg?t=1676713099",
         "genres": [
             "Action",
-            "Adventure",
-            "Indie",
-            "Simulation"
+            "Adventure"
         ],
         "is_multiplayer": false,
         "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "As you progress, you'll need to find keys and open locked doors. Solve puzzles and find passages. A first-person game with horror elements. Explore the hospital and its rooms, collect batteries for your flashlight. Solve riddles. The darkness can hide various secrets. You are Alex, a journalist accustomed to searching for the truth. But when your missing sister, Sarah, sends a desperate message from the depths of this abandoned building, the search for the truth turns into a struggle for sanity. GAMEPLAY HORROR is a test of your logic in the face of primal fear. You are unarmed. You are vulnerable. All you have is a flashlight with a dying battery and your intellect. Survival Logic: To progress, you will have to interact with your environment. The hospital is a complex mechanism that needs to be activated. Study X-rays of mutants to solve the code. Threat is everywhere: The remnants of staff and patients lurk in the shadows. Enemies can't be killed—they can only be outsmarted,..."
+        "persian_summary": "Horror Adventure is a interactive experience set in a procedurally generated haunted house. You're a paranormal investigator and you find yourself exploring what appears to be a old abandoned manor. You will be able to interact with basic items and limited tools at your disposal. The procedurally generated random house will create random locations and scares for you. So make sure to keep your eyes open at all the times, put your headphones on and enjoy the game! Features: 1. Immersive First person interactive gameplay which allow the player to control various handheld elements. 2. Procedurally generated random house to increase the scare factor and replayability. 3. Featuring different demonic entities, each designed specifically according to the procedural nature of the levels. 4. Save/Load feature so that you can take a breather in between. 5. Both Keyboard and Controller support provided. ( Use arrow keys to move front or back and use mouse to change direction. Use Space Bar to..."
     },
     {
         "title": "Horse Racing 2016",
@@ -559,14 +525,21 @@
         "title": "hunting simulator 3",
         "store": "steam",
         "url": "https://store.steampowered.com/app/4693960/Hunting_Simulator_3_Classic_American_Hunter_Pack/",
-        "image_url": "https://external-preview.redd.it/xwdQETWLORYahCktBhunbe7qCQ1qn7LdtIjtIq-pvmk.jpeg?width=320&crop=smart&auto=webp&s=6fe1df14ad5b4704a6fb9f6f6770442c92d86178",
-        "description": "submitted by /u/Fit-Cardiologist-124 [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2482760/1a9f19af74790e1981ddb42e627edb9c1a8a6e9f/header_alt_assets_1.jpg?t=1793285056",
+        "description": "Enter the wilderness Either on foot or behind the wheel of your all-terrain vehicle, explore this open world's stunning environments. Set off to deepest Colorado, or untamed outback of Texas, each with dozens of wild species to hunt. In these ever-changing ecosystems, each animal reacts to what you do, ages over time, and exhibits true-to-life behaviour thanks to our unique “SimFauna” system. Hunt your own way Kit yourself out with one of the official weapons and other items , to hunt the way you want. Choose from a professional hunting arsenal, comprising rifles, shotguns, bows and crossbows. Take your pick from the best hunting brands like, Remington, Beretta, Winchester, Browning and many more. A hunter's best friend To help you in your hunt, you can rely on your faithful hunting dog. With its keen senses, it helps you better understand your surroundings and allows you to spot tracks, follow a trail, or retrieve small game. Use the command wheel to make it respond to all your orders. A warm, practical hunting lodge Feel like a bit of peace and quiet, admiring your arsenal or honing your shooting skills? Take advantage of your customisable hunting lodge to showcase your finest trophies, purchase or modify your gear, or simply relax by the fire before your next hunt. Test yourself in an intense clay-pigeon shoot. Armed with your favourite weapon, knock down the targets within the allotted time to score maximum points, and try to reach the top of the leaderboard!",
         "id_in_db": "t3_1xik3ym",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
+        "steam_app_id": "2482760",
+        "genres": [
+            "Simulation"
+        ],
+        "is_multiplayer": false,
+        "is_online": false,
+        "age_rating": "13",
         "is_dlc_or_addon": false,
-        "persian_summary": "ارسال شده توسط /u/Fit-Cardiologist-124 [لینک] [نظرات]"
+        "persian_summary": "Enter the wilderness Either on foot or behind the wheel of your all-terrain vehicle, explore this open world's stunning environments. Set off to deepest Colorado, or untamed outback of Texas, each with dozens of wild species to hunt. In these ever-changing ecosystems, each animal reacts to what you do, ages over time, and exhibits true-to-life behaviour thanks to our unique “SimFauna” system. Hunt your own way Kit yourself out with one of the official weapons and other items , to hunt the way you want. Choose from a professional hunting arsenal, comprising rifles, shotguns, bows and crossbows. Take your pick from the best hunting brands like, Remington, Beretta, Winchester, Browning and many more. A hunter's best friend To help you in your hunt, you can rely on your faithful hunting dog. With its keen senses, it helps you better understand your surroundings and allows you to spot tracks, follow a trail, or retrieve small game. Use the command wheel to make it respond to all your..."
     },
     {
         "title": "i have no mouth and i must scream 149127 85 off",
@@ -582,17 +555,39 @@
         "persian_summary": "ارسال شده توسط /u/Outrageous-Meat-9941 [لینک] [نظرات]"
     },
     {
+        "title": "into the crypt",
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1879270/Into_the_Crypt/",
+        "image_url": "https://external-preview.redd.it/i_sObMXE9x1tADIciUZkjxlChLXGe1s6Pzj6T5LcgCg.jpeg?width=320&crop=smart&auto=webp&s=71c4abc45e9e61144a105e0e6a0a20a3fbccb107",
+        "description": "submitted by /u/megaglope [link] [comments]",
+        "id_in_db": "t3_1xo0fvp",
+        "subreddit": "GameDeals",
+        "is_free": false,
+        "discount_text": "15% off",
+        "is_dlc_or_addon": false,
+        "persian_summary": "ارسال شده توسط /u/megaglope [لینک] [نظرات]"
+    },
+    {
         "title": "last gambit",
         "store": "steam",
         "url": "https://store.steampowered.com/app/4983490/Last_Gambit/",
-        "image_url": "https://external-preview.redd.it/8QdJmMjWX-lYzFV6l3VsszArFNmaW6XDLkOn7XullBo.jpeg?width=320&crop=smart&auto=webp&s=a49034568084cdabb440c098fe9bbe2c6e19e865",
-        "description": "13 November => $4,99 ( here ) submitted by /u/MyBankJudgesMe [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4983490/2171750b5ae85c27e16f9939e4fc8fc68e25e5be/header.jpg?t=1793713262",
+        "description": "The chess you know ends on the first move. In Last Gambit the board doesn't hand you an army: you build it yourself. Piece by piece, battle by battle, until your formation looks like nothing an opening manual ever prepared for. An army that grows with you 27 pieces, from the six classics to ones you won't find in any chess club: the Unicorn, the Griffon, the Void Queen that leaves through one edge and comes back through the other, the Phoenix that returns from its ashes, Catapults and Trebuchets that hurl your own pieces, the Summoner, the Mirror. You start with a handful. The rest have to be discovered: by taking down the Story bosses, by winning under crazy conditions (with your King strolling across half the board, or coming back from ten points down), by earning trophies, by experimenting in the Laboratory. Every piece you discover is one more weapon, online too. Fuse two pieces into a stronger one, clone the one you need, evolve your pawns in the middle of the fight. Deployment is free: you decide the formation. A Story that never plays the same way twice A branching map, chapters of battles, merchants and bosses. Along the way you collect perks that bend the rules: rewind a move, freeze a piece, teleport it, revive what had fallen. Every run is a different army and a new problem. And you are not alone. Players on your same seed show up on the map: you can trade pieces and perks with them in the Barter , or challenge them with the roster of your run. If they aren't around, you challenge their ghost. Online, where theory isn't enough Two ways to prepare for battle, and each one changes how you think about the match. In Fixed the match starts with a draw: a pool of pieces, the same for you and your opponent. Each of you bans one, then you build your army from the offers and deploy it. Same cards on the table, two different armies: make the most of the draw to get the edge on your opponent. In Budget you have a reserve of points and every piece has its price. A few powerful pieces or a large army: you decide where to spend, and your opponent, from the same catalogue, may have chosen differently. Matchmaking finds players who want the same match as you, by rating, time and perks. With perks on, before the start each player gets one drawn from a shared deck. When you want to play alone there is the computer, which uses perks as well as you do, even offline. Or two players on the same screen. And if you'd rather play as a pair, online there is two versus two as well. For those who never stop All 27 pieces to discover, perk collections and fusion recipes to complete, more than forty trophies to earn, and some of them give you a new piece. Then new goals every week and your Career, with stats and ranks. The board is the same as always. Everything else isn't.",
         "id_in_db": "t3_1xkygad",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
+        "steam_app_id": "4983490",
+        "genres": [
+            "Indie",
+            "Strategy",
+            "Free To Play",
+            "Early Access"
+        ],
+        "is_multiplayer": true,
+        "is_online": true,
         "is_dlc_or_addon": false,
-        "persian_summary": "۱۳ نوامبر => ۴.۹۹ دلار ( اینجا ) ارسال شده توسط /u/MyBankJudgesMe [لینک] [نظرات]"
+        "persian_summary": "The chess you know ends on the first move. In Last Gambit the board doesn't hand you an army: you build it yourself. Piece by piece, battle by battle, until your formation looks like nothing an opening manual ever prepared for. An army that grows with you 27 pieces, from the six classics to ones you won't find in any chess club: the Unicorn, the Griffon, the Void Queen that leaves through one edge and comes back through the other, the Phoenix that returns from its ashes, Catapults and Trebuchets that hurl your own pieces, the Summoner, the Mirror. You start with a handful. The rest have to be discovered: by taking down the Story bosses, by winning under crazy conditions (with your King strolling across half the board, or coming back from ten points down), by earning trophies, by experimenting in the Laboratory. Every piece you discover is one more weapon, online too. Fuse two pieces into a stronger one, clone the one you need, evolve your pawns in the middle of the fight. Deployment..."
     },
     {
         "title": "Math Fun",
@@ -621,19 +616,10 @@
         "url": "https://itad.link/018d959b-aa16-71c2-b7b6-4c9bae000015/",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "2293210",
-        "description": "Maze (The Amazing Labyrinth) is interesting puzzle game for everyone. Get ready to face different types of challenges in the game. Features -Amazing Maze Puzzle game for everyone. -Players ability will be judged in various complex situations. Game will start with easy puzzle levels with complex levels at a later stage. -50 Different Levels in the game. Players excitement increases after every level. -Many More. Get Ready for Ultimate Brain Challenge",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2293210/header.jpg?t=1676713019",
-        "genres": [
-            "Adventure",
-            "Indie",
-            "Sports",
-            "Strategy"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
+        "image_url": "https://magisterrex.wordpress.com/wp-content/uploads/2012/02/amazeinglabyrinth1989dec.jpg",
         "is_dlc_or_addon": false,
-        "persian_summary": "هزارتو (هزارتوی شگفت‌انگیز) یک بازی پازل جالب برای همه است. برای رویارویی با انواع مختلف چالش‌ها در بازی آماده شوید. ویژگی‌ها - بازی پازل هزارتوی شگفت‌انگیز برای همه. - توانایی بازیکنان در موقعیت‌های پیچیده مختلف ارزیابی خواهد شد. بازی با سطوح پازل آسان شروع می‌شود و سطوح پیچیده در مرحله بعدی قرار دارند. - 50 سطح مختلف در بازی. هیجان بازیکنان بعد از هر سطح افزایش می‌یابد. - بسیاری دیگر. برای چالش نهایی مغز آماده شوید."
+        "persian_summary": "",
+        "description": ""
     },
     {
         "title": "Mountain Racing",
@@ -668,38 +654,17 @@
         "persian_summary": "ارسال شده توسط /u/Camhor [لینک] [نظرات]"
     },
     {
-        "title": "next order captain tsubasa jojos bizarre adventure jujutsu kaisen cursed clash sword art online last recollection that time i got reincarnated as a slime 70",
-        "store": "indiegala",
-        "url": "https://www.indiegala.com/store/publisher-sale/bandai-namco-sale",
-        "image_url": "https://external-preview.redd.it/AMmdkV7ABEqs3RdCQnN54Rk6kXY1LepoOQL84b-yUmE.jpeg?width=640&crop=smart&auto=webp&s=b254fbefe87f79f1cd12caf54df9fa32aaa0362d",
-        "description": "submitted by /u/indieg [link] [comments]",
-        "id_in_db": "t3_1xlxwgb",
-        "subreddit": "GameDeals",
-        "is_free": false,
-        "discount_text": "87% off",
-        "is_dlc_or_addon": true,
-        "persian_summary": "ارسال شده توسط /u/indieg [لینک] [نظرات]"
-    },
-    {
         "title": "one must fall 2197",
         "store": "steam",
         "url": "https://store.steampowered.com/app/5371940/One_Must_Fall_2197_Singularity/",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371940/b9ce86f56aad2e65637fe1bca81e8f7bfc2c96fe/header.jpg?t=1793418316",
-        "description": "The game One Must Fall 2197: Singularity is a free remake of One Must Fall 2097, the 1994 one-on-one fighting game with giant piloted robots called HARs. It's the classic rebuilt with HD art, remastered menus and a modern fight layer on top of the original combat. Every robot has punches, kicks, throws and special moves entered as joystick motions. After the last round you can finish a beaten robot with a SCRAP or a DESTRUCTION move. Built on OpenOMF. OpenOMF's open-source engine powers every fight: its moves, damage, timing and computer opponent are the foundation of this remake. The menus are ported from their work, and our rollback netcode follows their design. LineCrush built the Unreal Engine remaster on that foundation. Thank you, OpenOMF. macOS: The Mac version is currently single-player only. Steam online Versus, Steam overlay and Steam achievements are not available on Mac. Modes Tournament: the career mode. Create a pilot, enter one of eight events and fight your way up a ranked ladder for prize money. Between fights, spend it in the mech lab on repairs, robot upgrades (arm and leg power and speed, armor, stun resistance), pilot training, paint and new robots. Losing costs you repairs. Arcade: pick a pilot and a robot and fight every pilot on the ladder, then Major Kreissack. Clear it to unlock your pilot's ending. Single Match and Versus: one fight against the computer, or two players on one PC with a keyboard or gamepads. Online Versus: invite a Steam friend and fight peer to peer with rollback netcode. Training: a dummy that never goes down. Set what it does (stand, crouch, jump, block or fight back), reset positions, and show your input history and every robot's hitboxes. Robots and arenas All eleven original robots are here, Jaguar, Shadow, Thorn, Pyros, Electra, Katana, Shredder, Flail, Gargoyle, Chronos and Nova, plus ten new ones with their own special moves, supers and stories: Mantis, Bulwark, Vise, Hornet, Viper, Lodestone, Glacier, Auger, Banshee and Riptide. Fight in fifteen arenas, the original five and ten new ones, each with its own hazards, from molten spears and drone raids to lightning that strikes the floor. Some robots and paint finishes are earned by playing. Classic or modern rules The fights run on OpenOMF's faithful recreation of the original game. On top of that, the remake adds a three-stock super meter, EX special moves, supers and counter hits. Each one can be turned off in GAMEPLAY if you want the 1994 rules. The computer opponent has seven difficulty levels, from PUNCHING BAG to ULTIMATE, and game speed has eleven settings. Controls and extras Play with a keyboard or a gamepad, with Xbox, PlayStation and Steam Deck button prompts and fully remappable controls. MODERN controls add a one-button SPECIAL. MOVE LIST plays every special move on a live robot as you browse it. EXTRAS has the original screens beside their HD remasters, a music player for the remastered soundtrack, every arcade ending, and your fight stats. Thank you, OpenOMF This remake stands on the shoulders of OpenOMF. Since 2013 the OpenOMF team has reverse-engineered One Must Fall 2097 and rebuilt it as free, open-source software, and every fight here runs on their code: the moves, the damage, the timing and the computer opponent come straight from OpenOMF, the menus around the fight are ported from their work, and our rollback netcode follows their design. Thank you to everyone who has contributed, especially katajakasa, Vagabond, Nopey, mrannanj, animehunter and LegendaryBlueShirt, and to the whole One Must Fall community, who kept this game alive for more than thirty years. Thank you, Rob Elam One Must Fall 2097 is Rob Elam's game: he designed, programmed, drew and animated it, and every robot, arena and move here begins with his work. Thank you to the team who made it with him at Diversions Entertainment, Ryan Elam, Josh Jensen and Kenny Chou of Renaissance, whose remastered music you hear in every fight; to the original playtesters, John Gary, Mackey McCandlish, Hans Watson, Stephen Caudill, Steven Slawin and the Epic beta-testing team, and to the Elam family; to Diversions Entertainment for releasing the game as freeware in 1999, which makes this free remake possible; to Epic MegaGames for publishing it in 1994; and to Epic Games for Unreal Engine. Unreal port by LineCrush Games.",
+        "image_url": "https://external-preview.redd.it/5U_wPEVV2AC9mrvcKuvyIvAvJjJIyYXUhF4K2lbPDR4.jpeg?width=320&crop=smart&auto=webp&s=96cf756c84aca1fc8683e17fb8b4a7c767756435",
+        "description": "Why One Must Fall 2197 is leaving Steam ( here ) submitted by /u/MyBankJudgesMe [link] [comments]",
         "id_in_db": "t3_1xmwo5t",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "5371940",
-        "genres": [
-            "Action",
-            "Indie",
-            "Free To Play"
-        ],
-        "is_multiplayer": true,
-        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "The game One Must Fall 2197: Singularity is a free remake of One Must Fall 2097, the 1994 one-on-one fighting game with giant piloted robots called HARs. It's the classic rebuilt with HD art, remastered menus and a modern fight layer on top of the original combat. Every robot has punches, kicks, throws and special moves entered as joystick motions. After the last round you can finish a beaten robot with a SCRAP or a DESTRUCTION move. Built on OpenOMF. OpenOMF's open-source engine powers every fight: its moves, damage, timing and computer opponent are the foundation of this remake. The menus are ported from their work, and our rollback netcode follows their design. LineCrush built the Unreal Engine remaster on that foundation. Thank you, OpenOMF. macOS: The Mac version is currently single-player only. Steam online Versus, Steam overlay and Steam achievements are not available on Mac. Modes Tournament: the career mode. Create a pilot, enter one of eight events and fight your way up a..."
+        "persian_summary": "بازی Why One Must Fall 2197 از استیم خارج می‌شود (اینجا) ارسال شده توسط /u/MyBankJudgesMe [لینک] [نظرات]"
     },
     {
         "title": "Packet Loss",
@@ -708,25 +673,16 @@
         "url": "https://itad.link/01a0f5f1-392f-71c9-838e-9b7279005a9f/",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "3168450",
-        "description": "Get into the cockpit in Packet Loss , a challenging flight simulator where precision and skill are paramount! You're a pilot tasked with transporting vital packets from one location to another. But beware - this isn't your typical delivery service. With near realistic physics and flight controls , such as using the ground effect to gain power and save fuel, every subtle adjustment, and every turn of the ship will impact your journey. B alance the cargo, packets and oil drums correctly onto your ship, or be prepared for potential unscheduled pedestrian transit.",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3168450/1f6ef2617d982f783b6ee8acfecd7b83f52d82e5/header.jpg?t=1752883580",
-        "genres": [
-            "Casual",
-            "Racing",
-            "Simulation",
-            "Early Access"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
+        "image_url": "https://store-images.s-microsoft.com/image/apps.54405.14533203209354722.aa15bb17-38bc-4d00-b1d8-c676fb066a62.11497e66-d7c8-4c38-92c7-19c5fdb7e3b8?w=562",
         "is_dlc_or_addon": true,
-        "persian_summary": "Get into the cockpit in Packet Loss , a challenging flight simulator where precision and skill are paramount! You're a pilot tasked with transporting vital packets from one location to another. But beware - this isn't your typical delivery service. With near realistic physics and flight controls , such as using the ground effect to gain power and save fuel, every subtle adjustment, and every turn of the ship will impact your journey. B alance the cargo, packets and oil drums correctly onto your ship, or be prepared for potential unscheduled pedestrian transit."
+        "persian_summary": "",
+        "description": ""
     },
     {
         "title": "pcxboxplaystation other dying light 2",
         "store": "other",
         "url": "https://www.reddit.com/r/FreeGameFindings/comments/1xh9zsn/pcxboxplaystation_other_dying_light_2_razorstorm/",
-        "image_url": "https://fluidesign.co.uk/wp-content/uploads/2018/07/DL2_img13_1366x768_42.jpg",
+        "image_url": "https://i.redd.it/dying-light-2-has-an-awesome-flip-around-cover-for-the-ps5-v0-t9zp6u1goldb1.jpg?width=3383&format=pjpg&auto=webp&s=c1a2767fe84956cd28ae107dbf7fc37351089800",
         "description": "For the entire first week of the Halloween Showdown 2026, you can get Razorstorm Blade for Dying Light 2 by buying the weapon in the in-game store (NOT STEAM PAGE). You need to own Dying Light 2 to access the in-game store. The store can be accessed in the initial game menu or when pausing the game. Select the weapon category to scroll the weapon dlcs until you find the free Razorstorm Blade. submitted by /u/silent-hill_1515 [link] [comments]",
         "id_in_db": "t3_1xh9zsn",
         "subreddit": "FreeGameFindings",
@@ -768,38 +724,31 @@
         "url": "https://itad.link/0190b720-323d-739f-b18d-db12432620a8/",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "716920",
-        "description": "HOW WELL DO YOU KNOW YOUR TRIVIA? Test your knowledge in The Ultimate Trivia Challenge. Trivia has never been so much fun. Challenge yourself in Single Player, or host a trivia night with friends and family in Party Mode (up to 4 players). Choose a category and answer thousands of multiple-choice questions. Want an extra twist? Spin the Wheel Challenge—or take a break and test your ears with Name That Sound! Includes 9 fan-favorite categories: Movies Music Sports People & Places General Knowledge History Science Spelling Famous Quotes Features Single Player Mode Party Mode (Up to 4 Players) Thousands of multiple-choice questions Perfect for group trivia nights Quick, pick-up-and-play sessions Family-friendly fun for all ages Gamepad support So what are you waiting for? Download now and get your brain ready for The Ultimate Trivia Challenge!",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/716920/387eb66deffa73f1f29552fc3736e039ab480b46/header.jpg?t=1770997732",
-        "genres": [
-            "Casual",
-            "Indie"
-        ],
-        "is_multiplayer": true,
-        "is_online": false,
+        "image_url": "https://cf.geekdo-images.com/u9vT5Vuvd64u4WMi5ItWow__itemrep/img/p9AqWxZCPrPDsZjp6w7CvdKLI2k=/fit-in/246x300/filters:strip_icc()/pic20916.jpg",
         "is_dlc_or_addon": true,
-        "persian_summary": "HOW WELL DO YOU KNOW YOUR TRIVIA? Test your knowledge in The Ultimate Trivia Challenge. Trivia has never been so much fun. Challenge yourself in Single Player, or host a trivia night with friends and family in Party Mode (up to 4 players). Choose a category and answer thousands of multiple-choice questions. Want an extra twist? Spin the Wheel Challenge—or take a break and test your ears with Name That Sound! Includes 9 fan-favorite categories: Movies Music Sports People & Places General Knowledge History Science Spelling Famous Quotes Features Single Player Mode Party Mode (Up to 4 Players) Thousands of multiple-choice questions Perfect for group trivia nights Quick, pick-up-and-play sessions Family-friendly fun for all ages Gamepad support So what are you waiting for? Download now and get your brain ready for The Ultimate Trivia Challenge!"
+        "persian_summary": "",
+        "description": ""
     },
     {
         "title": "sinister evolution pack",
         "store": "other",
         "url": "https://na.alienwarearena.com/ucf/show/2176477/boards/contest-and-giveaways-global/Giveaway/v-rising-sinister-evolution-cosmetic-pack-dlc-key-giveaway",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1388590/header.jpg?t=1781263976",
-        "description": "In Yakuza 6, Kazuma Kiryu will find out exactly how much people are willing to sacrifice for family - be those ties through blood or bond - when he investigates a series of shadowy events that involve the ones he holds closest to his heart. Fresh out of a three-year prison sentence, an older and weathered Kiryu comes to find out that his surrogate daughter, Haruka, has gone missing from the orphanage he looks after. The trail leads him to his old stomping grounds in Kamurocho, where he discovers that she has been struck by a car and now lies in a coma. To make matters worse, Kiryu learns that Haruka now has a son that he must look after. With baby in hand, Kiryu journeys to the seaside town of Onomichi, Hiroshima to unravel the truth about Haruka, her son, and a sinister secret that the Hiroshima yakuza are harboring. From the unparalleled realism of the new setting of Onomichi, a beautiful, sleepy port town in Hiroshima Prefecture, to the latest evolution of Kamurocho, the biggest red-light district in Tokyo, Yakuza 6 is the ultimate iteration the game's blend of gritty crime story, hyper-explosive combat, and all the vices and distractions those locales have to offer. Enter the “Dragon Engine” - Explore the world of Yakuza like never before. Yakuza 6 is the first current-gen Yakuza title that was developed from the ground up for the current-gen hardware, introducing the seedy Japanese underworld with detailed visuals, lifelike animations, a new physics engine, interactive storefronts, seamless transitions and more. Explore Kamurocho Reborn and the Scenic Views of Onomichi - The hypnotic lights, opportunistic inhabitants, and hedonistic distractions of Kamurocho look better than ever. Revamped minigames like karaoke, batting cages, darts, hostesses, and the SEGA arcade have been streamlined for maximum pleasure, and new additions like the RIZAP Gym, Cat Café, and Clan Creator are the purrfect distractions after a long night of bashing heads! But it’s also time to get away from the hustle and bustle of city life to play tourist in beautiful Onomichi. This tranquil coastal community is home to plenty of local activities like bar mingling, spearfishing (think action-packed rail shooter … with fish), and more! Let the Bodies Hit the Floor - Yakuza 6 Kiryu is a 100% certified badass, so that means he’s a battle-hardened veteran when it comes to the art of street fighting. Although he utilizes one fighting style this time around, you best believe Kiryu hits like a truck. Devastating combos and bone-breaking Heat Actions make a return, but now the Dragon of Dojima can fill up a meter to engage Extreme Heat Mode. When activated, Kiryu glows blue and unleashes heavy-damage combos with his fists or any “tool” that’s close at hand. Fully Voiced Japanese Audio - For the first time in series history, every line and piece of dialogue is fully voiced in Japanese. Let the dramatic story and absurd humor of the series unfold like an interactive foreign film experience.",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/4219c147f1e094297c726d537518babba7f3ae2d/header.jpg?t=1793731328",
+        "description": "Conquer with character in Apex Legends, a free-to-play* Hero shooter where legendary characters with powerful abilities team up to battle for fame & fortune on the fringes of the Frontier. Master an ever-growing roster of diverse Legends, deep-tactical squad play, and bold, new innovations that go beyond the Battle Royale experience — all within a rugged world where anything goes. Welcome to the next evolution of Hero Shooter. KEY FEATURES This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items. Note that any unused Apex Coins will expire 180 days after the first date in which they are acquired or purchased. The oldest Apex Coins that are subject to expiration in your balance will always be used first when using them to make in-game purchases. Apex Packs purchase is not available in Belgium.",
         "id_in_db": "t3_1xio57t",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
-        "steam_app_id": "1388590",
+        "steam_app_id": "1172470",
         "genres": [
             "Action",
-            "Adventure"
+            "Adventure",
+            "Free To Play"
         ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "age_rating": "The game may contain following contents not suitable for all audiences:\r\nBlood\r\nIntense Violence\r\nPartial Nudity\r\nSexual Themes\r\nStrong Language\r\nUse of Alcohol",
+        "is_multiplayer": true,
+        "is_online": true,
         "is_dlc_or_addon": true,
-        "persian_summary": "In Yakuza 6, Kazuma Kiryu will find out exactly how much people are willing to sacrifice for family - be those ties through blood or bond - when he investigates a series of shadowy events that involve the ones he holds closest to his heart. Fresh out of a three-year prison sentence, an older and weathered Kiryu comes to find out that his surrogate daughter, Haruka, has gone missing from the orphanage he looks after. The trail leads him to his old stomping grounds in Kamurocho, where he discovers that she has been struck by a car and now lies in a coma. To make matters worse, Kiryu learns that Haruka now has a son that he must look after. With baby in hand, Kiryu journeys to the seaside town of Onomichi, Hiroshima to unravel the truth about Haruka, her son, and a sinister secret that the Hiroshima yakuza are harboring. From the unparalleled realism of the new setting of Onomichi, a beautiful, sleepy port town in Hiroshima Prefecture, to the latest evolution of Kamurocho, the biggest..."
+        "persian_summary": "Conquer with character in Apex Legends, a free-to-play* Hero shooter where legendary characters with powerful abilities team up to battle for fame & fortune on the fringes of the Frontier. Master an ever-growing roster of diverse Legends, deep-tactical squad play, and bold, new innovations that go beyond the Battle Royale experience — all within a rugged world where anything goes. Welcome to the next evolution of Hero Shooter. KEY FEATURES This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items. Note that any unused Apex Coins will expire 180 days after the first date in which they are acquired or purchased. The oldest Apex Coins that are subject to expiration in your balance will always be used first when using them to make in-game purchases. Apex Packs purchase is not available in Belgium."
     },
     {
         "title": "Sorry We're Closed",
@@ -825,7 +774,7 @@
         "title": "sorry were closed",
         "store": "epicgames",
         "url": "https://store.epicgames.com/p/sorry-were-closed-724c86",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1796580/header.jpg?t=1788536861",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1796580/header.jpg?t=1786047768",
         "description": "submitted by /u/LighteningOneIN [link] [comments]",
         "id_in_db": "t3_1ximc22",
         "subreddit": "FreeGameFindings",
@@ -892,7 +841,7 @@
         "title": "the wild eight",
         "store": "other",
         "url": "https://givee.club/en/event/1505",
-        "image_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/526160/capsule_616x353.jpg?t=1749735284",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526160/capsule_616x353.jpg?t=1749735284",
         "description": "submitted by /u/Next_Bit_3639 [link] [comments]",
         "id_in_db": "t3_1xnb92p",
         "subreddit": "FreeGameFindings",
@@ -918,20 +867,29 @@
         "title": "yash future games",
         "store": "other",
         "url": "https://www.reddit.com/r/FreeGameFindings/comments/1xlechm/epic_games_game_yash_future_games/",
-        "image_url": "https://preview.redd.it/epic-games-game-yash-future-games-v0-cw7oxb0xl2zh1.png?width=757&format=png&auto=webp&s=e1e0ae22a0da9de41275205266fb48f3e9e0b557",
-        "description": "As all are same Dev/Publisher. I'll just put all of them in one there, as they just keep popping up. Don't want to spam the whole community with each GA. Hence now putting all in one, I'll try to make formatting later. Well Dev has 32 games, let's see if this list goes up to 32 or not. https://store.epicgames.com/p/balloon-strike-c9a1ac https://store.epicgames.com/p/dark-mystery-baf914 https://store.epicgames.com/p/epic-world-hunt-for-quest-4500b1 https://store.epicgames.com/p/funtoons-world-0e63dd https://store.epicgames.com/p/gladiator-blades-of-fury-1a745b https://store.epicgames.com/p/highway-driving-140121 https://store.epicgames.com/p/horror-adventure-26ec62 https://store.epicgames.com/p/horse-racing-4192a0 https://store.epicgames.com/p/math-fun-9585ad https://store.epicgames.com/p/maze-the-amazing-labyrinth-291abe https://store.epicgames.com/p/mountain-racing-47178d https://store.epicgames.com/p/quiztopia-the-ultimate-trivia-6d42e0 https://store.epicgames.com/p/super-kids-racing-mini-edition-65c0fa submitted by /u/MeguminShiro [link] [comments]",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1253570/header.jpg?t=1584432696",
+        "description": "The year is 3020 and football is war. The game has not changed much, but the players have… You are the heir to a Futuball club and DNA samples from the old world’s biggest football legends. You must use this to build and manage a team of the eleven most monstrous and efficient robots ever created in a lab to become the best football manager of the future! Your career depends on your ability to manage line-ups, transfers, negotiate sponsor deals, conduct training sessions and much more. All the soccer clubs you know, like Barcelona, Madrid, Bayern, Juve, Milan, Chelsea, Manchester, Galatasaray, can be your greatest weapon in the quest for the championship in the top Futuball leagues. Futuball will give you futuristic features, such as: ⬢ Advanced tactical options to prove that you are a tactical mastermind ⬢ Collecting DNA to clone android versions of football all-stars like Messi, Ronaldo and Maradona. ⬢ Fighting your friends and other managers in a massive multiplayer PvP experience ⬢ Bidding on bionic superhumans in thrilling auctions ⬢ Releasing your cyborg squad in live match simulations ⬢ Mini games where you can affect the income from your sponsor contracts ⬢ Stunning 3D graphics of real motion captured players ⬢ Upgrading your sci-fi stadium to the next level - your fans are your everything Now is the time to take your pro fantasy team to victory one goal at a time! Futuball is available in English, Chinese, French, Russian, Spanish, Turkish, German, Portuguese (Brazil), Italian, Polish, Romanian, Greek, Danish, Portuguese, Arabic, Indonesian, Norwegian, Dutch, Swedish",
         "id_in_db": "t3_1xlechm",
         "subreddit": "FreeGameFindings",
         "is_free": true,
         "discount_text": "100% Off",
+        "steam_app_id": "1253570",
+        "genres": [
+            "Free To Play",
+            "Simulation",
+            "Sports",
+            "Strategy"
+        ],
+        "is_multiplayer": true,
+        "is_online": false,
         "is_dlc_or_addon": false,
-        "persian_summary": "As all are same Dev/Publisher. I'll just put all of them in one there, as they just keep popping up. Don't want to spam the whole community with each GA. Hence now putting all in one, I'll try to make formatting later. Well Dev has 32 games, let's see if this list goes up to 32 or not. https://store.epicgames.com/p/balloon-strike-c9a1ac https://store.epicgames.com/p/dark-mystery-baf914 https://store.epicgames.com/p/epic-world-hunt-for-quest-4500b1 https://store.epicgames.com/p/funtoons-world-0e63dd https://store.epicgames.com/p/gladiator-blades-of-fury-1a745b https://store.epicgames.com/p/highway-driving-140121 https://store.epicgames.com/p/horror-adventure-26ec62 https://store.epicgames.com/p/horse-racing-4192a0 https://store.epicgames.com/p/math-fun-9585ad https://store.epicgames.com/p/maze-the-amazing-labyrinth-291abe https://store.epicgames.com/p/mountain-racing-47178d https://store.epicgames.com/p/quiztopia-the-ultimate-trivia-6d42e0..."
+        "persian_summary": "The year is 3020 and football is war. The game has not changed much, but the players have… You are the heir to a Futuball club and DNA samples from the old world’s biggest football legends. You must use this to build and manage a team of the eleven most monstrous and efficient robots ever created in a lab to become the best football manager of the future! Your career depends on your ability to manage line-ups, transfers, negotiate sponsor deals, conduct training sessions and much more. All the soccer clubs you know, like Barcelona, Madrid, Bayern, Juve, Milan, Chelsea, Manchester, Galatasaray, can be your greatest weapon in the quest for the championship in the top Futuball leagues. Futuball will give you futuristic features, such as: ⬢ Advanced tactical options to prove that you are a tactical mastermind ⬢ Collecting DNA to clone android versions of football all-stars like Messi, Ronaldo and Maradona. ⬢ Fighting your friends and other managers in a massive multiplayer PvP experience..."
     },
     {
         "title": "zapa games control",
         "store": "other",
         "url": "https://www.reddit.com/r/GameDeals/comments/1xn69t6/zapa_games_control_resonant_20_off_promo_standard/",
-        "image_url": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2019/08/control-cover-art-1.jpg?w=1200&h=628&fit=crop",
+        "image_url": "https://i.redd.it/rdv2ipp2vpo61.png",
         "description": "Hi r/GameDeals ! Today we are kicking off a 20% off promotion for CONTROL: Resonant and the Deluxe Edition ! The promo runs from today until November 10th (18:00 UTC), so you have a week to grab it at a discount. Note: Our storefront dynamically adapts to your local region. We are specifically highlighting our EU and UK pricing today as they offer the most competitive discounts for this specific title! Game EUR (Discount) GBP (Discount) DRM CONTROL: Resonant €39.91 (20% off) £33.55 (20% off) Steam CONTROL: Resonant - Deluxe Edition €46.56 (20% off) £40.24 (20% off) Steam I'll be hanging out in the thread as usual to answer any questions or help out with any regional store issues. Thanks for checking us out! submitted by /u/Various_Sea_1525 [link] [comments]",
         "id_in_db": "t3_1xn69t6",
         "subreddit": "GameDeals",
