@@ -1,5 +1,26 @@
 [
     {
+        "title": "Bread & Fred",
+        "id_in_db": "bread-and-fred@1795712603",
+        "store": "other",
+        "url": "https://itad.link/0196fd3b-a651-723a-bc51-dd083f5df149/",
+        "is_free": true,
+        "discount_text": "100% Off",
+        "steam_app_id": "1607680",
+        "description": "Bread & Fred is a challenging co-op platformer from Apogee where two players must cooperate to jump and climb to the top of a snowy mountain. Play as both Bread and Fred in their exasperating and sometimes maddening climb that requires precision with every jump. Each time you land you’ll be closer to the peak and one step closer to mastering the platforming, but your fall down the mountain will be even farther. Penguin Mechanics: - Swing to reach distant platforms! Bread and Fred are attached to each other. That means you don’t only fall together, but you can make good use of momentum to swing and propel each other beyond what any single penguin could have ever jumped. Make sure one of you anchors down to the ground or you’ll both fall! - Hold on to walls as long as you can! The penguins’ little hands aren't very good, but you can hang on a wall with your partner for a few seconds to swing them around and overcome the next obstacle. Be careful though. These penguins are chubby so you can’t hold on long. Act fast! - Single-player mode! Can’t find your penguin buddy? Strap your rope to Jeff (a rock!) and use it instead! The climb will all be up to you and your skill, but that also means you have no one to blame when you fall... Legends say that with these skills, a few penguin heroes have managed to reach the top. Will you be one of them? Each fall will hurt, but try to learn and laugh through it. Think carefully about each jump and master the penguin skills to reach the summit. For the craziest climbers, Bread & Fred includes a speedrun mode so you can compete and be crowned the best penguins on the planet. The mountain awaits you. Complete your mission. Cooperate with each other and you will be able to go far up the mountain. Just try not to fall (too much). Good luck!!",
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1607680/header.jpg?t=1773071421",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Casual",
+            "Indie"
+        ],
+        "is_multiplayer": true,
+        "is_online": true,
+        "is_dlc_or_addon": false,
+        "persian_summary": "Bread & Fred یک پلتفرمر چالش برانگیز co-op از Apogee است که در آن دو بازیکن باید برای پرش و صعود به بالای یک کوه برفی با یکدیگر همکاری کنند. هم نقش نان و هم فرد را در صعود خشمگین و گاه دیوانه کننده خود بازی کنید که در هر پرش به دقت نیاز دارد. هر بار که فرود می‌آیید به قله نزدیک‌تر می‌شوید و یک قدم به تسلط بر سکوی بازی نزدیک‌تر می‌شوید، اما سقوط شما از کوه حتی دورتر خواهد بود. مکانیک پنگوئن: - برای رسیدن به سکوهای دوردست تاب بخورید! نان و فرد به هم چسبیده اند. این بدان معناست که شما نه تنها با هم می‌افتید، بلکه می‌توانید از حرکت به خوبی استفاده کنید تا همدیگر را فراتر از چیزی که هر پنگوئنی می‌توانست بپرد، تاب دهید و حرکت دهید. مطمئن شوید که یکی از شما روی زمین لنگر می اندازد وگرنه هر دو سقوط خواهید کرد! - تا جایی که می توانید به دیوارها بچسبید! دست‌های کوچک پنگوئن‌ها خیلی خوب نیستند، اما می‌توانید با شریک زندگی‌تان چند ثانیه روی دیوار آویزان کنید تا آنها را بچرخانید و بر مانع بعدی غلبه کنید. هر چند مراقب باشید. این پنگوئن ها چاق هستند پس شما..."
+    },
+    {
         "title": "Contractor: The Clean Up Part II",
         "id_in_db": "contractor-the-clean-up-part-ii@1795002750",
         "store": "other",
@@ -18,25 +39,5 @@
         "is_online": false,
         "is_dlc_or_addon": false,
         "persian_summary": "تعمیرگاه خودرو به هم ریخته است: ابزارها با قطعات یدکی مخلوط شده اند، برخی از اقلام پوشیده از خاک هستند و اجزای خودرو در همه جا پراکنده شده اند. Auto Mechanic Tidy Up یک بازی در مورد تمیز کردن و مونتاژ ماشین است. شلوغی ها را پاک کنید، برای هر مورد مکانی پیدا کنید و به تدریج یک کارگاه نامرتب را به یک فضای کاری مرتب و منظم تبدیل کنید. مکانی برای هر ابزار ابزارها و قطعات یدکی را مرتب کنید، قفسه های مناسب را پیدا کنید و همه چیز را در جایی که به آن تعلق دارد قرار دهید. با هر انبوهی که پاک می کنید، کارگاه جادارتر و مرتب تر می شود. پاک کردن مواردی که می توان ذخیره کرد برخی از موارد باید ابتدا از خاک پاک شوند. هر چیزی که با روغن آغشته شده است باید به سطل زباله برود - دیگر در قفسه ها نیست. ساخت خودرو از 141 قطعه همانطور که تمیز می کنید، قطعات خودرو را در سراسر کارگاه پراکنده جستجو کنید. تمام 141 قطعه را پیدا کنید و آنها را در مکان های مناسب خود قرار دهید تا کل ماشین جمع شود. با آشفتگی شروع کنید - با یک کارگاه تمیز و یک ماشین کاملاً مونتاژ شده به پایان برسانید!"
-    },
-    {
-        "title": "Mark of the Deep",
-        "id_in_db": "mark-of-the-deep@1795108734",
-        "store": "other",
-        "url": "https://itad.link/019257f0-5106-72c5-99b2-ccc5e38235fc/",
-        "is_free": true,
-        "discount_text": "100% Off",
-        "steam_app_id": "1933370",
-        "description": "Mark of the Deep is an epic pirate adventure with a strong narrative and a thrilling mix of elements from acclaimed Metroidvania and Souls-Like games. Embark on this journey as the pirate Rookie, explore the mysteries of a cursed island and find your missing pirate crew! EMBARK ON THIS EPIC PIRATE ADVENTURE! A pirate ship wrecked on a mystic island, till then known only by myths n’ tales. Play as Marcus “Rookie” Ramsey and explore the eerie areas of this island surrounded by a mysterious curse in search of your missing crew: the Angry Mermaids! DEFEAT CURSED CREATURES TO SURVIVE! In this diversely hostile environment, you need to face a wide variety of dangers to find your lost crewmates, including abyssal monsters, undead creatures and menacing cultists. Fight against over 80 enemies and 16 bosses in challenging battles inspired by souls-like games! UNLEASH THE POWER OF YOUR MARKS! As a newfound Mark Keeper, Rookie can unlock new abilities that change how you fight enemies and explore the environments! Discover new skills, weapons and trinkets to upgrade your combat abilities and make your way through new areas of the island. GATHER YOUR CREWMATES! Meet a fully-voiced cast of pirates, abyssal creatures and many other characters trapped in the cursed island with you! Rescue old friends and make new allies as you unravel the mysteries of the native inhabitants of the island: the Old Folks. CHOOSE YOUR OWN PATH! The abyssal corruption affects everyone around you, including your cherished allies. You have the choice to help those in need by completing their quests and dealing with hard choices along the way. Discover multiple endings in your goal to escape the island! JOIN OUR CREW! From the developers of Dandy Ace and No Heroes Here, join the Mad Mimic Discord Server to meet the Mark of the Deep community and share your experience with the game!",
-        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1933370/d353e340086cd4d46263cfe02c25469b56c87862/header.jpg?t=1788364373",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Indie"
-        ],
-        "is_multiplayer": false,
-        "is_online": false,
-        "is_dlc_or_addon": false,
-        "persian_summary": "Mark of the Deep یک ماجراجویی حماسی دزدان دریایی با روایتی قوی و ترکیبی هیجان انگیز از عناصر بازی های تحسین شده Metroidvania و Souls-Like است. به عنوان دزد دریایی تازه کار وارد این سفر شوید، اسرار یک جزیره نفرین شده را کشف کنید و خدمه دزدان دریایی گمشده خود را پیدا کنید! وارد این ماجراجویی حماسی دزدان دریایی شوید! یک کشتی دزدان دریایی در یک جزیره عرفانی غرق شد، که تا آن زمان فقط با افسانه ها و افسانه ها شناخته شده بود. در نقش مارکوس «بازیکن» رمزی بازی کنید و مناطق ترسناک این جزیره را که توسط نفرینی مرموز احاطه شده است در جستجوی خدمه گمشده خود کاوش کنید: پری دریایی های خشمگین! برای زنده ماندن، موجودات نفرین شده را شکست دهید! در این محیط بسیار خصمانه، برای یافتن خدمه گمشده خود، از جمله هیولاهای عمیق، موجودات مرده و فرقه‌های تهدیدآمیز، باید با انواع مختلفی از خطرات روبرو شوید. با بیش از 80 دشمن و 16 رئیس در نبردهای چالش برانگیز الهام گرفته از بازی های روح مانند مبارزه کنید! قدرت علائم خود را آزاد کنید! به عنوان یک Mark Keeper، تازه کار می تواند توانایی های جدیدی را باز کند که نحوه مبارزه شما با دشمنان را تغییر می دهد و..."
     }
 ]
